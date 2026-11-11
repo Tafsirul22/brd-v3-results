@@ -1,0 +1,2110 @@
+[
+  {
+    "candidate_id": "BRD_CsSTE11_CAND013",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "1..210",
+      "nd90pr_genomic": "NW_006911895.1:614738..615002(+)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8855,
+      "sequence_selectivity": 0.955,
+      "heuristic_composite_prioritization_index": 0.9418
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 1,
+      "pareto_front_3d_all50": 1,
+      "independent_region_rank_v3": 1,
+      "pareto_front_3d_regions": 1,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Low_20of21_Near_Match_Signal",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsSTE11",
+        "region_id": "CsSTE11_REG01",
+        "observed_clean_region_rank": 1,
+        "bootstrap_mean_rank": 1.0,
+        "bootstrap_median_rank": 1.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 1.0,
+        "bootstrap_rank_ci95_high": 1.0,
+        "prob_top1_pct": 100.0,
+        "prob_top3_pct": 100.0,
+        "prob_top5_pct": 100.0
+      }
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "On Tier-1 3D Pareto frontier (non-dominated across biology, targetability, selectivity)",
+      "Selected representative for independent target region CsSTE11_REG01 (cluster of 8 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 3 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "GC content (58.57%) approaches design margin",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND014",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG03",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "1401..1610",
+      "nd90pr_genomic": "NW_006911895.1:616246..616455(+)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8859,
+      "sequence_selectivity": 0.94,
+      "heuristic_composite_prioritization_index": 0.9367
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 3,
+      "pareto_front_3d_all50": 1,
+      "independent_region_rank_v3": 2,
+      "pareto_front_3d_regions": 1,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Low_20of21_Near_Match_Signal",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsSTE11",
+        "region_id": "CsSTE11_REG03",
+        "observed_clean_region_rank": 2,
+        "bootstrap_mean_rank": 2.0,
+        "bootstrap_median_rank": 2.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 2.0,
+        "bootstrap_rank_ci95_high": 2.0,
+        "prob_top1_pct": 0.0,
+        "prob_top3_pct": 100.0,
+        "prob_top5_pct": 100.0
+      }
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "On Tier-1 3D Pareto frontier (non-dominated across biology, targetability, selectivity)",
+      "Selected representative for independent target region CsSTE11_REG03 (cluster of 1 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 4 unique 20/21-mer near-matches (Triticum aestivum (transcript), Zea mays (transcript))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND010",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG02",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "1101..1280",
+      "nd90pr_genomic": "NW_006911895.1:615946..616125(+)",
+      "length_nt": 180
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8913,
+      "sequence_selectivity": 0.79,
+      "heuristic_composite_prioritization_index": 0.8861
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 8,
+      "pareto_front_3d_all50": 1,
+      "independent_region_rank_v3": 3,
+      "pareto_front_3d_regions": 1,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsSTE11",
+        "region_id": "CsSTE11_REG02",
+        "observed_clean_region_rank": 3,
+        "bootstrap_mean_rank": 3.0,
+        "bootstrap_median_rank": 3.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 3.0,
+        "bootstrap_rank_ci95_high": 3.0,
+        "prob_top1_pct": 0.0,
+        "prob_top3_pct": 100.0,
+        "prob_top5_pct": 100.0
+      }
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "On Tier-1 3D Pareto frontier (non-dominated across biology, targetability, selectivity)",
+      "Selected representative for independent target region CsSTE11_REG02 (cluster of 2 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 14 unique 20/21-mer near-matches (Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND012",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG02",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "4526..4735",
+      "nd90pr_genomic": "NW_006911896.1:2266046..2266255(+)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8879,
+      "sequence_selectivity": 0.895,
+      "heuristic_composite_prioritization_index": 0.7979
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 10,
+      "pareto_front_3d_all50": 1,
+      "independent_region_rank_v3": 4,
+      "pareto_front_3d_regions": 1,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsPKS1",
+        "region_id": "CsPKS1_REG02",
+        "observed_clean_region_rank": 4,
+        "bootstrap_mean_rank": 4.0,
+        "bootstrap_median_rank": 4.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 4.0,
+        "bootstrap_rank_ci95_high": 4.0,
+        "prob_top1_pct": 0.0,
+        "prob_top3_pct": 0.0,
+        "prob_top5_pct": 100.0
+      }
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "On Tier-1 3D Pareto frontier (non-dominated across biology, targetability, selectivity)",
+      "Selected representative for independent target region CsPKS1_REG02 (cluster of 1 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 7 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome), Metarhizium anisopliae (transcript), Metarhizium robertsii (genome))",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND010",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG04",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "6001..6180",
+      "nd90pr_genomic": "NW_006911896.1:2267521..2267700(+)",
+      "length_nt": 180
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.9009,
+      "sequence_selectivity": 0.82,
+      "heuristic_composite_prioritization_index": 0.7762
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 15,
+      "pareto_front_3d_all50": 1,
+      "independent_region_rank_v3": 5,
+      "pareto_front_3d_regions": 1,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsPKS1",
+        "region_id": "CsPKS1_REG04",
+        "observed_clean_region_rank": 5,
+        "bootstrap_mean_rank": 7.0,
+        "bootstrap_median_rank": 7.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 7.0,
+        "bootstrap_rank_ci95_high": 7.0,
+        "prob_top1_pct": 0.0,
+        "prob_top3_pct": 0.0,
+        "prob_top5_pct": 0.0
+      }
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "On Tier-1 3D Pareto frontier (non-dominated across biology, targetability, selectivity)",
+      "Selected representative for independent target region CsPKS1_REG04 (cluster of 6 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 12 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Trichoderma atroviride IMI 206040 (genome))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND012",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..180",
+      "nd90pr_genomic": "NW_006911895.1:614738..614917(+)",
+      "length_nt": 180
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8835,
+      "sequence_selectivity": 0.955,
+      "heuristic_composite_prioritization_index": 0.9411
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 2,
+      "pareto_front_3d_all50": 2,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Low_20of21_Near_Match_Signal",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 3 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "GC content (58.89%) approaches design margin",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND011",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG02",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1076..1285",
+      "nd90pr_genomic": "NW_006911895.1:615921..616130(+)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8906,
+      "sequence_selectivity": 0.775,
+      "heuristic_composite_prioritization_index": 0.8806
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 9,
+      "pareto_front_3d_all50": 2,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 15 unique 20/21-mer near-matches (Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND001",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG04",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "6001..6200",
+      "nd90pr_genomic": "NW_006911896.1:2267521..2267720(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.9003,
+      "sequence_selectivity": 0.82,
+      "heuristic_composite_prioritization_index": 0.776
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 16,
+      "pareto_front_3d_all50": 2,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 12 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Trichoderma atroviride IMI 206040 (genome))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND005",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..250",
+      "nd90pr_genomic": "NW_006911895.1:614738..615042(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.863,
+      "sequence_selectivity": 0.91,
+      "heuristic_composite_prioritization_index": 0.9182
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 4,
+      "pareto_front_3d_all50": 3,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.6%, min 21-mer = 96.52%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 6 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND006",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG01",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "5..254",
+      "nd90pr_genomic": "NW_006911896.1:2261478..2261727(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8772,
+      "sequence_selectivity": 0.865,
+      "heuristic_composite_prioritization_index": 0.7836
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 12,
+      "pareto_front_3d_all50": 3,
+      "independent_region_rank_v3": 7,
+      "pareto_front_3d_regions": 2,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsPKS1",
+        "region_id": "CsPKS1_REG01",
+        "observed_clean_region_rank": 7,
+        "bootstrap_mean_rank": 6.0,
+        "bootstrap_median_rank": 6.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 6.0,
+        "bootstrap_rank_ci95_high": 6.0,
+        "prob_top1_pct": 0.0,
+        "prob_top3_pct": 0.0,
+        "prob_top5_pct": 0.0
+      }
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "Selected representative for independent target region CsPKS1_REG01 (cluster of 5 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 9 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND011",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG04",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "6001..6210",
+      "nd90pr_genomic": "NW_006911896.1:2267521..2267730(+)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8961,
+      "sequence_selectivity": 0.82,
+      "heuristic_composite_prioritization_index": 0.7745
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 17,
+      "pareto_front_3d_all50": 3,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 12 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Trichoderma atroviride IMI 206040 (genome))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "GC content (58.1%) approaches design margin",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND004",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG04",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "5951..6200",
+      "nd90pr_genomic": "NW_006911896.1:2267471..2267720(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8997,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.7705
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 19,
+      "pareto_front_3d_all50": 3,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND006",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "5..254",
+      "nd90pr_genomic": "NW_006911895.1:614742..615046(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8563,
+      "sequence_selectivity": 0.91,
+      "heuristic_composite_prioritization_index": 0.9158
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 5,
+      "pareto_front_3d_all50": 4,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.6%, min 21-mer = 94.78%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 6 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND007",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "9..258",
+      "nd90pr_genomic": "NW_006911896.1:2261482..2261731(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8768,
+      "sequence_selectivity": 0.865,
+      "heuristic_composite_prioritization_index": 0.7835
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 13,
+      "pareto_front_3d_all50": 4,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 9 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND002",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG04",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "5976..6175",
+      "nd90pr_genomic": "NW_006911896.1:2267496..2267695(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8996,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.7705
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 19,
+      "pareto_front_3d_all50": 4,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND007",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "9..258",
+      "nd90pr_genomic": "NW_006911895.1:614746..615050(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8516,
+      "sequence_selectivity": 0.91,
+      "heuristic_composite_prioritization_index": 0.9142
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 6,
+      "pareto_front_3d_all50": 5,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.6%, min 21-mer = 93.04%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 6 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND008",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "13..262",
+      "nd90pr_genomic": "NW_006911896.1:2261486..2261735(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8766,
+      "sequence_selectivity": 0.865,
+      "heuristic_composite_prioritization_index": 0.7834
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 14,
+      "pareto_front_3d_all50": 5,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 9 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND003",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG04",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "5951..6150",
+      "nd90pr_genomic": "NW_006911896.1:2267471..2267670(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8976,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.7698
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 22,
+      "pareto_front_3d_all50": 5,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND008",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "13..262",
+      "nd90pr_genomic": "NW_006911895.1:614750..615054(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8409,
+      "sequence_selectivity": 0.91,
+      "heuristic_composite_prioritization_index": 0.9104
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 7,
+      "pareto_front_3d_all50": 6,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.6%, min 21-mer = 91.3%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 6 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND009",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..300",
+      "nd90pr_genomic": "NW_006911896.1:2261474..2261820(+)",
+      "length_nt": 300
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8726,
+      "sequence_selectivity": 0.835,
+      "heuristic_composite_prioritization_index": 0.7715
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 18,
+      "pareto_front_3d_all50": 6,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.67%, min 21-mer = 98.57%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 11 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND013",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG03",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "5651..5830",
+      "nd90pr_genomic": "NW_006911896.1:2267171..2267350(+)",
+      "length_nt": 180
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.8335,
+      "sequence_selectivity": 0.91,
+      "heuristic_composite_prioritization_index": 0.7841
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 11,
+      "pareto_front_3d_all50": 7,
+      "independent_region_rank_v3": 6,
+      "pareto_front_3d_regions": 2,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsPKS1",
+        "region_id": "CsPKS1_REG03",
+        "observed_clean_region_rank": 6,
+        "bootstrap_mean_rank": 5.0,
+        "bootstrap_median_rank": 5.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 5.0,
+        "bootstrap_rank_ci95_high": 5.0,
+        "prob_top1_pct": 0.0,
+        "prob_top3_pct": 0.0,
+        "prob_top5_pct": 100.0
+      }
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.44%, min 21-mer = 86.88%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "Selected representative for independent target region CsPKS1_REG03 (cluster of 1 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 6 unique 20/21-mer near-matches (Bacillus subtilis subsp. subtilis str. 168 (genome), Bacillus subtilis subsp. subtilis str. 168 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsPKS1_CAND005",
+    "target": "CsPKS1",
+    "region_id": "CsPKS1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..250",
+      "nd90pr_genomic": "NW_006911896.1:2261474..2261723(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.5796,
+      "dsrna_targetability": 0.868,
+      "sequence_selectivity": 0.835,
+      "heuristic_composite_prioritization_index": 0.7699
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 21,
+      "pareto_front_3d_all50": 7,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.6%, min 21-mer = 98.26%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 11 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "Target biology caveat: direct B. sorokiniana PHI:2260 Pks1 perturbation showed UNAFFECTED pathogenicity",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND008",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "1..180",
+      "nd90pr_genomic": "NW_006911909.1:250789..250968(+)",
+      "length_nt": 180
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7524,
+      "sequence_selectivity": 0.88,
+      "heuristic_composite_prioritization_index": 0.7363
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 25,
+      "pareto_front_3d_all50": 8,
+      "independent_region_rank_v3": 8,
+      "pareto_front_3d_regions": 3,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {
+        "target": "CsSp1",
+        "region_id": "CsSp1_REG01",
+        "observed_clean_region_rank": 8,
+        "bootstrap_mean_rank": 8.0,
+        "bootstrap_median_rank": 8.0,
+        "bootstrap_rank_sd": 0.0,
+        "bootstrap_rank_ci95_low": 8.0,
+        "bootstrap_rank_ci95_high": 8.0,
+        "prob_top1_pct": 0.0,
+        "prob_top3_pct": 0.0,
+        "prob_top5_pct": 0.0
+      }
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 98.89%, min 21-mer = 79.38%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries",
+      "Selected representative for independent target region CsSp1_REG01 (cluster of 10 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 8 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Triticum aestivum (transcript), Zea mays (transcript))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND010",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "76..255",
+      "nd90pr_genomic": "NW_006911909.1:250864..251096(+)",
+      "length_nt": 180
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7731,
+      "sequence_selectivity": 0.82,
+      "heuristic_composite_prioritization_index": 0.7226
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 26,
+      "pareto_front_3d_all50": 8,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.44%, min 21-mer = 86.88%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 12 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND004",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "51..250",
+      "nd90pr_genomic": "NW_006911909.1:250839..251091(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7803,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.7199
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 27,
+      "pareto_front_3d_all50": 8,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.5%, min 21-mer = 88.33%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND001",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..200",
+      "nd90pr_genomic": "NW_006911909.1:250789..250988(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7421,
+      "sequence_selectivity": 0.82,
+      "heuristic_composite_prioritization_index": 0.7117
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 28,
+      "pareto_front_3d_all50": 9,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.0%, min 21-mer = 76.67%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 12 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND002",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..250",
+      "nd90pr_genomic": "NW_006911909.1:250789..251091(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.754,
+      "sequence_selectivity": 0.79,
+      "heuristic_composite_prioritization_index": 0.7054
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 29,
+      "pareto_front_3d_all50": 9,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.2%, min 21-mer = 81.74%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 14 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND006",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "9..208",
+      "nd90pr_genomic": "NW_006911909.1:250797..250996(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7379,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.705
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 30,
+      "pareto_front_3d_all50": 10,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.0%, min 21-mer = 76.67%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND009",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..210",
+      "nd90pr_genomic": "NW_006911909.1:250789..250998(+)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7477,
+      "sequence_selectivity": 0.79,
+      "heuristic_composite_prioritization_index": 0.7032
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 34,
+      "pareto_front_3d_all50": 10,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.05%, min 21-mer = 77.89%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 14 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND007",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "13..212",
+      "nd90pr_genomic": "NW_006911909.1:250801..251000(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7372,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.7048
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 31,
+      "pareto_front_3d_all50": 11,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.0%, min 21-mer = 76.67%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND003",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "26..225",
+      "nd90pr_genomic": "NW_006911909.1:250814..251066(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7359,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.7043
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 32,
+      "pareto_front_3d_all50": 12,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.0%, min 21-mer = 77.78%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSp1_CAND005",
+    "target": "CsSp1",
+    "region_id": "CsSp1_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "5..204",
+      "nd90pr_genomic": "NW_006911909.1:250793..250992(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.55,
+      "dsrna_targetability": 0.7351,
+      "sequence_selectivity": 0.805,
+      "heuristic_composite_prioritization_index": 0.704
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 33,
+      "pareto_front_3d_all50": 13,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": true,
+      "selectivity_classification_v3": "Elevated_20of21_Near_Match_Burden",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.0%, min 21-mer = 76.67%)",
+      "Zero exact 21-mer matches detected across all 18 covered non-target/self reference entries"
+    ],
+    "weaknesses_and_uncertainties": [
+      "Carries 13 unique 20/21-mer near-matches (Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome))",
+      "Target traceability caveat: lacks independent GenBank nuccore/PHI-base accession; very short 270-nt CDS",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND001",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG02",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "426..625",
+      "nd90pr_genomic": "NW_006911898.1:1190056..1190255(-)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8958,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6462
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 35,
+      "pareto_front_3d_all50": 1,
+      "independent_region_rank_v3": 9,
+      "pareto_front_3d_regions": 1,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "On Tier-1 3D Pareto frontier (non-dominated across biology, targetability, selectivity)",
+      "Selected representative for independent target region CsFUS3_REG02 (cluster of 7 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Rhizophagus clarus (genome), Rhizophagus clarus (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome), Rhizophagus irregularis DAOM 181602=DAOM 197198 (transcript), Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript)",
+      "Carries 35 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 14 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (167nt, 85.03%), Beauveria bassiana ARSEF 2860 (192nt, 83.33%), Beauveria bassiana ARSEF 2860 (50nt, 90.0%))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND010",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG02",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "426..635",
+      "nd90pr_genomic": "NW_006911898.1:1190046..1190255(-)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8938,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6455
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 36,
+      "pareto_front_3d_all50": 2,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Rhizophagus clarus (genome), Rhizophagus clarus (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome), Rhizophagus irregularis DAOM 181602=DAOM 197198 (transcript), Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript)",
+      "Carries 38 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 14 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (167nt, 85.03%), Beauveria bassiana ARSEF 2860 (206nt, 82.52%), Beauveria bassiana ARSEF 2860 (50nt, 90.0%))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND011",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG02",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "426..605",
+      "nd90pr_genomic": "NW_006911898.1:1190076..1190255(-)",
+      "length_nt": 180
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.893,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6452
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 37,
+      "pareto_front_3d_all50": 3,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Rhizophagus clarus (genome), Rhizophagus clarus (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome), Rhizophagus irregularis DAOM 181602=DAOM 197198 (transcript), Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript)",
+      "Carries 32 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 14 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (167nt, 85.03%), Beauveria bassiana ARSEF 2860 (176nt, 84.09%), Beauveria bassiana ARSEF 2860 (50nt, 90.0%))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND013",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG02",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "501..710",
+      "nd90pr_genomic": "NW_006911898.1:1189918..1190180(-)",
+      "length_nt": 210
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8855,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6426
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 38,
+      "pareto_front_3d_all50": 4,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 51 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript))",
+      "Carries 18 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (180nt, 80.56%), Beauveria bassiana ARSEF 2860 (210nt, 80.95%), Beauveria bassiana ARSEF 2860 (50nt, 90.0%))",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND002",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG02",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "401..600",
+      "nd90pr_genomic": "NW_006911898.1:1190081..1190280(-)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8815,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6412
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 39,
+      "pareto_front_3d_all50": 5,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.5%, min 21-mer = 98.89%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Rhizophagus clarus (genome), Rhizophagus clarus (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome), Rhizophagus irregularis DAOM 181602=DAOM 197198 (transcript), Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript)",
+      "Carries 48 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript))",
+      "Carries 16 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (194nt, 84.02%), Beauveria bassiana ARSEF 2860 (197nt, 83.76%), Beauveria bassiana ARSEF 2860 (50nt, 90.0%))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND003",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG03",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "676..875",
+      "nd90pr_genomic": "NW_006911898.1:1189753..1190005(-)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8836,
+      "sequence_selectivity": 0.09,
+      "heuristic_composite_prioritization_index": 0.6384
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 40,
+      "pareto_front_3d_all50": 5,
+      "independent_region_rank_v3": 10,
+      "pareto_front_3d_regions": 2,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Selected representative for independent target region CsFUS3_REG03 (cluster of 1 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Zea mays (transcript)",
+      "Carries 14 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Oryza sativa Japonica Group (genome))",
+      "Carries 4 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (126nt, 84.92%), Trichoderma atroviride IMI 206040 (120nt, 85.0%), Trichoderma reesei QM6a (126nt, 84.13%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND009",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..300",
+      "nd90pr_genomic": "NW_006911895.1:-1..-1(+)",
+      "length_nt": 300
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8424,
+      "sequence_selectivity": 0.465,
+      "heuristic_composite_prioritization_index": 0.7552
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 24,
+      "pareto_front_3d_all50": 6,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.67%, min 21-mer = 92.5%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript)",
+      "Carries 9 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript))",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND009",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG01",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "1..300",
+      "nd90pr_genomic": "NW_006911898.1:1190433..1190784(-)",
+      "length_nt": 300
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.858,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6329
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 41,
+      "pareto_front_3d_all50": 6,
+      "independent_region_rank_v3": 11,
+      "pareto_front_3d_regions": 2,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)",
+      "Selected representative for independent target region CsFUS3_REG01 (cluster of 5 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 66 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 11 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (207nt, 80.68%), Metarhizium anisopliae (197nt, 80.2%), Rhizophagus irregularis DAOM 181602=DAOM 197198 (50nt, 88.0%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND012",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG02",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "326..625",
+      "nd90pr_genomic": "NW_006911898.1:1190056..1190355(-)",
+      "length_nt": 300
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8631,
+      "sequence_selectivity": 0.0,
+      "heuristic_composite_prioritization_index": 0.5997
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 48,
+      "pareto_front_3d_all50": 6,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.67%, min 21-mer = 92.5%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Rhizophagus clarus (genome), Rhizophagus clarus (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome), Rhizophagus irregularis DAOM 181602=DAOM 197198 (transcript), Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript), Zea mays (transcript)",
+      "Carries 75 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript))",
+      "Carries 18 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (248nt, 85.48%), Beauveria bassiana ARSEF 2860 (296nt, 83.45%), Beauveria bassiana ARSEF 2860 (50nt, 90.0%))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND001",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "101..300",
+      "nd90pr_genomic": "NW_006911895.1:614838..615145(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8366,
+      "sequence_selectivity": 0.48,
+      "heuristic_composite_prioritization_index": 0.7584
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 23,
+      "pareto_front_3d_all50": 7,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.5%, min 21-mer = 88.33%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript)",
+      "Carries 8 unique 20/21-mer near-matches (Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript))",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND004",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG02",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "376..625",
+      "nd90pr_genomic": "NW_006911898.1:1190056..1190305(-)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8553,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.632
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 42,
+      "pareto_front_3d_all50": 7,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.6%, min 21-mer = 90.87%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Rhizophagus clarus (genome), Rhizophagus clarus (transcript), Rhizophagus irregularis DAOM 181602=DAOM 197198 (genome), Rhizophagus irregularis DAOM 181602=DAOM 197198 (transcript), Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 54 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript))",
+      "Carries 17 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (221nt, 84.61%), Beauveria bassiana ARSEF 2860 (246nt, 83.33%), Beauveria bassiana ARSEF 2860 (50nt, 90.0%))",
+      "1 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND006",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "5..254",
+      "nd90pr_genomic": "NW_006911898.1:1190479..1190780(-)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.855,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6319
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 43,
+      "pareto_front_3d_all50": 8,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 63 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 12 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (151nt, 81.46%), Beauveria bassiana ARSEF 2860 (197nt, 80.71%), Metarhizium anisopliae (151nt, 80.13%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND005",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "1..250",
+      "nd90pr_genomic": "NW_006911898.1:1190483..1190784(-)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8549,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6318
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 44,
+      "pareto_front_3d_all50": 9,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 60 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 12 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (147nt, 81.63%), Beauveria bassiana ARSEF 2860 (188nt, 80.85%), Metarhizium anisopliae (145nt, 80.0%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND007",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "9..258",
+      "nd90pr_genomic": "NW_006911898.1:1190475..1190776(-)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8532,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6312
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 45,
+      "pareto_front_3d_all50": 10,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 62 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 12 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (155nt, 81.29%), Beauveria bassiana ARSEF 2860 (197nt, 80.71%), Metarhizium anisopliae (155nt, 80.0%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsFUS3_CAND008",
+    "target": "CsFUS3",
+    "region_id": "CsFUS3_REG01",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "13..262",
+      "nd90pr_genomic": "NW_006911898.1:1190471..1190772(-)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8519,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6308
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 46,
+      "pareto_front_3d_all50": 11,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 100.0%, min 21-mer = 100.0%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Trichoderma atroviride IMI 206040 (genome), Trichoderma atroviride IMI 206040 (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma reesei QM6a (genome), Trichoderma reesei QM6a (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 63 unique 20/21-mer near-matches (Beauveria bassiana ARSEF 2860 (genome), Beauveria bassiana ARSEF 2860 (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 12 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (158nt, 81.65%), Beauveria bassiana ARSEF 2860 (207nt, 80.68%), Metarhizium anisopliae (159nt, 80.5%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND004",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG04",
+    "is_independent_region_representative": true,
+    "coordinates": {
+      "cds_1based": "2226..2425",
+      "nd90pr_genomic": "NW_006911895.1:617071..617270(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.7789,
+      "sequence_selectivity": 0.1,
+      "heuristic_composite_prioritization_index": 0.6052
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 47,
+      "pareto_front_3d_all50": 12,
+      "independent_region_rank_v3": 12,
+      "pareto_front_3d_regions": 3,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.0%, min 21-mer = 78.89%)",
+      "Selected representative for independent target region CsSTE11_REG04 (cluster of 3 window(s))"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Metarhizium anisopliae (genome), Metarhizium anisopliae (transcript), Metarhizium robertsii (genome), Metarhizium robertsii (transcript)",
+      "Carries 24 unique 20/21-mer near-matches (Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 7 >=30 nt (>=80% id) alignment(s) (Metarhizium anisopliae (81nt, 81.48%), Metarhizium robertsii (81nt, 81.48%), Trichoderma atroviride IMI 206040 (35nt, 97.14%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND003",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG04",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "2276..2525",
+      "nd90pr_genomic": "NW_006911895.1:617121..617370(+)",
+      "length_nt": 250
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.8172,
+      "sequence_selectivity": 0.0,
+      "heuristic_composite_prioritization_index": 0.5837
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 49,
+      "pareto_front_3d_all50": 12,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.2%, min 21-mer = 86.09%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Bipolaris sorokiniana ND90Pr (transcript), Bsor_ND90Pr:NW_006911897.1:2036525 (genome), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 40 unique 20/21-mer near-matches (Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 6 >=30 nt (>=80% id) alignment(s) (Beauveria bassiana ARSEF 2860 (78nt, 83.33%), Hordeum vulgare subsp. vulgare (42nt, 90.48%), Oryza sativa Japonica Group (47nt, 85.11%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  },
+  {
+    "candidate_id": "BRD_CsSTE11_CAND002",
+    "target": "CsSTE11",
+    "region_id": "CsSTE11_REG04",
+    "is_independent_region_representative": false,
+    "coordinates": {
+      "cds_1based": "2276..2475",
+      "nd90pr_genomic": "NW_006911895.1:617121..617320(+)",
+      "length_nt": 200
+    },
+    "dimensions": {
+      "biological_target_relevance": 0.9921,
+      "dsrna_targetability": 0.7966,
+      "sequence_selectivity": 0.0,
+      "heuristic_composite_prioritization_index": 0.5764
+    },
+    "ranking": {
+      "overall_heuristic_rank_all50": 50,
+      "pareto_front_3d_all50": 13,
+      "independent_region_rank_v3": 0,
+      "pareto_front_3d_regions": 0,
+      "passes_zero_exact_21mer_filter": false,
+      "selectivity_classification_v3": "Exact_21mer_NonTarget_Or_Paralog_Match",
+      "bootstrap_stability_if_clean_rep": {}
+    },
+    "strengths": [
+      "Strong target biology relevance (0.9921) backed by direct B. sorokiniana knockout loss-of-pathogenicity evidence",
+      "High cross-isolate uniformity (HQ-17 min nt identity = 99.0%, min 21-mer = 82.22%)"
+    ],
+    "weaknesses_and_uncertainties": [
+      "EXCLUDED BY ZERO-21MER FILTER: Exact 21-mer matches detected in Bipolaris sorokiniana ND90Pr (transcript), Bsor_ND90Pr:NW_006911897.1:2036525 (genome), Oryza sativa Japonica Group (genome), Oryza sativa Japonica Group (transcript), Trichoderma harzianum CBS 226.95 (genome), Trichoderma harzianum CBS 226.95 (transcript), Trichoderma virens Gv29-8 (genome), Trichoderma virens Gv29-8 (transcript)",
+      "Carries 35 unique 20/21-mer near-matches (Bipolaris sorokiniana ND90Pr (genome), Bipolaris sorokiniana ND90Pr (transcript), Hordeum vulgare subsp. vulgare (transcript), Metarhizium anisopliae (genome))",
+      "Carries 3 >=30 nt (>=80% id) alignment(s) (Oryza sativa Japonica Group (47nt, 85.11%), Trichoderma atroviride IMI 206040 (35nt, 97.14%), Trichoderma atroviride IMI 206040 (45nt, 88.89%))",
+      "2 isolate(s) have incomplete/artifactual assemblies (WAI2406/WAI2411)",
+      "Panel coverage caveat: 18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ],
+    "missing_data_caveats": [
+      "Barley root RNA-seq (GSE130517 samples 3B/4B/5B) excluded from composite score; excludes 1-read 3A_I/2B_III artifacts; barley-root expression may differ from wheat foliar infection.",
+      "18/18 planned reference entries covered (15/18 with both transcriptome+genome; wheat/barley/maize screened via complete RefSeq transcriptomes only due to multi-GB whole-genome size; unsequenced soil/phyllosphere taxa remain uncovered)"
+    ]
+  }
+]

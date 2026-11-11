@@ -1,0 +1,9 @@
+candidate_id	target	region_id	observed_clean_region_rank	bootstrap_mean_rank	bootstrap_median_rank	bootstrap_rank_sd	bootstrap_rank_ci95_low	bootstrap_rank_ci95_high	prob_top1_pct	prob_top3_pct	prob_top5_pct
+BRD_CsSTE11_CAND013	CsSTE11	CsSTE11_REG01	1	1.0	1.0	0.0	1.0	1.0	100.0	100.0	100.0
+BRD_CsSTE11_CAND014	CsSTE11	CsSTE11_REG03	2	2.0	2.0	0.0	2.0	2.0	0.0	100.0	100.0
+BRD_CsSTE11_CAND010	CsSTE11	CsSTE11_REG02	3	3.0	3.0	0.0	3.0	3.0	0.0	100.0	100.0
+BRD_CsPKS1_CAND012	CsPKS1	CsPKS1_REG02	4	4.0	4.0	0.0	4.0	4.0	0.0	0.0	100.0
+BRD_CsPKS1_CAND010	CsPKS1	CsPKS1_REG04	5	7.0	7.0	0.0	7.0	7.0	0.0	0.0	0.0
+BRD_CsPKS1_CAND013	CsPKS1	CsPKS1_REG03	6	5.0	5.0	0.0	5.0	5.0	0.0	0.0	100.0
+BRD_CsPKS1_CAND006	CsPKS1	CsPKS1_REG01	7	6.0	6.0	0.0	6.0	6.0	0.0	0.0	0.0
+BRD_CsSp1_CAND008	CsSp1	CsSp1_REG01	8	8.0	8.0	0.0	8.0	8.0	0.0	0.0	0.0
