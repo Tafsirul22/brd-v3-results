@@ -27,10 +27,11 @@ DIAMOND_COLS = [
 ]
 
 
-def build_diamond_db(diamond_bin: str, fasta_path: Path, db_prefix: Path, log_path: Optional[Path] = None) -> Path:
+def build_diamond_db(diamond_bin: str, fasta_path: Path, db_prefix: Path, log_path: Optional[Path] = None, force: bool = False) -> Path:
     db_prefix.parent.mkdir(parents=True, exist_ok=True)
     dmnd = Path(str(db_prefix) + ".dmnd")
-    if not dmnd.exists():
+    needs_build = force or (not dmnd.exists()) or (fasta_path.exists() and dmnd.stat().st_mtime < fasta_path.stat().st_mtime)
+    if needs_build:
         run_tool(
             "diamond",
             [diamond_bin, "makedb", "--in", str(fasta_path), "-d", str(db_prefix)],

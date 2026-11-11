@@ -1,0 +1,20 @@
+isolate_id	assembly_accession	assembly_quality_flag	markers_tested	markers_detected	markers_with_internal_stops	total_internal_stops_across_50_markers	markers_lt90_qcov	frame_integrity_interpretation
+ND90Pr	GCF_000338995.1	HIGH_GAP_N_PCT	50	50	26	53	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+LK93	GCA_024722535.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+ND93-1	GCA_033006315.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+WAI2406	GCA_008452705.1	LONG_READ_HOMOPOLYMER_INDEL_RISK	50	50	42	190	1	Systematic long-read homopolymer frameshift artifact across conserved core loci
+BRIP10943a	GCA_008452735.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+BRIP27492a	GCA_008452725.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+WAI2411	GCA_008452715.1	LONG_READ_HOMOPOLYMER_INDEL_RISK	50	50	45	235	1	Systematic long-read homopolymer frameshift artifact across conserved core loci
+Yt-6	GCA_037974985.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+BS112	GCA_004329375.1	STANDARD	50	50	27	53	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+MP_1261	GCA_055473645.1	STANDARD	50	50	27	53	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+SEED_28	GCA_055473875.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+Black	GCA_055473695.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+RAJ_3972	GCA_055473735.1	STANDARD	50	50	27	53	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+HD_3091	GCA_055473755.1	STANDARD	50	50	27	53	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+DDK_1025	GCA_055473625.1	STANDARD	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+HI_1538	GCA_055473675.1	STANDARD	50	50	27	53	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+RAJ_3705	GCA_055473715.1	STANDARD	50	50	27	53	0	Systematic long-read homopolymer frameshift artifact across conserved core loci
+KO_5803	GCA_055473775.1	STANDARD	50	50	27	54	1	Systematic long-read homopolymer frameshift artifact across conserved core loci
+Sacc._Shoemaker	GCA_013416765.1	HIGH_GAP_N_PCT	50	50	26	52	0	Systematic long-read homopolymer frameshift artifact across conserved core loci

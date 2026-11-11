@@ -286,20 +286,21 @@ def run_stage2(output_root: Path | None = None) -> Dict[str, Path]:
         for uid in nd90pr_only_uids:
             fh.write(f">{uid}\n{prot_seqs[uid]}\n")
     sacc_db = out / "intermediate" / "isolate_blast_dbs" / "GCA_013416765.1"
-    if not Path(str(sacc_db) + ".nsq").exists():
+    if not (Path(str(sacc_db) + ".nsq").exists() or Path(str(sacc_db) + ".nal").exists()):
         sacc_fna = out / str(iso_df.loc[iso_df["assembly_accession"] == "GCA_013416765.1", "relative_genome_path"].iloc[0])
         sacc_db = orth_dir / "GCA_013416765_nucl"
-        subprocess.run([makeblastdb_bin, "-in", str(sacc_fna), "-dbtype", "nucl", "-out", str(sacc_db)], check=True, capture_output=True)
+        subprocess.run([makeblastdb_bin, "-in", str(sacc_fna), "-dbtype", "nucl", "-out", sacc_db.name], check=True, capture_output=True, cwd=str(sacc_db.parent))
 
     sacc_tb_out = orth_dir / "nd90pr_only_vs_sacc_genome_tblastn.tsv"
     tb_cols = ["qseqid", "sseqid", "pident", "length", "mismatch", "gapopen", "qstart", "qend", "sstart", "send", "evalue", "bitscore", "qcovhsp", "qlen"]
     subprocess.run(
         [
-            tblastn_bin, "-query", str(nd_only_fa), "-db", str(sacc_db), "-out", str(sacc_tb_out),
+            tblastn_bin, "-query", str(nd_only_fa), "-db", sacc_db.name, "-out", str(sacc_tb_out),
             "-evalue", "1e-10", "-max_target_seqs", "3", "-num_threads", "4", "-outfmt", f"6 {' '.join(tb_cols)}",
         ],
         check=True,
         capture_output=True,
+        cwd=str(sacc_db.parent),
     )
     stb_df = pd.read_csv(sacc_tb_out, sep="\t", names=tb_cols)
     best_sacc_genome = set(stb_df[stb_df["pident"] >= 70.0]["qseqid"].unique())
@@ -350,17 +351,18 @@ def run_stage2(output_root: Path | None = None) -> Dict[str, Path]:
         iso_id = str(ir["isolate_id"])
         acc = str(ir["assembly_accession"])
         dbp = db_dir / acc
-        if not Path(str(dbp) + ".nsq").exists():
+        if not (Path(str(dbp) + ".nsq").exists() or Path(str(dbp) + ".nal").exists()):
             dbp = core_dir / f"{acc}_db"
-            subprocess.run([makeblastdb_bin, "-in", str(out / str(ir["relative_genome_path"])), "-dbtype", "nucl", "-out", str(dbp)], check=True, capture_output=True)
+            subprocess.run([makeblastdb_bin, "-in", str(out / str(ir["relative_genome_path"])), "-dbtype", "nucl", "-out", dbp.name], check=True, capture_output=True, cwd=str(dbp.parent))
         out_tsv = core_dir / f"{acc}_markers50_tblastn.tsv"
         subprocess.run(
             [
-                tblastn_bin, "-query", str(markers_fa), "-db", str(dbp), "-out", str(out_tsv),
+                tblastn_bin, "-query", str(markers_fa), "-db", dbp.name, "-out", str(out_tsv),
                 "-evalue", "1e-10", "-max_target_seqs", "2", "-num_threads", "4", "-outfmt", f"6 {' '.join(m_cols)}",
             ],
             check=True,
             capture_output=True,
+            cwd=str(dbp.parent),
         )
         mdf = pd.read_csv(out_tsv, sep="\t", names=m_cols) if out_tsv.stat().st_size > 0 else pd.DataFrame(columns=m_cols)
         n_detected = n_with_stops = n_low_cov = total_stops = 0

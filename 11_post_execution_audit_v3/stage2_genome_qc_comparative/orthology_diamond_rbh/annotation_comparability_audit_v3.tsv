@@ -1,0 +1,6 @@
+metric	count	interpretation
+ND90Pr total annotated proteins	12210	NCBI RefSeq GCF_000338995.1 (JGI Cocsa1 model)
+Sacc._Shoemaker total annotated proteins	10755	NCBI GenBank GCA_013416765.1 (1,455 fewer protein models than ND90Pr)
+v1/v2 stale-cache core orthogroups (ND90Pr + Sacc.)	0	BUG: old all_proteomes_db.dmnd omitted Sacc._Shoemaker subjects
+v3 repaired Core orthogroups (ND90Pr & Sacc._Shoemaker present)	7245	Genuine conserved core proteome shared across both annotated B. sorokiniana genomes
+Orthogroups annotated only in ND90Pr (Sacc._Shoemaker proteome = 0)	2162	Of 2385 such ND90Pr proteins, 2263 (94.9%) match Sacc._Shoemaker raw genome (>=70% aa tblastn) -> primarily unannotated gene models/gaps, not genuine gene loss!
