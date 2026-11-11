@@ -1,0 +1,19 @@
+ref_id	group	organism	accession	transcript_screened	transcript_count	genome_screened	genome_scaffold_count	screening_scope_note
+Triticum_aestivum_IWGSC_v2_1	crop_wheat	Triticum aestivum	GCF_018294505.1	True	221398	False	0	Complete RefSeq Transcriptome screened (multi-GB whole genome excluded from local storage; intergenic/intronic unscreened)
+Hordeum_vulgare_MorexV3	crop_barley	Hordeum vulgare subsp. vulgare	GCF_904849725.1	True	63294	False	0	Complete RefSeq Transcriptome screened (multi-GB whole genome excluded from local storage; intergenic/intronic unscreened)
+Oryza_sativa_AGIS1	crop_rice	Oryza sativa Japonica Group	GCF_034140825.1	True	55675	True	15	Transcriptome + Whole Genome screened
+Zea_mays_B73_NAM5	crop_maize	Zea mays	GCF_902167145.1	True	76549	False	0	Complete RefSeq Transcriptome screened (multi-GB whole genome excluded from local storage; intergenic/intronic unscreened)
+Trichoderma_atroviride_IMI206040	beneficial_fungi	Trichoderma atroviride IMI 206040	GCF_000171015.1	True	11807	True	29	Transcriptome + Whole Genome screened
+Trichoderma_virens_Gv29_8	beneficial_fungi	Trichoderma virens Gv29-8	GCF_000170995.1	True	12383	True	93	Transcriptome + Whole Genome screened
+Trichoderma_reesei_QM6a	beneficial_fungi	Trichoderma reesei QM6a	GCF_000167675.1	True	9111	True	77	Transcriptome + Whole Genome screened
+Trichoderma_harzianum_CBS226_95	beneficial_fungi	Trichoderma harzianum CBS 226.95	GCF_003025095.1	True	14065	True	532	Transcriptome + Whole Genome screened
+Beauveria_bassiana_ARSEF2860	beneficial_fungi	Beauveria bassiana ARSEF 2860	GCF_000280675.1	True	10364	True	237	Transcriptome + Whole Genome screened
+Metarhizium_anisopliae_RefSeq	beneficial_fungi	Metarhizium anisopliae	GCF_039654215.1	True	12746	True	28	Transcriptome + Whole Genome screened
+Metarhizium_robertsii_ARSEF2575	beneficial_fungi	Metarhizium robertsii	GCA_000591435.1	True	12384	True	367	Transcriptome + Whole Genome screened
+Rhizophagus_irregularis_A1	beneficial_fungi	Rhizophagus irregularis DAOM 181602=DAOM 197198	GCA_002897155.2	True	50073	True	210	Transcriptome + Whole Genome screened
+Rhizophagus_clarus_HR1	beneficial_fungi	Rhizophagus clarus	GCA_003203555.1	True	27761	True	4424	Transcriptome + Whole Genome screened
+Bacillus_subtilis_168	bacteria	Bacillus subtilis subsp. subtilis str. 168	GCF_000009045.1	True	4237	True	1	Transcriptome + Whole Genome screened
+Bacillus_velezensis_FZB42_grp	bacteria	Bacillus velezensis	GCF_000508125.2	True	3732	True	1	Transcriptome + Whole Genome screened
+Pseudomonas_fluorescens_ATCC13525	bacteria	Pseudomonas fluorescens	GCF_900215245.1	True	5916	True	1	Transcriptome + Whole Genome screened
+Pseudomonas_putida_RefSeq	bacteria	Pseudomonas putida NBRC 14164	GCF_000412675.1	True	5471	True	1	Transcriptome + Whole Genome screened
+Bipolaris_sorokiniana_ND90Pr_self	self_fungal_paralog_and_genome	Bipolaris sorokiniana ND90Pr	GCF_000338995.1	True	12210	True	154	Transcriptome + Whole Genome screened

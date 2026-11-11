@@ -1,0 +1,1135 @@
+candidate_id	target	screen_scope	database_group	ref_id	organism	subject_accession	sstart	send	alignment_length_nt	mismatches	pident	query_cov_pct	evalue	sstrand	is_high_homology_ge30_80pct
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575004.1	949	978	30	2	93.33	15.0	0.005	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044519646.1	723	773	51	8	84.31	26.0	0.28	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587848.1	1149	1178	30	3	90.0	15.0	1.1	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587847.1	1282	1311	30	3	90.0	15.0	1.1	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044568169.1	893	922	30	3	90.0	15.0	1.1	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575006.1	759	799	41	6	85.37	21.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044519646.1	703	773	71	11	84.51	36.0	4.71e-06	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044507190.1	673	743	71	12	83.1	36.0	0.001	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575004.1	949	978	30	2	93.33	15.0	0.005	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044594913.1	1301	1326	26	2	92.31	13.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587848.1	1149	1178	30	3	90.0	15.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587847.1	1282	1311	30	3	90.0	15.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044568169.1	893	922	30	3	90.0	15.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556597.1	1353	1378	26	2	92.31	13.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044546242.1	670	695	26	2	92.31	13.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044529920.1	701	726	26	2	92.31	13.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044482682.1	1313	1338	26	2	92.31	13.0	1.1	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006469746.1	645	669	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006469745.1	645	669	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006429926.1	516	540	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006429923.1	516	540	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044595257.1	656	680	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044594841.1	730	754	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044593679.1	660	732	73	14	80.82	37.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044588957.1	675	699	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044585152.1	594	622	29	3	89.66	15.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044579791.1	671	695	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044577886.1	683	711	29	3	89.66	15.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575006.1	759	799	41	6	85.37	21.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044570443.1	662	690	29	3	89.66	15.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044559748.1	644	668	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044555970.1	738	762	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044543923.1	663	735	73	14	80.82	37.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044516626.1	641	665	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044502266.1	817	841	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044494622.1	694	718	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044494621.1	698	722	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044486553.1	516	540	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044486542.1	516	540	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044485820.1	851	875	25	2	92.0	13.0	4.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044519646.1	685	773	89	15	83.15	36.0	3.83e-07	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044507190.1	655	743	89	16	82.02	36.0	9.33e-05	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575004.1	949	978	30	2	93.33	12.0	0.006	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044594913.1	1301	1326	26	2	92.31	10.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587848.1	1149	1178	30	3	90.0	12.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587847.1	1282	1311	30	3	90.0	12.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044568169.1	893	922	30	3	90.0	12.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556597.1	1353	1378	26	2	92.31	10.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044546242.1	670	695	26	2	92.31	10.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044529920.1	701	726	26	2	92.31	10.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044482682.1	1313	1338	26	2	92.31	10.0	1.4	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006469746.1	645	669	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006469745.1	645	669	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006429926.1	516	540	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006429923.1	516	540	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044595257.1	656	680	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044594841.1	730	754	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044593679.1	660	732	73	14	80.82	29.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044588957.1	675	699	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044585152.1	594	622	29	3	89.66	12.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044579791.1	671	695	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044577886.1	683	711	29	3	89.66	12.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575006.1	759	799	41	6	85.37	16.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044570443.1	662	690	29	3	89.66	12.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044559748.1	644	668	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044555970.1	738	762	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044543923.1	663	735	73	14	80.82	29.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044516626.1	641	665	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044514295.1	659	747	89	18	79.78	36.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044502266.1	817	841	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044494622.1	694	718	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044494621.1	698	722	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044486553.1	516	540	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044486542.1	516	540	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044485820.1	851	875	25	2	92.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044548475.1	1404	1380	25	2	92.0	10.0	5.5	minus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044548475.1	1404	1380	25	2	92.0	10.0	5.5	minus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044548475.1	1404	1380	25	2	92.0	10.0	5.5	minus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044548475.1	1404	1380	25	2	92.0	10.0	5.5	minus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044548475.1	1404	1380	25	2	92.0	8.0	6.7	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575004.1	949	978	30	2	93.33	14.0	0.005	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044519646.1	723	773	51	8	84.31	24.0	0.29	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587848.1	1149	1178	30	3	90.0	14.0	1.2	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587847.1	1282	1311	30	3	90.0	14.0	1.2	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044568169.1	893	922	30	3	90.0	14.0	1.2	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575006.1	759	799	41	6	85.37	20.0	4.6	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575004.1	949	978	30	2	93.33	17.0	0.004	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044519646.1	723	773	51	8	84.31	28.0	0.25	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587848.1	1149	1178	30	3	90.0	17.0	0.98	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587847.1	1282	1311	30	3	90.0	17.0	0.98	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044568169.1	893	922	30	3	90.0	17.0	0.98	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575006.1	759	799	41	6	85.37	23.0	3.9	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044519646.1	655	773	119	21	82.35	40.0	1.22e-10	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044507190.1	625	743	119	22	81.51	40.0	2.98e-08	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044514295.1	629	747	119	24	79.83	40.0	0.002	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575004.1	949	978	30	2	93.33	10.0	0.007	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044594913.1	1301	1326	26	2	92.31	9.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587848.1	1149	1178	30	3	90.0	10.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587847.1	1282	1311	30	3	90.0	10.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044568169.1	893	922	30	3	90.0	10.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556597.1	1353	1378	26	2	92.31	9.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044546242.1	670	695	26	2	92.31	9.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044529920.1	701	726	26	2	92.31	9.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044482682.1	1313	1338	26	2	92.31	9.0	1.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006469746.1	645	669	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006469745.1	645	669	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006429926.1	516	540	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006429923.1	516	540	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044595257.1	656	680	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044594841.1	730	754	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044593679.1	660	732	73	14	80.82	24.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044588957.1	675	699	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044585152.1	594	622	29	3	89.66	10.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044579791.1	671	695	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044577886.1	683	711	29	3	89.66	10.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575006.1	759	799	41	6	85.37	14.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044570443.1	662	690	29	3	89.66	10.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044559748.1	644	668	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044555970.1	738	762	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044543923.1	663	735	73	14	80.82	24.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044516626.1	641	665	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044502266.1	817	841	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044494622.1	694	718	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044494621.1	698	722	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044486553.1	516	540	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044486542.1	516	540	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044485820.1	851	875	25	2	92.0	8.0	6.7	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044575004.1	949	978	30	2	93.33	14.0	0.005	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587848.1	1149	1178	30	3	90.0	14.0	1.2	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044587847.1	1282	1311	30	3	90.0	14.0	1.2	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044568169.1	893	922	30	3	90.0	14.0	1.2	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044475320.1	1544	1568	25	1	96.0	13.0	0.018	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044475319.1	1545	1569	25	1	96.0	13.0	0.018	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044467065.1	1491	1515	25	1	96.0	13.0	0.018	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044467064.1	1493	1517	25	1	96.0	13.0	0.018	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467958.1	1090	1120	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467957.1	1275	1305	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467956.1	956	986	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467955.1	1030	1060	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437283.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437282.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437281.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437280.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437279.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437278.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586437.1	1092	1122	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586436.1	1109	1139	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586435.1	1277	1307	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586434.1	1196	1226	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586433.1	1213	1243	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586431.1	1277	1307	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586430.1	1277	1307	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586429.1	1277	1307	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586428.1	1277	1307	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586427.1	1277	1307	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044573733.1	551	581	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044572698.1	491	521	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556916.1	1022	1052	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556915.1	951	981	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556914.1	956	986	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556913.1	1022	1052	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556912.1	1022	1052	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556911.1	1022	1052	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556910.1	1126	1156	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556909.1	1017	1047	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556908.1	1207	1237	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556907.1	1022	1052	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044541402.1	800	830	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538161.1	1257	1287	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538160.1	1282	1312	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538159.1	1141	1171	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538158.1	1281	1311	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044532753.1	820	850	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044525306.1	773	803	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500690.1	1050	1080	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500689.1	1099	1129	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500687.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500686.1	1176	1206	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500685.1	1180	1210	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500684.1	1208	1238	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500683.1	1199	1229	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500682.1	1203	1233	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500681.1	1159	1189	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500680.1	1154	1184	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044479940.1	275	305	31	3	90.32	16.0	0.28	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044520048.1	1500	1529	30	3	90.0	15.0	1.1	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044516865.1	1460	1489	30	3	90.0	15.0	1.1	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044504316.1	1463	1492	30	3	90.0	15.0	1.1	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044601434.1	269	293	25	0	96.0	12.0	4.4	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044468364.1	225	249	25	0	96.0	12.0	4.4	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467958.1	1090	1131	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467957.1	1275	1316	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467956.1	956	997	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006467955.1	1030	1071	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437283.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437282.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437281.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437280.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437279.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XR_006437278.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586437.1	1092	1133	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586436.1	1109	1150	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586435.1	1277	1318	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586434.1	1196	1237	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586433.1	1213	1254	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586431.1	1277	1318	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586430.1	1277	1318	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586429.1	1277	1318	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586428.1	1277	1318	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044586427.1	1277	1318	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044573733.1	551	592	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556916.1	1022	1063	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556915.1	951	992	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556914.1	956	997	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556913.1	1022	1063	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556912.1	1022	1063	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556911.1	1022	1063	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556910.1	1126	1167	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556909.1	1017	1058	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556908.1	1207	1248	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044556907.1	1022	1063	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044541402.1	800	841	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044532753.1	820	861	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044525306.1	773	814	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500690.1	1050	1091	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500689.1	1099	1140	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500687.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500686.1	1176	1217	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500685.1	1180	1221	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500684.1	1208	1249	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500683.1	1199	1240	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500682.1	1203	1244	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500681.1	1159	1200	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044500680.1	1154	1195	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044479940.1	275	316	42	5	88.09	17.0	0.006	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044475320.1	1544	1568	25	1	96.0	10.0	0.023	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044475319.1	1545	1569	25	1	96.0	10.0	0.023	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044467065.1	1491	1515	25	1	96.0	10.0	0.023	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044467064.1	1493	1517	25	1	96.0	10.0	0.023	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044572698.1	491	526	36	4	88.89	14.0	0.09	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538161.1	1257	1287	31	3	90.32	12.0	0.36	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538160.1	1282	1312	31	3	90.32	12.0	0.36	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538159.1	1141	1171	31	3	90.32	12.0	0.36	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044538158.1	1281	1311	31	3	90.32	12.0	0.36	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044520048.1	1500	1529	30	3	90.0	12.0	1.4	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044516865.1	1460	1489	30	3	90.0	12.0	1.4	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044504316.1	1463	1492	30	3	90.0	12.0	1.4	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044601434.1	269	293	25	0	96.0	10.0	5.5	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044590592.1	517	541	25	2	92.0	10.0	5.5	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044590435.1	517	541	25	2	92.0	10.0	5.5	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044506025.1	1774	1798	25	2	92.0	10.0	5.5	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_wheat	Triticum_aestivum_IWGSC_v2_1	Triticum aestivum	XM_044468364.1	225	249	25	0	96.0	10.0	5.5	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045125998.1	800	832	33	4	87.88	17.0	0.89	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	816	840	25	2	92.0	23.0	0.89	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	814	838	25	2	92.0	23.0	0.89	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104531.1	1385	1417	33	4	87.88	17.0	0.89	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104530.1	1388	1420	33	4	87.88	17.0	0.89	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104529.1	1385	1417	33	4	87.88	17.0	0.89	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045124156.1	619	646	28	3	89.29	14.0	3.5	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045097847.1	1114	1157	44	6	86.36	22.0	0.014	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045125998.1	762	832	71	13	81.69	36.0	0.057	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121451.1	1310	1335	26	2	92.31	13.0	0.23	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045093944.1	605	630	26	2	92.31	13.0	0.23	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045091871.1	470	495	26	2	92.31	13.0	0.23	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045123308.1	656	684	29	3	89.66	15.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121974.1	705	729	25	2	92.0	13.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121444.1	902	926	25	2	92.0	13.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045120746.1	616	640	25	2	92.0	13.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	680	752	73	14	80.82	49.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	816	840	25	2	92.0	49.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	678	750	73	14	80.82	49.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	814	838	25	2	92.0	49.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104531.1	1385	1417	33	4	87.88	17.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104530.1	1388	1420	33	4	87.88	17.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104529.1	1385	1417	33	4	87.88	17.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104095.1	816	844	29	3	89.66	15.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045103594.1	1289	1325	37	5	86.49	19.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045094998.1	677	701	25	2	92.0	13.0	0.89	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045124156.1	619	646	28	3	89.29	14.0	3.5	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045100357.1	949	980	32	4	87.5	16.0	3.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045097847.1	1114	1157	44	6	86.36	18.0	0.018	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045125998.1	762	832	71	13	81.69	28.0	0.073	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121451.1	1310	1335	26	2	92.31	10.0	0.29	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045093944.1	605	630	26	2	92.31	10.0	0.29	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045091871.1	470	495	26	2	92.31	10.0	0.29	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045123308.1	656	684	29	3	89.66	12.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121974.1	705	729	25	2	92.0	10.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121444.1	902	926	25	2	92.0	10.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045120746.1	616	640	25	2	92.0	10.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	680	752	73	14	80.82	39.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	816	840	25	2	92.0	39.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	678	750	73	14	80.82	39.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	814	838	25	2	92.0	39.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104531.1	1385	1417	33	4	87.88	13.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104530.1	1388	1420	33	4	87.88	13.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104529.1	1385	1417	33	4	87.88	13.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104095.1	816	844	29	3	89.66	12.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045103594.1	1289	1325	37	5	86.49	15.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045094998.1	677	701	25	2	92.0	10.0	1.1	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045124156.1	619	646	28	3	89.29	11.0	4.5	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045100357.1	949	980	32	4	87.5	13.0	4.5	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045125998.1	800	832	33	4	87.88	16.0	0.94	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	816	840	25	2	92.0	21.0	0.94	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	814	838	25	2	92.0	21.0	0.94	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104531.1	1385	1417	33	4	87.88	16.0	0.94	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104530.1	1388	1420	33	4	87.88	16.0	0.94	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104529.1	1385	1417	33	4	87.88	16.0	0.94	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045124156.1	619	646	28	3	89.29	13.0	3.7	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045125998.1	800	832	33	4	87.88	18.0	0.8	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	816	840	25	2	92.0	25.0	0.8	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	814	838	25	2	92.0	25.0	0.8	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104531.1	1385	1417	33	4	87.88	18.0	0.8	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104530.1	1388	1420	33	4	87.88	18.0	0.8	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104529.1	1385	1417	33	4	87.88	18.0	0.8	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045124156.1	619	646	28	3	89.29	16.0	3.1	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045125998.1	714	832	119	24	79.83	40.0	0.000362	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045097847.1	1114	1157	44	6	86.36	15.0	0.022	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121451.1	1310	1335	26	2	92.31	9.0	0.35	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045093944.1	605	630	26	2	92.31	9.0	0.35	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045091871.1	470	495	26	2	92.31	9.0	0.35	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045123308.1	656	684	29	3	89.66	10.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121974.1	705	729	25	2	92.0	8.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045121444.1	902	926	25	2	92.0	8.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045120746.1	616	640	25	2	92.0	8.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	680	752	73	14	80.82	33.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	816	840	25	2	92.0	33.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	678	750	73	14	80.82	33.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	814	838	25	2	92.0	33.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104531.1	1385	1417	33	4	87.88	11.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104530.1	1388	1420	33	4	87.88	11.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104529.1	1385	1417	33	4	87.88	11.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104095.1	816	844	29	3	89.66	10.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045103594.1	1289	1325	37	5	86.49	12.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045094998.1	677	701	25	2	92.0	8.0	1.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045124156.1	619	646	28	3	89.29	9.0	5.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045100357.1	949	980	32	4	87.5	11.0	5.4	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115574.1	816	840	25	2	92.0	12.0	0.94	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045115573.1	814	838	25	2	92.0	12.0	0.94	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104531.1	1385	1417	33	4	87.88	16.0	0.94	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104530.1	1388	1420	33	4	87.88	16.0	0.94	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045104529.1	1385	1417	33	4	87.88	16.0	0.94	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045090847.1	689	723	35	3	91.43	18.0	0.000235	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045126367.1	1541	1569	29	3	89.66	15.0	0.89	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045110450.1	545	569	25	0	96.0	12.0	0.89	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045123399.1	505	536	32	4	87.5	16.0	3.5	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045090847.1	689	730	42	4	90.48	17.0	4.85e-06	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045126367.1	1541	1569	29	3	89.66	12.0	1.1	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045110450.1	545	569	25	0	96.0	10.0	1.1	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045123399.1	505	536	32	4	87.5	13.0	4.5	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	crop_barley	Hordeum_vulgare_MorexV3	Hordeum vulgare subsp. vulgare	XM_045103735.1	400	424	25	2	92.0	13.0	0.89	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001402743.1	735	799	65	14	78.46	33.0	3.91e-07	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001423090.1	743	903	173	40	69.94	87.0	4.17e-13	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001402743.1	702	799	98	23	76.53	49.0	1.46e-12	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305123.1	986	1064	80	18	75.0	40.0	5.8e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305122.1	1073	1151	80	18	75.0	40.0	5.8e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305121.1	1006	1084	80	18	75.0	40.0	5.8e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_026021711.2	1003	1081	80	18	75.0	40.0	5.8e-05	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001423090.1	743	903	173	40	69.94	69.0	5.37e-13	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001402743.1	702	799	98	23	76.53	39.0	1.88e-12	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305123.1	986	1064	80	18	75.0	32.0	7.47e-05	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305122.1	1073	1151	80	18	75.0	32.0	7.47e-05	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305121.1	1006	1084	80	18	75.0	32.0	7.47e-05	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_026021711.2	1003	1081	80	18	75.0	32.0	7.47e-05	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001402743.1	735	922	200	57	65.5	95.0	1.18e-07	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001402743.1	735	799	65	14	78.46	36.0	3.48e-07	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_015775009.3	498	767	282	67	71.99	94.0	1.04e-35	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001402137.1	671	940	282	67	71.99	94.0	1.04e-35	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001423090.1	691	903	225	55	70.22	75.0	4.730000000000001e-21	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001402743.1	627	799	173	44	72.83	57.0	5.77e-20	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305123.1	986	1064	80	18	75.0	26.0	9.15e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305122.1	1073	1151	80	18	75.0	26.0	9.15e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066305121.1	1006	1084	80	18	75.0	26.0	9.15e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_026021711.2	1003	1081	80	18	75.0	26.0	9.15e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_015788080.3	1127	1272	146	48	67.12	49.0	9.15e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_015788079.3	1220	1365	146	48	67.12	49.0	9.15e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001421833.1	806	951	146	48	67.12	49.0	9.15e-05	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_015781914.3	971	1114	146	34	71.92	67.0	5.37e-12	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001420890.1	857	1000	146	34	71.92	67.0	5.37e-12	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_066310292.1	543	687	147	35	71.43	68.0	7.97e-10	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_026025337.2	970	1114	147	35	71.43	68.0	7.97e-10	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001404795.1	1040	1184	147	35	71.43	68.0	7.97e-10	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_015769238.3	742	907	167	52	67.67	79.0	5.03e-06	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001409319.1	745	910	167	52	67.67	79.0	5.03e-06	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NR_186759.1	644	723	80	21	73.75	38.0	1.76e-05	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NM_001423187.1	724	803	80	21	73.75	38.0	1.76e-05	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_015784251.3	1820	1866	47	4	85.11	22.0	4.76e-06	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	XM_015784251.3	1820	1866	47	4	85.11	18.0	6.13e-06	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089040.1	2968816	2968752	65	14	78.46	33.0	1.41e-06	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089044.1	21450112	21450272	173	40	69.94	87.0	1.51e-12	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089040.1	2968849	2968752	98	23	76.53	49.0	5.25e-12	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089044.1	21450112	21450272	173	40	69.94	69.0	1.93e-12	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089040.1	2968849	2968752	98	23	76.53	39.0	6.75e-12	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089040.1	2968816	2968629	200	57	65.5	95.0	4.27e-07	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089040.1	2968816	2968752	65	14	78.46	36.0	1.25e-06	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089044.1	21450072	21450272	213	54	69.01	71.0	4.58e-15	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089040.1	2968888	2968752	137	37	72.99	46.0	5.58e-14	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089039.1	2530115	2530195	81	19	76.54	39.0	3.51e-08	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089039.1	28908547	28908617	71	15	78.87	39.0	3.51e-08	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089036.1	2651677	2651512	167	52	67.67	79.0	1.82e-05	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089045.1	9947434	9947513	80	21	73.75	38.0	6.34e-05	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089039.1	25732792	25732838	47	4	85.11	22.0	1.72e-05	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	crop_rice	Oryza_sativa_AGIS1	Oryza sativa Japonica Group	NC_089039.1	25732792	25732838	47	4	85.11	18.0	2.21e-05	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662039.2	812	995	197	44	70.56	98.0	1.22e-15	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662038.3	834	1017	197	44	70.56	98.0	1.22e-15	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662037.3	857	1040	197	44	70.56	98.0	1.22e-15	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001301617.1	633	816	197	44	70.56	98.0	1.22e-15	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111373.2	683	835	165	41	67.88	83.0	1.69e-07	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020539035.2	791	901	123	26	69.11	62.0	8.75e-05	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001323271.1	717	839	132	33	68.18	66.0	8.75e-05	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001174205.2	617	739	132	33	68.18	66.0	8.75e-05	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001159273.2	667	777	123	26	69.11	62.0	8.75e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662039.2	788	974	200	41	72.5	99.0	1.3e-21	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662038.3	810	996	200	41	72.5	99.0	1.3e-21	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662037.3	833	1019	200	41	72.5	99.0	1.3e-21	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001301617.1	609	795	200	41	72.5	99.0	1.3e-21	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020539035.2	737	901	177	44	68.36	89.0	1.14e-09	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001159273.2	613	777	177	44	68.36	89.0	1.14e-09	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111373.2	629	796	180	46	67.78	90.0	1.39e-08	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111769.2	727	887	173	43	68.21	87.0	1.69e-07	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001323271.1	693	839	156	42	67.31	78.0	7.18e-06	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001174205.2	593	739	156	42	67.31	78.0	7.18e-06	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662039.2	762	995	247	55	72.06	98.0	5.1199999999999995e-28	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662038.3	784	1017	247	55	72.06	98.0	5.1199999999999995e-28	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662037.3	807	1040	247	55	72.06	98.0	5.1199999999999995e-28	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001301617.1	583	816	247	55	72.06	98.0	5.1199999999999995e-28	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111373.2	629	835	219	60	67.12	88.0	1.2e-10	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020539035.2	737	901	177	44	68.36	71.0	1.47e-09	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001159273.2	613	777	177	44	68.36	71.0	1.47e-09	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111769.2	727	887	173	43	68.21	69.0	2.18e-07	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001323271.1	693	839	156	42	67.31	62.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001174205.2	593	739	156	42	67.31	62.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548594.2	345	447	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548593.3	450	552	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548594.2	345	447	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548593.3	450	552	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548594.2	345	447	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548593.3	450	552	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548594.2	345	447	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548593.3	450	552	103	28	71.84	41.0	9.26e-06	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548594.2	345	447	103	28	71.84	34.0	1.13e-05	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020548593.3	450	552	103	28	71.84	34.0	1.13e-05	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662039.2	812	1009	211	49	70.14	100.0	1.06e-16	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662038.3	834	1031	211	49	70.14	100.0	1.06e-16	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662037.3	857	1054	211	49	70.14	100.0	1.06e-16	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001301617.1	633	830	211	49	70.14	100.0	1.06e-16	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111373.2	683	849	179	46	67.6	85.0	5.12e-08	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020539035.2	791	957	179	48	66.48	85.0	2.65e-05	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001159273.2	667	833	179	48	66.48	85.0	2.65e-05	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001323271.1	717	839	132	33	68.18	63.0	9.26e-05	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001174205.2	617	739	132	33	68.18	63.0	9.26e-05	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662039.2	812	974	176	36	71.59	97.0	3.75e-15	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662038.3	834	996	176	36	71.59	97.0	3.75e-15	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662037.3	857	1019	176	36	71.59	97.0	3.75e-15	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001301617.1	633	795	176	36	71.59	97.0	3.75e-15	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111373.2	683	796	126	27	69.05	70.0	2.22e-05	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020539035.2	791	901	123	26	69.11	68.0	7.74e-05	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001323271.1	717	839	132	33	68.18	73.0	7.74e-05	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001174205.2	617	739	132	33	68.18	73.0	7.74e-05	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001159273.2	667	777	123	26	69.11	68.0	7.74e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662039.2	726	995	283	62	73.14	94.0	1.06e-37	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662038.3	748	1017	283	62	73.14	94.0	1.06e-37	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662037.3	771	1040	283	62	73.14	94.0	1.06e-37	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001301617.1	547	816	283	62	73.14	94.0	1.06e-37	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001146836.2	679	948	282	66	72.34	94.0	1.57e-35	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008664632.4	792	1044	265	68	69.81	88.0	2.65e-26	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111373.2	573	835	275	80	66.55	92.0	8.12e-14	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_020539035.2	681	901	233	64	67.38	78.0	9.9e-13	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001159273.2	557	777	233	64	67.38	78.0	9.9e-13	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111769.2	675	887	225	62	67.11	75.0	5.13e-10	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001323271.1	618	839	231	70	65.8	77.0	2.18e-08	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001174205.2	518	739	231	70	65.8	77.0	2.18e-08	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001156023.1	833	987	155	49	68.39	52.0	7.61e-08	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001136930.1	652	789	138	44	68.12	46.0	1.13e-05	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_035963214.1	664	807	146	36	70.55	67.0	5.12e-08	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_023301160.2	812	955	146	36	70.55	67.0	5.12e-08	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001111768.2	901	1044	146	36	70.55	67.0	5.12e-08	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662039.2	909	1067	159	51	67.92	76.0	1.79e-07	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662038.3	931	1089	159	51	67.92	76.0	1.79e-07	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008662037.3	954	1112	159	51	67.92	76.0	1.79e-07	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001301617.1	730	888	159	51	67.92	76.0	1.79e-07	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	XM_008648961.4	1580	1626	47	8	82.98	19.0	3.23e-05	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	crop_maize	Zea_mays_B73_NAM5	Zea mays	NM_001196256.2	1490	1536	47	8	82.98	19.0	3.23e-05	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	663	835	173	28	83.81	87.0	9.73e-28	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014082259.1	770	832	63	9	85.71	32.0	1.9e-07	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086118.1	961	1007	47	7	85.11	24.0	0.011	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	636	829	194	32	83.5	97.0	1.01e-30	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086118.1	961	1007	47	7	85.11	24.0	0.011	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014084190.1	434	467	34	4	88.23	17.0	0.045	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014093704.1	704	732	29	3	89.66	15.0	0.18	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014093224.1	692	726	35	5	85.71	18.0	2.7	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	915	1034	120	18	85.0	60.0	5.57e-20	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	609	835	227	39	82.82	91.0	1.33e-33	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014082259.1	770	832	63	9	85.71	25.0	2.41e-07	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086118.1	961	1007	47	7	85.11	19.0	0.014	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014084190.1	434	467	34	4	88.23	14.0	0.057	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014093704.1	704	732	29	3	89.66	12.0	0.22	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014093224.1	692	726	35	5	85.71	14.0	3.5	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	267	478	212	31	85.38	85.0	9.56e-44	plus	True
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092567.1	222	249	28	1	96.43	11.0	1.49e-05	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	267	487	221	33	85.07	88.0	2.42e-44	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092567.1	222	249	28	1	96.43	11.0	1.49e-05	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	267	487	221	33	85.07	88.0	2.42e-44	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092567.1	222	249	28	1	96.43	11.0	1.49e-05	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	267	493	227	34	85.02	91.0	1.55e-45	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092567.1	222	249	28	1	96.43	11.0	1.49e-05	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	267	533	267	42	84.27	89.0	3.16e-50	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092567.1	222	249	28	1	96.43	9.0	1.8e-05	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	663	835	173	28	83.81	82.0	1.0300000000000001e-27	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014082259.1	770	832	63	9	85.71	30.0	2e-07	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086118.1	961	1007	47	7	85.11	22.0	0.012	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	663	835	173	28	83.81	96.0	8.68e-28	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086118.1	961	1007	47	7	85.11	26.0	0.01	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014093224.1	701	726	26	3	88.46	14.0	9.7	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014084190.1	442	467	26	3	88.46	14.0	9.7	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	567	835	269	44	83.64	90.0	1.1999999999999999e-46	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014082259.1	770	832	63	9	85.71	21.0	2.93e-07	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086118.1	961	1007	47	7	85.11	16.0	0.017	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014084190.1	434	467	34	4	88.23	11.0	0.069	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014093704.1	704	732	29	3	89.66	10.0	0.27	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014093224.1	692	726	35	5	85.71	12.0	4.2	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014086506.1	750	928	179	32	82.12	85.0	9.52e-22	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014082259.1	770	856	87	14	83.91	41.0	8.2e-10	plus	True
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014090229.1	2077	2111	35	1	97.14	40.0	7.78e-10	plus	True
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014090229.1	2215	2259	45	5	88.89	40.0	2.96e-06	plus	True
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092813.1	2184	2217	34	4	88.23	17.0	0.045	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014082179.1	505	530	26	2	92.31	13.0	0.045	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014087987.1	1096	1127	32	4	87.5	16.0	0.69	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014090229.1	2215	2279	65	8	87.69	40.0	6.33e-11	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014090229.1	2077	2111	35	1	97.14	40.0	9.89e-10	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092813.1	2184	2217	34	4	88.23	14.0	0.057	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014082179.1	505	530	26	2	92.31	10.0	0.057	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014087987.1	1096	1127	32	4	87.5	13.0	0.88	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014090229.1	2077	2111	35	1	97.14	18.0	7.78e-10	plus	True
+BRD_CsSp1_CAND008	CsSp1	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092980.1	354	379	26	3	88.46	14.0	9.7	plus	False
+BRD_CsSp1_CAND010	CsSp1	transcript	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	XM_014092980.1	354	379	26	3	88.46	14.0	9.7	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108523	108328	196	34	82.65	98.0	1.43e-51	minus	True
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	710570	710425	146	34	74.66	72.0	1.86e-18	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013630.1	3481016	3480942	75	16	78.67	38.0	2.59e-10	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108546	108349	198	33	83.33	99.0	9.64e-54	minus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	710634	710439	196	51	72.45	97.0	2.95e-22	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013630.1	3481025	3480942	84	18	78.57	42.0	1.75e-12	minus	False
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108185	108010	176	37	78.98	88.0	2.2700000000000002e-36	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108573	108328	246	44	82.11	98.0	4.91e-65	minus	True
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	710660	710425	236	60	73.31	93.0	6.4e-32	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013630.1	3481025	3480942	84	18	78.57	34.0	2.23e-12	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108953	108809	145	18	87.59	93.0	1.71e-45	minus	True
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	109119	109031	89	19	77.53	93.0	2.72e-11	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013641.1	351204	351177	28	1	96.43	11.0	8.9e-05	minus	False
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108953	108803	151	19	87.42	95.0	4.0300000000000003e-47	minus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	109119	109031	89	19	77.53	95.0	2.72e-11	minus	False
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013641.1	351204	351177	28	1	96.43	11.0	8.9e-05	minus	False
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108953	108799	155	20	87.1	97.0	3.31e-48	minus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	109119	109031	89	19	77.53	97.0	2.72e-11	minus	False
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013641.1	351204	351177	28	1	96.43	11.0	8.9e-05	minus	False
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108953	108797	157	20	87.26	98.0	2.72e-49	minus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	109119	109031	89	19	77.53	98.0	2.72e-11	minus	False
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013641.1	351204	351177	28	1	96.43	11.0	8.9e-05	minus	False
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108953	108757	197	28	85.79	95.0	4.62e-60	minus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	109119	109031	89	19	77.53	95.0	3.33e-11	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108523	108328	196	34	82.65	93.0	1.51e-51	minus	True
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	710570	710425	146	34	74.66	68.0	1.97e-18	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013630.1	3481016	3480942	75	16	78.67	36.0	2.74e-10	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108523	108344	180	30	83.33	100.0	2.2899999999999998e-48	minus	True
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	710570	710428	143	34	74.13	78.0	7.02e-17	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013630.1	3481016	3480942	75	16	78.67	42.0	2.29e-10	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108623	108328	296	51	82.77	99.0	2.55e-82	minus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	710679	710425	255	65	73.33	84.0	4.3300000000000004e-35	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013630.1	3481025	3480942	84	18	78.57	28.0	2.73e-12	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	108448	108269	180	36	80.0	86.0	3.8e-40	minus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	710518	710425	94	20	78.72	45.0	3.56e-15	minus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013636.1	467948	467766	184	44	75.0	92.0	1.34e-26	minus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	496539	496464	76	20	73.68	38.0	1.99e-05	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013636.1	467948	467727	223	52	75.78	89.0	8.32e-37	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013643.1	214352	214284	69	14	79.71	28.0	1.16e-09	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013631.1	1137779	1137654	126	38	69.84	50.0	4.92e-08	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013627.1	496539	496464	76	20	73.68	30.0	2.55e-05	minus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	beneficial_fungi	Trichoderma_atroviride_IMI206040	Trichoderma atroviride IMI 206040	NW_014013636.1	467990	467820	173	44	72.25	86.0	9.66e-16	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	811	983	173	33	80.92	87.0	8.27e-16	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	620	670	51	6	88.23	26.0	1.87e-07	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014100063.1	601	650	50	7	86.0	25.0	0.00018	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014106173.1	615	641	27	3	88.89	14.0	2.7	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	782	977	196	35	82.14	98.0	9.26e-25	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	620	670	51	6	88.23	54.0	1.87e-07	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	498	553	56	10	82.14	54.0	0.69	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014100063.1	591	650	60	9	85.0	30.0	1.15e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014106173.1	606	641	36	4	88.89	18.0	0.003	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014099713.1	716	744	29	3	89.66	15.0	0.17	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	1057	1182	126	19	84.92	63.0	3.52e-21	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	757	983	227	40	82.38	91.0	3.21e-31	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	620	670	51	6	88.23	43.0	2.38e-07	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	498	553	56	10	82.14	43.0	0.87	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014100063.1	591	650	60	9	85.0	24.0	1.47e-05	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014106173.1	606	641	36	4	88.89	14.0	0.004	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014099713.1	716	744	29	3	89.66	12.0	0.22	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	412	626	215	25	88.37	86.0	7.29e-60	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	412	635	224	27	87.95	90.0	1.84e-60	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	412	635	224	27	87.95	90.0	1.84e-60	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	412	643	232	28	87.93	93.0	7.57e-63	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	412	681	270	35	87.04	90.0	9.9e-69	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	811	983	173	33	80.92	82.0	8.72e-16	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	620	670	51	6	88.23	24.0	1.97e-07	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014100063.1	601	650	50	7	86.0	24.0	0.00019	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014106173.1	615	641	27	3	88.89	13.0	2.9	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	811	983	173	33	80.92	96.0	7.37e-16	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	620	670	51	6	88.23	28.0	1.67e-07	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014100063.1	601	650	50	7	86.0	28.0	0.000161	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014106173.1	615	641	27	3	88.89	15.0	2.4	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	707	983	277	45	83.75	92.0	4.88e-49	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	620	670	51	6	88.23	55.0	2.89e-07	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	441	553	113	24	78.76	55.0	0.27	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014100063.1	591	650	60	9	85.0	20.0	1.78e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014106173.1	606	641	36	4	88.89	12.0	0.004	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014099713.1	716	744	29	3	89.66	10.0	0.27	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014102011.1	898	1076	179	25	86.03	85.0	1.84e-38	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014104377.1	620	670	51	6	88.23	24.0	1.97e-07	plus	True
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014095802.1	1957	1994	38	2	94.74	42.0	3.03e-09	plus	True
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014095802.1	2098	2142	45	4	91.11	42.0	1.2e-08	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014095802.1	2098	2181	84	12	85.71	49.0	1.01e-12	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014095802.1	1957	1994	38	2	94.74	49.0	3.86e-09	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014106142.1	499	543	45	7	84.44	18.0	0.22	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	XM_014095802.1	1957	1994	38	2	94.74	29.0	3.03e-09	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105445	105250	196	40	79.59	98.0	2.1500000000000002e-43	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013746.1	1854608	1854793	186	43	75.27	92.0	1.1900000000000001e-27	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013677.1	139189	139115	75	15	80.0	38.0	2.3e-11	minus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105470	105271	200	36	82.0	100.0	5.39e-51	minus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013746.1	1854585	1854779	195	43	76.41	96.0	1.55e-32	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013677.1	139210	139115	96	20	79.17	48.0	2.99e-16	minus	False
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105124	104956	169	37	78.11	85.0	1.55e-32	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105495	105250	246	46	81.3	98.0	2.75e-62	minus	True
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013746.1	1854558	1854793	236	55	75.42	93.0	2.1099999999999998e-38	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013677.1	139210	139115	96	20	79.17	38.0	3.82e-16	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105845	105701	145	15	89.66	87.0	2.93e-49	minus	True
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	106000	105927	74	11	85.14	87.0	3.82e-16	minus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105845	105695	151	16	89.4	90.0	1.98e-51	minus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	106000	105927	74	11	85.14	90.0	3.82e-16	minus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105845	105691	155	17	89.03	91.0	5.659999999999999e-52	minus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	106000	105927	74	11	85.14	91.0	3.82e-16	minus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105845	105687	159	17	89.31	93.0	3.82e-54	minus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	106000	105927	74	11	85.14	93.0	3.82e-16	minus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105845	105649	197	24	87.82	90.0	1.86e-65	minus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	106000	105927	74	11	85.14	90.0	4.68e-16	minus	True
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105445	105236	210	44	79.05	100.0	1.53e-45	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013746.1	1854608	1854793	186	43	75.27	87.0	1.2600000000000001e-27	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013677.1	139189	139115	75	15	80.0	36.0	2.43e-11	minus	True
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105445	105266	180	35	80.56	100.0	2.82e-41	minus	True
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013746.1	1854608	1854790	183	43	74.86	100.0	4.48e-26	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013677.1	139189	139115	75	15	80.0	42.0	2.03e-11	minus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105545	105250	296	51	82.77	99.0	2.75e-82	minus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013746.1	1854529	1854793	265	60	76.23	87.0	1.53e-47	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013677.1	139210	139115	96	20	79.17	32.0	4.68e-16	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	105370	105189	182	31	82.97	87.0	1.0300000000000001e-47	minus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013744.1	1550823	1550950	129	37	69.77	87.0	6.51e-06	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013746.1	1854700	1854793	94	18	80.85	45.0	7.43e-18	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013677.1	139023	138950	74	16	78.38	35.0	1.03e-09	minus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013660.1	573409	573594	187	45	74.87	93.0	1.4500000000000002e-26	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013660.1	573409	573633	226	53	75.66	90.0	8.98e-37	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013748.1	2155422	2155489	68	15	77.94	27.0	1.85e-07	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	beneficial_fungi	Trichoderma_virens_Gv29_8	Trichoderma virens Gv29-8	NW_014013660.1	573370	573461	93	15	81.72	46.0	2.99e-16	plus	True
+BRD_CsPKS1_CAND005	CsPKS1	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967598.1	1372	1396	25	2	92.0	10.0	0.17	plus	False
+BRD_CsPKS1_CAND006	CsPKS1	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967598.1	1372	1396	25	2	92.0	10.0	0.17	plus	False
+BRD_CsPKS1_CAND007	CsPKS1	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967598.1	1372	1396	25	2	92.0	10.0	0.17	plus	False
+BRD_CsPKS1_CAND008	CsPKS1	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967598.1	1372	1396	25	2	92.0	10.0	0.17	plus	False
+BRD_CsPKS1_CAND009	CsPKS1	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967598.1	1372	1396	25	2	92.0	8.0	0.2	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	442	614	173	30	82.66	87.0	4.3199999999999995e-23	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	552	602	51	6	88.23	26.0	1.42e-07	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006961979.1	642	692	51	7	86.28	26.0	3.45e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	413	608	196	32	83.67	98.0	4.84e-32	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006961979.1	633	692	60	8	86.67	30.0	3.58e-08	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	552	602	51	6	88.23	58.0	1.42e-07	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	421	485	65	12	81.54	58.0	0.13	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006961586.1	695	720	26	3	88.46	13.0	8.1	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	688	813	126	20	84.13	63.0	6.5e-19	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	388	614	227	36	84.14	91.0	6.88e-41	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006961979.1	633	692	60	8	86.67	24.0	4.56e-08	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	552	602	51	6	88.23	58.0	1.8e-07	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	391	485	95	19	80.0	58.0	0.011	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	46	262	217	28	87.1	87.0	5.1199999999999996e-54	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	46	266	221	28	87.33	88.0	2.1e-56	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	46	266	221	28	87.33	88.0	2.1e-56	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	46	274	229	29	87.34	92.0	8.620000000000001e-59	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	46	302	257	35	86.38	86.0	4.29e-61	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	442	614	173	30	82.66	82.0	4.5599999999999994e-23	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	552	602	51	6	88.23	24.0	1.49e-07	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006961979.1	642	692	51	7	86.28	24.0	3.64e-05	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	442	614	173	30	82.66	96.0	3.85e-23	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	552	602	51	6	88.23	28.0	1.26e-07	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006961979.1	642	692	51	7	86.28	28.0	3.08e-05	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	358	614	257	38	85.21	86.0	6.21e-54	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	367	485	119	22	81.51	57.0	8.97e-10	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	552	602	51	6	88.23	57.0	2.19e-07	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006961979.1	633	692	60	8	86.67	20.0	5.53e-08	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006965004.1	529	707	179	28	84.36	85.0	2.01e-31	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006969610.1	552	602	51	6	88.23	24.0	1.49e-07	plus	True
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967302.1	1876	1904	29	1	96.55	31.0	2.21e-06	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967302.1	2029	2061	33	4	87.88	31.0	0.13	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006968969.1	460	485	26	2	92.31	13.0	0.033	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967302.1	2029	2100	72	10	86.11	40.0	1.87e-10	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967302.1	1876	1904	29	1	96.55	40.0	2.81e-06	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006968969.1	460	485	26	2	92.31	10.0	0.042	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	XM_006967302.1	1876	1904	29	1	96.55	15.0	2.21e-06	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113649	113454	196	36	81.63	98.0	6.85e-49	minus	True
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711183.1	51902	51717	188	42	73.94	92.0	1.84e-24	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711149.1	1367792	1367717	76	15	80.26	38.0	5.63e-12	minus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113674	113475	200	33	83.5	100.0	7.31e-55	minus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711183.1	51926	51731	198	41	75.76	97.0	1.6100000000000002e-31	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711149.1	1367812	1367717	96	19	80.21	48.0	2.1e-17	minus	True
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113322	113147	176	36	79.55	88.0	4.93e-38	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113699	113454	246	41	83.33	98.0	7.22e-69	minus	True
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711183.1	51952	51717	238	51	75.63	93.0	1.49e-39	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711149.1	1367812	1367717	96	19	80.21	38.0	2.7e-17	minus	True
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114072	113926	147	16	89.12	88.0	2.52e-49	minus	True
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114236	114163	74	13	82.43	88.0	1.7e-13	minus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114072	113922	151	16	89.4	90.0	1.7e-51	minus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114236	114163	74	13	82.43	90.0	1.7e-13	minus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114072	113918	155	17	89.03	91.0	4.8699999999999994e-52	minus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114236	114163	74	13	82.43	91.0	1.7e-13	minus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114072	113914	159	17	89.31	93.0	3.28e-54	minus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114236	114163	74	13	82.43	93.0	1.7e-13	minus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114072	113876	197	26	86.8	90.0	8.23e-63	minus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	114236	114163	74	13	82.43	90.0	2.07e-13	minus	True
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113649	113440	210	41	80.48	100.0	2.07e-49	minus	True
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711183.1	51902	51717	188	42	73.94	87.0	1.94e-24	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711149.1	1367792	1367717	76	15	80.26	36.0	5.95e-12	minus	True
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113649	113470	180	32	82.22	100.0	1.1e-45	minus	True
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711183.1	51902	51720	185	42	73.51	100.0	6.929999999999999e-23	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711149.1	1367792	1367717	76	15	80.26	42.0	4.99e-12	minus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113749	113454	296	48	83.78	99.0	1.0700000000000001e-86	minus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711183.1	51976	51717	262	54	76.72	86.0	3.7399999999999996e-48	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711149.1	1367812	1367717	96	19	80.21	32.0	3.28e-17	minus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711155.1	113573	113395	179	32	82.12	85.0	4.5699999999999997e-45	minus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711183.1	51810	51717	94	19	79.79	45.0	2.7e-16	minus	False
+BRD_CsSTE11_CAND001	CsSTE11	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711164.1	293741	293857	120	30	70.0	59.0	1.51e-06	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711164.1	295799	295984	187	49	72.73	93.0	3.3200000000000002e-21	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711164.1	295799	296034	237	59	74.26	94.0	1.15e-34	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711175.1	125768	125835	68	15	77.94	27.0	1.59e-07	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711164.1	295760	295930	172	49	70.35	86.0	4.62e-13	plus	False
+BRD_CsSTE11_CAND009	CsSTE11	genome	beneficial_fungi	Trichoderma_reesei_QM6a	Trichoderma reesei QM6a	NW_006711164.1	293741	293857	120	30	70.0	39.0	2.37e-06	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	438	633	196	42	78.57	98.0	5.78e-41	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024921391.1	441	639	199	46	75.38	98.0	3.4200000000000002e-31	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024925159.1	417	492	76	17	77.63	38.0	1.77e-09	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	413	612	200	37	81.5	100.0	1.19e-49	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024921391.1	418	612	195	42	76.92	96.0	1.8899999999999998e-34	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024925159.1	397	492	96	22	77.08	48.0	8.05e-14	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024923559.1	559	588	30	2	93.33	15.0	3.9e-05	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	688	887	200	46	77.0	100.0	1.05e-37	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	388	633	246	48	80.49	98.0	7.429999999999999e-60	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024921391.1	391	639	249	59	75.1	98.0	2.5999999999999997e-40	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024925159.1	397	492	96	22	77.08	38.0	1.03e-13	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024923559.1	559	588	30	2	93.33	12.0	5.02e-05	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	43	260	218	29	86.7	87.0	3.6e-70	plus	True
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024920836.1	219	246	28	1	96.43	11.0	5.02e-05	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	43	266	224	30	86.61	90.0	2.43e-72	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024920836.1	219	246	28	1	96.43	11.0	5.02e-05	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	43	270	228	31	86.4	91.0	6.950000000000001e-73	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024920836.1	219	246	28	1	96.43	11.0	5.02e-05	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	43	272	230	31	86.52	92.0	5.71e-74	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024920836.1	219	246	28	1	96.43	11.0	5.02e-05	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	43	311	269	39	85.5	90.0	3.38e-84	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024920836.1	219	246	28	1	96.43	9.0	6.14e-05	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	438	647	210	46	78.09	100.0	4.12e-43	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024921391.1	441	653	213	50	75.12	100.0	2.44e-33	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024925159.1	417	492	76	17	77.63	36.0	1.87e-09	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	438	617	180	37	79.44	100.0	7.66e-39	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024921391.1	441	623	183	42	75.41	100.0	5.51e-28	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024925159.1	417	492	76	17	77.63	42.0	1.58e-09	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	338	633	296	54	81.76	99.0	9.07e-79	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024921391.1	362	639	278	65	75.54	92.0	7.97e-48	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024925159.1	354	492	139	36	74.1	46.0	5.74e-18	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024923559.1	559	588	30	2	93.33	10.0	6.14e-05	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024917919.1	513	722	210	39	81.43	100.0	2.43e-52	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024921391.1	533	663	131	28	78.63	62.0	1.18e-24	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024923228.1	631	677	47	8	82.98	22.0	3.39e-06	plus	True
+BRD_CsSTE11_CAND001	CsSTE11	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024916223.1	175	291	120	31	69.17	59.0	3.9e-05	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024916223.1	2140	2325	186	50	73.12	93.0	1.12e-24	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024916223.1	2140	2364	225	55	75.56	90.0	1.0999999999999999e-38	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024924174.1	499	566	68	14	79.41	27.0	2.28e-09	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024916223.1	2101	2192	92	19	79.35	46.0	1.89e-15	plus	False
+BRD_CsSTE11_CAND009	CsSTE11	transcript	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	XM_024916223.1	175	291	120	31	69.17	39.0	6.14e-05	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312226	312421	196	42	78.57	98.0	1.17e-40	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	672976	672791	186	42	75.81	92.0	2.93e-29	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209249.1	3323026	3322951	76	17	77.63	38.0	3.58e-09	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312201	312400	200	37	81.5	100.0	2.4100000000000002e-49	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	672999	672805	195	42	76.92	96.0	3.8199999999999997e-34	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	220567	220596	30	2	93.33	96.0	7.88e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209249.1	3323046	3322951	96	22	77.08	48.0	1.62e-13	minus	False
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312545	312737	193	46	76.17	97.0	1.33e-33	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312176	312421	246	48	80.49	98.0	1.4900000000000002e-59	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	673026	672791	236	55	75.42	93.0	2.22e-38	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209249.1	3323046	3322951	96	22	77.08	38.0	2.08e-13	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311828	311972	145	17	88.28	87.0	1.6e-46	plus	True
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311678	311751	74	12	83.78	87.0	4.89e-15	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311828	311978	151	18	88.08	90.0	1.08e-48	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311678	311751	74	12	83.78	90.0	4.89e-15	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311828	311982	155	19	87.74	91.0	3.08e-49	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311678	311751	74	12	83.78	91.0	4.89e-15	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311828	311984	157	19	87.9	92.0	2.53e-50	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311678	311751	74	12	83.78	92.0	4.89e-15	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311828	312023	196	27	86.22	90.0	1.4999999999999998e-60	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	311678	311751	74	12	83.78	90.0	5.98e-15	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312226	312435	210	46	78.09	100.0	8.320000000000001e-43	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	672976	672791	186	42	75.81	87.0	3.1e-29	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209249.1	3323026	3322951	76	17	77.63	36.0	3.78e-09	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312226	312405	180	37	79.44	100.0	1.53e-38	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	672976	672794	183	42	75.41	100.0	1.11e-27	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209249.1	3323026	3322951	76	17	77.63	42.0	3.17e-09	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312126	312421	296	54	81.76	99.0	1.82e-78	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	673055	672791	265	61	75.85	87.0	6.81e-46	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209249.1	3323046	3322951	96	22	77.08	32.0	2.54e-13	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209267.1	312301	312482	182	35	80.77	87.0	2.8999999999999996e-42	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209254.1	672884	672791	94	19	79.79	45.0	3.31e-16	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209253.1	1767034	1767080	47	8	82.98	22.0	6.84e-06	plus	True
+BRD_CsSTE11_CAND001	CsSTE11	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209259.1	550445	550561	120	31	69.17	59.0	7.88e-05	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209259.1	552486	552671	186	50	73.12	93.0	2.26e-24	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209259.1	552486	552710	225	55	75.56	90.0	2.22e-38	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209257.1	239901	239834	68	14	79.41	27.0	4.58e-09	minus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	beneficial_fungi	Trichoderma_harzianum_CBS226_95	Trichoderma harzianum CBS 226.95	NW_020209259.1	552447	552538	92	19	79.35	46.0	3.82e-15	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	442	608	167	25	85.03	84.0	2.1e-31	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598431.1	553	602	50	5	90.0	25.0	2.52e-09	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008600306.1	446	492	47	7	85.11	24.0	0.009	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008601469.1	705	738	34	4	88.23	17.0	0.036	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	561	587	27	3	88.89	14.0	2.3	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	415	608	194	31	84.02	97.0	3.4e-33	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598431.1	553	602	50	5	90.0	25.0	2.52e-09	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008601469.1	703	738	36	4	88.89	18.0	0.002	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008600306.1	446	492	47	7	85.11	24.0	0.009	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	429	453	25	2	92.0	26.0	0.14	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	561	587	27	3	88.89	26.0	2.3	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	688	813	126	19	84.92	63.0	2.92e-21	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	388	608	221	34	84.61	88.0	4.8299999999999993e-42	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598431.1	553	602	50	5	90.0	20.0	3.2e-09	plus	True
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008601469.1	703	738	36	4	88.89	14.0	0.003	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008600306.1	446	492	47	7	85.11	19.0	0.012	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	429	453	25	2	92.0	21.0	0.18	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	561	587	27	3	88.89	21.0	2.9	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	67	254	188	36	80.85	75.0	1.42e-17	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	67	263	197	38	80.71	79.0	3.58e-18	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	67	263	197	38	80.71	79.0	3.58e-18	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	67	273	207	40	80.68	83.0	2.29e-19	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	67	273	207	40	80.68	69.0	2.78e-19	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	442	608	167	25	85.03	80.0	2.21e-31	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598431.1	553	602	50	5	90.0	24.0	2.65e-09	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008600306.1	446	492	47	7	85.11	22.0	0.01	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008601469.1	705	738	34	4	88.23	16.0	0.038	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	561	587	27	3	88.89	13.0	2.4	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	442	608	167	25	85.03	93.0	1.87e-31	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598431.1	553	602	50	5	90.0	28.0	2.24e-09	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008600306.1	446	492	47	7	85.11	26.0	0.008	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008601469.1	705	738	34	4	88.23	19.0	0.033	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	561	587	27	3	88.89	15.0	2.0	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	361	608	248	36	85.48	83.0	2.69e-53	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598431.1	553	602	50	5	90.0	17.0	3.89e-09	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008601469.1	703	738	36	4	88.89	12.0	0.004	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008600306.1	446	492	47	7	85.11	16.0	0.014	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	429	453	25	2	92.0	17.0	0.22	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	561	587	27	3	88.89	17.0	3.5	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596341.1	513	722	210	40	80.95	100.0	3.08e-21	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598431.1	553	602	50	5	90.0	24.0	2.65e-09	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008604332.1	4750	4776	27	3	88.89	13.0	2.4	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597958.1	561	587	27	3	88.89	13.0	2.4	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597377.1	2146	2177	32	4	87.5	30.0	0.57	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597377.1	2290	2316	27	3	88.89	30.0	2.3	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597377.1	2290	2367	78	13	83.33	44.0	7.81e-07	plus	True
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597377.1	2146	2177	32	4	87.5	44.0	0.72	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008597377.1	2146	2177	32	4	87.5	16.0	0.57	plus	False
+BRD_CsSTE11_CAND010	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596692.1	220	244	25	2	92.0	16.0	0.13	plus	False
+BRD_CsSTE11_CAND010	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596692.1	226	251	26	3	88.46	16.0	7.9	plus	False
+BRD_CsSTE11_CAND011	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596692.1	220	244	25	2	92.0	14.0	0.15	plus	False
+BRD_CsSTE11_CAND011	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008596692.1	226	251	26	3	88.46	14.0	9.4	plus	False
+BRD_CsSTE11_CAND012	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598737.1	453	428	26	3	88.46	14.0	7.9	minus	False
+BRD_CsSTE11_CAND013	CsSTE11	transcript	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	XM_008598737.1	453	428	26	3	88.46	12.0	9.4	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12436	12245	192	32	83.33	96.0	3.82e-52	minus	True
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930842.1	361337	361504	168	40	74.41	83.0	2.75e-22	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930848.1	295496	295553	58	11	81.03	29.0	1.25e-07	plus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12463	12267	197	32	83.76	99.0	7.38e-55	minus	True
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930842.1	361295	361490	196	50	72.96	97.0	6.48e-24	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930848.1	295458	295553	96	24	75.0	48.0	6.92e-11	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930853.1	502044	502006	39	5	87.18	20.0	1.86e-05	minus	False
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12129	11957	175	33	78.86	87.0	3.14e-34	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12490	12245	246	41	83.33	98.0	7.28e-69	minus	True
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930842.1	361269	361504	236	62	72.46	93.0	3.1e-29	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930848.1	295440	295553	114	29	74.56	46.0	1.72e-13	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930853.1	502044	502006	39	5	87.18	16.0	2.39e-05	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12845	12699	147	27	81.63	59.0	4.04e-34	minus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12845	12695	151	28	81.46	60.0	3.3100000000000003e-35	minus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12845	12691	155	29	81.29	62.0	9.49e-36	minus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12845	12688	158	29	81.65	63.0	2.2300000000000002e-37	minus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12845	12649	197	43	78.17	66.0	1.83e-39	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12436	12231	206	36	82.52	98.0	2.72e-54	minus	True
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930842.1	361337	361504	168	40	74.41	79.0	2.91e-22	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930848.1	295496	295553	58	11	81.03	28.0	1.32e-07	plus	True
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12436	12261	176	28	84.09	98.0	6.12e-49	minus	True
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930842.1	361337	361501	165	40	73.94	90.0	1.04e-20	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930848.1	295496	295553	58	11	81.03	32.0	1.11e-07	plus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12540	12245	296	49	83.45	99.0	4.59e-85	minus	True
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930842.1	361240	361504	265	69	72.83	87.0	4.03e-35	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930848.1	295440	295553	114	29	74.56	38.0	2.09e-13	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930853.1	502044	502006	39	5	87.18	13.0	2.91e-05	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930838.1	12365	12186	180	35	80.56	86.0	2.91e-41	minus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930842.1	361431	361504	74	12	83.78	35.0	3.32e-15	plus	True
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930839.1	1561037	1560846	193	46	75.13	96.0	8.42e-29	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930839.1	1561037	1560796	243	57	75.72	97.0	1.2299999999999999e-40	minus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	beneficial_fungi	Beauveria_bassiana_ARSEF2860	Beauveria bassiana ARSEF 2860	NW_007930839.1	1561085	1560900	187	48	73.26	93.0	7.89e-23	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	439	630	192	45	76.56	96.0	1.49e-34	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960872.1	487	675	189	48	73.02	93.0	3.74e-23	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	412	608	197	46	76.65	99.0	3.5e-36	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960872.1	454	644	191	48	73.3	94.0	3.0699999999999998e-24	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	685	884	200	52	74.0	100.0	1.1400000000000001e-29	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	397	630	234	55	76.5	94.0	1.12e-43	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960872.1	427	675	249	66	72.29	98.0	3.4400000000000004e-31	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	32	257	226	48	78.76	90.0	4.18e-49	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	32	263	232	49	78.88	93.0	9.84e-51	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	32	267	236	50	78.81	94.0	8.08e-52	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	32	271	240	50	79.17	96.0	5.44e-54	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	32	309	278	58	79.14	93.0	1.13e-63	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	439	644	206	49	76.21	98.0	1.06e-36	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960872.1	487	675	189	48	73.02	89.0	3.9499999999999996e-23	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	439	614	176	41	76.7	98.0	2.3800000000000003e-31	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960872.1	487	644	158	38	74.05	86.0	5.99e-20	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	335	630	296	68	77.03	99.0	7.099999999999999e-60	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960872.1	401	675	275	74	72.0	91.0	2.3199999999999997e-34	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066956660.1	526	719	194	41	78.87	92.0	4.81e-41	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960872.1	563	711	149	39	72.48	70.0	4.51e-16	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960394.1	2091	2277	190	43	74.21	94.0	1.5900000000000002e-21	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960394.1	2091	2316	229	48	76.42	90.0	4.47e-36	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960926.1	412	509	98	28	71.43	39.0	9.23e-07	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	XM_066960394.1	2053	2132	81	13	81.48	40.0	7.72e-13	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228457	1228266	192	45	76.56	96.0	3.68e-34	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	416042	415885	158	38	74.05	78.0	1.67e-19	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228484	1228288	197	46	76.65	99.0	8.66e-36	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	416075	415885	191	48	73.3	94.0	7.599999999999999e-24	minus	False
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228006	1227816	191	50	73.82	96.0	4.2e-27	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228499	1228266	234	55	76.5	94.0	2.78e-43	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	416102	415885	218	56	72.94	86.0	1.5400000000000002e-27	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228872	1228728	145	29	80.0	90.0	2.9799999999999997e-30	minus	True
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1229042	1228961	82	19	76.83	90.0	1.27e-09	minus	False
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228872	1228722	151	30	80.13	93.0	2.0100000000000002e-32	minus	True
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1229042	1228961	82	19	76.83	93.0	1.27e-09	minus	False
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228872	1228718	155	31	80.0	94.0	5.75e-33	minus	True
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1229042	1228961	82	19	76.83	94.0	1.27e-09	minus	False
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228872	1228714	159	31	80.5	96.0	3.87e-35	minus	True
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1229042	1228961	82	19	76.83	96.0	1.27e-09	minus	False
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228872	1228676	197	39	80.2	93.0	8.01e-45	minus	True
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1229042	1228961	82	19	76.83	93.0	1.55e-09	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228457	1228252	206	49	76.21	98.0	2.62e-36	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	416042	415885	158	38	74.05	74.0	1.77e-19	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228457	1228282	176	41	76.7	98.0	5.9e-31	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	416042	415885	158	38	74.05	86.0	1.48e-19	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228561	1228266	296	68	77.03	99.0	1.7600000000000001e-59	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	416128	415885	244	64	72.54	80.0	1.04e-30	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118350.1	1228370	1228205	166	34	79.52	79.0	3.2000000000000003e-35	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	415966	415885	82	17	76.83	38.0	3.65e-09	minus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118355.1	291888	292074	190	43	74.21	94.0	3.94e-21	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118355.1	291888	292113	229	48	76.42	90.0	1.1100000000000001e-35	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118356.1	554254	554351	98	28	71.43	39.0	2.29e-06	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	beneficial_fungi	Metarhizium_anisopliae_RefSeq	Metarhizium anisopliae	NW_027118355.1	291850	291929	81	13	81.48	40.0	1.91e-12	plus	True
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	439	630	192	44	77.08	96.0	3.92e-36	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02459.1_4556	487	675	189	48	73.02	93.0	4.1899999999999995e-23	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	412	608	197	45	77.16	99.0	3.2200000000000003e-37	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02459.1_4556	454	644	191	48	73.3	94.0	3.44e-24	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	685	884	200	52	74.0	100.0	1.28e-29	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	397	630	234	54	76.92	94.0	2.96e-45	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02459.1_4556	427	675	249	66	72.29	98.0	3.85e-31	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	32	257	226	49	78.32	90.0	1.99e-47	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	32	263	232	50	78.45	93.0	1.34e-49	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	32	267	236	51	78.39	94.0	3.85e-50	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	32	271	240	51	78.75	96.0	2.5899999999999997e-52	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	32	309	278	60	78.42	93.0	6.53e-61	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	439	644	206	48	76.7	98.0	2.79e-38	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02459.1_4556	487	675	189	48	73.02	89.0	4.4299999999999994e-23	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	439	614	176	40	77.27	98.0	6.29e-33	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02459.1_4556	487	644	158	38	74.05	86.0	6.72e-20	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	335	630	296	67	77.36	99.0	6.53e-61	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02459.1_4556	401	675	275	74	72.0	91.0	2.6e-34	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000001.1_cds_EXV06248.1_959	526	719	194	41	78.87	92.0	5.39e-41	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02459.1_4556	563	711	149	39	72.48	70.0	5.05e-16	plus	False
+BRD_CsSTE11_CAND001	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	142	284	151	35	68.21	73.0	3.44e-05	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	2121	2307	190	44	73.68	94.0	2.17e-20	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	2121	2346	229	49	75.98	90.0	2.13e-34	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000005.1_cds_EXV02504.1_4601	508	605	98	28	71.43	39.0	1.03e-06	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000004.1_cds_EXV02552.1_3641	1124	1204	83	16	75.9	32.0	4.4e-05	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	2083	2162	81	13	81.48	40.0	8.65e-13	plus	True
+BRD_CsSTE11_CAND005	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	142	204	66	13	75.76	26.0	4.4e-05	plus	False
+BRD_CsSTE11_CAND006	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	142	204	66	13	75.76	26.0	4.4e-05	plus	False
+BRD_CsSTE11_CAND007	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	142	204	66	13	75.76	26.0	4.4e-05	plus	False
+BRD_CsSTE11_CAND008	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	142	204	66	13	75.76	26.0	4.4e-05	plus	False
+BRD_CsSTE11_CAND009	CsSTE11	transcript	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	lcl|JELW01000003.1_cds_EXV03467.1_3234	142	284	151	35	68.21	49.0	5.38e-05	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226141	3225950	192	44	77.08	96.0	8.83e-36	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	911236	911079	158	38	74.05	78.0	1.71e-19	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226168	3225972	197	45	77.16	99.0	7.25e-37	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	911269	911079	191	48	73.3	94.0	7.75e-24	minus	False
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3225703	3225513	191	50	73.82	96.0	4.28e-27	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226183	3225950	234	54	76.92	94.0	6.679999999999999e-45	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	911296	911079	218	56	72.94	86.0	1.57e-27	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226556	3226412	145	30	79.31	90.0	3.7000000000000003e-29	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226726	3226645	82	19	76.83	90.0	1.29e-09	minus	False
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226556	3226406	151	31	79.47	93.0	8.69e-31	minus	False
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226726	3226645	82	19	76.83	93.0	1.29e-09	minus	False
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226556	3226402	155	32	79.36	94.0	7.13e-32	minus	False
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226726	3226645	82	19	76.83	94.0	1.29e-09	minus	False
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226556	3226398	159	32	79.87	96.0	4.81e-34	minus	False
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226726	3226645	82	19	76.83	96.0	1.29e-09	minus	False
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226556	3226360	197	41	79.19	93.0	4.2299999999999994e-42	minus	False
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226726	3226645	82	19	76.83	93.0	1.58e-09	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226141	3225936	206	48	76.7	98.0	6.289999999999999e-38	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	911236	911079	158	38	74.05	74.0	1.8e-19	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226141	3225966	176	40	77.27	98.0	1.41e-32	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	911236	911079	158	38	74.05	86.0	1.51e-19	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226245	3225950	296	67	77.36	99.0	1.48e-60	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	911322	911079	244	64	72.54	80.0	1.06e-30	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000001.1	3226054	3225889	166	34	79.52	79.0	3.26e-35	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	911160	911079	82	17	76.83	38.0	3.72e-09	minus	False
+BRD_CsSTE11_CAND001	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	971321	971259	66	13	75.76	33.0	7.75e-05	minus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	969173	968987	190	44	73.68	94.0	4.89e-20	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	969173	968948	229	49	75.98	90.0	4.81e-34	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000005.1	1045403	1045500	98	28	71.43	39.0	2.33e-06	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	969211	969132	81	13	81.48	40.0	1.95e-12	minus	True
+BRD_CsSTE11_CAND005	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	971321	971259	66	13	75.76	26.0	9.92e-05	minus	False
+BRD_CsSTE11_CAND006	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	971321	971259	66	13	75.76	26.0	9.92e-05	minus	False
+BRD_CsSTE11_CAND007	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	971321	971259	66	13	75.76	26.0	9.92e-05	minus	False
+BRD_CsSTE11_CAND008	CsSTE11	genome	beneficial_fungi	Metarhizium_robertsii_ARSEF2575	Metarhizium robertsii	JELW01000003.1	971321	971259	66	13	75.76	26.0	9.92e-05	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	526	612	87	16	81.61	54.0	0.000135	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000017.1_cds_GBC14383.1_8276	535	590	56	10	82.14	28.0	2.0	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000017.1_cds_GBC14383.1_8276	535	590	56	10	82.14	28.0	2.0	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	526	612	87	16	81.61	43.0	0.000171	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000017.1_cds_GBC14383.1_8276	535	590	56	10	82.14	22.0	2.6	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	121	170	50	6	88.0	20.0	2.78e-06	plus	True
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	121	170	50	6	88.0	20.0	2.78e-06	plus	True
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	121	170	50	6	88.0	20.0	2.78e-06	plus	True
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	121	170	50	6	88.0	20.0	2.78e-06	plus	True
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	121	170	50	6	88.0	17.0	3.37e-06	plus	True
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	526	612	87	16	81.61	51.0	0.000142	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000017.1_cds_GBC14383.1_8276	535	590	56	10	82.14	27.0	2.1	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	526	593	68	13	80.88	49.0	1.8	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000017.1_cds_GBC14383.1_8276	535	590	56	10	82.14	31.0	1.8	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	526	612	87	16	81.61	36.0	0.000208	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000017.1_cds_GBC14383.1_8276	535	590	56	10	82.14	19.0	3.1	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000153.1_cds_GBC39607.1_41383	526	612	87	16	81.61	41.0	0.000142	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000017.1_cds_GBC14383.1_8276	535	590	56	10	82.14	27.0	2.1	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000012.1_cds_GBC12728.1_6556	1441	1484	44	7	84.09	22.0	2.0	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000012.1_cds_GBC12660.1_6490	1435	1478	44	7	84.09	22.0	2.0	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000012.1_cds_GBC12728.1_6556	1441	1484	44	7	84.09	18.0	2.6	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000012.1_cds_GBC12660.1_6490	1435	1478	44	7	84.09	18.0	2.6	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000012.1_cds_GBC12728.1_6556	1441	1484	44	7	84.09	22.0	2.0	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	lcl|BDIQ02000012.1_cds_GBC12660.1_6490	1435	1478	44	7	84.09	22.0	2.0	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302291	2302148	144	35	75.69	72.0	4.22e-21	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000017.1	654353	654223	131	34	71.76	64.0	8.71e-11	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302291	2302169	123	32	73.98	62.0	4.82e-14	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000017.1	654353	654247	107	25	73.83	52.0	3.04e-10	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302291	2302148	144	35	75.69	58.0	5.4400000000000005e-21	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000017.1	654353	654223	131	34	71.76	51.0	1.12e-10	minus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302892	2302777	116	25	78.45	46.0	2.31e-19	minus	False
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302892	2302777	116	25	78.45	46.0	2.31e-19	minus	False
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302892	2302777	116	25	78.45	46.0	2.31e-19	minus	False
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302892	2302777	116	25	78.45	46.0	2.31e-19	minus	False
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302892	2302777	116	25	78.45	39.0	2.82e-19	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302291	2302134	158	40	74.68	75.0	3.67e-22	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000017.1	654353	654223	131	34	71.76	61.0	9.21e-11	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302291	2302164	128	33	74.22	71.0	3.5e-15	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000017.1	654353	654247	107	25	73.83	58.0	2.69e-10	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000153.1	2302291	2302148	144	35	75.69	48.0	6.6400000000000005e-21	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000017.1	654353	654223	131	34	71.76	43.0	1.37e-10	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000017.1	654302	654223	80	19	76.25	38.0	4.77e-08	minus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	beneficial_fungi	Rhizophagus_irregularis_A1	Rhizophagus irregularis DAOM 181602=DAOM 197198	BDIQ02000138.1	479381	479313	69	15	78.26	33.0	1.67e-07	minus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	436	612	177	45	74.58	89.0	4.01e-26	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01000226.1_cds_GBB85515.1_2397	433	627	195	62	66.67	96.0	3.29e-08	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	394	591	198	56	71.72	99.0	7.249999999999999e-23	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01000226.1_cds_GBB85515.1_2397	406	590	185	58	67.03	91.0	3.29e-08	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	670	866	197	63	68.02	99.0	1.5e-12	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	367	612	246	69	71.95	98.0	6.71e-31	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01000226.1_cds_GBB85515.1_2397	406	627	222	71	66.67	88.0	8.18e-11	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	61	233	173	43	75.14	69.0	1.48e-26	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	61	233	173	43	75.14	69.0	1.48e-26	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	61	233	173	43	75.14	69.0	1.48e-26	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	61	233	173	43	75.14	69.0	1.48e-26	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	61	290	231	62	72.29	77.0	1.48e-27	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	436	626	191	50	73.82	91.0	3.48e-27	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01000226.1_cds_GBB85515.1_2397	433	641	209	67	66.51	98.0	2.86e-09	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	436	596	161	42	73.91	89.0	7.82e-22	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01000226.1_cds_GBB85515.1_2397	433	590	158	49	67.09	86.0	4.33e-06	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01002201.1_cds_GBB97373.1_14255	319	612	294	82	72.11	98.0	1.68e-39	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01000226.1_cds_GBB85515.1_2397	406	627	222	71	66.67	73.0	9.95e-11	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01003892.1_cds_GBC03541.1_20422	1432	1610	179	59	67.04	90.0	3.29e-08	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01001013.1_cds_GBB91729.1_8611	1441	1658	219	64	69.86	87.0	2.05e-18	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	lcl|BEXD01003892.1_cds_GBC03541.1_20422	1432	1650	219	72	67.12	88.0	1.92e-12	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	42299	42442	144	35	75.69	72.0	3.2800000000000003e-21	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	42299	42421	123	31	74.8	62.0	3.07e-15	plus	False
+BRD_CsFUS3_CAND003	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	42721	42833	113	34	69.91	57.0	5.2e-06	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	42299	42442	144	35	75.69	58.0	4.230000000000001e-21	plus	False
+BRD_CsFUS3_CAND005	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	41695	41810	116	25	78.45	46.0	1.8e-19	plus	False
+BRD_CsFUS3_CAND006	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	41695	41810	116	25	78.45	46.0	1.8e-19	plus	False
+BRD_CsFUS3_CAND007	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	41695	41810	116	25	78.45	46.0	1.8e-19	plus	False
+BRD_CsFUS3_CAND008	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	41695	41810	116	25	78.45	46.0	1.8e-19	plus	False
+BRD_CsFUS3_CAND009	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	41695	41810	116	25	78.45	39.0	2.2e-19	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	42299	42456	158	40	74.68	75.0	2.85e-22	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	42299	42426	128	32	75.0	71.0	6.39e-17	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	beneficial_fungi	Rhizophagus_clarus_HR1	Rhizophagus clarus	BEXD01002201.1	42299	42442	144	35	75.69	48.0	5.170000000000001e-21	plus	False
+BRD_CsPKS1_CAND002	CsPKS1	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007702984.1	3964	3940	25	2	92.0	13.0	0.18	minus	False
+BRD_CsPKS1_CAND003	CsPKS1	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007702984.1	3964	3940	25	2	92.0	13.0	0.18	minus	False
+BRD_CsPKS1_CAND004	CsPKS1	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007702984.1	3964	3940	25	2	92.0	10.0	0.22	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007697104.1	481	516	36	5	86.11	18.0	0.69	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007697104.1	481	516	36	5	86.11	14.0	0.88	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007697104.1	444	516	73	13	82.19	24.0	0.001	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007703597.1	601	654	54	7	87.04	26.0	7.87e-07	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007697104.1	676	723	48	8	83.33	23.0	0.73	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007703763.1	855	883	29	2	93.1	15.0	0.000719	plus	False
+BRD_CsSTE11_CAND002	CsSTE11	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007698213.1	4245	4279	35	5	85.71	18.0	2.7	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007703763.1	855	883	29	2	93.1	12.0	0.001	plus	False
+BRD_CsSTE11_CAND003	CsSTE11	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007698213.1	4245	4279	35	5	85.71	14.0	3.5	plus	False
+BRD_CsSTE11_CAND004	CsSTE11	transcript	fungal_paralog	Bsor_ND90Pr_tx	Bipolaris sorokiniana ND90Pr	XM_007698213.1	4245	4279	35	5	85.71	18.0	2.7	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3409799	3409984	188	51	69.15	92.0	1.66e-12	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	427245	427319	75	18	76.0	38.0	1.28e-07	plus	False
+BRD_CsFUS3_CAND001	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911907.1	689766	689719	48	9	81.25	24.0	6.62e-05	minus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3409775	3409970	198	52	70.2	97.0	2.63e-16	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3194558	3194625	68	17	75.0	97.0	6.62e-05	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	427243	427319	77	18	76.62	39.0	1.05e-08	plus	False
+BRD_CsFUS3_CAND002	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911907.1	689766	689719	48	9	81.25	24.0	6.62e-05	minus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3409749	3409984	238	62	71.01	93.0	2.4399999999999997e-24	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3194558	3194625	68	17	75.0	93.0	8.51e-05	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	427243	427319	77	18	76.62	31.0	1.35e-08	plus	False
+BRD_CsFUS3_CAND004	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911907.1	689766	689719	48	9	81.25	19.0	8.51e-05	minus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3409799	3409984	188	51	69.15	87.0	1.76e-12	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	427245	427319	75	18	76.0	36.0	1.35e-07	plus	False
+BRD_CsFUS3_CAND010	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911907.1	689766	689719	48	9	81.25	23.0	7e-05	minus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3409799	3409981	185	51	68.65	100.0	6.26e-11	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	427245	427319	75	18	76.0	42.0	1.13e-07	plus	False
+BRD_CsFUS3_CAND011	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911907.1	689766	689719	48	9	81.25	27.0	5.86e-05	minus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3409731	3409984	256	65	71.88	84.0	3.17e-30	plus	False
+BRD_CsFUS3_CAND012	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	427243	427319	77	18	76.62	26.0	1.64e-08	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	427420	427485	66	11	83.33	31.0	6.13e-12	plus	True
+BRD_CsFUS3_CAND013	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911895.1	3409893	3409984	92	25	72.83	44.0	4.71e-07	plus	False
+BRD_CsFUS3_CAND013	CsFUS3	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911907.1	689766	689719	48	9	81.25	23.0	7e-05	minus	False
+BRD_CsSTE11_CAND002	CsSTE11	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	1108055	1108003	53	11	79.25	27.0	6.62e-05	minus	False
+BRD_CsSTE11_CAND003	CsSTE11	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911904.1	1108055	1107963	97	20	71.13	37.0	2.44e-05	minus	False
+BRD_CsSTE11_CAND004	CsSTE11	genome	self_genome	Bsor_ND90Pr_gen	Bipolaris sorokiniana ND90Pr	NW_006911896.1	2972456	2972537	85	14	76.47	41.0	1.56e-06	plus	False

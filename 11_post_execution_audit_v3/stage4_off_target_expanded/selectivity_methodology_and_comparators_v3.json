@@ -1,0 +1,11 @@
+{
+  "updated_utc": "2026-11-11 06:40:00 UTC",
+  "panel_summary": {
+    "crops": 4,
+    "beneficial_fungi": 9,
+    "bacteria": 4,
+    "self_fungal": 1
+  },
+  "metric_rename": "Renamed v2 off_target_safety_score_v2 -> heuristic_sequence_selectivity_index so it cannot be misinterpreted as biological safety.",
+  "comparators_disclaimer": "Exact 21-nt continuous match cutoffs (e.g., Bachman et al., 2013 beetle/coleopteran Feeding assays) are arthropod-derived literature comparators, NOT experimentally calibrated thresholds for monocot crops or filamentous fungi."
+}
