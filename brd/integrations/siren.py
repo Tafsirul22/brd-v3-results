@@ -6,8 +6,12 @@ from pathlib import Path
 from typing import Dict, List, Optional
 
 import pandas as pd
-import RNA
 from Bio import SeqIO
+
+try:
+    import RNA
+except ImportError:
+    RNA = None
 
 from brd.utils.subprocess_runner import run_tool
 

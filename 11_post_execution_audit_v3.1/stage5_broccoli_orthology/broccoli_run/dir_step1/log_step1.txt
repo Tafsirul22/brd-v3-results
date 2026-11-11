@@ -1,0 +1,4 @@
+#index	file_name	nb_initial	nb_final
+0	Bcin_ASM83294v1.faa	13749	11967
+1	Bsor_ND90Pr.faa	12210	12176
+2	Bsor_Sacc._Shoemaker.faa	10755	10740

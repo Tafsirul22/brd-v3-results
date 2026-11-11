@@ -39,6 +39,9 @@ __pycache__/
 11_post_execution_audit_v3/expanded_references/sources/
 11_post_execution_audit_v3/expanded_references/blast_dbs/
 11_post_execution_audit_v3/expanded_references/raw_blast/
+11_post_execution_audit_v3.1/stage5_broccoli_orthology/input_proteomes/
+11_post_execution_audit_v3.1/stage5_broccoli_orthology/broccoli_run/dir_step1/*.fas
+11_post_execution_audit_v3.1/stage5_broccoli_orthology/broccoli_run/dir_step2/
 .env
 *.key
 *.pem

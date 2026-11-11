@@ -1,0 +1,56 @@
+# Command: pytest 11_post_execution_audit_v3.1/tests/test_brd_v3_1.py 11_post_execution_audit_v3/tests/test_brd_v3.py tests/test_brd.py 11_post_execution_audit/tests/test_audit_v2.py -v
+# Exit Code: 0
+
+============================= test session starts =============================
+platform win32 -- Python 3.13.14, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\environments\brd_venv\Scripts\python.exe
+cachedir: .pytest_cache
+hypothesis profile 'default'
+PySide6 6.12.0 -- Qt runtime 6.12.0 -- Qt compiled 6.12.0
+rootdir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output
+plugins: platformdirs-4.14.5, anyio-4.14.2, hypothesis-6.170.2, qt-4.5.0
+collecting ... collected 41 items
+
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_01_portability_no_hardcoded_user_paths PASSED [  2%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_02_optional_viennarna_import_guard PASSED [  4%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_03_tool_investigation_and_routes PASSED [  7%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_04_n50_l50_synthetic_and_fasta_qc_edge_cases PASSED [  9%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_05_stage3_biopython_assembly_qc_19_isolates PASSED [ 12%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_06_stage4_compleasm_parsers_and_honest_blocker PASSED [ 14%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_07_stage5_broccoli_v2_outputs_and_rbh_comparison PASSED [ 17%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_08_stage6_conservation_invariants PASSED [ 19%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_09_stage7_offtarget_checksums_and_near_positions PASSED [ 21%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_10_stage8_to_11_coordinates_targets_ranking_and_literature PASSED [ 24%]
+11_post_execution_audit_v3.1/tests/test_brd_v3_1.py::test_11_stage13_14_17_hydration_manifest_reports_and_hashes PASSED [ 26%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_portability_no_hardcoded_machine_paths PASSED [ 29%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage1_authoritative_invariants PASSED [ 31%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage2_honest_blockers_and_repaired_rbh PASSED [ 34%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage3_conservation_math_and_sensitivity PASSED [ 36%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage4_expanded_panel_and_selectivity_invariants PASSED [ 39%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage5_clustering_and_non_overlap PASSED [ 41%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage6_pareto_separation_and_reproducibility PASSED [ 43%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage7_literature_benchmark_categories PASSED [ 46%]
+11_post_execution_audit_v3/tests/test_brd_v3.py::test_stage8_report_18_sections_and_hashes PASSED [ 48%]
+tests/test_brd.py::test_fasta_validation_and_stats PASSED                [ 51%]
+tests/test_brd.py::test_fasta_duplicate_header_fails PASSED              [ 53%]
+tests/test_brd.py::test_gff3_invalid_coords PASSED                       [ 56%]
+tests/test_brd.py::test_cds_translation_validation PASSED                [ 58%]
+tests/test_brd.py::test_nucleotide_conservation_snps_and_kmers PASSED    [ 60%]
+tests/test_brd.py::test_pareto_ranking_and_missing_data PASSED           [ 63%]
+tests/test_brd.py::test_bootstrap_and_sensitivity PASSED                 [ 65%]
+tests/test_brd.py::test_nucleotide_seq_validator PASSED                  [ 68%]
+11_post_execution_audit/tests/test_audit_v2.py::test_01_fasta_sequences_match_tsv_v2 PASSED [ 70%]
+11_post_execution_audit/tests/test_audit_v2.py::test_02_candidate_lengths_and_gc_correct PASSED [ 73%]
+11_post_execution_audit/tests/test_audit_v2.py::test_03_target_coordinates_valid_and_substrings PASSED [ 75%]
+11_post_execution_audit/tests/test_audit_v2.py::test_04_accessions_traceable_v2 PASSED [ 78%]
+11_post_execution_audit/tests/test_audit_v2.py::test_05_candidate_ids_match_across_m07_m08_m09_v2 PASSED [ 80%]
+11_post_execution_audit/tests/test_audit_v2.py::test_06_no_stale_pending_m08 PASSED [ 82%]
+11_post_execution_audit/tests/test_audit_v2.py::test_07_ranking_values_exact_reproducible PASSED [ 85%]
+11_post_execution_audit/tests/test_audit_v2.py::test_08_exact_off_target_matches_reported_and_excluded PASSED [ 87%]
+11_post_execution_audit/tests/test_audit_v2.py::test_09_missing_linux_tools_clearly_labelled PASSED [ 90%]
+11_post_execution_audit/tests/test_audit_v2.py::test_10_final_report_agrees_with_v2_tsv_and_v1_preserved PASSED [ 92%]
+11_post_execution_audit/tests/test_audit_v2.py::test_11_both_orientations_screened_and_all_exact_21mers_reported PASSED [ 95%]
+11_post_execution_audit/tests/test_audit_v2.py::test_12_biological_scoring_rubric_and_expression_exclusion PASSED [ 97%]
+11_post_execution_audit/tests/test_audit_v2.py::test_13_filtering_funnel_and_required_deliverables_present PASSED [100%]
+
+============================= 41 passed in 46.48s =============================
+

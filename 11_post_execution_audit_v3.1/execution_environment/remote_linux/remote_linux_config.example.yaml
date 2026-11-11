@@ -1,0 +1,21 @@
+# Route C: Optional Remote Linux SSH Execution Configuration (Template — Do NOT commit real secrets)
+# Status on current Windows 11 host: NOT_EXECUTED_NO_REMOTE_HOST (no remote credentials/host configured)
+remote:
+  host: "linux-compute.example.org"
+  port: 22
+  username: "research_user"
+  ssh_key_path: "~/.ssh/id_ed25519"
+  remote_workdir: "/scratch/brd_v31_run"
+
+software_environment:
+  method: "conda"
+  conda_env: "brd_linux_tools"
+  compleasm_version: "0.2.10"
+  compleasm_lineage: "pleosporales_odb12"
+  broccoli_version: "2.0.1"
+  threads: 8
+
+transfer:
+  verify_sha256: true
+  clean_remote_after_verify: false
+  retry_count: 2

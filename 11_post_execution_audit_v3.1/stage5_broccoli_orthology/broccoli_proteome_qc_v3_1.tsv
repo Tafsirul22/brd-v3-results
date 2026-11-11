@@ -1,0 +1,4 @@
+species_id	fasta_filename	protein_count	unique_id_count	duplicate_id_count	empty_sequence_count	duplicate_sequence_count	mean_aa_length	validation_status
+Bcin_ASM83294v1	Bcin_ASM83294v1.faa	13749	13749	0	0	723	492.61	PASS
+Bsor_ND90Pr	Bsor_ND90Pr.faa	12210	12210	0	0	40	444.02	PASS
+Bsor_Sacc._Shoemaker	Bsor_Sacc._Shoemaker.faa	10755	10755	0	0	7	457.92	PASS

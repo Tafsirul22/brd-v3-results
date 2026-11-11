@@ -1,0 +1,4 @@
+#species	perc_prot_assigned	nb_prot_assigned
+Bcin_ASM83294v1.faa	60.1	8267
+Bsor_ND90Pr.faa	84.3	10293
+Bsor_Sacc._Shoemaker.faa	88.2	9491

@@ -1,0 +1,21 @@
+# BRD v3 to v3.1 Auditable Change Log
+
+**Release Date:** 2026-11-11 08:30:13 UTC  
+**Base Commit:** `b20e7fa125b47c7698e6faec02c4544062efbc7a` (`main` branch)  
+**Target Branch:** `v3.1`
+
+## Summary of Material Changes
+| Issue / Area | v3 Baseline State | v3.1 Upgrade & Resolution | Files Added / Updated |
+|---|---|---|---|
+| **Baseline Preservation & Audit** | No formal v3 baseline snapshot before edits | Created clean `v3.1` branch, immutable audit snapshot, and `10`-issue register; preserved v1, v2, and v3 outputs | `stage0_audit/V3_Baseline_Audit_Report.md`, `baseline_issues_register.tsv` |
+| **Upstream Tool Investigation** | Ad-hoc summary table of missing Linux binaries | Systematic investigation of `biopython`, `compleasm v0.2.10`, and `Broccoli v2.0.1` + Route A/B/C verification & license archival | `tool_investigation/*`, `execution_environment/*`, `.licenses/*` |
+| **Assembly QC (`AUDIT_02`)** | Mixed `Biopython_QUAST_compatible` label in `brd/integrations/quast.py` | Standalone `assembly_qc_biopython.py` computing 16 metrics, plots, warnings across `19/19` isolates + synthetic N50/L50 unit tests; explicitly NOT QUAST | `src/assembly_qc_biopython.py`, `stage3_assembly_qc/*` |
+| **Compleasm Completeness (`AUDIT_03`)** | Absent; only 50-marker tBLASTn frame screen run | Tested `compleasm.py v0.2.10`, downloaded/MD5-verified `pleosporales_odb12` (`6,066` markers) & `fungi_odb12` (`1,122`), logged real Windows `miniprot`/`hmmsearch` blocker (`rc=1`); zero fabricated scores | `src/stage4_compleasm_runner.py`, `stage4_compleasm/*` |
+| **Broccoli v2 Orthology (`AUDIT_04`)** | Only DIAMOND RBH (`7,245` core OGs) | Compiled `Broccoli v2.0.1` natively (`Rust 1.99.1` GNU) and executed all 4 steps (`-phylogenies nj` + `diamond.exe v2.2.8`); separated `CsFUS3` (`OG_1315`) & `CsPKS1` (`OG_4251`) from RBH superfamilies while preserving DIAMOND RBH untouched | `src/stage5_broccoli_orthology.py`, `stage5_broccoli_orthology/*` |
+| **Conservation & Off-Target Audit (`AUDIT_08`)** | Conservation matrix & 20/21 hit mismatch positions implicit | Exported full 50x19 conservation matrix + alignments; resolved FASTA SHA-256 checksums for all 18 panel refs and exact 1-based mismatch positions across `16,073` near-hits | `src/stage6_conservation_v31.py`, `src/stage7_offtarget_v31.py`, `stage6_conservation/*`, `stage7_offtarget/*` |
+| **Candidate/Target/Ranking Clarity (`AUDIT_09`, `AUDIT_10`)** | Region rank vs composite rank ordering difference subtle | Verified `50/50` CDS coordinates on target FASTA, separated sequence/ViennaRNA/targetability, documented `CAND010 #5 (Tier 1)` vs `CAND013 #6 (Tier 2)` Pareto divergence, preserved `PHI:2260`, `139.61 RPKM`, and `CsFUS3` caveats | `src/stage8_to_11_v31.py`, `stage8_candidate_design/*`, `stage9_biological_targets/*`, `stage10_ranking/*`, `stage11_literature_benchmark/*` |
+| **Clean Env Dependencies (`AUDIT_06`)** | Unconditional `import RNA` in `brd/integrations/` & incomplete pins | Guarded optional `RNA` & `sifi21_plus` imports in `brd/integrations/`, added `11_post_execution_audit_v3.1/requirements.txt`, `environment.yml`, and `check_environment_v3_1.py` | `brd/integrations/rnahybrid.py`, `siren.py`, `lucid.py`, `requirements.txt`, `environment.yml`, `V3_1_Environment_Report.md` |
+| **Clean Archive Data & Hashes (`AUDIT_05`, `AUDIT_07`)** | `hashes_v3.tsv` mismatched ZIP (`3` excluded files); clean ZIP lacked `GCF_000338995.1` genome | Built `hydrate_inputs_v3_1.py` + `genome_checksums_manifest_v3_1.tsv`; synchronized `hashes_v3_1.tsv` strictly with packaged files (`excluded_large_files_v3_1.tsv` tracks omitted intermediates) | `src/hydrate_inputs_v3_1.py`, `authoritative_data/genome_checksums_manifest_v3_1.tsv`, `hashes_v3_1.tsv`, `excluded_large_files_v3_1.tsv` |
+
+## Did Candidate Rankings Change?
+No. Because no validated new biological or sequencing data modified target sequences or off-target genomes, all 8 clean independent-region shortlist leaders retain their exact v3 scores (`BRD_CsSTE11_CAND013` `#1`, `0.9418`). What changed materially is **orthology resolution** (Broccoli `v2.0.1` isolated true 1:1 orthologs `OG_1315`/`OG_4251` from RBH paralog superfamilies), **transparent mismatch positions**, **standalone assembly QC validation**, and **clean-environment reproducibility**.

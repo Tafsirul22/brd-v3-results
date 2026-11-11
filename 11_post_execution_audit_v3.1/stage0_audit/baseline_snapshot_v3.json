@@ -1,0 +1,246 @@
+{
+  "audit_timestamp_utc": "2026-11-11 08:05:08 UTC",
+  "git_branch": "v3.1",
+  "git_head_commit": "b20e7fa125b47c7698e6faec02c4544062efbc7a",
+  "preserved_directories": [
+    "00_project_metadata",
+    "01_data_acquisition",
+    "10_final_reports",
+    "11_post_execution_audit",
+    "11_post_execution_audit_v3"
+  ],
+  "v3_hashes_total_rows": 168,
+  "v3_hashes_missing_from_v3_zip": [
+    "11_post_execution_audit_v3/stage2_genome_qc_comparative/orthology_diamond_rbh/all_proteomes_combined_v3.faa",
+    "11_post_execution_audit_v3/stage2_genome_qc_comparative/orthology_diamond_rbh/all_proteomes_db_v3.dmnd",
+    "11_post_execution_audit_v3/stage2_genome_qc_comparative/orthology_diamond_rbh/diamond_all_vs_all_v3.tsv"
+  ],
+  "v3_shortlist_baseline_top8": [
+    {
+      "independent_region_rank_v3": 1,
+      "candidate_id": "BRD_CsSTE11_CAND013",
+      "target": "CsSTE11",
+      "region_id": "CsSTE11_REG01",
+      "candidate_length_nt": 210,
+      "heuristic_composite_prioritization_index": 0.9418,
+      "pareto_front_3d_regions": 1
+    },
+    {
+      "independent_region_rank_v3": 2,
+      "candidate_id": "BRD_CsSTE11_CAND014",
+      "target": "CsSTE11",
+      "region_id": "CsSTE11_REG03",
+      "candidate_length_nt": 210,
+      "heuristic_composite_prioritization_index": 0.9367,
+      "pareto_front_3d_regions": 1
+    },
+    {
+      "independent_region_rank_v3": 3,
+      "candidate_id": "BRD_CsSTE11_CAND010",
+      "target": "CsSTE11",
+      "region_id": "CsSTE11_REG02",
+      "candidate_length_nt": 180,
+      "heuristic_composite_prioritization_index": 0.8861,
+      "pareto_front_3d_regions": 1
+    },
+    {
+      "independent_region_rank_v3": 4,
+      "candidate_id": "BRD_CsPKS1_CAND012",
+      "target": "CsPKS1",
+      "region_id": "CsPKS1_REG02",
+      "candidate_length_nt": 210,
+      "heuristic_composite_prioritization_index": 0.7979,
+      "pareto_front_3d_regions": 1
+    },
+    {
+      "independent_region_rank_v3": 5,
+      "candidate_id": "BRD_CsPKS1_CAND010",
+      "target": "CsPKS1",
+      "region_id": "CsPKS1_REG04",
+      "candidate_length_nt": 180,
+      "heuristic_composite_prioritization_index": 0.7762,
+      "pareto_front_3d_regions": 1
+    },
+    {
+      "independent_region_rank_v3": 6,
+      "candidate_id": "BRD_CsPKS1_CAND013",
+      "target": "CsPKS1",
+      "region_id": "CsPKS1_REG03",
+      "candidate_length_nt": 180,
+      "heuristic_composite_prioritization_index": 0.7841,
+      "pareto_front_3d_regions": 2
+    },
+    {
+      "independent_region_rank_v3": 7,
+      "candidate_id": "BRD_CsPKS1_CAND006",
+      "target": "CsPKS1",
+      "region_id": "CsPKS1_REG01",
+      "candidate_length_nt": 250,
+      "heuristic_composite_prioritization_index": 0.7836,
+      "pareto_front_3d_regions": 2
+    },
+    {
+      "independent_region_rank_v3": 8,
+      "candidate_id": "BRD_CsSp1_CAND008",
+      "target": "CsSp1",
+      "region_id": "CsSp1_REG01",
+      "candidate_length_nt": 180,
+      "heuristic_composite_prioritization_index": 0.7363,
+      "pareto_front_3d_regions": 3
+    }
+  ],
+  "isolates_on_disk": [
+    {
+      "isolate_id": "ND90Pr",
+      "accession": "GCF_000338995.1",
+      "relative_genome_path": "01_data_acquisition/local_nd90pr/ncbi_dataset/data/GCF_000338995.1/GCF_000338995.1_Cocsa1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 34857722
+    },
+    {
+      "isolate_id": "LK93",
+      "accession": "GCA_024722535.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_024722535.1/ncbi_dataset/data/GCA_024722535.1/GCA_024722535.1_ASM2472253v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 36685503
+    },
+    {
+      "isolate_id": "ND93-1",
+      "accession": "GCA_033006315.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_033006315.1/ncbi_dataset/data/GCA_033006315.1/GCA_033006315.1_ASM3300631v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 36938724
+    },
+    {
+      "isolate_id": "WAI2406",
+      "accession": "GCA_008452705.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_008452705.1/ncbi_dataset/data/GCA_008452705.1/GCA_008452705.1_ASM845270v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 37349936
+    },
+    {
+      "isolate_id": "BRIP10943a",
+      "accession": "GCA_008452735.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_008452735.1/ncbi_dataset/data/GCA_008452735.1/GCA_008452735.1_ASM845273v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 37385272
+    },
+    {
+      "isolate_id": "BRIP27492a",
+      "accession": "GCA_008452725.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_008452725.1/ncbi_dataset/data/GCA_008452725.1/GCA_008452725.1_ASM845272v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 35679589
+    },
+    {
+      "isolate_id": "WAI2411",
+      "accession": "GCA_008452715.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_008452715.1/ncbi_dataset/data/GCA_008452715.1/GCA_008452715.1_ASM845271v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 36696541
+    },
+    {
+      "isolate_id": "Yt-6",
+      "accession": "GCA_037974985.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_037974985.1/ncbi_dataset/data/GCA_037974985.1/GCA_037974985.1_ASM3797498v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 38682754
+    },
+    {
+      "isolate_id": "BS112",
+      "accession": "GCA_004329375.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_004329375.1/ncbi_dataset/data/GCA_004329375.1/GCA_004329375.1_ASM432937v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 37849411
+    },
+    {
+      "isolate_id": "MP_1261",
+      "accession": "GCA_055473645.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473645.1/ncbi_dataset/data/GCA_055473645.1/GCA_055473645.1_ASM5547364v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 35011201
+    },
+    {
+      "isolate_id": "SEED_28",
+      "accession": "GCA_055473875.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473875.1/ncbi_dataset/data/GCA_055473875.1/GCA_055473875.1_ASM5547387v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 34239251
+    },
+    {
+      "isolate_id": "Black",
+      "accession": "GCA_055473695.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473695.1/ncbi_dataset/data/GCA_055473695.1/GCA_055473695.1_ASM5547369v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 34611286
+    },
+    {
+      "isolate_id": "RAJ_3972",
+      "accession": "GCA_055473735.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473735.1/ncbi_dataset/data/GCA_055473735.1/GCA_055473735.1_ASM5547373v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 34623794
+    },
+    {
+      "isolate_id": "HD_3091",
+      "accession": "GCA_055473755.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473755.1/ncbi_dataset/data/GCA_055473755.1/GCA_055473755.1_ASM5547375v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 33878279
+    },
+    {
+      "isolate_id": "DDK_1025",
+      "accession": "GCA_055473625.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473625.1/ncbi_dataset/data/GCA_055473625.1/GCA_055473625.1_ASM5547362v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 34736875
+    },
+    {
+      "isolate_id": "HI_1538",
+      "accession": "GCA_055473675.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473675.1/ncbi_dataset/data/GCA_055473675.1/GCA_055473675.1_ASM5547367v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 33305781
+    },
+    {
+      "isolate_id": "RAJ_3705",
+      "accession": "GCA_055473715.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473715.1/ncbi_dataset/data/GCA_055473715.1/GCA_055473715.1_ASM5547371v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 33626049
+    },
+    {
+      "isolate_id": "KO_5803",
+      "accession": "GCA_055473775.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_055473775.1/ncbi_dataset/data/GCA_055473775.1/GCA_055473775.1_ASM5547377v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 32888830
+    },
+    {
+      "isolate_id": "Sacc._Shoemaker",
+      "accession": "GCA_013416765.1",
+      "relative_genome_path": "01_data_acquisition/genomes/GCA_013416765.1/ncbi_dataset/data/GCA_013416765.1/GCA_013416765.1_ASM1341676v1_genomic.fna",
+      "exists_in_workspace": true,
+      "included_in_v3_zip": false,
+      "size_bytes": 34769175
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+metric	analysis_a_diamond_rbh_v3	analysis_b_broccoli_v2_nj
+Total orthogroups inferred	15015	9589
+Core orthogroups in BOTH B. sorokiniana proteomes (ND90Pr + Sacc.)	7245	8793
+Three-species conserved orthogroups (+ Botrytis cinerea)	4430	5710
+Proteins assigned to any group (unique IDs)	36714	28051
+Broccoli orthologous pairs (step 4)	NA (connected components)	26745
+Broccoli ortholog pairs co-clustered in same DIAMOND RBH OG	22915	22915/26745 (85.68%)
+Chimeric proteins flagged by Broccoli	NA	0

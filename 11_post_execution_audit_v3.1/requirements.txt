@@ -1,0 +1,15 @@
+# Mandatory core dependencies for BRD v3.1 verification, QC, conservation, ranking & reporting
+biopython==1.86
+matplotlib==3.10.8
+networkx==3.6.1
+numpy==2.4.0
+pandas==2.3.3
+PyYAML==6.0.3
+scipy==1.16.3
+tabulate>=0.9,<1.0
+reportlab>=4.0,<5.0
+pytest>=8.0
+
+# Optional thermodynamic & design dependencies (guarded gracefully if absent)
+ViennaRNA>=2.7.0
+primer3-py>=2.0

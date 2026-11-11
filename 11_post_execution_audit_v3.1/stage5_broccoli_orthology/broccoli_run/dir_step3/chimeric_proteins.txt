@@ -1,0 +1,1 @@
+#species_file	protein_name	nb_OG_fused	list_fused_OGs

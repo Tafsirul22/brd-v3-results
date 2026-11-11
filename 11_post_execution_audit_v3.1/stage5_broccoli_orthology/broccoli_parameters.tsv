@@ -1,0 +1,15 @@
+parameter	value
+broccoli_version	v2.0.1 (compiled from rderelle/Broccoli, commit e54756aa)
+execution_route	Route A — Native Windows 11 (x86_64-pc-windows-gnu)
+diamond_version	v2.2.8
+phylogenies_mode	nj (built-in Rust neighbor-joining; FastTree not available natively)
+combined_search	False (pairwise searches retained to avoid e-value proteome-size assumptions)
+e_value	0.001 (Broccoli default)
+nb_hits	6 (Broccoli default)
+max_gap	0.7 (Broccoli default)
+sp_overlap	0.5 (Broccoli default)
+min_weight	0.1 (Broccoli default)
+ratio_ortho	0.5 (Broccoli default)
+threads	6
+runtime_seconds_full	255.98
+smoke_runtime_seconds	4.07

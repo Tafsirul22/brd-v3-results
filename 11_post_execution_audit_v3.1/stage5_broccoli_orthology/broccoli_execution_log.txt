@@ -1,0 +1,97 @@
+# Broccoli v2.0.1 Execution Log — 2026-11-11 08:16:19 UTC
+broccoli_bin: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\broccoli.exe
+diamond_bin: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\diamond.exe
+fasttree_bin: NOT_AVAILABLE (using built-in -phylogenies nj)
+input_proteomes_dir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1\stage5_broccoli_orthology\input_proteomes
+
+## Smoke Run (200 proteins/species) — rc=0, elapsed=4.07s
+Broccoli v2.0.1
+
+ --- STEP 1: k-mer simplification
+ input dir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1\stage5_broccoli_orthology\smoke_test\in
+ output dir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1\stage5_broccoli_orthology\smoke_test\out
+ kmer size: 100
+ kmer nb aa: 15
+ 3 input files
+ 600 sequences
+ -> 578 proteins saved for the next step
+
+ --- STEP 2: phylomes
+ e_value: 0.001
+ nb_hits: 6
+ gaps: 0.7
+ phylogenies: nj
+ search: one DIAMOND run per pair of species
+ phylome 1/3: Bcin_ASM83294v1.faa
+ phylome 2/3: Bsor_ND90Pr.faa
+ phylome 3/3: Bsor_Sacc._Shoemaker.faa
+ done
+
+ --- STEP 3: network analysis
+ species overlap: 0.5
+ min edge weight: 0.1
+ min nb hits: 2
+ chimeric edges: 0.5
+ chimeric species: 3
+ extract ortho and para
+ network: 93 nodes, 59 edges
+ load similarity search outputs
+ 40 connected components
+ 40 communities
+ 0 chimeric proteins
+ 1 spurious hits removed
+
+ --- STEP 4: orthologous pairs
+ ratio ortho: 0.5
+ not same sp: false
+ analyse 19 orthologous groups
+ done
+
+
+            Total runtime: 0 min 4 sec
+
+## Full Run (All 3 Proteomes: 36714 proteins) — rc=0, elapsed=255.98s
+Broccoli v2.0.1
+
+ --- STEP 1: k-mer simplification
+ input dir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1\stage5_broccoli_orthology\input_proteomes
+ output dir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1\stage5_broccoli_orthology\broccoli_run
+ kmer size: 100
+ kmer nb aa: 15
+ 3 input files
+ 36714 sequences
+ -> 34883 proteins saved for the next step
+
+ --- STEP 2: phylomes
+ e_value: 0.001
+ nb_hits: 6
+ gaps: 0.7
+ phylogenies: nj
+ search: one DIAMOND run per pair of species
+ phylome 1/3: Bcin_ASM83294v1.faa
+ phylome 2/3: Bsor_ND90Pr.faa
+ phylome 3/3: Bsor_Sacc._Shoemaker.faa
+ done
+
+ --- STEP 3: network analysis
+ species overlap: 0.5
+ min edge weight: 0.1
+ min nb hits: 2
+ chimeric edges: 0.5
+ chimeric species: 3
+ extract ortho and para
+ network: 28473 nodes, 30671 edges
+ load similarity search outputs
+ 9877 connected components
+ 10068 communities
+ 0 chimeric proteins
+ 275 spurious hits removed
+
+ --- STEP 4: orthologous pairs
+ ratio ortho: 0.5
+ not same sp: false
+ analyse 9589 orthologous groups
+ done
+
+
+            Total runtime: 4 min 15 sec

@@ -1,0 +1,9 @@
+tool	pinned_version	latest_upstream_observed	source	route	notes
+biopython	1.86	1.88	PyPI / GitHub biopython/biopython	Route_A_Native_Windows	Verified stable in Python 3.13.14 venv
+compleasm	v0.2.10 (a275e9f4)	v0.2.10	GitHub huangnengCSU/compleasm	Route_A_CLI_Download_Only / Route_B_Docker_Template	miniprot v0.18 & hmmsearch 3.4 required for run
+OrthoDB pleosporales_odb12	2026-05-22 (OrthoDB 12.1)	odb12	https://busco-data.ezlab.org/v5/data/lineages/	Downloaded_Verified	6,066 HMM markers; MD5 795a5af234fb9b7828b9927dfbebff4a
+OrthoDB fungi_odb12	2026-05-22 (OrthoDB 12.1)	odb12	https://busco-data.ezlab.org/v5/data/lineages/	Downloaded_Verified	1,122 HMM markers; MD5 79aba415d64ed9a7b1994452b99106cc
+Broccoli (broccoli-rs)	v2.0.1 (e54756aa)	v2.0.1	GitHub rderelle/Broccoli	Route_A_Native_Windows	Compiled via Rust 1.99.1 x86_64-pc-windows-gnu; uses -phylogenies nj
+DIAMOND	v2.2.8	v2.2.8	tools/bin/diamond.exe	Route_A_Native_Windows	Shared by v3 DIAMOND RBH & v3.1 Broccoli
+ViennaRNA	2.8.0	2.8.0	PyPI ViennaRNA	Route_A_Native_Windows	Optional for non-RNA-folding modules; installed cleanly in brd_venv
+NCBI BLAST+	2.17.0+	2.17.0+	NCBI BLAST Win64	Route_A_Native_Windows	Used for M08/Stage 4/Stage 7 off-target screening

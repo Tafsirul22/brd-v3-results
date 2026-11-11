@@ -1,0 +1,14 @@
+# Compleasm Execution Verification Log — 2026-11-11 08:18:46 UTC
+compleasm_script: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\repos\compleasm\compleasm.py
+miniprot_detected: NONE
+hmmsearch_detected: NONE
+
+PROBE_CMD: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\environments\brd_venv\Scripts\python.exe C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\repos\compleasm\compleasm.py run -a C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\01_data_acquisition\local_nd90pr\ncbi_dataset\data\GCF_000338995.1\GCF_000338995.1_Cocsa1_genomic.fna -l pleosporales --odb odb12 -L C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\compleasm_db -o C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\tmp\compleasm_probe_v31 -t 4
+PROBE_EXIT_CODE: 1
+STDOUT:
+Searching for miniprot in the path where compleasm.py is located
+Searching for miniprot in the current execution path
+Searching for miniprot in $PATH
+STDERR:
+miniprot is not found in the path where compleasm.py is located, the current execution path, or $PATH. 
+Please check the installation of miniprot!

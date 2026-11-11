@@ -1,0 +1,13 @@
+# BRD v3.1 Master Execution Log — 2026-11-11 08:30:13 UTC
+Python: 3.13.14 | OS: Windows-11-10.0.26300-SP0
+Stage 0: V3_Baseline_Audit_Report.md + 10 baseline issues audited on branch v3.1
+Stages 1-2: Tool investigation (biopython, compleasm v0.2.10, Broccoli v2.0.1) + Route A/B/C verification
+Stage 3: Biopython Assembly QC across 19/19 isolates (0 duplicate IDs, 0 invalid chars)
+Stage 4: compleasm.py v0.2.10 downloaded pleosporales_odb12 (6,066 markers) & fungi_odb12 (1,122 markers); run blocked at missing Win32 miniprot/hmmsearch (exit 1)
+Stage 5: Broccoli v2.0.1 compiled natively via Rust 1.99.1 GNU and ran all 4 steps on 36,714 proteins (9,589 OGs, 26,745 pairs, 255.98s, exit 0)
+Stage 6: Multi-isolate conservation matrices & MAFFT alignments verified across 4 genes / 50 candidates / 19 isolates
+Stage 7: Reference FASTA SHA-256 checksums (18 entries), 1,214 exact hit orientations, 16,073 near-hit mismatch positions verified
+Stages 8-11: Candidate master/coordinates, target evidence, separated 3D ranking & Pareto explanation, 25-study literature audit completed
+Stage 12: Guarded optional RNA/sifi21_plus imports, unified requirements.txt/environment.yml, V3_1_Environment_Report.md verified
+Stage 13: hydrate_inputs_v3_1.py + 19-genome SHA256 manifest created
+Stages 14-18: hashes_v3_1.tsv (106 files), PDF (Edge_headless (342717 B)), workspace pytest rc=0

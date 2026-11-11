@@ -8,15 +8,22 @@ from typing import Dict, List
 import numpy as np
 import pandas as pd
 import primer3
-import RNA
 from Bio import SeqIO, SeqUtils
 from Bio.Seq import Seq
+
+try:
+    import RNA
+except ImportError:
+    RNA = None
 
 # Compatibility shim for sifi21_plus on Biopython >= 1.82 where Bio.SeqUtils.GC was removed
 if not hasattr(SeqUtils, "GC") and hasattr(SeqUtils, "gc_fraction"):
     SeqUtils.GC = lambda seq: SeqUtils.gc_fraction(seq) * 100.0
 
-import sifi21_plus.free_energy as free_energy
+try:
+    import sifi21_plus.free_energy as free_energy
+except ImportError:
+    free_energy = None
 
 
 def compute_unpaired_probs(dna_seq: str, temperature: float = 22.0, window: int = 8) -> np.ndarray:

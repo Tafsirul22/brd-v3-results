@@ -1,0 +1,18 @@
+# Route B Docker Compose template for optional Linux container execution (Compleasm / Broccoli)
+# Status on current Windows 11 host: NOT_EXECUTED_DOCKER_ABSENT
+services:
+  brd-linux-tools:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: brd-v31-tools:2026-11-11
+    platform: linux/amd64
+    working_dir: /workspace
+    volumes:
+      - ../../..:/workspace:rw
+    environment:
+      - BRD_OUTPUT_DIR=/workspace
+    mem_limit: 8g
+    cpus: 4.0
+    command: >
+      bash -c "compleasm.py --version && broccoli -help | head -n 5 && diamond version"

@@ -1,0 +1,3 @@
+isolate_id	assembly_accession	warning_type	severity	detail
+ND90Pr	GCF_000338995.1	ELEVATED_AMBIGUOUS_N_PCT	MEDIUM	Ambiguous nucleotides represent 3.4774% (1,196,549 bp) of assembly (scaffold gaps)
+Sacc._Shoemaker	GCA_013416765.1	ELEVATED_AMBIGUOUS_N_PCT	MEDIUM	Ambiguous nucleotides represent 3.4789% (1,194,298 bp) of assembly (scaffold gaps)
