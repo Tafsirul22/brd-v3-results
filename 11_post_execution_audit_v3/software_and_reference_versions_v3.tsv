@@ -8,6 +8,6 @@ BLAST+ (blastn/tblastn/makeblastdb)	blastn: 2.17.0+	Off-target blastn/blastn-sho
 DIAMOND	diamond version 2.2.8	Repaired all-vs-all RBH orthology clustering
 NCBI datasets CLI	datasets version: 18.41.0	Expanded reference genome & transcriptome retrieval
 MAFFT	Active code page: 65001	M04/M07 baseline multiple sequence alignments
-dsRNAmax	2026/11/11 12:59:18 dsRNAmax - dsRNA maximizer (Version: 1.1.14)	Included in M07 baseline provenance
+dsRNAmax	2026/11/11 13:01:27 dsRNAmax - dsRNA maximizer (Version: 1.1.14)	Included in M07 baseline provenance
 QUAST / BUSCO / OrthoFinder	NOT_RUN_DEPENDENCY_BLOCKED	Linux/WSL2/Conda dependencies absent on Windows host; zero outputs fabricated
 RNAhybrid	NOT_RUN_DEPENDENCY_BLOCKED	Linux-only Bioconda binary; ViennaRNA 2.8.0 used as native comparator

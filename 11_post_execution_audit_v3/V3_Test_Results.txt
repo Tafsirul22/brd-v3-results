@@ -41,5 +41,5 @@ tests/test_brd.py::test_nucleotide_seq_validator PASSED                  [ 56%]
 11_post_execution_audit/tests/test_audit_v2.py::test_12_biological_scoring_rubric_and_expression_exclusion PASSED [ 96%]
 11_post_execution_audit/tests/test_audit_v2.py::test_13_filtering_funnel_and_required_deliverables_present PASSED [100%]
 
-============================= 30 passed in 45.66s =============================
+============================= 30 passed in 45.55s =============================
 

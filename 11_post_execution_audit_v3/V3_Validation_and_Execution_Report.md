@@ -1,6 +1,6 @@
 # Bipolaris-RNAi Designer (BRD) v3 — Validation and Execution Report
 
-**Generated:** 2026-11-11 06:59:17 UTC
+**Generated:** 2026-11-11 07:01:26 UTC
 **Execution Mode:** Full 8-Stage Computational Research Release (`11_post_execution_audit_v3`)
 **Mandatory Scientific Disclosure:** All scores, Pareto tiers, and candidate shortlists in this report are **computational prioritizations** across genomic/transcriptomic datasets. Nothing in this report claims demonstrated fungal dsRNA uptake, in vivo gene knockdown, crop protection against *Bipolaris sorokiniana*, or environmental biosafety.
 
@@ -54,7 +54,7 @@ Key methodological upgrades in v3:
 | DIAMOND                             | diamond version 2.2.8                                            | Repaired all-vs-all RBH orthology clustering                                  |
 | NCBI datasets CLI                   | datasets version: 18.41.0                                        | Expanded reference genome & transcriptome retrieval                           |
 | MAFFT                               | Active code page: 65001                                          | M04/M07 baseline multiple sequence alignments                                 |
-| dsRNAmax                            | 2026/11/11 12:59:18 dsRNAmax - dsRNA maximizer (Version: 1.1.14) | Included in M07 baseline provenance                                           |
+| dsRNAmax                            | 2026/11/11 13:01:27 dsRNAmax - dsRNA maximizer (Version: 1.1.14) | Included in M07 baseline provenance                                           |
 | QUAST / BUSCO / OrthoFinder         | NOT_RUN_DEPENDENCY_BLOCKED                                       | Linux/WSL2/Conda dependencies absent on Windows host; zero outputs fabricated |
 | RNAhybrid                           | NOT_RUN_DEPENDENCY_BLOCKED                                       | Linux-only Bioconda binary; ViennaRNA 2.8.0 used as native comparator         |
 

@@ -171,6 +171,55 @@ def _tool_ver(cmd: List[str]) -> str:
         return f"UNAVAILABLE ({exc})"
 
 
+def build_release_zip(output_root: Path | None = None) -> Path:
+    out = resolve_output_root(output_root)
+    v3 = resolve_v3_root(out)
+    zip_path = out / "11_post_execution_audit_v3.zip"
+    if zip_path.exists():
+        zip_path.unlink()
+
+    include_dirs = [
+        out / "brd",
+        out / "config",
+        out / "tests",
+        out / ".licenses",
+        v3,
+        out / ".git",
+    ]
+    exclude_substrings = (
+        "expanded_references/sources/",
+        "expanded_references/blast_dbs/",
+        "expanded_references/raw_blast/",
+        "__pycache__/",
+        ".pytest_cache/",
+        "orthology_diamond_rbh/all_proteomes_combined",
+        "orthology_diamond_rbh/all_proteomes_db",
+        "orthology_diamond_rbh/diamond_all_vs_all",
+        "orthology_diamond_rbh/GCA_",
+    )
+    n_zip_files = 0
+    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as zf:
+        for base_file in [out / ".gitignore"]:
+            if base_file.exists():
+                zf.write(base_file, base_file.relative_to(out).as_posix())
+                n_zip_files += 1
+        for d in include_dirs:
+            if not d.exists():
+                continue
+            for fp in sorted(d.rglob("*")):
+                if not fp.is_file():
+                    continue
+                rel = fp.relative_to(out).as_posix()
+                if any(ex in rel for ex in exclude_substrings):
+                    continue
+                if any(sec in fp.name.lower() for sec in ("secret", "oauth", "token", "credential", ".env")):
+                    continue
+                zf.write(fp, rel)
+                n_zip_files += 1
+    print(f"Created archive {zip_path} ({n_zip_files} files, {zip_path.stat().st_size / (1024*1024):.2f} MB)", flush=True)
+    return zip_path
+
+
 def run_stage8(output_root: Path | None = None, skip_pytest: bool = False) -> Dict[str, Path]:
     out = resolve_output_root(output_root)
     v3 = resolve_v3_root(out)
@@ -534,50 +583,7 @@ All code inside `brd/` and `11_post_execution_audit_v3/src/` uses relative paths
             raise RuntimeError(f"Pytest failed with exit code {p_test.returncode}")
 
     # 7. Package final archive: 11_post_execution_audit_v3.zip (safe, reproducible, zero large DBs/secrets!)
-    zip_path = out / "11_post_execution_audit_v3.zip"
-    if zip_path.exists():
-        zip_path.unlink()
-
-    include_dirs = [
-        out / "brd",
-        out / "config",
-        out / "tests",
-        out / ".licenses",
-        v3,
-        out / ".git",
-    ]
-    exclude_substrings = (
-        "expanded_references/sources/",
-        "expanded_references/blast_dbs/",
-        "expanded_references/raw_blast/",
-        "__pycache__/",
-        ".pytest_cache/",
-        "orthology_diamond_rbh/all_proteomes_combined",
-        "orthology_diamond_rbh/all_proteomes_db",
-        "orthology_diamond_rbh/diamond_all_vs_all",
-        "orthology_diamond_rbh/GCA_",
-    )
-    n_zip_files = 0
-    with zipfile.ZipFile(zip_path, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as zf:
-        for base_file in [out / ".gitignore"]:
-            if base_file.exists():
-                zf.write(base_file, base_file.relative_to(out).as_posix())
-                n_zip_files += 1
-        for d in include_dirs:
-            if not d.exists():
-                continue
-            for fp in sorted(d.rglob("*")):
-                if not fp.is_file():
-                    continue
-                rel = fp.relative_to(out).as_posix()
-                if any(ex in rel for ex in exclude_substrings):
-                    continue
-                # Guard against accidental secret/OAuth/credential files
-                if any(sec in fp.name.lower() for sec in ("secret", "oauth", "token", "credential", ".env")):
-                    continue
-                zf.write(fp, rel)
-                n_zip_files += 1
-    print(f"Created archive {zip_path} ({n_zip_files} files, {zip_path.stat().st_size / (1024*1024):.2f} MB)", flush=True)
+    zip_path = build_release_zip(out)
 
     return {
         "versions": ver_tsv,
