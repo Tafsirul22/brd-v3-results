@@ -1,10 +1,20 @@
-# Bipolaris-RNAi Designer (BRD) v1.0.0
+# Bipolaris-RNAi Designer (BRD) v3.1.1
 
-Modular, isolate-aware computational bioinformatics pipeline for identifying, verifying, designing, off-target screening, and uncertainty-aware ranking of candidate dsRNA triggers against *Bipolaris sorokiniana* (syn. *Cochliobolus sativus*).
+Modular, isolate-aware computational bioinformatics pipeline for identifying, verifying, designing, off-target screening, and uncertainty-aware ranking of candidate dsRNA triggers against *Bipolaris sorokiniana* (syn. *Cochliobolus sativus*). See `11_post_execution_audit_v3.1.1/` for the latest audited reproducibility release.
 
 ## Scientific Boundary
 
 BRD generates **computationally prioritised candidate dsRNA sequences** with verified multi-isolate nucleotide conservation, functional genetics, infection-stage expression (`GSE130517`), and multi-reference off-target profiles. It does **not** demonstrate exogenous dsRNA uptake, transcript knockdown, or fungicidal efficacy in *B. sorokiniana*, which remain experimental hypotheses.
+
+## Environment Setup
+
+```powershell
+# Mandatory core environment (imports work cleanly without optional primer3/ViennaRNA)
+pip install -r requirements.txt
+
+# Optional thermodynamic folding, PCR primer design, and Snakemake support
+pip install -r requirements-optional.txt
+```
 
 ## Quick Start
 

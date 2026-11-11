@@ -42,6 +42,9 @@ __pycache__/
 11_post_execution_audit_v3.1/stage5_broccoli_orthology/input_proteomes/
 11_post_execution_audit_v3.1/stage5_broccoli_orthology/broccoli_run/dir_step1/*.fas
 11_post_execution_audit_v3.1/stage5_broccoli_orthology/broccoli_run/dir_step2/
+11_post_execution_audit_v3.1.1/_v31_extracted_baseline/
+11_post_execution_audit_v3.1.1/stage2_proteome_hydration/hydrated_proteomes/
+11_post_execution_audit_v3.1.1/stage3_offtarget_hydration/references/
 .env
 *.key
 *.pem

@@ -6,9 +6,35 @@ import pandas as pd
 from Bio import SeqIO
 from Bio.Seq import Seq
 
-OUT_DIR = Path(r"C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output")
+OUT_DIR = Path(__file__).resolve().parents[2]
 AUDIT_DIR = OUT_DIR / "11_post_execution_audit"
 FIN_V1 = OUT_DIR / "10_final_reports"
+
+
+def _resolve_relative_manifest_fasta(mr) -> Path:
+    """Resolve FASTA paths cleanly relative to extracted root (never hardcode developer machine paths)."""
+    raw_str = str(mr["fasta_file"]).replace("\\", "/")
+    ref_id = str(mr["ref_id"])
+    acc = str(mr["accession"])
+    fname = Path(raw_str).name
+
+    cands = []
+    if "08_off_target_screening/" in raw_str:
+        cands.append(OUT_DIR / raw_str[raw_str.index("08_off_target_screening/") :])
+    cands.extend(
+        [
+            OUT_DIR / "08_off_target_screening" / "blast_databases" / "sources" / ref_id / "ncbi_dataset" / "data" / acc / fname,
+            OUT_DIR / "11_post_execution_audit_v3" / "expanded_references" / "sources" / ref_id / "ncbi_dataset" / "data" / acc / fname,
+            OUT_DIR / "11_post_execution_audit_v3.1.1" / "stage3_offtarget_hydration" / "references" / ref_id / "ncbi_dataset" / "data" / acc / fname,
+        ]
+    )
+    for cp in cands:
+        if cp.exists():
+            return cp
+    raise FileNotFoundError(
+        f"Beneficial fungus FASTA for {ref_id} ({acc}/{fname}) not present inside extracted workspace {OUT_DIR}. "
+        "Run `python 11_post_execution_audit_v3.1.1/src/hydrate_offtarget_references_v3_1_1.py` first."
+    )
 
 
 def test_01_fasta_sequences_match_tsv_v2():
@@ -180,7 +206,8 @@ def test_11_both_orientations_screened_and_all_exact_21mers_reported():
     manifest = pd.read_csv(OUT_DIR / "08_off_target_screening" / "blast_databases" / "database_manifest.tsv", sep="\t")
     indep_hits = set()
     for _, mr in manifest[manifest["group"] == "beneficial_fungi"].iterrows():
-        for rec in SeqIO.parse(str(mr["fasta_file"]), "fasta"):
+        fa_path = _resolve_relative_manifest_fasta(mr)
+        for rec in SeqIO.parse(str(fa_path), "fasta"):
             s = str(rec.seq).upper()
             for i in range(max(0, len(s) - 20)):
                 sub = s[i : i + 21]

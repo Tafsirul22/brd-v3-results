@@ -1,0 +1,30 @@
+name: brd_v3_1_1
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # Core cross-platform dependencies (Windows 11 / Linux / macOS)
+  - python=3.13
+  - biopython=1.86
+  - pandas=2.3.3
+  - numpy=2.4.0
+  - scipy=1.16.3
+  - matplotlib=3.10.8
+  - networkx=3.6.1
+  - pyyaml=6.0.3
+  - requests>=2.32
+  - blast>=2.15
+  - diamond>=2.1
+  - mafft>=7.5
+  - pytest>=8.0
+  - pip
+  - pip:
+      - tabulate>=0.9
+      - reportlab>=4.0
+  # Optional RNA folding, PCR primer design, and workflow CLI (install via requirements-optional.txt):
+  # - viennarna>=2.7
+  # - primer3-py>=2.0
+  # - snakemake>=9.0
+  # Linux/macOS Bioconda optional external tools (not natively available on Windows 11):
+  # - compleasm=0.2.10  (pulls miniprot + hmmer)
+  # - broccoli=2.0.1    (or compile natively on Windows via Rust 1.99+ x86_64-pc-windows-gnu)

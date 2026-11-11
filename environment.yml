@@ -14,9 +14,6 @@ dependencies:
   - pyyaml>=6.0
   - requests>=2.32
   - networkx>=3.3
-  - primer3-py>=2.0
-  - viennarna>=2.7
-  - snakemake>=9.0
   - blast>=2.15
   - diamond>=2.1
   - mafft>=7.5
@@ -25,3 +22,7 @@ dependencies:
   - pip:
       - reportlab>=4.2
       - tabulate>=0.9
+  # Optional RNAi/workflow extras (also listed in requirements-optional.txt):
+  # - viennarna>=2.7
+  # - primer3-py>=2.0
+  # - snakemake>=9.0

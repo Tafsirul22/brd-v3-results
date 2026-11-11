@@ -1,0 +1,53 @@
+# Broccoli Proteome Recovery & Validation Log — 2026-11-11 09:10:28 UTC
+dest_dir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1.1\stage2_proteome_hydration\hydrated_proteomes
+
+[Bcin_ASM83294v1] DOWNLOADED_AND_VERIFIED raw_sha256=d897d558115de86c1122058d3b58c5cc386f53c1f78dda18376efec407571da7 -> Bcin_ASM83294v1.faa (7,034,175 B, seqs=13749, staged_sha256=6fccfbf667b2c63695f8d2dbc603c24e413db53a47acdd2799c218cdd948ffa2, exact_match=True)
+[Bsor_ND90Pr] DOWNLOADED_AND_VERIFIED raw_sha256=cacc4be7fa1511474f949a7b0eec2ba863faf625ef3a8d49a3feacbabb79f708 -> Bsor_ND90Pr.faa (5,653,448 B, seqs=12210, staged_sha256=2e8783a00d21843ca48f3b5ffc1fc2cf0b4abe486affb8a3cc887ec2acb54c39, exact_match=True)
+[Bsor_Sacc._Shoemaker] DOWNLOADED_AND_VERIFIED raw_sha256=5e4d2cf135d516d6f2ab627a0613d0b13365f32a6c181bfeea0e67ca988944b8 -> Bsor_Sacc._Shoemaker.faa (5,107,801 B, seqs=10755, staged_sha256=583e29570f85cc85797b1b3a6773d6c454dcf9c5ad25d17269e6ccbd1cf740a3, exact_match=True)
+[COMBINED] all_proteomes_combined_v3.faa (18,424,497 B, seqs=36714, species={'Bcin_ASM83294v1': 13749, 'Bsor_ND90Pr': 12210, 'Bsor_Sacc._Shoemaker': 10755}, sha256=b45191ae98961fef4f1e1c67d8486093f21cc392fc00864b88600a7763a39fd1, exact_match=True)
+
+## Broccoli Smoke Test (150 proteins/species) — status=PASSED elapsed=4.31s ogs=13 pairs=17
+Broccoli v2.0.1
+
+ --- STEP 1: k-mer simplification
+ input dir: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1.1\stage2_proteome_hydration\hydrated_proteomes\_broccoli_smoke_v3_1_1\in
+ output dir: .
+ kmer size: 100
+ kmer nb aa: 15
+ 3 input files
+ 450 sequences
+ -> 432 proteins saved for the next step
+
+ --- STEP 2: phylomes
+ e_value: 0.001
+ nb_hits: 6
+ gaps: 0.7
+ phylogenies: nj
+ search: one DIAMOND run per pair of species
+ phylome 1/3: Bcin_ASM83294v1.faa
+ phylome 2/3: Bsor_ND90Pr.faa
+ phylome 3/3: Bsor_Sacc._Shoemaker.faa
+ done
+
+ --- STEP 3: network analysis
+ species overlap: 0.5
+ min edge weight: 0.1
+ min nb hits: 2
+ chimeric edges: 0.5
+ chimeric species: 3
+ extract ortho and para
+ network: 61 nodes, 34 edges
+ load similarity search outputs
+ 29 connected components
+ 29 communities
+ 0 chimeric proteins
+ 0 spurious hits removed
+
+ --- STEP 4: orthologous pairs
+ ratio ortho: 0.5
+ not same sp: false
+ analyse 13 orthologous groups
+ done
+
+
+            Total runtime: 0 min 4 sec

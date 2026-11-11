@@ -1,0 +1,4 @@
+# Optional dependencies for BRD v3.1.1 thermodynamic folding, primer design & Snakemake DAGs
+ViennaRNA>=2.7.0
+primer3-py>=2.0
+snakemake>=9.0

@@ -1,0 +1,54 @@
+suite_version	test_file	test_name	category	optional_python_dep	required_external_data	clean_extraction_immediate_status
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_01_fasta_sequences_match_tsv_v2	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_02_candidate_lengths_and_gc_correct	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_03_target_coordinates_valid_and_substrings	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_04_accessions_traceable_v2	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_05_candidate_ids_match_across_m07_m08_m09_v2	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_06_no_stale_pending_m08	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_07_ranking_values_exact_reproducible	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_08_exact_off_target_matches_reported_and_excluded	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_09_missing_linux_tools_clearly_labelled	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_10_final_report_agrees_with_v2_tsv_and_v1_preserved	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_11_both_orientations_screened_and_all_exact_21mers_reported	Off-target dual-strand validation	none	5 beneficial fungi FASTAs (via hydrate_offtarget_references_v3_1_1.py)	REQUIRES_HYDRATION_RUN
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_12_biological_scoring_rubric_and_expression_exclusion	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v2	11_post_execution_audit/tests/test_audit_v2.py	test_13_filtering_funnel_and_required_deliverables_present	v2 audit regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_fasta_validation_and_stats	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_fasta_duplicate_header_fails	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_gff3_invalid_coords	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_cds_translation_validation	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_nucleotide_conservation_snps_and_kmers	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_pareto_ranking_and_missing_data	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_bootstrap_and_sensitivity	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+core	tests/test_brd.py	test_nucleotide_seq_validator	Core BRD library tests	none	synthetic/self-contained	IMMEDIATE_RUNNABLE
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_portability_no_hardcoded_machine_paths	v3 regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage1_authoritative_invariants	v3 authoritative & genome paths	none	19 B. sorokiniana genomes (via hydrate_inputs_v3_1.py)	REQUIRES_HYDRATION_RUN
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage2_honest_blockers_and_repaired_rbh	v3 regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage3_conservation_math_and_sensitivity	v3 regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage4_expanded_panel_and_selectivity_invariants	v3 off-target selectivity	ViennaRNA (RNA module via stage4 import)	packaged in ZIP	REQUIRES_OPTIONAL_VIENNARNA
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage5_clustering_and_non_overlap	v3 regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage6_pareto_separation_and_reproducibility	v3 regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage7_literature_benchmark_categories	v3 regression	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3	11_post_execution_audit_v3/tests/test_brd_v3.py	test_stage8_report_18_sections_and_hashes	v3 hashes manifest integrity	none	v3 large intermediates (all_proteomes_combined_v3.faa, .dmnd, diamond_all_vs_all_v3.tsv)	BLOCKED_IN_COMPACT_ZIP_BY_DESIGN
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_01_portability_no_hardcoded_user_paths	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_02_optional_viennarna_import_guard	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_03_tool_investigation_and_routes	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_04_n50_l50_synthetic_and_fasta_qc_edge_cases	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_05_stage3_biopython_assembly_qc_19_isolates	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_06_stage4_compleasm_parsers_and_honest_blocker	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_07_stage5_broccoli_v2_outputs_and_rbh_comparison	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_08_stage6_conservation_invariants	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_09_stage7_offtarget_checksums_and_near_positions	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_10_stage8_to_11_coordinates_targets_ranking_and_literature	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1	11_post_execution_audit_v3.1/tests/test_brd_v3_1.py	test_11_stage13_14_17_hydration_manifest_reports_and_hashes	v3.1 regression & validation	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_01_portability_no_hardcoded_machine_paths	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_02a_primer3_absent_optional_graceful_degradation	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_02b_primer3_installed_live_design	v3.1.1 optional Primer3 live	primer3-py	synthetic/self-contained	REQUIRES_OPTIONAL_PRIMER3
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_03_optional_viennarna_absent_import_and_runtime_guard	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_04_stage0_v31_baseline_preserved_and_snapshot_valid	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_05_stage2_proteome_recovery_validation_and_broccoli_rbh	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_06_stage3_offtarget_hydration_validation_and_guards	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_07_assembly_qc_n50_l50_and_conservation_preserved	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_08_candidate_coordinate_audit_consistency	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_09_ranking_pareto_and_bootstrap_preservation	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_10_manifest_completeness_and_verifier_script	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE
+v3.1.1	11_post_execution_audit_v3.1.1/tests/test_brd_v3_1_1.py	test_11_historical_tests_and_clean_env_inventory	v3.1.1 remediation & integrity	none	packaged in ZIP	IMMEDIATE_RUNNABLE

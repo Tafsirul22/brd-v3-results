@@ -1,0 +1,5 @@
+file	species_or_scope	protein_count	unique_id_count	duplicate_id_count	empty_sequence_count	unexpected_aa_chars	size_bytes	sha256	matches_historical_sha256	validation_status
+Bcin_ASM83294v1.faa	Bcin_ASM83294v1	13749	13749	0	0	0	7034175	6fccfbf667b2c63695f8d2dbc603c24e413db53a47acdd2799c218cdd948ffa2	True	PASS
+Bsor_ND90Pr.faa	Bsor_ND90Pr	12210	12210	0	0	0	5653448	2e8783a00d21843ca48f3b5ffc1fc2cf0b4abe486affb8a3cc887ec2acb54c39	True	PASS
+Bsor_Sacc._Shoemaker.faa	Bsor_Sacc._Shoemaker	10755	10755	0	0	0	5107801	583e29570f85cc85797b1b3a6773d6c454dcf9c5ad25d17269e6ccbd1cf740a3	True	PASS
+all_proteomes_combined_v3.faa	Bcin_ASM83294v1:13749;Bsor_ND90Pr:12210;Bsor_Sacc._Shoemaker:10755	36714	36714	0	0	0	18424497	b45191ae98961fef4f1e1c67d8486093f21cc392fc00864b88600a7763a39fd1	True	PASS

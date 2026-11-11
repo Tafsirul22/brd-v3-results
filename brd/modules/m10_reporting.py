@@ -29,19 +29,30 @@ from brd.utils.report_utils import df_to_html_table, wrap_html_report, write_tex
 
 def _collect_software_versions(cfg: BRDConfig) -> pd.DataFrame:
     rows = []
-    # Python libraries
-    import Bio, matplotlib, numpy, pandas, primer3, reportlab, RNA, scipy, snakemake, yaml
+    # Python libraries (optional libraries guarded gracefully if absent)
+    import Bio, matplotlib, numpy, pandas, reportlab, scipy, yaml
+
+    def _opt_ver(mod_name: str) -> tuple[str, str]:
+        try:
+            m = __import__(mod_name)
+            return str(getattr(m, "__version__", "installed")), "Native Windows 11"
+        except ImportError:
+            return "NOT_INSTALLED", "Optional package absent in current environment"
+
+    rna_ver, rna_st = _opt_ver("RNA")
+    snakemake_ver, snakemake_st = _opt_ver("snakemake")
+    primer3_ver, primer3_st = _opt_ver("primer3")
 
     py_libs = [
         ("Python", os.sys.version.split()[0], "https://www.python.org/", "PSF", "Native Windows 11"),
         ("Biopython", Bio.__version__, "https://biopython.org/", "Biopython", "Native Windows 11"),
-        ("ViennaRNA (Python RNA)", RNA.__version__, "https://www.tbi.univie.ac.at/RNA/", "ViennaRNA", "Native Windows 11"),
-        ("Snakemake", snakemake.__version__, "https://snakemake.readthedocs.io/", "MIT", "Native Windows 11"),
+        ("ViennaRNA (Python RNA)", rna_ver, "https://www.tbi.univie.ac.at/RNA/", "ViennaRNA", rna_st),
+        ("Snakemake", snakemake_ver, "https://snakemake.readthedocs.io/", "MIT", snakemake_st),
         ("pandas", pandas.__version__, "https://pandas.pydata.org/", "BSD-3-Clause", "Native Windows 11"),
         ("NumPy", numpy.__version__, "https://numpy.org/", "BSD-3-Clause", "Native Windows 11"),
         ("SciPy", scipy.__version__, "https://scipy.org/", "BSD-3-Clause", "Native Windows 11"),
         ("Matplotlib", matplotlib.__version__, "https://matplotlib.org/", "PSF-based", "Native Windows 11"),
-        ("primer3-py", primer3.__version__, "https://github.com/libnano/primer3-py", "GPL-2.0", "Native Windows 11"),
+        ("primer3-py", primer3_ver, "https://github.com/libnano/primer3-py", "GPL-2.0", primer3_st),
         ("reportlab", reportlab.__version__, "https://www.reportlab.com/", "BSD", "Native Windows 11"),
         ("PyYAML", yaml.__version__, "https://pyyaml.org/", "MIT", "Native Windows 11"),
     ]

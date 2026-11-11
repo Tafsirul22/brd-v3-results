@@ -1,0 +1,47 @@
+# Off-Target Reference Hydration & Verification Log — 2026-11-11 09:21:09 UTC
+metadata_source: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1\stage7_offtarget\offtarget_reference_metadata.tsv
+dest_root: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit_v3.1.1\stage3_offtarget_hydration\references
+requested_references: 18 | verify_only=True | force_download=False
+
+[PASS] Triticum_aestivum_IWGSC_v2_1 (GCF_018294505.1) transcript: 505,621,758 B, seqs=221398, sha256=a97ead15956f1fc30d2a1e76085e28d595c47c1293a902d399efa3a0925a5b94 (ALREADY_PRESENT)
+[PASS] Hordeum_vulgare_MorexV3 (GCF_904849725.1) transcript: 105,657,223 B, seqs=63294, sha256=065db12163543fc68f018b6c72e7fa4a352b02d27270e5ffcf711d53e68b5efa (ALREADY_PRESENT)
+[PASS] Oryza_sativa_AGIS1 (GCF_034140825.1) transcript: 115,778,255 B, seqs=55675, sha256=47e1568777b0e259393588a0e36335fff9f61034cf9cbd70d8ce3712be63bba9 (ALREADY_PRESENT)
+[PASS] Oryza_sativa_AGIS1 (GCF_034140825.1) genome: 391,168,144 B, seqs=15, sha256=8291d446c4d52e071cc0ee573cb48703bfe01557448cab70b911b2e6425090ac (ALREADY_PRESENT)
+[PASS] Zea_mays_B73_NAM5 (GCF_902167145.1) transcript: 172,137,852 B, seqs=76549, sha256=20185af91f5da598fc36327781f162d4efb3c8c3b4f373559d349db6fead19d2 (ALREADY_PRESENT)
+[PASS] Trichoderma_atroviride_IMI206040 (GCF_000171015.1) transcript: 20,452,873 B, seqs=11807, sha256=6f897118804e5641c2fa628fd66bf352c637ba26e8eb6b14d9bea9da755d7590 (ALREADY_PRESENT)
+[PASS] Trichoderma_atroviride_IMI206040 (GCF_000171015.1) genome: 36,598,802 B, seqs=29, sha256=9ba50f87098a8ccf2caa2e10dba824cd3cf995f519266cfee398fc563f211d7b (ALREADY_PRESENT)
+[PASS] Trichoderma_virens_Gv29_8 (GCF_000170995.1) transcript: 20,188,278 B, seqs=12383, sha256=36b294588818955b28fab76b1879081a735e5d42f4a04c0d68ccbbff34de8512 (ALREADY_PRESENT)
+[PASS] Trichoderma_virens_Gv29_8 (GCF_000170995.1) genome: 39,520,623 B, seqs=93, sha256=cc3ee23f795c8b97d0f2c464b66a0eb59e9d1fa6858931b2a448b346b283a26f (ALREADY_PRESENT)
+[PASS] Trichoderma_reesei_QM6a (GCF_000167675.1) transcript: 15,240,737 B, seqs=9111, sha256=69131e4a2cb0b320d53c9c06a27bfbffee388ff0905d8af83d796da82b75c08a (ALREADY_PRESENT)
+[PASS] Trichoderma_reesei_QM6a (GCF_000167675.1) genome: 33,821,964 B, seqs=77, sha256=22e4ada3caad53f5407ca4b098ca51f84e83c664ba0b606add5162274355bb2b (ALREADY_PRESENT)
+[PASS] Trichoderma_harzianum_CBS226_95 (GCF_003025095.1) transcript: 22,322,953 B, seqs=14065, sha256=b734097d154d8b4edd086083830d905dd08f7664f4a2ae682ea341f4dd3e5fc9 (ALREADY_PRESENT)
+[PASS] Trichoderma_harzianum_CBS226_95 (GCF_003025095.1) genome: 41,558,493 B, seqs=532, sha256=e7f643e98f3f9acd9eab4a8322722e64974ebb46f2c44bd62906a98f6ed58ea3 (ALREADY_PRESENT)
+[PASS] Beauveria_bassiana_ARSEF2860 (GCF_000280675.1) transcript: 16,799,462 B, seqs=10364, sha256=5abb7a4f5d999c0595fe5245a372f465b6eb29f9b2ca4c11965ecb0c73cbee68 (ALREADY_PRESENT)
+[PASS] Beauveria_bassiana_ARSEF2860 (GCF_000280675.1) genome: 34,146,143 B, seqs=237, sha256=5964d42e379ac6f864b0b44cbeecea40fe12caa60a1dadcb5d4d645e85baaf85 (ALREADY_PRESENT)
+[PASS] Metarhizium_anisopliae_RefSeq (GCF_039654215.1) transcript: 17,595,049 B, seqs=12746, sha256=674aedc9d47e099329f2da568af48a8f6daa9a74a10488a89b83a4b4752b7b14 (ALREADY_PRESENT)
+[PASS] Metarhizium_anisopliae_RefSeq (GCF_039654215.1) genome: 40,046,045 B, seqs=28, sha256=397c98906e0ca052b6f2fbd0f2465ce7fd4114c51414c799509dc4bf6ca4887e (ALREADY_PRESENT)
+[PASS] Metarhizium_robertsii_ARSEF2575 (GCA_000591435.1) transcript: 20,839,997 B, seqs=12384, sha256=3c7754afc092b3c9d4d9feec4ee2a5945e0d1f2a7361dd8e8418e4ae9ddc4261 (ALREADY_PRESENT)
+[PASS] Metarhizium_robertsii_ARSEF2575 (GCA_000591435.1) genome: 40,857,042 B, seqs=367, sha256=7f959ae410393e7393b821b332aff5d35066379239d80718ee1b8ece42dd5155 (ALREADY_PRESENT)
+[PASS] Rhizophagus_irregularis_A1 (GCA_002897155.2) transcript: 68,520,407 B, seqs=50073, sha256=6901b4b282d76b06ec04903d89324b8a26b9c81d88697ed0f805c671cca0e1ae (ALREADY_PRESENT)
+[PASS] Rhizophagus_irregularis_A1 (GCA_002897155.2) genome: 151,641,953 B, seqs=210, sha256=8585839c7ac24b33fceb23dad62d4567542b725f344be2d4ba4a16a18577ca72 (ALREADY_PRESENT)
+[PASS] Rhizophagus_clarus_HR1 (GCA_003203555.1) transcript: 37,763,803 B, seqs=27761, sha256=4cf0677d76376c51a0942db3b35636d3dba42c5f4a7e6f41e27ae5ba561fb2af (ALREADY_PRESENT)
+[PASS] Rhizophagus_clarus_HR1 (GCA_003203555.1) genome: 118,295,342 B, seqs=4424, sha256=051104338da340136a35bdcba0461a9b2f035a40db744a99a8dafddd801fd40f (ALREADY_PRESENT)
+[PASS] Bacillus_subtilis_168 (GCF_000009045.1) transcript: 5,318,215 B, seqs=4237, sha256=a69e6ead19f674d211e5f2b397adaa49053220e35a46ded83e55fa0a0cfb1d57 (ALREADY_PRESENT)
+[PASS] Bacillus_subtilis_168 (GCF_000009045.1) genome: 4,268,374 B, seqs=1, sha256=59c09816fb55fb1a0b42d0715f627bb42018a19c6bf933c9cb37f6058ee4737e (ALREADY_PRESENT)
+[PASS] Bacillus_velezensis_FZB42_grp (GCF_000508125.2) transcript: 4,205,545 B, seqs=3732, sha256=d3813d340a374c152b8ad82724d14e014e5058b8e1b577ddbb7cbc50c0298f2a (ALREADY_PRESENT)
+[PASS] Bacillus_velezensis_FZB42_grp (GCF_000508125.2) genome: 3,943,297 B, seqs=1, sha256=7ff9dc4a922f550495330b8cecc3b6f455985b0a5ec98ba5e9f14c036a482599 (ALREADY_PRESENT)
+[PASS] Pseudomonas_fluorescens_ATCC13525 (GCF_900215245.1) transcript: 7,129,609 B, seqs=5916, sha256=2d8b7599d7fabc36a74fcc9395393077b423afcdd5da921a451158dbe416ca67 (ALREADY_PRESENT)
+[PASS] Pseudomonas_fluorescens_ATCC13525 (GCF_900215245.1) genome: 6,593,012 B, seqs=1, sha256=faf3fd2c49be0acc9d3a489c088694fdfb1585513725def99538d6334a18d25d (ALREADY_PRESENT)
+[PASS] Pseudomonas_putida_RefSeq (GCF_000412675.1) transcript: 6,715,429 B, seqs=5471, sha256=a566077e0bc395efcd39f7b9d30984e6db6106127836313de9f6ef9eb73c0f2b (ALREADY_PRESENT)
+[PASS] Pseudomonas_putida_RefSeq (GCF_000412675.1) genome: 6,233,722 B, seqs=1, sha256=dfa90764f9e0ff066c6b2321b7943bd2aead34d5575b50514a5c9dec3b6d49a8 (ALREADY_PRESENT)
+[PASS] Bipolaris_sorokiniana_ND90Pr_self (GCF_000338995.1) transcript: 20,359,143 B, seqs=12210, sha256=f9826c27afffc2f3966ab6b57f8294656587a15624102c5947d5d27e7491975c (ALREADY_PRESENT)
+[PASS] Bipolaris_sorokiniana_ND90Pr_self (GCF_000338995.1) genome: 34,857,722 B, seqs=154, sha256=49fbce6f0a19cff79ca6754f171f9b86a7b5e46721ef62c2c68bc3ed20d8ec81 (ALREADY_PRESENT)
+
+## Combined Screening DB Rebuild: records=615346, bytes=2,188,885,191, blastdb_status=BUILT_OK (smoke_representative_panel.fna); blastn_smoke_hits=102
+## Off-Target Screening Smoke Test: refs=33, pos(BRD_CsFUS3_CAND001)=26, clean(BRD_CsSTE11_CAND013)=0, invariant_ok=True
+  - Trichoderma_atroviride_IMI206040(transcript): observed_pos_hits=11, v31_expected_rows=11
+  - Trichoderma_atroviride_IMI206040(genome): observed_pos_hits=11, v31_expected_rows=11
+  - Rhizophagus_irregularis_A1(transcript): observed_pos_hits=1, v31_expected_rows=1
+  - Rhizophagus_irregularis_A1(genome): observed_pos_hits=1, v31_expected_rows=1
+  - Rhizophagus_clarus_HR1(transcript): observed_pos_hits=1, v31_expected_rows=1
+  - Rhizophagus_clarus_HR1(genome): observed_pos_hits=1, v31_expected_rows=1

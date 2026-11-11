@@ -1,0 +1,5 @@
+metric	count	total	details
+candidates_with_recorded_coordinate_assignments	50	50	All 50/50 carry 1-based inclusive CDS span [cds_start_1based, cds_end_1based], refseq_mrna_id, and strand
+candidates_matching_contiguous_authoritative_cds_substrings	49	50	49/50 match ND90Pr CDS substrings in BRD_Target_Gene_Sequences.fasta with 0 mismatches
+candidates_stitched_or_synthetic_constructs	1	50	1/50: BRD_CsSTE11_CAND009 (dsRNAmax, genomic_start=-1, 1 mismatches vs CsSTE11 1..300)
+candidates_with_unresolved_coordinate_mapping	0	50	0/50 unresolved (all 50 explicitly accounted for without altering any candidate sequence)

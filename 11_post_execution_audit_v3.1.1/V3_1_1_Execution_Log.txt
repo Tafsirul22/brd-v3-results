@@ -1,0 +1,9 @@
+# BRD v3.1.1 Master Execution Log — 2026-11-11 09:28:31 UTC
+Python: 3.13.14 | OS: Windows-11-10.0.26300-SP0
+Stage 0: Inspected 11_post_execution_audit_v3.1.zip (8,089,873 B, sha256=bd05ecc6fc8553ee99687020863e2008e1d1477e99f7e0e92299d09748b30066, CRC=None, 340 entries)
+Stage 1 (Fix 1): Guarded primer3/RNA/sifi21_plus in brd/integrations/lucid.py, m07_dsRNA_design.py, m10_reporting.py; split requirements.txt vs requirements-optional.txt
+Stage 2 (Fix 2): Hydrated & reconstructed all 4 Broccoli proteome files (36,714 proteins, 4/4 historical SHA-256 exact match, smoke test PASSED)
+Stage 3 (Fix 3): Hydrated & SHA-256 verified all 18/18 off-target panel organisms (33/33 FASTAs PASS, 0 failed), rebuilt smoke DB & ran 21-mer/BLASTn smoke test
+Stage 4 (Fix 4): Restored relative-path v2/v3/core/v3.1/v3.1.1 suites (53 tests inventoried in V3_1_1_Test_Inventory.tsv)
+Stage 6 (Fix 6): Coordinate audit verified 50/50 recorded = 49/50 contiguous CDS + 1/50 synthetic stitched (BRD_CsSTE11_CAND009) + 0/50 unresolved
+PDF Engine: Edge_headless (300041 B)

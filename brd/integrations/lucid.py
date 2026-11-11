@@ -3,18 +3,22 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Dict, List
+from typing import Any, Dict, List
 
 import numpy as np
 import pandas as pd
-import primer3
 from Bio import SeqIO, SeqUtils
 from Bio.Seq import Seq
 
 try:
+    import primer3
+except ImportError:
+    primer3 = None  # Optional dependency: primer3-py
+
+try:
     import RNA
 except ImportError:
-    RNA = None
+    RNA = None  # Optional dependency: ViennaRNA
 
 # Compatibility shim for sifi21_plus on Biopython >= 1.82 where Bio.SeqUtils.GC was removed
 if not hasattr(SeqUtils, "GC") and hasattr(SeqUtils, "gc_fraction"):
@@ -25,12 +29,26 @@ try:
 except ImportError:
     free_energy = None
 
+PRIMER3_AVAILABLE: bool = primer3 is not None
+VIENNARNA_AVAILABLE: bool = RNA is not None
+SIFI21_AVAILABLE: bool = free_energy is not None
+
+
+def is_primer3_available() -> bool:
+    """Return True if optional `primer3-py` (`primer3`) is available."""
+    return primer3 is not None
+
 
 def compute_unpaired_probs(dna_seq: str, temperature: float = 22.0, window: int = 8) -> np.ndarray:
     """
     Compute per-nucleotide unpaired probability profile using ViennaRNA 2.8.0 partition function
     (sliding 80-nt chunks for long transcripts like CsPKS1 to mirror RNAplfold -W 80 -L 40 at 22C).
     """
+    if RNA is None:
+        raise RuntimeError(
+            "Optional dependency 'ViennaRNA' ('RNA' module) is not installed. "
+            "Install it via `pip install ViennaRNA>=2.7.0` to compute RNA accessibility profiles."
+        )
     rna_seq = dna_seq.upper().replace("T", "U")
     n = len(rna_seq)
     md = RNA.md()
@@ -88,6 +106,11 @@ def score_sirnas_lucid_sifi21(
       3. Terminal S1/S19 base asymmetry rules (lines 528-552 of sifiPipeline.py)
       4. Target-site accessibility (ViennaRNA unpaired probability >= 0.1)
     """
+    if free_energy is None:
+        raise RuntimeError(
+            "Optional package 'sifi21_plus' is not installed in the Python environment. "
+            "Install sifi21_plus from Brunxi/LUCID to run LUCID thermodynamic scoring."
+        )
     seq = dna_seq.upper()
     n = len(seq)
     unpaired = compute_unpaired_probs(seq, temperature=22.0, window=accessibility_window)
@@ -151,6 +174,42 @@ def score_sirnas_lucid_sifi21(
     return pd.DataFrame(rows)
 
 
+def design_amplification_primers(
+    target_name: str,
+    subseq: str,
+    start_0based: int,
+    end_1based: int,
+    wlen: int,
+) -> Dict[str, Any]:
+    """Design PCR primers for a dsRNA window using optional `primer3-py`."""
+    if primer3 is None:
+        raise RuntimeError(
+            "Optional dependency 'primer3-py' ('primer3' module) is not installed. "
+            "Install it via `pip install primer3-py>=2.0` to enable dsRNA PCR amplification primer design."
+        )
+    p_min = max(150, wlen - 30)
+    p_max = wlen
+    primers = primer3.bindings.design_primers(
+        seq_args={"SEQUENCE_ID": f"{target_name}_{start_0based + 1}_{end_1based}", "SEQUENCE_TEMPLATE": subseq},
+        global_args={
+            "PRIMER_OPT_SIZE": 20,
+            "PRIMER_MIN_SIZE": 18,
+            "PRIMER_MAX_SIZE": 25,
+            "PRIMER_OPT_TM": 60.0,
+            "PRIMER_MIN_TM": 57.0,
+            "PRIMER_MAX_TM": 63.0,
+            "PRIMER_MIN_GC": 20.0,
+            "PRIMER_MAX_GC": 80.0,
+            "PRIMER_PRODUCT_SIZE_RANGE": [[p_min, p_max]],
+            "PRIMER_NUM_RETURN": 1,
+        },
+    )
+    lp = primers.get("PRIMER_LEFT_0_SEQUENCE", "")
+    rp = primers.get("PRIMER_RIGHT_0_SEQUENCE", "")
+    psize = primers.get("PRIMER_PAIR_0_PRODUCT_SIZE", "")
+    return {"primer_left": lp or "NA", "primer_right": rp or "NA", "expected_amplicon_bp": psize or ""}
+
+
 def design_lucid_windows(
     target_name: str,
     dna_seq: str,
@@ -158,8 +217,14 @@ def design_lucid_windows(
     max_len: int = 400,
     step_len: int = 50,
     step_pos: int = 25,
+    design_primers: bool = True,
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Run LUCID/sifi21_plus siRNA efficiency profiling and select optimal accessible windows + Primer3 primers."""
+    """Run LUCID/sifi21_plus siRNA efficiency profiling and select optimal accessible windows (+ optional Primer3 primers)."""
+    if design_primers and primer3 is None:
+        raise RuntimeError(
+            "Optional dependency 'primer3-py' ('primer3' module) is not installed. "
+            "Install it via `pip install primer3-py>=2.0` or call `design_lucid_windows(..., design_primers=False)`."
+        )
     sirna_df = score_sirnas_lucid_sifi21(dna_seq)
     seq_len = len(dna_seq)
     eff_vec = np.zeros(seq_len, dtype=float)
@@ -188,27 +253,16 @@ def design_lucid_windows(
             subseq = dna_seq[start:end].upper()
             gc = (subseq.count("G") + subseq.count("C")) / len(subseq) * 100.0
 
-            # Primer3 amplification design (LUCID PHASE2_dsrna.sh settings adapted for window length)
-            p_min = max(150, wlen - 30)
-            p_max = wlen
-            primers = primer3.bindings.design_primers(
-                seq_args={"SEQUENCE_ID": f"{target_name}_{start+1}_{end}", "SEQUENCE_TEMPLATE": subseq},
-                global_args={
-                    "PRIMER_OPT_SIZE": 20,
-                    "PRIMER_MIN_SIZE": 18,
-                    "PRIMER_MAX_SIZE": 25,
-                    "PRIMER_OPT_TM": 60.0,
-                    "PRIMER_MIN_TM": 57.0,
-                    "PRIMER_MAX_TM": 63.0,
-                    "PRIMER_MIN_GC": 20.0,
-                    "PRIMER_MAX_GC": 80.0,
-                    "PRIMER_PRODUCT_SIZE_RANGE": [[p_min, p_max]],
-                    "PRIMER_NUM_RETURN": 1,
-                },
-            )
-            lp = primers.get("PRIMER_LEFT_0_SEQUENCE", "")
-            rp = primers.get("PRIMER_RIGHT_0_SEQUENCE", "")
-            psize = primers.get("PRIMER_PAIR_0_PRODUCT_SIZE", "")
+            # Optional Primer3 amplification design (LUCID PHASE2_dsrna.sh settings adapted for window length)
+            if design_primers:
+                p_info = design_amplification_primers(target_name, subseq, start, end, wlen)
+                lp = p_info["primer_left"]
+                rp = p_info["primer_right"]
+                psize = p_info["expected_amplicon_bp"]
+            else:
+                lp = "NA"
+                rp = "NA"
+                psize = ""
 
             win_rows.append(
                 {
@@ -222,9 +276,9 @@ def design_lucid_windows(
                     "efficient_sirnas": n_eff,
                     "efficient_sirna_fraction": round(eff_frac, 4),
                     "mean_accessibility": round(mean_acc, 4),
-                    "primer_left": lp or "NA",
-                    "primer_right": rp or "NA",
-                    "expected_amplicon_bp": psize or "",
+                    "primer_left": lp,
+                    "primer_right": rp,
+                    "expected_amplicon_bp": psize,
                     "sequence": subseq,
                 }
             )

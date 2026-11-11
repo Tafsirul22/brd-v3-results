@@ -1,0 +1,17 @@
+# Mandatory core Python dependencies for BRD v3.1.1 (no import crashes when optional packages are absent)
+biopython==1.86
+matplotlib==3.10.8
+networkx==3.6.1
+numpy==2.4.0
+pandas==2.3.3
+PyYAML==6.0.3
+requests>=2.32
+scipy==1.16.3
+tabulate>=0.9,<1.0
+reportlab>=4.0,<5.0
+pytest>=8.0
+
+# Optional packages (see requirements-optional.txt):
+#   ViennaRNA>=2.7.0   # Optional thermodynamic folding & RNAplfold (required by v3 stage4 test & LUCID RNA accessibility)
+#   primer3-py>=2.0    # Optional PCR primer design in brd.integrations.lucid (guarded via PRIMER3_AVAILABLE)
+#   snakemake>=9.0     # Optional workflow orchestration CLI

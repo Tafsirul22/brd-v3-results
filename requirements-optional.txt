@@ -1,0 +1,4 @@
+# Optional dependencies enabling thermodynamic folding, PCR primer design, and Snakemake CLI
+ViennaRNA>=2.7.0
+primer3-py>=2.0
+snakemake>=9.0
