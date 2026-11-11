@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "purpose": "Evidence-based biological target prioritisation rubric for Bipolaris sorokiniana targets, strictly separating experimentally demonstrated evidence, curated database homology, genomic conservation, and verification confidence, while reporting RNA-seq expression as a separate uncombined variable.",
+  "expression_exclusion_rationale": {
+    "v1_flawed_formula": "min(1.0, inplanta_max_rpkm / 150.0)",
+    "audit_findings": [
+      "Original M05 took max RPKM across all sample columns including mock/non-inoculated/early root samples (1A, 2A, 2B, 3A, 4A) containing only 1,921-3,808 total mapped fungal reads over 148-213 genes.",
+      "In that dataset, CsSp1 inplanta_max_rpkm = 1438.44 arose from 1 single raw read in 3A_I on a 322-nt transcript, and CsSTE11 87.63 RPKM arose from 1 single raw read in 2B_III.",
+      "Across well-sequenced in-planta samples (3B, 4B, 5B; 107,929-578,376 fungal reads, >8,200 expressed genes), target RPKMs are right-skewed (3B/4B/5B means: CsSp1=79.30, CsFUS3=62.53, CsSTE11=22.12, CsPKS1=13.19) and cover only ND90Pr barley root infection rather than wheat spot blotch.",
+      "Arbitrary normalization by 150.0 lacks statistical justification across skewed fungal RPKMs (genome 99th percentile >700 RPKM, max >21,900 RPKM)."
+    ],
+    "decision": "Exclude RNA-seq expression from BOTH the biological target composite score and M09 candidate composite score; retain raw mapped read counts, filtered 3B/4B/5B in-planta RPKM, axenic RPKM, fold-induction, and empirical GSE130517 transcriptome percentile rank as explicit separate evidence columns."
+  },
+  "criteria": [
+    {
+      "criterion_id": "pathogenicity_experimental_evidence",
+      "weight": 0.35,
+      "max_points": 3,
+      "evidence_category": "Experimentally_demonstrated_B_sorokiniana_phenotype",
+      "rubric": {
+        "3": "Direct targeted gene knockout/disruption in B. sorokiniana demonstrating loss or statistically significant attenuation of host plant pathogenicity",
+        "2": "Direct B. sorokiniana silencing/perturbation showing developmental defect linked to infection structures without direct virulence assay confirmation",
+        "1": "Direct B. sorokiniana perturbation (e.g., hairpin RNAi) affecting secondary trait (melanin/pigmentation) with unaffected pathogenicity documented in PHI-base",
+        "0": "No direct B. sorokiniana functional perturbation reported"
+      }
+    },
+    {
+      "criterion_id": "comparative_pathogenicity_and_essentiality_evidence",
+      "weight": 0.20,
+      "max_points": 3,
+      "evidence_category": "Curated_database_and_computational_domain_evidence",
+      "rubric": {
+        "plus_1_phibase_virulence": "+1 if PHI-base v4.19 DIAMOND hit (E < 1e-5) explicitly carries 'loss_of_pathogenicity' or 'reduced_virulence' phenotype (0 if unaffected_pathogenicity or absent)",
+        "plus_1_deg_essential": "+1 if DEG essential-gene database DIAMOND hit detected (E < 1e-5) in M05 output",
+        "plus_1_interpro_domains": "+1 if >= 1 annotated functional domain present in M05 InterProScan/REST output"
+      }
+    },
+    {
+      "criterion_id": "isolate_homolog_and_cds_conservation",
+      "weight": 0.25,
+      "max_points": 1.0,
+      "evidence_category": "Multi_isolate_comparative_genomics_prediction",
+      "rubric": {
+        "formula": "0.40 * (isolates_with_detected_homolog / isolates_searched) + 0.30 * (isolates_with_complete_cds / isolates_searched) + 0.30 * (mean_21mer_isolate_conservation_19_pct / 100.0)"
+      }
+    },
+    {
+      "criterion_id": "target_verification_and_evidence_confidence",
+      "weight": 0.20,
+      "max_points": 4,
+      "evidence_category": "Sequence_and_identifier_traceability",
+      "rubric": {
+        "plus_1_refseq_model": "+1 if mapped to intact RefSeq GCF_000338995.1 gene model (0 internal stops, verified CDS translation matching protein.faa)",
+        "plus_1_independent_accession_or_curated_symbol": "+1 if backed by an independent GenBank nuccore gene record (HQ830033.1) or curated named gene/PHI-base B. sorokiniana/maydis entry (0 for unnamed RefSeq locus resolved solely via primers)",
+        "plus_1_published_primer_or_full_clone": "+1 if >=3 published experimental primers align across locus/CDS (or 100% full-length cloned sequence match HQ830033.1)",
+        "plus_1_protein_family_congruence": "+1 if UniProt + InterPro family domains independently match published biochemical class"
+      }
+    }
+  ],
+  "biological_vs_dsrna_rule": "Absence of a clean dsRNA candidate reflects sequence conservation with non-targets or short CDS constraints, NOT low biological pathogenicity importance."
+}

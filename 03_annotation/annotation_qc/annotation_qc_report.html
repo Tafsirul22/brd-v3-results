@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRD M03 — Annotation Harmonisation &amp; Validation</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>BRD M03 — Annotation Harmonisation &amp; Validation</h1>
+<div class="subtitle">GCF_000338995.1 &amp; Isolate Panel</div>
+<h2>Primary Reference Annotation QC (GCF_000338995.1 / ND90Pr)</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>metric</th>
+      <th>value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>GFF3 genes parsed</td>
+      <td>12302</td>
+    </tr>
+    <tr>
+      <td>GFF3 mRNAs parsed</td>
+      <td>12210</td>
+    </tr>
+    <tr>
+      <td>GFF3 orphan mRNAs</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GFF3 structural errors</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Total CDS evaluated</td>
+      <td>12210</td>
+    </tr>
+    <tr>
+      <td>Complete CDS (ATG..stop, mod3, 0 internal stops)</td>
+      <td>11433</td>
+    </tr>
+    <tr>
+      <td>CDS translations 100% matching protein.faa</td>
+      <td>12202</td>
+    </tr>
+    <tr>
+      <td>CDS with internal stops</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>Funannotate status</td>
+      <td>NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)</td>
+    </tr>
+    <tr>
+      <td>BRAKER3 status</td>
+      <td>NOT_RUN_LINUX_ONLY (requires Linux + GeneMark-ES/ETP license + AUGUSTUS)</td>
+    </tr>
+  </tbody>
+</table><h2>Isolate Panel Annotation Inventory</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>isolate_id</th>
+      <th>assembly_accession</th>
+      <th>has_gff3</th>
+      <th>has_protein_faa</th>
+      <th>annotation_strategy</th>
+      <th>notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1</td>
+      <td>True</td>
+      <td>True</td>
+      <td>REUSED_PRIMARY_REFSEQ_JGI</td>
+      <td>GFF errors=0, orphan_mRNAs=0, CDS exact protein match=12202/12210</td>
+    </tr>
+    <tr>
+      <td>LK93</td>
+      <td>GCA_024722535.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>ND93-1</td>
+      <td>GCA_033006315.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>WAI2406</td>
+      <td>GCA_008452705.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>BRIP10943a</td>
+      <td>GCA_008452735.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>BRIP27492a</td>
+      <td>GCA_008452725.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>WAI2411</td>
+      <td>GCA_008452715.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>Yt-6</td>
+      <td>GCA_037974985.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>BS112</td>
+      <td>GCA_004329375.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>MP_1261</td>
+      <td>GCA_055473645.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>SEED_28</td>
+      <td>GCA_055473875.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>Black</td>
+      <td>GCA_055473695.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>RAJ_3972</td>
+      <td>GCA_055473735.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>HD_3091</td>
+      <td>GCA_055473755.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>DDK_1025</td>
+      <td>GCA_055473625.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>HI_1538</td>
+      <td>GCA_055473675.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>RAJ_3705</td>
+      <td>GCA_055473715.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>KO_5803</td>
+      <td>GCA_055473775.1</td>
+      <td>False</td>
+      <td>False</td>
+      <td>UNANNOTATED_GENOME_LINUX_TOOL_REQUIRED_FOR_FULL_GFF</td>
+      <td>Funannotate/BRAKER3 require Linux/WSL2 (NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)); M04 maps target loci directly via tblastn+blastn exon alignment.</td>
+    </tr>
+    <tr>
+      <td>Sacc._Shoemaker</td>
+      <td>GCA_013416765.1</td>
+      <td>True</td>
+      <td>True</td>
+      <td>REUSED_GENBANK_ANNOTATION</td>
+      <td>Public GenBank structural annotation retained; proteomes included in M04 comparative genomics.</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

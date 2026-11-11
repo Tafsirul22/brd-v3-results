@@ -1,0 +1,30 @@
+target	accession	database	organism	strain_or_isolate	length_bp	cds_length_bp	protein_id	description	status
+CsPKS1	HQ830033.1	NCBI nuccore	Bipolaris sorokiniana	ND90Pr	6862	6462	AER36016.1	Cochliobolus sativus isolate ND90Pr polyketide synthase (PKS1) gene, complete cds	Verified
+CsPKS1	KF769134.1	NCBI nuccore	Bipolaris sorokiniana	WPB-23	706	706	AHF22408.1	Bipolaris sorokiniana strain WPB-23 polyketide synthase (PKS1) gene, partial cds	Verified
+CsPKS1	KF769135.1	NCBI nuccore	Bipolaris sorokiniana	WPB-24	442	442	AHF22409.1	Bipolaris sorokiniana strain WPB-24 polyketide synthase (PKS1) gene, partial cds	Verified
+CsPKS1	KF769136.1	NCBI nuccore	Bipolaris sorokiniana	WPB-18	466	466	AHF22410.1	Bipolaris sorokiniana strain WPB-18 polyketide synthase (PKS1) gene, partial cds	Verified
+CsPKS1	KF769137.1	NCBI nuccore	Bipolaris sorokiniana	WPM-29	571	571	AHF22411.1	Bipolaris sorokiniana strain WPM-29 polyketide synthase (PKS1) gene, partial cds	Verified
+CsPKS1	KF769138.1	NCBI nuccore	Bipolaris sorokiniana	WPM-39	716	716	AHF22412.1	Bipolaris sorokiniana strain WPM-39 polyketide synthase (PKS1) gene, partial cds	Verified
+CsPKS1	KF769139.1	NCBI nuccore	Bipolaris sorokiniana	WPW-1	449	449	AHF22413.1	Bipolaris sorokiniana strain WPW-1 polyketide synthase (PKS1) gene, partial cds	Verified
+CsPKS1	KF769140.1	NCBI nuccore	Bipolaris sorokiniana	WPW-2	699	699	AHF22414.1	Bipolaris sorokiniana strain WPW-2 polyketide synthase (PKS1) gene, partial cds	Verified
+CsPKS1	KF769141.1	NCBI nuccore	Bipolaris sorokiniana	WPR4(87)	441	441	AHF22415.1	Bipolaris sorokiniana strain WPR4(87) polyketide synthase (PKS1) gene, partial cds	Verified
+Genome_Panel	GCA_000338995.1	NCBI Assembly	Bipolaris sorokiniana ND90Pr	ND90Pr	34409167	12308		Scaffold assembly (Unknown)	Excluded (Paired GenBank representation of GCF_000338995.1 (ND90Pr); excluded to prevent duplicate isolate counting.)
+Genome_Panel	GCF_000338995.1	NCBI Assembly	Bipolaris sorokiniana ND90Pr	ND90Pr	34409167	12304		Scaffold assembly (Unknown)	Included
+Genome_Panel	GCA_024722535.1	NCBI Assembly	Bipolaris sorokiniana	LK93	36231650	0		Chromosome assembly (China: lankao)	Included
+Genome_Panel	GCA_033006315.1	NCBI Assembly	Bipolaris sorokiniana	ND93-1	36481130	0		Chromosome assembly (USA: North Dakota, Walsh County)	Included
+Genome_Panel	GCA_008452705.1	NCBI Assembly	Bipolaris sorokiniana	WAI2406	36886791	0		Chromosome assembly (Australia: Nyngan, NSW)	Included
+Genome_Panel	GCA_008452735.1	NCBI Assembly	Bipolaris sorokiniana	BRIP10943a	36921586	0		Chromosome assembly (Australia: Hermitage, Queensland)	Included
+Genome_Panel	GCA_008452725.1	NCBI Assembly	Bipolaris sorokiniana	BRIP27492a	35237195	0		Chromosome assembly (Australia: Esperance, Western Australia)	Included
+Genome_Panel	GCA_008452715.1	NCBI Assembly	Bipolaris sorokiniana	WAI2411	36241382	0		Chromosome assembly (Australia: Tamworth, NSW)	Included
+Genome_Panel	GCA_037974985.1	NCBI Assembly	Bipolaris sorokiniana	Yt-6	38203168	0		Contig assembly (China:Zhangjiakou)	Included
+Genome_Panel	GCA_004329375.1	NCBI Assembly	Bipolaris sorokiniana	BS112	37377538	0		Contig assembly (India: Banaras, Varanasi)	Included
+Genome_Panel	GCA_055473645.1	NCBI Assembly	Bipolaris sorokiniana	MP 1261	34559370	0		Contig assembly (India:Jabalpur)	Included
+Genome_Panel	GCA_055473875.1	NCBI Assembly	Bipolaris sorokiniana	SEED 28	33791953	0		Contig assembly (India:Pune)	Included
+Genome_Panel	GCA_055473695.1	NCBI Assembly	Bipolaris sorokiniana	Black	34162547	0		Contig assembly (India:Varanasi)	Included
+Genome_Panel	GCA_055473735.1	NCBI Assembly	Bipolaris sorokiniana	RAJ 3972	34174932	0		Contig assembly (India:Durgapura)	Included
+Genome_Panel	GCA_055473755.1	NCBI Assembly	Bipolaris sorokiniana	HD 3091	33436606	0		Scaffold assembly (India:New Delhi)	Included
+Genome_Panel	GCA_055473625.1	NCBI Assembly	Bipolaris sorokiniana	DDK 1025	34279400	0		Contig assembly (India:Dharwad)	Included
+Genome_Panel	GCA_055473675.1	NCBI Assembly	Bipolaris sorokiniana	HI 1538	32863758	0		Contig assembly (India:Indore)	Included
+Genome_Panel	GCA_055473715.1	NCBI Assembly	Bipolaris sorokiniana	RAJ 3705	33173017	0		Scaffold assembly (India:Durgapura)	Included
+Genome_Panel	GCA_055473775.1	NCBI Assembly	Bipolaris sorokiniana	KO 5803	32416094	0		Contig assembly (India:Varanasi)	Included
+Genome_Panel	GCA_013416765.1	NCBI Assembly	Bipolaris sorokiniana	(Sacc.) Shoemaker	34329637	10755		Scaffold assembly (China:Gansu)	Included

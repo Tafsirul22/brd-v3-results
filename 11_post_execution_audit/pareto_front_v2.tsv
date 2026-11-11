@@ -1,0 +1,12 @@
+final_rank_v2	candidate_id	target	tool_name	candidate_length_nt	conservation_pct	off_target_safety_score_v2	target_evidence_score	guide_quality_score	composite_score_v2	passes_computational_filters_v2	overall_off_target_classification_v2	computational_priority_category_v2
+1	BRD_CsSTE11_CAND012	CsSTE11	BRD_IsolateAware	180	100.0	0.915	0.9866	0.6063	0.917	True	Low_Near_Guide_Similarity_Only	High computational priority
+7	BRD_CsPKS1_CAND010	CsPKS1	BRD_IsolateAware	180	98.68	0.81	0.6913	0.6588	0.7988	True	Low_Near_Guide_Similarity_Only	Moderate computational priority
+9	BRD_CsPKS1_CAND013	CsPKS1	BRD_IsolateAware	180	99.18	0.965	0.6913	0.6213	0.7957	True	Minimal_Near_Guide_Signal_19of21_Only	Moderate computational priority
+10	BRD_CsPKS1_CAND001	CsPKS1	LUCID_sifi21_plus	200	97.95	0.8	0.6913	0.66	0.7946	True	Low_Near_Guide_Similarity_Only	Moderate computational priority
+12	BRD_CsPKS1_CAND002	CsPKS1	LUCID_sifi21_plus	200	98.83	0.79	0.6913	0.65	0.7928	True	Low_Near_Guide_Similarity_Only	Moderate computational priority
+30	BRD_CsSTE11_CAND010	CsSTE11	BRD_IsolateAware	180	99.24	0.54	0.9866	0.61	0.7469	True	Elevated_Near_20of21_Guide_Similarity	Moderate computational priority
+32	BRD_CsFUS3_CAND003	CsFUS3	LUCID_sifi21_plus	200	98.95	0.445	0.9915	0.6267	0.7259	True	Conserved_Long_Homology_With_Near_Guides	Moderate computational priority
+33	BRD_CsPKS1_CAND012	CsPKS1	BRD_IsolateAware	210	100.0	0.63	0.6913	0.6432	0.7172	True	Elevated_Near_20of21_Guide_Similarity	Moderate computational priority
+36	BRD_CsFUS3_CAND001	CsFUS3	LUCID_sifi21_plus	200	99.59	0.25	0.9915	0.6366	0.7178	False	Exact_21mer_NonTarget_Match	Excluded due to identified computational concerns
+38	BRD_CsFUS3_CAND010	CsFUS3	BRD_IsolateAware	210	99.61	0.25	0.9915	0.6337	0.7174	False	Exact_21mer_NonTarget_Match	Excluded due to identified computational concerns
+40	BRD_CsFUS3_CAND013	CsFUS3	BRD_IsolateAware	210	100.0	0.02	0.9915	0.6305	0.6604	False	Exact_21mer_NonTarget_Match	Excluded due to identified computational concerns

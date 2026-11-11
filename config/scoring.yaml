@@ -1,0 +1,50 @@
+# Provisional scoring heuristics (explicitly labelled as research weights, not biological constants)
+target_prioritisation:
+  provisional_weights:
+    multi_isolate_nucleotide_conservation: 0.25
+    off_target_safety: 0.25
+    direct_functional_pathogenicity_evidence: 0.20
+    infection_stage_expression: 0.15
+    dsrna_designability: 0.15
+
+  sensitivity_scenarios:
+    baseline:
+      multi_isolate_nucleotide_conservation: 0.25
+      off_target_safety: 0.25
+      direct_functional_pathogenicity_evidence: 0.20
+      infection_stage_expression: 0.15
+      dsrna_designability: 0.15
+    safety_first:
+      multi_isolate_nucleotide_conservation: 0.20
+      off_target_safety: 0.40
+      direct_functional_pathogenicity_evidence: 0.15
+      infection_stage_expression: 0.10
+      dsrna_designability: 0.15
+    conservation_first:
+      multi_isolate_nucleotide_conservation: 0.40
+      off_target_safety: 0.20
+      direct_functional_pathogenicity_evidence: 0.15
+      infection_stage_expression: 0.10
+      dsrna_designability: 0.15
+    evidence_first:
+      multi_isolate_nucleotide_conservation: 0.20
+      off_target_safety: 0.20
+      direct_functional_pathogenicity_evidence: 0.35
+      infection_stage_expression: 0.15
+      dsrna_designability: 0.10
+    equal_weights:
+      multi_isolate_nucleotide_conservation: 0.20
+      off_target_safety: 0.20
+      direct_functional_pathogenicity_evidence: 0.20
+      infection_stage_expression: 0.20
+      dsrna_designability: 0.20
+
+candidate_ranking:
+  weights:
+    nucleotide_conservation: 0.25
+    off_target_safety: 0.25
+    target_evidence_and_expression: 0.20
+    guide_quality_and_accessibility: 0.15
+    tool_agreement_and_seq_qc: 0.15
+  missing_data_penalty: true
+  unknown_default_score: 0.0

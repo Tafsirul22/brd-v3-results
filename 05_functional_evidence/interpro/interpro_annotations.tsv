@@ -1,0 +1,35 @@
+target	uniprot_accession	interpro_accession	name	type	source_database	locations
+CsPKS1	M2RQ22	IPR001031	Thioesterase	domain	interpro	1910-2011
+CsPKS1	M2RQ22	IPR001227	Acyl transferase domain superfamily	homologous_superfamily	interpro	2-209;900-1202
+CsPKS1	M2RQ22	IPR006162	Phosphopantetheine attachment site	ptm	interpro	1812-1827
+CsPKS1	M2RQ22	IPR009081	Phosphopantetheine binding ACP domain	domain	interpro	1652-1729;1783-1857
+CsPKS1	M2RQ22	IPR014030	Beta-ketoacyl synthase-like, N-terminal domain	domain	interpro	371-620
+CsPKS1	M2RQ22	IPR014031	Beta-ketoacyl synthase, C-terminal domain	domain	interpro	629-748
+CsPKS1	M2RQ22	IPR014043	Acyl transferase domain	domain	interpro	901-1216
+CsPKS1	M2RQ22	IPR016035	Acyl transferase/acyl hydrolase/lysophospholipase	homologous_superfamily	interpro	61-311;898-1192
+CsPKS1	M2RQ22	IPR016036	Malonyl-CoA ACP transacylase, ACP-binding	homologous_superfamily	interpro	1026-1087
+CsPKS1	M2RQ22	IPR016039	Thiolase-like	homologous_superfamily	interpro	367-808
+CsPKS1	M2RQ22	IPR018201	Beta-ketoacyl synthase, active site	active_site	interpro	533-549
+CsPKS1	M2RQ22	IPR020806	Polyketide synthase-like, phosphopantetheine-binding domain	domain	interpro	1658-1728;1786-1844
+CsPKS1	M2RQ22	IPR020841	Polyketide synthase, beta-ketoacyl synthase domain	domain	interpro	370-805
+CsPKS1	M2RQ22	IPR029058	Alpha/Beta hydrolase fold	homologous_superfamily	interpro	1887-2151
+CsPKS1	M2RQ22	IPR030918	Polyketide product template domain	domain	interpro	1286-1606
+CsPKS1	M2RQ22	IPR032088	Starter unit:ACP transacylase, SAT domain	domain	interpro	4-241
+CsPKS1	M2RQ22	IPR036736	ACP-like superfamily	homologous_superfamily	interpro	1657-1728;1787-1857
+CsPKS1	M2RQ22	IPR042104	Polyketide synthase, dehydratase domain superfamily	homologous_superfamily	interpro	1283-1605
+CsPKS1	M2RQ22	IPR049551	Polyketide synthase, dehydratase domain, C-terminal	domain	interpro	1452-1599
+CsPKS1	M2RQ22	IPR049900	Polyketide synthase, dehydratase domain	domain	interpro	1290-1601
+CsPKS1	M2RQ22	IPR050091	Polyketide and Nonribosomal Peptide Biosynthesis Enzymes	family	interpro	264-1567
+CsFUS3	M2TCC8	IPR000719	Protein kinase domain	domain	interpro	20-308
+CsFUS3	M2TCC8	IPR003527	Mitogen-activated protein (MAP) kinase, conserved site	conserved_site	interpro	54-156
+CsFUS3	M2TCC8	IPR008271	Serine/threonine-protein kinase, active site	active_site	interpro	140-152
+CsFUS3	M2TCC8	IPR011009	Protein kinase-like domain superfamily	homologous_superfamily	interpro	13-317
+CsFUS3	M2TCC8	IPR017441	Protein kinase, ATP binding site	binding_site	interpro	26-50
+CsFUS3	M2TCC8	IPR050117	Mitogen-activated protein kinase	family	interpro	19-326
+CsSTE11	M2TIY7	IPR000719	Protein kinase domain	domain	interpro	684-954
+CsSTE11	M2TIY7	IPR001660	Sterile alpha motif domain	domain	interpro	65-131
+CsSTE11	M2TIY7	IPR008271	Serine/threonine-protein kinase, active site	active_site	interpro	811-823
+CsSTE11	M2TIY7	IPR011009	Protein kinase-like domain superfamily	homologous_superfamily	interpro	683-956
+CsSTE11	M2TIY7	IPR013761	Sterile alpha motif/pointed domain superfamily	homologous_superfamily	interpro	61-137
+CsSTE11	M2TIY7	IPR017441	Protein kinase, ATP binding site	binding_site	interpro	690-713
+CsSTE11	M2TIY7	IPR029458	Ras-binding domain of Byr2	domain	interpro	299-402

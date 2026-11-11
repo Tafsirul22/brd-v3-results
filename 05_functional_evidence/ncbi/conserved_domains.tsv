@@ -1,0 +1,21 @@
+target	protein_accession	feature_type	region_name	note	db_xref	location
+CsPKS1	XP_007696213.1	Region	SAT	Starter unit:ACP transacylase in aflatoxin biosynthesis; pfam16073	CDD:465005	[3:241]
+CsPKS1	XP_007696213.1	Region	PksD	Acyl transferase domain in polyketide synthase (PKS) enzymes [Secondary metabolites biosynthesis, transport and catabolism]; COG3321	CDD:442550	[367:>1280]
+CsPKS1	XP_007696213.1	Region	PT_fungal_PKS	iterative type I PKS product template domain; TIGR04532	CDD:275325	[1285:1604]
+CsPKS1	XP_007696213.1	Region	PP-binding	Phosphopantetheine attachment site; pfam00550	CDD:425746	[1658:1720]
+CsPKS1	XP_007696213.1	Region	AcpA	Acyl carrier protein/domain [Lipid transport and metabolism, Secondary metabolites biosynthesis, transport and catabolism]; COG3433	CDD:442659	[<1723:1861]
+CsPKS1	XP_007696213.1	Region	PP-binding	Phosphopantetheine attachment site; pfam00550	CDD:425746	[1789:1848]
+CsPKS1	XP_007696213.1	Region	EntF2	Thioesterase domain of type I polyketide synthase or non-ribosomal peptide synthetase [Secondary metabolites biosynthesis, transport and catabolism]; COG3319	CDD:442548	[<1881:2151]
+CsFUS3	XP_007697446.1	Region	STKc_ERK1_2_like	Catalytic domain of Extracellular signal-Regulated Kinase 1 and 2-like Serine/Threonine Kinases; cd07849	CDD:270839	[13:352]
+CsFUS3	XP_007697446.1	Site			CDD:270839	order{[25:29], [30:32], [33:34], [46:47], [48:49], [64:65], [78:79], [99:103], [105:106], [107:109], [143:144], [145:146], [147:149], [150:151], [160:162], [164:165], [179:180], [181:185], [186:187], [224:225]}
+CsFUS3	XP_007697446.1	Site		ATP binding site [chemical binding]	CDD:270839	order{[25:29], [30:32], [33:34], [46:47], [48:49], [78:79], [99:103], [105:106], [108:109], [147:149], [150:151], [160:162]}
+CsFUS3	XP_007697446.1	Site		polypeptide substrate binding site [polypeptide binding]	CDD:270839	order{[64:65], [107:108], [143:144], [145:146], [164:165], [179:180], [181:185], [186:187], [224:225]}
+CsFUS3	XP_007697446.1	Site		KIM docking site [polypeptide binding]	CDD:270839	order{[75:76], [103:105], [108:110], [112:114], [118:120], [122:123], [125:126], [129:130], [151:157], [310:311], [312:313], [315:316]}
+CsFUS3	XP_007697446.1	Site		activation loop (A-loop)	CDD:270839	[160:187]
+CsSTE11	XP_007694574.1	Region	SAM_Ste11_fungal	SAM domain of Ste11_fungal subfamily; cd09534	CDD:188933	[67:129]
+CsSTE11	XP_007694574.1	Site		putative heterodimer interface [polypeptide binding]	CDD:188933	order{[71:72], [74:75], [85:86], [89:90], [93:94], [122:129]}
+CsSTE11	XP_007694574.1	Site		homodimer interface [polypeptide binding]	CDD:188933	order{[100:101], [102:106], [107:109], [114:116], [117:119], [121:123]}
+CsSTE11	XP_007694574.1	Site		heterodimer interface ML [polypeptide binding]	CDD:188933	order{[100:101], [105:106], [108:109]}
+CsSTE11	XP_007694574.1	Region	Ras_bdg_2	Ras-binding domain of Byr2; pfam14847	CDD:434263	[299:397]
+CsSTE11	XP_007694574.1	Region	Protein Kinases, catalytic domain	The protein kinase superfamily is mainly composed of the catalytic domains of serine/threonine-specific and tyrosine-specific protein kinases. It also includes RIO kinases, which are atypical serine protein kinases, aminoglycoside phosphotransferases; cl21453	CDD:473864	[682:954]
+CsSTE11	XP_007694574.1	Site		ATP binding site [chemical binding]	CDD:270870	order{[689:693], [695:696], [697:698], [710:711], [712:713], [752:753], [768:772], [814:815], [818:820], [821:822], [831:833]}

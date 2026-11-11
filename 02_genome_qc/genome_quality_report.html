@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRD M02 — Genome Quality Control Report</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>BRD M02 — Genome Quality Control Report</h1>
+<div class="subtitle">Bipolaris sorokiniana Multi-Isolate Panel</div>
+<div class='callout'><strong>Scope & Tool Provenance:</strong> Computed for 19 deduplicated biological isolates using deterministic Biopython QUAST-compatible sequence inspection. Native Linux QUAST/BUSCO CLI binaries were unavailable natively on Windows 11 without an installed WSL2 Linux distribution; BUSCO completeness fields are explicitly marked as <code>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</code> (not fabricated).</div><h2>Assembly Quality Metrics</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>isolate_id</th>
+      <th>assembly_accession</th>
+      <th>assembly_level</th>
+      <th>total_length_bp</th>
+      <th>scaffold_count</th>
+      <th>n50_bp</th>
+      <th>l50</th>
+      <th>gc_percent</th>
+      <th>n_percent</th>
+      <th>qc_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1</td>
+      <td>Scaffold</td>
+      <td>34409167</td>
+      <td>154</td>
+      <td>1789485</td>
+      <td>7</td>
+      <td>49.844</td>
+      <td>3.4774</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>LK93</td>
+      <td>GCA_024722535.1</td>
+      <td>Chromosome</td>
+      <td>36231650</td>
+      <td>16</td>
+      <td>2313634</td>
+      <td>7</td>
+      <td>49.584</td>
+      <td>0.0003</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>ND93-1</td>
+      <td>GCA_033006315.1</td>
+      <td>Chromosome</td>
+      <td>36481130</td>
+      <td>17</td>
+      <td>2206364</td>
+      <td>7</td>
+      <td>49.525</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>WAI2406</td>
+      <td>GCA_008452705.1</td>
+      <td>Chromosome</td>
+      <td>36886791</td>
+      <td>21</td>
+      <td>2203058</td>
+      <td>7</td>
+      <td>49.410</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>BRIP10943a</td>
+      <td>GCA_008452735.1</td>
+      <td>Chromosome</td>
+      <td>36921586</td>
+      <td>22</td>
+      <td>2135441</td>
+      <td>7</td>
+      <td>49.492</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>BRIP27492a</td>
+      <td>GCA_008452725.1</td>
+      <td>Chromosome</td>
+      <td>35237195</td>
+      <td>19</td>
+      <td>2128958</td>
+      <td>7</td>
+      <td>49.442</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>WAI2411</td>
+      <td>GCA_008452715.1</td>
+      <td>Chromosome</td>
+      <td>36241382</td>
+      <td>21</td>
+      <td>2111142</td>
+      <td>7</td>
+      <td>49.461</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>Yt-6</td>
+      <td>GCA_037974985.1</td>
+      <td>Contig</td>
+      <td>38203168</td>
+      <td>21</td>
+      <td>2289924</td>
+      <td>7</td>
+      <td>49.244</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>BS112</td>
+      <td>GCA_004329375.1</td>
+      <td>Contig</td>
+      <td>37377538</td>
+      <td>43</td>
+      <td>2114703</td>
+      <td>7</td>
+      <td>49.419</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>MP_1261</td>
+      <td>GCA_055473645.1</td>
+      <td>Contig</td>
+      <td>34559370</td>
+      <td>190</td>
+      <td>1134885</td>
+      <td>12</td>
+      <td>49.639</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>SEED_28</td>
+      <td>GCA_055473875.1</td>
+      <td>Contig</td>
+      <td>33791953</td>
+      <td>253</td>
+      <td>1000644</td>
+      <td>13</td>
+      <td>49.994</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>Black</td>
+      <td>GCA_055473695.1</td>
+      <td>Contig</td>
+      <td>34162547</td>
+      <td>212</td>
+      <td>982804</td>
+      <td>13</td>
+      <td>49.727</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>RAJ_3972</td>
+      <td>GCA_055473735.1</td>
+      <td>Contig</td>
+      <td>34174932</td>
+      <td>218</td>
+      <td>954422</td>
+      <td>13</td>
+      <td>49.779</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>HD_3091</td>
+      <td>GCA_055473755.1</td>
+      <td>Scaffold</td>
+      <td>33436606</td>
+      <td>241</td>
+      <td>917880</td>
+      <td>15</td>
+      <td>49.907</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>DDK_1025</td>
+      <td>GCA_055473625.1</td>
+      <td>Contig</td>
+      <td>34279400</td>
+      <td>275</td>
+      <td>900560</td>
+      <td>13</td>
+      <td>49.856</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>HI_1538</td>
+      <td>GCA_055473675.1</td>
+      <td>Contig</td>
+      <td>32863758</td>
+      <td>299</td>
+      <td>525594</td>
+      <td>21</td>
+      <td>49.865</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>RAJ_3705</td>
+      <td>GCA_055473715.1</td>
+      <td>Scaffold</td>
+      <td>33173017</td>
+      <td>364</td>
+      <td>380813</td>
+      <td>26</td>
+      <td>50.016</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>KO_5803</td>
+      <td>GCA_055473775.1</td>
+      <td>Contig</td>
+      <td>32416094</td>
+      <td>684</td>
+      <td>130076</td>
+      <td>73</td>
+      <td>50.289</td>
+      <td>0.0000</td>
+      <td>RETAIN</td>
+    </tr>
+    <tr>
+      <td>Sacc._Shoemaker</td>
+      <td>GCA_013416765.1</td>
+      <td>Scaffold</td>
+      <td>34329637</td>
+      <td>96</td>
+      <td>1586145</td>
+      <td>9</td>
+      <td>49.868</td>
+      <td>3.4789</td>
+      <td>RETAIN</td>
+    </tr>
+  </tbody>
+</table><h2>Visualisation</h2><figure><img src='figures/genome_quality_visualisation.png' alt='Genome QC'/><figcaption>Assembly length, N50 contiguity, and GC% vs scaffold fragmentation.</figcaption></figure><h2>BUSCO Execution Status</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>isolate_id</th>
+      <th>assembly_accession</th>
+      <th>lineage</th>
+      <th>status</th>
+      <th>notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>LK93</td>
+      <td>GCA_024722535.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>ND93-1</td>
+      <td>GCA_033006315.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>WAI2406</td>
+      <td>GCA_008452705.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>BRIP10943a</td>
+      <td>GCA_008452735.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>BRIP27492a</td>
+      <td>GCA_008452725.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>WAI2411</td>
+      <td>GCA_008452715.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>Yt-6</td>
+      <td>GCA_037974985.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>BS112</td>
+      <td>GCA_004329375.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>MP_1261</td>
+      <td>GCA_055473645.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>SEED_28</td>
+      <td>GCA_055473875.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>Black</td>
+      <td>GCA_055473695.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>RAJ_3972</td>
+      <td>GCA_055473735.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>HD_3091</td>
+      <td>GCA_055473755.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>DDK_1025</td>
+      <td>GCA_055473625.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>HI_1538</td>
+      <td>GCA_055473675.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>RAJ_3705</td>
+      <td>GCA_055473715.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>KO_5803</td>
+      <td>GCA_055473775.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+    <tr>
+      <td>Sacc._Shoemaker</td>
+      <td>GCA_013416765.1</td>
+      <td>fungi_odb10</td>
+      <td>NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO</td>
+      <td>Official BUSCO requires Linux/macOS (MetaEuk/HMMER/Augustus). WSL2 has no Linux distro installed; scores left NA (not fabricated).</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

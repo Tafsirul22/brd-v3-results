@@ -1,0 +1,5 @@
+target	score_baseline	rank_baseline	score_safety_first	rank_safety_first	score_conservation_first	rank_conservation_first	score_evidence_first	rank_evidence_first	score_equal_weights	rank_equal_weights	min_rank_across_scenarios	max_rank_across_scenarios	rank_range
+CsFUS3	0.6722	1	0.5465	1	0.7449	1	0.7106	1	0.7027	1	1	1	0
+CsSp1	0.667	2	0.5255	3	0.7237	2	0.7097	2	0.7012	2	2	3	1
+CsSTE11	0.6491	3	0.5286	2	0.7138	3	0.6878	3	0.682	3	2	3	1
+CsPKS1	0.5686	4	0.474	4	0.672	4	0.5771	4	0.5782	4	4	4	0

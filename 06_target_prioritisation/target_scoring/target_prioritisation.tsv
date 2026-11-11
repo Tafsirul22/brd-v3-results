@@ -1,0 +1,5 @@
+target	score_conservation	score_off_target	score_functional	score_expression	score_designability	off_target_status	cds_length_nt	isolates_present	mean_21mer_cons_pct	inplanta_max_rpkm	weighted_score_conservative	known_weight_fraction	normalized_known_score	pareto_rank	is_pareto_optimal
+CsFUS3	0.992		0.92	0.6014	1.0	PENDING_M08_UNKNOWN	1059	19/19	99.205	90.21	0.6722	0.75	0.8963	1	True
+CsSp1	0.9912		0.84	1.0	0.675	PENDING_M08_UNKNOWN	270	19/19	99.116	1438.44	0.667	0.75	0.8894	1	True
+CsSTE11	0.926		0.9	0.5842	1.0	PENDING_M08_UNKNOWN	2880	19/19	92.602	87.63	0.6491	0.75	0.8655	2	False
+CsPKS1	0.9897		0.72	0.1811	1.0	PENDING_M08_UNKNOWN	6462	19/19	98.973	27.17	0.5686	0.75	0.7581	2	False

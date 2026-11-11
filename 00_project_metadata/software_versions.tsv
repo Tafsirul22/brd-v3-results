@@ -1,0 +1,27 @@
+software	version	repository_or_source	license	execution_status
+Python	3.13.14	https://www.python.org/	PSF	Native Windows 11
+Biopython	1.86	https://biopython.org/	Biopython	Native Windows 11
+ViennaRNA (Python RNA)	2.8.0	https://www.tbi.univie.ac.at/RNA/	ViennaRNA	Native Windows 11
+Snakemake	9.27.1	https://snakemake.readthedocs.io/	MIT	Native Windows 11
+pandas	2.3.3	https://pandas.pydata.org/	BSD-3-Clause	Native Windows 11
+NumPy	2.4.0	https://numpy.org/	BSD-3-Clause	Native Windows 11
+SciPy	1.16.3	https://scipy.org/	BSD-3-Clause	Native Windows 11
+Matplotlib	3.10.8	https://matplotlib.org/	PSF-based	Native Windows 11
+primer3-py	2.4.0	https://github.com/libnano/primer3-py	GPL-2.0	Native Windows 11
+reportlab	4.4.7	https://www.reportlab.com/	BSD	Native Windows 11
+PyYAML	6.0.3	https://pyyaml.org/	MIT	Native Windows 11
+NCBI BLAST+	blastn: 2.17.0+ | Package: blast 2.17.0, build Jul  1 2025 08:57:20	https://blast.ncbi.nlm.nih.gov/	Public Domain	Native Windows 11
+NCBI Datasets CLI	datasets version: 18.41.0	https://www.ncbi.nlm.nih.gov/datasets/	Public Domain	Native Windows 11
+DIAMOND	diamond version 2.2.8	https://github.com/bbuchfink/diamond	GPL-3.0	Native Windows 11
+MAFFT	Preparing environment to run MAFFT on Windows. | This may take a while, if real-time scanning by ant	https://mafft.cbrc.jp/alignment/software/	BSD-3-Clause	Native Windows 11
+dsRNAmax	2026/11/11 05:41:33 dsRNAmax - dsRNA maximizer (Version: 1.1.14) | -biasHeader string	https://github.com/sfletc/dsRNAmax	BSD-3-Clause	Native Windows 11 (commit 674b5b5)
+SIREN (siren-rnai)	0.1.6 (commit 0f5a5a9)	https://github.com/pablovargasmejia/SIREN	GPL-3.0	Native Windows Python modules (prefilter + designVIII); RNAhybrid replaced by ViennaRNA duplexfold
+LUCID (sifi21_plus)	0.1.0 (commit 37910bd)	https://github.com/Brunxi/LUCID	No explicit LICENSE file in repo	sifi21_plus free-energy/efficiency reproduced natively with ViennaRNA 2.8.0
+tensorflow/lucid	v0.3.10 (rejected)	https://github.com/tensorflow/lucid	Apache-2.0	EXCLUDED — neural network interpretability library, not RNAi design
+evanpeikon/BLAST	unreleased (rejected)	https://github.com/evanpeikon/BLAST	MIT	EXCLUDED — educational script; official NCBI BLAST+ 2.17.0+ used
+metashot/busco	1.0.0 (rejected)	https://github.com/metashot/busco	GPL-3.0	EXCLUDED — deprecated Nextflow wrapper
+QUAST	5.3.0 (not installed)	https://github.com/ablab/quast	GPL-2.0	Linux-only (WSL2 distro absent); Python QUAST-compatible metrics computed
+BUSCO	6.1.0 (not installed)	https://busco.ezlab.org/	MIT	Linux-only (WSL2 distro absent); scores marked NA (not fabricated)
+OrthoFinder	3.2 (not installed)	https://github.com/OrthoFinder/OrthoFinder	GPL-3.0	Linux MCL/FastME unavailable natively; DIAMOND RBH graph clustering executed
+Funannotate / BRAKER3	1.9.1 / 3.0.8 (not installed)	https://github.com/nextgenusfs/funannotate	BSD-2 / Artistic	Linux-only; NCBI RefSeq/GenBank annotations reused + tblastn/blastn exon alignment
+RNAhybrid	2.1.2 (not installed)	https://bibiserv.cebitec.uni-bielefeld.de/rnahybrid	GPL-2.0	Linux/macOS Bioconda only; ViennaRNA 2.8.0 RNA.duplexfold executed

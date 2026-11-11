@@ -1,0 +1,83 @@
+project:
+  name: Bipolaris-RNAi-Designer
+  short_name: BRD
+  version: "1.0.0"
+  organism: "Bipolaris sorokiniana"
+  synonym: "Cochliobolus sativus"
+  taxonomy_id: 45130
+  input_dir: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)'
+  output_dir: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output'
+  local_zip: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Bipolaris sorokiniana.zip'
+  primary_reference_accession: "GCF_000338995.1"
+  paired_genbank_accession: "GCA_000338995.1"
+
+ncbi:
+  default_email: "brd_pipeline_research@example.org"
+  rate_limit_sec: 0.35
+
+tools:
+  python: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\environments\brd_venv\Scripts\python.exe'
+  blastn: 'C:\Program Files\NCBI\blast-2.17.0+\bin\blastn.exe'
+  blastp: 'C:\Program Files\NCBI\blast-2.17.0+\bin\blastp.exe'
+  tblastn: 'C:\Program Files\NCBI\blast-2.17.0+\bin\tblastn.exe'
+  blastx: 'C:\Program Files\NCBI\blast-2.17.0+\bin\blastx.exe'
+  makeblastdb: 'C:\Program Files\NCBI\blast-2.17.0+\bin\makeblastdb.exe'
+  diamond: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\diamond.exe'
+  datasets: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\datasets.exe'
+  mafft: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\mafft\mafft-win\mafft.bat'
+  dsrnamax: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\dsRNAmax.exe'
+  siren_repo: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\repos\SIREN'
+  lucid_repo: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\repos\LUCID'
+  dsrnamax_repo: 'C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\repos\dsRNAmax'
+
+targets:
+  CsPKS1:
+    supplied_accessions: ["HQ830033", "KF769134", "KF769135", "KF769136", "KF769137", "KF769138", "KF769139", "KF769140", "KF769141"]
+    nd90pr_locus_tag: "COCSADRAFT_157080"
+    nd90pr_protein_id: "XP_007696213.1"
+    nd90pr_gene_id: "19131806"
+    description: "Polyketide synthase involved in melanin biosynthesis (endogenous hpRNA benchmark)"
+  CsFUS3:
+    supplied_accessions: ["GCA_000338995.1", "GCF_000338995.1"]
+    nd90pr_locus_tag: "COCSADRAFT_24574"
+    nd90pr_protein_id: "XP_007697446.1"
+    nd90pr_gene_id: "19135114"
+    description: "MAPK signalling component (RefSeq symbol CHK1; FUS3 orthologue)"
+  CsSTE11:
+    supplied_accessions: ["GCA_000338995.1", "GCF_000338995.1"]
+    nd90pr_locus_tag: "COCSADRAFT_105370"
+    nd90pr_protein_id: "XP_007694574.1"
+    nd90pr_gene_id: "19129968"
+    description: "MAPKKK signalling component (STE11)"
+  CsSp1:
+    supplied_accessions: ["Not established"]
+    nd90pr_locus_tag: "COCSADRAFT_164106"
+    nd90pr_protein_id: "XP_007704210.1"
+    nd90pr_gene_id: "19132291"
+    description: "Secreted effector essential for wheat colonisation (Zhang et al., 2022)"
+
+dsrna_design:
+  project_length_range_nt: [150, 550]
+  lucid_baseline_range_nt: [200, 400]
+  candidate_lengths_nt: [180, 210, 250, 300, 350, 400, 450, 500]
+  sirna_length_nt: 21
+  step_nt: 25
+  gc_optimal_min: 30.0
+  gc_optimal_max: 65.0
+  max_homopolymer: 5
+  min_isolate_conservation_pct: 95.0
+
+off_target:
+  exact_kmer_len: 21
+  blastn_task: "blastn-short"
+  blastn_word_size: 7
+  blastn_evalue: 10.0
+  high_similarity_len: 19
+  high_similarity_max_mismatches: 1
+  partial_similarity_len: 17
+  partial_similarity_max_mismatches: 2
+  thermodynamic_mfe_threshold_kcal: -25.0
+
+ranking:
+  bootstrap_iterations: 1000
+  random_seed: 42

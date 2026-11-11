@@ -1,0 +1,2433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Bipolaris-RNAi Designer (BRD) — Final Research Report</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>Bipolaris-RNAi Designer (BRD) — Final Research Report</h1>
+<div class="subtitle">Generated 2026-11-10 23:41 UTC | 19 B. sorokiniana Isolates | 4 Targets | 50 Candidates</div>
+<div class='warn'><strong>Scientific Boundary:</strong> BRD produces computationally prioritised dsRNA candidates; exogenous uptake, RNAi knockdown, and disease control in <em>B. sorokiniana</em> remain experimental hypotheses requiring bench validation.</div><h2>1. Title and Project Description</h2><p>**Bipolaris-RNAi Designer (BRD) v1.0.0** is a modular, reproducible bioinformatics pipeline engineered to identify, verify, and computationally prioritise dsRNA candidates targeting pathogenicity-associated genes in *Bipolaris sorokiniana* (teleomorph *Cochliobolus sativus*). Generated autonomously on 2026-11-10 23:41 UTC.</p><h2>2. Research Objectives</h2><p>1. Verify local and public *B. sorokiniana* genome assemblies and annotations.<br/>2. Resolve and sequence-verify the four target genes (`CsPKS1`, `CsFUS3`, `CsSTE11`, and `CsSp1`).<br/>3. Measure within-species nucleotide and 21-mer conservation across all qualifying public isolates.<br/>4. Integrate species-specific genetics, PHI-base v4.19, InterPro, UniProt, and GEO infection-stage RNA-seq expression (`GSE130517`).<br/>5. Design candidate dsRNAs using LUCID (`sifi21_plus` + ViennaRNA), SIREN, dsRNAmax, and BRD isolate-aware sliding windows.<br/>6. Screen candidates and 21-mer guides against hexaploid wheat (`IWGSC v2.1`), barley (`MorexV3`), and five beneficial fungal species.<br/>7. Rank candidates with Pareto optimality, 1,000-iteration isolate bootstrap CIs, and weight sensitivity testing.</p><h2>3. Biological Rationale</h2><p>Spot blotch, common root rot, and black point caused by *B. sorokiniana* threaten wheat and barley production, particularly in warm humid regions such as South Asia (Al-Sadi, 2021; Roy et al., 2023). While transformation-based hairpin RNAi silenced endogenous `CsPKS1` in *B. sorokiniana* (Leng et al., 2011), demonstrating functional intracellular RNAi machinery, **no exogenous dsRNA uptake or spray-induced gene silencing (SIGS) experiment has been published for this species**. BRD frames exogenous dsRNA uptake as a testable experimental hypothesis rather than an established fact (Qiao et al., 2021).</p><h2>4. Input Dataset Inventory</h2><p>Recursive inspection of `C:\Users\ASUS BANGLADESH\Desktop\New folder (2)` identified 17 inventory records (local NCBI Datasets archive `Bipolaris sorokiniana.zip` for `GCF_000338995.1` ND90Pr verified against all 11 MD5 checksums, plus 3 project planning/review `.docx` documents). Original input files remained strictly unmodified.</p><h2>5. Genome Accession and Isolate Information</h2><p>Querying NCBI TaxID 45130 identified 20 assembly records representing **19 distinct biological isolates** after deduplicating paired GenBank/RefSeq `GCA_000338995.1` vs `GCF_000338995.1` (ND90Pr). Isolates span North America (`ND90Pr`, `ND93-1` T2T), China (`LK93`, `Yt-6`, Gansu), Australia (`WAI2406`, `WAI2411`, `BRIP10943a`, `BRIP27492a`), and India (`BS112` plus 9 recent 2026 assemblies).</p><h2>6. Genome Quality Assessment</h2><p>All 19 biological isolate assemblies passed FASTA validity, genome size (32.42–38.20 Mb), and GC% (49.24%–50.29%) checks. Contig/scaffold N50 ranged from 130.1 kb to 2.31 Mb. Note: Official BUSCO v6.1.0 and QUAST v5.3.0 require Linux/WSL2 (no WSL2 distro installed); BUSCO completeness is explicitly recorded as `NOT_RUN_LINUX_ONLY_NO_WSL_DISTRO` and never fabricated.</p><h2>7. Annotation Harmonisation</h2><p>RefSeq `GCF_000338995.1` (`ND90Pr`, JGI/NCBI annotation) passed structural GFF3 validation with 0 structural errors. Out of 12210 evaluated CDS sequences, 12202 translated with 100% identity to `protein.faa`. Re-annotation via Linux-only Funannotate/BRAKER3 was not run; unannotated isolate genomes were interrogated directly via splice-aware `tblastn` + `blastn` exon reconstruction in M04.</p><h2>8. Comparative Genomics</h2><p>DIAMOND all-vs-all RBH orthogroup clustering grouped annotated proteomes, and splice-aware genomic locus mapping reconstructed all 4 targets across the 19-isolate panel, followed by MAFFT v7.526 alignment.</p><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>orthogroup_id</th>
+      <th>isolates_evaluated</th>
+      <th>isolates_with_gene</th>
+      <th>isolates_complete_cds</th>
+      <th>ref_cds_length_nt</th>
+      <th>mean_pairwise_nt_identity_pct</th>
+      <th>min_pairwise_nt_identity_pct</th>
+      <th>mean_pairwise_aa_identity_pct</th>
+      <th>snp_sites</th>
+      <th>indel_columns</th>
+      <th>conserved_blocks_ge21nt_count</th>
+      <th>conserved_blocks_ge150nt_count</th>
+      <th>longest_100pct_conserved_block_nt</th>
+      <th>mean_21mer_isolate_conservation_pct</th>
+      <th>pct_100pct_conserved_21mers</th>
+      <th>orthology_method</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>BRD_OG000098</td>
+      <td>19</td>
+      <td>19</td>
+      <td>17</td>
+      <td>6462</td>
+      <td>99.958</td>
+      <td>99.845</td>
+      <td>96.465</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>14</td>
+      <td>852</td>
+      <td>98.973</td>
+      <td>89.77</td>
+      <td>DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>BRD_OG000010</td>
+      <td>19</td>
+      <td>19</td>
+      <td>17</td>
+      <td>1059</td>
+      <td>99.984</td>
+      <td>99.905</td>
+      <td>94.430</td>
+      <td>3</td>
+      <td>5</td>
+      <td>6</td>
+      <td>3</td>
+      <td>364</td>
+      <td>99.205</td>
+      <td>88.35</td>
+      <td>DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>BRD_OG000001</td>
+      <td>19</td>
+      <td>19</td>
+      <td>17</td>
+      <td>2880</td>
+      <td>99.657</td>
+      <td>99.583</td>
+      <td>95.785</td>
+      <td>19</td>
+      <td>16</td>
+      <td>25</td>
+      <td>6</td>
+      <td>273</td>
+      <td>92.602</td>
+      <td>78.50</td>
+      <td>DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>BRD_OG013358</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>270</td>
+      <td>99.959</td>
+      <td>99.259</td>
+      <td>99.875</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+      <td>124</td>
+      <td>99.116</td>
+      <td>83.20</td>
+      <td>DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)</td>
+    </tr>
+  </tbody>
+</table><h2>9. Target Gene Identification</h2><p>All four targets achieved **Confirmed identity** in `GCF_000338995.1`:<br/>- `CsPKS1`: `COCSADRAFT_157080` (`XP_007696213.1`, 6,462 nt CDS, 100.0% match to `HQ830033.1`).<br/>- `CsFUS3`: `COCSADRAFT_24574` (`XP_007697446.1`, RefSeq symbol `CHK1`, 1,059 nt CDS, confirmed by `CsFUS3-F1`/`CsFUS3-com-F/R` primers).<br/>- `CsSTE11`: `COCSADRAFT_105370` (`XP_007694574.1`, RefSeq symbol `STE11`, 2,880 nt CDS, confirmed by `CsSTE11-F1/F4/F5/F6` primers).<br/>- `CsSp1`: **Resolved** via 100% matches to 5 independent primers from Zhang et al. (2022, PMC8743017 Table 2) as `COCSADRAFT_164106` (`XP_007704210.1`, `XM_007706020.1`, 270 nt CDS, 89 aa).</p><h2>10. Accession Verification</h2><p>Complete 24-column accession verification including `HQ830033.1`, `KF769134.1`–`KF769141.1`, paired `GCA/GCF_000338995.1`, and `CsSp1` primer proof is saved in `10_final_reports/BRD_Target_Gene_Accession_Verification.tsv`.</p><h2>11. Functional Evidence</h2><p>Direct *B. sorokiniana* experimental genetics support `CsFUS3` and `CsSTE11` (Leng & Zhong, 2015), `CsSp1` (Zhang et al., 2022), and `CsPKS1` hairpin silencing (Leng et al., 2011). PHI-base v4.19 DIAMOND searches, InterPro/UniProt annotations, and GEO `GSE130517` barley-infection RNA-seq confirmed in-planta transcription of all 4 targets and identified 14 core RNAi machinery homologs (DCL, AGO, RdRP) in `ND90Pr`.</p><h2>12. Target Prioritisation</h2><p>Using provisional research weights (25% conservation, 25% off-target safety, 20% functional evidence, 15% expression, 15% designability), `CsFUS3` and `CsSTE11` lead on combined pathogenicity evidence, length flexibility, and expression, while `CsSp1` is constrained by its 270 nt CDS length and `CsPKS1` serves as the endogenous hairpin-RNAi benchmark.</p><h2>13. dsRNA Design Methodology</h2><p>Four complementary computational workflows were executed: (1) LUCID baseline (`sifi21_plus` free-energy/S1-S19 asymmetry + ViennaRNA 2.8.0 unpaired accessibility + Primer3, 200–400 nt), (2) SIREN v0.1.6 (`siren_prefilter.py` + ViennaRNA `duplexfold` + `siren_designVIII.py`), (3) `dsRNAmax.exe` v1.1.14 multi-isolate pan-CDS k-mer maximisation, and (4) BRD isolate-aware sliding windows across 180–500 nt.</p><h2>14. Candidate Sequences and Characteristics</h2><p>M07 generated **50 unique dsRNA candidates** (lengths 180–300 nt; GC 47.0%–58.9%) and 2876 unique 21-mer guide sequences.</p><h2>15. Off-Target Screening</h2><p>All 50 candidates and their 21-mer guides were screened via `blastn-short` (`word_size=7`), exact 21-mer matching, and ViennaRNA `RNA.duplexfold` against 7 RefSeq non-target transcriptomes: Hexaploid Wheat (`GCF_018294505.1`), Barley (`GCF_904849725.1`), *Trichoderma atroviride*, *T. virens*, *T. reesei*, *Beauveria bassiana*, and *Rhizophagus irregularis*. Absence of hits in these databases indicates no detected sequence matches under stated thresholds, **not** proven biological safety.</p><h2>16. Candidate Ranking</h2><p>Of 50 candidates evaluated in M09, <strong>39 passed all computational filters</strong> (0 exact 21-mer host/beneficial/paralog hits, QC pass, &ge;85% conservation), including <strong>1 High computational priority</strong>, <strong>26 Moderate computational priority</strong>, and <strong>14 Pareto rank-1 non-dominated</strong> candidates.</p><h3>Top 5 Ranked Candidates</h3><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>final_rank</th>
+      <th>candidate_id</th>
+      <th>target</th>
+      <th>tool_name</th>
+      <th>candidate_length_nt</th>
+      <th>conservation_pct</th>
+      <th>off_target_safety_score</th>
+      <th>composite_score</th>
+      <th>computational_priority_category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>BRD_CsSTE11_CAND012</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>100.00</td>
+      <td>0.55</td>
+      <td>0.7832</td>
+      <td>High computational priority</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>BRD_CsSp1_CAND008</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>98.91</td>
+      <td>0.35</td>
+      <td>0.7458</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>BRD_CsSp1_CAND001</td>
+      <td>CsSp1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>98.77</td>
+      <td>0.35</td>
+      <td>0.7452</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>BRD_CsSp1_CAND009</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>98.84</td>
+      <td>0.35</td>
+      <td>0.7448</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>BRD_CsSp1_CAND005</td>
+      <td>CsSp1</td>
+      <td>SIREN</td>
+      <td>200</td>
+      <td>98.77</td>
+      <td>0.35</td>
+      <td>0.7437</td>
+      <td>Moderate computational priority</td>
+    </tr>
+  </tbody>
+</table><h2>17. Uncertainty and Sensitivity Analysis</h2><p>1,000-iteration bootstrap resampling across the 19 biological isolates quantified 95% confidence intervals for 21-mer conservation and rank stability. Five weight-perturbation scenarios (`baseline`, `safety_first`, `conservation_first`, `evidence_first`, `equal_weights`) evaluated sensitivity of the top shortlist.</p><h2>18. Limitations</h2><p>1. **Exogenous dsRNA uptake is unproven in *B. sorokiniana*** (Qiao et al., 2021).<br/>2. **Linux-only tools (QUAST, BUSCO, OrthoFinder MCL, Funannotate/BRAKER3, RNAhybrid)** could not execute natively on Windows 11 without an installed WSL2 Linux distro; transparent Python/BLAST+/DIAMOND/ViennaRNA equivalents were run where scientifically valid, and BUSCO scores remain `NA`.<br/>3. **RNA-seq (`GSE130517`)** represents *H. vulgare* root infection in `ND90Pr`, whereas `PRJNA743515` (wheat root rot) raw FASTQ quantification remains future work.<br/>4. **Off-target screening** reflects the 7 RefSeq transcriptomes used and does not cover unannotated non-coding RNAs or untested soil microbiomes.</p><h2>19. Recommended Candidates for Experimental Validation</h2><p>Top computationally passing candidates per target gene selected for sequential bench evaluation:<br/><br/>- `CsSTE11`: `BRD_CsSTE11_CAND012` (BRD_IsolateAware, 180 nt, cons=100.0%, safety=0.55, score=0.7832, rank #1, High computational priority)<br/>- `CsFUS3`: `BRD_CsFUS3_CAND013` (BRD_IsolateAware, 210 nt, cons=100.0%, safety=0.45, score=0.7281, rank #13, Moderate computational priority)<br/>- `CsSp1`: `BRD_CsSp1_CAND008` (BRD_IsolateAware, 180 nt, cons=98.91%, safety=0.35, score=0.7458, rank #2, Moderate computational priority)<br/>- `CsPKS1`: `BRD_CsPKS1_CAND013` (BRD_IsolateAware, 180 nt, cons=99.18%, safety=0.55, score=0.6545, rank #26, Moderate computational priority)<br/><br/>Sequential validation roadmap: (1) fluorescently labelled dsRNA uptake assays in *B. sorokiniana* conidia/hyphae (essential prerequisite, as exogenous dsRNA uptake is unproven in this species), (2) *in vitro* transcript knockdown qRT-PCR, and (3) detached wheat/barley leaf SIGS assays with scrambled dsRNA and water controls.</p><h2>Target Summary</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>locus_tag</th>
+      <th>gene_id</th>
+      <th>protein_id</th>
+      <th>mrna_accession</th>
+      <th>scaffold</th>
+      <th>start</th>
+      <th>end</th>
+      <th>strand</th>
+      <th>cds_length_nt</th>
+      <th>mrna_length_nt</th>
+      <th>protein_length_aa</th>
+      <th>identification_status</th>
+      <th>isolates_with_gene</th>
+      <th>mean_pairwise_nt_identity_pct</th>
+      <th>longest_100pct_block_nt</th>
+      <th>gse130517_inplanta_max_rpkm</th>
+      <th>direct_literature_evidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>COCSADRAFT_157080</td>
+      <td>19131806</td>
+      <td>XP_007696213.1</td>
+      <td>XM_007698023.1</td>
+      <td>NW_006911896.1</td>
+      <td>2261474</td>
+      <td>2268036</td>
+      <td>+</td>
+      <td>6462</td>
+      <td>6462</td>
+      <td>2153</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.958</td>
+      <td>852</td>
+      <td>27.17</td>
+      <td>Direct B. sorokiniana experimental evidence (hairpin RNAi silencing -&gt; albino/reduced-melanisation phenotypes, Leng et al., 2011; NOT exogenous SIGS)</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>COCSADRAFT_24574</td>
+      <td>19135114</td>
+      <td>XP_007697446.1</td>
+      <td>XM_007699256.1</td>
+      <td>NW_006911898.1</td>
+      <td>1189519</td>
+      <td>1190784</td>
+      <td>-</td>
+      <td>1059</td>
+      <td>1059</td>
+      <td>352</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.984</td>
+      <td>364</td>
+      <td>90.21</td>
+      <td>Direct B. sorokiniana experimental evidence (targeted knockout delta-Csfus3 -&gt; loss of pathogenicity on intact barley leaves, impaired conidiation &amp; appressoria, oxidative stress hypersensitivity, Leng &amp; Zhong, 2015)</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>COCSADRAFT_105370</td>
+      <td>19129968</td>
+      <td>XP_007694574.1</td>
+      <td>XM_007696384.1</td>
+      <td>NW_006911895.1</td>
+      <td>614738</td>
+      <td>617725</td>
+      <td>+</td>
+      <td>2880</td>
+      <td>3702</td>
+      <td>959</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.657</td>
+      <td>273</td>
+      <td>87.63</td>
+      <td>Direct B. sorokiniana experimental evidence (targeted knockout delta-Csste11 -&gt; loss of pathogenicity on intact barley leaves, impaired conidiation &amp; appressoria, oxidative stress hypersensitivity, Leng &amp; Zhong, 2015)</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>COCSADRAFT_164106</td>
+      <td>19132291</td>
+      <td>XP_007704210.1</td>
+      <td>XM_007706020.1</td>
+      <td>NW_006911909.1</td>
+      <td>250789</td>
+      <td>251111</td>
+      <td>+</td>
+      <td>270</td>
+      <td>270</td>
+      <td>89</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.959</td>
+      <td>124</td>
+      <td>1438.44</td>
+      <td>Direct B. sorokiniana experimental evidence (split-marker knockout delta-Cssp1 in LK93 -&gt; attenuated wheat pathogenicity, defective infectious hyphae growth, reduced conidiation, Zhang et al., 2022)</td>
+    </tr>
+  </tbody>
+</table><h2>Accession Verification</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Target</th>
+      <th>Supplied accession</th>
+      <th>Verified accession</th>
+      <th>Accession type</th>
+      <th>Organism</th>
+      <th>Strain</th>
+      <th>Isolate</th>
+      <th>Assembly</th>
+      <th>Gene ID</th>
+      <th>Locus tag</th>
+      <th>Gene symbol</th>
+      <th>Functional description</th>
+      <th>Scaffold</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Strand</th>
+      <th>CDS length</th>
+      <th>Protein length</th>
+      <th>Sequence identity</th>
+      <th>Alignment coverage</th>
+      <th>Evidence source</th>
+      <th>DOI</th>
+      <th>Verification status</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>HQ830033</td>
+      <td>HQ830033.1 / XP_007696213.1 / XM_007698023.1</td>
+      <td>GenBank nucleotide (complete cds) + RefSeq mRNA/protein</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19131806</td>
+      <td>COCSADRAFT_157080</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase involved in melanin biosynthesis</td>
+      <td>NW_006911896.1</td>
+      <td>2261474</td>
+      <td>2268036</td>
+      <td>+</td>
+      <td>6462</td>
+      <td>2153</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank HQ830033.1 + RefSeq GCF_000338995.1</td>
+      <td>https://doi.org/10.1111/j.1364-3703.2010.00666.x</td>
+      <td>Verified (100% CDS match to ND90Pr COCSADRAFT_157080)</td>
+      <td>RefSeq GFF tags COCSADRAFT_157080 as partial=true at boundaries, but CDS is 6,462 nt matching HQ830033.1 complete cds identically; endogenous hairpin-RNAi benchmark only (not SIGS).</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769134</td>
+      <td>KF769134.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-23</td>
+      <td>WPB-23</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 828..1533</td>
+      <td>828</td>
+      <td>1533</td>
+      <td>+</td>
+      <td>706</td>
+      <td>235</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22408.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769135</td>
+      <td>KF769135.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-24</td>
+      <td>WPB-24</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 835..1276</td>
+      <td>835</td>
+      <td>1276</td>
+      <td>+</td>
+      <td>442</td>
+      <td>147</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22409.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769136</td>
+      <td>KF769136.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-18</td>
+      <td>WPB-18</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 1090..1555</td>
+      <td>1090</td>
+      <td>1555</td>
+      <td>+</td>
+      <td>466</td>
+      <td>155</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22410.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769137</td>
+      <td>KF769137.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPM-29</td>
+      <td>WPM-29</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 979..1549</td>
+      <td>979</td>
+      <td>1549</td>
+      <td>+</td>
+      <td>571</td>
+      <td>190</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22411.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769138</td>
+      <td>KF769138.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPM-39</td>
+      <td>WPM-39</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 835..1550</td>
+      <td>835</td>
+      <td>1550</td>
+      <td>+</td>
+      <td>716</td>
+      <td>238</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22412.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769139</td>
+      <td>KF769139.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPW-1</td>
+      <td>WPW-1</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 828..1276</td>
+      <td>828</td>
+      <td>1276</td>
+      <td>+</td>
+      <td>449</td>
+      <td>149</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22413.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769140</td>
+      <td>KF769140.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPW-2</td>
+      <td>WPW-2</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 836..1534</td>
+      <td>836</td>
+      <td>1534</td>
+      <td>+</td>
+      <td>699</td>
+      <td>233</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22414.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769141</td>
+      <td>KF769141.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPR4(87)</td>
+      <td>WPR4(87)</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 836..1276</td>
+      <td>836</td>
+      <td>1276</td>
+      <td>+</td>
+      <td>441</td>
+      <td>147</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22415.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>GCA_000338995.1; GCF_000338995.1</td>
+      <td>XM_007699256.1 / XP_007697446.1</td>
+      <td>RefSeq mRNA + RefSeq Protein (paired GCF_000338995.1 / GCA_000338995.1)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>CHK1 (CsFUS3)</td>
+      <td>Mitogen-activated protein kinase (FUS3/PMK1/CHK1 orthologue)</td>
+      <td>NW_006911898.1</td>
+      <td>1189519</td>
+      <td>1190784</td>
+      <td>-</td>
+      <td>1059</td>
+      <td>352</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>RefSeq GCF_000338995.1 + Leng &amp; Zhong (2015) PMC4443973 primers + PHI-base</td>
+      <td>https://doi.org/10.1371/journal.pone.0128291</td>
+      <td>Verified (Confirmed identity)</td>
+      <td>GCA_000338995.1 and GCF_000338995.1 are paired GenBank/RefSeq assemblies of ND90Pr (counted once). Matches CsFUS3-F1 and CsFUS3-com-F/R primers. Primer verification: 3/3 exact matches (CsFUS3-F1 (Leng&amp;Zhong 2015):CDS_exact; CsFUS3-com-F (Leng&amp;Zhong 2015):Locus_exact; CsFUS3-com-R (Leng&amp;Zhong 2015):Locus_exact)</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>GCA_000338995.1; GCF_000338995.1</td>
+      <td>XM_007696384.1 / XP_007694574.1</td>
+      <td>RefSeq mRNA + RefSeq Protein (paired GCF_000338995.1 / GCA_000338995.1)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>STE11 (CsSTE11)</td>
+      <td>Mitogen-activated protein kinase kinase kinase (MAPKKK) STE11</td>
+      <td>NW_006911895.1</td>
+      <td>614738</td>
+      <td>617725</td>
+      <td>+</td>
+      <td>2880</td>
+      <td>959</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>RefSeq GCF_000338995.1 + Leng &amp; Zhong (2015) PMC4443973 primers + PHI-base</td>
+      <td>https://doi.org/10.1371/journal.pone.0128291</td>
+      <td>Verified (Confirmed identity)</td>
+      <td>Distinct upstream MAPKKK from CsFUS3; confirmed by exact matches to CsSTE11-F1/F4/F5/F6 primers. Primer verification: 3/4 exact matches (CsSTE11-F1 (Leng&amp;Zhong 2015):Locus_exact; CsSTE11-F4 (Leng&amp;Zhong 2015):Locus_exact; CsSTE11-F5 (Leng&amp;Zhong 2015):CDS_exact)</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>Not established</td>
+      <td>XM_007706020.1 / XP_007704210.1</td>
+      <td>RefSeq mRNA + RefSeq Protein (paired GCF_000338995.1 / GCA_000338995.1)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>CsSp1 (unnamed JGI COCSADRAFT_164106)</td>
+      <td>Small secreted effector protein CsSp1 essential for wheat colonisation</td>
+      <td>NW_006911909.1</td>
+      <td>250789</td>
+      <td>251111</td>
+      <td>+</td>
+      <td>270</td>
+      <td>89</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>Zhang et al. (2022) PMC8743017 Table 2 primers + RefSeq GCF_000338995.1 + LK93 GCA_024722535.1</td>
+      <td>https://doi.org/10.1111/mpp.13155</td>
+      <td>Verified (Confirmed identity)</td>
+      <td>Resolved via exact 100% primer matches (CsSP1-5', CsSP1-3', CsSP1-NF, CsSP1-QRT2-F/R) to COCSADRAFT_164106 (XP_007704210.1, 89 aa, 270 nt CDS). Primer verification: 5/5 exact matches (CsSP1-5prime (Zhang 2022):CDS_exact; CsSP1-3prime (Zhang 2022):CDS_exact; CsSP1-NF (Zhang 2022):CDS_exact; CsSP1-QRT2-F (Zhang 2022):CDS_exact; CsSP1-QRT2-R (Zhang 2022):CDS_exact)</td>
+    </tr>
+  </tbody>
+</table><h2>Top 25 Ranked Candidates</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>candidate_id</th>
+      <th>target</th>
+      <th>reference_assembly</th>
+      <th>isolate</th>
+      <th>gene_id</th>
+      <th>locus_tag</th>
+      <th>cds_length_nt</th>
+      <th>candidate_start_nt</th>
+      <th>candidate_end_nt</th>
+      <th>candidate_length_nt</th>
+      <th>gc_percent</th>
+      <th>n_bases</th>
+      <th>max_homopolymer</th>
+      <th>exact_cds_substring</th>
+      <th>ref_identity_or_21mer_pct</th>
+      <th>isolates_evaluated</th>
+      <th>isolates_ge90pct_21mer</th>
+      <th>isolates_100pct_21mer</th>
+      <th>conservation_pct</th>
+      <th>min_isolate_conservation_pct</th>
+      <th>tool_name</th>
+      <th>tool_version</th>
+      <th>tool_score</th>
+      <th>tool_score_metric</th>
+      <th>total_21mer_guides</th>
+      <th>efficient_sifi21_guides</th>
+      <th>efficient_guide_fraction</th>
+      <th>mean_target_accessibility</th>
+      <th>self_paralog_21mer_hits</th>
+      <th>primer_left</th>
+      <th>primer_right</th>
+      <th>expected_amplicon_bp</th>
+      <th>seq_qc_pass</th>
+      <th>off_target_status</th>
+      <th>confidence_classification</th>
+      <th>wheat_classification</th>
+      <th>wheat_exact_21mer_hits</th>
+      <th>wheat_high_sim_hits_ge19nt</th>
+      <th>barley_classification</th>
+      <th>barley_exact_21mer_hits</th>
+      <th>beneficial_fungi_classification</th>
+      <th>beneficial_fungi_exact_21mer_hits</th>
+      <th>beneficial_fungi_high_sim_hits_ge19nt</th>
+      <th>top_hit_viennarna_duplexfold_mfe</th>
+      <th>overall_off_target_classification</th>
+      <th>off_target_safety_score_0_1</th>
+      <th>conservation_score</th>
+      <th>off_target_safety_score</th>
+      <th>target_evidence_score</th>
+      <th>guide_quality_score</th>
+      <th>tool_agreement_score</th>
+      <th>overlapping_design_tools</th>
+      <th>passes_computational_filters</th>
+      <th>data_completeness</th>
+      <th>composite_score</th>
+      <th>pareto_rank</th>
+      <th>is_pareto_optimal</th>
+      <th>computational_priority_category</th>
+      <th>final_rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BRD_CsSTE11_CAND012</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1</td>
+      <td>180</td>
+      <td>180</td>
+      <td>58.89</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7529</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>160</td>
+      <td>55</td>
+      <td>0.3438</td>
+      <td>0.4462</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>Partial similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-44.1</td>
+      <td>High-similarity match</td>
+      <td>0.55</td>
+      <td>1.0000</td>
+      <td>0.55</td>
+      <td>0.7737</td>
+      <td>0.6063</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7832</td>
+      <td>1</td>
+      <td>True</td>
+      <td>High computational priority</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND008</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>180</td>
+      <td>180</td>
+      <td>52.22</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.91</td>
+      <td>79.37</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7051</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>160</td>
+      <td>36</td>
+      <td>0.2250</td>
+      <td>0.3690</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9891</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5350</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7458</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND001</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>200</td>
+      <td>200</td>
+      <td>49.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.2222</td>
+      <td>efficient_sirna_fraction</td>
+      <td>180</td>
+      <td>40</td>
+      <td>0.2222</td>
+      <td>0.3699</td>
+      <td>0</td>
+      <td>TCCATATTCGCGCTCTCTGC</td>
+      <td>AGCTCTTTTGTCTCTGCATTTTGA</td>
+      <td>173.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5333</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7452</td>
+      <td>2</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND009</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>210</td>
+      <td>210</td>
+      <td>48.57</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.84</td>
+      <td>77.89</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7049</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>190</td>
+      <td>41</td>
+      <td>0.2158</td>
+      <td>0.3860</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9884</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5295</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7448</td>
+      <td>2</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND005</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>5</td>
+      <td>204</td>
+      <td>200</td>
+      <td>49.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>180</td>
+      <td>37</td>
+      <td>0.2056</td>
+      <td>0.3617</td>
+      <td>0</td>
+      <td>TCATCATCTCCATATTCGCGCT</td>
+      <td>AGCTCTTTTGTCTCTGCATT</td>
+      <td>181.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5234</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7437</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND006</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>9</td>
+      <td>208</td>
+      <td>200</td>
+      <td>49.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>180</td>
+      <td>37</td>
+      <td>0.2056</td>
+      <td>0.3753</td>
+      <td>0</td>
+      <td>ATCATCTCCATATTCGCGCTCT</td>
+      <td>AAGCTCTTTTGTCTCTGCAT</td>
+      <td>180.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5234</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7437</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND007</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>13</td>
+      <td>212</td>
+      <td>200</td>
+      <td>49.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>180</td>
+      <td>36</td>
+      <td>0.2000</td>
+      <td>0.3850</td>
+      <td>0</td>
+      <td>no suitable primers found</td>
+      <td>no suitable primers found</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5200</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7432</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND002</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>250</td>
+      <td>250</td>
+      <td>50.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>99.04</td>
+      <td>81.74</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.1870</td>
+      <td>efficient_sirna_fraction</td>
+      <td>230</td>
+      <td>43</td>
+      <td>0.1870</td>
+      <td>0.3583</td>
+      <td>0</td>
+      <td>TCCATATTCGCGCTCTCTGC</td>
+      <td>TGCAAGTCCACTCTTCTCCG</td>
+      <td>226.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9904</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5122</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7427</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND004</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>51</td>
+      <td>250</td>
+      <td>200</td>
+      <td>50.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>99.39</td>
+      <td>88.33</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.1667</td>
+      <td>efficient_sirna_fraction</td>
+      <td>180</td>
+      <td>30</td>
+      <td>0.1667</td>
+      <td>0.3573</td>
+      <td>0</td>
+      <td>CTTCCGCACCTGCTACAGAT</td>
+      <td>CTCTTCTCCGACCTTGAGGC</td>
+      <td>170.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>-34.6</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9939</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5000</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7418</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND010</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>76</td>
+      <td>255</td>
+      <td>180</td>
+      <td>48.89</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>99.31</td>
+      <td>86.88</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.6922</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>160</td>
+      <td>27</td>
+      <td>0.1688</td>
+      <td>0.3608</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>12</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>-34.6</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9931</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5013</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7418</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND003</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>26</td>
+      <td>225</td>
+      <td>200</td>
+      <td>50.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.83</td>
+      <td>77.78</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.1722</td>
+      <td>efficient_sirna_fraction</td>
+      <td>180</td>
+      <td>31</td>
+      <td>0.1722</td>
+      <td>0.3759</td>
+      <td>0</td>
+      <td>CTGCTATGGAGGTGGCTTCC</td>
+      <td>TCCGACCTTGAGGCAAAACT</td>
+      <td>179.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9883</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5033</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7409</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND013</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1</td>
+      <td>210</td>
+      <td>210</td>
+      <td>58.57</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7519</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>190</td>
+      <td>63</td>
+      <td>0.3316</td>
+      <td>0.4602</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>1.0000</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5990</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7321</td>
+      <td>2</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND013</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>501</td>
+      <td>710</td>
+      <td>210</td>
+      <td>51.43</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7580</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>190</td>
+      <td>73</td>
+      <td>0.3842</td>
+      <td>0.4127</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-43.1</td>
+      <td>High-similarity match</td>
+      <td>0.45</td>
+      <td>1.0000</td>
+      <td>0.45</td>
+      <td>0.7926</td>
+      <td>0.6305</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7281</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND005</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1</td>
+      <td>250</td>
+      <td>250</td>
+      <td>58.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>96.89</td>
+      <td>96.52</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>75</td>
+      <td>0.3261</td>
+      <td>0.4354</td>
+      <td>0</td>
+      <td>GCCATGCTCGCCTCAAA</td>
+      <td>TGATGCGCTTTAGCCAGTCA</td>
+      <td>238.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9689</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5957</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7238</td>
+      <td>5</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND006</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>5</td>
+      <td>254</td>
+      <td>250</td>
+      <td>57.60</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>95.33</td>
+      <td>94.78</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>74</td>
+      <td>0.3217</td>
+      <td>0.4396</td>
+      <td>0</td>
+      <td>CATGCTCGCCTCAAAGG</td>
+      <td>TGATGCGCTTTAGCCAGTCA</td>
+      <td>236.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9533</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5930</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7195</td>
+      <td>6</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND007</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>9</td>
+      <td>258</td>
+      <td>250</td>
+      <td>57.60</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>93.77</td>
+      <td>93.04</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>76</td>
+      <td>0.3304</td>
+      <td>0.4438</td>
+      <td>0</td>
+      <td>no suitable primers found</td>
+      <td>no suitable primers found</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>Moderate/Conditional</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9377</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5982</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7164</td>
+      <td>5</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND008</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>13</td>
+      <td>262</td>
+      <td>250</td>
+      <td>57.60</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>92.22</td>
+      <td>91.30</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>74</td>
+      <td>0.3217</td>
+      <td>0.4314</td>
+      <td>0</td>
+      <td>no suitable primers found</td>
+      <td>no suitable primers found</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>Moderate/Conditional</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9222</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5930</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7117</td>
+      <td>7</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND009</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>1</td>
+      <td>300</td>
+      <td>300</td>
+      <td>52.33</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.48</td>
+      <td>78.57</td>
+      <td>dsRNAmax</td>
+      <td>1.1.14</td>
+      <td>280.0000</td>
+      <td>21nt_kmer_coverage_max</td>
+      <td>280</td>
+      <td>67</td>
+      <td>0.2393</td>
+      <td>0.4042</td>
+      <td>0</td>
+      <td>NA (synthetic k-mer construct)</td>
+      <td>NA (synthetic k-mer construct)</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>24</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9848</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5436</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6863</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND005</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>1</td>
+      <td>250</td>
+      <td>250</td>
+      <td>52.40</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.63</td>
+      <td>83.04</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>54</td>
+      <td>0.2348</td>
+      <td>0.3844</td>
+      <td>0</td>
+      <td>GCGGCAGCTCCAGGAAAATC</td>
+      <td>CAGGATGGAGATGATGTTTTCGT</td>
+      <td>230.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9863</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5409</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6862</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND006</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>5</td>
+      <td>254</td>
+      <td>250</td>
+      <td>52.40</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.63</td>
+      <td>83.04</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>54</td>
+      <td>0.2348</td>
+      <td>0.3851</td>
+      <td>0</td>
+      <td>GCGGCAGCTCCAGGAAAATC</td>
+      <td>CAGGATGGAGATGATGTTTTCGT</td>
+      <td>230.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9863</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5409</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6862</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND007</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>9</td>
+      <td>258</td>
+      <td>250</td>
+      <td>51.60</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.63</td>
+      <td>83.04</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>54</td>
+      <td>0.2348</td>
+      <td>0.3840</td>
+      <td>0</td>
+      <td>GCGGCAGCTCCAGGAAAATC</td>
+      <td>CAGGATGGAGATGATGTTTTCGT</td>
+      <td>230.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9863</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5409</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6862</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND008</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>13</td>
+      <td>262</td>
+      <td>250</td>
+      <td>52.40</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.60</td>
+      <td>82.61</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>54</td>
+      <td>0.2348</td>
+      <td>0.3847</td>
+      <td>0</td>
+      <td>CGGCAGCTCCAGGAAAATCT</td>
+      <td>GGGGCTTTTGGATGTCCA</td>
+      <td>245.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>19</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9860</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5409</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6862</td>
+      <td>5</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND014</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1401</td>
+      <td>1610</td>
+      <td>210</td>
+      <td>55.24</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>18</td>
+      <td>99.92</td>
+      <td>98.42</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7517</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>190</td>
+      <td>61</td>
+      <td>0.3211</td>
+      <td>0.4795</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>12</td>
+      <td>Partial similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>-44.9</td>
+      <td>High-similarity match</td>
+      <td>0.45</td>
+      <td>0.9992</td>
+      <td>0.45</td>
+      <td>0.7737</td>
+      <td>0.5927</td>
+      <td>0.50</td>
+      <td>1</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6809</td>
+      <td>2</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND003</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>676</td>
+      <td>875</td>
+      <td>200</td>
+      <td>50.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>17</td>
+      <td>98.95</td>
+      <td>90.00</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.3778</td>
+      <td>efficient_sirna_fraction</td>
+      <td>180</td>
+      <td>68</td>
+      <td>0.3778</td>
+      <td>0.4210</td>
+      <td>0</td>
+      <td>GACTACCACCACCAGCTCAC</td>
+      <td>GTAATCGCTCGAGCAGGTCA</td>
+      <td>187.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-36.2</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9895</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.6267</td>
+      <td>0.50</td>
+      <td>1</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6624</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND010</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1101</td>
+      <td>1280</td>
+      <td>180</td>
+      <td>53.89</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>99.24</td>
+      <td>88.12</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7632</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>160</td>
+      <td>56</td>
+      <td>0.3500</td>
+      <td>0.5350</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>12</td>
+      <td>-29.4</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9924</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.6100</td>
+      <td>0.50</td>
+      <td>1</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6568</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table><h2>Key Figures</h2><figure><img src='figures/brd_workflow_architecture.png'/><figcaption>Figure 1. BRD M01–M10 modular workflow architecture.</figcaption></figure><figure><img src='figures/genome_quality_visualisation.png'/><figcaption>Figure 2. Genome assembly quality comparison across 19 B. sorokiniana biological isolates.</figcaption></figure><figure><img src='figures/gc_distribution.png'/><figcaption>Figure 3. GC% distribution across B. sorokiniana assemblies.</figcaption></figure><figure><img src='figures/multi_isolate_nucleotide_conservation.png'/><figcaption>Figure 4. Multi-isolate CDS nucleotide conservation and SNP positions for CsPKS1, CsFUS3, CsSTE11, and CsSp1.</figcaption></figure><figure><img src='figures/four_target_functional_evidence_comparison.png'/><figcaption>Figure 5. Four-target biological, expression, conservation, and designability evidence profile.</figcaption></figure><figure><img src='figures/target_prioritisation.png'/><figcaption>Figure 6. Provisional target prioritisation scores.</figcaption></figure><figure><img src='figures/candidate_characteristics.png'/><figcaption>Figure 7. Designed dsRNA candidate length, GC%, and conservation vs efficient siRNA fraction.</figcaption></figure><figure><img src='figures/wheat_off_target_summary.png'/><figcaption>Figure 8. Hexaploid wheat (T. aestivum IWGSC v2.1) off-target screening summary.</figcaption></figure><figure><img src='figures/barley_off_target_summary.png'/><figcaption>Figure 9. Barley (H. vulgare MorexV3) off-target screening summary.</figcaption></figure><figure><img src='figures/beneficial_fungi_off_target_summary.png'/><figcaption>Figure 10. Beneficial fungi panel off-target screening summary.</figcaption></figure><figure><img src='figures/candidate_pareto_frontier.png'/><figcaption>Figure 11. Candidate Pareto frontier (isolate conservation vs off-target safety).</figcaption></figure><figure><img src='figures/bootstrap_stability.png'/><figcaption>Figure 12. Bootstrap ranking stability (1,000 isolate resamples, 95% CI).</figcaption></figure><figure><img src='figures/sensitivity_analysis.png'/><figcaption>Figure 13. Weighting sensitivity analysis across five heuristic scenarios.</figcaption></figure><h2>20. References</h2><p>- Al-Sadi, A. M. (2021). *Frontiers in Cellular and Infection Microbiology*, 11, 584899. https://doi.org/10.3389/fcimb.2021.584899<br/>- Appels, R., et al. (2018). *Science*, 361(6403), eaar7191. https://doi.org/10.1126/science.aar7191<br/>- Fletcher, S. J., et al. (2025). dsRNAmax. *NAR Genomics and Bioinformatics*, 7(2), lqaf064. https://doi.org/10.1093/nargab/lqaf064<br/>- Jiménez-Castro, L., et al. (2026). LUCID. *Plant Biotechnology Journal*, 24(6), 3597–3615. https://doi.org/10.1111/pbi.70526<br/>- Koch, A., et al. (2016). *PLOS Pathogens*, 12(10), e1005901. https://doi.org/10.1371/journal.ppat.1005901<br/>- Leng, Y., et al. (2011). *Molecular Plant Pathology*, 12(3), 289–298. https://doi.org/10.1111/j.1364-3703.2010.00666.x<br/>- Leng, Y., & Zhong, S. (2015). *PLOS ONE*, 10(5), e0128291. https://doi.org/10.1371/journal.pone.0128291<br/>- Leng, Y., et al. (2024). *PhytoFrontiers*, 4(4), 247–250. https://doi.org/10.1094/PHYTOFR-08-23-0108-A<br/>- Piombo, E., et al. (2021). *Microbiology Spectrum*, 9(2), e0109921. https://doi.org/10.1128/Spectrum.01099-21<br/>- Qiao, L., et al. (2021). *Plant Biotechnology Journal*, 19(9), 1756–1768. https://doi.org/10.1111/pbi.13589<br/>- Roy, C., et al. (2023). *Frontiers in Plant Science*, 14, 1098648. https://doi.org/10.3389/fpls.2023.1098648<br/>- Urban, M., et al. (2022). PHI-base. *Nucleic Acids Research*, 50(D1), D837–D847. https://doi.org/10.1093/nar/gkab1037<br/>- Vargas Mejía, P., & Vega-Arreguín, J. C. (2025/2026). SIREN. https://doi.org/10.1101/2025.05.26.656188<br/>- Zhang, W., et al. (2022). CsSp1. *Molecular Plant Pathology*, 23(2), 218–236. https://doi.org/10.1111/mpp.13155<br/>- Zhang, W., et al. (2023). LK93 genome. *MPMI*, 36(7), 452–456. https://doi.org/10.1094/MPMI-09-22-0196-A</p><h2>21. Software Versions & Compatibility</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>software</th>
+      <th>version</th>
+      <th>repository_or_source</th>
+      <th>license</th>
+      <th>execution_status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Python</td>
+      <td>3.13.14</td>
+      <td>https://www.python.org/</td>
+      <td>PSF</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>Biopython</td>
+      <td>1.86</td>
+      <td>https://biopython.org/</td>
+      <td>Biopython</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>ViennaRNA (Python RNA)</td>
+      <td>2.8.0</td>
+      <td>https://www.tbi.univie.ac.at/RNA/</td>
+      <td>ViennaRNA</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>Snakemake</td>
+      <td>9.27.1</td>
+      <td>https://snakemake.readthedocs.io/</td>
+      <td>MIT</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>pandas</td>
+      <td>2.3.3</td>
+      <td>https://pandas.pydata.org/</td>
+      <td>BSD-3-Clause</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>NumPy</td>
+      <td>2.4.0</td>
+      <td>https://numpy.org/</td>
+      <td>BSD-3-Clause</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>SciPy</td>
+      <td>1.16.3</td>
+      <td>https://scipy.org/</td>
+      <td>BSD-3-Clause</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>Matplotlib</td>
+      <td>3.10.8</td>
+      <td>https://matplotlib.org/</td>
+      <td>PSF-based</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>primer3-py</td>
+      <td>2.4.0</td>
+      <td>https://github.com/libnano/primer3-py</td>
+      <td>GPL-2.0</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>reportlab</td>
+      <td>4.4.7</td>
+      <td>https://www.reportlab.com/</td>
+      <td>BSD</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>PyYAML</td>
+      <td>6.0.3</td>
+      <td>https://pyyaml.org/</td>
+      <td>MIT</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>NCBI BLAST+</td>
+      <td>blastn: 2.17.0+ | Package: blast 2.17.0, build Jul  1 2025 08:57:20</td>
+      <td>https://blast.ncbi.nlm.nih.gov/</td>
+      <td>Public Domain</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>NCBI Datasets CLI</td>
+      <td>datasets version: 18.41.0</td>
+      <td>https://www.ncbi.nlm.nih.gov/datasets/</td>
+      <td>Public Domain</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>DIAMOND</td>
+      <td>diamond version 2.2.8</td>
+      <td>https://github.com/bbuchfink/diamond</td>
+      <td>GPL-3.0</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>MAFFT</td>
+      <td>Preparing environment to run MAFFT on Windows. | This may take a while, if real-time scanning by ant</td>
+      <td>https://mafft.cbrc.jp/alignment/software/</td>
+      <td>BSD-3-Clause</td>
+      <td>Native Windows 11</td>
+    </tr>
+    <tr>
+      <td>dsRNAmax</td>
+      <td>2026/11/11 05:41:33 dsRNAmax - dsRNA maximizer (Version: 1.1.14) | -biasHeader string</td>
+      <td>https://github.com/sfletc/dsRNAmax</td>
+      <td>BSD-3-Clause</td>
+      <td>Native Windows 11 (commit 674b5b5)</td>
+    </tr>
+    <tr>
+      <td>SIREN (siren-rnai)</td>
+      <td>0.1.6 (commit 0f5a5a9)</td>
+      <td>https://github.com/pablovargasmejia/SIREN</td>
+      <td>GPL-3.0</td>
+      <td>Native Windows Python modules (prefilter + designVIII); RNAhybrid replaced by ViennaRNA duplexfold</td>
+    </tr>
+    <tr>
+      <td>LUCID (sifi21_plus)</td>
+      <td>0.1.0 (commit 37910bd)</td>
+      <td>https://github.com/Brunxi/LUCID</td>
+      <td>No explicit LICENSE file in repo</td>
+      <td>sifi21_plus free-energy/efficiency reproduced natively with ViennaRNA 2.8.0</td>
+    </tr>
+    <tr>
+      <td>tensorflow/lucid</td>
+      <td>v0.3.10 (rejected)</td>
+      <td>https://github.com/tensorflow/lucid</td>
+      <td>Apache-2.0</td>
+      <td>EXCLUDED — neural network interpretability library, not RNAi design</td>
+    </tr>
+    <tr>
+      <td>evanpeikon/BLAST</td>
+      <td>unreleased (rejected)</td>
+      <td>https://github.com/evanpeikon/BLAST</td>
+      <td>MIT</td>
+      <td>EXCLUDED — educational script; official NCBI BLAST+ 2.17.0+ used</td>
+    </tr>
+    <tr>
+      <td>metashot/busco</td>
+      <td>1.0.0 (rejected)</td>
+      <td>https://github.com/metashot/busco</td>
+      <td>GPL-3.0</td>
+      <td>EXCLUDED — deprecated Nextflow wrapper</td>
+    </tr>
+    <tr>
+      <td>QUAST</td>
+      <td>5.3.0 (not installed)</td>
+      <td>https://github.com/ablab/quast</td>
+      <td>GPL-2.0</td>
+      <td>Linux-only (WSL2 distro absent); Python QUAST-compatible metrics computed</td>
+    </tr>
+    <tr>
+      <td>BUSCO</td>
+      <td>6.1.0 (not installed)</td>
+      <td>https://busco.ezlab.org/</td>
+      <td>MIT</td>
+      <td>Linux-only (WSL2 distro absent); scores marked NA (not fabricated)</td>
+    </tr>
+    <tr>
+      <td>OrthoFinder</td>
+      <td>3.2 (not installed)</td>
+      <td>https://github.com/OrthoFinder/OrthoFinder</td>
+      <td>GPL-3.0</td>
+      <td>Linux MCL/FastME unavailable natively; DIAMOND RBH graph clustering executed</td>
+    </tr>
+    <tr>
+      <td>Funannotate / BRAKER3</td>
+      <td>1.9.1 / 3.0.8 (not installed)</td>
+      <td>https://github.com/nextgenusfs/funannotate</td>
+      <td>BSD-2 / Artistic</td>
+      <td>Linux-only; NCBI RefSeq/GenBank annotations reused + tblastn/blastn exon alignment</td>
+    </tr>
+    <tr>
+      <td>RNAhybrid</td>
+      <td>2.1.2 (not installed)</td>
+      <td>https://bibiserv.cebitec.uni-bielefeld.de/rnahybrid</td>
+      <td>GPL-2.0</td>
+      <td>Linux/macOS Bioconda only; ViennaRNA 2.8.0 RNA.duplexfold executed</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

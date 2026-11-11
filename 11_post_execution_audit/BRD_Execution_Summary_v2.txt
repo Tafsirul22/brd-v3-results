@@ -1,0 +1,55 @@
+====================================================
+BIPOLARIS-RNAi DESIGNER — AUDITED EXECUTION SUMMARY (v2)
+====================================================
+
+Audit directory (v1 reports preserved untouched in 10_final_reports/):
+C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit
+
+Module & Tool Status Taxonomy (Section 6):
+  M01 Data acquisition       : COMPLETED (19 isolates, 7 non-target RefSeq DBs, PHI-base v4.19, GSE130517)
+  M02 Genome QC              : COMPLETED_WITH_ALTERNATIVE (QUAST CLI NOT_RUN; BUSCO NOT_RUN -> scores NA)
+  M03 Annotation             : PARTIALLY_COMPLETED (Funannotate/BRAKER3 NOT_RUN; 12,210 RefSeq CDS validated)
+  M04 Comparative genomics   : COMPLETED_WITH_ALTERNATIVE (OrthoFinder NOT_RUN; DIAMOND RBH + MAFFT v7.526 (2024/Apr/26))
+  M05 Functional evidence    : COMPLETED (GSE130517 distribution audited; arbitrary RPKM/150 excluded from composites)
+  M06 Target prioritisation  : COMPLETED (rubric-scored Biological vs dsRNA Candidate rankings separated in v2)
+  M07 dsRNA design           : COMPLETED_WITH_ALTERNATIVE (SIREN + dsRNAmax v1.1.14 + Brunxi/LUCID sifi21_plus formulas + BRD)
+  M08 Off-target screening   : COMPLETED_WITH_ALTERNATIVE (RNAhybrid NOT_RUN; BLAST+ 2.17.0+ & ViennaRNA 2.8.0 + full Python 21-mer scan)
+  M09 Candidate ranking      : COMPLETED (recalculated from corrected v2 M08 + aligned 1,000-bootstrap & sensitivity)
+  M10 Audit & v2 reporting   : COMPLETED
+
+Target Gene Verification & Conservation Denominators:
+  CsPKS1  : 19/19 homologs, 17/19 complete CDS (WAI2406/WAI2411 frameshifted); HQ830033.1 full + KF769134-141 partial verified
+  CsFUS3  : 19/19 homologs, 17/19 complete CDS; RefSeq CHK1 = CsFUS3 verified (3/3 primers + MAPK domains)
+  CsSTE11 : 19/19 homologs, 17/19 complete CDS; 4/4 primers verified (F6 exact in ND93-1, 1 SNP in ND90Pr)
+  CsSp1   : 19/19 homologs, 19/19 complete CDS; 5/5 Zhang 2022 primers exact (incl. splice-junction QRT2-R) -> XM_007706020.1 (no standalone nuccore accession)
+
+Separate Target Priority Rankings (Rubric: 0.35 ExpPatho + 0.20 CompDB_IPR + 0.25 IsoCons + 0.20 VerifConf; Expression Excluded):
+  Biological Target Ranking : #1 CsFUS3 (0.9915), #2 CsSTE11 (0.9866), #3 CsSp1 (0.6993), #4 CsPKS1 (0.6913)
+  dsRNA Targetability Rank  : #1 CsSTE11 (0.917), #2 CsPKS1 (0.7988), #3 CsSp1 (0.7911), #4 CsFUS3 (0.7259)
+
+Off-Target Audit & Filtering Funnel (50 Candidates):
+  Exact 21-mer non-target matches : 16 candidates (v1 missed 6 CsFUS3 + 2 CsSTE11; all 16 excluded in v2)
+  Passing v2 computational filters: 33/50 (2 High, 31 Moderate, 0 Low, 17 Excluded)
+  0_Total_Unique_Designed_Candidates         | indiv=50 | cumul=50
+  1_Sequence_QC_Length_GC_Homopolymer        | indiv=50 | cumul=50
+  2_Zero_Fungal_Paralog_Exact_21mers         | indiv=48 | cumul=48
+  3_Zero_Wheat_Barley_Exact_21mers           | indiv=50 | cumul=48
+  4_Zero_Beneficial_Fungi_Exact_21mers       | indiv=34 | cumul=34
+  5_Conservation_ge85pct_Hard_Filter_Pass    | indiv=48 | cumul=33
+  6_Caution_No_Long_ge30nt_Homology          | indiv=34 | cumul=32
+  7_Caution_Low_Host_20of21_NearMatches      | indiv=23 | cumul=13
+
+Top 5 Passing dsRNA Candidates (v2):
+  #1 (v1 #1) BRD_CsSTE11_CAND012 (CsSTE11, BRD_IsolateAware, 180 nt, cons=100.0%, safety_v2=0.915, score_v2=0.917, High computational priority)
+  #2 (v1 #12) BRD_CsSTE11_CAND013 (CsSTE11, BRD_IsolateAware, 210 nt, cons=100.0%, safety_v2=0.875, score_v2=0.9059, High computational priority)
+  #3 (v1 #14) BRD_CsSTE11_CAND005 (CsSTE11, SIREN, 250 nt, cons=96.89%, safety_v2=0.845, score_v2=0.8902, Moderate computational priority)
+  #4 (v1 #15) BRD_CsSTE11_CAND006 (CsSTE11, SIREN, 250 nt, cons=95.33%, safety_v2=0.845, score_v2=0.8858, Moderate computational priority)
+  #5 (v1 #16) BRD_CsSTE11_CAND007 (CsSTE11, SIREN, 250 nt, cons=93.77%, safety_v2=0.85, score_v2=0.884, Moderate computational priority)
+
+Corrected Final Reports:
+  Markdown : C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit\BRD_Final_Research_Report_v2.md
+  HTML     : C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit\BRD_Final_Research_Report_v2.html
+  PDF      : C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit\BRD_Final_Research_Report_v2.pdf
+  Bio Rank : C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit\BRD_Target_Biological_Prioritisation_v2.tsv
+  Test Log : C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\11_post_execution_audit\BRD_Test_Results_v2.txt
+====================================================

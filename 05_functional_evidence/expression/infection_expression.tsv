@@ -1,0 +1,5 @@
+target	locus_tag	gse_gene_id	dataset	bs_axenic_mean_rpkm	inplanta_mean_rpkm	inplanta_max_rpkm	svbs_co_inoc_mean_rpkm	inplanta_raw_reads_sum	axenic_raw_reads_sum	infection_expression_detected	notes
+CsSTE11	COCSADRAFT_105370	Bipso1_00226	GSE130517 (Hordeum vulgare-B. sorokiniana ND90Pr root interaction)	35.78	11.95	87.63	28.42	216	8071	True	Measured RPKM from GSE130517 supplementary matrix mapped via JGI protein ID.
+CsPKS1	COCSADRAFT_157080	Bipso1_02104	GSE130517 (Hordeum vulgare-B. sorokiniana ND90Pr root interaction)	20.55	4.95	27.17	303.15	223	8116	True	Measured RPKM from GSE130517 supplementary matrix mapped via JGI protein ID.
+CsFUS3	COCSADRAFT_24574	Bipso1_03811	GSE130517 (Hordeum vulgare-B. sorokiniana ND90Pr root interaction)	210.59	23.45	90.21	120.1	216	15763	True	Measured RPKM from GSE130517 supplementary matrix mapped via JGI protein ID.
+CsSp1	COCSADRAFT_164106	Bipso1_10075	GSE130517 (Hordeum vulgare-B. sorokiniana ND90Pr root interaction)	7.85	89.67	1438.44	12.52	76	154	True	Measured RPKM from GSE130517 supplementary matrix mapped via JGI protein ID.

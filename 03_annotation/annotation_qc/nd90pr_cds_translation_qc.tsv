@@ -1,0 +1,11 @@
+metric	value
+GFF3 genes parsed	12302
+GFF3 mRNAs parsed	12210
+GFF3 orphan mRNAs	0
+GFF3 structural errors	0
+Total CDS evaluated	12210
+Complete CDS (ATG..stop, mod3, 0 internal stops)	11433
+CDS translations 100% matching protein.faa	12202
+CDS with internal stops	0
+Funannotate status	NOT_RUN_LINUX_ONLY (use existing NCBI RefSeq/GenBank annotations; WSL2/Conda required for de novo annotation)
+BRAKER3 status	NOT_RUN_LINUX_ONLY (requires Linux + GeneMark-ES/ETP license + AUGUSTUS)

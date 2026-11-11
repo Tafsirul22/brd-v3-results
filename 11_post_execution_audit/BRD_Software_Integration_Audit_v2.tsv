@@ -1,0 +1,15 @@
+software_or_component	version	audit_status_v2	verification_and_substitution_notes
+QUAST CLI	5.3.0 (not installed)	NOT_RUN	Linux/WSL2 required (no WSL distro installed); replaced in M02 by native Python QUAST-compatible FASTA metrics.
+BUSCO	6.1.0 (not installed)	NOT_RUN	Linux/WSL2 required; completeness values remain strictly NA (never fabricated).
+OrthoFinder (MCL/FastME)	3.2 (not installed)	NOT_RUN	Native Windows DIAMOND v2.2.8 RBH graph clustering executed instead (`COMPLETED_WITH_ALTERNATIVE`).
+Funannotate / BRAKER3	1.9.1 / 3.0.8 (not installed)	NOT_RUN	Linux-only; existing RefSeq GCF_000338995.1 annotation reused and unannotated assemblies interrogated via tblastn/blastn.
+RNAhybrid	2.1.2 (not installed)	NOT_RUN	Linux/macOS Bioconda binary unavailable natively; ViennaRNA 2.8.0 `RNA.duplexfold` executed (`COMPLETED_WITH_ALTERNATIVE`).
+SIREN (siren-rnai)	0.1.6 (commit 0f5a5a9)	COMPLETED_WITH_ALTERNATIVE	Native Python components `siren_prefilter.py` + `siren_designVIII.py` executed; off-target duplex folding performed via ViennaRNA `RNA.duplexfold` instead of Linux RNAhybrid.
+LUCID (Brunxi/LUCID)	commit 37910bd (sifi21_plus 0.1.0)	COMPLETED_WITH_ALTERNATIVE	Brunxi/LUCID bash orchestrator/RNAplfold not invoked directly; `sifi21_plus` free-energy/S1-S19 asymmetry + ViennaRNA 2.8.0 partition-function accessibility + Primer3 reproduced natively (tensorflow/lucid excluded).
+dsRNAmax	1.1.14 (commit 674b5b5)	COMPLETED	Verified Windows native Go executable `Output/tools/bin/dsRNAmax.exe` executed (`-h` verified v1.1.14; constructs designed for all 4 targets).
+NCBI BLAST+	2.17.0+	COMPLETED	Official native Windows binaries (`makeblastdb.exe`, `blastn.exe`, `tblastn.exe`) executed.
+NCBI Datasets CLI	18.41.0	COMPLETED	Verified Windows binary `datasets.exe` retrieved isolate and non-target RefSeq packages.
+DIAMOND	2.2.8	COMPLETED	Verified Windows binary `diamond.exe` executed for proteome clustering and PHI-base/DEG searches.
+MAFFT	v7.526 (2024/Apr/26)	COMPLETED	Official Windows build `mafft.bat` executed cleanly for CDS and protein alignments.
+ViennaRNA (Python RNA)	2.8.0	COMPLETED	Used natively for unpaired probability (`RNA.fold_compound.pf/bpp`) and duplex thermodynamics (`RNA.duplexfold`).
+Snakemake / Pytest / Biopython	9.27.1 / 9.1.1 / 1.86	COMPLETED	Workflow DAG validated and unit/audit test suites executed.

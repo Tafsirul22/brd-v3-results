@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRD M08 — Multi-Reference Off-Target Screening Report</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>BRD M08 — Multi-Reference Off-Target Screening Report</h1>
+<div class="subtitle">Wheat (A/B/D), Barley, and Beneficial Fungi Panel</div>
+<div class='warn'><strong>Interpretation Safeguard:</strong> 'No match detected in the available database' does <strong>not</strong> demonstrate biological safety; it reflects absence of sequence matches exceeding our BLASTN-short (&ge;16 nt, word_size=7) and 21-mer exact criteria across the 7 RefSeq non-target transcriptomes screened.</div><h2>Screened Reference Databases</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>ref_id</th>
+      <th>group</th>
+      <th>organism</th>
+      <th>accession</th>
+      <th>sequence_count</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Triticum_aestivum_IWGSC_v2_1</td>
+      <td>wheat</td>
+      <td>Triticum aestivum</td>
+      <td>GCF_018294505.1</td>
+      <td>221398</td>
+    </tr>
+    <tr>
+      <td>Hordeum_vulgare_MorexV3</td>
+      <td>barley</td>
+      <td>Hordeum vulgare subsp. vulgare</td>
+      <td>GCF_904849725.1</td>
+      <td>63294</td>
+    </tr>
+    <tr>
+      <td>Trichoderma_atroviride_IMI206040</td>
+      <td>beneficial_fungi</td>
+      <td>Trichoderma atroviride IMI 206040</td>
+      <td>GCF_000171015.1</td>
+      <td>11807</td>
+    </tr>
+    <tr>
+      <td>Trichoderma_virens_Gv29_8</td>
+      <td>beneficial_fungi</td>
+      <td>Trichoderma virens Gv29-8</td>
+      <td>GCF_000170995.1</td>
+      <td>12383</td>
+    </tr>
+    <tr>
+      <td>Trichoderma_reesei_QM6a</td>
+      <td>beneficial_fungi</td>
+      <td>Trichoderma reesei QM6a</td>
+      <td>GCF_000167675.1</td>
+      <td>9111</td>
+    </tr>
+    <tr>
+      <td>Beauveria_bassiana_ARSEF2860</td>
+      <td>beneficial_fungi</td>
+      <td>Beauveria bassiana ARSEF 2860</td>
+      <td>GCF_000280675.1</td>
+      <td>10364</td>
+    </tr>
+    <tr>
+      <td>Rhizophagus_irregularis_A1</td>
+      <td>beneficial_fungi</td>
+      <td>Rhizophagus irregularis</td>
+      <td>GCA_002897155.2</td>
+      <td>50073</td>
+    </tr>
+  </tbody>
+</table><h2>Off-Target Summary by Candidate</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>candidate_id</th>
+      <th>target</th>
+      <th>tool_name</th>
+      <th>candidate_length_nt</th>
+      <th>wheat_classification</th>
+      <th>wheat_exact_21mer_hits</th>
+      <th>wheat_high_sim_hits_ge19nt</th>
+      <th>wheat_unique_transcript_hits</th>
+      <th>barley_classification</th>
+      <th>barley_exact_21mer_hits</th>
+      <th>barley_high_sim_hits_ge19nt</th>
+      <th>beneficial_fungi_classification</th>
+      <th>beneficial_fungi_exact_21mer_hits</th>
+      <th>beneficial_fungi_high_sim_hits_ge19nt</th>
+      <th>beneficial_fungi_species_with_hits</th>
+      <th>top_hit_viennarna_duplexfold_mfe</th>
+      <th>overall_off_target_classification</th>
+      <th>off_target_safety_score_0_1</th>
+      <th>databases_screened</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BRD_CsPKS1_CAND001</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>80</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>-41.0</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND002</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>80</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>-35.4</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND003</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>75</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5</td>
+      <td>-35.4</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND004</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>80</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>11</td>
+      <td>5</td>
+      <td>-35.4</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND005</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>5</td>
+      <td>-38.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND006</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>13</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>5</td>
+      <td>-38.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND007</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>13</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>5</td>
+      <td>-38.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND008</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>13</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>5</td>
+      <td>-38.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND009</td>
+      <td>CsPKS1</td>
+      <td>dsRNAmax</td>
+      <td>300</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>8</td>
+      <td>5</td>
+      <td>-38.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND010</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>80</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5</td>
+      <td>-41.0</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND011</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>80</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>-41.0</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND012</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>7</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>4</td>
+      <td>-31.8</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsPKS1_CAND013</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>Partial similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.55</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND001</td>
+      <td>CsFUS3</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>12</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>Exact sequence match</td>
+      <td>1</td>
+      <td>8</td>
+      <td>5</td>
+      <td>-38.2</td>
+      <td>Exact sequence match</td>
+      <td>0.40</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND002</td>
+      <td>CsFUS3</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>46</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>Exact sequence match</td>
+      <td>2</td>
+      <td>19</td>
+      <td>5</td>
+      <td>-36.8</td>
+      <td>Exact sequence match</td>
+      <td>0.20</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND003</td>
+      <td>CsFUS3</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>14</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>4</td>
+      <td>-36.2</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND004</td>
+      <td>CsFUS3</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>51</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>8</td>
+      <td>Exact sequence match</td>
+      <td>1</td>
+      <td>20</td>
+      <td>5</td>
+      <td>-37.9</td>
+      <td>Exact sequence match</td>
+      <td>0.20</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND005</td>
+      <td>CsFUS3</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>60</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>5</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND006</td>
+      <td>CsFUS3</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>53</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>5</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND007</td>
+      <td>CsFUS3</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>52</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>5</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND008</td>
+      <td>CsFUS3</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>52</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>19</td>
+      <td>5</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND009</td>
+      <td>CsFUS3</td>
+      <td>dsRNAmax</td>
+      <td>300</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>60</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>24</td>
+      <td>5</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND010</td>
+      <td>CsFUS3</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>12</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>Exact sequence match</td>
+      <td>1</td>
+      <td>10</td>
+      <td>5</td>
+      <td>-38.2</td>
+      <td>Exact sequence match</td>
+      <td>0.40</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND011</td>
+      <td>CsFUS3</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>12</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>Exact sequence match</td>
+      <td>2</td>
+      <td>8</td>
+      <td>5</td>
+      <td>-38.2</td>
+      <td>Exact sequence match</td>
+      <td>0.40</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND012</td>
+      <td>CsFUS3</td>
+      <td>BRD_IsolateAware</td>
+      <td>300</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>52</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>8</td>
+      <td>Exact sequence match</td>
+      <td>1</td>
+      <td>23</td>
+      <td>5</td>
+      <td>-46.9</td>
+      <td>Exact sequence match</td>
+      <td>0.20</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND013</td>
+      <td>CsFUS3</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>33</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5</td>
+      <td>-43.1</td>
+      <td>High-similarity match</td>
+      <td>0.45</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND001</td>
+      <td>CsSTE11</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>29</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Exact sequence match</td>
+      <td>1</td>
+      <td>15</td>
+      <td>5</td>
+      <td>-38.2</td>
+      <td>Exact sequence match</td>
+      <td>0.20</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND002</td>
+      <td>CsSTE11</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>8</td>
+      <td>78</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>19</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>11</td>
+      <td>5</td>
+      <td>-42.8</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND003</td>
+      <td>CsSTE11</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>84</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>14</td>
+      <td>5</td>
+      <td>-41.0</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND004</td>
+      <td>CsSTE11</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>28</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>11</td>
+      <td>5</td>
+      <td>-42.8</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND005</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>31</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>5</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND006</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>31</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND007</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>31</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND008</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>31</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>5</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND009</td>
+      <td>CsSTE11</td>
+      <td>dsRNAmax</td>
+      <td>300</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>26</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>Exact sequence match</td>
+      <td>1</td>
+      <td>16</td>
+      <td>5</td>
+      <td>-38.2</td>
+      <td>Exact sequence match</td>
+      <td>0.20</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND010</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>8</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>12</td>
+      <td>5</td>
+      <td>-29.4</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND011</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>10</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>5</td>
+      <td>-29.4</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND012</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>Partial similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>20</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>-44.1</td>
+      <td>High-similarity match</td>
+      <td>0.55</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND013</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>22</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>5</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND014</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>12</td>
+      <td>24</td>
+      <td>Partial similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>4</td>
+      <td>-44.9</td>
+      <td>High-similarity match</td>
+      <td>0.45</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND001</td>
+      <td>CsSp1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>49</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND002</td>
+      <td>CsSp1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>250</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>50</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND003</td>
+      <td>CsSp1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>37</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND004</td>
+      <td>CsSp1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>5</td>
+      <td>-34.6</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND005</td>
+      <td>CsSp1</td>
+      <td>SIREN</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>50</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND006</td>
+      <td>CsSp1</td>
+      <td>SIREN</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>38</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND007</td>
+      <td>CsSp1</td>
+      <td>SIREN</td>
+      <td>200</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>38</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND008</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>42</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND009</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>50</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND010</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>12</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>5</td>
+      <td>-34.6</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>7</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

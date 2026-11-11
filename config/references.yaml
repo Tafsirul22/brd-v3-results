@@ -1,0 +1,47 @@
+# Versioned Non-Target Reference Panel for M08 Off-Target Screening
+non_target_panel:
+  wheat:
+    - id: Triticum_aestivum_IWGSC_v2_1
+      organism: "Triticum aestivum"
+      accession: "GCF_018294505.1"
+      group: "wheat"
+      include: ["rna", "cds"]
+      rationale: "Primary hexaploid crop host (A, B, and D homoeologous subgenomes); RefSeq CS v2.1 annotated transcripts."
+  barley:
+    - id: Hordeum_vulgare_MorexV3
+      organism: "Hordeum vulgare subsp. vulgare"
+      accession: "GCF_904849725.1"
+      group: "barley"
+      include: ["rna", "cds"]
+      rationale: "Secondary cereal host (cv. Morex V3); major spot blotch and common root rot host."
+  beneficial_fungi:
+    - id: Trichoderma_atroviride_IMI206040
+      organism: "Trichoderma atroviride IMI 206040"
+      accession: "GCF_000171015.1"
+      group: "beneficial_fungi"
+      include: ["rna", "cds"]
+      rationale: "Mycoparasitic biocontrol fungus with demonstrated Dicer-dependent RNAi machinery (Piombo et al., 2021)."
+    - id: Trichoderma_virens_Gv29_8
+      organism: "Trichoderma virens Gv29-8"
+      accession: "GCF_000170995.1"
+      group: "beneficial_fungi"
+      include: ["rna", "cds"]
+      rationale: "Beneficial rhizosphere biocontrol agent used in cereal cropping systems (Kubicek et al., 2011)."
+    - id: Trichoderma_reesei_QM6a
+      organism: "Trichoderma reesei QM6a"
+      accession: "GCF_000167675.1"
+      group: "beneficial_fungi"
+      include: ["rna", "cds"]
+      rationale: "Saprotrophic ascomycete reference within Trichoderma genus (Kubicek et al., 2011)."
+    - id: Beauveria_bassiana_ARSEF2860
+      organism: "Beauveria bassiana ARSEF 2860"
+      accession: "GCF_000280675.1"
+      group: "beneficial_fungi"
+      include: ["rna", "cds"]
+      rationale: "Beneficial entomopathogenic fungus deployed in integrated pest management."
+    - id: Rhizophagus_irregularis_A1
+      organism: "Rhizophagus irregularis"
+      accession: "GCA_002897155.2"
+      group: "beneficial_fungi"
+      include: ["cds", "rna"]
+      rationale: "Arbuscular mycorrhizal symbiont of wheat and barley roots exposed to soil/root-applied dsRNA."

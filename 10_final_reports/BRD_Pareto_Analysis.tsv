@@ -1,0 +1,15 @@
+final_rank	candidate_id	target	tool_name	candidate_length_nt	conservation_pct	off_target_safety_score	target_evidence_score	guide_quality_score	composite_score	computational_priority_category
+1	BRD_CsSTE11_CAND012	CsSTE11	BRD_IsolateAware	180	100.0	0.55	0.7737	0.6063	0.7832	High computational priority
+2	BRD_CsSp1_CAND008	CsSp1	BRD_IsolateAware	180	98.91	0.35	0.904	0.535	0.7458	Moderate computational priority
+8	BRD_CsSp1_CAND002	CsSp1	LUCID_sifi21_plus	250	99.04	0.35	0.904	0.5122	0.7427	Moderate computational priority
+9	BRD_CsSp1_CAND004	CsSp1	LUCID_sifi21_plus	200	99.39	0.35	0.904	0.5	0.7418	Moderate computational priority
+10	BRD_CsSp1_CAND010	CsSp1	BRD_IsolateAware	180	99.31	0.35	0.904	0.5013	0.7418	Moderate computational priority
+13	BRD_CsFUS3_CAND013	CsFUS3	BRD_IsolateAware	210	100.0	0.45	0.7926	0.6305	0.7281	Moderate computational priority
+26	BRD_CsPKS1_CAND013	CsPKS1	BRD_IsolateAware	180	99.18	0.55	0.5045	0.6213	0.6545	Moderate computational priority
+28	BRD_CsPKS1_CAND010	CsPKS1	BRD_IsolateAware	180	98.68	0.35	0.5045	0.6588	0.6464	Low computational priority
+29	BRD_CsPKS1_CAND002	CsPKS1	LUCID_sifi21_plus	200	98.83	0.35	0.5045	0.65	0.6455	Low computational priority
+30	BRD_CsPKS1_CAND003	CsPKS1	LUCID_sifi21_plus	200	98.83	0.35	0.5045	0.65	0.6455	Low computational priority
+31	BRD_CsPKS1_CAND001	CsPKS1	LUCID_sifi21_plus	200	97.95	0.35	0.5045	0.66	0.6448	Low computational priority
+39	BRD_CsPKS1_CAND012	CsPKS1	BRD_IsolateAware	210	100.0	0.35	0.5045	0.6432	0.6099	Low computational priority
+40	BRD_CsFUS3_CAND001	CsFUS3	LUCID_sifi21_plus	200	99.59	0.4	0.7926	0.6366	0.7155	Excluded due to identified computational concerns
+42	BRD_CsFUS3_CAND010	CsFUS3	BRD_IsolateAware	210	99.61	0.4	0.7926	0.6337	0.7151	Excluded due to identified computational concerns

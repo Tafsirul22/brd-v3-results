@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRD Target Gene Identification &amp; Accession Verification</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>BRD Target Gene Identification &amp; Accession Verification</h1>
+<div class="subtitle">CsPKS1, CsFUS3, CsSTE11, and CsSp1</div>
+<h2>Accession Verification</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Target</th>
+      <th>Supplied accession</th>
+      <th>Verified accession</th>
+      <th>Accession type</th>
+      <th>Organism</th>
+      <th>Strain</th>
+      <th>Isolate</th>
+      <th>Assembly</th>
+      <th>Gene ID</th>
+      <th>Locus tag</th>
+      <th>Gene symbol</th>
+      <th>Functional description</th>
+      <th>Scaffold</th>
+      <th>Start</th>
+      <th>End</th>
+      <th>Strand</th>
+      <th>CDS length</th>
+      <th>Protein length</th>
+      <th>Sequence identity</th>
+      <th>Alignment coverage</th>
+      <th>Evidence source</th>
+      <th>DOI</th>
+      <th>Verification status</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>HQ830033</td>
+      <td>HQ830033.1 / XP_007696213.1 / XM_007698023.1</td>
+      <td>GenBank nucleotide (complete cds) + RefSeq mRNA/protein</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19131806</td>
+      <td>COCSADRAFT_157080</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase involved in melanin biosynthesis</td>
+      <td>NW_006911896.1</td>
+      <td>2261474</td>
+      <td>2268036</td>
+      <td>+</td>
+      <td>6462</td>
+      <td>2153</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank HQ830033.1 + RefSeq GCF_000338995.1</td>
+      <td>https://doi.org/10.1111/j.1364-3703.2010.00666.x</td>
+      <td>Verified (100% CDS match to ND90Pr COCSADRAFT_157080)</td>
+      <td>RefSeq GFF tags COCSADRAFT_157080 as partial=true at boundaries, but CDS is 6,462 nt matching HQ830033.1 complete cds identically; endogenous hairpin-RNAi benchmark only (not SIGS).</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769134</td>
+      <td>KF769134.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-23</td>
+      <td>WPB-23</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 828..1533</td>
+      <td>828</td>
+      <td>1533</td>
+      <td>+</td>
+      <td>706</td>
+      <td>235</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22408.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769135</td>
+      <td>KF769135.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-24</td>
+      <td>WPB-24</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 835..1276</td>
+      <td>835</td>
+      <td>1276</td>
+      <td>+</td>
+      <td>442</td>
+      <td>147</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22409.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769136</td>
+      <td>KF769136.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-18</td>
+      <td>WPB-18</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 1090..1555</td>
+      <td>1090</td>
+      <td>1555</td>
+      <td>+</td>
+      <td>466</td>
+      <td>155</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22410.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769137</td>
+      <td>KF769137.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPM-29</td>
+      <td>WPM-29</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 979..1549</td>
+      <td>979</td>
+      <td>1549</td>
+      <td>+</td>
+      <td>571</td>
+      <td>190</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22411.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769138</td>
+      <td>KF769138.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPM-39</td>
+      <td>WPM-39</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 835..1550</td>
+      <td>835</td>
+      <td>1550</td>
+      <td>+</td>
+      <td>716</td>
+      <td>238</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22412.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769139</td>
+      <td>KF769139.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPW-1</td>
+      <td>WPW-1</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 828..1276</td>
+      <td>828</td>
+      <td>1276</td>
+      <td>+</td>
+      <td>449</td>
+      <td>149</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22413.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769140</td>
+      <td>KF769140.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPW-2</td>
+      <td>WPW-2</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 836..1534</td>
+      <td>836</td>
+      <td>1534</td>
+      <td>+</td>
+      <td>699</td>
+      <td>233</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22414.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>KF769141</td>
+      <td>KF769141.1</td>
+      <td>GenBank nucleotide (partial cds)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPR4(87)</td>
+      <td>WPR4(87)</td>
+      <td>N/A (amplicon partial CDS)</td>
+      <td>19131806 (ortholog)</td>
+      <td>COCSADRAFT_157080 (ortholog)</td>
+      <td>PKS1</td>
+      <td>Polyketide synthase (PKS1) partial CDS</td>
+      <td>Maps to ND90Pr PKS1 CDS 836..1276</td>
+      <td>836</td>
+      <td>1276</td>
+      <td>+</td>
+      <td>441</td>
+      <td>147</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>NCBI GenBank + local alignment vs HQ830033.1</td>
+      <td>Direct GenBank submission (unpublished direct-submission record)</td>
+      <td>Verified (partial CDS isolate record)</td>
+      <td>Protein ID AHF22415.1; partial CDS spanning KS/AT domain segment of CsPKS1.</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>GCA_000338995.1; GCF_000338995.1</td>
+      <td>XM_007699256.1 / XP_007697446.1</td>
+      <td>RefSeq mRNA + RefSeq Protein (paired GCF_000338995.1 / GCA_000338995.1)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>CHK1 (CsFUS3)</td>
+      <td>Mitogen-activated protein kinase (FUS3/PMK1/CHK1 orthologue)</td>
+      <td>NW_006911898.1</td>
+      <td>1189519</td>
+      <td>1190784</td>
+      <td>-</td>
+      <td>1059</td>
+      <td>352</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>RefSeq GCF_000338995.1 + Leng &amp; Zhong (2015) PMC4443973 primers + PHI-base</td>
+      <td>https://doi.org/10.1371/journal.pone.0128291</td>
+      <td>Verified (Confirmed identity)</td>
+      <td>GCA_000338995.1 and GCF_000338995.1 are paired GenBank/RefSeq assemblies of ND90Pr (counted once). Matches CsFUS3-F1 and CsFUS3-com-F/R primers. Primer verification: 3/3 exact matches (CsFUS3-F1 (Leng&amp;Zhong 2015):CDS_exact; CsFUS3-com-F (Leng&amp;Zhong 2015):Locus_exact; CsFUS3-com-R (Leng&amp;Zhong 2015):Locus_exact)</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>GCA_000338995.1; GCF_000338995.1</td>
+      <td>XM_007696384.1 / XP_007694574.1</td>
+      <td>RefSeq mRNA + RefSeq Protein (paired GCF_000338995.1 / GCA_000338995.1)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>STE11 (CsSTE11)</td>
+      <td>Mitogen-activated protein kinase kinase kinase (MAPKKK) STE11</td>
+      <td>NW_006911895.1</td>
+      <td>614738</td>
+      <td>617725</td>
+      <td>+</td>
+      <td>2880</td>
+      <td>959</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>RefSeq GCF_000338995.1 + Leng &amp; Zhong (2015) PMC4443973 primers + PHI-base</td>
+      <td>https://doi.org/10.1371/journal.pone.0128291</td>
+      <td>Verified (Confirmed identity)</td>
+      <td>Distinct upstream MAPKKK from CsFUS3; confirmed by exact matches to CsSTE11-F1/F4/F5/F6 primers. Primer verification: 3/4 exact matches (CsSTE11-F1 (Leng&amp;Zhong 2015):Locus_exact; CsSTE11-F4 (Leng&amp;Zhong 2015):Locus_exact; CsSTE11-F5 (Leng&amp;Zhong 2015):CDS_exact)</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>Not established</td>
+      <td>XM_007706020.1 / XP_007704210.1</td>
+      <td>RefSeq mRNA + RefSeq Protein (paired GCF_000338995.1 / GCA_000338995.1)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>ND90Pr</td>
+      <td>GCF_000338995.1 (Cocsa1)</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>CsSp1 (unnamed JGI COCSADRAFT_164106)</td>
+      <td>Small secreted effector protein CsSp1 essential for wheat colonisation</td>
+      <td>NW_006911909.1</td>
+      <td>250789</td>
+      <td>251111</td>
+      <td>+</td>
+      <td>270</td>
+      <td>89</td>
+      <td>100.00%</td>
+      <td>100.00%</td>
+      <td>Zhang et al. (2022) PMC8743017 Table 2 primers + RefSeq GCF_000338995.1 + LK93 GCA_024722535.1</td>
+      <td>https://doi.org/10.1111/mpp.13155</td>
+      <td>Verified (Confirmed identity)</td>
+      <td>Resolved via exact 100% primer matches (CsSP1-5', CsSP1-3', CsSP1-NF, CsSP1-QRT2-F/R) to COCSADRAFT_164106 (XP_007704210.1, 89 aa, 270 nt CDS). Primer verification: 5/5 exact matches (CsSP1-5prime (Zhang 2022):CDS_exact; CsSP1-3prime (Zhang 2022):CDS_exact; CsSP1-NF (Zhang 2022):CDS_exact; CsSP1-QRT2-F (Zhang 2022):CDS_exact; CsSP1-QRT2-R (Zhang 2022):CDS_exact)</td>
+    </tr>
+  </tbody>
+</table><h2>Confidence</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>locus_tag</th>
+      <th>protein_id</th>
+      <th>gene_id</th>
+      <th>confidence_classification</th>
+      <th>primer_and_accession_proof</th>
+      <th>cds_length_nt</th>
+      <th>protein_length_aa</th>
+      <th>internal_stops</th>
+      <th>matches_ref_protein</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>COCSADRAFT_157080</td>
+      <td>XP_007696213.1</td>
+      <td>19131806</td>
+      <td>Confirmed identity</td>
+      <td>Verified via 100.0% CDS match to HQ830033.1 (ND90Pr PKS1 complete cds)</td>
+      <td>6462</td>
+      <td>2153</td>
+      <td>0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>COCSADRAFT_24574</td>
+      <td>XP_007697446.1</td>
+      <td>19135114</td>
+      <td>Confirmed identity</td>
+      <td>3/3 exact matches (CsFUS3-F1 (Leng&amp;Zhong 2015):CDS_exact; CsFUS3-com-F (Leng&amp;Zhong 2015):Locus_exact; CsFUS3-com-R (Leng&amp;Zhong 2015):Locus_exact)</td>
+      <td>1059</td>
+      <td>352</td>
+      <td>0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>COCSADRAFT_105370</td>
+      <td>XP_007694574.1</td>
+      <td>19129968</td>
+      <td>Confirmed identity</td>
+      <td>3/4 exact matches (CsSTE11-F1 (Leng&amp;Zhong 2015):Locus_exact; CsSTE11-F4 (Leng&amp;Zhong 2015):Locus_exact; CsSTE11-F5 (Leng&amp;Zhong 2015):CDS_exact)</td>
+      <td>2880</td>
+      <td>959</td>
+      <td>0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>COCSADRAFT_164106</td>
+      <td>XP_007704210.1</td>
+      <td>19132291</td>
+      <td>Confirmed identity</td>
+      <td>5/5 exact matches (CsSP1-5prime (Zhang 2022):CDS_exact; CsSP1-3prime (Zhang 2022):CDS_exact; CsSP1-NF (Zhang 2022):CDS_exact; CsSP1-QRT2-F (Zhang 2022):CDS_exact; CsSP1-QRT2-R (Zhang 2022):CDS_exact)</td>
+      <td>270</td>
+      <td>89</td>
+      <td>0</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

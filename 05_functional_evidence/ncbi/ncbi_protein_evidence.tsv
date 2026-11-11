@@ -1,0 +1,5 @@
+target	protein_accession	length_aa	description	organism
+CsPKS1	XP_007696213.1	2153	polyketide synthase PKS1 [Bipolaris sorokiniana ND90Pr]	Bipolaris sorokiniana ND90Pr
+CsFUS3	XP_007697446.1	352	mitogen-activated protein kinase [Bipolaris sorokiniana ND90Pr]	Bipolaris sorokiniana ND90Pr
+CsSTE11	XP_007694574.1	959	MAPKKK protein STE11 [Bipolaris sorokiniana ND90Pr]	Bipolaris sorokiniana ND90Pr
+CsSp1	XP_007704210.1	89	uncharacterized protein COCSADRAFT_164106 [Bipolaris sorokiniana ND90Pr]	Bipolaris sorokiniana ND90Pr

@@ -1,0 +1,1677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRD v2 — Post-Execution Audit &amp; Corrected Report</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>BRD v2 — Post-Execution Audit &amp; Corrected Report</h1>
+<div class="subtitle">Generated 2026-11-11 04:45 UTC | 33/50 Passing Filters | 16 Exact 21-mer Non-Target Matches Detected</div>
+<div class='warn'><strong>Audit & Scientific Safeguard:</strong> This v2 audit supersedes stale fields in v1 while preserving v1 artifacts unmodified. Absence of exact sequence matches does NOT demonstrate biological safety, and exogenous dsRNA uptake in <em>B. sorokiniana</em> remains experimentally unproven.</div><h2>1. Audit Scope & Version Governance</h2><p><strong>BRD v2.0.0 Post-Execution Audit</strong> (2026-11-11 04:45 UTC). Original v1 outputs preserved at <code>C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\10_final_reports</code>.</p><h2>2. Module Execution & Software Audit</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>module</th>
+      <th>audit_status_v2</th>
+      <th>executed_scope</th>
+      <th>substitutions_gaps_and_audit_notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>M01 Data Acquisition</td>
+      <td>COMPLETED</td>
+      <td>Local ND90Pr zip MD5-verified (11/11); 19 non-redundant B. sorokiniana isolates, 7 non-target RefSeq transcriptomes, PHI-base v4.19, and GEO GSE130517 retrieved.</td>
+      <td>None — executed directly.</td>
+    </tr>
+    <tr>
+      <td>M02 Genome QC</td>
+      <td>COMPLETED_WITH_ALTERNATIVE</td>
+      <td>Python QUAST-compatible FASTA metric calculator ran on all 19 assemblies.</td>
+      <td>QUAST CLI v5.3.0: NOT_RUN (Linux-only); BUSCO v6.1.0: NOT_RUN (Linux-only; completeness explicitly kept NA).</td>
+    </tr>
+    <tr>
+      <td>M03 Annotation Harmonisation</td>
+      <td>PARTIALLY_COMPLETED</td>
+      <td>RefSeq GCF_000338995.1 GFF3/CDS validation ran cleanly (12,210 CDS evaluated; 12,202 exact protein.faa matches).</td>
+      <td>Funannotate / BRAKER3 de novo prediction: NOT_RUN (Linux-only); existing RefSeq/GenBank annotations reused.</td>
+    </tr>
+    <tr>
+      <td>M04 Comparative Genomics</td>
+      <td>COMPLETED_WITH_ALTERNATIVE</td>
+      <td>DIAMOND v2.2.8 all-vs-all RBH graph clustering, NCBI BLAST+ 2.17.0+, and MAFFT v7.526 (2024/Apr/26) conservation across 19 isolates ran cleanly.</td>
+      <td>OrthoFinder CLI (MCL/FastME): NOT_RUN (Linux dependencies unavailable natively on Windows); replaced by DIAMOND RBH clustering.</td>
+    </tr>
+    <tr>
+      <td>M05 Functional Evidence</td>
+      <td>COMPLETED</td>
+      <td>PHI-base v4.19 + DEG DIAMOND searches, UniProt REST, InterPro REST, and GEO GSE130517 RNA-seq quantification completed.</td>
+      <td>None — exact intended sources executed.</td>
+    </tr>
+    <tr>
+      <td>M06 Target Prioritisation</td>
+      <td>COMPLETED</td>
+      <td>All 4 targets verified via primers/GenBank and scored with missing-data-aware heuristics.</td>
+      <td>Off-target axis pending M08 in v1; reconciled with M08 v2 in Section 8 audit.</td>
+    </tr>
+    <tr>
+      <td>M07 dsRNA Design</td>
+      <td>COMPLETED_WITH_ALTERNATIVE</td>
+      <td>SIREN v0.1.6 (siren_prefilter.py + siren_designVIII.py), dsRNAmax.exe v1.1.14, Brunxi/LUCID sifi21_plus formulas + ViennaRNA 2.8.0 accessibility + Primer3, and BRD sliding windows executed.</td>
+      <td>LUCID Linux shell orchestrator substituted by direct Python sifi21_plus/ViennaRNA calls; SIREN RNAhybrid substituted by ViennaRNA RNA.duplexfold; Bio.SeqUtils.GC shim used for Biopython 1.86; 22-min brute-force paralog bug fixed later and verified cleanly.</td>
+    </tr>
+    <tr>
+      <td>M08 Off-Target Screening</td>
+      <td>COMPLETED_WITH_ALTERNATIVE</td>
+      <td>NCBI BLAST+ 2.17.0+ (blastn-short) against 7 RefSeq transcriptomes + ViennaRNA 2.8.0 RNA.duplexfold executed; v2 audit corrected exact 21-mer detection, 20/21 vs 19/21 separation, long alignment tracking, and strand orientation.</td>
+      <td>RNAhybrid CLI v2.1.2: NOT_RUN (Linux-only; ViennaRNA duplexfold used); other_non_targets panel empty (0 databases).</td>
+    </tr>
+    <tr>
+      <td>M09 Candidate Ranking</td>
+      <td>COMPLETED</td>
+      <td>Pareto ranking, composite scoring, 1,000-iteration bootstrap, and 5 sensitivity scenarios executed and recalculated in v2 from corrected M08 data.</td>
+      <td>v1 bootstrap row-order bug and stale v1 safety penalties corrected in M09 v2.</td>
+    </tr>
+    <tr>
+      <td>M10 Reporting &amp; Audit</td>
+      <td>COMPLETED</td>
+      <td>Original M10 reports preserved in 10_final_reports/; audited v2 reports, synchronized tables, and automated consistency suite generated in 11_post_execution_audit/.</td>
+      <td>Post-execution audit resolved all cross-file, off-target, conservation denominator, and target/candidate dual ranking discrepancies.</td>
+    </tr>
+  </tbody>
+</table><h3>Tool Verification & Substitution Matrix</h3><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>software_or_component</th>
+      <th>version</th>
+      <th>audit_status_v2</th>
+      <th>verification_and_substitution_notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>QUAST CLI</td>
+      <td>5.3.0 (not installed)</td>
+      <td>NOT_RUN</td>
+      <td>Linux/WSL2 required (no WSL distro installed); replaced in M02 by native Python QUAST-compatible FASTA metrics.</td>
+    </tr>
+    <tr>
+      <td>BUSCO</td>
+      <td>6.1.0 (not installed)</td>
+      <td>NOT_RUN</td>
+      <td>Linux/WSL2 required; completeness values remain strictly NA (never fabricated).</td>
+    </tr>
+    <tr>
+      <td>OrthoFinder (MCL/FastME)</td>
+      <td>3.2 (not installed)</td>
+      <td>NOT_RUN</td>
+      <td>Native Windows DIAMOND v2.2.8 RBH graph clustering executed instead (`COMPLETED_WITH_ALTERNATIVE`).</td>
+    </tr>
+    <tr>
+      <td>Funannotate / BRAKER3</td>
+      <td>1.9.1 / 3.0.8 (not installed)</td>
+      <td>NOT_RUN</td>
+      <td>Linux-only; existing RefSeq GCF_000338995.1 annotation reused and unannotated assemblies interrogated via tblastn/blastn.</td>
+    </tr>
+    <tr>
+      <td>RNAhybrid</td>
+      <td>2.1.2 (not installed)</td>
+      <td>NOT_RUN</td>
+      <td>Linux/macOS Bioconda binary unavailable natively; ViennaRNA 2.8.0 `RNA.duplexfold` executed (`COMPLETED_WITH_ALTERNATIVE`).</td>
+    </tr>
+    <tr>
+      <td>SIREN (siren-rnai)</td>
+      <td>0.1.6 (commit 0f5a5a9)</td>
+      <td>COMPLETED_WITH_ALTERNATIVE</td>
+      <td>Native Python components `siren_prefilter.py` + `siren_designVIII.py` executed; off-target duplex folding performed via ViennaRNA `RNA.duplexfold` instead of Linux RNAhybrid.</td>
+    </tr>
+    <tr>
+      <td>LUCID (Brunxi/LUCID)</td>
+      <td>commit 37910bd (sifi21_plus 0.1.0)</td>
+      <td>COMPLETED_WITH_ALTERNATIVE</td>
+      <td>Brunxi/LUCID bash orchestrator/RNAplfold not invoked directly; `sifi21_plus` free-energy/S1-S19 asymmetry + ViennaRNA 2.8.0 partition-function accessibility + Primer3 reproduced natively (tensorflow/lucid excluded).</td>
+    </tr>
+    <tr>
+      <td>dsRNAmax</td>
+      <td>1.1.14 (commit 674b5b5)</td>
+      <td>COMPLETED</td>
+      <td>Verified Windows native Go executable `Output/tools/bin/dsRNAmax.exe` executed (`-h` verified v1.1.14; constructs designed for all 4 targets).</td>
+    </tr>
+    <tr>
+      <td>NCBI BLAST+</td>
+      <td>2.17.0+</td>
+      <td>COMPLETED</td>
+      <td>Official native Windows binaries (`makeblastdb.exe`, `blastn.exe`, `tblastn.exe`) executed.</td>
+    </tr>
+    <tr>
+      <td>NCBI Datasets CLI</td>
+      <td>18.41.0</td>
+      <td>COMPLETED</td>
+      <td>Verified Windows binary `datasets.exe` retrieved isolate and non-target RefSeq packages.</td>
+    </tr>
+    <tr>
+      <td>DIAMOND</td>
+      <td>2.2.8</td>
+      <td>COMPLETED</td>
+      <td>Verified Windows binary `diamond.exe` executed for proteome clustering and PHI-base/DEG searches.</td>
+    </tr>
+    <tr>
+      <td>MAFFT</td>
+      <td>v7.526 (2024/Apr/26)</td>
+      <td>COMPLETED</td>
+      <td>Official Windows build `mafft.bat` executed cleanly for CDS and protein alignments.</td>
+    </tr>
+    <tr>
+      <td>ViennaRNA (Python RNA)</td>
+      <td>2.8.0</td>
+      <td>COMPLETED</td>
+      <td>Used natively for unpaired probability (`RNA.fold_compound.pf/bpp`) and duplex thermodynamics (`RNA.duplexfold`).</td>
+    </tr>
+    <tr>
+      <td>Snakemake / Pytest / Biopython</td>
+      <td>9.27.1 / 9.1.1 / 1.86</td>
+      <td>COMPLETED</td>
+      <td>Workflow DAG validated and unit/audit test suites executed.</td>
+    </tr>
+  </tbody>
+</table><h2>3. Target Gene Identity & Primer Proof</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>locus_tag_verified</th>
+      <th>refseq_protein_id</th>
+      <th>refseq_mrna_id</th>
+      <th>uniprot_accession</th>
+      <th>cds_length_nt</th>
+      <th>verification_status_v2</th>
+      <th>nomenclature_reconciliation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>COCSADRAFT_157080</td>
+      <td>XP_007696213.1</td>
+      <td>XM_007698023.1</td>
+      <td>M2RQ22</td>
+      <td>6462</td>
+      <td>Confirmed (Primer + Full RefSeq/GenBank Verified)</td>
+      <td>RefSeq symbol PKS1 matches Leng et al. (2011) CsPKS1 (HQ830033.1 = 100% CDS match).</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>COCSADRAFT_24574</td>
+      <td>XP_007697446.1</td>
+      <td>XM_007699256.1</td>
+      <td>M2TCC8</td>
+      <td>1059</td>
+      <td>Confirmed (Primer + Full RefSeq/GenBank Verified)</td>
+      <td>RefSeq GCF_000338995.1 annotates COCSADRAFT_24574 as 'CHK1' after Cochliobolus heterostrophus MAPK Chk1 (PHI:142, 99.7% aa identity); Leng &amp; Zhong (2015) independently designated the identical gene CsFUS3 after S. cerevisiae FUS3 / M. oryzae PMK1.</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>COCSADRAFT_105370</td>
+      <td>XP_007694574.1</td>
+      <td>XM_007696384.1</td>
+      <td>M2TIY7</td>
+      <td>2880</td>
+      <td>Confirmed (Primer + Full RefSeq/GenBank Verified)</td>
+      <td>RefSeq symbol STE11 matches Leng &amp; Zhong (2015) CsSTE11 and B. sorokiniana PHI-base entry PHI:4778 (100% aa identity).</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>COCSADRAFT_164106</td>
+      <td>XP_007704210.1</td>
+      <td>XM_007706020.1</td>
+      <td>M2RXZ0</td>
+      <td>270</td>
+      <td>Confirmed via 5/5 Primers + Reconstructed 270-nt RefSeq CDS (No standalone nuccore accession)</td>
+      <td>Unannotated gene symbol in RefSeq (COCSADRAFT_164106); Zhang et al. (2022) named it CsSp1 (small secreted protein 1) in strain LK93 without submitting an independent GenBank nuccore gene record.</td>
+    </tr>
+  </tbody>
+</table><h3>CsPKS1 GenBank Record Audit</h3><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>accession</th>
+      <th>organism_in_genbank</th>
+      <th>isolate_or_strain</th>
+      <th>record_length_nt</th>
+      <th>cds_or_amplicon_length_nt</th>
+      <th>sequence_completeness</th>
+      <th>protein_accession</th>
+      <th>cds_feature_location</th>
+      <th>cocsadraft_157080_cds_span_1based</th>
+      <th>nt_identity_vs_cocsadraft_157080_pct</th>
+      <th>query_coverage_vs_cocsadraft_157080_pct</th>
+      <th>maps_to_COCSADRAFT_157080</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HQ830033.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>ND90Pr</td>
+      <td>6862</td>
+      <td>6462</td>
+      <td>Full-length CDS (in genomic clone with flanking UTRs)</td>
+      <td>AER36016.1</td>
+      <td>join{[160:438](+), [485:6624](+), [6678:6723](+)}</td>
+      <td>1..6462</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769134.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-23</td>
+      <td>706</td>
+      <td>706</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22408.1</td>
+      <td>[&lt;0:&gt;706](+)</td>
+      <td>828..1533</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769135.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-24</td>
+      <td>442</td>
+      <td>442</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22409.1</td>
+      <td>[&lt;0:&gt;442](+)</td>
+      <td>835..1276</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769136.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPB-18</td>
+      <td>466</td>
+      <td>466</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22410.1</td>
+      <td>[&lt;0:&gt;466](+)</td>
+      <td>1090..1555</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769137.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPM-29</td>
+      <td>571</td>
+      <td>571</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22411.1</td>
+      <td>[&lt;0:&gt;571](+)</td>
+      <td>979..1549</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769138.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPM-39</td>
+      <td>716</td>
+      <td>716</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22412.1</td>
+      <td>[&lt;0:&gt;716](+)</td>
+      <td>835..1550</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769139.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPW-1</td>
+      <td>449</td>
+      <td>449</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22413.1</td>
+      <td>[&lt;0:&gt;449](+)</td>
+      <td>828..1276</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769140.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPW-2</td>
+      <td>699</td>
+      <td>699</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22414.1</td>
+      <td>[&lt;0:&gt;699](+)</td>
+      <td>836..1534</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>KF769141.1</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>WPR4(87)</td>
+      <td>441</td>
+      <td>441</td>
+      <td>Partial CDS (amplicon fragment)</td>
+      <td>AHF22415.1</td>
+      <td>[&lt;0:&gt;441](+)</td>
+      <td>836..1276</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table><h3>Published Primer Alignment Verification</h3><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>primer_name</th>
+      <th>sequence_5_to_3</th>
+      <th>length_nt</th>
+      <th>publication</th>
+      <th>experimental_role</th>
+      <th>nd90pr_genomic_coords</th>
+      <th>nd90pr_genomic_strand</th>
+      <th>nd90pr_cds_coords</th>
+      <th>nd90pr_cds_strand</th>
+      <th>nd90pr_mismatches</th>
+      <th>identity_pct</th>
+      <th>coverage_pct</th>
+      <th>lk93_cds_exact</th>
+      <th>nd93_1_cds_exact</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsFUS3</td>
+      <td>CsFUS3-F1</td>
+      <td>AGGAAGCGGCAGCTCCAGGAA</td>
+      <td>21</td>
+      <td>Leng &amp; Zhong (2015) PLoS ONE 10:e0128291</td>
+      <td>Deletion/ORF PCR forward primer</td>
+      <td>NW_006911898.1:1190753..1190773</td>
+      <td>-</td>
+      <td>CDS:12..32</td>
+      <td>+</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>CsFUS3-com-F</td>
+      <td>CGGCGAGATGTCAGTTTGTA</td>
+      <td>20</td>
+      <td>Leng &amp; Zhong (2015) PLoS ONE 10:e0128291</td>
+      <td>Complementation cassette forward (upstream)</td>
+      <td>NW_006911898.1:1192529..1192548</td>
+      <td>-</td>
+      <td>Flanking genomic / outside CDS</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>Flanking_locus</td>
+      <td>Flanking_locus</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>CsFUS3-com-R</td>
+      <td>CTGCAGATAAGCTGCGAAAA</td>
+      <td>20</td>
+      <td>Leng &amp; Zhong (2015) PLoS ONE 10:e0128291</td>
+      <td>Complementation cassette reverse (downstream)</td>
+      <td>NW_006911898.1:1189440..1189459</td>
+      <td>+</td>
+      <td>Flanking genomic / outside CDS</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>Flanking_locus</td>
+      <td>Flanking_locus</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>CsSTE11-F1</td>
+      <td>ACCACACTACACACCCGTCA</td>
+      <td>20</td>
+      <td>Leng &amp; Zhong (2015) PLoS ONE 10:e0128291</td>
+      <td>5' flanking forward primer</td>
+      <td>NW_006911895.1:614579..614598</td>
+      <td>+</td>
+      <td>Flanking genomic / outside CDS</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>Flanking_locus</td>
+      <td>Flanking_locus</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>CsSTE11-F4</td>
+      <td>ACAGAATCATCTCGCGCATA</td>
+      <td>20</td>
+      <td>Leng &amp; Zhong (2015) PLoS ONE 10:e0128291</td>
+      <td>3' flanking reverse primer</td>
+      <td>NW_006911895.1:617880..617899</td>
+      <td>-</td>
+      <td>Flanking genomic / outside CDS</td>
+      <td>NA</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>Flanking_locus</td>
+      <td>Flanking_locus</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>CsSTE11-F5</td>
+      <td>GCGTTGCCTCTAGCTTGAAA</td>
+      <td>20</td>
+      <td>Leng &amp; Zhong (2015) PLoS ONE 10:e0128291</td>
+      <td>Internal CDS forward primer</td>
+      <td>NW_006911895.1:616446..616465</td>
+      <td>+</td>
+      <td>CDS:1601..1620</td>
+      <td>+</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>CsSTE11-F6</td>
+      <td>GGGCACCCTTCATGTATTTG</td>
+      <td>20</td>
+      <td>Leng &amp; Zhong (2015) PLoS ONE 10:e0128291</td>
+      <td>Internal CDS reverse primer</td>
+      <td>NW_006911895.1:616891..616910</td>
+      <td>-</td>
+      <td>CDS:2046..2065</td>
+      <td>-</td>
+      <td>1</td>
+      <td>95.0</td>
+      <td>100.0</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>CsSP1-5prime</td>
+      <td>ATGCGTTTCATCATCTCCATATTC</td>
+      <td>24</td>
+      <td>Zhang et al. (2022) Mol Plant Pathol 23:218 Table 2</td>
+      <td>Full-length CDS 5' cloning primer (ATG start)</td>
+      <td>NW_006911909.1:250789..250812</td>
+      <td>+</td>
+      <td>CDS:1..24</td>
+      <td>+</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>CsSP1-3prime</td>
+      <td>GAACAGCCAAACCGCGGGACC</td>
+      <td>21</td>
+      <td>Zhang et al. (2022) Mol Plant Pathol 23:218 Table 2</td>
+      <td>Full-length CDS 3' primer (precedes TAG stop)</td>
+      <td>NW_006911909.1:251088..251108</td>
+      <td>+</td>
+      <td>CDS:247..267</td>
+      <td>+</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>CsSP1-NF</td>
+      <td>GTGGCTTCCGCACCTGCTACA</td>
+      <td>21</td>
+      <td>Zhang et al. (2022) Mol Plant Pathol 23:218 Table 2</td>
+      <td>Nested internal forward primer</td>
+      <td>NW_006911909.1:250846..250866</td>
+      <td>+</td>
+      <td>CDS:58..78</td>
+      <td>+</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>CsSP1-QRT2-F</td>
+      <td>CAGCTCTTGCATCTGCTA</td>
+      <td>18</td>
+      <td>Zhang et al. (2022) Mol Plant Pathol 23:218 Table 2</td>
+      <td>qRT-PCR forward primer (Exon 1)</td>
+      <td>NW_006911909.1:250823..250840</td>
+      <td>+</td>
+      <td>CDS:35..52</td>
+      <td>+</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>CsSP1-QRT2-R</td>
+      <td>TCTTCTCCGACCTTGAG</td>
+      <td>17</td>
+      <td>Zhang et al. (2022) Mol Plant Pathol 23:218 Table 2</td>
+      <td>qRT-PCR reverse primer (spans Exon 1-2 junction)</td>
+      <td>Intron-spanning or not within +-5kb</td>
+      <td>NA</td>
+      <td>CDS:214..230 (crosses Exon1:214..218 | Exon2:219..230 splice junction)</td>
+      <td>-</td>
+      <td>0</td>
+      <td>100.0</td>
+      <td>100.0</td>
+      <td>True</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table><h2>4. Corrected Isolate Conservation & Denominators</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>orthogroup_id</th>
+      <th>isolates_searched</th>
+      <th>isolates_with_detected_homolog</th>
+      <th>isolates_with_complete_cds</th>
+      <th>isolates_with_partial_or_frameshifted_cds</th>
+      <th>partial_or_frameshifted_isolates</th>
+      <th>isolates_with_unresolved_sequence</th>
+      <th>ref_cds_length_nt</th>
+      <th>mean_pairwise_nt_id_vs_ref_all18_pct</th>
+      <th>min_pairwise_nt_id_vs_ref_all18_pct</th>
+      <th>mean_pairwise_nt_id_vs_ref_complete_only_pct</th>
+      <th>complete_only_denominator_n</th>
+      <th>min_pairwise_nt_id_vs_ref_complete_only_pct</th>
+      <th>mean_all_vs_all_complete_cds_nt_identity_pct</th>
+      <th>all_vs_all_complete_pairs_n</th>
+      <th>mean_pairwise_alignment_coverage_all18_pct</th>
+      <th>min_pairwise_alignment_coverage_all18_pct</th>
+      <th>snp_sites_across_19_isolates</th>
+      <th>indel_columns_across_19_isolates</th>
+      <th>conserved_blocks_ge21nt_count</th>
+      <th>conserved_blocks_ge150nt_count</th>
+      <th>longest_100pct_conserved_block_nt</th>
+      <th>mean_21mer_isolate_conservation_19_pct</th>
+      <th>pct_100pct_conserved_21mers</th>
+      <th>interpretation_note</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>BRD_OG000098</td>
+      <td>19</td>
+      <td>19</td>
+      <td>17</td>
+      <td>2</td>
+      <td>WAI2406; WAI2411</td>
+      <td>0</td>
+      <td>6462</td>
+      <td>99.958</td>
+      <td>99.845</td>
+      <td>99.968</td>
+      <td>16</td>
+      <td>99.845</td>
+      <td>99.967</td>
+      <td>136</td>
+      <td>99.976</td>
+      <td>99.737</td>
+      <td>22</td>
+      <td>23</td>
+      <td>24</td>
+      <td>14</td>
+      <td>852</td>
+      <td>98.973</td>
+      <td>89.77</td>
+      <td>All 19/19 isolates possess the target homolog locus (0 missing/gene-absence events); 2/19 (WAI2406, WAI2411) show unpolished long-read homopolymer indels/internal stop codons rather than biological gene absence.</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>BRD_OG000010</td>
+      <td>19</td>
+      <td>19</td>
+      <td>17</td>
+      <td>2</td>
+      <td>WAI2406; WAI2411</td>
+      <td>0</td>
+      <td>1059</td>
+      <td>99.984</td>
+      <td>99.905</td>
+      <td>99.994</td>
+      <td>16</td>
+      <td>99.906</td>
+      <td>99.989</td>
+      <td>136</td>
+      <td>99.979</td>
+      <td>99.717</td>
+      <td>3</td>
+      <td>5</td>
+      <td>6</td>
+      <td>3</td>
+      <td>364</td>
+      <td>99.205</td>
+      <td>88.35</td>
+      <td>All 19/19 isolates possess the target homolog locus (0 missing/gene-absence events); 2/19 (WAI2406, WAI2411) show unpolished long-read homopolymer indels/internal stop codons rather than biological gene absence.</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>BRD_OG000001</td>
+      <td>19</td>
+      <td>19</td>
+      <td>17</td>
+      <td>2</td>
+      <td>WAI2406; WAI2411</td>
+      <td>0</td>
+      <td>2880</td>
+      <td>99.657</td>
+      <td>99.583</td>
+      <td>99.664</td>
+      <td>16</td>
+      <td>99.618</td>
+      <td>99.897</td>
+      <td>136</td>
+      <td>99.965</td>
+      <td>99.654</td>
+      <td>19</td>
+      <td>16</td>
+      <td>25</td>
+      <td>6</td>
+      <td>273</td>
+      <td>92.602</td>
+      <td>78.50</td>
+      <td>All 19/19 isolates possess the target homolog locus (0 missing/gene-absence events); 2/19 (WAI2406, WAI2411) show unpolished long-read homopolymer indels/internal stop codons rather than biological gene absence.</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>BRD_OG013358</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>0</td>
+      <td>None</td>
+      <td>0</td>
+      <td>270</td>
+      <td>99.959</td>
+      <td>99.259</td>
+      <td>99.959</td>
+      <td>18</td>
+      <td>99.259</td>
+      <td>99.922</td>
+      <td>171</td>
+      <td>100.000</td>
+      <td>100.000</td>
+      <td>2</td>
+      <td>0</td>
+      <td>3</td>
+      <td>0</td>
+      <td>124</td>
+      <td>99.116</td>
+      <td>83.20</td>
+      <td>All 19/19 isolates possess the target homolog locus (0 missing/gene-absence events); 19/19 yield intact complete translatable CDS.</td>
+    </tr>
+  </tbody>
+</table><h2>5. Off-Target Screening v2, Filtering Funnel & Discrepancy Audit</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>check_id</th>
+      <th>target_artifact</th>
+      <th>v1_finding</th>
+      <th>v2_remediation</th>
+      <th>status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CAND_PENDING_M08</td>
+      <td>BRD_dsRNA_Candidates.tsv</td>
+      <td>50/50 rows stuck as PENDING_M08 despite M08 completion</td>
+      <td>Synchronised all 50 rows in BRD_dsRNA_Candidates_v2.tsv with M08 v2 status &amp; M09 v2 ranks</td>
+      <td>CRITICAL_FIXED</td>
+    </tr>
+    <tr>
+      <td>M08_EXACT_21MER_MISSED</td>
+      <td>BRD_Off_Target_Analysis.tsv vs raw transcriptome</td>
+      <td>v1 reported 8 exact-match candidates using long BLAST HSP pident==100%; full Python k-mer scan revealed 16 candidates with exact 21-mers in beneficial fungi (missed 6 CsFUS3 incl. CAND013 + 2 CsSTE11)</td>
+      <td>All exact 21-mer, 20/21, 19/21 &amp; &gt;=30 nt hits enumerated independently in v2 tables (both orientations)</td>
+      <td>CRITICAL_FIXED</td>
+    </tr>
+    <tr>
+      <td>M08_19NT_1MM_NOISE</td>
+      <td>BRD_Off_Target_Analysis.tsv / M09</td>
+      <td>v1 classified 42/50 candidates (incl. top #1 CsSTE11_CAND012) as 'High-similarity match' based on E=1.8-7.9 random 19-nt 1-mismatch hits (18 matching bases)</td>
+      <td>Separated exact 21-mer vs 20/21 vs 19/21 vs &gt;=30 nt conserved homology; recalculated v2 safety scores, filtering funnel &amp; ranks</td>
+      <td>CRITICAL_FIXED</td>
+    </tr>
+    <tr>
+      <td>M08_GUIDES_UNUSED</td>
+      <td>guides_vs_*_blastn.tsv</td>
+      <td>M08 generated 506,822 guide BLAST rows in v1 but never integrated 20/21 or 19/21 guide tables into summary scores</td>
+      <td>Integrated guides_vs_* 20/21 &amp; 19/21 across Wheat/Barley/Fungi/Paralogs into v2 scoring</td>
+      <td>FIXED</td>
+    </tr>
+    <tr>
+      <td>BIO_SCORING_HARDCODED</td>
+      <td>M06 / M09 target_evidence_score</td>
+      <td>v1 assigned undocumented hardcoded bio_eval_meta scores (0.98/0.96/0.86/0.62) across targets</td>
+      <td>Replaced with transparent 4-criterion evidence rubric (0.35*ExpPatho + 0.20*CompDB_IPR + 0.25*IsoCons + 0.20*VerifConf) computed programmatically in BRD_Biological_Scoring_Evidence_Matrix_v2.tsv</td>
+      <td>CRITICAL_FIXED</td>
+    </tr>
+    <tr>
+      <td>EXPR_NORM_150_INVALID</td>
+      <td>05_functional_evidence/expression/GSE130517</td>
+      <td>v1 normalised RPKM as min(1.0, RPKM/150.0); distribution audit showed sparse early/mock samples (1A-4A/2B, 1921-3808 total fungal reads) created 1-read RPKM spikes (CsSp1 1438.44 from 1 read in 3A_I; CsSTE11 87.63 from 1 read in 2B_III)</td>
+      <td>Preserved raw counts/RPKM, audited valid 3B/4B/5B colonization samples, excluded expression from composite scores (expression_excluded_from_composite=True) &amp; reported separately</td>
+      <td>CRITICAL_FIXED</td>
+    </tr>
+    <tr>
+      <td>M09_RANKING_SHIFT</td>
+      <td>BRD_dsRNA_Candidate_Ranking.tsv</td>
+      <td>v1 promoted CsFUS3_CAND013 (v1 #13, Pareto rank 1 despite 3 exact beneficial fungi 21-mers) &amp; penalized clean CsPKS1_CAND013 to v1 #26</td>
+      <td>v2 excludes CsFUS3_CAND013 (#40) &amp; elevates BRD_CsSTE11_CAND012 (#1, score=0.917) and BRD_CsPKS1_CAND013 (Pareto rank 1, safety_v2=0.965, score=0.7957, #9)</td>
+      <td>FIXED</td>
+    </tr>
+    <tr>
+      <td>M09_BOOTSTRAP_ORDER</td>
+      <td>brd/analysis/bootstrap.py</td>
+      <td>Pre-fix v1 summary showed potential sort mismatch; verified v2 recalculates 1,000-bootstrap &amp; 5-scenario sensitivity strictly on aligned v2 scores</td>
+      <td>Recalculated bootstrap_results_v2.tsv &amp; sensitivity_analysis_v2.tsv</td>
+      <td>VERIFIED_FIXED</td>
+    </tr>
+    <tr>
+      <td>M04_DENOMINATORS</td>
+      <td>BRD_Target_Nucleotide_Conservation.tsv</td>
+      <td>Reported 19/19 homologs alongside 17/19 complete CDS for CsPKS1/CsFUS3/CsSTE11 without separating denominator N=18 vs complete-only N=16</td>
+      <td>Added explicit counts (WAI2406/WAI2411 long-read frameshifts) &amp; both denominators in v2 conservation table</td>
+      <td>FIXED</td>
+    </tr>
+    <tr>
+      <td>M06_PRIMER_AND_SYNONYM</td>
+      <td>BRD_Target_Gene_Accession_Verification.tsv</td>
+      <td>CsFUS3 annotated as CHK1 in RefSeq lacked explicit reconciliation; CsSTE11-F6 (exact in ND93-1) &amp; CsSp1 splice-junction QRT2-R needed coordinate proof; KF769134-141 needed per-record table</td>
+      <td>Added BRD_CsPKS1_Record_Audit_v2.tsv, BRD_Target_Primer_Alignments_v2.tsv &amp; Identity Evidence table</td>
+      <td>FIXED</td>
+    </tr>
+    <tr>
+      <td>M02_M03_M04_M07_STATUS</td>
+      <td>BRD_Execution_Summary.txt / software_versions.tsv</td>
+      <td>Marked M02/M03/M04/M07/M08 generically 'COMPLETED' and MAFFT version captured 'Preparing environment' wrapper banner</td>
+      <td>Applied strict 5-tier status taxonomy (COMPLETED / COMPLETED_WITH_ALTERNATIVE / PARTIALLY_COMPLETED / NOT_RUN) &amp; captured MAFFT v7.526 (2024/Apr/26)</td>
+      <td>FIXED</td>
+    </tr>
+    <tr>
+      <td>TARGET_VS_CANDIDATE_DUAL</td>
+      <td>target_prioritisation.tsv vs M09</td>
+      <td>Single combined view risked conflating biologically best pathogenicity gene with cleanest dsRNA region</td>
+      <td>Generated separate rankings in BRD_Target_Biological_Prioritisation_v2.tsv &amp; target_biological_vs_dsrna_prioritisation_v2.tsv</td>
+      <td>FIXED</td>
+    </tr>
+    <tr>
+      <td>CAND_SEQ_FASTA_MATCH</td>
+      <td>BRD_dsRNA_Candidates.fasta vs .tsv</td>
+      <td>FASTA-to-TSV mismatches=0, GC% discrepancies&gt;0.02=0</td>
+      <td>100% verified identical across BRD_dsRNA_Candidates_v2.fasta/.tsv</td>
+      <td>PASS_VERIFIED</td>
+    </tr>
+  </tbody>
+</table><h3>Sequential Off-Target Filtering Funnel (Exact Candidate Counts)</h3><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>filter_step</th>
+      <th>candidates_passing_individually</th>
+      <th>candidates_passing_cumulatively</th>
+      <th>criterion_definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0_Total_Unique_Designed_Candidates</td>
+      <td>50</td>
+      <td>50</td>
+      <td>All unique M07 candidates (LUCID/SIREN/dsRNAmax/BRD)</td>
+    </tr>
+    <tr>
+      <td>1_Sequence_QC_Length_GC_Homopolymer</td>
+      <td>50</td>
+      <td>50</td>
+      <td>150-550 nt, 0 N-bases, 30-65% GC, max homopolymer &lt;= 5</td>
+    </tr>
+    <tr>
+      <td>2_Zero_Fungal_Paralog_Exact_21mers</td>
+      <td>48</td>
+      <td>48</td>
+      <td>Zero exact 21-mer matches in non-self B. sorokiniana ND90Pr transcripts</td>
+    </tr>
+    <tr>
+      <td>3_Zero_Wheat_Barley_Exact_21mers</td>
+      <td>50</td>
+      <td>48</td>
+      <td>Zero exact 21-mer matches across Wheat IWGSC v2.1 &amp; Barley MorexV3</td>
+    </tr>
+    <tr>
+      <td>4_Zero_Beneficial_Fungi_Exact_21mers</td>
+      <td>34</td>
+      <td>34</td>
+      <td>Zero exact 21-mer matches across 5 beneficial fungal species (excludes 16/50!)</td>
+    </tr>
+    <tr>
+      <td>5_Conservation_ge85pct_Hard_Filter_Pass</td>
+      <td>48</td>
+      <td>33</td>
+      <td>Cumulative hard filter pass: Conservation &gt;= 85% across 19 isolates</td>
+    </tr>
+    <tr>
+      <td>6_Caution_No_Long_ge30nt_Homology</td>
+      <td>34</td>
+      <td>32</td>
+      <td>Advisory strict check: zero &gt;=30 nt &gt;=80% E&lt;=1e-5 alignments (excludes CsFUS3_CAND003)</td>
+    </tr>
+    <tr>
+      <td>7_Caution_Low_Host_20of21_NearMatches</td>
+      <td>23</td>
+      <td>13</td>
+      <td>Advisory strict check: &lt;5 host 20/21 near-guide matches (excludes CsSp1/high-20mer windows)</td>
+    </tr>
+  </tbody>
+</table><figure><img src='figures/off_target_v1_vs_v2_reclassification.png'/><figcaption>Figure 1. Reclassification of 50 candidates from v1 (2-tier collapse) to v2 (7-tier exact/near/long hierarchy).</figcaption></figure><h2>6. Top 20 Ranked dsRNA Candidates (v2)</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>final_rank_v2</th>
+      <th>v1_final_rank</th>
+      <th>candidate_id</th>
+      <th>target</th>
+      <th>tool_name</th>
+      <th>candidate_length_nt</th>
+      <th>conservation_pct</th>
+      <th>wheat_near_20of21_hits</th>
+      <th>barley_near_20of21_hits</th>
+      <th>beneficial_fungi_exact_21mer_transcripts</th>
+      <th>off_target_safety_score_v2</th>
+      <th>composite_score_v2</th>
+      <th>overall_off_target_classification_v2</th>
+      <th>computational_priority_category_v2</th>
+      <th>rank_delta_v1_to_v2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>BRD_CsSTE11_CAND012</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>100.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.915</td>
+      <td>0.9170</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>High computational priority</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>12</td>
+      <td>BRD_CsSTE11_CAND013</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>100.00</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.875</td>
+      <td>0.9059</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>High computational priority</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>14</td>
+      <td>BRD_CsSTE11_CAND005</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>96.89</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.845</td>
+      <td>0.8902</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>15</td>
+      <td>BRD_CsSTE11_CAND006</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>95.33</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.845</td>
+      <td>0.8858</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>16</td>
+      <td>BRD_CsSTE11_CAND007</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>93.77</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.850</td>
+      <td>0.8840</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>17</td>
+      <td>BRD_CsSTE11_CAND008</td>
+      <td>CsSTE11</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>92.22</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.850</td>
+      <td>0.8793</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>28</td>
+      <td>BRD_CsPKS1_CAND010</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>98.68</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.810</td>
+      <td>0.7988</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>23</td>
+      <td>BRD_CsSTE11_CAND014</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>99.92</td>
+      <td>24</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.745</td>
+      <td>0.7973</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>26</td>
+      <td>BRD_CsPKS1_CAND013</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>99.18</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0.965</td>
+      <td>0.7957</td>
+      <td>Minimal_Near_Guide_Signal_19of21_Only</td>
+      <td>Moderate computational priority</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>31</td>
+      <td>BRD_CsPKS1_CAND001</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>97.95</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.800</td>
+      <td>0.7946</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>21</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>33</td>
+      <td>BRD_CsPKS1_CAND011</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>97.65</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.800</td>
+      <td>0.7928</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>29</td>
+      <td>BRD_CsPKS1_CAND002</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>98.83</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.790</td>
+      <td>0.7928</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>2</td>
+      <td>BRD_CsSp1_CAND008</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>98.91</td>
+      <td>12</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.695</td>
+      <td>0.7911</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>-11</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>37</td>
+      <td>BRD_CsPKS1_CAND008</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>100.00</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.780</td>
+      <td>0.7839</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>34</td>
+      <td>BRD_CsPKS1_CAND007</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>100.00</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.775</td>
+      <td>0.7835</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>36</td>
+      <td>BRD_CsPKS1_CAND006</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>100.00</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.775</td>
+      <td>0.7831</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>35</td>
+      <td>BRD_CsPKS1_CAND005</td>
+      <td>CsPKS1</td>
+      <td>SIREN</td>
+      <td>250</td>
+      <td>99.91</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.765</td>
+      <td>0.7807</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>38</td>
+      <td>BRD_CsPKS1_CAND009</td>
+      <td>CsPKS1</td>
+      <td>dsRNAmax</td>
+      <td>300</td>
+      <td>99.53</td>
+      <td>0</td>
+      <td>6</td>
+      <td>0</td>
+      <td>0.765</td>
+      <td>0.7801</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td>10</td>
+      <td>BRD_CsSp1_CAND010</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>99.31</td>
+      <td>14</td>
+      <td>3</td>
+      <td>0</td>
+      <td>0.660</td>
+      <td>0.7783</td>
+      <td>Elevated_Near_20of21_Guide_Similarity</td>
+      <td>Moderate computational priority</td>
+      <td>-9</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>30</td>
+      <td>BRD_CsPKS1_CAND003</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>98.83</td>
+      <td>0</td>
+      <td>2</td>
+      <td>0</td>
+      <td>0.730</td>
+      <td>0.7778</td>
+      <td>Low_Near_Guide_Similarity_Only</td>
+      <td>Moderate computational priority</td>
+      <td>10</td>
+    </tr>
+  </tbody>
+</table><figure><img src='figures/pareto_frontier_v2.png'/><figcaption>Figure 2. Pareto frontier (conservation vs v2 sequence safety).</figcaption></figure><figure><img src='figures/bootstrap_and_sensitivity_v2.png'/><figcaption>Figure 3. v2 bootstrap rank uncertainty and 5-scenario sensitivity stability.</figcaption></figure><h2>7. Evidence-Based Biological Target Scoring & Expression Audit</h2><p>Expression normalisation (<code>min(1.0, RPKM/150.0)</code>) was excluded from composite scores (<code>expression_excluded_from_composite=True</code>) after discovering 1-read RPKM spikes in sparse early/mock GSE130517 samples.</p><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>biological_target_rank</th>
+      <th>target</th>
+      <th>score_pathogenicity_experimental</th>
+      <th>score_comparative_pathogenicity_essentiality</th>
+      <th>score_isolate_conservation</th>
+      <th>score_verification_confidence</th>
+      <th>biological_target_score</th>
+      <th>evidence_confidence_label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>CsFUS3</td>
+      <td>1.0000</td>
+      <td>1.0000</td>
+      <td>0.9660</td>
+      <td>1.0</td>
+      <td>0.9915</td>
+      <td>High (multi-source independent verification)</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>CsSTE11</td>
+      <td>1.0000</td>
+      <td>1.0000</td>
+      <td>0.9462</td>
+      <td>1.0</td>
+      <td>0.9866</td>
+      <td>High (multi-source independent verification)</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>CsSp1</td>
+      <td>1.0000</td>
+      <td>0.0000</td>
+      <td>0.9973</td>
+      <td>0.5</td>
+      <td>0.6993</td>
+      <td>Moderate (primer-anchored RefSeq model; lacks standalone GenBank &amp; InterPro)</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>CsPKS1</td>
+      <td>0.3333</td>
+      <td>0.6667</td>
+      <td>0.9653</td>
+      <td>1.0</td>
+      <td>0.6913</td>
+      <td>High (multi-source independent verification)</td>
+    </tr>
+  </tbody>
+</table><h3>Per-Criterion Biological Evidence Matrix</h3><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>criterion_id</th>
+      <th>weight</th>
+      <th>criterion_score_0_1</th>
+      <th>weighted_contribution</th>
+      <th>evidence_type</th>
+      <th>organism</th>
+      <th>publication_or_accession</th>
+      <th>confidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>pathogenicity_experimental_evidence</td>
+      <td>0.35</td>
+      <td>0.3333</td>
+      <td>0.1167</td>
+      <td>Experimental (endogenous hairpin RNAi without pathogenicity loss)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>PMID:21356000; PHI:2260 (Leng et al., 2011)</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>comparative_pathogenicity_and_essentiality_evidence</td>
+      <td>0.20</td>
+      <td>0.6667</td>
+      <td>0.1333</td>
+      <td>Curated_database (PHI-base/DEG) + Computational_domain_prediction (InterPro)</td>
+      <td>B. sorokiniana / Cochliobolus / Fungal comparative panel</td>
+      <td>PHI-base v4.19; DEG; UniProt:M2RQ22</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>isolate_homolog_and_cds_conservation</td>
+      <td>0.25</td>
+      <td>0.9653</td>
+      <td>0.2413</td>
+      <td>Computational_comparative_genomics (BLAST+ + semi-global exon alignment + MAFFT)</td>
+      <td>Bipolaris sorokiniana (19 biological isolates)</td>
+      <td>M04 BRD_Target_Nucleotide_Conservation_v2.tsv</td>
+      <td>High_with_2_draft_indels</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>target_verification_and_evidence_confidence</td>
+      <td>0.20</td>
+      <td>1.0000</td>
+      <td>0.2000</td>
+      <td>Sequence_traceability (RefSeq + GenBank + Experimental_primers + Domain_congruence)</td>
+      <td>Bipolaris sorokiniana (ND90Pr / LK93 / ND93-1)</td>
+      <td>COCSADRAFT_157080 / XM_007698023.1</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>pathogenicity_experimental_evidence</td>
+      <td>0.35</td>
+      <td>1.0000</td>
+      <td>0.3500</td>
+      <td>Experimental (targeted gene knockout -&gt; loss of barley pathogenicity)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>PMID:26011429; DOI:10.1371/journal.pone.0128291 (Leng &amp; Zhong, 2015)</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>comparative_pathogenicity_and_essentiality_evidence</td>
+      <td>0.20</td>
+      <td>1.0000</td>
+      <td>0.2000</td>
+      <td>Curated_database (PHI-base/DEG) + Computational_domain_prediction (InterPro)</td>
+      <td>B. sorokiniana / Cochliobolus / Fungal comparative panel</td>
+      <td>PHI-base v4.19; DEG; UniProt:M2TCC8</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>isolate_homolog_and_cds_conservation</td>
+      <td>0.25</td>
+      <td>0.9660</td>
+      <td>0.2415</td>
+      <td>Computational_comparative_genomics (BLAST+ + semi-global exon alignment + MAFFT)</td>
+      <td>Bipolaris sorokiniana (19 biological isolates)</td>
+      <td>M04 BRD_Target_Nucleotide_Conservation_v2.tsv</td>
+      <td>High_with_2_draft_indels</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>target_verification_and_evidence_confidence</td>
+      <td>0.20</td>
+      <td>1.0000</td>
+      <td>0.2000</td>
+      <td>Sequence_traceability (RefSeq + GenBank + Experimental_primers + Domain_congruence)</td>
+      <td>Bipolaris sorokiniana (ND90Pr / LK93 / ND93-1)</td>
+      <td>COCSADRAFT_24574 / XM_007699256.1</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>pathogenicity_experimental_evidence</td>
+      <td>0.35</td>
+      <td>1.0000</td>
+      <td>0.3500</td>
+      <td>Experimental (targeted gene knockout -&gt; loss of barley pathogenicity)</td>
+      <td>Bipolaris sorokiniana</td>
+      <td>PMID:26011429; PHI:4778 (Leng &amp; Zhong, 2015)</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>comparative_pathogenicity_and_essentiality_evidence</td>
+      <td>0.20</td>
+      <td>1.0000</td>
+      <td>0.2000</td>
+      <td>Curated_database (PHI-base/DEG) + Computational_domain_prediction (InterPro)</td>
+      <td>B. sorokiniana / Cochliobolus / Fungal comparative panel</td>
+      <td>PHI-base v4.19; DEG; UniProt:M2TIY7</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>isolate_homolog_and_cds_conservation</td>
+      <td>0.25</td>
+      <td>0.9462</td>
+      <td>0.2366</td>
+      <td>Computational_comparative_genomics (BLAST+ + semi-global exon alignment + MAFFT)</td>
+      <td>Bipolaris sorokiniana (19 biological isolates)</td>
+      <td>M04 BRD_Target_Nucleotide_Conservation_v2.tsv</td>
+      <td>High_with_2_draft_indels</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>target_verification_and_evidence_confidence</td>
+      <td>0.20</td>
+      <td>1.0000</td>
+      <td>0.2000</td>
+      <td>Sequence_traceability (RefSeq + GenBank + Experimental_primers + Domain_congruence)</td>
+      <td>Bipolaris sorokiniana (ND90Pr / LK93 / ND93-1)</td>
+      <td>COCSADRAFT_105370 / XM_007696384.1</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>pathogenicity_experimental_evidence</td>
+      <td>0.35</td>
+      <td>1.0000</td>
+      <td>0.3500</td>
+      <td>Experimental (split-marker knockout -&gt; attenuated wheat pathogenicity)</td>
+      <td>Bipolaris sorokiniana (LK93)</td>
+      <td>PMID:34741560; DOI:10.1111/mpp.13155 (Zhang et al., 2022)</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>comparative_pathogenicity_and_essentiality_evidence</td>
+      <td>0.20</td>
+      <td>0.0000</td>
+      <td>0.0000</td>
+      <td>Curated_database (PHI-base/DEG) + Computational_domain_prediction (InterPro)</td>
+      <td>B. sorokiniana / Cochliobolus / Fungal comparative panel</td>
+      <td>PHI-base v4.19; DEG; UniProt:M2RXZ0</td>
+      <td>Low_comparative_support</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>isolate_homolog_and_cds_conservation</td>
+      <td>0.25</td>
+      <td>0.9973</td>
+      <td>0.2493</td>
+      <td>Computational_comparative_genomics (BLAST+ + semi-global exon alignment + MAFFT)</td>
+      <td>Bipolaris sorokiniana (19 biological isolates)</td>
+      <td>M04 BRD_Target_Nucleotide_Conservation_v2.tsv</td>
+      <td>High</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>target_verification_and_evidence_confidence</td>
+      <td>0.20</td>
+      <td>0.5000</td>
+      <td>0.1000</td>
+      <td>Sequence_traceability (RefSeq + GenBank + Experimental_primers + Domain_congruence)</td>
+      <td>Bipolaris sorokiniana (ND90Pr / LK93 / ND93-1)</td>
+      <td>COCSADRAFT_164106 / XM_007706020.1</td>
+      <td>Moderate_primer_anchored</td>
+    </tr>
+  </tbody>
+</table><h3>GSE130517 Expression Distribution Audit</h3><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>gse130517_gene_id</th>
+      <th>transcript_len_nt_gse</th>
+      <th>v1_reported_inplanta_max_rpkm</th>
+      <th>v1_peak_source_sample</th>
+      <th>valid_3B_4B_5B_raw_reads_sum</th>
+      <th>valid_3B_4B_5B_inplanta_mean_rpkm</th>
+      <th>valid_3B_4B_5B_inplanta_max_rpkm</th>
+      <th>axenic_Bs_mean_rpkm</th>
+      <th>inplanta_vs_axenic_fold_change</th>
+      <th>gse130517_genome_3B4B5B_percentile_all12034</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>Bipso1_02104</td>
+      <td>6562</td>
+      <td>27.17</td>
+      <td>3B_II (raw_reads=50)</td>
+      <td>223</td>
+      <td>13.19</td>
+      <td>27.17</td>
+      <td>20.55</td>
+      <td>0.64</td>
+      <td>48.11</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>Bipso1_03811</td>
+      <td>1265</td>
+      <td>90.21</td>
+      <td>3B_I (raw_reads=66)</td>
+      <td>216</td>
+      <td>62.53</td>
+      <td>90.21</td>
+      <td>210.59</td>
+      <td>0.30</td>
+      <td>84.07</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>Bipso1_00226</td>
+      <td>3809</td>
+      <td>87.63</td>
+      <td>2B_III (raw_reads=1)</td>
+      <td>215</td>
+      <td>22.12</td>
+      <td>32.16</td>
+      <td>35.78</td>
+      <td>0.62</td>
+      <td>61.75</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>Bipso1_10075</td>
+      <td>322</td>
+      <td>1438.44</td>
+      <td>3A_I (raw_reads=1)</td>
+      <td>75</td>
+      <td>79.30</td>
+      <td>139.61</td>
+      <td>7.85</td>
+      <td>10.10</td>
+      <td>87.34</td>
+    </tr>
+  </tbody>
+</table><h2>8. Separate Biological vs dsRNA Target Rankings</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>biological_target_rank</th>
+      <th>dsrna_targetability_rank</th>
+      <th>target</th>
+      <th>biological_target_score</th>
+      <th>best_passing_candidate_id</th>
+      <th>best_passing_candidate_score_v2</th>
+      <th>best_passing_candidate_safety_v2</th>
+      <th>candidates_passing_v2_filters</th>
+      <th>candidates_excluded_exact_21mer</th>
+      <th>gse130517_valid_3B4B5B_inplanta_mean_rpkm</th>
+      <th>gse130517_valid_3B4B5B_raw_reads_sum</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>4</td>
+      <td>CsFUS3</td>
+      <td>0.9915</td>
+      <td>BRD_CsFUS3_CAND003</td>
+      <td>0.7259</td>
+      <td>0.445</td>
+      <td>1</td>
+      <td>12</td>
+      <td>62.53</td>
+      <td>216</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>1</td>
+      <td>CsSTE11</td>
+      <td>0.9866</td>
+      <td>BRD_CsSTE11_CAND012</td>
+      <td>0.9170</td>
+      <td>0.915</td>
+      <td>9</td>
+      <td>4</td>
+      <td>22.12</td>
+      <td>215</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>3</td>
+      <td>CsSp1</td>
+      <td>0.6993</td>
+      <td>BRD_CsSp1_CAND008</td>
+      <td>0.7911</td>
+      <td>0.695</td>
+      <td>10</td>
+      <td>0</td>
+      <td>79.30</td>
+      <td>75</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>2</td>
+      <td>CsPKS1</td>
+      <td>0.6913</td>
+      <td>BRD_CsPKS1_CAND010</td>
+      <td>0.7988</td>
+      <td>0.810</td>
+      <td>13</td>
+      <td>0</td>
+      <td>13.19</td>
+      <td>223</td>
+    </tr>
+  </tbody>
+</table><figure><img src='figures/biological_vs_dsrna_target_prioritisation_v2.png'/><figcaption>Figure 4. Divergence between Biological Target Priority and dsRNA Candidate Priority.</figcaption></figure><h2>9. Experimental Boundaries</h2><p>Sequence screening does not establish biological safety, and exogenous dsRNA uptake in <em>B. sorokiniana</em> must be demonstrated microscopically before SIGS claims.</p>
+</body>
+</html>

@@ -1,0 +1,24 @@
+     ---> 2 sequences loaded
+
+Results:
++------------------------+--------------+--------------------+------------------+---------+---------+---------+
+| TARGET SEQUENCE HEADER | 21NT MATCHES | SWG SIMILARITY (%) | KMER MEAN GC (%) | 5'U (%) | 5'A (%) | 5'C (%) |
++------------------------+--------------+--------------------+------------------+---------+---------+---------+
+| CsFUS3_CDS             | 330          | 100.0              | 52.3             | 27.3    | 20.9    | 23.0    |
+| CsSTE11_CDS            | 0            | 2.9                | NaN              | 0.0     | 0.0     | 0.0     |
++------------------------+--------------+--------------------+------------------+---------+---------+---------+
+Results written to C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\07_dsRNA_design\dsRNAmax\chimeric_CsFUS3_CsSTE11\chimeric_dsrnamax.csv
+
+Median of kmer hits to each target sequence: 165
+
+dsRNA sense-arm sequence - 52.6% GC content
+ATGCCACCAGCAGGAAGCGGCAGCTCCAGGAAAATCTCCTTCAACGTCTCGGAGCAGTACGACATTCAGGATGTTGTAGGAGAGGGCGCATACGGTGTCGTATGCTCTGCCTTGCACAAGCCATCGGGCCAGAAGGTTGCCATTAAGAAGATCACGCCCTTTGATCACTCCATGTTCTGCTTGAGAACACTGCGAGAGATGAAGCTGCTGCGCTACTTCAACCACGAAAACATCATCTCCATCCTGGACATCCAAAAGCCCCGCAACTACGAGACCTTCACCGAGGTCTACCTAATTCAGGAACTCATGGAGACGGACATGCACCGAGTCATTCGCACACAAGAGCTGTC
+
+
+--- STDERR ---
+2026/11/11 05:29:42 dsRNAmax - dsRNA maximizer (Version: 1.1.14)
+2026/11/11 05:29:42 Target FASTA File: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\07_dsRNA_design\dsRNAmax\chimeric_CsFUS3_CsSTE11\CsFUS3_CsSTE11_targets.fasta
+2026/11/11 05:29:42 Loading target sequences...
+2026/11/11 05:29:42 Getting target sequence kmers...
+2026/11/11 05:29:42 3,899 target kmers loaded
+2026/11/11 05:29:42 Finding best construct...

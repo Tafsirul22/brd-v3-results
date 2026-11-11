@@ -1,0 +1,2986 @@
+[
+  {
+    "accession": "GCA_000338995.1",
+    "current_accession": "GCA_000338995.1",
+    "paired_accession": "GCF_000338995.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 665912,
+      "organism_name": "Bipolaris sorokiniana ND90Pr",
+      "infraspecific_names": {
+        "strain": "ND90Pr"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Scaffold",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCF_000338995.1",
+        "status": "current",
+        "annotation_name": "Annotation submitted by JGI"
+      },
+      "assembly_name": "Cocsa1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA53923",
+              "title": "Cochliobolus sativus ND90Pr genome sequencing project"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA53923",
+      "release_date": "2013-02-19",
+      "submitter": "JGI",
+      "refseq_category": "reference genome",
+      "sequencing_tech": "Sanger; 454; Illumina",
+      "assembly_method": "Newbler v. 2.5",
+      "biosample": {
+        "accession": "SAMN02981285",
+        "last_updated": "2019-06-20T17:03:55.259",
+        "publication_date": "2014-08-11T00:00:00.000",
+        "submission_date": "2014-08-11T11:21:19.263",
+        "sample_ids": [
+          {
+            "db": "SRA",
+            "value": "SRS1566654"
+          },
+          {
+            "db": "GenBank",
+            "value": "gb|AEIN00000000.1"
+          }
+        ],
+        "description": {
+          "title": "Sample from Bipolaris sorokiniana ND90Pr",
+          "organism": {
+            "tax_id": 665912,
+            "organism_name": "Bipolaris sorokiniana ND90Pr"
+          }
+        },
+        "owner": {
+          "name": "US DOE Joint Genome Institute"
+        },
+        "models": [
+          "Generic"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA53923"
+          }
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "ND90Pr"
+          },
+          {
+            "name": "Organism Display Name",
+            "value": "Cochliobolus sativus ND90Pr"
+          },
+          {
+            "name": "GOLD Stamp ID",
+            "value": "Gi04490"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-08-11T11:21:19.263"
+        },
+        "strain": "ND90Pr"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_000338995.1",
+      "comments": "URL -- http://genome.jgi.doe.gov/Cocsa1\nJGI Project ID: 53923\nThe DNA was provided by Shaobin Zhong(shaobin.zhong@ndsu.edu)\nThe strain is available from shaobin.zhong@ndsu.edu\nContacts: Shaobin Zhong (shaobin.zhong@ndsu.edu)\nAssembly and annotation done by JGI.\nThe JGI and collaborators endorse the principles for the distribution and use of large scale sequencing data adopted by the larger genome sequencing community and urge users of this data to follow them. It is our intention to publish the work of this project in a timely fashion and we welcome collaborative interaction on the project and analysis.\n(http://www.genome.gov/page.cfm?pageID=10506376)"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "34409167",
+      "total_ungapped_length": "33212626",
+      "number_of_contigs": 504,
+      "contig_n50": 243393,
+      "contig_l50": 43,
+      "number_of_scaffolds": 154,
+      "scaffold_n50": 1789485,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 503,
+      "atgc_count": "33212618",
+      "gc_count": "16554524",
+      "gc_percent": 50,
+      "genome_coverage": "42.43"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by JGI",
+      "provider": "JGI",
+      "release_date": "2015-03-19",
+      "stats": {
+        "gene_counts": {
+          "total": 12308,
+          "protein_coding": 12214,
+          "non_coding": 92,
+          "pseudogene": 2
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AEIN01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AEIN00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AEIN01"
+    }
+  },
+  {
+    "accession": "GCF_000338995.1",
+    "current_accession": "GCF_000338995.1",
+    "paired_accession": "GCA_000338995.1",
+    "source_database": "SOURCE_DATABASE_REFSEQ",
+    "organism": {
+      "tax_id": 665912,
+      "organism_name": "Bipolaris sorokiniana ND90Pr",
+      "infraspecific_names": {
+        "strain": "ND90Pr"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Scaffold",
+      "assembly_status": "current",
+      "paired_assembly": {
+        "accession": "GCA_000338995.1",
+        "status": "current",
+        "annotation_name": "Annotation submitted by JGI"
+      },
+      "assembly_name": "Cocsa1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA53923",
+              "title": "Cochliobolus sativus ND90Pr genome sequencing project"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA53923",
+      "release_date": "2013-02-19",
+      "submitter": "JGI",
+      "refseq_category": "reference genome",
+      "sequencing_tech": "Sanger; 454; Illumina",
+      "assembly_method": "Newbler v. 2.5",
+      "biosample": {
+        "accession": "SAMN02981285",
+        "last_updated": "2019-06-20T17:03:55.259",
+        "publication_date": "2014-08-11T00:00:00.000",
+        "submission_date": "2014-08-11T11:21:19.263",
+        "sample_ids": [
+          {
+            "db": "SRA",
+            "value": "SRS1566654"
+          },
+          {
+            "db": "GenBank",
+            "value": "gb|AEIN00000000.1"
+          }
+        ],
+        "description": {
+          "title": "Sample from Bipolaris sorokiniana ND90Pr",
+          "organism": {
+            "tax_id": 665912,
+            "organism_name": "Bipolaris sorokiniana ND90Pr"
+          }
+        },
+        "owner": {
+          "name": "US DOE Joint Genome Institute"
+        },
+        "models": [
+          "Generic"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA53923"
+          }
+        ],
+        "package": "Generic.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "ND90Pr"
+          },
+          {
+            "name": "Organism Display Name",
+            "value": "Cochliobolus sativus ND90Pr"
+          },
+          {
+            "name": "GOLD Stamp ID",
+            "value": "Gi04490"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2014-08-11T11:21:19.263"
+        },
+        "strain": "ND90Pr"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCF_000338995.1",
+      "comments": "URL -- http://genome.jgi.doe.gov/Cocsa1\nJGI Project ID: 53923\nThe DNA was provided by Shaobin Zhong(shaobin.zhong@ndsu.edu)\nThe strain is available from shaobin.zhong@ndsu.edu\nContacts: Shaobin Zhong (shaobin.zhong@ndsu.edu)\nAssembly and annotation done by JGI.\nThe JGI and collaborators endorse the principles for the distribution and use of large scale sequencing data adopted by the larger genome sequencing community and urge users of this data to follow them. It is our intention to publish the work of this project in a timely fashion and we welcome collaborative interaction on the project and analysis.\n(http://www.genome.gov/page.cfm?pageID=10506376)"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "34409167",
+      "total_ungapped_length": "33212626",
+      "number_of_contigs": 504,
+      "contig_n50": 243393,
+      "contig_l50": 43,
+      "number_of_scaffolds": 154,
+      "scaffold_n50": 1789485,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 503,
+      "atgc_count": "33212618",
+      "gc_count": "16554524",
+      "gc_percent": 50,
+      "genome_coverage": "42.43"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by JGI",
+      "provider": "JGI",
+      "release_date": "2020-02-06",
+      "stats": {
+        "gene_counts": {
+          "total": 12304,
+          "protein_coding": 12210,
+          "non_coding": 92,
+          "pseudogene": 2
+        }
+      },
+      "pipeline": "NCBI Eukaryotic Annotation Propagation Pipeline",
+      "status": "Full annotation"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "AEIN01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/AEIN00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/AEIN01"
+    }
+  },
+  {
+    "accession": "GCA_024722535.1",
+    "current_accession": "GCA_024722535.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "LK93"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Chromosome",
+      "assembly_status": "current",
+      "assembly_name": "ASM2472253v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA869783",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA869783",
+      "release_date": "2022-08-21",
+      "submitter": "Huazhong Agricultural University",
+      "sequencing_tech": "Oxford Nanopore; Illumina",
+      "assembly_method": "NextDenovo v. 2.5.0; NextPolish v. 1.3.1",
+      "biosample": {
+        "accession": "SAMN30308484",
+        "last_updated": "2022-12-10T13:48:29.727",
+        "publication_date": "2022-08-14T00:00:00.000",
+        "submission_date": "2022-08-14T23:13:04.780",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "LK93"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS16080721"
+          }
+        ],
+        "description": {
+          "title": "Microbe sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Huazhong Agricultural University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "Microbe, viral or environmental"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA743515"
+          }
+        ],
+        "package": "Microbe.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "LK93"
+          },
+          {
+            "name": "host",
+            "value": "wheat"
+          },
+          {
+            "name": "collection_date",
+            "value": "2014-10"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "China: lankao"
+          },
+          {
+            "name": "sample_type",
+            "value": "mixed culture"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2022-08-14T23:13:04.780"
+        },
+        "collection_date": "2014-10",
+        "geo_loc_name": "China: lankao",
+        "host": "wheat",
+        "strain": "LK93"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_024722535.1"
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 16,
+      "total_sequence_length": "36231650",
+      "total_ungapped_length": "36231550",
+      "number_of_contigs": 17,
+      "contig_n50": 2313634,
+      "contig_l50": 7,
+      "number_of_scaffolds": 16,
+      "scaffold_n50": 2313634,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 16,
+      "atgc_count": "36231550",
+      "gc_count": "17965126",
+      "gc_percent": 49.5,
+      "genome_coverage": "213"
+    }
+  },
+  {
+    "accession": "GCA_033006315.1",
+    "current_accession": "GCA_033006315.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "ND93-1"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Chromosome",
+      "assembly_status": "current",
+      "assembly_name": "ASM3300631v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA972308",
+              "title": "Bipolaris sorokiniana strain:ND93-1 Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA972308",
+      "release_date": "2023-10-25",
+      "submitter": "North Dakota State University",
+      "sequencing_tech": "PacBio",
+      "assembly_method": "Canu v. 2.1",
+      "biosample": {
+        "accession": "SAMN35069213",
+        "last_updated": "2023-08-08T22:21:02.353",
+        "publication_date": "2023-08-08T00:00:00.000",
+        "submission_date": "2023-05-13T17:31:05.463",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "ND93-1"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS17660758"
+          }
+        ],
+        "description": {
+          "title": "MIGS Eukaryotic sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          },
+          "comment": "Keywords: GSC:MIxS;MIGS:6.0"
+        },
+        "owner": {
+          "name": "North Dakota State University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "MIGS.eu",
+          "MIGS/MIMS/MIMARKS.plant-associated"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA972308"
+          }
+        ],
+        "package": "MIGS.eu.plant-associated.6.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "ND93-1"
+          },
+          {
+            "name": "collection_date",
+            "value": "1993"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "North America"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "barley field"
+          },
+          {
+            "name": "env_medium",
+            "value": "barley kernel"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "USA: North Dakota, Walsh County"
+          },
+          {
+            "name": "host",
+            "value": "Hordeum vulgare"
+          },
+          {
+            "name": "isol_growth_condt",
+            "value": "PMID: 30861733"
+          },
+          {
+            "name": "lat_lon",
+            "value": "48.37 N 97.72 W"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Barley kernel"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2023-08-08T22:21:02.353"
+        },
+        "collection_date": "1993",
+        "geo_loc_name": "USA: North Dakota, Walsh County",
+        "host": "Hordeum vulgare",
+        "isolation_source": "Barley kernel",
+        "lat_lon": "48.37 N 97.72 W",
+        "strain": "ND93-1"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_033006315.1"
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 16,
+      "total_sequence_length": "36481130",
+      "total_ungapped_length": "36481130",
+      "number_of_contigs": 17,
+      "contig_n50": 2206364,
+      "contig_l50": 7,
+      "number_of_scaffolds": 17,
+      "scaffold_n50": 2206364,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 17,
+      "atgc_count": "36481130",
+      "gc_count": "18067161",
+      "gc_percent": 49.5,
+      "genome_coverage": "50"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JASPLA01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JASPLA000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JASPLA01"
+    }
+  },
+  {
+    "accession": "GCA_008452705.1",
+    "current_accession": "GCA_008452705.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "WAI2406"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Chromosome",
+      "assembly_status": "current",
+      "assembly_name": "ASM845270v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA505097",
+              "title": "Wheat and barley pathogen Bipolaris sorokinanaWheat pathogen Parastagonospora nodorum Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA505097",
+      "release_date": "2019-09-23",
+      "submitter": "The Australian National University",
+      "sequencing_tech": "Oxford Nanopore MiniION",
+      "assembly_method": "Canu v. 1.5",
+      "biosample": {
+        "accession": "SAMN10410788",
+        "last_updated": "2019-08-22T22:18:01.912",
+        "publication_date": "2019-08-22T00:00:00.000",
+        "submission_date": "2018-11-12T00:24:03.340",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "WAI2406"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS4323684"
+          }
+        ],
+        "description": {
+          "title": "Microbe sample from Bipolaris sorokiniana strain WAI2406",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "The Australian National University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "Microbe, viral or environmental"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA505097"
+          }
+        ],
+        "package": "Microbe.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "WAI2406"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "collection_date",
+            "value": "2014"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "Australia: Nyngan, NSW"
+          },
+          {
+            "name": "sample_type",
+            "value": "Pure culture, fungal mycelium"
+          },
+          {
+            "name": "biomaterial_provider",
+            "value": "A. Milgate, NSW Department of Primary Industries, Wagga Wagga Agricultural Institute"
+          },
+          {
+            "name": "collected_by",
+            "value": "S. Simpfendorfer, A. Milgate"
+          },
+          {
+            "name": "isolation_source",
+            "value": "mycelium"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2019-08-22T22:18:01.912"
+        },
+        "biomaterial_provider": "A. Milgate, NSW Department of Primary Industries, Wagga Wagga Agricultural Institute",
+        "collected_by": "S. Simpfendorfer, A. Milgate",
+        "collection_date": "2014",
+        "geo_loc_name": "Australia: Nyngan, NSW",
+        "host": "Triticum aestivum",
+        "isolation_source": "mycelium",
+        "strain": "WAI2406"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_008452705.1"
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 16,
+      "total_sequence_length": "36886791",
+      "total_ungapped_length": "36886791",
+      "number_of_contigs": 21,
+      "contig_n50": 2203058,
+      "contig_l50": 7,
+      "number_of_scaffolds": 21,
+      "scaffold_n50": 2203058,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 21,
+      "atgc_count": "36886791",
+      "gc_count": "18225793",
+      "gc_percent": 49.5,
+      "genome_coverage": "35"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "SRZF01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/SRZF00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/SRZF01"
+    }
+  },
+  {
+    "accession": "GCA_008452735.1",
+    "current_accession": "GCA_008452735.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "BRIP10943a"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Chromosome",
+      "assembly_status": "current",
+      "assembly_name": "ASM845273v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA505097",
+              "title": "Wheat and barley pathogen Bipolaris sorokinanaWheat pathogen Parastagonospora nodorum Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA505097",
+      "release_date": "2019-09-23",
+      "submitter": "The Australian National University",
+      "sequencing_tech": "PacBio RSII",
+      "assembly_method": "Canu v. 1.5",
+      "biosample": {
+        "accession": "SAMN05928353",
+        "last_updated": "2019-04-04T07:35:02.092",
+        "publication_date": "2017-01-24T00:00:00.000",
+        "submission_date": "2016-10-19T18:43:02.866",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "BRIP10943a"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS1753054"
+          }
+        ],
+        "description": {
+          "title": "Microbe sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "The Australian National University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "Microbe, viral or environmental"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA349192"
+          }
+        ],
+        "package": "Microbe.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "BRIP10943a"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "collection_date",
+            "value": "1966"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "Australia: Hermitage, Queensland"
+          },
+          {
+            "name": "sample_type",
+            "value": "Fungal tissue (mycelia and spores)"
+          },
+          {
+            "name": "biomaterial_provider",
+            "value": "DAF Biological Collections"
+          },
+          {
+            "name": "collected_by",
+            "value": "G.S. Purss"
+          },
+          {
+            "name": "isolation_source",
+            "value": "mycelia and spores"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2017-01-24T13:47:26.550"
+        },
+        "biomaterial_provider": "DAF Biological Collections",
+        "collected_by": "G.S. Purss",
+        "collection_date": "1966",
+        "geo_loc_name": "Australia: Hermitage, Queensland",
+        "host": "Triticum aestivum",
+        "isolation_source": "mycelia and spores",
+        "strain": "BRIP10943a"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_008452735.1"
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 16,
+      "total_sequence_length": "36921586",
+      "total_ungapped_length": "36921586",
+      "number_of_contigs": 22,
+      "contig_n50": 2135441,
+      "contig_l50": 7,
+      "number_of_scaffolds": 22,
+      "scaffold_n50": 2135441,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 22,
+      "atgc_count": "36921586",
+      "gc_count": "18273328",
+      "gc_percent": 49.5,
+      "genome_coverage": "37"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "SRZH01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/SRZH00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/SRZH01"
+    }
+  },
+  {
+    "accession": "GCA_008452725.1",
+    "current_accession": "GCA_008452725.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "BRIP27492a"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Chromosome",
+      "assembly_status": "current",
+      "assembly_name": "ASM845272v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA505097",
+              "title": "Wheat and barley pathogen Bipolaris sorokinanaWheat pathogen Parastagonospora nodorum Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA505097",
+      "release_date": "2019-09-23",
+      "submitter": "The Australian National University",
+      "sequencing_tech": "Oxford Nanopore MiniION",
+      "assembly_method": "Canu v. 1.5",
+      "biosample": {
+        "accession": "SAMN05928351",
+        "last_updated": "2019-04-04T07:35:02.031",
+        "publication_date": "2017-01-24T00:00:00.000",
+        "submission_date": "2016-10-19T18:43:02.623",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "BRIP27492a"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS1753053"
+          }
+        ],
+        "description": {
+          "title": "Microbe sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "The Australian National University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "Microbe, viral or environmental"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA349192"
+          }
+        ],
+        "package": "Microbe.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "BRIP27492a"
+          },
+          {
+            "name": "host",
+            "value": "Hordeum vulgare"
+          },
+          {
+            "name": "collection_date",
+            "value": "2000"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "Australia: Esperance, Western Australia"
+          },
+          {
+            "name": "sample_type",
+            "value": "Fungal tissue (mycelia and spores)"
+          },
+          {
+            "name": "biomaterial_provider",
+            "value": "DAF Biological Collections"
+          },
+          {
+            "name": "collected_by",
+            "value": "R. Longhman"
+          },
+          {
+            "name": "isolation_source",
+            "value": "mycelia and spores"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2017-01-24T13:47:26.627"
+        },
+        "biomaterial_provider": "DAF Biological Collections",
+        "collected_by": "R. Longhman",
+        "collection_date": "2000",
+        "geo_loc_name": "Australia: Esperance, Western Australia",
+        "host": "Hordeum vulgare",
+        "isolation_source": "mycelia and spores",
+        "strain": "BRIP27492a"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_008452725.1"
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 16,
+      "total_sequence_length": "35237195",
+      "total_ungapped_length": "35237195",
+      "number_of_contigs": 19,
+      "contig_n50": 2128958,
+      "contig_l50": 7,
+      "number_of_scaffolds": 19,
+      "scaffold_n50": 2128958,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 19,
+      "atgc_count": "35237194",
+      "gc_count": "17422119",
+      "gc_percent": 49.5,
+      "genome_coverage": "40"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "SRZG01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/SRZG00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/SRZG01"
+    }
+  },
+  {
+    "accession": "GCA_008452715.1",
+    "current_accession": "GCA_008452715.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "WAI2411"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Chromosome",
+      "assembly_status": "current",
+      "assembly_name": "ASM845271v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA505097",
+              "title": "Wheat and barley pathogen Bipolaris sorokinanaWheat pathogen Parastagonospora nodorum Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA505097",
+      "release_date": "2019-09-23",
+      "submitter": "The Australian National University",
+      "sequencing_tech": "Oxford Nanopore MiniION",
+      "assembly_method": "Canu v. 1.5",
+      "biosample": {
+        "accession": "SAMN10410789",
+        "last_updated": "2019-08-22T22:18:01.959",
+        "publication_date": "2019-08-22T00:00:00.000",
+        "submission_date": "2018-11-12T00:51:02.930",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "WAI2411"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS4323685"
+          }
+        ],
+        "description": {
+          "title": "Microbe sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "The Australian National University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "Microbe, viral or environmental"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA505097"
+          }
+        ],
+        "package": "Microbe.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "WAI2411"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "collection_date",
+            "value": "2014"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "Australia: Tamworth, NSW"
+          },
+          {
+            "name": "sample_type",
+            "value": "Pure Culture, Fungal mycelium"
+          },
+          {
+            "name": "biomaterial_provider",
+            "value": "Andrew Milgate, NSW Department of Primary Industries, Wagga Wagga Agricultural Institute"
+          },
+          {
+            "name": "collected_by",
+            "value": "A. Milgate, S. Simpfendorfer"
+          },
+          {
+            "name": "isolation_source",
+            "value": "mycelium"
+          },
+          {
+            "name": "host_tissue_sampled",
+            "value": "Wheat, cultivar LRPB Dart"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2019-08-22T22:18:01.959"
+        },
+        "biomaterial_provider": "Andrew Milgate, NSW Department of Primary Industries, Wagga Wagga Agricultural Institute",
+        "collected_by": "A. Milgate, S. Simpfendorfer",
+        "collection_date": "2014",
+        "geo_loc_name": "Australia: Tamworth, NSW",
+        "host": "Triticum aestivum",
+        "isolation_source": "mycelium",
+        "strain": "WAI2411"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_008452715.1"
+    },
+    "assembly_stats": {
+      "total_number_of_chromosomes": 16,
+      "total_sequence_length": "36241382",
+      "total_ungapped_length": "36241382",
+      "number_of_contigs": 21,
+      "contig_n50": 2111142,
+      "contig_l50": 7,
+      "number_of_scaffolds": 21,
+      "scaffold_n50": 2111142,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 21,
+      "atgc_count": "36241382",
+      "gc_count": "17925280",
+      "gc_percent": 49.5,
+      "genome_coverage": "36"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "SRZE01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/SRZE00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/SRZE01"
+    }
+  },
+  {
+    "accession": "GCA_037974985.1",
+    "current_accession": "GCA_037974985.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "isolate": "Yt-6"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM3797498v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1086713",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1086713",
+      "release_date": "2024-04-05",
+      "submitter": "Hebei Agricultural University",
+      "sequencing_tech": "Oxford Nanopore",
+      "assembly_method": "NECAT v. 0.01",
+      "biosample": {
+        "accession": "SAMN40410507",
+        "last_updated": "2024-03-14T13:42:03.555",
+        "publication_date": "2024-03-12T00:00:00.000",
+        "submission_date": "2024-03-12T06:08:04.783",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "Yt-6"
+          }
+        ],
+        "description": {
+          "title": "MIGS Eukaryotic sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          },
+          "comment": "Keywords: GSC:MIxS;MIGS:6.0"
+        },
+        "owner": {
+          "name": "Hebei Agricultural University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "MIGS.eu",
+          "MIGS/MIMS/MIMARKS.plant-associated"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1086713"
+          }
+        ],
+        "package": "MIGS.eu.plant-associated.6.0",
+        "attributes": [
+          {
+            "name": "isolate",
+            "value": "Yt-6"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-08"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Biological community of temperate grassland"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "mountains"
+          },
+          {
+            "name": "env_medium",
+            "value": "mountain"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "China:Zhangjiakou"
+          },
+          {
+            "name": "host",
+            "value": "Avena nuda"
+          },
+          {
+            "name": "isol_growth_condt",
+            "value": "PDA"
+          },
+          {
+            "name": "lat_lon",
+            "value": "41.17 N 114.86 E"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-03-12T06:08:04.785"
+        },
+        "collection_date": "2018-08",
+        "geo_loc_name": "China:Zhangjiakou",
+        "host": "Avena nuda",
+        "isolate": "Yt-6",
+        "lat_lon": "41.17 N 114.86 E"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_037974985.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "38203168",
+      "total_ungapped_length": "38203168",
+      "number_of_contigs": 21,
+      "contig_n50": 2289924,
+      "contig_l50": 7,
+      "number_of_scaffolds": 21,
+      "scaffold_n50": 2289924,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 21,
+      "atgc_count": "38203168",
+      "gc_count": "18812660",
+      "gc_percent": 49,
+      "genome_coverage": "332.1"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBBEUP01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBBEUP000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBBEUP01"
+    }
+  },
+  {
+    "accession": "GCA_004329375.1",
+    "current_accession": "GCA_004329375.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "isolate": "BS112"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM432937v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA489551",
+              "title": "Bipolaris sorokiniana isolate:BS 112 Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA489551",
+      "release_date": "2019-03-06",
+      "submitter": "ICAR-Indian Agricultural Research Institute",
+      "sequencing_tech": "Illumina; Oxford Nanopore; IonTorrent",
+      "assembly_method": "MaSuRCA v. 2.7",
+      "biosample": {
+        "accession": "SAMN09901300",
+        "last_updated": "2026-08-30T07:37:11.417",
+        "publication_date": "2019-03-09T00:00:00.000",
+        "submission_date": "2018-08-23T06:28:05.426",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "Bipolaris sorokiniana (BS112)"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS5000967"
+          }
+        ],
+        "description": {
+          "title": "MIGS Eukaryotic sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          },
+          "comment": "Keywords: GSC:MIxS;MIGS:6.0"
+        },
+        "owner": {
+          "name": "ICAR-Indian Agricultural Research Institute",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "MIGS.eu",
+          "MIGS/MIMS/MIMARKS.plant-associated"
+        ],
+        "package": "MIGS.eu.plant-associated.6.0",
+        "attributes": [
+          {
+            "name": "isolate",
+            "value": "BS112"
+          },
+          {
+            "name": "collection_date",
+            "value": "2014-02-25"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "North East Plain Zone"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Field"
+          },
+          {
+            "name": "env_medium",
+            "value": "infected leaves"
+          },
+          {
+            "name": "estimated_size",
+            "value": "35 MB"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India: Banaras, Varanasi"
+          },
+          {
+            "name": "host",
+            "value": "wheat"
+          },
+          {
+            "name": "isol_growth_condt",
+            "value": "Infected wheat leaf bits were incubated on Potato Dextrose Agar at 25 degree Celsius in incubator. Single spore culture of Bipolaris sorokiniana were established on Potato Dextrose Agar and maintained at 25 degree Celsius for further work."
+          },
+          {
+            "name": "lat_lon",
+            "value": "25.31 N 82.97 E"
+          },
+          {
+            "name": "num_replicons",
+            "value": "1"
+          },
+          {
+            "name": "ploidy",
+            "value": "diploid"
+          },
+          {
+            "name": "propagation",
+            "value": "eukaryote: asexual"
+          },
+          {
+            "name": "isolation_source",
+            "value": "infected leaves"
+          },
+          {
+            "name": "collected_by",
+            "value": "Dr. Kartar Singh"
+          },
+          {
+            "name": "culture_collection",
+            "value": "not applicable"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2019-03-09T06:37:36.260"
+        },
+        "collected_by": "Dr. Kartar Singh",
+        "collection_date": "2014-02-25",
+        "geo_loc_name": "India: Banaras, Varanasi",
+        "host": "wheat",
+        "isolate": "BS112",
+        "isolation_source": "infected leaves",
+        "lat_lon": "25.31 N 82.97 E"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_004329375.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "37377538",
+      "total_ungapped_length": "37377538",
+      "number_of_contigs": 43,
+      "contig_n50": 2114703,
+      "contig_l50": 7,
+      "number_of_scaffolds": 43,
+      "scaffold_n50": 2114703,
+      "scaffold_l50": 7,
+      "number_of_component_sequences": 43,
+      "atgc_count": "37377538",
+      "gc_count": "18471676",
+      "gc_percent": 49.5,
+      "genome_coverage": "80"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "RCTM01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/RCTM00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/RCTM01"
+    }
+  },
+  {
+    "accession": "GCA_055473645.1",
+    "current_accession": "GCA_055473645.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "MP 1261"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547364v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030314",
+        "last_updated": "2024-11-28T12:03:20.440",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.273",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "MP 1261"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23389550"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "MP 1261"
+          },
+          {
+            "name": "culture_collection",
+            "value": "MCC:1927"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-27"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Jabalpur"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.273"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-27",
+        "geo_loc_name": "India:Jabalpur",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "MP 1261"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473645.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "34559370",
+      "total_ungapped_length": "34559370",
+      "number_of_contigs": 190,
+      "contig_n50": 1134885,
+      "contig_l50": 12,
+      "number_of_scaffolds": 190,
+      "scaffold_n50": 1134885,
+      "scaffold_l50": 12,
+      "number_of_component_sequences": 190,
+      "atgc_count": "34559370",
+      "gc_count": "17154893",
+      "gc_percent": 49.5,
+      "genome_coverage": "147"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFM01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFM000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFM01"
+    }
+  },
+  {
+    "accession": "GCA_055473875.1",
+    "current_accession": "GCA_055473875.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "SEED 28"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547387v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030311",
+        "last_updated": "2024-11-28T06:49:20.603",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.240",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "SEED 28"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23387673"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "SEED 28"
+          },
+          {
+            "name": "culture_collection",
+            "value": "MCC:1910"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-17"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Pune"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.240"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-17",
+        "geo_loc_name": "India:Pune",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "SEED 28"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473875.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "33791953",
+      "total_ungapped_length": "33791953",
+      "number_of_contigs": 253,
+      "contig_n50": 1000644,
+      "contig_l50": 13,
+      "number_of_scaffolds": 253,
+      "scaffold_n50": 1000644,
+      "scaffold_l50": 13,
+      "number_of_component_sequences": 253,
+      "atgc_count": "33791953",
+      "gc_count": "16894031",
+      "gc_percent": 50,
+      "genome_coverage": "121"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFP01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFP000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFP01"
+    }
+  },
+  {
+    "accession": "GCA_055473695.1",
+    "current_accession": "GCA_055473695.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "Black"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547369v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030312",
+        "last_updated": "2026-08-29T10:16:14.843",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.250",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "Black Isolate"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23388070"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "Black"
+          },
+          {
+            "name": "culture_collection",
+            "value": "missing"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-24"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Varanasi"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.252"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-24",
+        "geo_loc_name": "India:Varanasi",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "Black"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473695.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "34162547",
+      "total_ungapped_length": "34162547",
+      "number_of_contigs": 212,
+      "contig_n50": 982804,
+      "contig_l50": 13,
+      "number_of_scaffolds": 212,
+      "scaffold_n50": 982804,
+      "scaffold_l50": 13,
+      "number_of_component_sequences": 212,
+      "atgc_count": "34162547",
+      "gc_count": "16987852",
+      "gc_percent": 49.5,
+      "genome_coverage": "162"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFO01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFO000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFO01"
+    }
+  },
+  {
+    "accession": "GCA_055473735.1",
+    "current_accession": "GCA_055473735.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "RAJ 3972"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547373v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030309",
+        "last_updated": "2026-08-29T10:16:14.754",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.216",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "RAJ 3972"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23387220"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "RAJ 3972"
+          },
+          {
+            "name": "culture_collection",
+            "value": "missing"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-12"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Durgapura"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.219"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-12",
+        "geo_loc_name": "India:Durgapura",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "RAJ 3972"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473735.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "34174932",
+      "total_ungapped_length": "34174932",
+      "number_of_contigs": 218,
+      "contig_n50": 954422,
+      "contig_l50": 13,
+      "number_of_scaffolds": 218,
+      "scaffold_n50": 954422,
+      "scaffold_l50": 13,
+      "number_of_component_sequences": 218,
+      "atgc_count": "34174932",
+      "gc_count": "17011998",
+      "gc_percent": 50,
+      "genome_coverage": "172"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFR01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFR000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFR01"
+    }
+  },
+  {
+    "accession": "GCA_055473755.1",
+    "current_accession": "GCA_055473755.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "HD 3091"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Scaffold",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547375v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030307",
+        "last_updated": "2024-11-28T01:42:20.117",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.173",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "HD 3091"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23386734"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "HD 3091"
+          },
+          {
+            "name": "culture_collection",
+            "value": "MCC:1912"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-03"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:New Delhi"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.174"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-03",
+        "geo_loc_name": "India:New Delhi",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "HD 3091"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473755.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "33436606",
+      "total_ungapped_length": "33436596",
+      "number_of_contigs": 242,
+      "contig_n50": 917880,
+      "contig_l50": 15,
+      "number_of_scaffolds": 241,
+      "scaffold_n50": 917880,
+      "scaffold_l50": 15,
+      "number_of_component_sequences": 241,
+      "atgc_count": "33436596",
+      "gc_count": "16687100",
+      "gc_percent": 50,
+      "genome_coverage": "170"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFT01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFT000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFT01"
+    }
+  },
+  {
+    "accession": "GCA_055473625.1",
+    "current_accession": "GCA_055473625.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "DDK 1025"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547362v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030315",
+        "last_updated": "2026-08-29T10:16:14.949",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.280",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "DDK 1025"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23392664"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "DDK 1025"
+          },
+          {
+            "name": "culture_collection",
+            "value": "missing"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-21"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Dharwad"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum turgidum subsp. dicoccum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.283"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-21",
+        "geo_loc_name": "India:Dharwad",
+        "host": "Triticum turgidum subsp. dicoccum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "DDK 1025"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473625.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "34279400",
+      "total_ungapped_length": "34279400",
+      "number_of_contigs": 275,
+      "contig_n50": 900560,
+      "contig_l50": 13,
+      "number_of_scaffolds": 275,
+      "scaffold_n50": 900560,
+      "scaffold_l50": 13,
+      "number_of_component_sequences": 275,
+      "atgc_count": "34279400",
+      "gc_count": "17090305",
+      "gc_percent": 50,
+      "genome_coverage": "158"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFL01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFL000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFL01"
+    }
+  },
+  {
+    "accession": "GCA_055473675.1",
+    "current_accession": "GCA_055473675.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "HI 1538"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547367v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030313",
+        "last_updated": "2026-08-29T10:16:14.885",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.260",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "HI 1538"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23389406"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "HI 1538"
+          },
+          {
+            "name": "culture_collection",
+            "value": "missing"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-11"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Indore"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.263"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-11",
+        "geo_loc_name": "India:Indore",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "HI 1538"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473675.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "32863758",
+      "total_ungapped_length": "32863758",
+      "number_of_contigs": 299,
+      "contig_n50": 525594,
+      "contig_l50": 21,
+      "number_of_scaffolds": 299,
+      "scaffold_n50": 525594,
+      "scaffold_l50": 21,
+      "number_of_component_sequences": 299,
+      "atgc_count": "32863758",
+      "gc_count": "16387411",
+      "gc_percent": 50,
+      "genome_coverage": "197"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFN01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFN000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFN01"
+    }
+  },
+  {
+    "accession": "GCA_055473715.1",
+    "current_accession": "GCA_055473715.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "RAJ 3705"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Scaffold",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547371v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030310",
+        "last_updated": "2026-08-29T10:16:14.798",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.230",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "RAJ 3705"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23387563"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "RAJ 3705"
+          },
+          {
+            "name": "culture_collection",
+            "value": "missing"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-12"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Durgapura"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.231"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-12",
+        "geo_loc_name": "India:Durgapura",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "RAJ 3705"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473715.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "33173017",
+      "total_ungapped_length": "33173007",
+      "number_of_contigs": 365,
+      "contig_n50": 380813,
+      "contig_l50": 26,
+      "number_of_scaffolds": 364,
+      "scaffold_n50": 380813,
+      "scaffold_l50": 26,
+      "number_of_component_sequences": 364,
+      "atgc_count": "33173007",
+      "gc_count": "16591704",
+      "gc_percent": 50,
+      "genome_coverage": "66"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFQ01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFQ000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFQ01"
+    }
+  },
+  {
+    "accession": "GCA_055473775.1",
+    "current_accession": "GCA_055473775.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "KO 5803"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Contig",
+      "assembly_status": "current",
+      "assembly_name": "ASM5547377v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA1162285",
+              "title": "Bipolaris sorokiniana Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA1162285",
+      "release_date": "2026-02-24",
+      "submitter": "Agharkar Research Institute",
+      "sequencing_tech": "Oxford Nanopore PromethION",
+      "assembly_method": "Flye v. 2.9-b1768",
+      "biosample": {
+        "accession": "SAMN45030308",
+        "last_updated": "2026-08-29T10:16:14.704",
+        "publication_date": "2024-11-25T00:00:00.000",
+        "submission_date": "2024-11-25T05:52:04.206",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "KO 5803"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS23387118"
+          }
+        ],
+        "description": {
+          "title": "One Health Enteric sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "Banaras Hindu University",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "One Health Enteric"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA1162285"
+          }
+        ],
+        "package": "OneHealthEnteric.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "KO 5803"
+          },
+          {
+            "name": "culture_collection",
+            "value": "missing"
+          },
+          {
+            "name": "collected_by",
+            "value": "Sudhir Navathe"
+          },
+          {
+            "name": "collection_date",
+            "value": "2018-12-11"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "India:Varanasi"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Plant disease seeds, leaves"
+          },
+          {
+            "name": "source_type",
+            "value": "environmental"
+          },
+          {
+            "name": "purpose_of_sampling",
+            "value": "Plant Disease Survey"
+          },
+          {
+            "name": "project_name",
+            "value": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction"
+          },
+          {
+            "name": "host",
+            "value": "Triticum aestivum"
+          },
+          {
+            "name": "host_disease",
+            "value": "Spot blotch of wheat"
+          },
+          {
+            "name": "env_broad_scale",
+            "value": "Agriculture"
+          },
+          {
+            "name": "env_local_scale",
+            "value": "Wheat field"
+          },
+          {
+            "name": "env_medium",
+            "value": "Plant"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2024-11-25T05:52:04.208"
+        },
+        "collected_by": "Sudhir Navathe",
+        "collection_date": "2018-12-11",
+        "geo_loc_name": "India:Varanasi",
+        "host": "Triticum aestivum",
+        "host_disease": "Spot blotch of wheat",
+        "isolation_source": "Plant disease seeds, leaves",
+        "project_name": "Dissection of diversity and complex mechanism of Bipolaris sorokiniana infections in wheat using ToxA-Tsn1 interaction",
+        "source_type": "environmental",
+        "strain": "KO 5803"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_055473775.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "32416094",
+      "total_ungapped_length": "32416094",
+      "number_of_contigs": 684,
+      "contig_n50": 130076,
+      "contig_l50": 73,
+      "number_of_scaffolds": 684,
+      "scaffold_n50": 130076,
+      "scaffold_l50": 73,
+      "number_of_component_sequences": 684,
+      "atgc_count": "32416094",
+      "gc_count": "16301665",
+      "gc_percent": 50.5,
+      "genome_coverage": "134"
+    },
+    "wgs_info": {
+      "wgs_project_accession": "JBJRFS01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/JBJRFS000000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/JBJRFS01"
+    }
+  },
+  {
+    "accession": "GCA_013416765.1",
+    "current_accession": "GCA_013416765.1",
+    "source_database": "SOURCE_DATABASE_GENBANK",
+    "organism": {
+      "tax_id": 45130,
+      "organism_name": "Bipolaris sorokiniana",
+      "infraspecific_names": {
+        "strain": "(Sacc.) Shoemaker"
+      }
+    },
+    "assembly_info": {
+      "assembly_level": "Scaffold",
+      "assembly_status": "current",
+      "assembly_name": "ASM1341676v1",
+      "assembly_type": "haploid",
+      "bioproject_lineage": [
+        {
+          "bioprojects": [
+            {
+              "accession": "PRJNA582456",
+              "title": "Bipolaris sorokiniana strain:(Sacc.) Shoemaker Genome sequencing and assembly"
+            }
+          ]
+        }
+      ],
+      "bioproject_accession": "PRJNA582456",
+      "release_date": "2020-07-16",
+      "submitter": "College of Agronomy",
+      "sequencing_tech": "Illumina HiSeq",
+      "assembly_method": "SOAPdenovo v. 0.7",
+      "biosample": {
+        "accession": "SAMN13164483",
+        "last_updated": "2020-05-20T00:50:22.510",
+        "publication_date": "2020-05-20T00:50:22.510",
+        "submission_date": "2019-10-30T22:20:04.057",
+        "sample_ids": [
+          {
+            "label": "Sample name",
+            "value": "bb"
+          },
+          {
+            "db": "SRA",
+            "value": "SRS5598462"
+          }
+        ],
+        "description": {
+          "title": "Microbe sample from Bipolaris sorokiniana",
+          "organism": {
+            "tax_id": 45130,
+            "organism_name": "Bipolaris sorokiniana"
+          }
+        },
+        "owner": {
+          "name": "College of Agronomy",
+          "contacts": [
+            {}
+          ]
+        },
+        "models": [
+          "Microbe, viral or environmental"
+        ],
+        "bioprojects": [
+          {
+            "accession": "PRJNA582456"
+          }
+        ],
+        "package": "Microbe.1.0",
+        "attributes": [
+          {
+            "name": "strain",
+            "value": "(Sacc.) Shoemaker"
+          },
+          {
+            "name": "isolation_source",
+            "value": "Gansu"
+          },
+          {
+            "name": "collection_date",
+            "value": "missing"
+          },
+          {
+            "name": "geo_loc_name",
+            "value": "China:Gansu"
+          },
+          {
+            "name": "sample_type",
+            "value": "bacterial strain"
+          }
+        ],
+        "status": {
+          "status": "live",
+          "when": "2020-05-20T00:50:22.510"
+        },
+        "collection_date": "missing",
+        "geo_loc_name": "China:Gansu",
+        "isolation_source": "Gansu",
+        "strain": "(Sacc.) Shoemaker"
+      },
+      "blast_url": "https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch&PROG_DEF=blastn&BLAST_SPEC=GDH_GCA_013416765.1"
+    },
+    "assembly_stats": {
+      "total_sequence_length": "34329637",
+      "total_ungapped_length": "33135339",
+      "number_of_contigs": 775,
+      "contig_n50": 108483,
+      "contig_l50": 93,
+      "number_of_scaffolds": 96,
+      "scaffold_n50": 1586145,
+      "scaffold_l50": 9,
+      "number_of_component_sequences": 96,
+      "atgc_count": "33135339",
+      "gc_count": "16523784",
+      "gc_percent": 50,
+      "genome_coverage": "30"
+    },
+    "annotation_info": {
+      "name": "Annotation submitted by College of Agronomy",
+      "provider": "College of Agronomy",
+      "release_date": "2020-07-16",
+      "stats": {
+        "gene_counts": {
+          "total": 10755,
+          "protein_coding": 10755
+        }
+      }
+    },
+    "wgs_info": {
+      "wgs_project_accession": "WNKQ01",
+      "master_wgs_url": "https://www.ncbi.nlm.nih.gov/nuccore/WNKQ00000000.1",
+      "wgs_contigs_url": "https://www.ncbi.nlm.nih.gov/Traces/wgs/WNKQ01"
+    }
+  }
+]

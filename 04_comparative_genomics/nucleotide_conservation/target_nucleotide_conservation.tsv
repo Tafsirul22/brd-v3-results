@@ -1,0 +1,5 @@
+target	orthogroup_id	isolates_evaluated	isolates_with_gene	isolates_complete_cds	ref_cds_length_nt	mean_pairwise_nt_identity_pct	min_pairwise_nt_identity_pct	mean_pairwise_aa_identity_pct	snp_sites	indel_columns	conserved_blocks_ge21nt_count	conserved_blocks_ge150nt_count	longest_100pct_conserved_block_nt	mean_21mer_isolate_conservation_pct	pct_100pct_conserved_21mers	orthology_method
+CsPKS1	BRD_OG000098	19	19	17	6462	99.958	99.845	96.465	22	23	24	14	852	98.973	89.77	DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)
+CsFUS3	BRD_OG000010	19	19	17	1059	99.984	99.905	94.43	3	5	6	3	364	99.205	88.35	DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)
+CsSTE11	BRD_OG000001	19	19	17	2880	99.657	99.583	95.785	19	16	25	6	273	92.602	78.5	DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)
+CsSp1	BRD_OG013358	19	19	19	270	99.959	99.259	99.875	2	0	3	0	124	99.116	83.2	DIAMOND_all_vs_all_RBH_graph_clustering (OrthoFinder Linux/MCL unavailable natively on Windows)

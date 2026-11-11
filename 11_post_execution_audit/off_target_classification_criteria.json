@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "scope_disclaimer": "Computational sequence off-target screening evaluates sequence similarity across 7 RefSeq non-target transcriptomes and the B. sorokiniana ND90Pr transcriptome under explicit thresholds. Absence of exact or near-exact hits indicates no match detected in screened databases and does NOT establish biological safety or absence of off-target effects in untested tissues, genomes, or microbiome taxa.",
+  "thresholds": {
+    "exact_guide_len_nt": 21,
+    "near_20_of_21": "length == 21 and mismatch == 1 and gapopen == 0, OR length == 20 and mismatch == 0 and gapopen == 0",
+    "near_19_of_21": "length == 21 and mismatch == 2 and gapopen == 0, OR length == 19 and mismatch == 0 and gapopen == 0",
+    "short_background_noise_nt": "length 16..18 exact or length 19..21 with >=1 mismatch below 19/21 matching identities (tracked for audit only, NOT flagged as high-similarity off-target)",
+    "long_alignment_min_len_nt": 30,
+    "long_conserved_homology": "length >= 30 and pident >= 80.0 and evalue <= 1e-5",
+    "elevated_near_20_host_threshold": 5
+  },
+  "classification_tiers": [
+    "Exact_21mer_NonTarget_Match",
+    "Self_Paralog_Exact_21mer_Match",
+    "Conserved_Long_Homology_With_Near_Guides",
+    "Elevated_Near_20of21_Guide_Similarity",
+    "Low_Near_Guide_Similarity_Only",
+    "Minimal_Near_Guide_Signal_19of21_Only",
+    "No_Match_Detected_In_Screened_Databases"
+  ],
+  "safety_score_formula_v2": {
+    "base_score": 1.0,
+    "wheat_penalties": {
+      "exact_21mer_any": 0.60,
+      "long_conserved_homology": 0.25,
+      "near_20_of_21_per_unique_hit_capped": "0.03 * min(6, n_hits) up to 0.18 (capped 0.20 if >=10)",
+      "near_19_of_21_present": "min(0.05, 0.01 * n_hits)"
+    },
+    "barley_penalties": {
+      "exact_21mer_any": 0.45,
+      "long_conserved_homology": 0.20,
+      "near_20_of_21_capped": "min(0.12, 0.02 * n_hits)",
+      "near_19_of_21_capped": "min(0.04, 0.005 * n_hits)"
+    },
+    "beneficial_fungi_penalties": {
+      "exact_21mer_base_plus_species": "0.45 + 0.05 * max(0, n_exact_species - 1), capped 0.60",
+      "long_conserved_homology": 0.25,
+      "near_20_of_21_capped": "min(0.15, 0.03 * n_hits)",
+      "near_19_of_21_capped": "min(0.04, 0.005 * n_hits)"
+    },
+    "fungal_paralog_penalties": {
+      "exact_21mer_any": 0.25,
+      "long_or_near20_paralog": 0.05
+    },
+    "score_bounds": [0.0, 1.0]
+  },
+  "hard_filters_v2": {
+    "seq_qc_pass": "150 <= length <= 550, N==0, 30 <= GC% <= 65, max_homopolymer <= 5, fungal_paralog_exact_21mer_hits == 0",
+    "zero_exact_21mer_nontarget": "wheat_exact_21mer_hits == 0 and barley_exact_21mer_hits == 0 and beneficial_fungi_exact_21mer_hits == 0",
+    "min_conservation_pct": 85.0
+  },
+  "priority_categories_v2": {
+    "High computational priority": "passes_filters and composite_score_v2 >= 0.80 and off_target_safety_score_v2 >= 0.75 and conservation_pct >= 95.0 and pareto_rank_v2 <= 2",
+    "Moderate computational priority": "passes_filters and composite_score_v2 >= 0.70",
+    "Low computational priority": "passes_filters and composite_score_v2 < 0.70",
+    "Excluded": "fails hard_filters_v2 (exact 21-mer match in non-target/paralog, QC failure, or conservation < 85%)"
+  }
+}

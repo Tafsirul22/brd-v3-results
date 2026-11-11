@@ -1,0 +1,41 @@
+     ---> 19 sequences loaded
+
+Results:
++---------------------------------+--------------+--------------------+------------------+---------+---------+---------+
+|     TARGET SEQUENCE HEADER      | 21NT MATCHES | SWG SIMILARITY (%) | KMER MEAN GC (%) | 5'U (%) | 5'A (%) | 5'C (%) |
++---------------------------------+--------------+--------------------+------------------+---------+---------+---------+
+| ND90Pr|GCF_000338995.1          | 259          | 99.0               | 56.2             | 23.2    | 21.2    | 23.6    |
+| LK93|GCA_024722535.1            | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| ND93-1|GCA_033006315.1          | 259          | 99.0               | 56.2             | 23.2    | 21.2    | 23.6    |
+| WAI2406|GCA_008452705.1         | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| BRIP10943a|GCA_008452735.1      | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| BRIP27492a|GCA_008452725.1      | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| WAI2411|GCA_008452715.1         | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| Yt-6|GCA_037974985.1            | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| BS112|GCA_004329375.1           | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| MP_1261|GCA_055473645.1         | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| SEED_28|GCA_055473875.1         | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| Black|GCA_055473695.1           | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| RAJ_3972|GCA_055473735.1        | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| HD_3091|GCA_055473755.1         | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| DDK_1025|GCA_055473625.1        | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| HI_1538|GCA_055473675.1         | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| RAJ_3705|GCA_055473715.1        | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| KO_5803|GCA_055473775.1         | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
+| Sacc._Shoemaker|GCA_013416765.1 | 280          | 100.0              | 55.6             | 22.5    | 22.1    | 23.9    |
++---------------------------------+--------------+--------------------+------------------+---------+---------+---------+
+Results written to C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\07_dsRNA_design\dsRNAmax\CsSTE11\CsSTE11_dsrnamax.csv
+
+Median of kmer hits to each target sequence: 280
+
+dsRNA sense-arm sequence - 55.3% GC content
+ATGGCCATGCTCGCCTCAAAGGCCCCGTACCCAGCGCCTTCCGTCAGCGGAGGTGCTTCTCAGTCTTCGGCCCAGTATAACGCTAGCCTCAACACCTACCGGACGCATGCCTCCGCCACCCGCGCCGACCAAAGCATGTTTGCCTCGCCTACTGAGTCTGAGTTTTCTGAAATCTACGATGCTCCCGATGCCATCAAACATTGGGACGAGGACAAGGTTGGTGACTGGCTAAAGCGCATCAATTGTGCCCAGTATGTCGAGCTTTTCAAGCTCAACCACATCAATGGCGAGAACTTGATG
+
+
+--- STDERR ---
+2026/11/11 05:28:56 dsRNAmax - dsRNA maximizer (Version: 1.1.14)
+2026/11/11 05:28:56 Target FASTA File: C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\07_dsRNA_design\dsRNAmax\CsSTE11\CsSTE11_pan_isolates.fasta
+2026/11/11 05:28:56 Loading target sequences...
+2026/11/11 05:28:56 Getting target sequence kmers...
+2026/11/11 05:28:56 3,545 target kmers loaded
+2026/11/11 05:28:56 Finding best construct...

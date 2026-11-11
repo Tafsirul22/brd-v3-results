@@ -1,0 +1,27 @@
+name: brd_core
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.13
+  - biopython>=1.85
+  - pandas>=2.2
+  - numpy>=2.0
+  - scipy>=1.13
+  - matplotlib>=3.9
+  - seaborn>=0.13
+  - scikit-learn>=1.5
+  - pyyaml>=6.0
+  - requests>=2.32
+  - networkx>=3.3
+  - primer3-py>=2.0
+  - viennarna>=2.7
+  - snakemake>=9.0
+  - blast>=2.15
+  - diamond>=2.1
+  - mafft>=7.5
+  - pytest>=8.0
+  - pip
+  - pip:
+      - reportlab>=4.2
+      - tabulate>=0.9

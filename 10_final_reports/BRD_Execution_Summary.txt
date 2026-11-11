@@ -1,0 +1,56 @@
+====================================================
+BIPOLARIS-RNAi DESIGNER — EXECUTION SUMMARY
+====================================================
+
+Input directory:
+C:\Users\ASUS BANGLADESH\Desktop\New folder (2)
+
+Output directory:
+C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output
+
+Genome assemblies detected:
+20 NCBI records (19 unique biological isolates; paired GCA_000338995.1/GCF_000338995.1 deduplicated)
+
+Genome assemblies processed:
+19
+
+Target genes:
+CsPKS1: Confirmed (COCSADRAFT_157080 / XP_007696213.1 / HQ830033.1; 19/19 isolates)
+CsFUS3: Confirmed (COCSADRAFT_24574 / XP_007697446.1 / CHK1; 19/19 isolates)
+CsSTE11: Confirmed (COCSADRAFT_105370 / XP_007694574.1 / STE11; 19/19 isolates)
+CsSp1: Confirmed via Zhang et al. (2022) PMC8743017 primers (COCSADRAFT_164106 / XP_007704210.1; 19/19 isolates)
+
+M01 Data acquisition: COMPLETED
+M02 Genome QC: COMPLETED (QUAST-compatible Python metrics; BUSCO NA - Linux only)
+M03 Annotation: COMPLETED (12,210 CDS validated; Funannotate/BRAKER3 Linux-only)
+M04 Comparative genomics: COMPLETED (DIAMOND RBH orthogroups + MAFFT + 19-isolate CDS conservation)
+M05 Functional evidence: COMPLETED (PHI-base v4.19 + DEG + UniProt + InterPro + GSE130517)
+M06 Target prioritisation: COMPLETED
+M07 dsRNA design: COMPLETED (LUCID/sifi21_plus + SIREN + dsRNAmax + BRD)
+M08 Off-target screening: COMPLETED (Wheat A/B/D + Barley + 5 Beneficial Fungi via BLAST+ & ViennaRNA)
+M09 Candidate ranking: COMPLETED (Pareto + Weighted + 1,000-Bootstrap + Sensitivity)
+M10 Reporting: COMPLETED (Markdown, HTML, PDF, Provenance)
+
+Candidates generated:
+50
+
+Candidates passing computational filters:
+39 (1 High priority, 26 Moderate priority)
+
+Final candidate rankings (Top 5):
+  #1 BRD_CsSTE11_CAND012 (CsSTE11, BRD_IsolateAware, 180 nt, cons=100.0%, score=0.7832, High computational priority)
+  #2 BRD_CsSp1_CAND008 (CsSp1, BRD_IsolateAware, 180 nt, cons=98.91%, score=0.7458, Moderate computational priority)
+  #3 BRD_CsSp1_CAND001 (CsSp1, LUCID_sifi21_plus, 200 nt, cons=98.77%, score=0.7452, Moderate computational priority)
+  #4 BRD_CsSp1_CAND009 (CsSp1, BRD_IsolateAware, 210 nt, cons=98.84%, score=0.7448, Moderate computational priority)
+  #5 BRD_CsSp1_CAND005 (CsSp1, SIREN, 200 nt, cons=98.77%, score=0.7437, Moderate computational priority)
+
+Unresolved issues:
+1. WSL2 Linux distribution not installed: BUSCO, QUAST CLI, OrthoFinder MCL, Funannotate/BRAKER3, and RNAhybrid binary did not run natively on Windows (documented equivalents run for QUAST-metrics, orthogroups, and ViennaRNA duplex thermodynamics; BUSCO scores explicitly marked NA).
+2. Exogenous dsRNA uptake and SIGS efficacy in Bipolaris sorokiniana remain experimentally untested hypotheses.
+
+Final research report:
+C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\10_final_reports\BRD_Final_Research_Report.html
+
+Execution log:
+C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\logs\brd_execution.log
+====================================================

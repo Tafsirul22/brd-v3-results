@@ -1,0 +1,5 @@
+target	locus_tag	protein_id	gene_id	confidence_classification	primer_and_accession_proof	cds_length_nt	protein_length_aa	internal_stops	matches_ref_protein
+CsPKS1	COCSADRAFT_157080	XP_007696213.1	19131806	Confirmed identity	Verified via 100.0% CDS match to HQ830033.1 (ND90Pr PKS1 complete cds)	6462	2153	0	True
+CsFUS3	COCSADRAFT_24574	XP_007697446.1	19135114	Confirmed identity	3/3 exact matches (CsFUS3-F1 (Leng&Zhong 2015):CDS_exact; CsFUS3-com-F (Leng&Zhong 2015):Locus_exact; CsFUS3-com-R (Leng&Zhong 2015):Locus_exact)	1059	352	0	True
+CsSTE11	COCSADRAFT_105370	XP_007694574.1	19129968	Confirmed identity	3/4 exact matches (CsSTE11-F1 (Leng&Zhong 2015):Locus_exact; CsSTE11-F4 (Leng&Zhong 2015):Locus_exact; CsSTE11-F5 (Leng&Zhong 2015):CDS_exact)	2880	959	0	True
+CsSp1	COCSADRAFT_164106	XP_007704210.1	19132291	Confirmed identity	5/5 exact matches (CsSP1-5prime (Zhang 2022):CDS_exact; CsSP1-3prime (Zhang 2022):CDS_exact; CsSP1-NF (Zhang 2022):CDS_exact; CsSP1-QRT2-F (Zhang 2022):CDS_exact; CsSP1-QRT2-R (Zhang 2022):CDS_exact)	270	89	0	True

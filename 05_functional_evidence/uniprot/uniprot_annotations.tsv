@@ -1,0 +1,5 @@
+target	locus_tag	uniprot_accession	protein_name	organism	length	go_terms
+CsPKS1	COCSADRAFT_157080	M2RQ22	Polyketide synthase PKS1	Cochliobolus sativus (strain ND90Pr / ATCC 201652)	2153	GO:0004315:F:3-oxoacyl-[acyl-carrier-protein] synthase activity; GO:0004312:F:fatty acid synthase activity; GO:0031177:F:phosphopantetheine binding; GO:0006633:P:fatty acid biosynthetic process; GO:0044550:P:secondary metabolite biosynthetic process
+CsFUS3	COCSADRAFT_24574	M2TCC8	Mitogen-activated protein kinase	Cochliobolus sativus (strain ND90Pr / ATCC 201652)	352	GO:0005524:F:ATP binding; GO:0004707:F:MAP kinase activity; GO:0106310:F:protein serine kinase activity; GO:0075018:P:positive regulation of appressorium formation
+CsSTE11	COCSADRAFT_105370	M2TIY7	MAPKKK protein STE11	Cochliobolus sativus (strain ND90Pr / ATCC 201652)	959	GO:0005524:F:ATP binding; GO:0004709:F:MAP kinase kinase kinase activity
+CsSp1	COCSADRAFT_164106	M2RXZ0	Extracellular membrane protein CFEM domain-containing protein	Cochliobolus sativus (strain ND90Pr / ATCC 201652)	89	

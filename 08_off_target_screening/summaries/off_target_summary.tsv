@@ -1,0 +1,51 @@
+candidate_id	target	tool_name	candidate_length_nt	wheat_classification	wheat_exact_21mer_hits	wheat_high_sim_hits_ge19nt	wheat_unique_transcript_hits	barley_classification	barley_exact_21mer_hits	barley_high_sim_hits_ge19nt	beneficial_fungi_classification	beneficial_fungi_exact_21mer_hits	beneficial_fungi_high_sim_hits_ge19nt	beneficial_fungi_species_with_hits	top_hit_viennarna_duplexfold_mfe	overall_off_target_classification	off_target_safety_score_0_1	databases_screened
+BRD_CsPKS1_CAND001	CsPKS1	LUCID_sifi21_plus	200	High-similarity match	0	10	80	High-similarity match	0	2	High-similarity match	0	10	5	-41.0	High-similarity match	0.35	7
+BRD_CsPKS1_CAND002	CsPKS1	LUCID_sifi21_plus	200	High-similarity match	0	10	80	High-similarity match	0	3	High-similarity match	0	10	5	-35.4	High-similarity match	0.35	7
+BRD_CsPKS1_CAND003	CsPKS1	LUCID_sifi21_plus	200	High-similarity match	0	10	75	High-similarity match	0	5	High-similarity match	0	9	5	-35.4	High-similarity match	0.35	7
+BRD_CsPKS1_CAND004	CsPKS1	LUCID_sifi21_plus	250	High-similarity match	0	10	80	High-similarity match	0	5	High-similarity match	0	11	5	-35.4	High-similarity match	0.35	7
+BRD_CsPKS1_CAND005	CsPKS1	SIREN	250	High-similarity match	0	2	16	High-similarity match	0	3	High-similarity match	0	6	5	-38.1	High-similarity match	0.35	7
+BRD_CsPKS1_CAND006	CsPKS1	SIREN	250	High-similarity match	0	1	13	High-similarity match	0	3	High-similarity match	0	6	5	-38.1	High-similarity match	0.35	7
+BRD_CsPKS1_CAND007	CsPKS1	SIREN	250	High-similarity match	0	1	13	High-similarity match	0	3	High-similarity match	0	7	5	-38.1	High-similarity match	0.35	7
+BRD_CsPKS1_CAND008	CsPKS1	SIREN	250	High-similarity match	0	1	13	High-similarity match	0	3	High-similarity match	0	7	5	-38.1	High-similarity match	0.35	7
+BRD_CsPKS1_CAND009	CsPKS1	dsRNAmax	300	High-similarity match	0	2	16	High-similarity match	0	3	High-similarity match	0	8	5	-38.1	High-similarity match	0.35	7
+BRD_CsPKS1_CAND010	CsPKS1	BRD_IsolateAware	180	High-similarity match	0	10	80	High-similarity match	0	2	High-similarity match	0	9	5	-41.0	High-similarity match	0.35	7
+BRD_CsPKS1_CAND011	CsPKS1	BRD_IsolateAware	210	High-similarity match	0	10	80	High-similarity match	0	2	High-similarity match	0	10	5	-41.0	High-similarity match	0.35	7
+BRD_CsPKS1_CAND012	CsPKS1	BRD_IsolateAware	210	High-similarity match	0	7	7	High-similarity match	0	5	High-similarity match	0	3	4	-31.8	High-similarity match	0.35	7
+BRD_CsPKS1_CAND013	CsPKS1	BRD_IsolateAware	180	Partial similarity match	0	0	2	High-similarity match	0	5	High-similarity match	0	4	5	-34.1	High-similarity match	0.55	7
+BRD_CsFUS3_CAND001	CsFUS3	LUCID_sifi21_plus	200	High-similarity match	0	0	12	High-similarity match	0	6	Exact sequence match	1	8	5	-38.2	Exact sequence match	0.4	7
+BRD_CsFUS3_CAND002	CsFUS3	LUCID_sifi21_plus	200	High-similarity match	0	1	46	High-similarity match	0	7	Exact sequence match	2	19	5	-36.8	Exact sequence match	0.2	7
+BRD_CsFUS3_CAND003	CsFUS3	LUCID_sifi21_plus	200	High-similarity match	0	3	14	High-similarity match	0	1	High-similarity match	0	5	4	-36.2	High-similarity match	0.35	7
+BRD_CsFUS3_CAND004	CsFUS3	LUCID_sifi21_plus	250	High-similarity match	0	1	51	High-similarity match	0	8	Exact sequence match	1	20	5	-37.9	Exact sequence match	0.2	7
+BRD_CsFUS3_CAND005	CsFUS3	SIREN	250	High-similarity match	0	21	60	High-similarity match	0	6	High-similarity match	0	21	5	-43.7	High-similarity match	0.35	7
+BRD_CsFUS3_CAND006	CsFUS3	SIREN	250	High-similarity match	0	21	53	High-similarity match	0	6	High-similarity match	0	20	5	-43.7	High-similarity match	0.35	7
+BRD_CsFUS3_CAND007	CsFUS3	SIREN	250	High-similarity match	0	20	52	High-similarity match	0	6	High-similarity match	0	20	5	-43.7	High-similarity match	0.35	7
+BRD_CsFUS3_CAND008	CsFUS3	SIREN	250	High-similarity match	0	20	52	High-similarity match	0	6	High-similarity match	0	19	5	-43.7	High-similarity match	0.35	7
+BRD_CsFUS3_CAND009	CsFUS3	dsRNAmax	300	High-similarity match	0	21	60	High-similarity match	0	6	High-similarity match	0	24	5	-43.7	High-similarity match	0.35	7
+BRD_CsFUS3_CAND010	CsFUS3	BRD_IsolateAware	210	High-similarity match	0	0	12	High-similarity match	0	6	Exact sequence match	1	10	5	-38.2	Exact sequence match	0.4	7
+BRD_CsFUS3_CAND011	CsFUS3	BRD_IsolateAware	180	High-similarity match	0	0	12	High-similarity match	0	6	Exact sequence match	2	8	5	-38.2	Exact sequence match	0.4	7
+BRD_CsFUS3_CAND012	CsFUS3	BRD_IsolateAware	300	High-similarity match	0	2	52	High-similarity match	0	8	Exact sequence match	1	23	5	-46.9	Exact sequence match	0.2	7
+BRD_CsFUS3_CAND013	CsFUS3	BRD_IsolateAware	210	High-similarity match	0	21	33	High-similarity match	0	0	High-similarity match	0	9	5	-43.1	High-similarity match	0.45	7
+BRD_CsSTE11_CAND001	CsSTE11	LUCID_sifi21_plus	200	High-similarity match	0	2	29	High-similarity match	0	1	Exact sequence match	1	15	5	-38.2	Exact sequence match	0.2	7
+BRD_CsSTE11_CAND002	CsSTE11	LUCID_sifi21_plus	200	High-similarity match	0	8	78	High-similarity match	0	19	High-similarity match	0	11	5	-42.8	High-similarity match	0.35	7
+BRD_CsSTE11_CAND003	CsSTE11	LUCID_sifi21_plus	250	High-similarity match	0	10	84	High-similarity match	0	21	High-similarity match	0	14	5	-41.0	High-similarity match	0.35	7
+BRD_CsSTE11_CAND004	CsSTE11	LUCID_sifi21_plus	200	High-similarity match	0	2	28	High-similarity match	0	2	High-similarity match	0	11	5	-42.8	High-similarity match	0.35	7
+BRD_CsSTE11_CAND005	CsSTE11	SIREN	250	High-similarity match	0	2	31	High-similarity match	0	1	High-similarity match	0	10	5	-34.7	High-similarity match	0.35	7
+BRD_CsSTE11_CAND006	CsSTE11	SIREN	250	High-similarity match	0	2	31	High-similarity match	0	1	High-similarity match	0	9	5	-34.7	High-similarity match	0.35	7
+BRD_CsSTE11_CAND007	CsSTE11	SIREN	250	High-similarity match	0	2	31	High-similarity match	0	1	High-similarity match	0	9	5	-34.7	High-similarity match	0.35	7
+BRD_CsSTE11_CAND008	CsSTE11	SIREN	250	High-similarity match	0	2	31	High-similarity match	0	1	High-similarity match	0	9	5	-34.7	High-similarity match	0.35	7
+BRD_CsSTE11_CAND009	CsSTE11	dsRNAmax	300	High-similarity match	0	2	26	High-similarity match	0	1	Exact sequence match	1	16	5	-38.2	Exact sequence match	0.2	7
+BRD_CsSTE11_CAND010	CsSTE11	BRD_IsolateAware	180	High-similarity match	0	3	8	High-similarity match	0	2	High-similarity match	0	12	5	-29.4	High-similarity match	0.35	7
+BRD_CsSTE11_CAND011	CsSTE11	BRD_IsolateAware	210	High-similarity match	0	3	10	High-similarity match	0	2	High-similarity match	0	16	5	-29.4	High-similarity match	0.35	7
+BRD_CsSTE11_CAND012	CsSTE11	BRD_IsolateAware	180	Partial similarity match	0	0	20	High-similarity match	0	1	High-similarity match	0	5	5	-44.1	High-similarity match	0.55	7
+BRD_CsSTE11_CAND013	CsSTE11	BRD_IsolateAware	210	High-similarity match	0	1	22	High-similarity match	0	1	High-similarity match	0	7	5	-34.7	High-similarity match	0.35	7
+BRD_CsSTE11_CAND014	CsSTE11	BRD_IsolateAware	210	High-similarity match	0	12	24	Partial similarity match	0	0	High-similarity match	0	3	4	-44.9	High-similarity match	0.45	7
+BRD_CsSp1_CAND001	CsSp1	LUCID_sifi21_plus	200	High-similarity match	0	16	49	High-similarity match	0	9	High-similarity match	0	7	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND002	CsSp1	LUCID_sifi21_plus	250	High-similarity match	0	16	50	High-similarity match	0	9	High-similarity match	0	4	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND003	CsSp1	LUCID_sifi21_plus	200	High-similarity match	0	16	37	High-similarity match	0	9	High-similarity match	0	5	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND004	CsSp1	LUCID_sifi21_plus	200	High-similarity match	0	16	21	High-similarity match	0	6	High-similarity match	0	4	5	-34.6	High-similarity match	0.35	7
+BRD_CsSp1_CAND005	CsSp1	SIREN	200	High-similarity match	0	16	50	High-similarity match	0	9	High-similarity match	0	6	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND006	CsSp1	SIREN	200	High-similarity match	0	16	38	High-similarity match	0	9	High-similarity match	0	5	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND007	CsSp1	SIREN	200	High-similarity match	0	16	38	High-similarity match	0	9	High-similarity match	0	5	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND008	CsSp1	BRD_IsolateAware	180	High-similarity match	0	10	42	High-similarity match	0	5	High-similarity match	0	5	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND009	CsSp1	BRD_IsolateAware	210	High-similarity match	0	16	50	High-similarity match	0	9	High-similarity match	0	7	5	-34.1	High-similarity match	0.35	7
+BRD_CsSp1_CAND010	CsSp1	BRD_IsolateAware	180	High-similarity match	0	12	16	High-similarity match	0	4	High-similarity match	0	3	5	-34.6	High-similarity match	0.35	7

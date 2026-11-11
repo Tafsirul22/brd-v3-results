@@ -1,0 +1,5 @@
+target	cds_length_nt	lucid_windows_evaluated	siren_candidates_evaluated	dsrnamax_construct_len	brd_windows_evaluated	lucid_note	siren_note	dsrnamax_note
+CsPKS1	6462	1235	45	300	1967	sifi21_plus + ViennaRNA accessibility (200-400 nt)	siren_prefilter + ViennaRNA duplexfold + siren_designVIII	dsRNAmax v1.1.14 pan-isolate k-mer assembly (300 nt)
+CsFUS3	1059	155	45	300	238	sifi21_plus + ViennaRNA accessibility (200-400 nt)	siren_prefilter + ViennaRNA duplexfold + siren_designVIII	dsRNAmax v1.1.14 pan-isolate k-mer assembly (300 nt)
+CsSTE11	2880	520	45	300	822	sifi21_plus + ViennaRNA accessibility (200-400 nt)	siren_prefilter + ViennaRNA duplexfold + siren_designVIII	dsRNAmax v1.1.14 pan-isolate k-mer assembly (300 nt)
+CsSp1	270	4	34	200	8	CDS 270 nt < 400 nt max; bounded to <= 270 nt	siren_prefilter + ViennaRNA duplexfold + siren_designVIII	dsRNAmax v1.1.14 pan-isolate k-mer assembly (200 nt)

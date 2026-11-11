@@ -1,0 +1,648 @@
+LOCUS       HQ830033                6862 bp    DNA     linear   PLN 31-JUL-2012
+DEFINITION  Cochliobolus sativus isolate ND90Pr polyketide synthase (PKS1)
+            gene, complete cds.
+ACCESSION   HQ830033
+VERSION     HQ830033.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 6862)
+  AUTHORS   Leng,Y. and Zhong,S.
+  TITLE     Sfp-type 4'-phosphopantetheinyl transferase is required for lysine
+            synthesis, tolerance to oxidative stress and virulence in the plant
+            pathogenic fungus Cochliobolus sativus
+  JOURNAL   Mol. Plant Pathol. 13 (4), 375-387 (2012)
+   PUBMED   22023083
+REFERENCE   2  (bases 1 to 6862)
+  AUTHORS   Leng,Y. and Zhong,S.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-DEC-2010) Plant Pathology, North Dakota State
+            University, 306 Walster Hall, Fargo, ND 58102, USA
+FEATURES             Location/Qualifiers
+     source          1..6862
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /isolate="ND90Pr"
+                     /db_xref="taxon:45130"
+     gene            <161..>6723
+                     /gene="PKS1"
+     mRNA            join(<161..438,486..6624,6679..>6723)
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             join(161..438,486..6624,6679..6723)
+                     /gene="PKS1"
+                     /codon_start=1
+                     /product="polyketide synthase"
+                     /protein_id="AER36016.1"
+                     /translation="MDVLIFGDQTADQYPLLRKACTWKNNATLTTFLDRISVVIREEV
+                     QKLPRTQRDQIPNFLTTWDLVEAYYAKGLKIPEIESCMVTIAQLAHYIGYFAENPTEL
+                     PNPSNTRVVGLCTGLLAGSVVASARSLSELLPLATEAVRVAFRAGTCVGAAKEALEQS
+                     STSKDSWSTIVTNISEDAAKDAIAAFHEEQKIPTLAQAYISAVSTMALTISGPPATTK
+                     RLLEKEAFKSSARVPIPVYAPYHASHLYSQADIDRILDKDAIRHLQQFRPVALVHSAA
+                     TGKCQTATNTLELVRTALHEMLVEPVRWDSLLSEVVSQVTSASNAQCSVSAFGVTSIT
+                     NSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQNDKIAIVGMSGRFPGAANPEALW
+                     DLLERGLDVHREVPADRFDAKAHCDPSGKGKNKSHTPYGCFIDEPGLFDPRFFNMSPR
+                     EAAQTDPMGRLALTTAYEALEMSGYVPNRTPSTKLERIGTFYGQTSDDWREINASENI
+                     DTYFITGGVRAFAPGRINYYFKFSGPSYSVDTACSSSLAAIQLACTSLWAGDCDTACA
+                     GGLNVLTNPDIFSGLSKGQFLSKTGSCKTYDNDADGYCRGDGCGSVVLKRYEDAIADK
+                     DNILGCILGAATNHSAEAVSITHPHAGAQEYLYNKVLSNAGVDAHDISYVEMHGTGTQ
+                     AGDGIEMTSVTNAFAPRHRQRTPEQTLHLGAIKANIGHGEAASGINSLVKVLMMMKKN
+                     AIPANVGIKGVMNKTFPKDLAQRNVHIETTQVAWPRKGGEKRKIFLNNFSAAGGNTAV
+                     ILEDGPLPEEPKGVDPRTMHMVTVSARSIASLKKNINNLIDFVDENPSVTLPSLAYTT
+                     TARRIQHNYRVAFCVSDMSKVKDGLRAQLKDTYSPLPMVPTKTAFTFTGQGSQYTGLG
+                     QKLYEDLETFKNDIDQLDKLARLHSLPSILPLLTGADVATLSPVVVQLGMACIQVALA
+                     RMWGAWGVRPIAVIGHSLGEYAALHVAGVISASDMVFLVGRRAQILEEECTANTHGML
+                     AVKGSVDAIKVALGDKMTEIACMNGPEETVLCGTVDVVDSTNELLASKGFKSTKLNVP
+                     FAFHSAQVEPILEKFKAAADSVTFNKPVVPVMSPLNGDIIVEAGIIGPDYLARHARET
+                     VNFWTALTNGQEQKLFDAKTAWLEVGAHPVCSGMVKSSLGGSPVAAGSLRRNEDPWKT
+                     LSNTLTTMYLAGVYIDFNEYHRLFNDAHQMYTLPTYAFDSKKYWLDYHNNWTLTKGEV
+                     LQAAPAVSAIEAAPVVEAPSKLSTTSCHKIVREDLHANSGTVVVQSDLSDPKLKATIT
+                     GHQVNGTPLTPSSLYADQAMTVADYLYQQLRPGTETPGLNVCSMEVTKTLIPQYPPPA
+                     TGQHLQIEGNADLETSQVKITFRTVSADGSKILAEHAVGIVKYEDVNAWKEEWGRIQY
+                     MVQSQIDMLQQKLATGAAHKVLRGMAYKLFKALVTYADNYRGMEEVILDGKQTEATAS
+                     VQFQTTEADGDFLCSPYWIDSLAHLSGFIVNASDHLDSENSVYISHGWGSIKIAGKLS
+                     PEKKYRSYVRMQPAPGNISVGDVYIMDGAEIIGMVMGLKFQNIPRRALNIMMPPAGKA
+                     ASAPAAKAVAKPVPKALPTAAPVKTHAAVPKAVKAPKAVKVAAPAGVTSKVMNIVAQE
+                     IDVDMSELVDEAAFENLGVDSLLSLTISARFREELDMDIPSTLFTDCSTVGELKKHFS
+                     QFDGTTIVEDDSSVTSDEPSGAPTPFEAPAGQSDSTPASSAGSDDGHDDIKPSAATEG
+                     GASLARKLVAEEMGVDVSEITDDLDLTDIGMDSLMSLTILGSMREATGRDLPADFLTV
+                     NVTIKDIETALGMRPQPKAAKPATKASSKAPQLSEVNKKLASLPDVSNLPPASSVLLQ
+                     GNPKTATKKFFLVPDGSGSATSYISIPNISPSMAVYGLNCPFMKCPEKWTCGVEGVSR
+                     LYLNEIKRRQPAGPYLVGGWSAGGVMAYEVAQQLVNAGEKVESLVLIDAPCPVALDPL
+                     PARLHIFFDQIGLLGTGKPGGTPSWLLPHFASAIQNLKDYDPTPMNPKIAPPVLAIWC
+                     TDGVCPNPEDPRPPPGEGEDPAPMKWLLNNRTDFSDNGWAQLLPKENFQYAVMGGNHF
+                     TMMKGDHGVTLGKLIQQGLKL"
+ORIGIN      
+        1 tcttcgcttt catatatcac caactaccct tccattaact ttggaagccc acccctttca
+       61 cctcctaaac acaccatcga ggttactctg cctttttcgg caccgaatta ctgcatcttt
+      121 ccatcttttt tctaattctt cttttatacc ctttgccaaa atggatgtcc tcatcttcgg
+      181 agaccaaacc gccgaccagt acccgctcct gcggaaggct tgtacctgga agaacaacgc
+      241 gaccctgacg acctttctcg accggatcag cgttgtgatt cgcgaagagg tgcaaaagct
+      301 gccacgaaca cagcgagacc aaatccccaa cttcctgaca acatgggatc ttgtggaagc
+      361 atactacgcc aagggactga aaatccctga gattgagagt tgtatggtta ccattgcgca
+      421 gttggcgcac tacatcgggt gagccttttt tcctgtgctt gtcaagtgtc ccgctgacct
+      481 ttcagatact ttgccgagaa tccaacagag cttccaaatc catcaaacac tcgagttgtc
+      541 ggtctttgca ccggtctcct tgcaggttct gtcgttgcat ctgccaggtc actgagtgag
+      601 cttctcccac tcgcgaccga agctgtccgg gttgctttcc gcgcaggcac ctgcgttggt
+      661 gcagccaagg aggcacttga gcaatcttct acctccaaag attcgtggtc cactatcgtg
+      721 accaacattt ctgaagatgc tgccaaggac gctatcgctg cgttccacga ggagcaaaag
+      781 ataccgaccc tggctcaggc ctacattagc gccgttagta caatggcgct aaccatcagc
+      841 ggcccgcctg ctaccacgaa gcgccttctc gagaaggagg ctttcaagtc cagtgctcgt
+      901 gtgcctatcc ccgtatatgc gccctaccac gcatctcacc tgtattccca ggcggatatc
+      961 gaccgtatcc tcgacaagga cgccattagg catctgcagc aattccgccc agtcgccctc
+     1021 gtccactcgg cagccactgg aaaatgccag actgctacca acactttgga gttggtccga
+     1081 actgcccttc atgagatgct tgttgagcct gtgagatggg acagccttct gtctgaggtt
+     1141 gtctctcagg tcacctctgc atccaacgca cagtgctctg tctccgcatt cggtgtaaca
+     1201 tccattacca acagcctcgc atccgcgctg aagaatggtg gccaatcagc catcaccgtc
+     1261 cgcgaccagt ctgcctgggt gccagccgac catgatagcc gtggccgtac acagaacgac
+     1321 aagattgcca ttgttggtat gtctggtcgt ttccccggtg ctgccaaccc tgaggcgctc
+     1381 tgggatcttc tcgagcgcgg tctggatgtc caccgcgaag tccctgcaga ccgtttcgac
+     1441 gcaaaagccc actgcgaccc ctcaggcaag ggcaagaaca agagtcacac cccttacggc
+     1501 tgcttcatcg acgagcccgg tctattcgac ccccgctttt tcaacatgtc tccccgtgag
+     1561 gctgcccaga ctgatcccat gggtcgtcta gccctcacaa ctgcctacga agccctcgaa
+     1621 atgtctggat acgtaccaaa ccgcactccc tcgaccaaac tcgagcgcat tggtaccttc
+     1681 tatggtcaaa cttcggacga ttggcgtgag atcaacgctt cagagaacat cgacacctac
+     1741 ttcatcacgg gtggtgtgag ggcgttcgcg cccggccgca tcaactacta cttcaagttc
+     1801 tctggtccct cctacagtgt ggacactgct tgttcttctt cgcttgctgc catccagctg
+     1861 gcctgcactt ccctttgggc tggtgactgt gatactgctt gcgccggtgg tctcaatgtc
+     1921 ctgactaatc cggacatttt ctccggtctt agcaagggcc agttcttgtc caagactgga
+     1981 agctgcaaga cttacgacaa cgatgctgat ggttactgcc gtggtgacgg ttgtggttcc
+     2041 gtcgtcctca agcgttatga ggatgccatt gctgacaagg acaacattct tggttgcatc
+     2101 cttggcgctg ccaccaacca cagtgccgag gccgtttcca tcacccaccc tcacgctggt
+     2161 gctcaagagt acctctacaa caaggtcctc tccaacgccg gtgttgatgc tcatgatatt
+     2221 agctacgtgg agatgcacgg cactggtacc caggccggcg atggaattga gatgacctcg
+     2281 gtcaccaacg cctttgctcc tcgccaccgc cagcgtaccc ccgagcagac tctgcacttg
+     2341 ggtgccatca aggccaacat cggacacggt gaagctgctt ctggtatcaa ctctctcgtc
+     2401 aaggtcttga tgatgatgaa gaagaacgct attcctgcca atgtaggtat caagggtgtc
+     2461 atgaacaaga ccttccccaa agatcttgca cagcgcaacg tgcacattga gaccactcag
+     2521 gttgcttggc cacgcaaggg tggggagaag cgcaagatct tcttgaacaa cttctctgct
+     2581 gctggtggaa acaccgctgt catccttgag gacggtcctc ttcccgagga acccaagggt
+     2641 gtcgaccctc gcaccatgca catggttact gtcagtgcta ggtctatcgc atcgctgaag
+     2701 aagaacatca acaacttgat cgatttcgtc gatgagaacc catccgttac gctgcccagc
+     2761 ttggcctaca ctaccactgc tcgacgcatc cagcacaact accgcgttgc cttctgcgtc
+     2821 tctgacatgt ccaaggtcaa ggatggccta cgtgctcagc tcaaggatac ctacagccct
+     2881 ctgcccatgg ttccaaccaa gactgccttt accttcactg gtcagggctc gcagtacact
+     2941 ggcctcggac agaagctgta cgaggatctt gagactttca agaacgatat cgaccagcta
+     3001 gacaagcttg ctcgtctgca ctctcttccc tcgattctgc cgctcttgac cggcgcagac
+     3061 gttgctaccc tttccccagt agttgtccag cttggtatgg cctgcattca agttgctctc
+     3121 gctcgcatgt ggggtgcttg gggtgttcgc cccatcgctg tcattggtca cagccttggc
+     3181 gagtacgcgg ctctccacgt tgctggcgtc atctccgcca gcgacatggt gttcctggtt
+     3241 ggtcgccgtg ctcagatcct agaggaagag tgtaccgcca acactcacgg catgcttgct
+     3301 gttaagggca gtgttgatgc catcaaggta gccttgggcg acaagatgac cgagattgcc
+     3361 tgcatgaacg gccctgaaga gaccgttctc tgtggtaccg ttgatgttgt cgactcaacc
+     3421 aacgagcttc ttgcttccaa gggattcaag tcgacgaaac tgaatgttcc attcgccttc
+     3481 cactctgctc aggttgagcc tattcttgag aagttcaagg ctgccgctga ctcggtcacc
+     3541 ttcaacaagc ctgttgtgcc ggttatgtcg ccccttaatg gggacatcat tgtagaggct
+     3601 ggcatcattg gccctgacta ccttgctcgt cacgcccgcg agactgtcaa cttctggact
+     3661 gctctaacca acggtcagga gcaaaagctc ttcgatgcta agaccgcttg gctcgaggtt
+     3721 ggagcccacc ctgtctgcag cggtatggtc aagtcttctc ttggtggttc ccccgtcgcg
+     3781 gccggatctc tccgccgtaa tgaggacccc tggaagaccc tctccaacac tctcaccacc
+     3841 atgtacctgg ctggtgtcta catcgacttc aacgagtacc acaggctttt caacgatgcc
+     3901 caccagatgt acactctgcc tacttatgcc tttgactcga agaagtactg gttggactac
+     3961 cacaacaact ggactcttac caagggtgag gttctccagg cagcacctgc agtcagcgct
+     4021 atcgaggcgg caccagtcgt ggaggcaccc tccaagctgt cgacaacttc ttgccacaag
+     4081 attgtccgcg aggatctcca tgccaactct ggcaccgttg ttgtccagtc tgacctatcc
+     4141 gaccccaagt tgaaggctac tatcactggt caccaagtca acggtacccc tcttactcca
+     4201 tcttccctat acgctgatca ggcgatgact gtggccgatt acctctatca gcagcttcgc
+     4261 cctggtactg aaacaccagg actcaatgtc tgctcaatgg aggttaccaa gactctcatc
+     4321 ccccagtacc ctcctcctgc tactggccag cacttgcaga ttgagggtaa cgcagacctt
+     4381 gaaaccagcc aagtcaagat caccttccgc accgtctcag ccgatggctc caagatcctc
+     4441 gccgagcacg ctgttggtat cgtcaagtac gaagatgtca acgcctggaa ggaagaatgg
+     4501 ggtcgcatcc agtacatggt acagtctcag atcgacatgc tccagcaaaa gcttgcgact
+     4561 ggcgccgccc acaaggttct ccgtggaatg gcctacaagc tcttcaaggc tcttgttacc
+     4621 tatgccgaca actaccgcgg tatggaagaa gttatcctcg atggtaaaca gactgaggct
+     4681 actgcttcag ttcagttcca gaccaccgag gctgatggtg atttcctctg ctccccatac
+     4741 tggatcgatt ctcttgctca tctttcgggt ttcatcgtca atgcctccga ccaccttgac
+     4801 tctgagaatt ccgtctacat ctctcacgga tggggatcta tcaagattgc cggtaagctt
+     4861 tcgcctgaga agaagtaccg ctcctatgtt cgcatgcaac ctgctcctgg caacatctct
+     4921 gttggtgatg tctacatcat ggacggtgct gagatcattg gtatggtcat gggtctcaag
+     4981 ttccagaaca ttcctcgccg cgctctcaac atcatgatgc cccccgccgg aaaggccgct
+     5041 tctgctcccg ctgccaaggc ggttgctaag cctgttccca aggctcttcc taccgctgct
+     5101 cctgtcaaga cccacgcagc cgttcccaag gcagtgaagg ctcccaaggc tgtcaaggtt
+     5161 gctgctcccg ccggtgtaac ctcaaaggtc atgaacattg tcgcccaaga gattgatgtc
+     5221 gacatgtctg agctcgttga cgaggctgct ttcgagaacc ttggagtcga ctcacttctg
+     5281 tctctgacca tctctgccag gtttcgtgag gagctcgaca tggacattcc ttccactctc
+     5341 ttcaccgact gctccactgt tggtgaactg aagaagcact tctctcagtt cgatggcact
+     5401 accatcgtcg aggatgactc ttcggtcaca tccgacgagc cttctggcgc gcctactcct
+     5461 ttcgaggcgc ctgctggtca gagcgacagc actcctgcca gctccgccgg tagcgacgac
+     5521 ggccatgatg acatcaagcc ctcggctgcc actgagggcg gtgccagcct ggcccgcaag
+     5581 cttgtggctg aagagatggg cgttgatgtc tccgagatca ccgacgacct tgacctcacc
+     5641 gatatcggca tggactccct catgagtctt actatccttg gttccatgcg tgaagctacc
+     5701 ggtcgcgatc ttcctgccga cttccttacc gtcaacgtca caatcaagga tatcgagact
+     5761 gcgcttggca tgcgtcctca gcccaaggct gcgaagcctg ccactaaggc ttcttccaag
+     5821 gcccctcagc tctctgaggt gaacaagaag ctcgcctcgc tccccgatgt ctccaacctg
+     5881 cctcctgctt cctctgtctt gcttcaaggt aaccctaaga ccgccaccaa gaaattcttc
+     5941 ttggtccccg acggttctgg cagcgcgact agctacatct ccatccccaa tatctctcct
+     6001 agcatggctg tctatggact taactgccca ttcatgaaat gccctgagaa atggacttgt
+     6061 ggtgttgagg gtgtctcccg tctttacctc aacgagatca agcgccgtca accagctggt
+     6121 ccttacctcg ttggtggatg gtctgctggt ggtgtcatgg catacgaggt cgctcagcaa
+     6181 cttgtgaacg ccggtgaaaa ggtcgagagc ctcgttctca tcgatgctcc ctgcccagtc
+     6241 gctcttgatc ctctccccgc tcgccttcac atcttcttcg atcagattgg tctccttggc
+     6301 actggaaaac ccggcggtac tccttcatgg ctcctccctc acttcgcatc tgccattcag
+     6361 aacctcaagg actacgaccc gacccccatg aaccccaaga tcgctccccc tgtcctcgcc
+     6421 atctggtgta cagatggtgt ctgccctaac cctgaggacc cccgccctcc cccaggtgag
+     6481 ggagaggacc cagctcccat gaagtggctt ctcaacaacc gtactgattt ctctgacaac
+     6541 ggttgggccc agcttctccc taaggagaac ttccagtacg ccgtcatggg tggcaaccac
+     6601 ttcactatga tgaagggtga tcacgtaagt catttcgcta tctatctttc ccctacatca
+     6661 tgctaaccta tctaccaggg tgttacgctt ggaaagctca ttcagcaagg tctcaagctg
+     6721 tgatgacttt gtgttctcca tgttctcgat tgtaatcacc gcatattgca tgcatctcgt
+     6781 tatgtttcaa gtgttgagta atgagatgtt ggcgttggaa ttgtcttcac ttctttgcca
+     6841 gtatggcatt taagatatca ca
+//
+
+LOCUS       KF769134                 706 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPB-23 polyketide synthase (PKS1)
+            gene, partial cds.
+ACCESSION   KF769134
+VERSION     KF769134.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 706)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..706
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPB-23"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>706
+                     /gene="PKS1"
+     mRNA            <1..>706
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>706
+                     /gene="PKS1"
+                     /codon_start=2
+                     /product="polyketide synthase"
+                     /protein_id="AHF22408.1"
+                     /translation="TGKCQTATNTLELVRTALHEMLVEPVRWDSLLSEVVSQVTSASN
+                     AQCSVSAFGVTSITNSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQNDKIAIVGM
+                     SGRFPGAANPEALWDLLERGLDVHREVPADRFDAKAHCDPSGKGKNKSHTPYGCFIDE
+                     PGLFDPRFFNMSPREAAQTDPMGRLALTTAYEALEMSGYVPNRTPSTKLERIGTFYGQ
+                     TSDDWREINASENIDTY"
+ORIGIN      
+        1 cactggaaaa tgccagactg ctaccaacac tttggagttg gtccgaactg cccttcatga
+       61 gatgcttgtt gagcctgtga gatgggacag ccttctgtct gaggttgtct ctcaggtcac
+      121 ctctgcatcc aacgcacagt gctctgtctc cgcattcggt gtaacatcca ttaccaacag
+      181 cctcgcatcc gcgctgaaga atggtggcca atcagccatc accgtccgcg accagtctgc
+      241 ctgggtgcca gccgaccatg atagccgtgg ccgtacacag aacgacaaga ttgccattgt
+      301 tggtatgtct ggtcgtttcc ccggtgctgc caaccctgag gcgctctggg atcttctcga
+      361 gcgcggtctg gatgtccacc gcgaagtccc tgcagaccgt ttcgacgcaa aagcccactg
+      421 cgacccctca ggcaagggca agaacaagag tcacacccct tacggctgct tcatcgacga
+      481 gcccggtcta ttcgaccccc gctttttcaa catgtctccc cgtgaggctg cccagactga
+      541 tcccatgggt cgtctagccc tcacaactgc ctacgaagcc ctcgaaatgt ctggatacgt
+      601 accaaaccgc actccctcga ccaaactcga gcgcattggt accttctatg gtcaaacttc
+      661 ggacgattgg cgtgagatca acgcttcaga gaacatcgac acctac
+//
+
+LOCUS       KF769135                 442 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPB-24 polyketide synthase (PKS1)
+            gene, partial cds.
+ACCESSION   KF769135
+VERSION     KF769135.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 442)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..442
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPB-24"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>442
+                     /gene="PKS1"
+     mRNA            <1..>442
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>442
+                     /gene="PKS1"
+                     /codon_start=1
+                     /product="polyketide synthase"
+                     /protein_id="AHF22409.1"
+                     /translation="KCQTATNTLELVRTALHEMLVEPVRWDSLLSEVVSQVTSASNAQ
+                     CSVSAFGVTSITNSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQNDKIAIVGMSG
+                     RFPGAANPEALWDLLERGLDVHREVPADRFDAKAHCDPSGKGKNK"
+ORIGIN      
+        1 aaatgccaga ctgctaccaa cactttggag ttggtccgaa ctgcccttca tgagatgctt
+       61 gttgagcctg tgagatggga cagccttctg tctgaggttg tctctcaggt cacctctgca
+      121 tccaacgcac agtgctctgt ctccgcattc ggtgtaacat ccattaccaa cagcctcgca
+      181 tccgcgctga agaatggtgg ccaatcagcc atcaccgtcc gcgaccagtc tgcctgggtg
+      241 ccagccgacc atgatagccg tggccgtaca cagaacgaca agattgccat tgttggtatg
+      301 tctggtcgtt tccccggtgc tgccaaccct gaggcgctct gggatcttct cgagcgcggt
+      361 ctggatgtcc accgcgaagt ccctgcagac cgtttcgacg caaaagccca ctgcgacccc
+      421 tcaggcaagg gcaagaacaa ga
+//
+
+LOCUS       KF769136                 466 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPB-18 polyketide synthase (PKS1)
+            gene, partial cds.
+ACCESSION   KF769136
+VERSION     KF769136.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 466)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..466
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPB-18"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>466
+                     /gene="PKS1"
+     mRNA            <1..>466
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>466
+                     /gene="PKS1"
+                     /codon_start=1
+                     /product="polyketide synthase"
+                     /protein_id="AHF22410.1"
+                     /translation="SRGRTQNDKIAIVGMSGRFPGAANPEALWDLLERGLDVHREVPA
+                     DRFDAKAHCDPSGKGKNKSHTPYGCFIDEPGLFDPRFFNMSPREAAQTDPMGRLALTT
+                     AYEALEMSGYVPNRTPSTKLERIGTFYGQTSDDWREINASENIDTYFITGGVR"
+ORIGIN      
+        1 agccgtggcc gtacacagaa cgacaagatt gccattgttg gtatgtctgg tcgtttcccc
+       61 ggtgctgcca accctgaggc gctctgggat cttctcgagc gcggtctgga tgtccaccgc
+      121 gaagtccctg cagaccgttt cgacgcaaaa gcccactgcg acccctcagg caagggcaag
+      181 aacaagagtc acacccctta cggctgcttc atcgacgagc ccggtctatt cgacccccgc
+      241 tttttcaaca tgtctccccg tgaggctgcc cagactgatc ccatgggtcg tctagccctc
+      301 acaactgcct acgaagccct cgaaatgtct ggatacgtac caaaccgcac tccctcgacc
+      361 aaactcgagc gcattggtac cttctatggt caaacttcgg acgattggcg tgagatcaac
+      421 gcttcagaga acatcgacac ctacttcatc acgggtggtg tgaggg
+//
+
+LOCUS       KF769137                 571 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPM-29 polyketide synthase (PKS1)
+            gene, partial cds.
+ACCESSION   KF769137
+VERSION     KF769137.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 571)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..571
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPM-29"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>571
+                     /gene="PKS1"
+     mRNA            <1..>571
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>571
+                     /gene="PKS1"
+                     /codon_start=1
+                     /product="polyketide synthase"
+                     /protein_id="AHF22411.1"
+                     /translation="AFGVTSITNSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQN
+                     DKIAIVGMSGRFPGAANPEALWDLLERGLDVHREVPADRFDAKAHCDPSGKGKNKSHT
+                     PYGCFIDEPGLFDPRFFNMSPREAAQTDPMGRLALTTAYEALEMSGYVPNRTPSTKLE
+                     RIGTFYGQTSDDWREINASENIDTYFITGG"
+ORIGIN      
+        1 gcattcggtg taacatccat taccaacagc ctcgcatccg cgctgaagaa tggtggccaa
+       61 tcagccatca ccgtccgcga ccagtctgcc tgggtgccag ccgaccatga tagccgtggc
+      121 cgtacacaga acgacaagat tgccattgtt ggtatgtctg gtcgtttccc cggtgctgcc
+      181 aaccctgagg cgctctggga tcttctcgag cgcggtctgg atgtccaccg cgaagtccct
+      241 gcagaccgtt tcgacgcaaa agcccactgc gacccctcag gcaagggcaa gaacaagagt
+      301 cacacccctt acggctgctt catcgacgag cccggtctat tcgacccccg ctttttcaac
+      361 atgtctcccc gtgaggctgc ccagactgat cccatgggtc gtctagccct cacaactgcc
+      421 tacgaagccc tcgaaatgtc tggatacgta ccaaaccgca ctccctcgac caaactcgag
+      481 cgcattggta ccttctatgg tcaaacttcg gacgattggc gtgagatcaa cgcttcagag
+      541 aacatcgaca cctacttcat cacgggtggt g
+//
+
+LOCUS       KF769138                 716 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPM-39 polyketide synthase (PKS1)
+            gene, partial cds.
+ACCESSION   KF769138
+VERSION     KF769138.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 716)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..716
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPM-39"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>716
+                     /gene="PKS1"
+     mRNA            <1..>716
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>716
+                     /gene="PKS1"
+                     /codon_start=1
+                     /product="polyketide synthase"
+                     /protein_id="AHF22412.1"
+                     /translation="KCQTATNTLELVRTALHEMLVEPVRWDSLLSEVVSQVTSASNAQ
+                     CSVSAFGVTSITNSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQNDKIAIVGMSG
+                     RFPGAANPEALWDLLERGLDVHREVPADRFDAKAHCDPSGKGKNKSHTPYGCFIDEPG
+                     LFDPRFFNMSPREAAQTDPMGRLALTTAYEALEMSGYVPNRTPSTKLERIGTFYGQTS
+                     DDWREINASENIDTYFITGGV"
+ORIGIN      
+        1 aaatgccaga ctgctaccaa cactttggag ttggtccgaa ctgcccttca tgagatgctt
+       61 gttgagcctg tgagatggga cagccttctg tctgaggttg tctctcaggt cacctctgca
+      121 tccaacgcac agtgctctgt ctccgcattc ggtgtaacat ccattaccaa cagcctcgca
+      181 tccgcgctga agaatggtgg ccaatcagcc atcaccgtcc gcgaccagtc tgcctgggtg
+      241 ccagccgacc atgatagccg tggccgtaca cagaacgaca agattgccat tgttggtatg
+      301 tctggtcgtt tccccggtgc tgccaaccct gaggcgctct gggatcttct cgagcgcggt
+      361 ctggatgtcc accgcgaagt ccctgcagac cgtttcgacg caaaagccca ctgcgacccc
+      421 tcaggcaagg gcaagaacaa gagtcacacc ccttacggct gcttcatcga cgagcccggt
+      481 ctattcgacc cccgcttttt caacatgtct ccccgtgagg ctgcccagac tgatcccatg
+      541 ggtcgtctag ccctcacaac tgcctacgaa gccctcgaaa tgtctggata cgtaccaaac
+      601 cgcactccct cgaccaaact cgagcgcatt ggtaccttct atggtcaaac ttcggacgat
+      661 tggcgtgaga tcaacgcttc agagaacatc gacacctact tcatcacggg tggtgt
+//
+
+LOCUS       KF769139                 449 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPW-1 polyketide synthase (PKS1) gene,
+            partial cds.
+ACCESSION   KF769139
+VERSION     KF769139.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 449)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..449
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPW-1"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>449
+                     /gene="PKS1"
+     mRNA            <1..>449
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>449
+                     /gene="PKS1"
+                     /codon_start=2
+                     /product="polyketide synthase"
+                     /protein_id="AHF22413.1"
+                     /translation="TGKCQTATNTLELVRTALHEMLVEPVRWDSLLSEVVSQVTSASN
+                     AQCSVSAFGVTSITNSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQNDKIAIVGM
+                     SGRFPGAANPEALWDLLERGLDVHREVPADRFDAKAHCDPSGKGKNK"
+ORIGIN      
+        1 cactggaaaa tgccagactg ctaccaacac tttggagttg gtccgaactg cccttcatga
+       61 gatgcttgtt gagcctgtga gatgggacag ccttctgtct gaggttgtct ctcaggtcac
+      121 ctctgcatcc aacgcacagt gctctgtctc cgcattcggt gtaacatcca ttaccaacag
+      181 cctcgcatcc gcgctgaaga atggtggcca atcagccatc accgtccgcg accagtctgc
+      241 ctgggtgcca gccgaccatg atagccgtgg ccgtacacag aacgacaaga ttgccattgt
+      301 tggtatgtct ggtcgtttcc ccggtgctgc caaccctgag gcgctctggg atcttctcga
+      361 gcgcggtctg gatgtccacc gcgaagtccc tgcagaccgt ttcgacgcaa aagcccactg
+      421 cgacccctca ggcaagggca agaacaaga
+//
+
+LOCUS       KF769140                 699 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPW-2 polyketide synthase (PKS1) gene,
+            partial cds.
+ACCESSION   KF769140
+VERSION     KF769140.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 699)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..699
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPW-2"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>699
+                     /gene="PKS1"
+     mRNA            <1..>699
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>699
+                     /gene="PKS1"
+                     /codon_start=3
+                     /product="polyketide synthase"
+                     /protein_id="AHF22414.1"
+                     /translation="CQTATNTLELVRTALHEMLVEPVRWDSLLSEVVSQVTSASNAQC
+                     SVSAFGVTSITNSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQNDKIAIVGMSGR
+                     FPGAANPEALWDLLERGLDVHREVPADRFDAKAHCDPSGKGKNKSHTPYGCFIDEPGL
+                     FDPRFFNMSPREAAQTDPMGRLALTTAYEALEMSGYVPNRTPSTKLERIGTFYGQTSD
+                     DWREINASENIDTY"
+ORIGIN      
+        1 aatgccagac tgctaccaac actttggagt tggtccgaac tgcccttcat gagatgcttg
+       61 ttgagcctgt gagatgggac agccttctgt ctgaggttgt ctctcaggtc acctctgcat
+      121 ccaacgcaca gtgctctgtc tccgcattcg gtgtaacatc cattaccaac agcctcgcat
+      181 ccgcgctgaa gaatggtggc caatcagcca tcaccgtccg cgaccagtct gcctgggtgc
+      241 cagccgacca tgatagccgt ggccgtacac agaacgacaa gattgccatt gttggtatgt
+      301 ctggtcgttt ccccggtgct gccaaccctg aggcgctctg ggatcttctc gagcgcggtc
+      361 tggatgtcca ccgcgaagtc cctgcagacc gtttcgacgc aaaagcccac tgcgacccct
+      421 caggcaaggg caagaacaag agtcacaccc cttacggctg cttcatcgac gagcccggtc
+      481 tattcgaccc ccgctttttc aacatgtctc cccgtgaggc tgcccagact gatcccatgg
+      541 gtcgtctagc cctcacaact gcctacgaag ccctcgaaat gtctggatac gtaccaaacc
+      601 gcactccctc gaccaaactc gagcgcattg gtaccttcta tggtcaaact tcggacgatt
+      661 ggcgtgagat caacgcttca gagaacatcg acacctact
+//
+
+LOCUS       KF769141                 441 bp    DNA     linear   PLN 24-JAN-2014
+DEFINITION  Bipolaris sorokiniana strain WPR4(87) polyketide synthase (PKS1)
+            gene, partial cds.
+ACCESSION   KF769141
+VERSION     KF769141.1
+KEYWORDS    .
+SOURCE      Bipolaris sorokiniana (Cochliobolus sativus)
+  ORGANISM  Bipolaris sorokiniana
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Dothideomycetes; Pleosporomycetidae; Pleosporales; Pleosporineae;
+            Pleosporaceae; Bipolaris.
+REFERENCE   1  (bases 1 to 441)
+  AUTHORS   Chand,R., Shah,K., Kumar,M. and Singh,V.K.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-OCT-2013) Department of Biochemistry, Faculty of
+            Science, Banaras Hindu University, Varanasi, UP 221005, India
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..441
+                     /organism="Bipolaris sorokiniana"
+                     /mol_type="genomic DNA"
+                     /strain="WPR4(87)"
+                     /host="Hordeum vulgare L. (barley)"
+                     /db_xref="taxon:45130"
+                     /geo_loc_name="India"
+                     /PCR_primers="fwd_name: pks1f, fwd_seq:
+                     agcaattccgcccagtcgcc, rev_name: pks1r, rev_seq:
+                     gaacgccctcacaccacccg"
+     gene            <1..>441
+                     /gene="PKS1"
+     mRNA            <1..>441
+                     /gene="PKS1"
+                     /product="polyketide synthase"
+     CDS             <1..>441
+                     /gene="PKS1"
+                     /codon_start=3
+                     /product="polyketide synthase"
+                     /protein_id="AHF22415.1"
+                     /translation="CQTATNTLELVRTALHEMLVEPVRWDSLLSEVVSQVTSASNAQC
+                     SVSAFGVTSITNSLASALKNGGQSAITVRDQSAWVPADHDSRGRTQNDKIAIVGMSGR
+                     FPGAANPEALWDLLERGLDVHREVPADRFDAKAHCDPSGKGKNK"
+ORIGIN      
+        1 aatgccagac tgctaccaac actttggagt tggtccgaac tgcccttcat gagatgcttg
+       61 ttgagcctgt gagatgggac agccttctgt ctgaggttgt ctctcaggtc acctctgcat
+      121 ccaacgcaca gtgctctgtc tccgcattcg gtgtaacatc cattaccaac agcctcgcat
+      181 ccgcgctgaa gaatggtggc caatcagcca tcaccgtccg cgaccagtct gcctgggtgc
+      241 cagccgacca tgatagccgt ggccgtacac agaacgacaa gattgccatt gttggtatgt
+      301 ctggtcgttt ccccggtgct gccaaccctg aggcgctctg ggatcttctc gagcgcggtc
+      361 tggatgtcca ccgcgaagtc cctgcagacc gtttcgacgc aaaagcccac tgcgacccct
+      421 caggcaaggg caagaacaag a
+//
+

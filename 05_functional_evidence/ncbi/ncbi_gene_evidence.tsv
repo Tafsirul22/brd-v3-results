@@ -1,0 +1,5 @@
+target	gene_id	locus_tag	protein_id	ncbi_name	ncbi_description	organism
+CsPKS1	19131806	COCSADRAFT_157080	XP_007696213.1	PKS1	polyketide synthase PKS1	Bipolaris sorokiniana ND90Pr
+CsFUS3	19135114	COCSADRAFT_24574	XP_007697446.1	CHK1	mitogen-activated protein kinase	Bipolaris sorokiniana ND90Pr
+CsSTE11	19129968	COCSADRAFT_105370	XP_007694574.1	STE11	MAPKKK protein STE11	Bipolaris sorokiniana ND90Pr
+CsSp1	19132291	COCSADRAFT_164106	XP_007704210.1	COCSADRAFT_164106	hypothetical protein	Bipolaris sorokiniana ND90Pr

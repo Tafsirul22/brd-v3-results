@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRD M06 — Target Identification &amp; Prioritisation Report</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>BRD M06 — Target Identification &amp; Prioritisation Report</h1>
+<div class="subtitle">Bipolaris sorokiniana ND90Pr &amp; 19-Isolate Panel</div>
+<div class='callout'><strong>Target Verification Breakthrough:</strong> All four target genes including <code>CsSp1</code> (<code>COCSADRAFT_164106</code> / <code>XP_007704210.1</code>) were resolved with exact primer and sequence proof. Off-target safety (25% weight) is explicitly labelled <code>PENDING_M08_UNKNOWN</code> at M06 and integrated in M09.</div><h2>Target Gene Summary</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>locus_tag</th>
+      <th>gene_id</th>
+      <th>protein_id</th>
+      <th>mrna_accession</th>
+      <th>scaffold</th>
+      <th>start</th>
+      <th>end</th>
+      <th>strand</th>
+      <th>cds_length_nt</th>
+      <th>mrna_length_nt</th>
+      <th>protein_length_aa</th>
+      <th>identification_status</th>
+      <th>isolates_with_gene</th>
+      <th>mean_pairwise_nt_identity_pct</th>
+      <th>longest_100pct_block_nt</th>
+      <th>gse130517_inplanta_max_rpkm</th>
+      <th>direct_literature_evidence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsPKS1</td>
+      <td>COCSADRAFT_157080</td>
+      <td>19131806</td>
+      <td>XP_007696213.1</td>
+      <td>XM_007698023.1</td>
+      <td>NW_006911896.1</td>
+      <td>2261474</td>
+      <td>2268036</td>
+      <td>+</td>
+      <td>6462</td>
+      <td>6462</td>
+      <td>2153</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.958</td>
+      <td>852</td>
+      <td>27.17</td>
+      <td>Direct B. sorokiniana experimental evidence (hairpin RNAi silencing -&gt; albino/reduced-melanisation phenotypes, Leng et al., 2011; NOT exogenous SIGS)</td>
+    </tr>
+    <tr>
+      <td>CsFUS3</td>
+      <td>COCSADRAFT_24574</td>
+      <td>19135114</td>
+      <td>XP_007697446.1</td>
+      <td>XM_007699256.1</td>
+      <td>NW_006911898.1</td>
+      <td>1189519</td>
+      <td>1190784</td>
+      <td>-</td>
+      <td>1059</td>
+      <td>1059</td>
+      <td>352</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.984</td>
+      <td>364</td>
+      <td>90.21</td>
+      <td>Direct B. sorokiniana experimental evidence (targeted knockout delta-Csfus3 -&gt; loss of pathogenicity on intact barley leaves, impaired conidiation &amp; appressoria, oxidative stress hypersensitivity, Leng &amp; Zhong, 2015)</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>COCSADRAFT_105370</td>
+      <td>19129968</td>
+      <td>XP_007694574.1</td>
+      <td>XM_007696384.1</td>
+      <td>NW_006911895.1</td>
+      <td>614738</td>
+      <td>617725</td>
+      <td>+</td>
+      <td>2880</td>
+      <td>3702</td>
+      <td>959</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.657</td>
+      <td>273</td>
+      <td>87.63</td>
+      <td>Direct B. sorokiniana experimental evidence (targeted knockout delta-Csste11 -&gt; loss of pathogenicity on intact barley leaves, impaired conidiation &amp; appressoria, oxidative stress hypersensitivity, Leng &amp; Zhong, 2015)</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>COCSADRAFT_164106</td>
+      <td>19132291</td>
+      <td>XP_007704210.1</td>
+      <td>XM_007706020.1</td>
+      <td>NW_006911909.1</td>
+      <td>250789</td>
+      <td>251111</td>
+      <td>+</td>
+      <td>270</td>
+      <td>270</td>
+      <td>89</td>
+      <td>Confirmed identity</td>
+      <td>19/19</td>
+      <td>99.959</td>
+      <td>124</td>
+      <td>1438.44</td>
+      <td>Direct B. sorokiniana experimental evidence (split-marker knockout delta-Cssp1 in LK93 -&gt; attenuated wheat pathogenicity, defective infectious hyphae growth, reduced conidiation, Zhang et al., 2022)</td>
+    </tr>
+  </tbody>
+</table><h2>Provisional Target Prioritisation</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>target</th>
+      <th>score_conservation</th>
+      <th>score_off_target</th>
+      <th>score_functional</th>
+      <th>score_expression</th>
+      <th>score_designability</th>
+      <th>off_target_status</th>
+      <th>cds_length_nt</th>
+      <th>isolates_present</th>
+      <th>mean_21mer_cons_pct</th>
+      <th>inplanta_max_rpkm</th>
+      <th>weighted_score_conservative</th>
+      <th>known_weight_fraction</th>
+      <th>normalized_known_score</th>
+      <th>pareto_rank</th>
+      <th>is_pareto_optimal</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CsFUS3</td>
+      <td>0.9920</td>
+      <td>NaN</td>
+      <td>0.92</td>
+      <td>0.6014</td>
+      <td>1.000</td>
+      <td>PENDING_M08_UNKNOWN</td>
+      <td>1059</td>
+      <td>19/19</td>
+      <td>99.205</td>
+      <td>90.21</td>
+      <td>0.6722</td>
+      <td>0.75</td>
+      <td>0.8963</td>
+      <td>1</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSp1</td>
+      <td>0.9912</td>
+      <td>NaN</td>
+      <td>0.84</td>
+      <td>1.0000</td>
+      <td>0.675</td>
+      <td>PENDING_M08_UNKNOWN</td>
+      <td>270</td>
+      <td>19/19</td>
+      <td>99.116</td>
+      <td>1438.44</td>
+      <td>0.6670</td>
+      <td>0.75</td>
+      <td>0.8894</td>
+      <td>1</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <td>CsSTE11</td>
+      <td>0.9260</td>
+      <td>NaN</td>
+      <td>0.90</td>
+      <td>0.5842</td>
+      <td>1.000</td>
+      <td>PENDING_M08_UNKNOWN</td>
+      <td>2880</td>
+      <td>19/19</td>
+      <td>92.602</td>
+      <td>87.63</td>
+      <td>0.6491</td>
+      <td>0.75</td>
+      <td>0.8655</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <td>CsPKS1</td>
+      <td>0.9897</td>
+      <td>NaN</td>
+      <td>0.72</td>
+      <td>0.1811</td>
+      <td>1.000</td>
+      <td>PENDING_M08_UNKNOWN</td>
+      <td>6462</td>
+      <td>19/19</td>
+      <td>98.973</td>
+      <td>27.17</td>
+      <td>0.5686</td>
+      <td>0.75</td>
+      <td>0.7581</td>
+      <td>2</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table><figure><img src='figures/four_target_functional_evidence_comparison.png'/><figcaption>Four-target multi-criteria comparison.</figcaption></figure>
+</body>
+</html>

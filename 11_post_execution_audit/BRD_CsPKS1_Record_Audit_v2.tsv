@@ -1,0 +1,10 @@
+accession	organism_in_genbank	isolate_or_strain	record_length_nt	cds_or_amplicon_length_nt	sequence_completeness	protein_accession	cds_feature_location	cocsadraft_157080_cds_span_1based	nt_identity_vs_cocsadraft_157080_pct	query_coverage_vs_cocsadraft_157080_pct	maps_to_COCSADRAFT_157080
+HQ830033.1	Bipolaris sorokiniana	ND90Pr	6862	6462	Full-length CDS (in genomic clone with flanking UTRs)	AER36016.1	join{[160:438](+), [485:6624](+), [6678:6723](+)}	1..6462	100.0	100.0	True
+KF769134.1	Bipolaris sorokiniana	WPB-23	706	706	Partial CDS (amplicon fragment)	AHF22408.1	[<0:>706](+)	828..1533	100.0	100.0	True
+KF769135.1	Bipolaris sorokiniana	WPB-24	442	442	Partial CDS (amplicon fragment)	AHF22409.1	[<0:>442](+)	835..1276	100.0	100.0	True
+KF769136.1	Bipolaris sorokiniana	WPB-18	466	466	Partial CDS (amplicon fragment)	AHF22410.1	[<0:>466](+)	1090..1555	100.0	100.0	True
+KF769137.1	Bipolaris sorokiniana	WPM-29	571	571	Partial CDS (amplicon fragment)	AHF22411.1	[<0:>571](+)	979..1549	100.0	100.0	True
+KF769138.1	Bipolaris sorokiniana	WPM-39	716	716	Partial CDS (amplicon fragment)	AHF22412.1	[<0:>716](+)	835..1550	100.0	100.0	True
+KF769139.1	Bipolaris sorokiniana	WPW-1	449	449	Partial CDS (amplicon fragment)	AHF22413.1	[<0:>449](+)	828..1276	100.0	100.0	True
+KF769140.1	Bipolaris sorokiniana	WPW-2	699	699	Partial CDS (amplicon fragment)	AHF22414.1	[<0:>699](+)	836..1534	100.0	100.0	True
+KF769141.1	Bipolaris sorokiniana	WPR4(87)	441	441	Partial CDS (amplicon fragment)	AHF22415.1	[<0:>441](+)	836..1276	100.0	100.0	True

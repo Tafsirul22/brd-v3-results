@@ -1,0 +1,9 @@
+filter_step	candidates_passing_individually	candidates_passing_cumulatively	criterion_definition
+0_Total_Unique_Designed_Candidates	50	50	All unique M07 candidates (LUCID/SIREN/dsRNAmax/BRD)
+1_Sequence_QC_Length_GC_Homopolymer	50	50	150-550 nt, 0 N-bases, 30-65% GC, max homopolymer <= 5
+2_Zero_Fungal_Paralog_Exact_21mers	48	48	Zero exact 21-mer matches in non-self B. sorokiniana ND90Pr transcripts
+3_Zero_Wheat_Barley_Exact_21mers	50	48	Zero exact 21-mer matches across Wheat IWGSC v2.1 & Barley MorexV3
+4_Zero_Beneficial_Fungi_Exact_21mers	34	34	Zero exact 21-mer matches across 5 beneficial fungal species (excludes 16/50!)
+5_Conservation_ge85pct_Hard_Filter_Pass	48	33	Cumulative hard filter pass: Conservation >= 85% across 19 isolates
+6_Caution_No_Long_ge30nt_Homology	34	32	Advisory strict check: zero >=30 nt >=80% E<=1e-5 alignments (excludes CsFUS3_CAND003)
+7_Caution_Low_Host_20of21_NearMatches	23	13	Advisory strict check: <5 host 20/21 near-guide matches (excludes CsSp1/high-20mer windows)

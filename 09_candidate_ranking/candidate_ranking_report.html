@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>BRD M09 — Uncertainty-Aware Candidate Ranking Report</title>
+<style>
+  body { font-family: 'Segoe UI', Arial, sans-serif; margin: 2rem auto; max-width: 1200px; color: #1e293b; line-height: 1.55; padding: 0 1.2rem; }
+  h1 { color: #0f172a; border-bottom: 3px solid #1d4ed8; padding-bottom: 0.4rem; }
+  h2 { color: #1e3a8a; margin-top: 2rem; border-bottom: 1px solid #cbd5e1; padding-bottom: 0.25rem; }
+  h3 { color: #334155; margin-top: 1.3rem; }
+  .subtitle { color: #475569; font-size: 1.05rem; margin-bottom: 1.5rem; }
+  .callout { background: #eff6ff; border-left: 4px solid #2563eb; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  .warn { background: #fffbeb; border-left: 4px solid #d97706; padding: 0.85rem 1rem; margin: 1rem 0; border-radius: 4px; }
+  table.brd-table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.88rem; }
+  table.brd-table th { background: #1e3a8a; color: #ffffff; text-align: left; padding: 0.5rem 0.65rem; }
+  table.brd-table td { border-bottom: 1px solid #e2e8f0; padding: 0.45rem 0.65rem; vertical-align: top; }
+  table.brd-table tr:nth-child(even) { background: #f8fafc; }
+  code, pre { background: #f1f5f9; padding: 0.15rem 0.35rem; border-radius: 3px; font-family: Consolas, monospace; font-size: 0.88em; }
+  figure { margin: 1.5rem 0; text-align: center; }
+  figure img { max-width: 100%; border: 1px solid #cbd5e1; border-radius: 4px; }
+  figcaption { font-size: 0.88rem; color: #475569; margin-top: 0.4rem; }
+</style>
+</head>
+<body>
+<h1>BRD M09 — Uncertainty-Aware Candidate Ranking Report</h1>
+<div class="subtitle">Pareto, 1,000-Bootstrap, &amp; Weight Sensitivity Analysis</div>
+<div class='callout'><strong>Ranking Boundary:</strong> Computational priority categories reflect multi-isolate conservation, non-target BLAST/21-mer/ViennaRNA screening, functional genetics, infection expression, and design QC. They do <strong>not</strong> predict exogenous dsRNA uptake or demonstrate fungicidal efficacy.</div><h2>Top 20 Ranked Candidates</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>candidate_id</th>
+      <th>target</th>
+      <th>reference_assembly</th>
+      <th>isolate</th>
+      <th>gene_id</th>
+      <th>locus_tag</th>
+      <th>cds_length_nt</th>
+      <th>candidate_start_nt</th>
+      <th>candidate_end_nt</th>
+      <th>candidate_length_nt</th>
+      <th>gc_percent</th>
+      <th>n_bases</th>
+      <th>max_homopolymer</th>
+      <th>exact_cds_substring</th>
+      <th>ref_identity_or_21mer_pct</th>
+      <th>isolates_evaluated</th>
+      <th>isolates_ge90pct_21mer</th>
+      <th>isolates_100pct_21mer</th>
+      <th>conservation_pct</th>
+      <th>min_isolate_conservation_pct</th>
+      <th>tool_name</th>
+      <th>tool_version</th>
+      <th>tool_score</th>
+      <th>tool_score_metric</th>
+      <th>total_21mer_guides</th>
+      <th>efficient_sifi21_guides</th>
+      <th>efficient_guide_fraction</th>
+      <th>mean_target_accessibility</th>
+      <th>self_paralog_21mer_hits</th>
+      <th>primer_left</th>
+      <th>primer_right</th>
+      <th>expected_amplicon_bp</th>
+      <th>seq_qc_pass</th>
+      <th>off_target_status</th>
+      <th>confidence_classification</th>
+      <th>wheat_classification</th>
+      <th>wheat_exact_21mer_hits</th>
+      <th>wheat_high_sim_hits_ge19nt</th>
+      <th>barley_classification</th>
+      <th>barley_exact_21mer_hits</th>
+      <th>beneficial_fungi_classification</th>
+      <th>beneficial_fungi_exact_21mer_hits</th>
+      <th>beneficial_fungi_high_sim_hits_ge19nt</th>
+      <th>top_hit_viennarna_duplexfold_mfe</th>
+      <th>overall_off_target_classification</th>
+      <th>off_target_safety_score_0_1</th>
+      <th>conservation_score</th>
+      <th>off_target_safety_score</th>
+      <th>target_evidence_score</th>
+      <th>guide_quality_score</th>
+      <th>tool_agreement_score</th>
+      <th>overlapping_design_tools</th>
+      <th>passes_computational_filters</th>
+      <th>data_completeness</th>
+      <th>composite_score</th>
+      <th>pareto_rank</th>
+      <th>is_pareto_optimal</th>
+      <th>computational_priority_category</th>
+      <th>final_rank</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BRD_CsSTE11_CAND012</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1</td>
+      <td>180</td>
+      <td>180</td>
+      <td>58.89</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7529</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>160</td>
+      <td>55</td>
+      <td>0.3438</td>
+      <td>0.4462</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>Partial similarity match</td>
+      <td>0</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-44.1</td>
+      <td>High-similarity match</td>
+      <td>0.55</td>
+      <td>1.0000</td>
+      <td>0.55</td>
+      <td>0.7737</td>
+      <td>0.6063</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7832</td>
+      <td>1</td>
+      <td>True</td>
+      <td>High computational priority</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND008</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>180</td>
+      <td>180</td>
+      <td>52.22</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.91</td>
+      <td>79.37</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7051</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>160</td>
+      <td>36</td>
+      <td>0.2250</td>
+      <td>0.3690</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9891</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5350</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7458</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND001</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>200</td>
+      <td>200</td>
+      <td>49.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.2222</td>
+      <td>efficient_sirna_fraction</td>
+      <td>180</td>
+      <td>40</td>
+      <td>0.2222</td>
+      <td>0.3699</td>
+      <td>0</td>
+      <td>TCCATATTCGCGCTCTCTGC</td>
+      <td>AGCTCTTTTGTCTCTGCATTTTGA</td>
+      <td>173.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5333</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7452</td>
+      <td>2</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND009</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>210</td>
+      <td>210</td>
+      <td>48.57</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.84</td>
+      <td>77.89</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7049</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>190</td>
+      <td>41</td>
+      <td>0.2158</td>
+      <td>0.3860</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9884</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5295</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7448</td>
+      <td>2</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND005</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>5</td>
+      <td>204</td>
+      <td>200</td>
+      <td>49.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>180</td>
+      <td>37</td>
+      <td>0.2056</td>
+      <td>0.3617</td>
+      <td>0</td>
+      <td>TCATCATCTCCATATTCGCGCT</td>
+      <td>AGCTCTTTTGTCTCTGCATT</td>
+      <td>181.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>6</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5234</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7437</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND006</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>9</td>
+      <td>208</td>
+      <td>200</td>
+      <td>49.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>180</td>
+      <td>37</td>
+      <td>0.2056</td>
+      <td>0.3753</td>
+      <td>0</td>
+      <td>ATCATCTCCATATTCGCGCTCT</td>
+      <td>AAGCTCTTTTGTCTCTGCAT</td>
+      <td>180.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5234</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7437</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND007</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>13</td>
+      <td>212</td>
+      <td>200</td>
+      <td>49.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.77</td>
+      <td>76.67</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>180</td>
+      <td>36</td>
+      <td>0.2000</td>
+      <td>0.3850</td>
+      <td>0</td>
+      <td>no suitable primers found</td>
+      <td>no suitable primers found</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9877</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5200</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7432</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND002</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>1</td>
+      <td>250</td>
+      <td>250</td>
+      <td>50.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>99.04</td>
+      <td>81.74</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.1870</td>
+      <td>efficient_sirna_fraction</td>
+      <td>230</td>
+      <td>43</td>
+      <td>0.1870</td>
+      <td>0.3583</td>
+      <td>0</td>
+      <td>TCCATATTCGCGCTCTCTGC</td>
+      <td>TGCAAGTCCACTCTTCTCCG</td>
+      <td>226.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9904</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5122</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7427</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND004</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>51</td>
+      <td>250</td>
+      <td>200</td>
+      <td>50.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>99.39</td>
+      <td>88.33</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.1667</td>
+      <td>efficient_sirna_fraction</td>
+      <td>180</td>
+      <td>30</td>
+      <td>0.1667</td>
+      <td>0.3573</td>
+      <td>0</td>
+      <td>CTTCCGCACCTGCTACAGAT</td>
+      <td>CTCTTCTCCGACCTTGAGGC</td>
+      <td>170.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>4</td>
+      <td>-34.6</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9939</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5000</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7418</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND010</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>76</td>
+      <td>255</td>
+      <td>180</td>
+      <td>48.89</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>99.31</td>
+      <td>86.88</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.6922</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>160</td>
+      <td>27</td>
+      <td>0.1688</td>
+      <td>0.3608</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>12</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>3</td>
+      <td>-34.6</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9931</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5013</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7418</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSp1_CAND003</td>
+      <td>CsSp1</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19132291</td>
+      <td>COCSADRAFT_164106</td>
+      <td>270</td>
+      <td>26</td>
+      <td>225</td>
+      <td>200</td>
+      <td>50.50</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>18</td>
+      <td>98.83</td>
+      <td>77.78</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>0.1.0+ViennaRNA_2.8.0</td>
+      <td>0.1722</td>
+      <td>efficient_sirna_fraction</td>
+      <td>180</td>
+      <td>31</td>
+      <td>0.1722</td>
+      <td>0.3759</td>
+      <td>0</td>
+      <td>CTGCTATGGAGGTGGCTTCC</td>
+      <td>TCCGACCTTGAGGCAAAACT</td>
+      <td>179.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>16</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>5</td>
+      <td>-34.1</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9883</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5033</td>
+      <td>1.00</td>
+      <td>3</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7409</td>
+      <td>3</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND013</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1</td>
+      <td>210</td>
+      <td>210</td>
+      <td>58.57</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7519</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>190</td>
+      <td>63</td>
+      <td>0.3316</td>
+      <td>0.4602</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>1</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>7</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>1.0000</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5990</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7321</td>
+      <td>2</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND013</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>501</td>
+      <td>710</td>
+      <td>210</td>
+      <td>51.43</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>19</td>
+      <td>100.00</td>
+      <td>100.00</td>
+      <td>BRD_IsolateAware</td>
+      <td>1.0.0</td>
+      <td>0.7580</td>
+      <td>BRD_conservation_accessibility_sifi_composite</td>
+      <td>190</td>
+      <td>73</td>
+      <td>0.3842</td>
+      <td>0.4127</td>
+      <td>0</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-43.1</td>
+      <td>High-similarity match</td>
+      <td>0.45</td>
+      <td>1.0000</td>
+      <td>0.45</td>
+      <td>0.7926</td>
+      <td>0.6305</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7281</td>
+      <td>1</td>
+      <td>True</td>
+      <td>Moderate computational priority</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND005</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>1</td>
+      <td>250</td>
+      <td>250</td>
+      <td>58.00</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>96.89</td>
+      <td>96.52</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>75</td>
+      <td>0.3261</td>
+      <td>0.4354</td>
+      <td>0</td>
+      <td>GCCATGCTCGCCTCAAA</td>
+      <td>TGATGCGCTTTAGCCAGTCA</td>
+      <td>238.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>10</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9689</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5957</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7238</td>
+      <td>5</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>14</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND006</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>5</td>
+      <td>254</td>
+      <td>250</td>
+      <td>57.60</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>95.33</td>
+      <td>94.78</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>74</td>
+      <td>0.3217</td>
+      <td>0.4396</td>
+      <td>0</td>
+      <td>CATGCTCGCCTCAAAGG</td>
+      <td>TGATGCGCTTTAGCCAGTCA</td>
+      <td>236.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9533</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5930</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7195</td>
+      <td>6</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND007</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>9</td>
+      <td>258</td>
+      <td>250</td>
+      <td>57.60</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>93.77</td>
+      <td>93.04</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>76</td>
+      <td>0.3304</td>
+      <td>0.4438</td>
+      <td>0</td>
+      <td>no suitable primers found</td>
+      <td>no suitable primers found</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>Moderate/Conditional</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9377</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5982</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7164</td>
+      <td>5</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>16</td>
+    </tr>
+    <tr>
+      <td>BRD_CsSTE11_CAND008</td>
+      <td>CsSTE11</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19129968</td>
+      <td>COCSADRAFT_105370</td>
+      <td>2880</td>
+      <td>13</td>
+      <td>262</td>
+      <td>250</td>
+      <td>57.60</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>19</td>
+      <td>2</td>
+      <td>92.22</td>
+      <td>91.30</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>74</td>
+      <td>0.3217</td>
+      <td>0.4314</td>
+      <td>0</td>
+      <td>no suitable primers found</td>
+      <td>no suitable primers found</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>Moderate/Conditional</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>2</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>9</td>
+      <td>-34.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9222</td>
+      <td>0.35</td>
+      <td>0.7737</td>
+      <td>0.5930</td>
+      <td>1.00</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.7117</td>
+      <td>7</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND009</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>1</td>
+      <td>300</td>
+      <td>300</td>
+      <td>52.33</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.48</td>
+      <td>78.57</td>
+      <td>dsRNAmax</td>
+      <td>1.1.14</td>
+      <td>280.0000</td>
+      <td>21nt_kmer_coverage_max</td>
+      <td>280</td>
+      <td>67</td>
+      <td>0.2393</td>
+      <td>0.4042</td>
+      <td>0</td>
+      <td>NA (synthetic k-mer construct)</td>
+      <td>NA (synthetic k-mer construct)</td>
+      <td>NaN</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>24</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9848</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5436</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6863</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>18</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND005</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>1</td>
+      <td>250</td>
+      <td>250</td>
+      <td>52.40</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.63</td>
+      <td>83.04</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>54</td>
+      <td>0.2348</td>
+      <td>0.3844</td>
+      <td>0</td>
+      <td>GCGGCAGCTCCAGGAAAATC</td>
+      <td>CAGGATGGAGATGATGTTTTCGT</td>
+      <td>230.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9863</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5409</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6862</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>BRD_CsFUS3_CAND006</td>
+      <td>CsFUS3</td>
+      <td>GCF_000338995.1</td>
+      <td>ND90Pr</td>
+      <td>19135114</td>
+      <td>COCSADRAFT_24574</td>
+      <td>1059</td>
+      <td>5</td>
+      <td>254</td>
+      <td>250</td>
+      <td>52.40</td>
+      <td>0</td>
+      <td>4</td>
+      <td>True</td>
+      <td>100.0</td>
+      <td>19</td>
+      <td>18</td>
+      <td>17</td>
+      <td>98.63</td>
+      <td>83.04</td>
+      <td>SIREN</td>
+      <td>0.1.6+ViennaRNA_duplexfold</td>
+      <td>0.0000</td>
+      <td>SIREN_cumulative_offtarget_penalty (0=clean)</td>
+      <td>230</td>
+      <td>54</td>
+      <td>0.2348</td>
+      <td>0.3851</td>
+      <td>0</td>
+      <td>GCGGCAGCTCCAGGAAAATC</td>
+      <td>CAGGATGGAGATGATGTTTTCGT</td>
+      <td>230.0</td>
+      <td>True</td>
+      <td>PENDING_M08</td>
+      <td>High sequence conservation + QC pass</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>21</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>High-similarity match</td>
+      <td>0</td>
+      <td>20</td>
+      <td>-43.7</td>
+      <td>High-similarity match</td>
+      <td>0.35</td>
+      <td>0.9863</td>
+      <td>0.35</td>
+      <td>0.7926</td>
+      <td>0.5409</td>
+      <td>0.75</td>
+      <td>2</td>
+      <td>True</td>
+      <td>100% measured (Genomic+Conservation+Expression+OffTarget+Thermodynamics)</td>
+      <td>0.6862</td>
+      <td>4</td>
+      <td>False</td>
+      <td>Moderate computational priority</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+</table><h2>Pareto Non-Dominated Frontier (Rank 1)</h2><table class="dataframe brd-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>final_rank</th>
+      <th>candidate_id</th>
+      <th>target</th>
+      <th>tool_name</th>
+      <th>candidate_length_nt</th>
+      <th>conservation_pct</th>
+      <th>off_target_safety_score</th>
+      <th>target_evidence_score</th>
+      <th>guide_quality_score</th>
+      <th>composite_score</th>
+      <th>computational_priority_category</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>BRD_CsSTE11_CAND012</td>
+      <td>CsSTE11</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>100.00</td>
+      <td>0.55</td>
+      <td>0.7737</td>
+      <td>0.6063</td>
+      <td>0.7832</td>
+      <td>High computational priority</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>BRD_CsSp1_CAND008</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>98.91</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5350</td>
+      <td>0.7458</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>BRD_CsSp1_CAND002</td>
+      <td>CsSp1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>250</td>
+      <td>99.04</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5122</td>
+      <td>0.7427</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>BRD_CsSp1_CAND004</td>
+      <td>CsSp1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>99.39</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5000</td>
+      <td>0.7418</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>BRD_CsSp1_CAND010</td>
+      <td>CsSp1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>99.31</td>
+      <td>0.35</td>
+      <td>0.9040</td>
+      <td>0.5013</td>
+      <td>0.7418</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>BRD_CsFUS3_CAND013</td>
+      <td>CsFUS3</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>100.00</td>
+      <td>0.45</td>
+      <td>0.7926</td>
+      <td>0.6305</td>
+      <td>0.7281</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>26</td>
+      <td>BRD_CsPKS1_CAND013</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>99.18</td>
+      <td>0.55</td>
+      <td>0.5045</td>
+      <td>0.6213</td>
+      <td>0.6545</td>
+      <td>Moderate computational priority</td>
+    </tr>
+    <tr>
+      <td>28</td>
+      <td>BRD_CsPKS1_CAND010</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>180</td>
+      <td>98.68</td>
+      <td>0.35</td>
+      <td>0.5045</td>
+      <td>0.6588</td>
+      <td>0.6464</td>
+      <td>Low computational priority</td>
+    </tr>
+    <tr>
+      <td>29</td>
+      <td>BRD_CsPKS1_CAND002</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>98.83</td>
+      <td>0.35</td>
+      <td>0.5045</td>
+      <td>0.6500</td>
+      <td>0.6455</td>
+      <td>Low computational priority</td>
+    </tr>
+    <tr>
+      <td>30</td>
+      <td>BRD_CsPKS1_CAND003</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>98.83</td>
+      <td>0.35</td>
+      <td>0.5045</td>
+      <td>0.6500</td>
+      <td>0.6455</td>
+      <td>Low computational priority</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>BRD_CsPKS1_CAND001</td>
+      <td>CsPKS1</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>97.95</td>
+      <td>0.35</td>
+      <td>0.5045</td>
+      <td>0.6600</td>
+      <td>0.6448</td>
+      <td>Low computational priority</td>
+    </tr>
+    <tr>
+      <td>39</td>
+      <td>BRD_CsPKS1_CAND012</td>
+      <td>CsPKS1</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>100.00</td>
+      <td>0.35</td>
+      <td>0.5045</td>
+      <td>0.6432</td>
+      <td>0.6099</td>
+      <td>Low computational priority</td>
+    </tr>
+    <tr>
+      <td>40</td>
+      <td>BRD_CsFUS3_CAND001</td>
+      <td>CsFUS3</td>
+      <td>LUCID_sifi21_plus</td>
+      <td>200</td>
+      <td>99.59</td>
+      <td>0.40</td>
+      <td>0.7926</td>
+      <td>0.6366</td>
+      <td>0.7155</td>
+      <td>Excluded due to identified computational concerns</td>
+    </tr>
+    <tr>
+      <td>42</td>
+      <td>BRD_CsFUS3_CAND010</td>
+      <td>CsFUS3</td>
+      <td>BRD_IsolateAware</td>
+      <td>210</td>
+      <td>99.61</td>
+      <td>0.40</td>
+      <td>0.7926</td>
+      <td>0.6337</td>
+      <td>0.7151</td>
+      <td>Excluded due to identified computational concerns</td>
+    </tr>
+  </tbody>
+</table><figure><img src='figures/candidate_pareto_frontier.png'/><figcaption>Pareto frontier across conservation and off-target safety.</figcaption></figure><figure><img src='figures/bootstrap_stability.png'/><figcaption>1,000-iteration isolate bootstrap rank 95% CIs.</figcaption></figure><figure><img src='figures/sensitivity_analysis.png'/><figcaption>Sensitivity across 5 weighting scenarios.</figcaption></figure>
+</body>
+</html>

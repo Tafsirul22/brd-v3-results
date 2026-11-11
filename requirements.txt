@@ -1,0 +1,16 @@
+biopython>=1.85
+pandas>=2.2
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.9
+seaborn>=0.13
+scikit-learn>=1.5
+primer3-py>=2.0
+viennarna>=2.7
+snakemake>=9.0
+PyYAML>=6.0
+requests>=2.32
+networkx>=3.3
+reportlab>=4.2
+tabulate>=0.9
+pytest>=8.0

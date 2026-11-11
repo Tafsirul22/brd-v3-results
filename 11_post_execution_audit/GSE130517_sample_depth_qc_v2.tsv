@@ -1,0 +1,28 @@
+sample_id	sample_group	total_mapped_bs_reads	nonzero_bs_genes
+1A_I	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2997	186
+1A_II	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	3110	155
+1A_III	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	3261	163
+2A_I	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2901	150
+2A_II	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2975	175
+2A_III	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	1921	159
+2B_I	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2776	152
+2B_II	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2967	192
+2B_III	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2996	186
+3A_I	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2159	159
+3A_II	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	3808	173
+3A_III	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2344	213
+4A_I	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2588	174
+4A_II	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	3088	148
+4A_III	Low_depth_sparse_1A_4A_2B (excluded from clean in-planta mean)	2560	184
+3B_I	Valid_inplanta_colonisation_3B_4B_5B	578376	10204
+3B_II	Valid_inplanta_colonisation_3B_4B_5B	280410	9569
+3B_III	Valid_inplanta_colonisation_3B_4B_5B	350706	9680
+4B_I	Valid_inplanta_colonisation_3B_4B_5B	202042	9281
+4B_II	Valid_inplanta_colonisation_3B_4B_5B	163348	8870
+4B_III	Valid_inplanta_colonisation_3B_4B_5B	431439	9797
+5B_I	Valid_inplanta_colonisation_3B_4B_5B	244869	9543
+5B_II	Valid_inplanta_colonisation_3B_4B_5B	107929	8234
+5B_III	Valid_inplanta_colonisation_3B_4B_5B	193204	9148
+Bs_I	Axenic_control_Bs	20419046	11804
+Bs_II	Axenic_control_Bs	18590755	11721
+Bs_III	Axenic_control_Bs	20787932	11747
