@@ -728,7 +728,7 @@ def run_stage4(output_root: Path | None = None) -> Dict[str, Path]:
 ## 1. Expanded Non-Target Panel (17 Non-Target Organisms + Self ND90Pr)
 - **Crops (4):** *Triticum aestivum*, *Hordeum vulgare*, *Oryza sativa* (`GCF_034140825.1`), *Zea mays* (`GCF_902167145.1`).
 - **Beneficial Fungi (9):** *Trichoderma atroviride*, *T. virens*, *T. reesei*, *T. harzianum* (`GCF_003025095.1`), *Beauveria bassiana*, *Metarhizium anisopliae* (`GCF_039654215.1`), *M. robertsii* (`GCA_000591435.1`), *Rhizophagus irregularis*, and *Rhizophagus clarus* (`GCA_003203555.1`).
-- **Relevant Bacteria (4):** *Bacillus subtilis* 168 (`GCF_000009045.1`), *Bacillus velezensis* (`GCF_000508125.2`), *Pseudomonas fluorescens* (`GCF_900215245.1`), *Pseudomonas putida* (`GCF_000787655.2`).
+- **Relevant Bacteria (4):** *Bacillus subtilis* 168 (`GCF_000009045.1`), *Bacillus velezensis* (`GCF_000508125.2`), *Pseudomonas fluorescens* (`GCF_900215245.1`), *Pseudomonas putida* (`GCF_000412675.1`).
 
 ## 2. Selectivity Findings & Insect Threshold Distinction
 - Passing zero-exact-21mer hard screen across the expanded panel: **`{int(sel_df['passes_zero_exact_21mer_filter'].sum())}/50`** candidates.
