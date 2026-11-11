@@ -142,7 +142,7 @@ def run_stage3(output_root: Path | None = None) -> Dict[str, Path]:
 
     hom_lookup = {(str(r["target"]), str(r["isolate_id"])): r for _, r in homologs.iterrows()}
     iso_order = list(auth_isos["isolate_id"])
-    artifact_isolates = set(iso_qc[iso_qc["markers_with_internal_stops"] >= 10].index)  # WAI2406, WAI2411
+    artifact_isolates = set(iso_qc[iso_qc["total_internal_stops_across_50_markers"] >= 100].index)  # WAI2406 (190), WAI2411 (235) vs 52-54 baseline
 
     pair_rows: List[dict] = []
     # Also compute exact 21-mer preservation per guide across each isolate

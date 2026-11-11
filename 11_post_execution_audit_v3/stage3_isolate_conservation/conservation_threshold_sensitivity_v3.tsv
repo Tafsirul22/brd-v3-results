@@ -1,0 +1,11 @@
+scenario_id	evaluated_metric	threshold_pct	mode	passing_candidates_n	CsSTE11_pass	CsPKS1_pass	CsSp1_pass	CsFUS3_pass	ste11_cand012_pass	pks1_cand013_pass	cssp1_cand008_pass
+Scenario_A1_Mean21mer_ge85pct	mean_21mer_preservation_all19_pct	85.0	mean	48	12	13	10	13	True	True	True
+Scenario_A2_Mean21mer_ge90pct	mean_21mer_preservation_all19_pct	90.0	mean	46	10	13	10	13	True	True	True
+Scenario_A3_Mean21mer_ge95pct	mean_21mer_preservation_all19_pct	95.0	mean	44	8	13	10	13	True	True	True
+Scenario_B1_MinNtID_All19_ge85pct	min_nt_identity_all19_pct	85.0	all_19_min	50	14	13	10	13	True	True	True
+Scenario_B2_MinNtID_All19_ge90pct	min_nt_identity_all19_pct	90.0	all_19_min	50	14	13	10	13	True	True	True
+Scenario_B3_MinNtID_All19_ge95pct	min_nt_identity_all19_pct	95.0	all_19_min	50	14	13	10	13	True	True	True
+Scenario_C1_MinNtID_HQ17_ge90pct	min_nt_identity_hq17_pct	90.0	hq17_min	50	14	13	10	13	True	True	True
+Scenario_C2_MinNtID_HQ17_ge95pct	min_nt_identity_hq17_pct	95.0	hq17_min	50	14	13	10	13	True	True	True
+Scenario_C3_Min21mer_HQ17_ge95pct	min_21mer_preservation_hq17_pct	95.0	hq17_min	29	6	12	0	11	True	False	False
+Scenario_D1_90pctOfIsolates_ge95pctNtID	isolates_ge95pct_nt_id_pct	90.0	pct_isolates	50	14	13	10	13	True	True	True
