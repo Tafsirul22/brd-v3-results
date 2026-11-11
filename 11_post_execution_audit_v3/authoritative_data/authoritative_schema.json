@@ -1,0 +1,112 @@
+{
+  "schema_version": "3.0.0",
+  "created_utc": "2026-11-11 05:56:00 UTC",
+  "authoritative_root": "11_post_execution_audit_v3/authoritative_data",
+  "tables": {
+    "auth_targets.tsv": {
+      "primary_key": "target",
+      "rows": 4,
+      "columns": [
+        "target",
+        "locus_tag",
+        "gene_id",
+        "refseq_protein_id",
+        "refseq_mrna_id",
+        "uniprot_accession",
+        "genbank_accessions",
+        "nd90pr_scaffold",
+        "genomic_start_1based",
+        "genomic_end_1based",
+        "genomic_strand",
+        "exon_count",
+        "cds_length_nt",
+        "cds_sha256",
+        "verification_status",
+        "nomenclature_reconciliation"
+      ]
+    },
+    "auth_isolates.tsv": {
+      "primary_key": "isolate_id",
+      "rows": 19,
+      "columns": [
+        "isolate_id",
+        "strain",
+        "assembly_accession",
+        "biosample",
+        "bioproject",
+        "geographic_origin",
+        "host",
+        "assembly_level",
+        "has_ncbi_annotation",
+        "relative_genome_path",
+        "total_length_bp",
+        "n50_bp",
+        "n_percent",
+        "assembly_quality_flag"
+      ]
+    },
+    "auth_candidates.tsv": {
+      "primary_key": "candidate_id",
+      "foreign_key": "target",
+      "rows": 50,
+      "columns": [
+        "candidate_id",
+        "target",
+        "gene_id",
+        "locus_tag",
+        "reference_assembly",
+        "cds_start_nt",
+        "cds_end_nt",
+        "cds_strand",
+        "genomic_scaffold",
+        "genomic_start_1based",
+        "genomic_end_1based",
+        "genomic_strand",
+        "exons_spanned",
+        "spans_exon_junction",
+        "exact_cds_substring",
+        "candidate_length_nt",
+        "gc_percent",
+        "n_bases",
+        "max_homopolymer",
+        "tool_name",
+        "tool_version",
+        "tool_score",
+        "tool_score_metric",
+        "sequence_sha256",
+        "sequence"
+      ]
+    },
+    "auth_guides.tsv": {
+      "primary_key": "guide_uid",
+      "foreign_keys": [
+        "candidate_id",
+        "target"
+      ],
+      "rows": 10140,
+      "columns": [
+        "guide_uid",
+        "legacy_guide_id",
+        "candidate_id",
+        "target",
+        "cand_offset_1based",
+        "cds_pos_1based",
+        "sense_dna_21nt",
+        "antisense_dna_21nt",
+        "antisense_rna_21nt",
+        "gc_percent",
+        "sense5_mfe",
+        "antisense5_mfe",
+        "delta_end_stability",
+        "accessibility_prob",
+        "is_efficient_sifi21"
+      ]
+    }
+  },
+  "invariants": [
+    "Every auth_candidates sequence matches auth_candidates.fasta by SHA256.",
+    "Where exact_cds_substring=True, ref_cds[cds_start_nt-1:cds_end_nt] == sequence.",
+    "All 19 isolate paths resolve relative to output_root.",
+    "Legacy candidate BRD_CsSTE11_CAND009 is explicitly documented as a pan-isolate consensus dsRNAmax construct (92.5% ref identity, exact_cds_substring=False)."
+  ]
+}

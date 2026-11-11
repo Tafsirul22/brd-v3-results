@@ -9,8 +9,8 @@ from typing import Any, Dict
 
 import yaml
 
-DEFAULT_OUTPUT_ROOT = Path(r"C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output")
-DEFAULT_INPUT_ROOT = Path(r"C:\Users\ASUS BANGLADESH\Desktop\New folder (2)")
+DEFAULT_OUTPUT_ROOT = Path(os.environ.get("BRD_OUTPUT_DIR") or Path(__file__).resolve().parent.parent)
+DEFAULT_INPUT_ROOT = Path(os.environ.get("BRD_INPUT_DIR") or DEFAULT_OUTPUT_ROOT.parent)
 DEFAULT_CONFIG_PATH = DEFAULT_OUTPUT_ROOT / "config" / "project_configuration.yaml"
 
 
@@ -21,7 +21,7 @@ def load_yaml(path: Path) -> Dict[str, Any]:
 
 @dataclass
 class BRDConfig:
-    """Typed wrapper around project_configuration.yaml with environment overrides."""
+    """Typed wrapper around project_configuration.yaml with portable environment overrides."""
 
     raw: Dict[str, Any]
     input_dir: Path = field(default=DEFAULT_INPUT_ROOT)
@@ -32,10 +32,14 @@ class BRDConfig:
         cfg_path = Path(config_path) if config_path else DEFAULT_CONFIG_PATH
         raw = load_yaml(cfg_path)
         proj = raw.get("project", {})
+        resolved_out = Path(os.environ.get("BRD_OUTPUT_DIR") or cfg_path.resolve().parent.parent)
+        raw_in = proj.get("input_dir", "")
+        in_dir = Path(os.environ.get("BRD_INPUT_DIR") or (raw_in if raw_in and Path(raw_in).exists() else resolved_out.parent))
+        out_dir = Path(resolved_out if resolved_out.exists() else proj.get("output_dir", str(DEFAULT_OUTPUT_ROOT)))
         return cls(
             raw=raw,
-            input_dir=Path(proj.get("input_dir", str(DEFAULT_INPUT_ROOT))),
-            output_dir=Path(proj.get("output_dir", str(DEFAULT_OUTPUT_ROOT))),
+            input_dir=in_dir,
+            output_dir=out_dir,
         )
 
     @property

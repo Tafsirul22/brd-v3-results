@@ -1,0 +1,33 @@
+component	category	description	exists	file_count	total_size_mb	notes
+00_project_metadata	Pipeline_Module_Dir	Metadata & provenance	True	6	0.047	Baseline inspected
+01_data_acquisition	Pipeline_Module_Dir	Isolates, references & raw inputs	True	133	855.298	Preserved unmodified
+02_genome_qc	Pipeline_Module_Dir	Genome assembly QC	True	11	0.692	Baseline inspected
+03_annotation	Pipeline_Module_Dir	RefSeq GFF3/CDS/protein validation	True	15	200.393	Baseline inspected
+04_comparative_genomics	Pipeline_Module_Dir	DIAMOND RBH & MAFFT conservation	True	40	61.351	Baseline inspected
+05_functional_evidence	Pipeline_Module_Dir	PHI-base, DEG, InterPro, GSE130517	True	22	33.26	Baseline inspected
+06_target_prioritisation	Pipeline_Module_Dir	Target verification & prior scoring	True	26	0.373	Baseline inspected
+07_dsRNA_design	Pipeline_Module_Dir	Candidate & guide design (50 unique candidates)	True	70	24.742	Baseline inspected
+08_off_target_screening	Pipeline_Module_Dir	BLASTn + ViennaRNA off-target screening	True	131	1382.84	Baseline inspected
+09_candidate_ranking	Pipeline_Module_Dir	Candidate scoring, Pareto, bootstrap & sensitivity	True	12	1.275	Baseline inspected
+10_final_reports	Pipeline_Module_Dir	v1 preserved deliverables	True	53	9.813	Preserved unmodified
+11_post_execution_audit	Pipeline_Module_Dir	v2 preserved audit deliverables	True	56	21.787	Preserved unmodified
+10_final_reports.zip	Historical_Archive	Prior v1/v2 delivery archive	True	53	5.42	sha256=f41eb161ac3db404...
+11_post_execution_audit.zip	Historical_Archive	Prior v1/v2 delivery archive	True	15	5.349	sha256=10faf7e3998f5d6c...
+11_post_execution_audit (2).zip	Historical_Archive	Prior v1/v2 delivery archive	True	49	7.258	sha256=aa544a0c4e76950e...
+11_post_execution_audit (3).zip	Historical_Archive	Prior v1/v2 delivery archive	True	55	7.279	sha256=258ca4b44dd1c119...
+11_post_execution_audit_v2.zip	Historical_Archive	Prior v1/v2 delivery archive	True	56	7.289	sha256=ab45e8c60408b583...
+blastn	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Program Files\NCBI\blast-2.17.0+\bin\blastn.exe
+blastp	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Program Files\NCBI\blast-2.17.0+\bin\blastp.exe
+tblastn	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Program Files\NCBI\blast-2.17.0+\bin\tblastn.exe
+makeblastdb	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Program Files\NCBI\blast-2.17.0+\bin\makeblastdb.exe
+diamond	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\diamond.exe
+datasets	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\datasets.exe
+mafft	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\mafft\mafft-win\mafft.bat
+dsrnamax	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Users\ASUS BANGLADESH\Desktop\New folder (2)\Output\tools\bin\dsRNAmax.exe
+git	External_Tool	Bioinformatics / VCS binary check	True	1	0.0	C:\Program Files\Git\cmd\git.EXE
+quast	External_Tool	Bioinformatics / VCS binary check	False	0	0.0	MISSING_ON_WINDOWS_HOST (Linux/WSL2 required for quast/busco/orthofinder/RNAhybrid)
+busco	External_Tool	Bioinformatics / VCS binary check	False	0	0.0	MISSING_ON_WINDOWS_HOST (Linux/WSL2 required for quast/busco/orthofinder/RNAhybrid)
+orthofinder	External_Tool	Bioinformatics / VCS binary check	False	0	0.0	MISSING_ON_WINDOWS_HOST (Linux/WSL2 required for quast/busco/orthofinder/RNAhybrid)
+RNAhybrid	External_Tool	Bioinformatics / VCS binary check	False	0	0.0	MISSING_ON_WINDOWS_HOST (Linux/WSL2 required for quast/busco/orthofinder/RNAhybrid)
+tests/test_brd.py	Existing_Test_Suite	Baseline pytest reproducibility verification	True	1	0.0057	returncode=0; summary=['============================== 8 passed in 3.42s ==============================']
+11_post_execution_audit/tests/test_audit_v2.py	Existing_Test_Suite	Baseline pytest reproducibility verification	True	1	0.013	returncode=0; summary=['============================= 13 passed in 42.71s =============================']
