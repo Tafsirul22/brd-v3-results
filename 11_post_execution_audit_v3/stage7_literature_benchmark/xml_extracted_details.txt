@@ -1,0 +1,500 @@
+
+==================== PMC5943259 (McLoughlin, Wytinck et al., 2018; DOI: 10.1038/s41598-018-25434-4) ====================
+TITLE: Identification and application of exogenous dsRNA confers plant protection against Sclerotinia sclerotiorum and Botrytis cinerea
+ABSTRACT: Sclerotinia sclerotiorum, the causal agent of white stem rot, is responsible for significant losses in crop yields around the globe. While our understanding of S. sclerotiorum infection is becoming clearer, genetic control of the pathogen has been elusive and effective control of pathogen colonization using traditional broad-spectrum agro-chemical protocols are less effective than desired. In the current study, we developed species-specific RNA interference-based control treatments capable of reducing fungal infection. Development of a target identification pipeline using global RNA sequencing data for selection and application of double stranded RNA (dsRNA) molecules identified single gene targets of the fungus. Using this approach, we demonstrate the utility of this technology through foliar applications of dsRNAs to the leaf surface that significantly decreased fungal infection and S.
+  SENT: Sci RepSci Rep1579scirep101563288Scientific Reports2045-2322Nature Publishing GroupPMC5943259PMC5943259.1594325959432592974351010.1038/s41598-018-25434-4254341ArticleIdentification and application of exogenous dsRNA confers plant protection against Sclerotinia sclerotiorum and Botrytis cinereaMcLoughlinAustein G.1Wytin
+  SENT: Development of a target identification pipeline using global RNA sequencing data for selection and application of double stranded RNA (dsRNA) molecules identified single gene targets of the fungus.
+  SENT: Select target gene homologs were also tested in the closely related species, Botrytis cinerea, reducing lesion size and providing compelling evidence of the adaptability and flexibility of this technology in protecting plants against devastating fungal pathogens.pmc-status-qastatus0pmc-status-liveyespmc-status-embargon
+  SENT: RNAi technologies are dependent on double stranded RNA (dsRNA) molecules, which are designed with complementary sequences to a given mRNA within the target organism.
+  SENT: Once the dsRNA molecules enter the cell, they complex with DICER and the molecule is fragmented into small interfering RNAs (siRNAs), 21–24 nucleotides in length.
+  SENT: Another study demonstrated limited fungal lesion formation on tobacco plants (Nicotiana tabacum) expressing hairpin RNA (hpRNA) molecules targeting S.
+  SENT: sclerotiorum is still limited and no study has shown effective control of this fungus on the leaf surface using topical applications of dsRNA molecules.However, a pioneering study demonstrated the potency of synthesized dsRNA molecules under in vitro conditions.
+  SENT: Similarly, dsRNA targeting three F.
+  SENT: These studies established the feasibility of topical applications of dsRNA to control pathogenic fungi.
+  SENT: DsRNA molecules were designed to target genes associated with reactive oxygen species (ROS) responses, transcription, and host colonization, as well as those identified as essential in Aspergillus fumatigus27.
+  SENT: Target transcripts were knocked down in vitro and topical applications of dsRNA reduced lesion progression on B.
+  SENT: sclerotiorumTo assess the duration of dsRNA mediated gene knockdown, S.
+  SENT: sclerotiorum was grown in liquid cultures containing dsRNA molecules targeting the following three genes: SS1G_01703, amino acyl tRNA ligase; SS1G_05899, thioredoxin reductase; and SS1G_06487, TIM44.
+  SENT: sclerotiorum using topical dsRNA.Figure 3The timing of RNAi silencing in Sclerotinia sclerotiorum in vitro.
+  -- TABLE 1: Selected list of S. sclerotiorum target genes for RNA interference testing in liquid culture, and infection assays on B. napus and A. thaliana.
+    | Source | Gene | FPKM in vitro | FPKM Westar 24 dpi | FPKM ZY821 24 hpi | Process |
+    | Literature1 | SS1G_08218 | 7913.2 | 5211.0 | 6743.8 | Oxaloacetate acetylhydrolase |
+    | Essential Genes2 | SS1G_05899 | 268.7 | 259.1 | 244.4 | Thioredoxin reductase |
+    | Essential genes2 | SS1G_06487 | 87.3 | 82.0 | 114.3 | TIM44 |
+    | Essential genes2 | SS1G_07873 | 47.1 | 41.5 | 47.8 | pre-40S ribosomal particle |
+    | Low expression values | SS1G_00509 | 1.8 | 6.6 | 3.2 | Hydrolase activity, carbohydrate metabolic process |
+    | Low expression values | SS1G_06055 | 0.0 | 0.8 | 2.0 | Prenyltransferase activity |
+    | Low expression values | SS1G_13720 | 0.0 | 1.4 | 0.5 | MFS sugar transporter |
+    | Low expression values | SS1G_13982 | 0.1 | 0.2 | 2.0 | Triacylglycerol lipase |
+    | Moderate expression values | SS1G_09261 | 14.20 | 22.56 | 22.80 | Bub1-Bub3 complex localization to kinetochore |
+    | High accumulation values | SS1G_10167 | 14126.6 | 19992.7 | 24179.3 | Endo-polygalacturonase |
+    | Positive expression fold change3 | SS1G_02791 | 2.0 | 19.1 | 23.8 | Transcription factor activity |
+    | Positive expression fold change3 | SS1G_04551 | 1.9 | 12.6 | 16.4 | Pectinesterase |
+    | Positive expression fold change3 | SS1G_14298 | 17.9 | 31.6 | 23.0 | bHLH transcription factor |
+    | TIP4 | SS1G_01703 | 45.1 | 307.0 | 164.7 | Aminoacyl-tRNA ligase activity/alfatoxin biosynthesis |
+    | TIP4 | SS1G_02495 | 61.2 | 336.1 | 353.7 | Peroxidase activity |
+    | TIP4 | SS1G_03208 | 11.5 | 51.4 | 48.3 | Pre-mRNA splicing factor 8 |
+    | TIP4 | SS1G_03991 | 16.7 | 39.5 | 39.4 | Srb8 component of mediator complex |
+    | TIP4 | SS1G_04966 | 30.6 | 64.3 | 59.5 | Histone modification |
+    | TIP4 | SS1G_06830 | 13.7 | 101.8 | 71.3 | Aminoacyl permease |
+    | TIP4 | SS1G_09680 | 50.8 | 61.2 | 70.3 | 60 S ribosome biogenesis |
+    | TIP4 | SS1G_09897 | 28.53 | 61.36 | 59.24 | Cdc25 |
+    | TIP4 | SS1G_11912 | 24.5 | 551.2 | 359.3 | Necrosis/ethylene inducing peptide 2 |
+    | TIP4 | SS1G_12021 | 149.3 | 397.4 | 363.8 | 1,3 glucan synthase |
+    | TIP4 | SS1G_12640 | 53.1 | 114.2 | 130.1 | Protein disulphide oxidoreductase process |
+    | TIP4 | SS1G_12992 | 13.5 | 57.5 | 39.0 | Transglutaminase protein modification in ER |
+    | TIP4 | SS1G_13702 | 127.1 | 98.2 | 101.9 | TIM23 |
+    | TIP4 | SS1G_13746 | 15.1 | 33.7 | 32.5 | Peroxisome |
+
+==================== PMC7202221 (Werner, Gaffar et al., 2020; DOI: 10.3389/fpls.2020.00476) ====================
+TITLE: RNA-Spray-Mediated Silencing of Fusarium graminearum AGO and DCL Genes Improve Barley Disease Resistance
+ABSTRACT: Over the last decade, several studies have revealed the enormous potential of RNA-silencing strategies as a potential alternative to conventional pesticides for plant protection. We have previously shown that targeted gene silencing mediated by an in planta expression of non-coding inhibitory double-stranded RNAs (dsRNAs) can protect host plants against various diseases with unprecedented efficiency. In addition to the generation of RNA-silencing (RNAi) signals in planta, plants can be protected from pathogens, and pests by spray-applied RNA-based biopesticides. Despite the striking efficiency of RNA-silencing-based technologies holds for agriculture, the molecular mechanisms underlying spray-induced gene silencing (SIGS) strategies are virtually unresolved, a requirement for successful future application in the field. Based on our previous work, we predict that the molecular mechanism o
+  SENT: Plant Sci.Frontiers in Plant Science1664-462XFrontiers Media SAPMC7202221PMC7202221.1720222172022213241116010.3389/fpls.2020.004761Plant ScienceOriginal ResearchRNA-Spray-Mediated Silencing of Fusarium graminearum AGO and DCL Genes Improve Barley Disease ResistanceWernerBernhard Timo1†GaffarFatima Yousiff2†SchuemannJoh
+  SENT: Despite the striking efficiency of RNA-silencing-based technologies holds for agriculture, the molecular mechanisms underlying spray-induced gene silencing (SIGS) strategies are virtually unresolved, a requirement for successful future application in the field.
+  SENT: Based on our previous work, we predict that the molecular mechanism of SIGS is controlled by the fungal-silencing machinery.
+  SENT: In this study, we used SIGS to compare the silencing efficiencies of computationally-designed vs.
+  SENT: manually-designed dsRNA constructs targeting ARGONAUTE and DICER genes of Fusarium graminearum (Fg).
+  SENT: We found that targeting key components of the fungal RNAi machinery via SIGS could protect barley leaves from Fg infection and that the manual design of dsRNAs resulted in higher gene-silencing efficiencies than the tool-based design.
+  SENT: DMI fungicides act as ergosterol biosynthesis inhibitors because of cytochrome P450 lanosterol C-14α-demethylase (CYP51) binding, which subsequently disturbs fungal membrane integrity (Kuck et al., 2012).
+  SENT: Subsequent degradation of the targeted mRNA mediated by an RNase protein called Argonaute (AGO) prevents translation of the target transcript (Vaucheret et al., 2004; Borges and Martienssen, 2015) ideally resulting in a loss of function phenotype.
+  SENT: In plants, RNAi strategies have the potential to protect host plants against infection by pathogens or predation by pests mediated by lethal RNAi signals generated in planta, a strategy known as ‘host-induced gene silencing’ (HIGS; Nowara et al., 2010) (for review, see Koch and Kogel, 2014; Yin and Hulbert, 2015; Guo e
+  SENT: In addition to the generation of RNA-silencing signals in planta, plants can be protected from pathogens and pests by spray-applied RNA biopesticides designated as spray-induced gene silencing (SIGS) (Koch et al., 2016; Wang et al., 2016; Konakalla et al., 2016; Mitter et al., 2017a; Kaldis et al., 2018; Koch et al., 2
+  SENT: Regardless of how target-specific inhibitory RNAs are applied (i.e., endogenously or exogenously), the use of HIGS and SIGS technologies to control Fusarium species have been shown to be a potential alternative to conventional pesticides (Koch et al., 2013; Ghag et al., 2014; Cheng et al., 2015; Hu et al., 2015; Chen e
+  SENT: Whereas HIGS is virtually based on the plant’s ability to produce mobile siRNAs (through plant Dicers [DCLs]), the mechanism of gene silencing by exogenously delivered dsRNA depends primarily on the fungal RNAi machinery, mainly fungal DCLs (Koch et al., 2016; Gaffar et al., 2019).
+  SENT: Interestingly, recent studies revealed that AGO and DCL proteins of Fg contribute to fungal vegetative and generative growth, mycotoxin production, antiviral response, sensitivity to environmental RNAi, and plant disease development (Kim et al., 2015; Son et al., 2017; Yu et al., 2018; Gaffar et al., 2019).
+  SENT: In Fg, two Dicer proteins (FgDCL1 and FgDCL2) and two AGO proteins (FgAGO1 and FgAGO2) were identified (Chen et al., 2015).
+  -- TABLE 1: Overview of target gene-silencing efficiencies of different tested AGO- and DCL-dsRNA constructs.
+    |  |  | FgAGO1 | FgAGO2 | FgDCL1 | FgDCL2 |
+    | Tool | AGO1-DCL1 | 6 | – | 47 | - |
+    |  | AGO1-DCL2 | No silencing | – | – | 44 |
+    |  | AGO2-DCL1 | – | 41 | 73 | – |
+    |  | AGO1-AGO2 | No silencing | 52 | - | – |
+    |  | Average | 6 | 46 | 60 | 44 |
+    | Manual | AGO1-DCL1 | 17 | – | 74 | – |
+    |  | AGO1-DCL2 | 29 | – | – | 64 |
+    |  | AGO2-DCL1 | – | 35 | 79 | – |
+    |  | AGO2-DCL2 | – | 49 | – | 67 |
+    |  | AGO1-AGO2 | 50 | 62 | – | – |
+    |  | DCL1-DCL2 | – | – | 78 | 58 |
+    |  | Average | 32 | 49 | 77 | 63 |
+  -- TABLE 2: Number of efficient siRNAs and silencing efficiency of double dsRNA constructs.
+    | Target gene | Length (nt) | Efficient siRNAs | AVE: silencing efficiency |
+    |  | Tool | Manual | Tool | Manual | Tool | Manual |
+    | FgAGO1 | 173 | 658 | 13 | 57 | 6 | 32 |
+    | FgAGO2 | 192 | 871 | 12 | 58 | 46 | 49 |
+    | FgDCL1 | 182 | 912 | 5 | 49 | 60 | 77 |
+    | FgDCL2 | 193 | 870 | 9 | 92 | 44 | 63 |
+
+==================== PMC6859480 (Koch, Höfle et al., 2019; DOI: 10.1111/mpp.12866) ====================
+TITLE: SIGS vs HIGS: a study on the efficacy of two dsRNA delivery strategies to silence Fusarium FgCYP51 genes in infected host and non‐host plants
+ABSTRACT: SummaryCYP3RNA, a double‐stranded (ds)RNA designed to concomitantly target the two sterol 14α‐demethylase genes FgCYP51A and FgCYP51B and the fungal virulence factor FgCYP51C, inhibits the growth of the ascomycete fungus Fusarium graminearum (Fg) in vitro and in planta. Here we compare two different methods (setups) of dsRNA delivery, viz. transgene expression (host‐induced gene silencing, HIGS) and spray application (spray‐induced gene silencing, SIGS), to assess the activity of CYP3RNA and novel dsRNA species designed to target one or two FgCYP51 genes. Using Arabidopsis and barley, we found that dsRNA designed to target two FgCYP51 genes inhibited fungal growth more efficiently than dsRNA targeting a single gene, although both dsRNA species reduced fungal infection. Either dsRNA delivery method reduced fungal growth stronger than anticipated from previous mutational knock‐out (KO) str
+  SENT: Plant Pathol3642molplantpathol100954969MPPMolecular Plant Pathology1464-67221364-3703WileyPMC6859480PMC6859480.1685948068594803160327710.1111/mpp.12866MPP128661Original ArticleOriginal ArticlesSIGS vs HIGS: a study on the efficacy of two dsRNA delivery strategies to silence Fusarium FgCYP51 genes in infected host and n
+  SENT: Here we compare two different methods (setups) of dsRNA delivery, viz.
+  SENT: transgene expression (host‐induced gene silencing, HIGS) and spray application (spray‐induced gene silencing, SIGS), to assess the activity of CYP3RNA and novel dsRNA species designed to target one or two FgCYP51 genes.
+  SENT: Using Arabidopsis and barley, we found that dsRNA designed to target two FgCYP51 genes inhibited fungal growth more efficiently than dsRNA targeting a single gene, although both dsRNA species reduced fungal infection.
+  SENT: Either dsRNA delivery method reduced fungal growth stronger than anticipated from previous mutational knock‐out (KO) strategies, where single gene KO had no significant effect on fungal viability.
+  SENT: Consistent with the strong inhibitory effects of the dsRNAs on fungal development in both setups, we detected to a large extent dsRNA‐mediated co‐silencing of respective non‐target FgCYP51 genes.
+  SENT: Together, our data further support the valuation that dsRNA applications have an interesting potential for pesticide target validation and gene function studies, apart from their potential for crop protection.CYP51disease controlFusariumHost‐induced gene silencingRNA interferencesiRNAspray‐induced gene silencingDeutsch
+  SENT: The most commonly used fungicides are azoles, which target cytochrome P450 sterol 14α‐demethylase encoded by CYP51 genes.
+  SENT: Inhibition of CYP51 causes depletion of ergosterol, which results in loss of membrane integrity followed by growth inhibition and death of fungal cells (Yoshida, 1988).
+  SENT: Filamentous fungi, particularly Ascomycetes, often possess two or more CYP51 paralogues, thus at least partly explaining enhanced tolerance to azole fungicides (Fan et al., 2013; Gsaller et al., 2016).
+  SENT: Through a mechanism called host‐induced gene silencing (HIGS; Nowara et al., 2010) Arabidopsis thaliana and barley (Hordeum vulgare) plants are more resistant to Fusarium graminearum (Fg) infections when these plants express CYP3RNA, a 791 nucleotide (nt) long dsRNA targeting all three CYP51 genes (FgCYP51A, FgCYP51B, 
+  SENT: Similarly, application of the same dsRNA by spray (SIGS) also protects barley from Fg infection (Koch et al., 2016).
+  SENT: While a great number of studies have been published on HIGS‐mediated silencing of target genes in pathogenic fungi (e.g.
+  SENT: Andrade et al., 2016; Chen et al., 2016; Cheng et al., 2015; Hu et al., 2015; Koch et al., 2013; Panwar et al., 2013; Pliego et al., 2013; Thakare et al., 2017; Zhu et al., 2018; for review see Cai et al., 2018a), targeted gene silencing through exogenously applied dsRNA has been successful in a few additional studies:
+  -- TABLE 1: Growth inhibition of Fusarium graminearum in different RNAi‐based silencing setups shown as reduction in % of the infected leaf area
+    |  | CYP‐A | CYP‐B | CYP‐C | CYP‐AC | CYP‐BC | CYP‐AB | CYP3RNA |
+    | HIGS (Arabidopsis) | 57% | 66% | 31% | 63% | 51% | 60% | 57% |
+    | HIGS (barley) | 7% | 40% | 9% | 39% | 62% | 53% | na |
+    | SIGS (barley) | 80% | 78% | 82% | 83% | 88% | 84% | 93% |
+
+==================== PMC5063301 ( et al., 2016; DOI: 10.1371/journal.ppat.1005901) ====================
+TITLE: An RNAi-Based Control of Fusarium graminearum Infections Through Spraying of Long dsRNAs Involves a Plant Passage and Is Controlled by the Fungal Silencing Machinery
+ABSTRACT: AbstractMeeting the increasing food and energy demands of a growing population will require the development of ground-breaking strategies that promote sustainable plant production. Host-induced gene silencing has shown great potential for controlling pest and diseases in crop plants. However, while delivery of inhibitory noncoding double-stranded (ds)RNA by transgenic expression is a promising concept, it requires the generation of transgenic crop plants which may cause substantial delay for application strategies depending on the transformability and genetic stability of the crop plant species. Using the agronomically important barley—Fusarium graminearum pathosystem, we alternatively demonstrate that a spray application of a long noncoding dsRNA (791 nt CYP3-dsRNA), which targets the three fungal cytochrome P450 lanosterol C-14α-demethylases, required for biosynthesis of fungal ergoste
+  SENT: Using the agronomically important barley—Fusarium graminearum pathosystem, we alternatively demonstrate that a spray application of a long noncoding dsRNA (791 nt CYP3-dsRNA), which targets the three fungal cytochrome P450 lanosterol C-14α-demethylases, required for biosynthesis of fungal ergosterol, inhibits fungal gr
+  SENT: Unexpectedly, efficient spray-induced control of fungal infections in the distal tissue involved passage of CYP3-dsRNA via the plant vascular system and processing into small interfering (si)RNAs by fungal DICER-LIKE 1 (FgDCL-1) after uptake by the pathogen.
+  SENT: Given the ease of design, high specificity, and applicability to diverse pathogens, the use of target-specific dsRNA as an anti-fungal agent offers unprecedented potential as a new plant protection strategy.Author SummaryRNA interference has emerged as a powerful genetic tool for scientific research.
+  SENT: We show that spraying barley with a 791 nt long dsRNA (CYP3-dsRNA) targeting the three fungal ergosterol biosynthesis genes (CYP51A, CYP51B, CYP51C), whose respective proteins also are known as azole fungicide targets, efficiently inhibited the necrotrophic fungus Fusarium graminearum in directly sprayed and systemic l
+  SENT: Strong inhibition of fungal growth required an operational fungal RNA interference mechanism as demonstrated by the fact that a Fusarium DICER-LIKE-1 mutant was insensitive to CYP3-dsRNA in systemic, non-sprayed leaf areas.
+  SENT: DMI fungicides, such as tebuconazole, triadimefon, and prochloraz inhibit ergosterol biosynthesis by binding to cytochrome P450 lanosterol C-14 α-demethylase (CYP51), thereby disrupting fungal membrane integrity [6].
+  SENT: Indeed, expression of inhibitory dsRNAs in the corresponding host plant conferred protection from predation or infection by targeted gene silencing [16–18], a phenomenon that has been termed host-induced gene silencing (HIGS).Recently, we demonstrated that in Arabidopsis (Arabidopsis thaliana) and barley (Hordeum vulga
+  SENT: Here we investigate the potential and the mechanism of an RNAi-based crop protection strategy using direct spray applications of CYP3-dsRNA to target F.
+  SENT: We show that the 791 nt long dsRNA is taken up by the plant and transferred in an unmodified form via the vascular system to fungal infection sites where it is processed by the fungal RNAi machinery as a prerequisite for its antifungal activity.
+  SENT: We show a strong correlation between accumulation of CYP3-dsRNA at infection sites, silencing of CYP51 expression, and fungal inhibition.ResultsSpray-induced gene silencing (SIGS) of Fusarium genesTo provide a proof of concept, we conducted an experiment targeting the expression of the jellyfish green fluorescent prote
+  SENT: graminearum strain Fg-IFA65GFP [20] by using a GFP-specific 720 nt long dsRNA (GFP-dsRNA, S1 Fig).
+  SENT: Detached barley leaves were locally sprayed with 20 ng μL-1 GFP-dsRNA or Tris-EDTA buffer (TE, control) and drop-inoculated 48 h later with Fg-IFA65GFP in the distal (non-sprayed) leaf segment.
+  SENT: In contrast, fluorescence (Fig 1B) and GFP transcripts (Fig 1C) were largely absent in mycelia grown on leaves that were locally sprayed with GFP-dsRNA, although mycelial growth was unrestricted as evidenced by light microscopy.
+  SENT: This observation clearly demonstrates the possibility of targeting a gene of an attacking microbe via SIGS.Fig 1(A-C) Spray-induced gene silencing (SIGS) of GFP expression in Fusarium graminearum strain Fg-IFA65GFP.Detached second leaves of three-week-old barley plants were locally sprayed with Tris-EDTA (TE, A, contro
+
+==================== PMC8428832 (Qiao, Lan et al., 2021; DOI: 10.1111/pbi.13589) ====================
+TITLE: Spray-induced gene silencing for disease control is dependent on the efficiency of pathogen RNA uptake
+ABSTRACT: SummaryRecent discoveries show that fungi can take up environmental RNA, which can then silence fungal genes through environmental RNA interference. This discovery prompted the development of Spray-Induced Gene Silencing (SIGS) for plant disease management. In this study, we aimed to determine the efficacy of SIGS across a variety of eukaryotic microbes. We first examined the efficiency of RNA uptake in multiple pathogenic and non-pathogenic fungi, and an oomycete pathogen. We observed efficient double-stranded RNA (dsRNA) uptake in the fungal plant pathogens Botrytis cinerea, Sclerotinia sclerotiorum, Rhizoctonia solani, Aspergillus niger and Verticillium dahliae, but no uptake in Colletotrichum gloeosporioides, and weak uptake in a beneficial fungus, Trichoderma virens. For the oomycete plant pathogen, Phytophthora infestans, RNA uptake was limited and varied across different cell type
+  SENT: This discovery prompted the development of Spray-Induced Gene Silencing (SIGS) for plant disease management.
+  SENT: We first examined the efficiency of RNA uptake in multiple pathogenic and non-pathogenic fungi, and an oomycete pathogen.
+  SENT: We observed efficient double-stranded RNA (dsRNA) uptake in the fungal plant pathogens Botrytis cinerea, Sclerotinia sclerotiorum, Rhizoctonia solani, Aspergillus niger and Verticillium dahliae, but no uptake in Colletotrichum gloeosporioides, and weak uptake in a beneficial fungus, Trichoderma virens.
+  SENT: For the oomycete plant pathogen, Phytophthora infestans, RNA uptake was limited and varied across different cell types and developmental stages.
+  SENT: Topical application of dsRNA targeting virulence-related genes in pathogens with high RNA uptake efficiency significantly inhibited plant disease symptoms, whereas the application of dsRNA in pathogens with low RNA uptake efficiency did not suppress infection.
+  SENT: Our results have revealed that dsRNA uptake efficiencies vary across eukaryotic microbe species and cell types.
+  SENT: The success of SIGS for plant disease management can largely be determined by the pathogen’s RNA uptake efficiency.spray-induced gene silencingsmall RNARNA interferencedouble-stranded RNAuptake efficiencypmc-status-qastatus0pmc-status-liveyespmc-status-embargonopmc-status-releasedyespmc-prop-open-accessyespmc-prop-olfn
+  SENT: Cross-kingdom RNAi can be utilized in plant protection strategies by genetically modifying host plants to express sRNAs or double-stranded RNAs (dsRNAs) that target pathogen virulence-related genes, a technology called host-induced gene silencing (HIGS) (Cai et al., 2019; Song and Thomma, 2018; Wang et al., 2017a; Zhan
+  SENT: However, the application of HIGS is limited due to the lack of efficient transformation techniques in many crop plants, including many fruit trees, vegetables and flowers (Capriotti et al., 2020; Koch and Kogel, 2014).
+  SENT: These discoveries prompted the development of an innovative crop protection strategy, Spray-Induced Gene Silencing (SIGS).
+  SENT: As a non-GMO alternative to HIGS, SIGS inhibits pathogen infection by topical application of dsRNA or sRNA molecules onto plants to silence pathogen virulence-related genes (Song et al., 2018; Wang and Jin, 2017).
+  SENT: SIGS has been successfully utilized to prevent some fungal diseases.
+  SENT: Topical application of dsRNAs and sRNAs that target the key components of the RNAi machinery, Dicer-like (DCL)1 and DCL2 genes of the fungal pathogen Botrytis cinerea inhibits grey mould disease on fruits, vegetables and flowers (Wang et al., 2016).
+
+==================== PMC5040644 (Wang, Weiberg et al., 2016; DOI: 10.1038/nplants.2016.151) ====================
+TITLE: Bidirectional cross-kingdom RNAi and fungal uptake of external RNAs confer plant protection
+ABSTRACT: Aggressive fungal pathogens such as Botrytis and Verticillium spp. cause severe crop losses worldwide. We recently discovered that Botrytis cinerea delivers small RNAs (Bc-sRNAs) into plant cells to silence host immunity genes. Such sRNA effectors are mostly produced by B. cinerea Dicer-like protein 1 (Bc-DCL1) and Bc-DCL2. Here we show that expressing sRNAs that target Bc-DCL1 and Bc-DCL2 in Arabidopsis and tomato silences Bc-DCL genes and attenuates fungal pathogenicity and growth, exemplifying bidirectional cross-kingdom RNAi and sRNA trafficking between plants and fungi. This strategy can be adapted to simultaneously control multiple fungal diseases. We also show that Botrytis can take up external sRNAs and double-stranded RNAs (dsRNAs). Applying sRNAs or dsRNAs that target Botrytis DCL1 and DCL2 genes on the surface of fruits, vegetables, and flowers significantly inhibits gray mold
+  SENT: Nat PlantsNat Plants319nihpa101651677Nature plants2055-0278pmc-is-collection-domainyespmc-collection-titleNIHPA Author ManuscriptsPMC5040644PMC5040644.150406445040644NIHMS8145082764363510.1038/nplants.2016.151NIHMS814508NIHPA8145081ArticleBidirectional cross-kingdom RNAi and fungal uptake of external RNAs confer plant 
+  SENT: Here we show that expressing sRNAs that target Bc-DCL1 and Bc-DCL2 in Arabidopsis and tomato silences Bc-DCL genes and attenuates fungal pathogenicity and growth, exemplifying bidirectional cross-kingdom RNAi and sRNA trafficking between plants and fungi.
+  SENT: Such pathogen gene-targeting RNAs represent a new generation of environmentally-friendly fungicides.pmc-status-qastatus0pmc-status-liveyespmc-status-embargonopmc-status-releasedyespmc-prop-open-accessyespmc-prop-olfnopmc-prop-manuscriptyespmc-prop-open-manuscriptyespmc-prop-legally-suppressednopmc-prop-has-pdfyespmc-pr
+  SENT: Mature sRNAs are loaded into Argonaute (AGO) proteins and induce silencing of genes with fully or partially complementary sequences3,4.
+  SENT: These pathogen sRNAs mediate cross-kingdom RNAi in plant hosts and represent a novel class of pathogen effectors that inhibit host immunity for successful infection6,7.
+  SENT: However, it is still not clear how many pathogens and pests have evolved this novel pathogenic mechanism.While we have demonstrated sRNA trafficking from fungal pathogens to host plants, others have observed that plant transgene-derived artificial sRNAs can induce gene silencing in certain interacting insects13,14, nem
+  SENT: cinerea-plant interactions and to find a way to protect plants from gray mold disease, we first reasoned that generating HIGS plants producing artificial, traceable sRNAs that target virulence genes in B.
+  SENT: cinerea genome encodes two DCL genes, Bc-DCL1 and Bc-DCL2 (Bc-DCL1/2).
+  SENT: 1b), pointing to the existence of DCL-independent sRNA biogenesis pathways in B.
+  SENT: cinerea, these results show that Bc-DCL1/2 are ideal targets for testing whether HIGS would be an efficient strategy for controlling gray mold disease and whether cross-kingdom RNAi in the opposite direction from the plant host to B.
+  SENT: We avoided the conserved functional domains to eliminate any off-target effects on DCL genes in plants or other organisms.
+  SENT: These selected Bc-DCL DNA regions have only 3.5% to 4.8% sequence homology to Arabidopsis DCLs (Supplementary Fig.
+
+==================== PMC7072719 ( et al., 2020; DOI: 10.3390/biom10020200) ====================
+TITLE: Double-Stranded RNAs (dsRNAs) as a Sustainable Tool against Gray Mold (Botrytis cinerea) in Grapevine: Effectiveness of Different Application Methods in an Open-Air Environment
+ABSTRACT: AbstractGrapevine is one of the most important and globally widespread fruit species, with a high impact on the economy of many countries but with an intense environmental effect. Therefore, new environmentally friendly defense strategies against fungal pathogens are needed for more sustainable agriculture. A novel emerging approach is spray-induced gene silencing (SIGS), which concerns the exogenous application of double-stranded RNA (dsRNA) inducing enhanced plant resistance against fungal pathogens. Here, we tested the ability of SIGS to prevent and counteract infection of Botrytis cinerea, one of the most economically impacting pathogens of grapevine. In particular, we tested three independent approaches for dsRNA delivery into plants: (i) high pressure spraying of leaves; (ii) petiole adsorption of dsRNAs; (iii) postharvest spraying of bunches. We demonstrated that independently fro
+  SENT: A novel emerging approach is spray-induced gene silencing (SIGS), which concerns the exogenous application of double-stranded RNA (dsRNA) inducing enhanced plant resistance against fungal pathogens.
+  SENT: Here, we tested the ability of SIGS to prevent and counteract infection of Botrytis cinerea, one of the most economically impacting pathogens of grapevine.
+  SENT: In particular, we tested three independent approaches for dsRNA delivery into plants: (i) high pressure spraying of leaves; (ii) petiole adsorption of dsRNAs; (iii) postharvest spraying of bunches.
+  SENT: Thus, the present data provide crucial information on the possibility to exploit SIGS as an alternative sustainable and ecofriendly strategy for grapevine pre- and postharvest protection.Keywords: dsRNA, spray induced gene silencing, plant protection, sustainability, grapevine, Vitis vinifera, Botrytis cinereastatusrel
+  SENT: cinerea [12].One of the most intriguing processes involved in plant defense was discovered more than 20 years ago by Fire and Mello, who described the gene-silencing mechanism of eukaryotes, naming it RNA interference (RNAi) [13].
+  SENT: The system is based on the recognition of double-stranded RNA (dsRNA) molecules, which lead to the so called post-transcriptional gene silencing (PTGS) by degradation of the target messenger RNA (mRNA) [13].
+  SENT: This result was also confirmed by further experiments in which transgenic plants with impaired RNAi machinery displayed lower susceptibility, as well as mutant fungal strains for two proteins involved in sRNAs processing displaying lower virulence [17].The possibility to exploit the silencing machinery for plant protec
+  SENT: Recent works have demonstrated that the RNA spraying method, called spray-induced gene silencing (SIGS), is effective in controlling fungal pathogens [26,27].
+  SENT: Specific restriction enzyme digestion was then performed with PstI (Thermo Fisher Scientifc, MA, USA) to clone the PCR amplicon into plasmid L4440, which contains a double and convergent T7 promoter to produce dsRNA (Addgene plasmid #1654) [33].
+  SENT: Specific primers were designed to amplify a 376 bp amplicon from the pCBCT plasmid (Table S1).
+  SENT: RNA obtained was treated with DNaseI (Thermo Fisher Scientifc, Waltham, MA, USA) and dsRNA integrity was checked with a 1% agarose gel.
+  SENT: To quantify the amount of dsRNA, a weighted ladder was used (HyperLadder™ Molecular Weight Markers, Bioline, UK) (Supplementary Figure S1).2.3.
+
+==================== PMC8710829 (Duanis‐Assaf, Galsurker et al., 2021; DOI: 10.1111/pbi.13708) ====================
+TITLE: Double‐stranded RNA targeting fungal ergosterol biosynthesis pathway controls Botrytis cinerea and postharvest grey mould
+ABSTRACT: SummaryPathogenic fungi cause major postharvest losses. During storage and ripening, fruit becomes highly susceptible to fungi that cause postharvest disease. Fungicides are effective treatments to limit disease. However, due to increased public concern for their possible side effects, there is a need to develop new strategies to control postharvest fungal pathogens. Botrytis cinerea, a common postharvest pathogen, was shown to uptake small double‐stranded RNA (dsRNA) molecules from the host plant. Such dsRNA can regulate gene expression through the RNA interference system. This work aimed to develop a synthetic dsRNA simultaneously targeting three essential transcripts active in the fungal ergosterol biosynthesis pathway (dsRNA‐ERG). Our results show initial uptake of dsRNA in the emergence zone of the germination tube that spreads throughout the fungus and results in down‐regulation of
+  SENT: pmcPlant Biotechnol JPlant Biotechnol J4638plantbioj101201889PBIPlant Biotechnology Journal1467-76441467-7652WileyPMC8710829PMC8710829.28710829113829403452061110.1111/pbi.13708PBI137082Research ArticleResearch ArticlesDouble‐stranded RNA targeting fungal ergosterol biosynthesis pathway controls Botrytis cinerea and pos
+  SENT: Botrytis cinerea, a common postharvest pathogen, was shown to uptake small double‐stranded RNA (dsRNA) molecules from the host plant.
+  SENT: Such dsRNA can regulate gene expression through the RNA interference system.
+  SENT: This work aimed to develop a synthetic dsRNA simultaneously targeting three essential transcripts active in the fungal ergosterol biosynthesis pathway (dsRNA‐ERG).
+  SENT: Our results show initial uptake of dsRNA in the emergence zone of the germination tube that spreads throughout the fungus and results in down‐regulation of all three targeted transcripts.
+  SENT: Application of dsRNA‐ERG decreased B.
+  SENT: While dual treatment with dsRNA‐ERG and ergosterol‐inhibitor fungicide reduced by 100‐fold the required amount of fungicide to achieve the same protection rate.
+  SENT: The application of dsRNA‐ERG induced systemic protection as shown by decreased decay development at inoculation points distant from the treatment point in tomato and pepper fruits.
+  SENT: Overall, this study suggests that dsRNA‐ERG can effectively control B.
+  SENT: RNAi is based on the cellular recognition of double‐stranded RNA (dsRNA) molecules that leads to sequence‐specific degradation or interference of translation of a target messenger RNA (mRNA; Hua et al., 2018; Voinnet, 2008).
+  SENT: In plants, dsRNA regulatory systems were found to be involved in endogenous gene regulation as well as in plant–pathogen interactions.
+  SENT: Alternatively, spray‐induced gene silencing (SIGS), where the dsRNA is externally applied on the plant parts such as leaves, branches or fruit was also shown to be effective (Koch et al., 2016; Wang et al., 2016).
+  SENT: Several studies have demonstrated how direct application of dsRNA, using SIGS targeting virulence genes (e.g.
+
+==================== PMC7680546 (Wang, Wu et al., 2020; DOI: 10.1111/pbi.13401) ====================
+TITLE: Host‐induced gene silencing of multiple genes of Fusarium graminearum enhances resistance to Fusarium head blight in wheat
+ABSTRACT: 
+  SENT: Recently, a RNA interference (RNAi)‐based approach called host‐induced gene silencing (HIGS) has been developed to control fungal diseases, where small interference RNAs (siRNAs) that match important genes of the invading pathogen are produced by transgenic host plants to silence fungal genes during infection (Machado 
+  SENT: graminearum was first demonstrated by Koch et al., in which detached leaves of both transgenic Arabidopsis and barley plants expressing double‐stranded RNA (dsRNA) from cytochrome P450 lanosterol C‐14α‐demethylase genes exhibit elevated resistance to F.
+  SENT: These data suggest that the HIGS strategy is valuable for developing FHB‐resistant wheat cultivars.
+  SENT: However, DON is a secondary metabolite, and there are few reports on utilization of the HIGS technology for management of secondary metabolism.
+  SENT: In this study, we evaluated the potential of HIGS for development of transgenic wheat plants against both FHB and DON contamination by simultaneously silencing three genes of F.
+  SENT: Here, FgSGE1 (also named as FGP1, locus FGSG_12164) encoding a critical regulator controlling DON biosynthesis (Jonkers et al., 2012), FgSTE12 (locus FGSG_07310) encoding a key transcriptional factor for penetration structure formation in planta (Gu et al., 2015) and FgPP1 (locus FGSG_07233) encoding an essential phosp
+  SENT: To design a chimeric hairpin RNAi construct that could simultaneously silence three target genes (Figure 1a), a tandem DNA fragment containing a 243‐bp partial FgSGE1‐coding region, a 233‐bp partial FgSTE12‐coding region and a 224‐bp partial FgPP1‐coding region (Figure 1b) was constructed and inserted into pSilent‐1 ve
+  SENT: graminearum, which inspired us to develop FHB‐resistant wheat through the HIGS technology.Figure 1HIGS of chimeric FgSGE1‐STE12‐PP1 results in strong resistance to Fusarium head blight.
+  SENT: Collectively, the HIGS transgenic wheat plants expressing chimeric FgSGE1‐STE12‐PP1 RNAi construct increased resistance to FHB and inhibited DON biosynthesis during the fungal infection.To further confirm that silencing of the three target genes in infected F.
+  SENT: The lengths of siRNAs mapped to any of the three genes in transgenic lines L2 and L4 were distributed between 18 and 30 bp, wherein 21 bp was the most abundant, followed by 22‐bp and 24‐bp (Figure 1k).
+  SENT: graminearum.In summary, our results suggest that HIGS targeting multiple genes involved in both primary and secondary metabolisms of the fungus is effective and can be used as an alternative approach for developing FHB and mycotoxin resistant crops.Conflict of interestThe authors declare no conflict of interest.Author 
+
+==================== PMC7214474 (Hu, Chen et al., 2020; DOI: 10.1111/mpp.12931) ====================
+TITLE: Reduction of Phakopsora pachyrhizi infection on soybean through host‐ and spray‐induced gene silencing
+ABSTRACT: AbstractAsian soybean rust (ASR), caused by the obligate fungal pathogen Phakopsora pachyrhizi, often leads to significant yield losses and can only be managed through fungicide applications currently. In the present study, eight urediniospore germination or appressorium formation induced P. pachyrhizi genes were investigated for their feasibility to suppress ASR through a bean pod mottle virus (BPMV)‐based host‐induced gene silencing (HIGS) strategy. Soybean plants expressing three of these modified BPMV vectors suppressed the expression of their corresponding target gene by 45%–80%, fungal biomass accumulation by 58%–80%, and significantly reduced ASR symptom development in soybean leaves after the plants were inoculated with P. pachyrhizi, demonstrating that HIGS can be used to manage ASR. In addition, when the in vitro synthesized double‐stranded RNAs (dsRNAs) for three of the genes 
+  SENT: pachyrhizi genes were investigated for their feasibility to suppress ASR through a bean pod mottle virus (BPMV)‐based host‐induced gene silencing (HIGS) strategy.
+  SENT: pachyrhizi infection in soybean through both HIGS and spray‐induced gene silencing.
+  SENT: pachyrhizi genes or direct dsRNA spray application could be an effective strategy for reducing ASR development on soybean.Double‐stranded RNA either produced inside soybean through a modified bean pod mottle virus or sprayed directly on soybean leaves reduced Phakopsora pachyrhizi infection and soybean rust disease.
+  SENT: pachyrhizi, recent advances in RNA interference (RNAi) offer another possibility of managing fungal diseases via host‐induced gene silencing (HIGS).
+  SENT: HIGS is an RNAi‐based approach in which small interfering RNAs (siRNAs) homologous to genes of fungal origin are produced in the host plant and subsequently silence their targets in the pathogen during its infection of the host plant (Nowara et al., 2010).
+  SENT: In the past several years, HIGS has been shown to be an effective alternative to fungicide applications in managing various plant diseases, such as reducing powdery mildew on barley and wheat through targeting the Avra10 effector of Blumeria graminis f.
+  SENT: cubense genes (Ghag et al., 2014), or aflatoxin contamination in maize by expressing a HIGS construct targeting the Aspergillus flavus aflC gene (Thakare et al., 2017; Sharma et al., 2018) or aflM gene (Raruang et al., 2020).In addition, several studies have demonstrated that direct double‐stranded RNA (dsRNA) applicat
+  SENT: (2018) demonstrated exogenously applied dsRNA protected plants against Sclerotinia sclerotiorum and B.
+  SENT: The main objectives of this study were to determine whether genes involved in urediniospore germination or appressorium formation can be used to manage ASR through HIGS, and to examine the effectiveness of the dsRNAs for three of the genes in ASR reduction through spray‐induced gene silencing (SIGS).
+  SENT: pachyrhizi were cloned into a BPMV‐based HIGS vector system and introduced into soybean through biolistic and rubbing inoculation.
+  -- TABLE 1: List of candidate genes from Phakopsora pachyrhizi and primers used to construct HIGS vectors
+    | Candidate gene | Accession no. | Putative function | Primer sequence | Amplicon size (bp) |
+    | ATC | EH237261.1 | Acetyl‐CoA acyltransferase | Forward | CGCGGATCCGGAAATGCGTCGCAAGTG | 351 |
+    | Reverse | CGCGGATCCCTATCTCCTCCTTTCTAAT |
+    | UN_1 | EH249765.1 | Hypothetical protein | Forward | CGCGGATCCAGAGACGAAGTCTTCCGT | 202 |
+    | Reverse | CGCGGATCCATAGGAATGCCTAAGGGA |
+    | UN_2 | EH249689.1 | Hypothetical protein | Forward | CGCGGATCCTTGTGGCTATCGGCTGTGT | 192 |
+    | Reverse | CGCGGATCCTTTGAGCTGAATTGCGACA |
+    | UN_3 | EH236143.1 | Hypothetical protein | Forward | CGCGGATCCAGCTTGCTCAAGAGAGTG | 275 |
+    | Reverse | CGCGGATCCAGCCAGCTCTCCAGGCTT |
+    | GCS_H | EH229082.1 | Glycine cleavage system H protein | Forward | CGCGGATCCGATCAGAAGTCCGGCAACGA | 304 |
+    | Reverse | CGCGGATCCTGATGCCGCTTTGACATCCT |
+    | RP_S16 | EH249914.1 | 40S ribosomal protein S16 | Forward | CGCGGATCCTAGGTCCCGGTGTAGATGGG | 319 |
+    | Reverse | CGCGGATCCAGGATTGGAAAGGCCAGGAA |
+    | CRP_6 | DN739834.1 | Conidiation‐related protein 6 | Forward | CGCGGATCCTTGCAAGGACGGAAAGGGTT | 257 |
+    | Reverse | CGCGGATCCCTTGGGTTCCATTCTCCGGG |
+    | PHR | JK650639.1 | Putative 3‐hydroxy‐3‐methylglutaryl‐coenzyme A reductase | Forward | CGCGGATCCCTAGTCTCTTATGGCGGCGG | 326 |
+    | Reverse | CGCGGATCCGCGTTTGCTTGTCGTTCAGT |
+  -- TABLE 2: Number of small RNA reads matched to the intended target sequences in each of the libraries
+    | Libraries sequenced a | Number of reads aligned to reference sequences b |
+    | BPMV | ATC | GCS_H | RP_S16 |
+    | WT | 552 | 2 | 4 | 1 |
+    | BPMV:EV | 388,893 | 2 | 2 | 1 |
+    | BPMV:ATC | 47,517 | 1,562 | 1 | 1 |
+    | BPMV:GCS_H | 44,721 | 5 | 3,146 | 1 |
+    | BPMV:RP_S16 | 84,249 | 1 | 2 | 1,889 |
+  -- TABLE 3: List of primers used for real‐time quantitative reverse transcription PCR and in vitro double stranded RNA synthesis
+    | Gene product | Primer name and sequence (5ʹ–3ʹ) | Amplicon size (bp) |
+    | Glycine max Ubiquitin‐3 | U3F | GTGTAATGTTGGATGTGTTCCC | 107 |
+    | U3R | ACACAATTGAGTTCAACACAAACCG |
+    | P. pachyrhizi α‐tubulin | TUBF | CCAAGGCTTCTTCGTGTTTCA | 67 |
+    | TUBR | CAAGAGAAGAGCGCCAAACC |
+    | TaqMan probe | 5ʹ FAM–3ʹ Blackhole1 | TCGTTTGGAGGCGGATCGGTTCA |  |
+    | CytB_1_F | TCAAGACGCATCCAATTCTAGGTC | 89 |
+    | CytB_1_R | GTGTTACACCCGTGATAATCTGAATGAT |
+    | PPATC_F | GAGGAGCTGCAAATGGGTGA | 115 |
+    | PPATC_R | GAATGGGGATGGCAGCATCA |
+    | PP_Un_3_F | CGGATCTCAGGATCTCACACG | 91 |
+    | PP_Un_3_R | GCCAGCTCTCCAGGCTTAAA |
+    | PP_GCS_H_F | AGCCGTCGAGAGTGTCAAAG | 110 |
+    | PP_GCS_H_R | AGATTGGCCTGGTCGCTTAG |
+    | PP_RP_S16_F | AAATTTGGAGGAAAGGGAGCACG | 89 |
+    | PP_RP_S16_R | ACAGCAGGAAATAAAAACCCAAACC |
+    | P. pachyrhizi ATC dsRNA | ATC_T7_F | GCGTAATACGATCCATCATAGGGAGAGTTTCCATCGATGATGGCATTC | 741 |
+    | ATC_T7_R | GCGTAATACGATCCATCATAGGGAGA CTAGCAAGCCAAACCATAAGC |
+    | P. pachyrhizi GCS_H dsRNA | GCS_H_T7_F | GCGTAATACGATCCATCATAGGGAGAAAACCATCGTAATCTGCCCG | 420 |
+    | GCS_H_T7_R | GCGTAATACGATCCATCATAGGGAGATCCTCTCCTTCACAATGAGCT |
+    | P. pachyrhizi RP_S16 dsRNA | RP_S16_T7_F | GCGTAATACGATCCATCATAGGGAGACCAGCCTCACAAAACGTTCA | 500 |
+    | RP_S16_T7_R | GCGTAATACGATCCATCATAGGGAGAAACCCAAACCTCCATCAACG |
+
+==================== PMC7391711 (Wytinck, Sullivan et al., 2020; DOI: 10.1038/s41598-020-69771-9) ====================
+TITLE: Clathrin mediated endocytosis is involved in the uptake of exogenous double-stranded RNA in the white mold phytopathogen Sclerotinia sclerotiorum
+ABSTRACT: RNA interference (RNAi) technologies have recently been developed to control a growing number of agronomically significant fungal phytopathogens, including the white mold pathogen, Sclerotinia sclerotiorum. Exposure of this fungus to exogenous double-stranded RNA (dsRNA) results in potent RNAi-mediated knockdown of target genes’ transcripts, but it is unclear how the dsRNA can enter the fungal cells. In nematodes, specialized dsRNA transport proteins such as SID-1 facilitate dsRNA uptake, but for many other eukaryotes in which the dsRNA uptake mechanisms have been examined, endocytosis appears to mediate the uptake process. In this study, using live cell imaging, transgenic fungal cultures and endocytic inhibitors, we determined that the uptake mechanism in S. sclerotiorum occurs through clathrin-mediated endocytosis. RNAi-mediated knockdown of several clathrin-mediated endocytic genes’ 
+  SENT: Sci RepSci Rep1579scirep101563288Scientific Reports2045-2322Nature Publishing GroupPMC7391711PMC7391711.1739171173917113272819510.1038/s41598-020-69771-9697711ArticleClathrin mediated endocytosis is involved in the uptake of exogenous double-stranded RNA in the white mold phytopathogen Sclerotinia sclerotiorumWytinckNi
+  SENT: Exposure of this fungus to exogenous double-stranded RNA (dsRNA) results in potent RNAi-mediated knockdown of target genes’ transcripts, but it is unclear how the dsRNA can enter the fungal cells.
+  SENT: In nematodes, specialized dsRNA transport proteins such as SID-1 facilitate dsRNA uptake, but for many other eukaryotes in which the dsRNA uptake mechanisms have been examined, endocytosis appears to mediate the uptake process.
+  SENT: In this study, using live cell imaging, transgenic fungal cultures and endocytic inhibitors, we determined that the uptake mechanism in S.
+  SENT: RNAi-mediated knockdown of several clathrin-mediated endocytic genes’ transcripts confirmed the involvement of this cellular uptake process in facilitating RNAi in this fungus.
+  SENT: Understanding the mode of dsRNA entry into the fungus will prove useful in designing and optimizing future dsRNA-based control methods and in anticipating possible mechanisms by which phytopathogens may develop resistance to this novel category of fungicides.Subject termsEndocytosisRNAiPlant sciencespmc-status-qastatus
+  SENT: This so-called host-induced gene silencing (HIGS) has been observed to provide effective protection in tobacco8,9, cotton10, banana11, barley and wheat12,13.
+  SENT: While HIGS can provide a consistent level of resistance for these plants, the requirement for the development of transformation protocols for each plant species, as well as the public’s perception of genetically modified organisms may limit its application in many commercial crops14.A more versatile dsRNA delivery syst
+  SENT: In that study, SIGS was used to deliver to barley plants a dsRNA molecule that simultaneously targeted three Fusarium cytochrome P450 lanosterol C-14-α demethylase genes' tanscripts.
+  SENT: This dsRNA was effective at knocking down the three mRNA targets and significantly reduced pathogen growth on the host plant.
+  SENT: Interestingly, the topically-applied dsRNA appeared to spread over and through the barley leaves; the molecules were detected within the plant’s vasculature and as such, Fusarium’s conidial germination was also inhibited on unsprayed distal portions of the leaves.
+  SENT: Wang et al.16 designed dsRNA molecules to target the Dicer-like (DCL) 1/2 transcripts in this fungus, which reduced production of small RNAs that inhibit host plant defense genes17.
+
+==================== PMC6465682 ( et al., 2019; DOI: 10.3389/fpls.2019.00433) ====================
+TITLE: Host-Induced Gene Silencing of MoAP1 Confers Broad-Spectrum Resistance to Magnaporthe oryzae
+ABSTRACT: AbstractRice blast caused by Magnaporthe oryzae (M. oryzae) is a major threat to global rice production. In recent years, small interference RNAs (siRNAs) and host-induced gene silencing (HIGS) has been shown to be new strategies for the development of transgenic plants to control fungal diseases and proved a useful tool to study gene function in pathogens. We here tested whether in vitro feeding artificial siRNAs (asiRNAs) could compromise M. oryzae virulence and in vivo HIGS technique could improve rice blast resistance. Our data revealed that silencing of M. oryzae MoAP1 by feeding asiRNAs targeting MoAP1 (i.e., asiR1245, asiR1362, and asiR1115) resulted in inhibited fungal growth, abnormal spores, and decreased pathogenicity. Among the asiRNAs, asiR1115 was the most inhibitory toward the rice blast fungus. Conversely, the asiRNAs targeting three other genes (i.e., MoSSADH, MoACT, and
+  SENT: In recent years, small interference RNAs (siRNAs) and host-induced gene silencing (HIGS) has been shown to be new strategies for the development of transgenic plants to control fungal diseases and proved a useful tool to study gene function in pathogens.
+  SENT: Our results demonstrate that in vitro asiRNA and in vivo HIGS were useful protection approaches that may be valuable to enhance rice blast resistance.Keywords: host-induced gene silencing, rice blast, small interfering RNA, MoAP1, resistancestatusreleaseddisplay-pdfyesis-olfnois-manuscriptnois-preprintnois-journal-matt
+  SENT: This process typically involves the cleavage of a double-stranded RNA (dsRNA) into small-interfering RNA (siRNA) homologs to a target sequence for the subsequent silencing of the genes containing that sequence.
+  SENT: Especially, the RNAi has been used commercially to engineer virus-resistant plants via the expression of viral sequences as transgenes (Frizzi and Huang, 2010), indicating that the host-induced gene silencing (HIGS) is an RNAi-based technology that emerged as a powerful tool for generating transgenic plants to control 
+  SENT: In recent researches, HIGS has been used to study the rice-M.
+  SENT: (2017) silenced 3 rice blast pathogenicity genes by transient BMV-HIGS system, and indicated that combining introduction of fungal gene sequences in sense and antisense orientation could significantly enhanced the efficiency of BMV-HIGS.
+  SENT: Therefore, disrupting the infection process via HIGS of these genes may result in the weakening or loss of pathogenicity, leading to broad-spectrum rice blast resistance.In this study, we demonstrated that silencing of the M.
+  SENT: Our findings may be relevant for generating new rice lines exhibiting a HIGS-based broad-spectrum resistance to rice blast disease.Materials and MethodsPlant Material and Rice Blast FungusThe indica rice accession Kasalath was used for transgenic analyses.
+  SENT: Images were taken and the lesion area was calculated as the product of the length and width of the lesions.qRT-PCR AssayThree-leaves-stage transgenic rice plants were inoculated with asiR1115-treated (50 and 100 nM) M.
+  SENT: Images were taken and the lesion area was measured as the product of the length and width of the lesion points.Construction of RNAi Vectors and Genetic TransformationThree MoAP1 exon fragments of 242, 255, and 247 bp containing asiR1115, asiR1245, and asiR1362 sequences, respectively, were amplified from M.
+  SENT: The inoculated epidermal layer was excised and analyzed by fluorescence microscopy (Zeiss Axio Imager A2) at 36 hpi.ResultsThe Artificial siRNAs Targeting MoAP1 Effectively Suppressed the Growth of Aerial Hyphae in vitroTo screen a small RNA that could be used in HIGS transgenic analysis, we first tested whether the in
+
+==================== PMC8743017 ( et al., 2021; DOI: 10.1111/mpp.13155) ====================
+TITLE: A novel effector, CsSp1, from Bipolaris sorokiniana, is essential for colonization in wheat and is also involved in triggering host immunity
+ABSTRACT: AbstractThe hemibiotrophic pathogen Bipolaris sorokiniana causes root rot, leaf blotching, and black embryos in wheat and barley worldwide, resulting in significant yield and quality reductions. However, the mechanism underlying the host–pathogen interactions between B. sorokiniana and wheat or barley remains unknown. The B. sorokiniana genome encodes a large number of uncharacterized putative effector proteins. In this study, we identified a putative secreted protein, CsSp1, with a classic N‐terminal signal peptide, that is induced during early infection. A split‐marker approach was used to knock out CsSP1 in the Lankao 9‐3 strain. Compared with the wild type, the deletion mutant ∆Cssp1 displayed less radial growth on potato dextrose agar plates and produced fewer spores, and complementary transformation completely restored the phenotype of the deletion mutant to that of the wild type. 
+  SENT: Transient expression of CsSp1 in Nicotiana benthamiana inhibited lesion formation caused by Phytophthora capsici.
+  SENT: Lesion development is associated with the accumulation of host‐encoded pathogenesis‐related (PR) proteins and reactive oxygen species (ROS) (Ajith et al., 2003).
+  SENT: (b) Lesion lengths on wheat leaves were measured at 3 days postinoculation.
+  SENT: (h) Diseased lesion areas were measured and calculated for the CsSp1 and GFP controls.
+  SENT: (d) Diseased lesion areas were measured and calculated for CsSp1 mutants and the GFP controls.
+  SENT: We concluded that this gene may enhance the immune response of plants and thus inhibit P.
+  SENT: benthamiana could inhibit cell death and promote the colonization of P.
+  SENT: The library was sequenced on an Illumina NovaSeq platform (HiSeq 2500), and 150 bp paired‐end reads were generated.
+  SENT: (2003) Development of a lesion‐mimic phenotype in a transgenic wheat line overexpressing genes for pathogenesis‐related (PR) proteins is dependent on salicylic acid concentration.
+  -- TABLE 1: The predictions for O‐glycosylation sites
+    | Seq name | Residue | GlcNAc | Potential |
+    | N16 | S | + | 0.4481 |
+    | N22 | S | + | 0.4431 |
+    | N26 | T | +++ | 0.5447 |
+    | N29 | S | ++ | 0.4863 |
+    | N45 | T | + | 0.3650 |
+    | N89 | T | +++ | 0.4250 |
+  -- TABLE 2: The primers used in the experiment
+    | Primer | Sequence 5′–3′ | Purpose |
+    | CsSP1‐F1 | GAGGTCGTGGGACTATCTTATAGCCAG | Amplification of upstream fragment of CsSP1 |
+    | CsSP1‐R1 | TTGACCTCCACTAGCTCCAGCCAAGCCTTGAAGTCCGGTACGCTGTGAATGAA |
+    | CsSP1‐F2 | ATAGAGTAGATGCCGACCGCGGGTTCCTAGCAATACCAGATGTAAC | Amplification of downstream fragments of CsSP1 |
+    | CsSP1‐R2 | GATCCCATGGCCTGCTCTAAGA |
+    | CsSP1‐NF | GTGGCTTCCGCACCTGCTACA | Amplification of internal fragment of CsSP1 |
+    | CsSP1‐NR | CTTCTCCGACCCTGGATATTG |
+    | CsSP1‐PF | TTAGCCGCAGATGACCTTG | Generation of knockout mutant |
+    | CsSP1‐PR | CCGCAAGTGCATGGGTGTAAG |
+    | HYG‐F | GGCTTGGCTGGAGCTAGTGGAGGTCAA | Amplification of hygromycin resistance gene |
+    | HY‐R | GTATTGACCGATTCCTTGCGGTCCGAA |
+    | YG‐F | GATGTAGGAGGGCGTGGATATGTCCT |
+    | HYG‐R | GAACCCGCGGTCGGCATCTACTCTAT |
+    | H855R | GCTGATCTGACCAGTTGC |
+    | H856F | GTCGATGCGACGCAATCGT |
+    | PVX‐CsSP1‐F | CACCAGCTAGCATCGATTCCCGGG ATGCGTTTCATCATCTCC | Construction of PVX carrier |
+    | PVX‐CsSP1‐NS‐F | CACCAGCTAGCATCGATTCCCGGGATGGAGGTGGCTTCCGCA |
+    | CsSP1‐GFP‐R | CTCGCCCTTGCTCACCATGGTCCCGCGGTTTGGC |
+    | GFP‐CsSP1‐F | GCCAAACCGCGGGACCATGGTGAGCAAGGGCGAG |
+    | PVX‐GFP‐F | CACCAGCTAGCATCGATTCCCGGGATGGTGAGCAAGGGCGAG |
+    | PVX‐GFP‐R | CGCAATCTCTAGAGGATCCTTGTACAGCTCGTCCAT |
+    | CsSP1‐PYIP‐F | GCTTGATATCGAATTCCTGCAGGATCATTTCCATCATCGCGCT | Construction of PYIP carrier |
+    | CsSP1‐PYIP‐R | GAAAATAAAGATTCTCGGTCCCGCGGTTTGGCTGTTC |
+    | PB‐CsSP1‐F | CATTTACGAACGATAGGGTACCATGCGTTTCATCATCTCCATATTC | Construction of PB carrier |
+    | PB‐CsSP1‐R | GGTAAGGCCTACTAGTGGATCCGGTCCCGCGGTTTGGCTGTTC |
+    | pSUC‐CsSP1‐F | AAGCTCGGAATTTTAATTAAATGCGTTTCATCATCTCCATA | Construction of pSUC carrier |
+    | pSUC‐CsSP1‐R | CGACTCACTATAGGGAGAACGGTCCCGCGGTTTGGCTGTTC |
+    | CsSP1‐QRT2‐F | CAGCTCTTGCATCTGCTA | Expression of CsSP1 |
+    | CsSP1‐QRT2‐R | TCTTCTCCGACCTTGAG |
+    | RT‐Actin‐F | GTATGGGCCAAAAGGACTCA | Internal reference primers of B. sorokiniana |
+    | RT‐Actin‐R | CACGCAGCTCGTTGTAGAAG |
+    | TaPR1‐F | CTGGAGCACGAAGCTGCAG | Expression of PR gene in wheat |
+    | TaPR1‐R | CGAGTGCTGGAGCTTGCAGT |
+    | TaPR2‐F | CTCGACATCGGTAACGACCAG |
+    | TaPR2‐R | GCGGCGATGTACTTGATGTTC |
+
+==================== PMC3391263 ( et al., 2012; DOI: 10.1371/journal.pone.0040564) ====================
+TITLE: Identification of a Polyketide Synthase Required for Alternariol (AOH) and Alternariol-9-Methyl Ether (AME) Formation in Alternaria alternata
+ABSTRACT: Abstract Alternaria alternata produces more than 60 secondary metabolites, among which alternariol (AOH) and alternariol-9-methyl ether (AME) are important mycotoxins. Whereas the toxicology of these two polyketide-based compounds has been studied, nothing is known about the genetics of their biosynthesis. One of the postulated core enzymes in the biosynthesis of AOH and AME is polyketide synthase (PKS). In a draft genome sequence of A. alternata we identified 10 putative PKS-encoding genes. The timing of the expression of two PKS genes, pksJ and pksH, correlated with the production of AOH and AME. The PksJ and PksH proteins are predicted to be 2222 and 2821 amino acids in length, respectively. They are both iterative type I reducing polyketide synthases. PksJ harbors a peroxisomal targeting sequence at the C-terminus, suggesting that the biosynthesis occurs at least partly in these orga
+  SENT: We used both, gene deletion and RNA-silencing strategies to knock-down the function of PKS and other genes in A.
+  -- TABLE 1: Alternaria alternata strains used in this study.
+    | Strain | Genotype | Source |
+    | DSM 12633 | Wildtype | DSMZ (Braunschweig) |
+    | SDS 2 | DSM 12633 transformed with fusion product of pksJ LB::hph:: pksJ RB | This study |
+    | SDS 3 | DSM 12633 transformed with fusion product of pksH LB::hph:: pksH RB | This study |
+    | SDS 6 | DSM 12633 transformed with pDS 25; pSilent:: (p)trpC::pksJ sense::IT:: pskJ antisense:: (t)trpC:: hph | This study |
+    | SDS 7 | DSM 12633 transformed with pDS 23; pSilent:(p)trpC::pksH sense::IT:: pskH antisense:: (t)trpC:: hph | This study |
+    | SDS 8 | DSM 12633 transformed with pDS 88; pSilent::(p)trpC::pksJ transcription factor (altR) sense::IT::pksJ transcription antisense (altR)::(t)trpC, hph | This study |
+    | SDS 9 | DSM 12633 transformed with pDS 72; pSilent::(p)trpC::pksH cytochrome P450 sense::IT::pksH cytochrome P450 antisense::(t)trpC, hph | This study |
+    | SDS10 | DSM 12633 transformed with pDS 70; pSilent::(p)trpC::pksH transferase sense::IT::pksH transferase antisense::(t)trpC, hph | This study |
+    | SDS 11 | DSM 12633 transformed with pDS 81; pSilent::(p)trpC::pksH cyclin sense::IT::pksH Cyclin antisense::(t)trpC, hph | This study |
+    | SDS 12 | DSM 12633 transformes with pDS 74; pSilent::(p)trpC::pksJ dioxygenase sense::IT::pksJ Dioxygenase antisense::(t)trpC, hph | This study |
+    | SDS 13 | DSM 12633 with pDS 78; pSilent::(p)trpC::pksJ Hydrolase sense::IT::pksJ Hydrolase antisense::(t)trpC, hph | This study |
+  -- TABLE 2: Plasmids used in this study.
+    | Plasmid | Construction | Source |
+    | pPk2 | KanR, (p)gpdA, hph- Cassette, (t)trpC | [53] |
+    | pJet1.2/blunt Cloning Vector | Expressionsvector for directional cloning of PCR-products; AmpR, rep (pMB1), eco47IR | Fermentas |
+    | pSilent-1 | gene silencing vector, AmpR, hph | [54] |
+    | pDS23 | Silencing vector of pksH, pSilent::(p)trpC::pksH sense::IT::pksH antisense::(t)trpC, hph | This study |
+    | pDS25 | Silencing vector of pksJ, pSilent::(p)trpC::pksJ sense::IT::pksJ antisense::(t)trpC, hph | This study |
+    | pDS70 | Silencing vector for pksH-transferase, pSilent::(p)trpC::pksH Transferase sense::IT::pksH Transferase antisense::(t)trpC, hph | This study |
+    | pDS72 | Silencing vector for pksH-cytrochome P450, pSilent::(p)trpC::pksH Cytochrome P450 sense::IT::pksJ –Cytochrome P450 antisense::(t)trpC, hph | This study |
+    | pDS74 | Silencing vector for pksJ-dioxygenase, pSilent::(p)trpC::pksJ sense::IT::pksJ –Dioxygenase antisense::(t)trpC, hph | This study |
+    | pDS78 | Silencing vector for pksJ-hydrolase, pSilent::(p)trpC::pksJ sense::IT::pksJ –Hydrolase antisense::(t)trpC, hph | This study |
+    | pDS81 | Silencing vector for pksH cyclin like F-Box domain, pSilent::(p)trpC::pksH Cyclin sense::IT::pksH –Cyclin antisense::(t)trpC, hph | This study |
+    | pDS88 | Silencing vector for pksJ-transcription factor (altR), pSilent::(p)trpC::pksJ Transcription factor sense::IT::pksJ Transcription factor antisense::(t)trpC, hph | This study |
+  -- TABLE 3: Primers used in this study.
+    | Primer name | Sequence |
+    | pksJ deletion |  |
+    | pksJ_LB_fwd_P1 | AGCTCTGCAGGGTAGTCGAAGTCA |
+    | pksJ_P2 | CTTCCAGCCAGACACGGTCC |
+    | pksJ_LB_rv_P3 | gaaattgttatccgctcacaAAGGAATAAGGGTATGCAGTC |
+    | pksJ_RB_fwd_P4 | actggccgtcgttttacaacGATTCGATAGTTAGCACTCTGG |
+    | pksJ_P5 | GTCCGGGGCACTCTCAAG |
+    | pksJ_Rb_rv_P6 | GATAGTTGTGGTTTGGGATATGC |
+    | pksJ_Lb_up_fwd | GTGGGAGCTGGGGGATG |
+    | hyg_gpd_rv | CGAAGACGTGGATCTTAACCAG |
+    | hyg_end_fwd | GTCCGAGGGCAAAGGAATAG |
+    | pksJ_Rb_down_rv | CGCTTACACATTACCATGGTTCTCTAC |
+    | pksH deletion |  |
+    | pksH_LB_fwd_P1 | GTGCCGTAGAGTAACCATTC |
+    | pksH_LB_rv_P3 | gaaattgttatccgctcacaCATCAGCTAGGCGTAAAGAG |
+    | pksH_RB_fwd_P4 | actggccgtcgttttacaacGGCTTATGCATGAATTGCTAATCTTC |
+    | pksH_RB_rv_P6 | GACTTTTCGACTGCAGGTCTC |
+    | pksH_LB_up_fwd | GACTCAATGAAGCCGTCCTTG |
+    | pksH_RB_down_rv | GAGGCGACGAACATGTAGAG |
+    | pksJ RNAi |  |
+    | pksJ_XhoI_fw_N | ctcgagGACTCGATACAGCCATTGCAG |
+    | pksJ_HIndIII_rv | aagcttGTGCCTCCATACCCGAATGAG |
+    | pksJ_KpnI_fw | ggtaccGACTCGATACAGCCATTGCAG |
+    | pksJ_BglII_rv | agatctGTGCCTCCATACCCGAATGAG |
+    | pksJ_RT_fw_N | GTCCCAAATTCCTACCCTCAC |
+    | pksJ_RT_rv__N | GATAGCCATCGAAAGCATTCCC |
+    | pksJ hydrolase RNAi |  |
+    | pksJ_HL_XhoI_fw_N | ctcgagGAACGGCGAGTTGGACTTTG |
+    | pksJ_HL_HindIII_rv | aagcttAACACCCAAACCAGCCACAC |
+    | pksJ_HL_KpnI_fw | ggtaccGAACGGCGAGTTGGACTTTG |
+    | pksJ_HL_BglII_rv_N | agatctAACACCCAAACCAGCCACAC |
+    | pksJ_Hl_RT_fw | ACGCCTTCGCCAATCATCTC |
+    | pksJ_HL_RT_rv | AACACCCAAACCAGCCACAC |
+    | pksJ_dioxygenase RNAi |  |
+    | pksJ_DI_XhoI_fw | ctcgagCATAAGCGTGCTGCTATTGAGAAG |
+  -- TABLE 4: Primers used in this study.
+    | Primer name | Sequence |
+    | pksJ transcription factor RNAi (AltR) |  |
+    | pksJ_Tfact_XhoI_fw | ctcgagGCGCGACGGAAAGTATCTAGGAC |
+    | pksJ_Tfact_HindIII_rv | aagcttGCGGTGTTTGCTCGATACTACC |
+    | pksJ_Tfact_KpnI_fw | ggtaccGCGCGACGGAAAGTATCTAGGAC |
+    | pksJ_Tfact_StuI_rv | aggcttGCGGTGTTTGCTCGATACTACC |
+    | pksJ_TF_RT_fw | CAATCCAATCCAAACGCCATC |
+    | pksJ_TF_RT_rv | TGTCCAACCCATCCATCTCC |
+    | pksH RNAi |  |
+    | pksH_XhoI_fw | ctcgagGATGCGGAAGCACTCCCTAC |
+    | pksH_HindIII_rv | aagcttCTAGTCCGCTGACCGGTTC |
+    | pksH_KpnI_fw | ggtaccGATGCGGAAGCACTCCCTAC |
+    | pksH_bglII_rv | agatctCTAGTCCGCTGACCGGTTC |
+    | pksH_RT_fw_N | GTCAACCCTCTCACACCAAC |
+    | pksH_RT_rv_N | GACGCATCGCTTCAATAGCC |
+    | pksH cytP450 RNAi |  |
+    | pksH_p450_XhoI_fw | ctcgagCTGACGAAACCTCTTCTCACAAG |
+    | pksH_p450_HindIII_rv | aagcttCAGCTCCAAACGGTGTCGAC |
+    | pksH_p450_KpnI_fw | ggtaccCTGACGAAACCTCTTCTCACAAG |
+    | pksH_p450_BglII_rv | agatctCAGCTCCAAACGGTGTCGAC |
+    | pksH_p450_RT_fwd_N | GGGCTTTTGACTTTGAGCT |
+    | pksH_p450_RT_rv_N | CATCTCCCGTTCTTTGAACC |
+    | pksH transferase RNAi |  |
+    | pksH_TF_ XhoI_fw | ctcgagGGATTACTCGCCCTCGTCTC |
+    | pksH_TF_HindIII_rv | aagctcGATCGATTGGTGGCCGTTGTG |
+    | pksH_TF_KpnI_fw | ggtacGGATTACTCGCCCTCGTCTC |
+    | pksH_TF_BglII_rv | agatctGATCGATTGGTGGCCGTTGTG |
+    | pksH_TF_RT_fw | ATGCTACCGATCCAATCAAACTC |
+    | pksH_TF_RT_rv | CGCCACAGTCAAAACGAACAG |
+    | pksH cyclin RNAi |  |
+    | pksH_CL_XhoI_fw | ctcgagGCCGCTATCCATCGACTCCGTG |
+    | pksH_CL_HindIII_rv | aagcttCTCCACAGCTGACCGTCGAAGC |
+    | pksH_CL_KpnI_fw | ggtaccGCCGCTATCCATCGACTCCGTG |
+    | pksH_CL_BglII_rv | agatctCTCCACAGCTGACCGTCGAAGC |
+    | pksH_Cl_RT_fw | GAAGACACTCGCTGAAGCTC |
+
+==================== PMC4793245 (Yang, Liang et al., 2016; DOI: 10.1038/srep23259) ====================
+TITLE: The DmtA methyltransferase contributes to Aspergillus flavus conidiation, sclerotial production, aflatoxin biosynthesis and virulence
+ABSTRACT: DNA methylation is essential for epigenetic regulation of gene transcription and development in many animals, plants and fungi. We investigated whether DNA methylation plays a role in the development and secondary metabolism of Aspergillus flavus, identified the DmtA methyltransferase from A. flavus, and produced a dmtA knock-out mutant by replacing the dmtA coding sequence with the pyrG selectable marker. The A. flavus dmtA null mutant lines produced white fluffy mycelium in liquid medium, and displayed a slightly flavescent conidial pigmentation compared with the normal yellow of the wild-type strain when grown on agar. The ΔdmtA lines exhibited decreased conidiation and aflatoxin (AF) biosynthesis, compared with the wild-type line, suggesting that the DmtA knock-out affected the transcriptional level of genes in the AF cluster. In particular, sclerotia development and host colonizatio
+  SENT: To generate ΔdmtA mutants, a 1226 bp fragment upstream from DMTA was amplified with dmtA/P1 and dmtA/P3 primers.
+  SENT: Next, a 1049 bp fragment downstream from DMTA was amplified with dmtA/P4 and dmtA/P6 primers.
+  -- TABLE 1: Gene-specific primers used for gene knock-out.
+    | Primers | Sequence(5′-3′) | Application |
+    | dmtA/P1 | CCAGCAGCATCTTGACCTC | dmtA deletion and probe |
+    | dmtA/P3 | GGGTGAAGAGCATTGTTTGAGGCAACACGATGGTAGGGAACTG |
+    | dmtA/P4 | GCATCAGTGCCTCCTCTCAGACCCTCTTTCGGACCTTGCG |
+    | dmtA/P6 | CAGCAGTCATTGTAATCCAGCC |
+    | dmtA/P2 | TTCAAGGCTTCCAATCCACAG |
+    | dmtA/P5 | AGAGGCAAGGGAGAAGAAGC |
+    | PyrG/F | GCCTCAAACAATGCTCTTCACCC | dmtA deletion |
+    | PyrG/R | GTCTGAGAGGAGGCACTGATGC |
+    | dmtA/UA | AGCCTCGGCATTCGCACTG | dmtA mutant screen |
+    | P801/R | CAGGAGTTCTCGGGTTGTCG |
+    | dmtA/OF | TAGTGAATCCCAACCACCTTT | dmtA mutant screen |
+    | dmtA/OR | CGTTCGCACCCTCTATTGTAT |
+    | dmtA-GFP/F | CCTCGAGGTCGACGGTATCGATGCATCGAATATGAGATCAGGTC | GFP fusion |
+    | dmtA-GFP/R | CTGCAGGCATGCAAGCTTATCGATCCCAGAAGCAATGACGAGG |
+  -- TABLE 2: Gene-specific primers used for RT-PCR.
+    | Primers | Sequence(5′-3′) | Application |
+    | aflC/QF | GTGGTGGTTGCCAATGCG | qRT-PCR |
+    | aflC/QR | CTGAAACAGTAGGACGGGAGC |
+    | aflK/QF | GAGCGACAGGAGTAACCGTAAG | qRT-PCR |
+    | aflK/QR | CCGATTCCAGACACCATTAGCA |
+    | aflO/QF | GATTGGGATGTGGTCATGCGATT | qRT-PCR |
+    | aflO/QR | GCCTGGGTCCGAAGAATGC |
+    | aflS/QF | CGAGTCGCTCAGGCGCTCAA | qRT-PCR |
+    | aflS/QR | GCTCAGACTGACCGCCGCTC |
+    | aflR/QF | AAAGCACCCTGTCTTCCCTAAC | qRT-PCR |
+    | aflR/QR | GAAGAGGTGGGTCAGTGTTTGTAG |
+    | dmtA/QF | AAGAGGCGGCGACAGTATA | qRT-PCR |
+    | dmtA/QR | GATAGGTAGAGGTTGCGTGTTC |
+    | β-tubulin/QF | TTGAGCCCTACAACGCCACT | qRT-PCR |
+    | β-tubulin/QR | TGGTTCAGGTCACCGTAAGAGG |

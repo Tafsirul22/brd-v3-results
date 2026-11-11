@@ -1,0 +1,608 @@
+{
+  "hitCount": 62,
+  "results": [
+    {
+      "id": "26979781",
+      "source": "MED",
+      "pmid": "26979781",
+      "pmcid": "PMC4793245",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4793245"
+        ]
+      },
+      "doi": "10.1038/srep23259",
+      "title": "The DmtA methyltransferase contributes to Aspergillus flavus conidiation, sclerotial production, aflatoxin biosynthesis and virulence.",
+      "authorString": "Yang K, Liang L, Ran F, Liu Y, Li Z, Lan H, Gao P, Zhuang Z, Zhang F, Nie X, Kalayu Yirga S, Wang S.",
+      "journalTitle": "Sci Rep",
+      "journalVolume": "6",
+      "pubYear": "2016",
+      "journalIssn": "2045-2322",
+      "pageInfo": "23259",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 85,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2016-03-16",
+      "firstIndexDate": "2016-03-17"
+    },
+    {
+      "id": "24550905",
+      "source": "MED",
+      "pmid": "24550905",
+      "pmcid": "PMC3913990",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3913990"
+        ]
+      },
+      "doi": "10.3389/fmicb.2014.00040",
+      "title": "Environmental influences on maize-Aspergillus flavus interactions and aflatoxin production.",
+      "authorString": "Fountain JC, Scully BT, Ni X, Kemerait RC, Lee RD, Chen ZY, Guo B.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "5",
+      "pubYear": "2014",
+      "journalIssn": "1664-302x",
+      "pageInfo": "40",
+      "pubType": "review-article; review; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 80,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2014-02-05",
+      "firstIndexDate": "2014-02-20"
+    },
+    {
+      "id": "27625637",
+      "source": "MED",
+      "pmid": "27625637",
+      "pmcid": "PMC5003836",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5003836"
+        ]
+      },
+      "doi": "10.3389/fmicb.2016.01324",
+      "title": "The Aspergillus flavus Histone Acetyltransferase AflGcnE Regulates Morphogenesis, Aflatoxin Biosynthesis, and Pathogenicity.",
+      "authorString": "Lan H, Sun R, Fan K, Yang K, Zhang F, Nie XY, Wang X, Zhuang Z, Wang S.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "7",
+      "pubYear": "2016",
+      "journalIssn": "1664-302x",
+      "pageInfo": "1324",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 76,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2016-08-30",
+      "firstIndexDate": "2016-09-18"
+    },
+    {
+      "id": "25132833",
+      "source": "MED",
+      "pmid": "25132833",
+      "pmcid": "PMC4117183",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4117183"
+        ]
+      },
+      "doi": "10.3389/fmicb.2014.00384",
+      "title": "Aspergillus flavus infection induces transcriptional and physical changes in developing maize kernels.",
+      "authorString": "Dolezal AL, Shu X, OBrian GR, Nielsen DM, Woloshuk CP, Boston RS, Payne GA.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "5",
+      "pubYear": "2014",
+      "journalIssn": "1664-302x",
+      "pageInfo": "384",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 52,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gen",
+          "go",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2014-07-31",
+      "firstIndexDate": "2014-08-19"
+    },
+    {
+      "id": "22276181",
+      "source": "MED",
+      "pmid": "22276181",
+      "pmcid": "PMC3262820",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3262820"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0030349",
+      "title": "Bisulfite sequencing reveals that Aspergillus flavus holds a hollow in DNA methylation.",
+      "authorString": "Liu SY, Lin JQ, Wu HL, Wang CC, Huang SJ, Luo YF, Sun JH, Zhou JX, Yan SJ, He JG, Wang J, He ZM.",
+      "journalTitle": "PLoS One",
+      "issue": "1",
+      "journalVolume": "7",
+      "pubYear": "2012",
+      "journalIssn": "1932-6203",
+      "pageInfo": "e30349",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 49,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "ARXPR",
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo"
+        ]
+      },
+      "firstPublicationDate": "2012-01-20",
+      "firstIndexDate": "2012-01-26"
+    },
+    {
+      "id": "31324857",
+      "source": "MED",
+      "pmid": "31324857",
+      "pmcid": "PMC6642104",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6642104"
+        ]
+      },
+      "doi": "10.1038/s41598-019-47003-z",
+      "title": "The anti-aflatoxigenic mechanism of cinnamaldehyde in Aspergillus flavus.",
+      "authorString": "Wang P, Ma L, Jin J, Zheng M, Pan L, Zhao Y, Sun X, Liu Y, Xing F.",
+      "journalTitle": "Sci Rep",
+      "issue": "1",
+      "journalVolume": "9",
+      "pubYear": "2019",
+      "journalIssn": "2045-2322",
+      "pageInfo": "10499",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 46,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "go"
+        ]
+      },
+      "firstPublicationDate": "2019-07-19",
+      "firstIndexDate": "2019-07-26"
+    },
+    {
+      "id": "30984147",
+      "source": "MED",
+      "pmid": "30984147",
+      "pmcid": "PMC6447663",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6447663"
+        ]
+      },
+      "doi": "10.3389/fmicb.2019.00626",
+      "title": "Molecular Characterization of a Debilitation-Associated Partitivirus Infecting the Pathogenic Fungus <i>Aspergillus flavus</i>.",
+      "authorString": "Jiang Y, Wang J, Yang B, Wang Q, Zhou J, Yu W.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "10",
+      "pubYear": "2019",
+      "journalIssn": "1664-302x",
+      "pageInfo": "626",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 46,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2019-03-28",
+      "firstIndexDate": "2019-04-15"
+    },
+    {
+      "id": "32411110",
+      "source": "MED",
+      "pmid": "32411110",
+      "pmcid": "PMC7201132",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7201132"
+        ]
+      },
+      "doi": "10.3389/fmicb.2020.00754",
+      "title": "Host Induced Gene Silencing Targeting <i>Aspergillus flavus aflM</i> Reduced Aflatoxin Contamination in Transgenic Maize Under Field Conditions.",
+      "authorString": "Raruang Y, Omolehin O, Hu D, Wei Q, Han ZQ, Rajasekaran K, Cary JW, Wang K, Chen ZY.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "11",
+      "pubYear": "2020",
+      "journalIssn": "1664-302x",
+      "pageInfo": "754",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 39,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gen",
+          "refseq"
+        ]
+      },
+      "firstPublicationDate": "2020-04-28",
+      "firstIndexDate": "2020-05-16"
+    },
+    {
+      "id": "29467403",
+      "source": "MED",
+      "pmid": "29467403",
+      "pmcid": "PMC5821837",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5821837"
+        ]
+      },
+      "doi": "10.1038/s41598-018-21653-x",
+      "title": "Proteome analysis of Aspergillus flavus isolate-specific responses to oxidative stress in relationship to aflatoxin production capability.",
+      "authorString": "Fountain JC, Koh J, Yang L, Pandey MK, Nayak SN, Bajaj P, Zhuang WJ, Chen ZY, Kemerait RC, Lee RD, Chen S, Varshney RK, Guo B.",
+      "journalTitle": "Sci Rep",
+      "issue": "1",
+      "journalVolume": "8",
+      "pubYear": "2018",
+      "journalIssn": "2045-2322",
+      "pageInfo": "3430",
+      "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 36,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "PRIDE"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "pxd"
+        ]
+      },
+      "firstPublicationDate": "2018-02-21",
+      "firstIndexDate": "2018-02-23"
+    },
+    {
+      "id": "22069731",
+      "source": "MED",
+      "pmid": "22069731",
+      "pmcid": "PMC3202845",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3202845"
+        ]
+      },
+      "doi": "10.3390/toxins3060647",
+      "title": "Control of aflatoxin production of Aspergillus flavus and Aspergillus parasiticus using RNA silencing technology by targeting aflD (nor-1) gene.",
+      "authorString": "Abdel-Hadi AM, Caley DP, Carter DR, Magan N.",
+      "journalTitle": "Toxins (Basel)",
+      "issue": "6",
+      "journalVolume": "3",
+      "pubYear": "2011",
+      "journalIssn": "2072-6651",
+      "pageInfo": "647-659",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 36,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2011-06-17",
+      "firstIndexDate": "2011-11-10"
+    },
+    {
+      "id": "31178889",
+      "source": "MED",
+      "pmid": "31178889",
+      "pmcid": "PMC6543017",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6543017"
+        ]
+      },
+      "doi": "10.3389/fpls.2019.00692",
+      "title": "Contribution of Maize Polyamine and Amino Acid Metabolism Toward Resistance Against <i>Aspergillus flavus</i> Infection and Aflatoxin Production.",
+      "authorString": "Majumdar R, Minocha R, Lebar MD, Rajasekaran K, Long S, Carter-Wientjes C, Minocha S, Cary JW.",
+      "journalTitle": "Front Plant Sci",
+      "journalVolume": "10",
+      "pubYear": "2019",
+      "journalIssn": "1664-462x",
+      "pageInfo": "692",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 34,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2019-05-24",
+      "firstIndexDate": "2019-06-12"
+    },
+    {
+      "id": "33985439",
+      "source": "MED",
+      "pmid": "33985439",
+      "pmcid": "PMC8117602",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8117602"
+        ]
+      },
+      "doi": "10.1186/s12870-021-02983-x",
+      "title": "Comparative transcriptome profiling and co-expression network analysis uncover the key genes associated withearly-stage resistance to Aspergillus flavus in maize.",
+      "authorString": "Liu H, Wu H, Wang Y, Wang H, Chen S, Yin Z.",
+      "journalTitle": "BMC Plant Biol",
+      "issue": "1",
+      "journalVolume": "21",
+      "pubYear": "2021",
+      "journalIssn": "1471-2229",
+      "pageInfo": "216",
+      "pubType": "comparative study; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 30,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go"
+        ]
+      },
+      "firstPublicationDate": "2021-05-13",
+      "firstIndexDate": "2021-05-15"
+    },
+    {
+      "id": "32132990",
+      "source": "MED",
+      "pmid": "32132990",
+      "pmcid": "PMC7040179",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7040179"
+        ]
+      },
+      "doi": "10.3389/fmicb.2020.00234",
+      "title": "The Methyltransferase AflSet1 Is Involved in Fungal Morphogenesis, AFB1 Biosynthesis, and Virulence of <i>Aspergillus flavus</i>.",
+      "authorString": "Liu Y, Zhang M, Xie R, Zhang F, Wang S, Pan X, Wang S, Zhuang Z.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "11",
+      "pubYear": "2020",
+      "journalIssn": "1664-302x",
+      "pageInfo": "234",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 30,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2020-02-18",
+      "firstIndexDate": "2020-03-06"
+    },
+    {
+      "id": "33823938",
+      "source": "MED",
+      "pmid": "33823938",
+      "pmcid": "PMC8025522",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8025522"
+        ]
+      },
+      "doi": "10.1186/s43008-021-00060-4",
+      "title": "The Fungi-specific histone Acetyltransferase Rtt109 mediates morphogenesis, Aflatoxin synthesis and pathogenicity in Aspergillus flavus by acetylating H3K9.",
+      "authorString": "Sun R, Wen M, Wu L, Lan H, Yuan J, Wang S.",
+      "journalTitle": "IMA Fungus",
+      "issue": "1",
+      "journalVolume": "12",
+      "pubYear": "2021",
+      "journalIssn": "2210-6340; 2210-6359; ",
+      "pageInfo": "9",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 29,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "UNIPROT"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2021-04-07",
+      "firstIndexDate": "2021-04-08"
+    },
+    {
+      "id": "29209291",
+      "source": "MED",
+      "pmid": "29209291",
+      "pmcid": "PMC5702001",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5702001"
+        ]
+      },
+      "doi": "10.3389/fmicb.2017.02277",
+      "title": "Essential APSES Transcription Factors for Mycotoxin Synthesis, Fungal Development, and Pathogenicity in <i>Aspergillus flavus</i>.",
+      "authorString": "Yao G, Zhang F, Nie X, Wang X, Yuan J, Zhuang Z, Wang S.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "8",
+      "pubYear": "2017",
+      "journalIssn": "1664-302x",
+      "pageInfo": "2277",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 29,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "interpro"
+        ]
+      },
+      "firstPublicationDate": "2017-11-20",
+      "firstIndexDate": "2017-12-07"
+    }
+  ]
+}

@@ -1,0 +1,4581 @@
+{
+  "hitCount": 165,
+  "nextCursorMark": "AoJaBig0MjA5MTE2NQ==",
+  "results": [
+    {
+      "id": "23236275",
+      "source": "MED",
+      "pmid": "23236275",
+      "pmcid": "PMC3516569",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3516569"
+        ]
+      },
+      "doi": "10.1371/journal.ppat.1003037",
+      "title": "Diverse lifestyles and strategies of plant pathogenesis encoded in the genomes of eighteen Dothideomycetes fungi.",
+      "authorString": "Ohm RA, Feau N, Henrissat B, Schoch CL, Horwitz BA, Barry KW, Condon BJ, Copeland AC, Dhillon B, Glaser F, Hesse CN, Kosti I, LaButti K, Lindquist EA, Lucas S, Salamov AA, Bradshaw RE, Ciuffetti L, Hamelin RC, Kema GH, Lawrence C, Scott JA, Spatafora JW, Turgeon BG, de Wit PJ, Zhong S, Goodwin SB, Grigoriev IV.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ohm RA",
+            "lastName": "Ohm",
+            "firstName": "Robin A",
+            "initials": "RA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2548-0074"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "United States Department of Energy DOE Joint Genome Institute JGI, Walnut Creek, California, United States of America. raohm@lbl.gov"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Feau N",
+            "lastName": "Feau",
+            "firstName": "Nicolas",
+            "initials": "N"
+          },
+          {
+            "fullName": "Henrissat B",
+            "lastName": "Henrissat",
+            "firstName": "Bernard",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3434-8588"
+            }
+          },
+          {
+            "fullName": "Schoch CL",
+            "lastName": "Schoch",
+            "firstName": "Conrad L",
+            "initials": "CL",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1839-5322"
+            }
+          },
+          {
+            "fullName": "Horwitz BA",
+            "lastName": "Horwitz",
+            "firstName": "Benjamin A",
+            "initials": "BA"
+          },
+          {
+            "fullName": "Barry KW",
+            "lastName": "Barry",
+            "firstName": "Kerrie W",
+            "initials": "KW",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8999-6785"
+            }
+          },
+          {
+            "fullName": "Condon BJ",
+            "lastName": "Condon",
+            "firstName": "Bradford J",
+            "initials": "BJ"
+          },
+          {
+            "fullName": "Copeland AC",
+            "lastName": "Copeland",
+            "firstName": "Alex C",
+            "initials": "AC"
+          },
+          {
+            "fullName": "Dhillon B",
+            "lastName": "Dhillon",
+            "firstName": "Braham",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5282-1949"
+            }
+          },
+          {
+            "fullName": "Glaser F",
+            "lastName": "Glaser",
+            "firstName": "Fabian",
+            "initials": "F"
+          },
+          {
+            "fullName": "Hesse CN",
+            "lastName": "Hesse",
+            "firstName": "Cedar N",
+            "initials": "CN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1006-0491"
+            }
+          },
+          {
+            "fullName": "Kosti I",
+            "lastName": "Kosti",
+            "firstName": "Idit",
+            "initials": "I",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2212-5472"
+            }
+          },
+          {
+            "fullName": "LaButti K",
+            "lastName": "LaButti",
+            "firstName": "Kurt",
+            "initials": "K"
+          },
+          {
+            "fullName": "Lindquist EA",
+            "lastName": "Lindquist",
+            "firstName": "Erika A",
+            "initials": "EA"
+          },
+          {
+            "fullName": "Lucas S",
+            "lastName": "Lucas",
+            "firstName": "Susan",
+            "initials": "S"
+          },
+          {
+            "fullName": "Salamov AA",
+            "lastName": "Salamov",
+            "firstName": "Asaf A",
+            "initials": "AA"
+          },
+          {
+            "fullName": "Bradshaw RE",
+            "lastName": "Bradshaw",
+            "firstName": "Rosie E",
+            "initials": "RE",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5228-2685"
+            }
+          },
+          {
+            "fullName": "Ciuffetti L",
+            "lastName": "Ciuffetti",
+            "firstName": "Lynda",
+            "initials": "L"
+          },
+          {
+            "fullName": "Hamelin RC",
+            "lastName": "Hamelin",
+            "firstName": "Richard C",
+            "initials": "RC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4006-532X"
+            }
+          },
+          {
+            "fullName": "Kema GH",
+            "lastName": "Kema",
+            "firstName": "Gert H J",
+            "initials": "GH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2732-6911"
+            }
+          },
+          {
+            "fullName": "Lawrence C",
+            "lastName": "Lawrence",
+            "firstName": "Christopher",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0009-0008-9972-5306"
+            }
+          },
+          {
+            "fullName": "Scott JA",
+            "lastName": "Scott",
+            "firstName": "James A",
+            "initials": "JA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5073-0832"
+            }
+          },
+          {
+            "fullName": "Spatafora JW",
+            "lastName": "Spatafora",
+            "firstName": "Joseph W",
+            "initials": "JW"
+          },
+          {
+            "fullName": "Turgeon BG",
+            "lastName": "Turgeon",
+            "firstName": "B Gillian",
+            "initials": "BG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7979-7662"
+            }
+          },
+          {
+            "fullName": "de Wit PJ",
+            "lastName": "de Wit",
+            "firstName": "Pierre J G M",
+            "initials": "PJ"
+          },
+          {
+            "fullName": "Zhong S",
+            "lastName": "Zhong",
+            "firstName": "Shaobin",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1928-0877"
+            }
+          },
+          {
+            "fullName": "Goodwin SB",
+            "lastName": "Goodwin",
+            "firstName": "Stephen B",
+            "initials": "SB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5708-9729"
+            }
+          },
+          {
+            "fullName": "Grigoriev IV",
+            "lastName": "Grigoriev",
+            "firstName": "Igor V",
+            "initials": "IV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3136-8903"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5228-2685"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5708-9729"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7979-7662"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1006-0491"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2732-6911"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3136-8903"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3434-8588"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5073-0832"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5282-1949"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8999-6785"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1839-5322"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1928-0877"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2212-5472"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2548-0074"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4006-532X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0008-9972-5306"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "related_data",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "12",
+        "volume": "8",
+        "journalIssueId": 2009114,
+        "dateOfPublication": "2012 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2012,
+        "journal": {
+          "medlineAbbreviation": "PLoS Pathog",
+          "title": "PLoS pathogens",
+          "essn": "1553-7374",
+          "issn": "1553-7366",
+          "nlmid": "101238921",
+          "isoabbreviation": "PLoS Pathog"
+        },
+        "printPublicationDate": "2012-01-01"
+      },
+      "pubYear": "2012",
+      "pageInfo": "e1003037",
+      "abstractText": "The class Dothideomycetes is one of the largest groups of fungi with a high level of ecological diversity including many plant pathogens infecting a broad range of hosts. Here, we compare genome features of 18 members of this class, including 6 necrotrophs, 9 (hemi)biotrophs and 3 saprotrophs, to analyze genome structure, evolution, and the diverse strategies of pathogenesis. The Dothideomycetes most likely evolved from a common ancestor more than 280 million years ago. The 18 genome sequences differ dramatically in size due to variation in repetitive content, but show much less variation in number of (core) genes. Gene order appears to have been rearranged mostly within chromosomal boundaries by multiple inversions, in extant genomes frequently demarcated by adjacent simple repeats. Several Dothideomycetes contain one or more gene-poor, transposable element (TE)-rich putatively dispensable chromosomes of unknown function. The 18 Dothideomycetes offer an extensive catalogue of genes involved in cellulose degradation, proteolysis, secondary metabolism, and cysteine-rich small secreted proteins. Ancestors of the two major orders of plant pathogens in the Dothideomycetes, the Capnodiales and Pleosporales, may have had different modes of pathogenesis, with the former having fewer of these genes than the latter. Many of these genes are enriched in proximity to transposable elements, suggesting faster evolution because of the effects of repeat induced point (RIP) mutations. A syntenic block of genes, including oxidoreductases, is conserved in most Dothideomycetes and upregulated during infection in L. maculans, suggesting a possible function in response to oxidative stress.",
+      "affiliation": "United States Department of Energy DOE Joint Genome Institute JGI, Walnut Creek, California, United States of America. raohm@lbl.gov",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, N.I.H., Intramural",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Intramural NIH HHS",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chromosomes, Fungal",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ascomycota",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PY",
+                  "qualifierName": "pathogenicity"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA Transposable Elements",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Evolution, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Oxidative Stress",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Point Mutation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genes, Fungal",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "DNA Transposable Elements",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://journals.plos.org/plospathogens/article/file?id=10.1371/journal.ppat.1003037&type=printable"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1371/journal.ppat.1003037"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3516569"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3516569?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 421,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL",
+          "UNIPROT"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc0",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2013-05-23",
+      "dateOfCreation": "2012-12-14",
+      "dateOfRevision": "2022-03-31",
+      "electronicPublicationDate": "2012-12-06",
+      "firstPublicationDate": "2012-12-06",
+      "firstIndexDate": "2012-12-19",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "20479963",
+      "source": "MED",
+      "pmid": "20479963",
+      "pmcid": "PMC2866471",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC2866471"
+        ]
+      },
+      "doi": "10.3390/md8040968",
+      "title": "Chitosan in plant protection.",
+      "authorString": "El Hadrami A, Adam LR, El Hadrami I, Daayf F.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "El Hadrami A",
+            "lastName": "El Hadrami",
+            "firstName": "Abdelbasset",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "University of Manitoba, Department of Plant Science, 222, Agriculture Building, Winnipeg, Manitoba, R3T 2N2, Canada. elhadram@cc.umanitoba.ca"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Adam LR",
+            "lastName": "Adam",
+            "firstName": "Lorne R",
+            "initials": "LR"
+          },
+          {
+            "fullName": "El Hadrami I",
+            "lastName": "El Hadrami",
+            "firstName": "Ismail",
+            "initials": "I"
+          },
+          {
+            "fullName": "Daayf F",
+            "lastName": "Daayf",
+            "firstName": "Fouad",
+            "initials": "F",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8912-0460"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8912-0460"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "8",
+        "journalIssueId": 2494407,
+        "dateOfPublication": "2010 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2010,
+        "journal": {
+          "medlineAbbreviation": "Mar Drugs",
+          "title": "Marine drugs",
+          "essn": "1660-3397",
+          "issn": "1660-3397",
+          "nlmid": "101213729",
+          "isoabbreviation": "Mar Drugs"
+        },
+        "printPublicationDate": "2010-03-01"
+      },
+      "pubYear": "2010",
+      "pageInfo": "968-987",
+      "abstractText": "Chitin and chitosan are naturally-occurring compounds that have potential in agriculture with regard to controlling plant diseases. These molecules were shown to display toxicity and inhibit fungal growth and development. They were reported to be active against viruses, bacteria and other pests. Fragments from chitin and chitosan are known to have eliciting activities leading to a variety of defense responses in host plants in response to microbial infections, including the accumulation of phytoalexins, pathogen-related (PR) proteins and proteinase inhibitors, lignin synthesis, and callose formation. Based on these and other proprieties that help strengthen host plant defenses, interest has been growing in using them in agricultural systems to reduce the negative impact of diseases on yield and quality of crops. This review recapitulates the properties and uses of chitin, chitosan, and their derivatives, and will focus on their applications and mechanisms of action during plant-pathogen interactions.",
+      "affiliation": "University of Manitoba, Department of Plant Science, 222, Agriculture Building, Winnipeg, Manitoba, R3T 2N2, Canada. elhadram@cc.umanitoba.ca",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Crops, Agricultural",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chitin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chitosan",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Anti-Infective Agents",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PD",
+                  "qualifierName": "pharmacology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PC",
+                  "qualifierName": "prevention & control"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Agriculture",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Resistance",
+          "Chitin",
+          "Chitosan",
+          "Biological control",
+          "Biocidal Activity",
+          "Plant Defenses"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Anti-Infective Agents",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Chitin",
+            "registryNumber": "1398-61-4"
+          },
+          {
+            "name": "Chitosan",
+            "registryNumber": "9012-76-4"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/md8040968"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2866471"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2866471?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 273,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2010-08-18",
+      "dateOfCreation": "2010-05-19",
+      "dateOfRevision": "2025-01-04",
+      "electronicPublicationDate": "2010-03-30",
+      "firstPublicationDate": "2010-03-30",
+      "firstIndexDate": "2010-10-01",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "35216444",
+      "source": "MED",
+      "pmid": "35216444",
+      "pmcid": "PMC8875981",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8875981"
+        ]
+      },
+      "doi": "10.3390/ijms23042329",
+      "title": "<i>Trichoderma</i>: The Current Status of Its Application in Agriculture for the Biocontrol of Fungal Phytopathogens and Stimulation of Plant Growth.",
+      "authorString": "Ty\u015bkiewicz R, Nowak A, Ozimek E, Jaroszuk-\u015acise\u0142 J.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Ty\u015bkiewicz R",
+            "lastName": "Ty\u015bkiewicz",
+            "firstName": "Renata",
+            "initials": "R",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-8927-7916"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Analytical Laboratory, \u0141ukasiewicz Research Network-New Chemical Syntheses Institute, Aleja Tysi\u0105clecia Pa\u0144stwa Polskiego 13a, 24-110 Pu\u0142awy, Poland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nowak A",
+            "lastName": "Nowak",
+            "firstName": "Artur",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6807-6832"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Industrial and Environmental Microbiology, Institute of Biological Science, Faculty of Biology and Biotechnology, Maria-Curie Sk\u0142odowska University, Akademicka 19, 20-033 Lublin, Poland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ozimek E",
+            "lastName": "Ozimek",
+            "firstName": "Ewa",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4609-9133"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Industrial and Environmental Microbiology, Institute of Biological Science, Faculty of Biology and Biotechnology, Maria-Curie Sk\u0142odowska University, Akademicka 19, 20-033 Lublin, Poland."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jaroszuk-\u015acise\u0142 J",
+            "lastName": "Jaroszuk-\u015acise\u0142",
+            "firstName": "Jolanta",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9861-5772"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Industrial and Environmental Microbiology, Institute of Biological Science, Faculty of Biology and Biotechnology, Maria-Curie Sk\u0142odowska University, Akademicka 19, 20-033 Lublin, Poland."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9861-5772"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6807-6832"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-8927-7916"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4609-9133"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "23",
+        "journalIssueId": 3318866,
+        "dateOfPublication": "2022 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2022,
+        "journal": {
+          "medlineAbbreviation": "Int J Mol Sci",
+          "title": "International journal of molecular sciences",
+          "essn": "1422-0067",
+          "issn": "1422-0067",
+          "nlmid": "101092791",
+          "isoabbreviation": "Int J Mol Sci"
+        },
+        "printPublicationDate": "2022-02-01"
+      },
+      "pubYear": "2022",
+      "pageInfo": "2329",
+      "abstractText": "Rhizosphere filamentous fungi of the genus <i>Trichoderma</i>, a dominant component of various soil ecosystem mycobiomes, are characterized by the ability to colonize plant roots. Detailed knowledge of the properties of <i>Trichoderma</i>, including metabolic activity and the type of interaction with plants and other microorganisms, can ensure its effective use in agriculture. The growing interest in the application of <i>Trichoderma</i> results from their direct and indirect biocontrol potential against a wide range of soil phytopathogens. They act through various complex mechanisms, such as mycoparasitism, the degradation of pathogen cell walls, competition for nutrients and space, and induction of plant resistance. With the constant exposure of plants to a variety of pathogens, especially filamentous fungi, and the increased resistance of pathogens to chemical pesticides, the main challenge is to develop biological protection alternatives. Among non-pathogenic microorganisms, <i>Trichoderma</i> seems to be the best candidate for use in green technologies due to its wide biofertilization and biostimulatory potential. Most of the species from the genus <i>Trichoderma</i> belong to the plant growth-promoting fungi that produce phytohormones and the 1-aminocyclopropane-1-carboxylate (ACC) deaminase enzyme. In the present review, the current status of <i>Trichoderma</i> is gathered, which is especially relevant in plant growth stimulation and the biocontrol of fungal phytopathogens.",
+      "affiliation": "Analytical Laboratory, \u0141ukasiewicz Research Network-New Chemical Syntheses Institute, Aleja Tysi\u0105clecia Pa\u0144stwa Polskiego 13a, 24-110 Pu\u0142awy, Poland.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Trichoderma",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ecosystem"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PC",
+                  "qualifierName": "prevention & control"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Agriculture",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Development",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Mycoparasitism",
+          "Competition",
+          "Biological control",
+          "phytohormones",
+          "Antimicrobial Metabolites",
+          "Plant Resistance Induction"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/1422-0067/23/4/2329/pdf?version=1645513586"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/ijms23042329"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8875981"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8875981?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 242,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2022-03-22",
+      "dateOfCreation": "2022-02-26",
+      "dateOfRevision": "2023-11-03",
+      "electronicPublicationDate": "2022-02-19",
+      "firstPublicationDate": "2022-02-19",
+      "firstIndexDate": "2022-02-27",
+      "fullTextReceivedDate": "2025-02-04",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "25506342",
+      "source": "MED",
+      "pmid": "25506342",
+      "pmcid": "PMC4246892",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4246892"
+        ]
+      },
+      "doi": "10.3389/fmicb.2014.00656",
+      "title": "Nitrogen regulation of fungal secondary metabolism in fungi.",
+      "authorString": "Tudzynski B.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Tudzynski B",
+            "lastName": "Tudzynski",
+            "firstName": "Bettina",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biology and Biotechnology of Plants, Westfaelische Wilhelms-University Muenster Muenster, Germany."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "5",
+        "journalIssueId": 2120342,
+        "dateOfPublication": "2014 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2014,
+        "journal": {
+          "medlineAbbreviation": "Front Microbiol",
+          "title": "Frontiers in microbiology",
+          "essn": "1664-302X",
+          "issn": "1664-302X",
+          "nlmid": "101548977",
+          "isoabbreviation": "Front Microbiol"
+        },
+        "printPublicationDate": "2014-01-01"
+      },
+      "pubYear": "2014",
+      "pageInfo": "656",
+      "abstractText": "Fungi occupy diverse environments where they are constantly challenged by stressors such as extreme pH, temperature, UV exposure, and nutrient deprivation. Nitrogen is an essential requirement for growth, and the ability to metabolize a wide variety of nitrogen sources enables fungi to colonize different environmental niches and survive nutrient limitations. Favored nitrogen sources, particularly ammonium and glutamine, are used preferentially, while the expression of genes required for the use of various secondary nitrogen sources is subject to a regulatory mechanism called nitrogen metabolite repression. Studies on gene regulation in response to nitrogen availability were carried out first in Saccharomyces cerevisiae, Aspergillus nidulans, and Neurospora crassa. These studies revealed that fungi respond to changes in nitrogen availability with physiological and morphological alterations and activation of differentiation processes. In all fungal species studied, the major GATA transcription factor AreA and its co-repressor Nmr are central players of the nitrogen regulatory network. In addition to growth and development, the quality and quantity of nitrogen also affects the formation of a broad range of secondary metabolites (SMs). Recent studies, mainly on species of the genus Fusarium, revealed that AreA does not only regulate a large set of nitrogen catabolic genes, but can also be involved in regulating production of SMs. Furthermore, several other regulators, e.g., a second GATA transcription factor, AreB, that was proposed to negatively control nitrogen catabolic genes by competing with AreA for binding to GATA elements, was shown to act as activator of some nitrogen-repressed as well as nitrogen-induced SM gene clusters. This review highlights our latest understanding of canonical (AreA-dependent) and non-canonical nitrogen regulation mechanisms by which fungi may regulate biosynthesis of certain SMs in response to nitrogen availability.",
+      "affiliation": "Institute of Biology and Biotechnology of Plants, Westfaelische Wilhelms-University Muenster Muenster, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Secondary metabolites",
+          "Gs",
+          "area",
+          "Meab",
+          "Nitrogen Regulation",
+          "Areb",
+          "Nmr1"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3389/fmicb.2014.00656"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4246892"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4246892?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 230,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2014-12-16",
+      "dateOfCreation": "2014-12-16",
+      "dateOfRevision": "2022-03-10",
+      "electronicPublicationDate": "2014-11-28",
+      "firstPublicationDate": "2014-11-28",
+      "firstIndexDate": "2014-12-25",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "29850025",
+      "source": "MED",
+      "pmid": "29850025",
+      "pmcid": "PMC5966904",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5966904"
+        ]
+      },
+      "doi": "10.1186/s40694-018-0054-5",
+      "title": "How a fungus shapes biotechnology: 100\u00a0years of <i>Aspergillus niger</i> research.",
+      "authorString": "Cairns TC, Nai C, Meyer V.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Cairns TC",
+            "lastName": "Cairns",
+            "firstName": "Timothy C",
+            "initials": "TC",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied and Molecular Microbiology, Institute of Biotechnology, Technische Universit\u00e4t Berlin, Gustav-Meyer-Allee 25, 13355 Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nai C",
+            "lastName": "Nai",
+            "firstName": "Corrado",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6232-6634"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied and Molecular Microbiology, Institute of Biotechnology, Technische Universit\u00e4t Berlin, Gustav-Meyer-Allee 25, 13355 Berlin, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Meyer V",
+            "lastName": "Meyer",
+            "firstName": "Vera",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2298-2258"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Applied and Molecular Microbiology, Institute of Biotechnology, Technische Universit\u00e4t Berlin, Gustav-Meyer-Allee 25, 13355 Berlin, Germany."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2298-2258"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6232-6634"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "wikipedia"
+        ]
+      },
+      "journalInfo": {
+        "volume": "5",
+        "journalIssueId": 2643808,
+        "dateOfPublication": "2018 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "Fungal Biol Biotechnol",
+          "title": "Fungal biology and biotechnology",
+          "essn": "2054-3085",
+          "issn": "2054-3085",
+          "nlmid": "101655873",
+          "isoabbreviation": "Fungal Biol Biotechnol"
+        },
+        "printPublicationDate": "2018-01-01"
+      },
+      "pubYear": "2018",
+      "pageInfo": "13",
+      "abstractText": "In 1917, a food chemist named James Currie made a promising discovery: any strain of the filamentous mould <i>Aspergillus niger</i> would produce high concentrations of citric acid when grown in sugar medium. This tricarboxylic acid, which we now know is an intermediate of the Krebs cycle, had previously been extracted from citrus fruits for applications in food and beverage production. Two years after Currie's discovery, industrial-level production using <i>A. niger</i> began, the biochemical fermentation industry started to flourish, and industrial biotechnology was born. A century later, citric acid production using this mould is a multi-billion dollar industry, with <i>A. niger</i> additionally producing a diverse range of proteins, enzymes and secondary metabolites. In this review, we assess main developments in the field of <i>A. niger</i> biology over the last 100\u00a0years and highlight scientific breakthroughs and discoveries which were influential for both basic and applied fungal research in and outside the <i>A. niger</i> community. We give special focus to two developments of the last decade: systems biology and genome editing. We also summarize the current international <i>A. niger</i> research community, and end by speculating on the future of fundamental research on this fascinating fungus and its exploitation in industrial biotechnology.",
+      "affiliation": "Department of Applied and Molecular Microbiology, Institute of Biotechnology, Technische Universit\u00e4t Berlin, Gustav-Meyer-Allee 25, 13355 Berlin, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Aspergillus niger",
+          "Biotechnology",
+          "Citric acid",
+          "systems biology",
+          "Genome Editing",
+          "Industrial Biology"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s40694-018-0054-5"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5966904"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5966904?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 204,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCreation": "2018-06-01",
+      "dateOfRevision": "2024-06-07",
+      "electronicPublicationDate": "2018-05-24",
+      "firstPublicationDate": "2018-05-24",
+      "firstIndexDate": "2018-06-01",
+      "fullTextReceivedDate": "2025-02-02",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "37367873",
+      "source": "MED",
+      "pmid": "37367873",
+      "pmcid": "PMC10302943",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10302943"
+        ]
+      },
+      "doi": "10.3390/metabo13060716",
+      "title": "Plant Secondary Metabolites: The Weapons for Biotic Stress Management.",
+      "authorString": "Al-Khayri JM, Rashmi R, Toppo V, Chole PB, Banadka A, Sudheer WN, Nagella P, Shehata WF, Al-Mssallem MQ, Alessa FM, Almaghasla MI, Rezk AA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Al-Khayri JM",
+            "lastName": "Al-Khayri",
+            "firstName": "Jameel M",
+            "initials": "JM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9507-0201"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Agricultural Biotechnology, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rashmi R",
+            "lastName": "Rashmi",
+            "firstName": "Ramakrishnan",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, CHRIST (Deemed to be University), Bangalore 560 029, Karnataka, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Toppo V",
+            "lastName": "Toppo",
+            "firstName": "Varsha",
+            "initials": "V",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1967-3929"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, CHRIST (Deemed to be University), Bangalore 560 029, Karnataka, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chole PB",
+            "lastName": "Chole",
+            "firstName": "Pranjali Bajrang",
+            "initials": "PB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, CHRIST (Deemed to be University), Bangalore 560 029, Karnataka, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Banadka A",
+            "lastName": "Banadka",
+            "firstName": "Akshatha",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4269-9617"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, CHRIST (Deemed to be University), Bangalore 560 029, Karnataka, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Sudheer WN",
+            "lastName": "Sudheer",
+            "firstName": "Wudali Narasimha",
+            "initials": "WN",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4238-3639"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, CHRIST (Deemed to be University), Bangalore 560 029, Karnataka, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nagella P",
+            "lastName": "Nagella",
+            "firstName": "Praveen",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Life Sciences, CHRIST (Deemed to be University), Bangalore 560 029, Karnataka, India."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Shehata WF",
+            "lastName": "Shehata",
+            "firstName": "Wael Fathi",
+            "initials": "WF",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-8426-3868"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Agricultural Biotechnology, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Al-Mssallem MQ",
+            "lastName": "Al-Mssallem",
+            "firstName": "Muneera Qassim",
+            "initials": "MQ",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Food Science and Nutrition, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Alessa FM",
+            "lastName": "Alessa",
+            "firstName": "Fatima Mohammed",
+            "initials": "FM",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5593-4589"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Food Science and Nutrition, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Almaghasla MI",
+            "lastName": "Almaghasla",
+            "firstName": "Mustafa Ibrahim",
+            "initials": "MI",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2834-3318"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Arid Land Agriculture, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                },
+                {
+                  "affiliation": "Plant Pests, and Diseases Unit, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rezk AA",
+            "lastName": "Rezk",
+            "firstName": "Adel Abdel-Sabour",
+            "initials": "AA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0259-8387"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Agricultural Biotechnology, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia."
+                },
+                {
+                  "affiliation": "Department of Virus and Phytoplasma, Plant Pathology Institute, Agricultural Research Center, Giza 12619, Egypt."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5593-4589"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-8426-3868"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9507-0201"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2834-3318"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0259-8387"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1967-3929"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4238-3639"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4269-9617"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "6",
+        "volume": "13",
+        "journalIssueId": 3594716,
+        "dateOfPublication": "2023 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2023,
+        "journal": {
+          "medlineAbbreviation": "Metabolites",
+          "title": "Metabolites",
+          "essn": "2218-1989",
+          "issn": "2218-1989",
+          "nlmid": "101578790",
+          "isoabbreviation": "Metabolites"
+        },
+        "printPublicationDate": "2023-05-01"
+      },
+      "pubYear": "2023",
+      "pageInfo": "716",
+      "abstractText": "The rise in global temperature also favors the multiplication of pests and pathogens, which calls into question global food security. Plants have developed special coping mechanisms since they are sessile and lack an immune system. These mechanisms use a variety of secondary metabolites as weapons to avoid obstacles, adapt to their changing environment, and survive in less-than-ideal circumstances. Plant secondary metabolites include phenolic compounds, alkaloids, glycosides, and terpenoids, which are stored in specialized structures such as latex, trichomes, resin ducts, etc. Secondary metabolites help the plants to be safe from biotic stressors, either by repelling them or attracting their enemies, or exerting toxic effects on them. Modern omics technologies enable the elucidation of the structural and functional properties of these metabolites along with their biosynthesis. A better understanding of the enzymatic regulations and molecular mechanisms aids in the exploitation of secondary metabolites in modern pest management approaches such as biopesticides and integrated pest management. The current review provides an overview of the major plant secondary metabolites that play significant roles in enhancing biotic stress tolerance. It examines their involvement in both indirect and direct defense mechanisms, as well as their storage within plant tissues. Additionally, this review explores the importance of metabolomics approaches in elucidating the significance of secondary metabolites in biotic stress tolerance. The application of metabolic engineering in breeding for biotic stress resistance is discussed, along with the exploitation of secondary metabolites for sustainable pest management.",
+      "affiliation": "Department of Agricultural Biotechnology, College of Agriculture and Food Sciences, King Faisal University, Al-Ahsa 31982, Saudi Arabia.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Deanship of Scientific Research, Vice Presidency for Graduate Studies and Scientific Research, King Faisal University, Saudi Arabia",
+            "grantId": "GRANT3521",
+            "orderIn": 0
+          },
+          {
+            "agency": "Deanship of Scientific Research, Vice Presidency for Graduate Studies and Scientific Research, King Faisal University, Saudi Arabia",
+            "grantId": "Project No. GRANT0000",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "biotic stress",
+          "Plant secondary metabolites",
+          "Biopesticides",
+          "Feeding Deterrents",
+          "Aposematic Signals",
+          "Companion Farming",
+          "Metabolomics Engineering"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/2218-1989/13/6/716/pdf?version=1685950380"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/metabo13060716"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10302943"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10302943?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 195,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-06-27",
+      "dateOfRevision": "2023-07-01",
+      "electronicPublicationDate": "2023-05-31",
+      "firstPublicationDate": "2023-05-31",
+      "firstIndexDate": "2023-06-28",
+      "fullTextReceivedDate": "2023-07-01",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "26950404",
+      "source": "MED",
+      "pmid": "26950404",
+      "pmcid": "PMC6638337",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6638337"
+        ]
+      },
+      "doi": "10.1111/mpp.12393",
+      "title": "Plant hormones: a fungal point of view.",
+      "authorString": "Chanclud E, Morel JB.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Chanclud E",
+            "lastName": "Chanclud",
+            "firstName": "Emilie",
+            "initials": "E",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0381-7668"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Universit\u00e9 Montpellier, UMR BGPI INRA/CIRAD/SupAgro, 34398, Montpellier, France."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Morel JB",
+            "lastName": "Morel",
+            "firstName": "Jean-Benoit",
+            "initials": "JB",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "INRA, UMR BGPI INRA/CIRAD/SupAgro, 34398, Montpellier, France. jbmorel@cirad.fr."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0381-7668"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "full_text"
+        ]
+      },
+      "journalInfo": {
+        "issue": "8",
+        "volume": "17",
+        "journalIssueId": 2448746,
+        "dateOfPublication": "2016 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "Mol Plant Pathol",
+          "title": "Molecular plant pathology",
+          "essn": "1364-3703",
+          "issn": "1364-3703",
+          "nlmid": "100954969",
+          "isoabbreviation": "Mol Plant Pathol"
+        },
+        "printPublicationDate": "2016-10-01"
+      },
+      "pubYear": "2016",
+      "pageInfo": "1289-1297",
+      "abstractText": "Most classical plant hormones are also produced by pathogenic and symbiotic fungi. The way in which these molecules favour the invasion of plant tissues and the development of fungi inside plant tissues is still largely unknown. In this review, we examine the different roles of such hormone production by pathogenic fungi. Converging evidence suggests that these fungal-derived molecules have potentially two modes of action: (i) they may perturb plant processes, either positively or negatively, to favour invasion and nutrient uptake; and (ii) they may also act as signals for the fungi themselves to engage appropriate developmental and physiological processes adapted to their environment. Indirect evidence suggests that abscisic acid, gibberellic acid and ethylene produced by fungi participate in pathogenicity. There is now evidence that auxin and cytokinins could be positive regulators required for virulence. Further research should establish whether or not fungal-derived hormones act like other fungal effectors.",
+      "affiliation": "Universit\u00e9 Montpellier, UMR BGPI INRA/CIRAD/SupAgro, 34398, Montpellier, France.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fungi",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GD",
+                  "qualifierName": "growth & development"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PY",
+                  "qualifierName": "pathogenicity"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Growth Regulators",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Virulence Factors",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Virulence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Host-Pathogen Interactions"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Fungi",
+          "Virulence",
+          "plant hormones"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Plant Growth Regulators",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Virulence Factors",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mpp.12393"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/mpp.12393"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6638337"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC6638337?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 173,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "N",
+      "license": "cc by-nc-nd",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2017-06-19",
+      "dateOfCreation": "2016-03-08",
+      "dateOfRevision": "2023-10-13",
+      "electronicPublicationDate": "2016-07-01",
+      "firstPublicationDate": "2016-07-01",
+      "firstIndexDate": "2016-03-08",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "18492280",
+      "source": "MED",
+      "pmid": "18492280",
+      "pmcid": "PMC2441471",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC2441471"
+        ]
+      },
+      "doi": "10.1186/gb-2008-9-5-r85",
+      "title": "Transcriptome analysis reveals new insight into appressorium formation and function in the rice blast fungus Magnaporthe oryzae.",
+      "authorString": "Oh Y, Donofrio N, Pan H, Coughlan S, Brown DE, Meng S, Mitchell T, Dean RA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Oh Y",
+            "lastName": "Oh",
+            "firstName": "Yeonyee",
+            "initials": "Y",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5571-3687"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "North Carolina State University, Center for Integrated Fungal Research, Raleigh, NC 27695-7251, USA. yoh2@ncsu.edu"
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Donofrio N",
+            "lastName": "Donofrio",
+            "firstName": "Nicole",
+            "initials": "N"
+          },
+          {
+            "fullName": "Pan H",
+            "lastName": "Pan",
+            "firstName": "Huaqin",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7166-108X"
+            }
+          },
+          {
+            "fullName": "Coughlan S",
+            "lastName": "Coughlan",
+            "firstName": "Sean",
+            "initials": "S"
+          },
+          {
+            "fullName": "Brown DE",
+            "lastName": "Brown",
+            "firstName": "Douglas E",
+            "initials": "DE"
+          },
+          {
+            "fullName": "Meng S",
+            "lastName": "Meng",
+            "firstName": "Shaowu",
+            "initials": "S"
+          },
+          {
+            "fullName": "Mitchell T",
+            "lastName": "Mitchell",
+            "firstName": "Thomas",
+            "initials": "T"
+          },
+          {
+            "fullName": "Dean RA",
+            "lastName": "Dean",
+            "firstName": "Ralph A",
+            "initials": "RA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3161-3577"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3161-3577"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5571-3687"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7166-108X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "9",
+        "journalIssueId": 1538573,
+        "dateOfPublication": "2008 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2008,
+        "journal": {
+          "medlineAbbreviation": "Genome Biol",
+          "title": "Genome biology",
+          "essn": "1474-760X",
+          "issn": "1474-7596",
+          "nlmid": "100960660",
+          "isoabbreviation": "Genome Biol"
+        },
+        "printPublicationDate": "2008-01-01"
+      },
+      "pubYear": "2008",
+      "pageInfo": "R85",
+      "abstractText": "<h4>Background</h4>Rice blast disease is caused by the filamentous Ascomycetous fungus Magnaporthe oryzae and results in significant annual rice yield losses worldwide. Infection by this and many other fungal plant pathogens requires the development of a specialized infection cell called an appressorium. The molecular processes regulating appressorium formation are incompletely understood.<h4>Results</h4>We analyzed genome-wide gene expression changes during spore germination and appressorium formation on a hydrophobic surface compared to induction by cAMP. During spore germination, 2,154 (approximately 21%) genes showed differential expression, with the majority being up-regulated. During appressorium formation, 357 genes were differentially expressed in response to both stimuli. These genes, which we refer to as appressorium consensus genes, were functionally grouped into Gene Ontology categories. Overall, we found a significant decrease in expression of genes involved in protein synthesis. Conversely, expression of genes associated with protein and amino acid degradation, lipid metabolism, secondary metabolism and cellular transportation exhibited a dramatic increase. We functionally characterized several differentially regulated genes, including a subtilisin protease (SPM1) and a NAD specific glutamate dehydrogenase (Mgd1), by targeted gene disruption. These studies revealed hitherto unknown findings that protein degradation and amino acid metabolism are essential for appressorium formation and subsequent infection.<h4>Conclusion</h4>We present the first comprehensive genome-wide transcript profile study and functional analysis of infection structure formation by a fungal plant pathogen. Our data provide novel insight into the underlying molecular mechanisms that will directly benefit efforts to identify fungal pathogenicity factors and aid the development of new disease management strategies.",
+      "affiliation": "North Carolina State University, Center for Integrated Fungal Research, Raleigh, NC 27695-7251, USA. yoh2@ncsu.edu",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Wall",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Magnaporthe",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Spores, Fungal",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "CY",
+                  "qualifierName": "cytology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fungal Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Profiling"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Signal Transduction"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Gene Expression Regulation, Fungal"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Lipid Metabolism"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Fungal Proteins",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "abs",
+            "site": "BioMedCentral",
+            "url": "http://www.biomedcentral.com/1465-6906/9/R85/abstract"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "abs",
+            "site": "genomebiology.com",
+            "url": "http://genomebiology.com/2008/9/5/R85/abstract"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "BioMedCentral",
+            "url": "http://www.biomedcentral.com/1465-6906/9/R85"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "genomebiology.com",
+            "url": "http://genomebiology.com/2008/9/5/R85"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "BioMedCentral",
+            "url": "http://www.biomedcentral.com/content/pdf/1465-6906-9-R85.pdf"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "genomebiology.com",
+            "url": "http://genomebiology.com/content/pdf/gb-2008-9-5-R85.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/gb-2008-9-5-r85"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2441471"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2441471?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 135,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go"
+        ]
+      },
+      "dateOfCompletion": "2008-07-21",
+      "dateOfCreation": "2008-05-22",
+      "dateOfRevision": "2024-04-15",
+      "electronicPublicationDate": "2008-05-20",
+      "firstPublicationDate": "2008-05-20",
+      "firstIndexDate": "2010-09-23",
+      "fullTextReceivedDate": "2026-10-13",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "36771517",
+      "source": "MED",
+      "pmid": "36771517",
+      "pmcid": "PMC9921048",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9921048"
+        ]
+      },
+      "doi": "10.3390/plants12030432",
+      "title": "<i>Trichoderma</i> Species: Our Best Fungal Allies in the Biocontrol of Plant Diseases-A Review.",
+      "authorString": "Guzm\u00e1n-Guzm\u00e1n P, Kumar A, de Los Santos-Villalobos S, Parra-Cota FI, Orozco-Mosqueda MDC, Fadiji AE, Hyder S, Babalola OO, Santoyo G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Guzm\u00e1n-Guzm\u00e1n P",
+            "lastName": "Guzm\u00e1n-Guzm\u00e1n",
+            "firstName": "Paulina",
+            "initials": "P",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3132-218X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Investigaciones Qu\u00edmico-Biol\u00f3gicas, Universidad Michoacana de San Nicol\u00e1s de Hidalgo, Morelia 58030, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kumar A",
+            "lastName": "Kumar",
+            "firstName": "Ajay",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3260-0807"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Postharvest Science, ARO, Volcani Center, Bet Dagan 50250, Israel."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "de Los Santos-Villalobos S",
+            "lastName": "de Los Santos-Villalobos",
+            "firstName": "Sergio",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2234-7147"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto Tecnol\u00f3gico de Sonora (ITSON), Ciudad Obreg\u00f3n 85000, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Parra-Cota FI",
+            "lastName": "Parra-Cota",
+            "firstName": "Fannie I",
+            "initials": "FI",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Campo Experimental Norman E. Borlaug, Instituto Nacional de Investigaciones Forestales, Agr\u00edcolas y Pecuarias (INIFAP), Ciudad Obreg\u00f3n 85000, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Orozco-Mosqueda MDC",
+            "lastName": "Orozco-Mosqueda",
+            "firstName": "Ma Del Carmen",
+            "initials": "MDC",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-4782-9751"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Departamento de Ingenier\u00eda Bioqu\u00edmica, Tecnol\u00f3gico Nacional de M\u00e9xico en Celaya, Celaya 38010, Mexico."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fadiji AE",
+            "lastName": "Fadiji",
+            "firstName": "Ayomide Emmanuel",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Food Security and Safety Focus Area, Faculty of Natural and Agricultural Sciences, North-West University, Private Bag X2046, Mmabatho 2735, South Africa."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hyder S",
+            "lastName": "Hyder",
+            "firstName": "Sajjad",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-6094-5650"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Botany, Government College Women University Sialkot, Sialkot 51310, Pakistan."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Babalola OO",
+            "lastName": "Babalola",
+            "firstName": "Olubukola Oluranti",
+            "initials": "OO",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4344-1909"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Food Security and Safety Focus Area, Faculty of Natural and Agricultural Sciences, North-West University, Private Bag X2046, Mmabatho 2735, South Africa."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Santoyo G",
+            "lastName": "Santoyo",
+            "firstName": "Gustavo",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0374-9661"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Instituto de Investigaciones Qu\u00edmico-Biol\u00f3gicas, Universidad Michoacana de San Nicol\u00e1s de Hidalgo, Morelia 58030, Mexico."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0374-9661"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3132-218X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3260-0807"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-4782-9751"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-6094-5650"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2234-7147"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4344-1909"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "12",
+        "journalIssueId": 3499881,
+        "dateOfPublication": "2023 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2023,
+        "journal": {
+          "medlineAbbreviation": "Plants (Basel)",
+          "title": "Plants (Basel, Switzerland)",
+          "essn": "2223-7747",
+          "issn": "2223-7747",
+          "nlmid": "101596181",
+          "isoabbreviation": "Plants (Basel)"
+        },
+        "printPublicationDate": "2023-01-01"
+      },
+      "pubYear": "2023",
+      "pageInfo": "432",
+      "abstractText": "Biocontrol agents (BCA) have been an important tool in agriculture to prevent crop losses due to plant pathogens infections and to increase plant food production globally, diminishing the necessity for chemical pesticides and fertilizers and offering a more sustainable and environmentally friendly option. Fungi from the genus <i>Trichoderma</i> are among the most used and studied microorganisms as BCA due to the variety of biocontrol traits, such as parasitism, antibiosis, secondary metabolites (SM) production, and plant defense system induction. Several <i>Trichoderma</i> species are well-known mycoparasites. However, some of those species can antagonize other organisms such as nematodes and plant pests, making this fungus a very versatile BCA. <i>Trichoderma</i> has been used in agriculture as part of innovative bioformulations, either just <i>Trichoderma</i> species or in combination with other plant-beneficial microbes, such as plant growth-promoting bacteria (PGPB). Here, we review the most recent literature regarding the biocontrol studies about six of the most used <i>Trichoderma</i> species, <i>T. atroviride, T. harzianum</i>, <i>T. asperellum</i>, <i>T. virens</i>, <i>T. longibrachiatum</i>, and <i>T. viride</i>, highlighting their biocontrol traits and the use of these fungal genera in Trichoderma-based formulations to control or prevent plant diseases, and their importance as a substitute for chemical pesticides and fertilizers.",
+      "affiliation": "Instituto de Investigaciones Qu\u00edmico-Biol\u00f3gicas, Universidad Michoacana de San Nicol\u00e1s de Hidalgo, Morelia 58030, Mexico.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "CONACYT-M\u00e9xico",
+            "grantId": "A1-S-15956",
+            "orderIn": 0
+          },
+          {
+            "agency": "CIC-UMSNH (2021\u20132022)",
+            "grantId": "A1-S-15956",
+            "orderIn": 0
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Trichoderma",
+          "Mycoparasitism",
+          "Secondary metabolites",
+          "Antibiosis",
+          "Biocontrol agent",
+          "Bioformulations"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/2223-7747/12/3/432/pdf?version=1673960790"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/plants12030432"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9921048"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC9921048?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 128,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2023-02-11",
+      "dateOfRevision": "2023-02-14",
+      "electronicPublicationDate": "2023-01-17",
+      "firstPublicationDate": "2023-01-17",
+      "firstIndexDate": "2023-02-12",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "29371792",
+      "source": "MED",
+      "pmid": "29371792",
+      "pmcid": "PMC5780356",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5780356"
+        ]
+      },
+      "doi": "10.5941/myco.2017.45.4.240",
+      "title": "Influence of Temperature and Water Activity on Deleterious Fungi and Mycotoxin Production during Grain Storage.",
+      "authorString": "Mannaa M, Kim KD.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mannaa M",
+            "lastName": "Mannaa",
+            "firstName": "Mohamed",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9079-8970"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Plant Disease and Biocontrol, Department of Biosystems and Biotechnology, Korea University, Seoul 02841, Korea."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kim KD",
+            "lastName": "Kim",
+            "firstName": "Ki Deok",
+            "initials": "KD",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Laboratory of Plant Disease and Biocontrol, Department of Biosystems and Biotechnology, Korea University, Seoul 02841, Korea."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9079-8970"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "4",
+        "volume": "45",
+        "journalIssueId": 2643787,
+        "dateOfPublication": "2017 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2017,
+        "journal": {
+          "medlineAbbreviation": "Mycobiology",
+          "title": "Mycobiology",
+          "essn": "2092-9323",
+          "issn": "1229-8093",
+          "nlmid": "100960027",
+          "isoabbreviation": "Mycobiology"
+        },
+        "printPublicationDate": "2017-12-01"
+      },
+      "pubYear": "2017",
+      "pageInfo": "240-254",
+      "abstractText": "Cereal grains are the most important food source for humans. As the global population continues to grow exponentially, the need for the enhanced yield and minimal loss of agricultural crops, mainly cereal grains, is increasing. In general, harvested grains are stored for specific time periods to guarantee their continuous supply throughout the year. During storage, economic losses due to reduction in quality and quantity of grains can become very significant. Grain loss is usually the result of its deterioration due to fungal contamination that can occur from preharvest to postharvest stages. The deleterious fungi can be classified based on predominance at different stages of crop growth and harvest that are affected by environmental factors such as water activity (a<sub>w</sub>) and eco-physiological requirements. These fungi include species such as those belonging to the genera <i>Aspergillus</i> and <i>Penicillium</i> that can produce mycotoxins harmful to animals and humans. The grain type and condition, environment, and biological factors can also influence the occurrence and predominance of mycotoxigenic fungi in stored grains. The main environmental factors influencing grain fungi and mycotoxins are temperature and a<sub>w</sub>. This review discusses the effects of temperature and a<sub>w</sub> on fungal growth and mycotoxin production in stored grains. The focus is on the occurrence and optimum and minimum growth requirements for grain fungi and mycotoxin production. The environmental influence on aflatoxin production and hypothesized mechanisms of its molecular suppression in response to environmental changes are also discussed. In addition, the use of controlled or modified atmosphere as an environmentally safe alternative to harmful agricultural chemicals is discussed and recommended future research issues are highlighted.",
+      "affiliation": "Laboratory of Plant Disease and Biocontrol, Department of Biosystems and Biotechnology, Korea University, Seoul 02841, Korea.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Temperature",
+          "Aflatoxin",
+          "Mycotoxin",
+          "Water Activity",
+          "Storage Fungi",
+          "Aflatoxin Biosynthesis Gene Cluster"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.5941/MYCO.2017.45.4.240"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5780356"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5780356?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 125,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasData": "Y",
+      "license": "cc by-nc",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2018-01-27",
+      "dateOfRevision": "2024-03-27",
+      "electronicPublicationDate": "2017-12-31",
+      "firstPublicationDate": "2017-12-31",
+      "firstIndexDate": "2018-01-27",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "18221488",
+      "source": "MED",
+      "pmid": "18221488",
+      "pmcid": "PMC2442719",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC2442719"
+        ]
+      },
+      "doi": "10.1111/j.1574-6976.2007.00100.x",
+      "title": "Histone modifications and chromatin dynamics: a focus on filamentous fungi.",
+      "authorString": "Brosch G, Loidl P, Graessle S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Brosch G",
+            "lastName": "Brosch",
+            "firstName": "Gerald",
+            "initials": "G",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Division of Molecular Biology, Biocenter, Innsbruck Medical University, Fritz-Pregl-Strasse 3, Innsbruck, Austria."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Loidl P",
+            "lastName": "Loidl",
+            "firstName": "Peter",
+            "initials": "P"
+          },
+          {
+            "fullName": "Graessle S",
+            "lastName": "Graessle",
+            "firstName": "Stefan",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-0443-5709"
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0443-5709"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "3",
+        "volume": "32",
+        "journalIssueId": 1522450,
+        "dateOfPublication": "2008 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2008,
+        "journal": {
+          "medlineAbbreviation": "FEMS Microbiol Rev",
+          "title": "FEMS microbiology reviews",
+          "essn": "1574-6976",
+          "issn": "0168-6445",
+          "nlmid": "8902526",
+          "isoabbreviation": "FEMS Microbiol Rev"
+        },
+        "printPublicationDate": "2008-05-01"
+      },
+      "pubYear": "2008",
+      "pageInfo": "409-439",
+      "abstractText": "The readout of the genetic information of eukaryotic organisms is significantly regulated by modifications of DNA and chromatin proteins. Chromatin alterations induce genome-wide and local changes in gene expression and affect a variety of processes in response to internal and external signals during growth, differentiation, development, in metabolic processes, diseases, and abiotic and biotic stresses. This review aims at summarizing the roles of histone H1 and the acetylation and methylation of histones in filamentous fungi and links this knowledge to the huge body of data from other systems. Filamentous fungi show a wide range of morphologies and have developed a complex network of genes that enables them to use a great variety of substrates. This fact, together with the possibility of simple and quick genetic manipulation, highlights these organisms as model systems for the investigation of gene regulation. However, little is still known about regulation at the chromatin level in filamentous fungi. Understanding the role of chromatin in transcriptional regulation would be of utmost importance with respect to the impact of filamentous fungi in human diseases and agriculture. The synthesis of compounds (antibiotics, immunosuppressants, toxins, and compounds with adverse effects) is also likely to be regulated at the chromatin level.",
+      "affiliation": "Division of Molecular Biology, Biocenter, Innsbruck Medical University, Fritz-Pregl-Strasse 3, Innsbruck, Austria.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chromatin",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fungi",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CL",
+                  "qualifierName": "classification"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fungal Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Histones",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Chromatin Assembly and Disassembly"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA Methylation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Expression Regulation, Fungal"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Protein Structure, Tertiary"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Acetylation"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Chromatin",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Histones",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Fungal Proteins",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/j.1574-6976.2007.00100.x"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2442719"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC2442719?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 125,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "uniprot"
+        ]
+      },
+      "dateOfCompletion": "2008-07-01",
+      "dateOfCreation": "2008-01-29",
+      "dateOfRevision": "2024-04-15",
+      "electronicPublicationDate": "2008-01-23",
+      "firstPublicationDate": "2008-01-23",
+      "firstIndexDate": "2010-09-23",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "23316438",
+      "source": "MED",
+      "pmid": "23316438",
+      "pmcid": "PMC3538342",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3538342"
+        ]
+      },
+      "doi": "10.1534/g3.112.004044",
+      "title": "Comparative genomics of a plant-pathogenic fungus, Pyrenophora tritici-repentis, reveals transduplication and the impact of repeat elements on pathogenicity and population divergence.",
+      "authorString": "Manning VA, Pandelova I, Dhillon B, Wilhelm LJ, Goodwin SB, Berlin AM, Figueroa M, Freitag M, Hane JK, Henrissat B, Holman WH, Kodira CD, Martin J, Oliver RP, Robbertse B, Schackwitz W, Schwartz DC, Spatafora JW, Turgeon BG, Yandava C, Young S, Zhou S, Zeng Q, Grigoriev IV, Ma LJ, Ciuffetti LM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Manning VA",
+            "lastName": "Manning",
+            "firstName": "Viola A",
+            "initials": "VA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Botany and Plant Pathology, Oregon State University, Corvallis, Oregon 97331-8530, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Pandelova I",
+            "lastName": "Pandelova",
+            "firstName": "Iovanna",
+            "initials": "I"
+          },
+          {
+            "fullName": "Dhillon B",
+            "lastName": "Dhillon",
+            "firstName": "Braham",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5282-1949"
+            }
+          },
+          {
+            "fullName": "Wilhelm LJ",
+            "lastName": "Wilhelm",
+            "firstName": "Larry J",
+            "initials": "LJ"
+          },
+          {
+            "fullName": "Goodwin SB",
+            "lastName": "Goodwin",
+            "firstName": "Stephen B",
+            "initials": "SB",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5708-9729"
+            }
+          },
+          {
+            "fullName": "Berlin AM",
+            "lastName": "Berlin",
+            "firstName": "Aaron M",
+            "initials": "AM"
+          },
+          {
+            "fullName": "Figueroa M",
+            "lastName": "Figueroa",
+            "firstName": "Melania",
+            "initials": "M",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-2636-661X"
+            }
+          },
+          {
+            "fullName": "Freitag M",
+            "lastName": "Freitag",
+            "firstName": "Michael",
+            "initials": "M"
+          },
+          {
+            "fullName": "Hane JK",
+            "lastName": "Hane",
+            "firstName": "James K",
+            "initials": "JK",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7651-0977"
+            }
+          },
+          {
+            "fullName": "Henrissat B",
+            "lastName": "Henrissat",
+            "firstName": "Bernard",
+            "initials": "B",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3434-8588"
+            }
+          },
+          {
+            "fullName": "Holman WH",
+            "lastName": "Holman",
+            "firstName": "Wade H",
+            "initials": "WH"
+          },
+          {
+            "fullName": "Kodira CD",
+            "lastName": "Kodira",
+            "firstName": "Chinnappa D",
+            "initials": "CD"
+          },
+          {
+            "fullName": "Martin J",
+            "lastName": "Martin",
+            "firstName": "Joel",
+            "initials": "J"
+          },
+          {
+            "fullName": "Oliver RP",
+            "lastName": "Oliver",
+            "firstName": "Richard P",
+            "initials": "RP"
+          },
+          {
+            "fullName": "Robbertse B",
+            "lastName": "Robbertse",
+            "firstName": "Barbara",
+            "initials": "B"
+          },
+          {
+            "fullName": "Schackwitz W",
+            "lastName": "Schackwitz",
+            "firstName": "Wendy",
+            "initials": "W"
+          },
+          {
+            "fullName": "Schwartz DC",
+            "lastName": "Schwartz",
+            "firstName": "David C",
+            "initials": "DC"
+          },
+          {
+            "fullName": "Spatafora JW",
+            "lastName": "Spatafora",
+            "firstName": "Joseph W",
+            "initials": "JW"
+          },
+          {
+            "fullName": "Turgeon BG",
+            "lastName": "Turgeon",
+            "firstName": "B Gillian",
+            "initials": "BG",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7979-7662"
+            }
+          },
+          {
+            "fullName": "Yandava C",
+            "lastName": "Yandava",
+            "firstName": "Chandri",
+            "initials": "C"
+          },
+          {
+            "fullName": "Young S",
+            "lastName": "Young",
+            "firstName": "Sarah",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zhou S",
+            "lastName": "Zhou",
+            "firstName": "Shiguo",
+            "initials": "S"
+          },
+          {
+            "fullName": "Zeng Q",
+            "lastName": "Zeng",
+            "firstName": "Qiandong",
+            "initials": "Q"
+          },
+          {
+            "fullName": "Grigoriev IV",
+            "lastName": "Grigoriev",
+            "firstName": "Igor V",
+            "initials": "IV",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-3136-8903"
+            }
+          },
+          {
+            "fullName": "Ma LJ",
+            "lastName": "Ma",
+            "firstName": "Li-Jun",
+            "initials": "LJ",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2733-3708"
+            }
+          },
+          {
+            "fullName": "Ciuffetti LM",
+            "lastName": "Ciuffetti",
+            "firstName": "Lynda M",
+            "initials": "LM"
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5708-9729"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7979-7662"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2733-3708"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3136-8903"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-3434-8588"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5282-1949"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7651-0977"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-2636-661X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "3",
+        "journalIssueId": 2000515,
+        "dateOfPublication": "2013 Jan",
+        "monthOfPublication": 1,
+        "yearOfPublication": 2013,
+        "journal": {
+          "medlineAbbreviation": "G3 (Bethesda)",
+          "title": "G3 (Bethesda, Md.)",
+          "essn": "2160-1836",
+          "issn": "2160-1836",
+          "nlmid": "101566598",
+          "isoabbreviation": "G3 (Bethesda)"
+        },
+        "printPublicationDate": "2013-01-01"
+      },
+      "pubYear": "2013",
+      "pageInfo": "41-63",
+      "abstractText": "Pyrenophora tritici-repentis is a necrotrophic fungus causal to the disease tan spot of wheat, whose contribution to crop loss has increased significantly during the last few decades. Pathogenicity by this fungus is attributed to the production of host-selective toxins (HST), which are recognized by their host in a genotype-specific manner. To better understand the mechanisms that have led to the increase in disease incidence related to this pathogen, we sequenced the genomes of three P. tritici-repentis isolates. A pathogenic isolate that produces two known HSTs was used to assemble a reference nuclear genome of approximately 40 Mb composed of 11 chromosomes that encode 12,141 predicted genes. Comparison of the reference genome with those of a pathogenic isolate that produces a third HST, and a nonpathogenic isolate, showed the nonpathogen genome to be more diverged than those of the two pathogens. Examination of gene-coding regions has provided candidate pathogen-specific proteins and revealed gene families that may play a role in a necrotrophic lifestyle. Analysis of transposable elements suggests that their presence in the genome of pathogenic isolates contributes to the creation of novel genes, effector diversification, possible horizontal gene transfer events, identified copy number variation, and the first example of transduplication by DNA transposable elements in fungi. Overall, comparative analysis of these genomes provides evidence that pathogenicity in this species arose through an influx of transposable elements, which created a genetically flexible landscape that can easily respond to environmental changes.",
+      "affiliation": "Department of Botany and Plant Pathology, Oregon State University, Corvallis, Oregon 97331-8530, USA.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Comparative Study",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "NHGRI NIH HHS",
+            "acronym": "HG",
+            "grantId": "R01 HG000225",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ascomycota",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PY",
+                  "qualifierName": "pathogenicity"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Triticum",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA Transposable Elements",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "DNA Primers",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Mycotoxins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cytogenetic Analysis"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Likelihood Functions"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Chromosome Mapping"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Sequence Analysis, DNA"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genomics"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Evolution, Molecular"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Phylogeny"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Gene Duplication",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Base Sequence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Genome, Fungal",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Models, Genetic"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Molecular Sequence Data"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Genetic Variation"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Molecular Sequence Annotation"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Anastomosis",
+          "Wheat (Triticum aestivum)",
+          "toxA",
+          "Copy Number Variation",
+          "Histone H3 Transduplication",
+          "Toxb"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Mycotoxins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "DNA Transposable Elements",
+            "registryNumber": "0"
+          },
+          {
+            "name": "DNA Primers",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://academic.oup.com/g3journal/article-pdf/3/1/41/37073205/g3journal0041.pdf"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1534/g3.112.004044"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3538342"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC3538342?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 123,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "UNIPROT"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "pfam",
+          "go"
+        ]
+      },
+      "dateOfCompletion": "2013-06-25",
+      "dateOfCreation": "2013-01-15",
+      "dateOfRevision": "2024-03-18",
+      "electronicPublicationDate": "2013-01-01",
+      "firstPublicationDate": "2013-01-01",
+      "firstIndexDate": "2013-01-18",
+      "fullTextReceivedDate": "2025-02-02",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "37280587",
+      "source": "MED",
+      "pmid": "37280587",
+      "pmcid": "PMC10243280",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC10243280"
+        ]
+      },
+      "doi": "10.1186/s12934-023-02118-x",
+      "title": "Bioactive compounds and biomedical applications of endophytic fungi: a recent review.",
+      "authorString": "Hashem AH, Attia MS, Kandil EK, Fawzi MM, Abdelrahman AS, Khader MS, Khodaira MA, Emam AE, Goma MA, Abdelaziz AM.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Hashem AH",
+            "lastName": "Hashem",
+            "firstName": "Amr H",
+            "initials": "AH",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt. amr.hosny86@azhar.edu.eg."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Attia MS",
+            "lastName": "Attia",
+            "firstName": "Mohamed S",
+            "initials": "MS",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0710-7906"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt. drmohamedsalah92@azhar.edu.eg."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kandil EK",
+            "lastName": "Kandil",
+            "firstName": "Eslam K",
+            "initials": "EK",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Fawzi MM",
+            "lastName": "Fawzi",
+            "firstName": "Mahmoud M",
+            "initials": "MM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abdelrahman AS",
+            "lastName": "Abdelrahman",
+            "firstName": "Ahmed S",
+            "initials": "AS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khader MS",
+            "lastName": "Khader",
+            "firstName": "Mohamed S",
+            "initials": "MS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Khodaira MA",
+            "lastName": "Khodaira",
+            "firstName": "Mohamed A",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Emam AE",
+            "lastName": "Emam",
+            "firstName": "Abdallah E",
+            "initials": "AE",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goma MA",
+            "lastName": "Goma",
+            "firstName": "Mohamed A",
+            "initials": "MA",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abdelaziz AM",
+            "lastName": "Abdelaziz",
+            "firstName": "Amer M",
+            "initials": "AM",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt. amermorsy@azhar.edu.eg."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0710-7906"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4072-2246"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0003-9420-0918"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "22",
+        "journalIssueId": 3581763,
+        "dateOfPublication": "2023 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2023,
+        "journal": {
+          "medlineAbbreviation": "Microb Cell Fact",
+          "title": "Microbial cell factories",
+          "essn": "1475-2859",
+          "issn": "1475-2859",
+          "nlmid": "101139812",
+          "isoabbreviation": "Microb Cell Fact"
+        },
+        "printPublicationDate": "2023-06-01"
+      },
+      "pubYear": "2023",
+      "pageInfo": "107",
+      "abstractText": "Human life has been significantly impacted by the creation and spread of novel species of antibiotic-resistant bacteria and virus strains that are difficult to manage. Scientists and researchers have recently been motivated to seek out alternatives and other sources of safe and ecologically friendly active chemicals that have a powerful and effective effect against a wide variety of pathogenic bacteria as a result of all these hazards and problems. In this review, endophytic fungi and their bioactive compounds and biomedical applications were discussed. Endophytes, a new category of microbial source that can produce a variety of biological components, have major values for study and broad prospects for development. Recently, endophytic fungi have received much attention as a source for new bioactive compounds. In addition, the variety of natural active compounds generated by endophytes is due to the close biological relationship between endophytes and their host plants. The bioactive compounds separated from endophytes are usually classified as steroids, xanthones, terpenoids, isocoumarins, phenols, tetralones, benzopyranones and enniatines. Moreover, this review discusses enhancement methods of secondary metabolites production by fungal endophytes which include optimization methods, co-culture method, chemical epigenetic modification and molecular-based approaches. Furthermore, this review deals with different medical applications of bioactive compounds such as antimicrobial, antiviral, antioxidant and anticancer activities in the last 3\u00a0years.",
+      "affiliation": "Botany and Microbiology Department, Faculty of Science, Al-Azhar University, Cairo, Egypt. amr.hosny86@azhar.edu.eg.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "Al-Azhar University",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Fungi",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plants",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Anti-Infective Agents",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Anti-Bacterial Agents",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Endophytes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Medicinal plants",
+          "Antimicrobial activity",
+          "Antioxidant activity",
+          "Anticancer activity",
+          "Fungal endophytes",
+          "Antiviral Activity"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Anti-Bacterial Agents",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Anti-Infective Agents",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://microbialcellfactories.biomedcentral.com/counter/pdf/10.1186/s12934-023-02118-x"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1186/s12934-023-02118-x"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10243280"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC10243280?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "37407997",
+            "reference": "Microb Cell Fact. 2023 Jul 5;22(1):122. doi: 10.1186/s12934-023-02131-0",
+            "type": "Erratum in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 113,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2023-06-08",
+      "dateOfCreation": "2023-06-06",
+      "dateOfRevision": "2023-07-05",
+      "electronicPublicationDate": "2023-06-06",
+      "firstPublicationDate": "2023-06-06",
+      "firstIndexDate": "2023-06-07",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "34502268",
+      "source": "MED",
+      "pmid": "34502268",
+      "pmcid": "PMC8431085",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8431085"
+        ]
+      },
+      "doi": "10.3390/ijms22179359",
+      "title": "The Role of Glycoside Hydrolases in Phytopathogenic Fungi and Oomycetes Virulence.",
+      "authorString": "Rafiei V, V\u00e9l\u00ebz H, Tzelepis G.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Rafiei V",
+            "lastName": "Rafiei",
+            "firstName": "Vahideh",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Forest Mycology and Plant Pathology, Swedish University of Agricultural Sciences, Uppsala Biocenter, Box 7026, SE-750 07 Uppsala, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "V\u00e9l\u00ebz H",
+            "lastName": "V\u00e9l\u00ebz",
+            "firstName": "Heriberto",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Forest Mycology and Plant Pathology, Swedish University of Agricultural Sciences, Uppsala Biocenter, Box 7026, SE-750 07 Uppsala, Sweden."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Tzelepis G",
+            "lastName": "Tzelepis",
+            "firstName": "Georgios",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-6144-2185"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Forest Mycology and Plant Pathology, Swedish University of Agricultural Sciences, Uppsala Biocenter, Box 7026, SE-750 07 Uppsala, Sweden."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-6144-2185"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-0021-9734"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "17",
+        "volume": "22",
+        "journalIssueId": 3231257,
+        "dateOfPublication": "2021 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2021,
+        "journal": {
+          "medlineAbbreviation": "Int J Mol Sci",
+          "title": "International journal of molecular sciences",
+          "essn": "1422-0067",
+          "issn": "1422-0067",
+          "nlmid": "101092791",
+          "isoabbreviation": "Int J Mol Sci"
+        },
+        "printPublicationDate": "2021-08-01"
+      },
+      "pubYear": "2021",
+      "pageInfo": "9359",
+      "abstractText": "Phytopathogenic fungi need to secrete different hydrolytic enzymes to break down complex polysaccharides in the plant cell wall in order to enter the host and develop the disease. Fungi produce various types of cell wall degrading enzymes (CWDEs) during infection. Most of the characterized CWDEs belong to glycoside hydrolases (GHs). These enzymes hydrolyze glycosidic bonds and have been identified in many fungal species sequenced to date. Many studies have shown that CWDEs belong to several GH families and play significant roles in the invasion and pathogenicity of fungi and oomycetes during infection on the plant host, but their mode of function in virulence is not yet fully understood. Moreover, some of the CWDEs that belong to different GH families act as pathogen-associated molecular patterns (PAMPs), which trigger plant immune responses. In this review, we summarize the most important GHs that have been described in eukaryotic phytopathogens and are involved in the establishment of a successful infection.",
+      "affiliation": "Department of Forest Mycology and Plant Pathology, Swedish University of Agricultural Sciences, Uppsala Biocenter, Box 7026, SE-750 07 Uppsala, Sweden.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Cell Wall",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "CH",
+                  "qualifierName": "chemistry"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Oomycetes",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PY",
+                  "qualifierName": "pathogenicity"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fungi",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology"
+                },
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PY",
+                  "qualifierName": "pathogenicity"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Glycoside Hydrolases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PH",
+                  "qualifierName": "physiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Virulence"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Cells",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Pathogenicity",
+          "cell wall degrading enzymes",
+          "phytopathogens",
+          "Plant\u2013microbe Interactions",
+          "Carbohydrate-active Enzymes"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Glycoside Hydrolases",
+            "registryNumber": "EC 3.2.1.-"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://www.mdpi.com/1422-0067/22/17/9359/pdf?version=1630464695"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.3390/ijms22179359"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8431085"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8431085?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 108,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2021-10-25",
+      "dateOfCreation": "2021-09-10",
+      "dateOfRevision": "2021-10-25",
+      "electronicPublicationDate": "2021-08-28",
+      "firstPublicationDate": "2021-08-28",
+      "firstIndexDate": "2021-09-12",
+      "fullTextReceivedDate": "2025-02-02",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "32802073",
+      "source": "MED",
+      "pmid": "32802073",
+      "pmcid": "PMC7414354",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7414354"
+        ]
+      },
+      "doi": "10.1155/2020/6927219",
+      "title": "Endophytes: Colonization, Behaviour, and Their Role in Defense Mechanism.",
+      "authorString": "Mengistu AA.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Mengistu AA",
+            "lastName": "Mengistu",
+            "firstName": "Anteneh Ademe",
+            "initials": "AA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5527-762X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Adet Agricultural Research Center, P.O. Box 08, Bahir Dar, Ethiopia."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5527-762X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "volume": "2020",
+        "journalIssueId": 2906092,
+        "dateOfPublication": "2020 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2020,
+        "journal": {
+          "medlineAbbreviation": "Int J Microbiol",
+          "title": "International journal of microbiology",
+          "essn": "1687-9198",
+          "issn": "1687-918X",
+          "nlmid": "101516125",
+          "isoabbreviation": "Int J Microbiol"
+        },
+        "printPublicationDate": "2020-01-01"
+      },
+      "pubYear": "2020",
+      "pageInfo": "6927219",
+      "abstractText": "Biotic and abiotic factors cause an enormous amount of yield and economical loss. However, endophytes can play a significant role in enhancing the tolerance of plants. Endophytes systematically colonize different parts of the host, but plants use a variety of defense mechanisms towards microbial infection. However, they have to survive the oxidative environments, and endophytes like <i>Enterobacter</i> sp. encode superoxide dismutases, catalases, and hydroperoxide reductases to cope up the oxidative stress during colonization. On the contrary, others produce subtilomycin which binds with flagella to affect flg22-induced plant defense. The behavior of endophytes can be affected by different genes in hydrolase activity when they come into contact with the host plant. The lifestyle of endophytes is influenced by environmental factors, the host, and microbial genotypes, as well as an imbalance in nutrient exchange between the microbe and the host. For instance, induction of PiAMT1 in root endophyte <i>Piriformospora indica</i> indicates depletion of nitrogen which plays as a triggering factor for activation of the saprotrophic program. Microbes enhance disease resistance through induced systemic resistance (ISR), and <i>Bacillus cereus</i> triggers ISR against <i>Botrytis cinerea</i> through an accumulation of the PR1 protein and activates MAPK signaling and WRKY53 gene expression by the JA/ET signaling pathway. Similarly, <i>Trichoderma arundinaceum</i> produces trichodiene that affects <i>Botrytis cinerea</i> through induction of defense-related genes encoding salicylic acid (SA) and jasmonate (JA). Overall, endophytes can play a vital role in disease management.",
+      "affiliation": "Adet Agricultural Research Center, P.O. Box 08, Bahir Dar, Ethiopia.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "review-article",
+          "Review",
+          "Journal Article"
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1155/2020/6927219"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7414354"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC7414354?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 106,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCreation": "2020-08-18",
+      "dateOfRevision": "2020-09-28",
+      "electronicPublicationDate": "2020-07-30",
+      "firstPublicationDate": "2020-07-30",
+      "firstIndexDate": "2020-08-18",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    }
+  ]
+}

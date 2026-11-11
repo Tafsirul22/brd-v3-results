@@ -1,0 +1,197 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="pbi13401" xml:lang="en" article-type="brief-report" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Plant Biotechnol J</journal-id><journal-id journal-id-type="iso-abbrev">Plant Biotechnol J</journal-id><journal-id journal-id-type="pmc-domain-id">4638</journal-id><journal-id journal-id-type="pmc-domain">plantbioj</journal-id><journal-id journal-id-type="nlm-id">101201889</journal-id><journal-id journal-id-type="publisher-id">PBI</journal-id><journal-title-group><journal-title>Plant Biotechnology Journal</journal-title></journal-title-group><issn pub-type="ppub">1467-7644</issn><issn pub-type="epub">1467-7652</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC7680546</article-id><article-id pub-id-type="pmcid-ver">PMC7680546.2</article-id><article-id pub-id-type="pmcaid">7680546</article-id><article-id pub-id-type="pmcaiid">11386706</article-id><article-id pub-id-type="pmid">32436275</article-id><article-id pub-id-type="doi">10.1111/pbi.13401</article-id><article-id pub-id-type="publisher-id">PBI13401</article-id><article-version article-version-type="pmc-version">2</article-version><article-categories><subj-group subj-group-type="overline"><subject>Brief Communication</subject></subj-group><subj-group subj-group-type="heading"><subject>Brief Communications</subject></subj-group></article-categories><title-group><article-title>Host‐induced gene silencing of multiple genes of <italic toggle="yes">Fusarium graminearum</italic> enhances resistance to Fusarium head blight in wheat</article-title><alt-title alt-title-type="right-running-head">HIGS targeting multiple genes for FHB management</alt-title><alt-title alt-title-type="left-running-head">
+<italic toggle="yes">Minhui Wang</italic> et al.</alt-title></title-group><contrib-group><contrib id="pbi13401-cr-0001" contrib-type="author"><name name-style="western"><surname>Wang</surname><given-names initials="M">Minhui</given-names></name><xref rid="pbi13401-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi13401-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="pbi13401-note-0001" ref-type="author-notes">
+<sup>†</sup>
+</xref></contrib><contrib id="pbi13401-cr-0002" contrib-type="author"><name name-style="western"><surname>Wu</surname><given-names initials="L">Lei</given-names></name><xref rid="pbi13401-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><xref rid="pbi13401-note-0001" ref-type="author-notes">
+<sup>†</sup>
+</xref></contrib><contrib id="pbi13401-cr-0003" contrib-type="author"><name name-style="western"><surname>Mei</surname><given-names initials="Y">Yuzhen</given-names></name><xref rid="pbi13401-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi13401-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="pbi13401-cr-0004" contrib-type="author"><name name-style="western"><surname>Zhao</surname><given-names initials="Y">Youfu</given-names></name><xref rid="pbi13401-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="pbi13401-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Ma</surname><given-names initials="Z">Zhonghua</given-names></name><xref rid="pbi13401-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi13401-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>zhma@zju.edu.cn</email></address></contrib><contrib id="pbi13401-cr-0006" contrib-type="author" corresp="yes"><name name-style="western"><surname>Zhang</surname><given-names initials="X">Xu</given-names></name><xref rid="pbi13401-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref><address><email>xuzhang@jaas.ac.cn</email></address></contrib><contrib id="pbi13401-cr-0007" contrib-type="author" corresp="yes"><name name-style="western"><surname>Chen</surname><given-names initials="Y">Yun</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-5663-2352</contrib-id><xref rid="pbi13401-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi13401-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>chenyun0927@zju.edu.cn</email></address></contrib></contrib-group><aff id="pbi13401-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Key Laboratory of Molecular Biology of Crop Pathogens and Insects</named-content>
+<named-content content-type="organisation-division">Institute of Biotechnology</named-content>
+<institution>Zhejiang University</institution>
+<city>Hangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="pbi13401-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">State Key Laboratory of Rice Biology</named-content>
+<named-content content-type="organisation-division">Institute of Biotechnology</named-content>
+<institution>Zhejiang University</institution>
+<city>Hangzhou</city>
+<country country="CN">China</country>
+</aff><aff id="pbi13401-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Provincial Key Laboratory of Agrobiology</named-content>
+<named-content content-type="organisation-division">Institute of Food Crops</named-content>
+<institution>Jiangsu Academy of Agricultural Sciences</institution>
+<city>Nanjing</city>
+<country country="CN">China</country>
+</aff><aff id="pbi13401-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Department of Crop Sciences</named-content>
+<institution>University of Illinois at Urbana‐Champaign</institution>
+<city>Urbana</city>
+<named-content content-type="country-part">IL</named-content>
+<country country="US">USA</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<italic toggle="yes">Correspondence</italic> (Tel 86-571-88982106; fax 86-571-88982268; email <email>chenyun0927@zju.edu.cn</email>(Y.C.); Tel 86-571-88982268; fax 86-571-88982268; email <email>zhma@zju.edu.cn</email>(Z.M.); Tel 86-25-84390293; fax 86-25-84390293; email <email>xuzhang@jaas.ac.cn</email>(X.Z.))<break/>
+</corresp><fn id="pbi13401-note-0001"><label>†</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>11</day><month>6</month><year>2020</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2020</year></pub-date><volume>18</volume><issue seq="40">12</issue><issue-id pub-id-type="pmc-issue-id">470482</issue-id><issue-id pub-id-type="doi">10.1111/pbi.v18.12</issue-id><fpage>2373</fpage><lpage>2375</lpage><history>
+<date date-type="rev-recd"><day>10</day><month>4</month><year>2020</year></date>
+<date date-type="received"><day>08</day><month>3</month><year>2020</year></date>
+<date date-type="accepted"><day>10</day><month>5</month><year>2020</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>11</day><month>06</month><year>2020</year></date></event><event event-type="pmc-live"><date><day>27</day><month>11</month><year>2020</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-12-11 00:25:32.523"><day>11</day><month>12</month><year>2024</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">7680546</article-id><article-id pub-id-type="doi">10.1111/pbi.13401</article-id><article-version>1</article-version><pub-date><day>11</day><month>06</month><year>2020</year></pub-date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">11386706</article-id><article-id pub-id-type="doi">10.1111/pbi.13401</article-id><article-version>2</article-version><pub-date><day>11</day><month>06</month><year>2020</year></pub-date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2020 The Authors. <italic toggle="yes">Plant Biotechnology</italic> Journal published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="PBI-18-2373.pdf"><?pdf-name PBI-18-2373.pdf?><?pdf-size 2646990?><?pdf-md5 a2af592b8c60b62cecbc026139309917?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:437c/11386706/a2af592b8c60/PBI-18-2373.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:PBI-18-2373.pdf"/><kwd-group><kwd id="pbi13401-kwd-0001">host‐induced gene silencing</kwd><kwd id="pbi13401-kwd-0002">wheat</kwd><kwd id="pbi13401-kwd-0003"><italic toggle="no">Fusarium graminearum</italic></kwd><kwd id="pbi13401-kwd-0004">deoxynivalenol</kwd><kwd id="pbi13401-kwd-0005">virulence</kwd><kwd id="pbi13401-kwd-0006">siRNA</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source><institution-wrap><institution>National Natural Science Foundation of China
+</institution><institution-id institution-id-type="doi">10.13039/501100001809</institution-id></institution-wrap></funding-source><award-id>31672064</award-id></award-group><award-group id="funding-0002"><funding-source>National Natural Science Fund for Distinguished Young Scholar</funding-source><award-id>31525020</award-id></award-group><award-group id="funding-0003"><funding-source>Natural Science Foundation of Zhejiang Province for Distinguished Young Scholars</funding-source><award-id>LR17C140001</award-id></award-group><award-group id="funding-0004"><funding-source>China Agriculture Research System</funding-source><award-id>CARS‐3‐29</award-id></award-group><award-group id="funding-0005"><funding-source>National Science Fund for Excellent Young Scholars</funding-source><award-id>31922074</award-id></award-group></funding-group><counts><fig-count count="1"/><table-count count="0"/><page-count count="4"/><word-count count="1994"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2020</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.8 mode:remove_FC converted:03.09.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="pbi13401-cit-1001">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mei</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>X.</given-names>
+</string-name>and <string-name name-style="western">
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2020</year>) <article-title>Host‐induced gene silencing of multiple genes of <italic toggle="yes">Fusarium graminearum</italic> enhances resistance to Fusarium head blight in wheat</article-title>. <source>Plant Biotechnol. J.</source>, <pub-id pub-id-type="doi">10.1111/pbi.13401</pub-id>
+<pub-id pub-id-type="pmcid">PMC7680546</pub-id><pub-id pub-id-type="pmid">32436275</pub-id></mixed-citation>
+</p></notes></front><body id="pbi13401-body-0001"><p>Fusarium head blight (FHB) caused predominately by <italic toggle="yes">Fusarium graminearum</italic> complex is a devastating disease of wheat. Frequent epidemics of FHB have been reported in all FHB‐prone regions during the last decade, especially in China. FHB not only causes the loss of grain yield, but also raises food safety risks due to the harmful mycotoxin contamination in infected grains. Deoxynivalenol (DON) is the most common and economically important Fusarium mycotoxin identified in cereal grains, and it is also a critical virulence factor for <italic toggle="yes">F. graminearum</italic> infection (Chen <italic toggle="yes">et al</italic>., <xref rid="pbi13401-bib-0002" ref-type="bibr">2019</xref>). Resistant varieties are the most economical approach in controlling FHB. However, sources for FHB resistance are limited and resistant wheat cultivars are often accompanied by undesired agronomic traits, making conventional disease‐resistance breeding difficult (Bai and Shaner, <xref rid="pbi13401-bib-0001" ref-type="bibr">2004</xref>). Recently, a RNA interference (RNAi)‐based approach called host‐induced gene silencing (HIGS) has been developed to control fungal diseases, where small interference RNAs (siRNAs) that match important genes of the invading pathogen are produced by transgenic host plants to silence fungal genes during infection (Machado <italic toggle="yes">et al</italic>., <xref rid="pbi13401-bib-0007" ref-type="bibr">2018</xref>). The use of HIGS to control <italic toggle="yes">F. graminearum</italic> was first demonstrated by Koch et al., in which detached leaves of both transgenic <italic toggle="yes">Arabidopsis</italic> and barley plants expressing double‐stranded RNA (dsRNA) from cytochrome P450 lanosterol C‐14α‐demethylase genes exhibit elevated resistance to <italic toggle="yes">F. graminearum</italic> (Koch <italic toggle="yes">et al</italic>., <xref rid="pbi13401-bib-0006" ref-type="bibr">2013</xref>). However, detached leaves might not represent natural <italic toggle="yes">F. graminearum</italic> floral infections. In addition, the HIGS transgenic wheat targeting the chitin synthase 3b also confers resistance to FHB (Cheng <italic toggle="yes">et al</italic>., <xref rid="pbi13401-bib-0003" ref-type="bibr">2015</xref>). These data suggest that the HIGS strategy is valuable for developing FHB‐resistant wheat cultivars. However, DON is a secondary metabolite, and there are few reports on utilization of the HIGS technology for management of secondary metabolism. In this study, we evaluated the potential of HIGS for development of transgenic wheat plants against both FHB and DON contamination by simultaneously silencing three genes of <italic toggle="yes">F. graminearum</italic>.</p><p>Target gene selection is the first and crucial step for HIGS. Here, <italic toggle="yes">FgSGE1</italic> (also named as <italic toggle="yes">FGP1</italic>, locus FGSG_12164) encoding a critical regulator controlling DON biosynthesis (Jonkers <italic toggle="yes">et al</italic>., <xref rid="pbi13401-bib-0005" ref-type="bibr">2012</xref>), <italic toggle="yes">FgSTE12</italic> (locus FGSG_07310) encoding a key transcriptional factor for penetration structure formation <italic toggle="yes">in planta</italic> (Gu <italic toggle="yes">et al</italic>., <xref rid="pbi13401-bib-0004" ref-type="bibr">2015</xref>) and <italic toggle="yes">FgPP1</italic> (locus FGSG_07233) encoding an essential phosphatase (Yun <italic toggle="yes">et al</italic>., <xref rid="pbi13401-bib-0008" ref-type="bibr">2015</xref>) were selected as target genes for HIGS. To design a chimeric hairpin RNAi construct that could simultaneously silence three target genes (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1a</xref>), a tandem DNA fragment containing a 243‐bp partial <italic toggle="yes">FgSGE1‐</italic>coding region, a 233‐bp partial <italic toggle="yes">FgSTE12‐</italic>coding region and a 224‐bp partial <italic toggle="yes">FgPP1‐</italic>coding region (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1b</xref>) was constructed and inserted into pSilent‐1 vector to generate a dsRNA sequence with a hairpin structure. The RNAi cassettes were highly specific to the target <italic toggle="yes">F. graminearum</italic> genes with no consecutive 21 to 24 nucleotide sequences found in wheat and human genomes by BLASTN search. The chimeric RNAi construct was first transformed into the wild‐type <italic toggle="yes">F. graminearum</italic> strain PH‐1 to test the efficiency in silencing corresponding target genes in fungus. Four out of 16 resulting transformants showed multi‐phenotypic changes, compared with these in PH‐1, indicating that effective silencing of target genes did occur. The transformant designated as FgSSP‐S4 exhibited similar phenotypes as deletion mutants of three target genes, that is, slower growth rate (silencing of <italic toggle="yes">FgPP1</italic>), the reduced DON production (silencing of <italic toggle="yes">FgSGE1</italic>) and the decrease of infection structures on wheat lemma (silencing of <italic toggle="yes">FgSTE12</italic>) (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1c</xref>). Consistent with various phenotypic defects in FgSSP‐S4, expression levels of the three target genes were significantly decreased <italic toggle="yes">in vitro</italic>, as compared to those in PH‐1 (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1d</xref>). These results indicate that <italic toggle="yes">FgSGE1</italic>‐<italic toggle="yes">STE12</italic>‐<italic toggle="yes">PP1</italic> RNAi construct is able to effectively and simultaneously silence the three target genes in <italic toggle="yes">F. graminearum</italic>, which inspired us to develop FHB‐resistant wheat through the HIGS technology.</p><fig position="float" fig-type="Figure" id="pbi13401-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>HIGS of chimeric <italic toggle="yes">FgSGE1</italic>‐<italic toggle="yes">STE12</italic>‐<italic toggle="yes">PP1</italic> results in strong resistance to Fusarium head blight. (a) Schematic map of the <italic toggle="yes">FgSGE1</italic>‐<italic toggle="yes">STE12</italic>‐<italic toggle="yes">PP1</italic> RNAi cassettes. Trp<italic toggle="yes">C</italic>, fungus promoter; Ttrp<italic toggle="yes">C</italic>, fungus terminator; Ubi, plant promoter; NOS, plant terminator. (b) Sequence representation of <italic toggle="yes">FgSGE1</italic>‐<italic toggle="yes">STE12</italic>‐<italic toggle="yes">PP1</italic> RNAi fragments. <italic toggle="yes">FgSGE1</italic>, <italic toggle="yes">FgSTE12</italic> and <italic toggle="yes">FgPP1</italic> are indicated in red, blue and green, respectively. (c) Silencing transformant FgSSP‐S4 reduces mycelial growth, DON production in DON inducing medium (TBI) at 7 days post‐inoculation (dpi) and infection cushions (ICs) on wheat lemma at 3 dpi. (d) Relative expression levels of <italic toggle="yes">FgSGE1</italic>, <italic toggle="yes">FgSTE12</italic> and <italic toggle="yes">FgPP1</italic> are decreased in FgSSP‐S4. The <italic toggle="yes">ACTIN</italic> gene was used as the reference. (e) Genomic PCR and RT‐PCR analyses of T3 transgenic wheat lines L2 and L4. The wheat GAPDH gene is amplified using the primers across an intron to distinguish genomic DNA and cDNA. (f) FHB resistance in T2 and T3 transgenic wheat lines. Representative images of infected wheat heads are photographed at 21 dpi, and percentage of infected spikelets are calculated. Data presented are the mean ± SE (<italic toggle="yes">n</italic> ≥ 20). (g) Relative mRNA expression of three target genes of <italic toggle="yes">F. graminearum</italic> during infection of transgenic lines and Yangmai 16 (Y16) at 3 dpi. (h) ICs (as yellow arrows indicate) of <italic toggle="yes">F. graminearum</italic> on wheat lemma from two T3 transgenic lines and Y16 at 3 dpi by scanning electron microscopy (SEM) observation. (i) The average number of ICs in a SEM examination field. (j) DON content of wheat kernels from T3 transgenic wheat lines and Y16 at 35 dpi. (k) Length distribution and abundance of siRNAs targeting <italic toggle="yes">FgSGE1</italic>, <italic toggle="yes">FgSTE12</italic> and <italic toggle="yes">FgPP1</italic>, respectively, in T3 transgenic wheat line L2. Data presented are the mean ± SD (<italic toggle="yes">n</italic> = 3). Different letters indicate a significant difference (<italic toggle="yes">P</italic> &lt; 0.05) according to Student’s <italic toggle="yes">t</italic>‐test</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="PBI-18-2373-g001.jpg"><?image-name PBI-18-2373-g001.jpg?><?image-size 274410?><?image-md5 8387a42094ed3c37558e771d524af09b?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1299?><?image-original-width 1064?><?image-scaled-height 866?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/437c/11386706/8387a42094ed/PBI-18-2373-g001.jpg?><?thumb-name PBI-18-2373-g001.gif?><?thumb-size 18916?><?thumb-md5 40a76a59dba4cd30007b1f0d98fbc012?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 122?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/437c/11386706/40a76a59dba4/PBI-18-2373-g001.gif?></graphic></fig><p>Next, the chimeric RNAi cassette expressed in plant was constructed (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1a</xref>) and then bombarded into a FHB‐susceptible wheat cultivar Yangmai 16 (Y16) to generate transgenic plants. Integration and expression of the RNAi cassette were verified by PCR and reverse transcription PCR (RT‐PCR), respectively, in two independent transgenic lines L2 and L4 (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1e</xref>). The flowering spikes of transgenic wheat plants were inoculated with single‐floret injection to evaluate their susceptibility against FHB under field condition, where the FHB‐resistant cultivar Sumai 3 was used as a positive control. At 21 days of post‐inoculation (dpi), typical and serious scab symptoms were observed on wheat heads of Y16 (44% infected spikelets), while wheat heads of two transgenic wheat lines showed dramatically attenuated disease symptoms (20.0% to 24.9% infected spikelets), similar to Sumai 3 (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1f</xref>). To verify whether FHB resistance in the transgenic wheat lines is caused by <italic toggle="yes">in planta</italic>‐derived silencing of three target genes, we quantified the transcription level of these target genes in <italic toggle="yes">F. graminearum</italic> during infection process on wheat heads of T3 transgenic and control wheat at 3 dpi. Results showed that the relative transcriptional levels of the <italic toggle="yes">FgSGE1</italic>, <italic toggle="yes">FgSTE12</italic> and <italic toggle="yes">FgPP1</italic> were reduced by about 60%–70%, 50%–60% and 25%–35%, respectively, in two transgenic lines, compared to the Y16 control (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1g</xref>). These results suggest that host delivered siRNAs might effectively trigger the RNAi in fungal cells and subsequently reduce the transcripts of the target genes during infection. In line with the decreased transcriptional level of <italic toggle="yes">FgSTE12</italic> in infected transgenic wheat heads, the fungal infection structures were dramatically reduced on the inoculated wheat spikelets of L2 and L4 at 3 dpi (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1h‐i</xref>). Similarly, decreased expression of <italic toggle="yes">FgSGE1</italic> in <italic toggle="yes">F. graminearum</italic> on tissues of transgenic plants during infection resulted in less DON production in grains harvested from the whole infected spikes, compared with Y16 (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1j</xref>). Collectively, the HIGS transgenic wheat plants expressing chimeric <italic toggle="yes">FgSGE1</italic>‐<italic toggle="yes">STE12</italic>‐<italic toggle="yes">PP1</italic> RNAi construct increased resistance to FHB and inhibited DON biosynthesis during the fungal infection.</p><p>To further confirm that silencing of the three target genes in infected <italic toggle="yes">F. graminearum</italic> was mediated by homologous siRNAs generated in transgenic wheat plants, small RNA sequencing was performed to identify siRNAs specific to the RNAi cassette in transgenic wheat lines L2 and L4. The sequencing data showed that siRNAs mapping to the <italic toggle="yes">FgSGE1</italic>, <italic toggle="yes">FgSTE12</italic> and <italic toggle="yes">FgPP1</italic> genes were significantly enriched in the two independent transgenic lines, accounting for 1.38% and 3.90% of the total small RNAs detected, respectively, in L2 and L4. The lengths of siRNAs mapped to any of the three genes in transgenic lines L2 and L4 were distributed between 18 and 30 bp, wherein 21 bp was the most abundant, followed by 22‐bp and 24‐bp (Figure <xref rid="pbi13401-fig-0001" ref-type="fig">1k</xref>). These results demonstrated that <italic toggle="yes">FgSGE1</italic>‐<italic toggle="yes">STE12</italic>‐<italic toggle="yes">PP1</italic> RNAi constructs were successfully processed into siRNA molecules in transgenic wheat plants, and these siRNAs were translocated to fungal cells during infection, thereby reducing the transcript levels of three target genes in the invading hyphae of <italic toggle="yes">F. graminearum</italic>.</p><p>In summary, our results suggest that HIGS targeting multiple genes involved in both primary and secondary metabolisms of the fungus is effective and can be used as an alternative approach for developing FHB and mycotoxin resistant crops.</p><sec sec-type="COI-statement" id="pbi13401-sec-0003"><title>Conflict of interest</title><p>The authors declare no conflict of interest.</p></sec><sec id="pbi13401-sec-0004"><title>Author contributions</title><p>Z.M., X.Z. and Y.C. designed the studies. M.W., L.W. and Y.M. performed experiments. M.W., Y.Z., Z.M. and Y.C. wrote the paper.</p></sec></body><back><ack id="pbi13401-sec-0002"><title>Acknowledgements</title><p>This work was financially supported by the National Natural Science Fund (31525020, 31922074 and 31672064), Natural Science Foundation of Zhejiang Province (LR17C140001) and China Agriculture Research System (CARS‐3‐29).</p></ack><ref-list content-type="cited-references" id="pbi13401-bibl-0001"><title>References</title><ref id="pbi13401-bib-0001"><mixed-citation publication-type="journal" id="pbi13401-cit-0001">
+<string-name name-style="western">
+<surname>Bai</surname>, <given-names>G.H.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Shaner</surname>, <given-names>G.</given-names>
+</string-name> (<year>2004</year>) <article-title>Management and resistance in wheat and barley to Fusarium head blight</article-title>. <source>Annu. Rev. Phytopathol.</source>
+<volume>42</volume>, <fpage>135</fpage>–<lpage>161</lpage>.<pub-id pub-id-type="pmid">15283663</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev.phyto.42.040803.140340</pub-id></mixed-citation></ref><ref id="pbi13401-bib-0002"><mixed-citation publication-type="journal" id="pbi13401-cit-0002">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kistler</surname>, <given-names>H.C.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Ma</surname>, <given-names>Z.H.</given-names>
+</string-name> (<year>2019</year>) <article-title>
+<italic toggle="yes">Fusarium graminearum</italic> trichothecene mycotoxins: biosynthesis, regulation, and management</article-title>. <source>Annu. Rev. Phytopathol.</source>
+<volume>57</volume>, <fpage>15</fpage>–<lpage>39</lpage>.<pub-id pub-id-type="pmid">30893009</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1146/annurev-phyto-082718-100318</pub-id></mixed-citation></ref><ref id="pbi13401-bib-0003"><mixed-citation publication-type="journal" id="pbi13401-cit-0003">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>, <given-names>X.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>H.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>, <given-names>L.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qiu</surname>, <given-names>X.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>Y.B.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2015</year>) <article-title>Host‐induced gene silencing of an essential chitin synthase gene confers durable resistance to Fusarium head blight and seedling blight in wheat</article-title>. <source>Plant Biotechnol. J.</source>
+<volume>13</volume>, <fpage>1335</fpage>–<lpage>1345</lpage>.<pub-id pub-id-type="pmid">25735638</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.12352</pub-id></mixed-citation></ref><ref id="pbi13401-bib-0004"><mixed-citation publication-type="journal" id="pbi13401-cit-0004">
+<string-name name-style="western">
+<surname>Gu</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>C.Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>X.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Ma</surname>, <given-names>Z.H.</given-names>
+</string-name> (<year>2015</year>) <article-title>A transcription factor FgSte12 is required for pathogenicity in <italic toggle="yes">Fusarium graminearum</italic>
+</article-title>. <source>Mol. Plant Pathol.</source>
+<volume>16</volume>, <fpage>1</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">24832137</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.12155</pub-id><pub-id pub-id-type="pmcid">PMC6638345</pub-id></mixed-citation></ref><ref id="pbi13401-bib-0005"><mixed-citation publication-type="journal" id="pbi13401-cit-0005">
+<string-name name-style="western">
+<surname>Jonkers</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dong</surname>, <given-names>Y.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Broz</surname>, <given-names>K.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kistler</surname>, <given-names>H.C.</given-names>
+</string-name> (<year>2012</year>) <article-title>The Wor1‐like protein Fgp1 regulates pathogenicity, toxin synthesis and reproduction in the phytopathogenic fungus <italic toggle="yes">Fusarium graminearum</italic>
+</article-title>. <source>PLoS Pathog.</source>
+<volume>8</volume>, <elocation-id>e1002724</elocation-id>.<pub-id pub-id-type="pmid">22693448</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1002724</pub-id><pub-id pub-id-type="pmcid">PMC3364952</pub-id></mixed-citation></ref><ref id="pbi13401-bib-0006"><mixed-citation publication-type="journal" id="pbi13401-cit-0006">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kumar</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weber</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Keller</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Imani</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.H.</given-names>
+</string-name> (<year>2013</year>) <article-title>Host‐induced gene silencing of cytochrome P450 lanosterol C14 alpha‐demethylase‐encoding genes confers strong resistance to <italic toggle="yes">Fusarium</italic> species</article-title>. <source>Proc. Natl. Acad. Sci. USA,</source>
+<volume>110</volume>, <fpage>19324</fpage>–<lpage>19329</lpage>.<pub-id pub-id-type="pmid">24218613</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1306373110</pub-id><pub-id pub-id-type="pmcid">PMC3845197</pub-id></mixed-citation></ref><ref id="pbi13401-bib-0007"><mixed-citation publication-type="journal" id="pbi13401-cit-0007">
+<string-name name-style="western">
+<surname>Machado</surname>, <given-names>A.K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>, <given-names>N.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Urban</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kanyuka</surname>, <given-names>K.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Hammond‐Kosack</surname>, <given-names>K.E.</given-names>
+</string-name> (<year>2018</year>) <article-title>RNAi as an emerging approach to control Fusarium head blight disease and mycotoxin contamination in cereals</article-title>. <source>Pest Manag. Sci.</source>
+<volume>74</volume>, <fpage>790</fpage>–<lpage>799</lpage>.<pub-id pub-id-type="pmid">28967180</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ps.4748</pub-id><pub-id pub-id-type="pmcid">PMC5873435</pub-id></mixed-citation></ref><ref id="pbi13401-bib-0008"><mixed-citation publication-type="journal" id="pbi13401-cit-0008">
+<string-name name-style="western">
+<surname>Yun</surname>, <given-names>Y.Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>Z.Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yin</surname>, <given-names>Y.N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiang</surname>, <given-names>J.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>J.R.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Ma</surname>, <given-names>Z.H.</given-names>
+</string-name> (<year>2015</year>) <article-title>Functional analysis of the <italic toggle="yes">Fusarium graminearum</italic> phosphatome</article-title>. <source>New Phytol.</source>
+<volume>207</volume>, <fpage>119</fpage>–<lpage>134</lpage>.<pub-id pub-id-type="pmid">25758923</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/nph.13374</pub-id></mixed-citation></ref></ref-list></back></article>

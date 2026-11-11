@@ -1,0 +1,94 @@
+{
+  "hao2021_tri6": [
+    {
+      "doi": "https://doi.org/10.1007/s00299-023-03129-z",
+      "year": 2024,
+      "title": "Agrobacterium-mediated transfer of the Fusarium graminearum Tri6 gene into barley using mature seed-derived shoot tips as explants",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s00299-023-03129-z.pdf"
+    },
+    {
+      "doi": "https://doi.org/10.1186/s42483-022-00142-0",
+      "year": 2022,
+      "title": "Combatting Fusarium head blight: advances in molecular interactions between Fusarium graminearum and wheat",
+      "oa_url": "https://phytopatholres.biomedcentral.com/counter/pdf/10.1186/s42483-022-00142-0"
+    }
+  ],
+  "mukherjee2024_ssago2": [
+    {
+      "doi": "https://doi.org/10.1007/s44154-026-00337-x",
+      "year": 2026,
+      "title": "Cross-kingdom RNA in plant\u2013microbe interactions: from molecular interactions to next-generation crop protection",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44154-026-00337-x.pdf"
+    },
+    {
+      "doi": "https://doi.org/10.3390/plants14233649",
+      "year": 2025,
+      "title": "Nanoparticle-Mediated Nucleic Acid Delivery Systems in Plant Biotechnology: Recent Advances and Emerging Challenges",
+      "oa_url": "https://www.mdpi.com/2223-7747/14/23/3649/pdf?version=1764579385"
+    }
+  ],
+  "wang2026_aagh10": [
+    {
+      "doi": "https://doi.org/10.3390/jof12090656",
+      "year": 2026,
+      "title": "Spray-Induced Gene Silencing (SIGS) of Dual-Target Genes (AaGH10 and AaSOD) Enhances Control of Alternaria alternata White Leaf Spot in Chinese Chive",
+      "oa_url": "https://doi.org/10.3390/jof12090656"
+    }
+  ],
+  "chen2022_rsolani": [
+    {
+      "doi": "https://doi.org/10.3390/ijms232112922",
+      "year": 2022,
+      "title": "Nanosheet-Facilitated Spray Delivery of dsRNAs Represents a Potential Tool to Control Rhizoctonia solani Infection",
+      "oa_url": "https://www.mdpi.com/1422-0067/23/21/12922/pdf?version=1666775879"
+    },
+    {
+      "doi": "https://doi.org/10.1186/s42483-023-00157-1",
+      "year": 2023,
+      "title": "Nanoparticle carriers enhance RNA stability and uptake efficiency and prolong the protection against Rhizoctonia solani",
+      "oa_url": "https://phytopatholres.biomedcentral.com/counter/pdf/10.1186/s42483-023-00157-1"
+    }
+  ],
+  "leng2011_cspks1": [
+    {
+      "doi": "https://doi.org/10.1111/j.1364-3703.2010.00666.x",
+      "year": 2010,
+      "title": "RNA\u2010mediated gene silencing in the cereal fungal pathogen Cochliobolus sativus",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1364-3703.2010.00666.x"
+    },
+    {
+      "doi": "https://doi.org/10.1111/j.1364-3703.2011.00756.x",
+      "year": 2011,
+      "title": "Sfp\u2010type 4\u2032\u2010phosphopantetheinyl transferase is required for lysine synthesis, tolerance to oxidative stress and virulence in the plant pathogenic fungus Cochliobolus sativus",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/j.1364-3703.2011.00756.x"
+    }
+  ],
+  "leng2015_csfus3": [
+    {
+      "doi": "https://doi.org/10.1371/journal.pone.0128291",
+      "year": 2015,
+      "title": "The Role of Mitogen-Activated Protein (MAP) Kinase Signaling Components in the Fungal Development, Stress Response and Virulence of the Fungal Cereal Pathogen Bipolaris sorokiniana",
+      "oa_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0128291&type=printable"
+    },
+    {
+      "doi": "https://doi.org/10.1007/s44154-021-00004-3",
+      "year": 2021,
+      "title": "Regulation of biotic interactions and responses to abiotic stresses by MAP kinase pathways in plant pathogenic fungi",
+      "oa_url": "https://link.springer.com/content/pdf/10.1007/s44154-021-00004-3.pdf"
+    }
+  ],
+  "jimenez2026_lucid": [
+    {
+      "doi": "https://doi.org/10.1111/pbi.70526",
+      "year": 2026,
+      "title": "LUCID: An Integrative Approach for Target Discovery and dsRNA Design in Plant Fungal Pathogens",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/pbi.70526"
+    },
+    {
+      "doi": "https://doi.org/10.1111/jipb.70400",
+      "year": 2026,
+      "title": "Four sequential filters constrain the efficacy of spray\u2010induced gene silencing against fungal pathogens",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/jipb.70400"
+    }
+  ]
+}

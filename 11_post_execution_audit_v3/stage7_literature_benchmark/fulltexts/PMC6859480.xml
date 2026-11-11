@@ -1,0 +1,700 @@
+<?xml version="1.0"  ?><!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd"><pmc-articleset><article article-type="research-article" xml:lang="en" dtd-version="1.4"><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Plant Pathol</journal-id><journal-id journal-id-type="iso-abbrev">Mol. Plant Pathol</journal-id><journal-id journal-id-type="pmc-domain-id">3642</journal-id><journal-id journal-id-type="pmc-domain">molplantpathol</journal-id><journal-id journal-id-type="nlm-id">100954969</journal-id><journal-id journal-id-type="publisher-id">MPP</journal-id><journal-title-group><journal-title>Molecular Plant Pathology</journal-title></journal-title-group><issn pub-type="ppub">1464-6722</issn><issn pub-type="epub">1364-3703</issn><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC6859480</article-id><article-id pub-id-type="pmcid-ver">PMC6859480.1</article-id><article-id pub-id-type="pmcaid">6859480</article-id><article-id pub-id-type="pmcaiid">6859480</article-id><article-id pub-id-type="pmid">31603277</article-id><article-id pub-id-type="doi">10.1111/mpp.12866</article-id><article-id pub-id-type="publisher-id">MPP12866</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>SIGS vs HIGS: a study on the efficacy of two dsRNA delivery strategies to silence <italic toggle="yes">Fusarium FgCYP51</italic> genes in infected host and non‐host plants</article-title><alt-title alt-title-type="right-running-head">RNA spray vs host‐induced gene silencing</alt-title><alt-title alt-title-type="left-running-head">A. Koch et al.</alt-title></title-group><contrib-group><contrib id="mpp12866-cr-0001" contrib-type="author" corresp="yes"><name name-style="western"><surname>Koch</surname><given-names initials="A">Aline</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0003-3536-5344</contrib-id><xref ref-type="aff" rid="mpp12866-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="mpp12866-note-0001">
+<sup>†</sup>
+</xref><address><email>Aline.Koch@agrar.uni-giessen.de</email></address></contrib><contrib id="mpp12866-cr-0002" contrib-type="author"><name name-style="western"><surname>Höfle</surname><given-names initials="L">Lisa</given-names></name><xref ref-type="aff" rid="mpp12866-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="mpp12866-note-0001">
+<sup>†</sup>
+</xref></contrib><contrib id="mpp12866-cr-0003" contrib-type="author"><name name-style="western"><surname>Werner</surname><given-names initials="BT">Bernhard Timo</given-names></name><xref ref-type="aff" rid="mpp12866-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mpp12866-cr-0004" contrib-type="author"><name name-style="western"><surname>Imani</surname><given-names initials="J">Jafargholi</given-names></name><xref ref-type="aff" rid="mpp12866-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mpp12866-cr-0005" contrib-type="author"><name name-style="western"><surname>Schmidt</surname><given-names initials="A">Alexandra</given-names></name><xref ref-type="aff" rid="mpp12866-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mpp12866-cr-0006" contrib-type="author"><name name-style="western"><surname>Jelonek</surname><given-names initials="L">Lukas</given-names></name><xref ref-type="aff" rid="mpp12866-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mpp12866-cr-0007" contrib-type="author"><name name-style="western"><surname>Kogel</surname><given-names initials="KH">Karl‐Heinz</given-names></name><xref ref-type="aff" rid="mpp12866-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="mpp12866-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Institute of Phytopathology</named-content>
+<named-content content-type="organisation-division">Centre for BioSystems</named-content>
+<named-content content-type="organisation-division">Land Use and Nutrition</named-content>
+<institution>Justus Liebig University</institution>
+<named-content content-type="street">Heinrich‐Buff‐Ring 26</named-content>
+<named-content content-type="post-code">D‐35392</named-content>
+<named-content content-type="city">Giessen</named-content>
+<country country="DE">Germany</country>
+</aff><aff id="mpp12866-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Institute of Bioinformatics and Systems Biology</named-content>
+<institution>Justus Liebig University</institution>
+<named-content content-type="street">Heinrich‐Buff‐Ring 58</named-content>
+<named-content content-type="post-code">D‐35392</named-content>
+<named-content content-type="city">Giessen</named-content>
+<country country="DE">Germany</country>
+</aff><author-notes><corresp id="correspondenceTo"><label>*</label><italic toggle="yes">Correspondence</italic>: Email: <email>Aline.Koch@agrar.uni-giessen.de</email><break/></corresp><fn fn-type="equal" id="mpp12866-note-0001"><label>†</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>11</day><month>10</month><year>2019</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2019</year></pub-date><volume>20</volume><issue>12</issue><issue-id pub-id-type="pmc-issue-id">345810</issue-id><issue-id pub-id-type="doi">10.1111/mpp.v20.12</issue-id><fpage>1636</fpage><lpage>1644</lpage><pub-history><event event-type="pmc-release"><date><day>11</day><month>10</month><year>2019</year></date></event><event event-type="pmc-live"><date><day>12</day><month>12</month><year>2019</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-10-18 20:25:16.213"><day>18</day><month>10</month><year>2023</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2019 The Authors. <italic toggle="yes">Molecular Plant Pathology</italic> published by British Society for Plant Pathology and John Wiley &amp; Sons Ltd</copyright-statement><license license-type="creativeCommonsBy-nc"><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbynclicense">https://creativecommons.org/licenses/by-nc/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited and is not used for commercial purposes.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="MPP-20-1636.pdf"/><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:MPP-20-1636.pdf"/><abstract id="mpp12866-abs-0001"><title>Summary</title><p>CYP3RNA, a double‐stranded (ds)RNA designed to concomitantly target the two <italic toggle="yes">sterol 14α‐demethylase</italic> genes <italic toggle="yes">FgCYP51A</italic> and <italic toggle="yes">FgCYP51B</italic> and the fungal virulence factor <italic toggle="yes">FgCYP51C</italic>, inhibits the growth of the ascomycete fungus <italic toggle="yes">Fusarium graminearum</italic> (<italic toggle="yes">Fg</italic>) <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in planta</italic>. Here we compare two different methods (setups) of dsRNA delivery, viz. transgene expression (host‐induced gene silencing, HIGS) and spray application (spray‐induced gene silencing, SIGS), to assess the activity of CYP3RNA and novel dsRNA species designed to target one or two <italic toggle="yes">FgCYP51</italic> genes. Using <italic toggle="yes">Arabidopsis</italic> and barley, we found that dsRNA designed to target two <italic toggle="yes">FgCYP51</italic> genes inhibited fungal growth more efficiently than dsRNA targeting a single gene, although both dsRNA species reduced fungal infection. Either dsRNA delivery method reduced fungal growth stronger than anticipated from previous mutational knock‐out (KO) strategies, where single gene KO had no significant effect on fungal viability. Consistent with the strong inhibitory effects of the dsRNAs on fungal development in both setups, we detected to a large extent dsRNA‐mediated co‐silencing of respective non‐target <italic toggle="yes">FgCYP51</italic> genes. Together, our data further support the valuation that dsRNA applications have an interesting potential for pesticide target validation and gene function studies, apart from their potential for crop protection.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="mpp12866-kwd-0001">CYP51</kwd><kwd id="mpp12866-kwd-0002">disease control</kwd><kwd id="mpp12866-kwd-0003">Fusarium</kwd><kwd id="mpp12866-kwd-0004">Host‐induced gene silencing</kwd><kwd id="mpp12866-kwd-0005">RNA interference</kwd><kwd id="mpp12866-kwd-0006">siRNA</kwd><kwd id="mpp12866-kwd-0007">spray‐induced gene silencing</kwd></kwd-group><funding-group><award-group><funding-source>Deutsche Forschungsgemeinschaft</funding-source><award-id>325443116</award-id></award-group></funding-group><counts><fig-count count="3"/><table-count count="1"/><page-count count="9"/><word-count count="17461"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>mpp12866</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>December 2019</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.7.2 mode:remove_FC converted:18.11.2019</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="mpp12866-sec-0001"><title>Introduction</title><p>As global population has quadrupled over the last century, one of the biggest challenges of agriculture in the 21st century is how we can achieve global food security that everyone can access. It is estimated that a multitude of different microbial pathogens, viruses, pests and weeds are responsible for plant yield losses on average of more than 30% of global agricultural production (Alexander <italic toggle="yes">et al</italic>., <xref rid="mpp12866-bib-0001" ref-type="ref">2017</xref>; Keulemans <italic toggle="yes">et al</italic>., <xref rid="mpp12866-bib-0024" ref-type="ref">2019</xref>; Oerke and Dehne, <xref rid="mpp12866-bib-0037" ref-type="ref">2004</xref>). Mycotoxin contamination of foods and feedstuffs caused by phytopathogenic fungi, such as <italic toggle="yes">Fusarium</italic> spp., poses an almost intractable problem in agricultural production (Doll and Danicke, <xref rid="mpp12866-bib-0014" ref-type="ref">2011</xref>). <italic toggle="yes">Fusarium</italic> species can infect the majority of crop plants, and virtually all cereals such as wheat, barley and maize (Brown <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0008" ref-type="ref">2017</xref>; Osborne and Stein, <xref rid="mpp12866-bib-0038" ref-type="ref">2007</xref>). Current strategies to protect crops from <italic toggle="yes">Fusarium</italic> infections include fungicide application for both disease control and limitation of mycotoxin accumulation. The most commonly used fungicides are azoles, which target cytochrome P450 sterol 14α‐demethylase encoded by <italic toggle="yes">CYP51</italic> genes. Inhibition of CYP51 causes depletion of ergosterol, which results in loss of membrane integrity followed by growth inhibition and death of fungal cells (Yoshida, <xref rid="mpp12866-bib-0047" ref-type="ref">1988</xref>). However, as a consequence of continuous fungicide applications, an increasing rate of azole insensitivity has been observed in plant pathogenic fungi, including <italic toggle="yes">Fusarium</italic> species (Becher <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0004" ref-type="ref">2010</xref>; Spolti <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0042" ref-type="ref">2014</xref>). Filamentous fungi, particularly Ascomycetes, often possess two or more <italic toggle="yes">CYP51</italic> paralogues, thus at least partly explaining enhanced tolerance to azole fungicides (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>; Gsaller <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0018" ref-type="ref">2016</xref>). Increasing insensitivity to key pesticides is only one of many production problems, supporting the notion that novel strategies in pathogen and pest control are urgently required.</p><p>The use of double‐stranded (ds)RNA has promising potential for protecting plants from biotic stress by targeted gene silencing through RNA interference (RNAi) (e.g. Cai <italic toggle="yes">et al</italic>, <xref rid="mpp12866-bib-0009" ref-type="ref">2018a</xref>; Dalakouras <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0013" ref-type="ref">2019</xref>; Gaffar and Koch, <xref rid="mpp12866-bib-0017" ref-type="ref">2019</xref>; Koch and Kogel, <xref rid="mpp12866-bib-0025" ref-type="ref">2014</xref>; Majumdar <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0032" ref-type="ref">2017</xref>; Zhang <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0048" ref-type="ref">2017</xref>; Zotti <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0050" ref-type="ref">2018</xref>). Through a mechanism called host‐induced gene silencing (HIGS; Nowara <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0036" ref-type="ref">2010</xref>) <italic toggle="yes">Arabidopsis thaliana</italic> and barley (<italic toggle="yes">Hordeum vulgare</italic>) plants are more resistant to <italic toggle="yes">Fusarium graminearum</italic> (<italic toggle="yes">Fg</italic>) infections when these plants express CYP3RNA, a 791 nucleotide (nt) long dsRNA targeting all three <italic toggle="yes">CYP51</italic> genes (<italic toggle="yes">FgCYP51A, FgCYP51B, FgCYP51C</italic>) (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0026" ref-type="ref">2013</xref>). Similarly, application of the same dsRNA by spray (SIGS) also protects barley from <italic toggle="yes">Fg</italic> infection (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0027" ref-type="ref">2016</xref>). While a great number of studies have been published on HIGS‐mediated silencing of target genes in pathogenic fungi (e.g. Andrade <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0002" ref-type="ref">2016</xref>; Chen <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0011" ref-type="ref">2016</xref>; Cheng <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0012" ref-type="ref">2015</xref>; Hu <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0019" ref-type="ref">2015</xref>; Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0026" ref-type="ref">2013</xref>; Panwar <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0039" ref-type="ref">2013</xref>; Pliego <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0040" ref-type="ref">2013</xref>; Thakare <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0043" ref-type="ref">2017</xref>; Zhu <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0049" ref-type="ref">2018</xref>; for review see Cai <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0009" ref-type="ref">2018a</xref>), targeted gene silencing through exogenously applied dsRNA has been successful in a few additional studies: dsRNA directed against fungal <italic toggle="yes">DICER‐like</italic> (<italic toggle="yes">DCL</italic>) genes protected various fruits, vegetable and flowers from grey mould caused by <italic toggle="yes">Botrytis cinerea</italic> infection (Wang <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0044" ref-type="ref">2016</xref>). Similarly, both <italic toggle="yes">Brassica napus</italic> (rapeseed) and <italic toggle="yes">Arabidopsis</italic> plants were protected by dsRNA sprays against <italic toggle="yes">B. cinerea</italic> and <italic toggle="yes">Sclerotinia sclerotiorum</italic> (McLoughlin <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0033" ref-type="ref">2018</xref>). Of note, higher efficacy under field studies directed to control viral diseases was achieved when dsRNA was merged in a composition with non‐toxic, degradable, layered double hydroxide (LDH) clay nanosheets (Mitter <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0034" ref-type="ref">2017</xref>; Worrall <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0046" ref-type="ref">2019</xref>). However, not all fungi are amenable to HIGS or SIGS strategies, as exemplarily shown by the insensitivity of <italic toggle="yes">Zymoseptoria tritici</italic> to dsRNA that targets essential fungal genes, including <italic toggle="yes">ZtCYP51</italic> (Kettles <italic toggle="yes">et al</italic>., <xref rid="mpp12866-bib-0023" ref-type="ref">2019</xref>).</p><p>The functional diversification of fungal <italic toggle="yes">CYP51</italic> genes has not been fully elucidated. It has not been shown whether simultaneous targeting of all three <italic toggle="yes">FgCYP51</italic> genes is necessary to reduce <italic toggle="yes">Fg</italic> infection or whether targeting of a single or two <italic toggle="yes">FgCYP51</italic> genes is sufficient. Previous work demonstrated that the mutational deletion of individual <italic toggle="yes">FgCYP51</italic> genes can reduce conidiation, but otherwise causes no changes in <italic toggle="yes">in vitro</italic> morphology, mycelial growth rate or ergosterol content (Liu <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0030" ref-type="ref">2011</xref>)<italic toggle="yes">.</italic> A subsequent seminal report showed that <italic toggle="yes">Fg</italic>CYP51B is the major enzyme responsible for sterol 14α‐demethylation and required for efficient ascospore formation, while <italic toggle="yes">Fg</italic>CYP51A is an alternative 14α‐demethylase that is induced on ergosterol depletion and is responsible for the intrinsic variation in azole sensitivity (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>). In contrast, <italic toggle="yes">FgCYP51C</italic> does not encode a sterol 14α‐demethylase; homologues are ubiquitous across the genus <italic toggle="yes">Fusarium</italic> but have not been found in other fungal species (Fernández‐Ortuño <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0016" ref-type="ref">2010</xref>). Deletion of <italic toggle="yes">FgCYP51C</italic> results in reduced virulence on host wheat spikes, but not on non‐host <italic toggle="yes">Arabidopsis</italic> floral tissue (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>).</p><p>Here, we comparatively assess the effects of various <italic toggle="yes">CYP51‐</italic>targeting dsRNA constructs (CYP51‐dsRNAs) on the development of <italic toggle="yes">Fg</italic> on barley leaves by employing HIGS and SIGS setups. We show that dsRNA constructs designed to silence concomitantly two paralogous <italic toggle="yes">CYP51</italic> genes are highly efficient in inhibiting fungal growth. Moreover, constructs designed to target a single <italic toggle="yes">FgCYP51</italic> gene also had detrimental effects on fungal morphology. While the latter finding seemed to contravene mutational studies showing that single gene deletion had only minor effects on fungal development (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>; Liu <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0030" ref-type="ref">2011</xref>), further analysis of <italic toggle="yes">FgCYP51</italic> expression showed that single and double dsRNA constructs often confer co‐suppression in respective non‐targeted paralogous <italic toggle="yes">FgCYP51</italic> genes.</p></sec><sec id="mpp12866-sec-0002"><title>Results and Discussion</title><sec id="mpp12866-sec-0003"><title>HIGS by CYP51‐dsRNAs targeting single <italic toggle="yes">CYP51</italic> genes confers resistance to <italic toggle="yes">Fusarium</italic> in transgenic <italic toggle="yes">Arabidopsis</italic>
+</title><p>Previous studies have shown that CYP3RNA, which targets the three <italic toggle="yes">FgCYP51</italic> genes, impairs growth of different <italic toggle="yes">Fusarium</italic> species <italic toggle="yes">in vitro</italic> (liquid cultures) and <italic toggle="yes">in planta</italic> (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0026" ref-type="ref">2013</xref>, <xref rid="mpp12866-bib-0027" ref-type="ref">2016</xref>, <xref rid="mpp12866-bib-0028" ref-type="ref">2018</xref>), while information on the activity of dsRNA constructs targeting a single or two <italic toggle="yes">FgCYP51</italic> genes has been missing. To this end, we assessed the efficacy of single (CYP‐A, CYP‐B, CYP‐C) and double (CYP‐AC, CYP‐BC, CYP‐AB) dsRNA constructs designed to target the same sequence part on <italic toggle="yes">FgCYP51A, FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic> as the triple construct CYP3RNA (Fig. <xref rid="mpp12866-sup-0001" ref-type="supplementary-material">S1</xref>). The respective constructs were expressed under the control of two inverted 35S promoters driving the constitutive production of sense and antisense copies (Fig. <xref rid="mpp12866-sup-0002" ref-type="supplementary-material">S2</xref>A). Resistance to <italic toggle="yes">Fg</italic> was recorded on detached leaves drop‐inoculated with 5 × 10<sup>−4</sup>
+<italic toggle="yes">Fg</italic> conidia per mL and incubated at room temperature on the laboratory bench. At 5 days post‐inoculation (dpi) untransformed Col‐0 wild‐type (wt) plants showed water‐soaked spots with chlorotic and necrotic lesions representing typical symptoms of a successful <italic toggle="yes">Fg</italic> infection on <italic toggle="yes">Arabidopsis</italic> leaves (Fig. <xref rid="mpp12866-fig-0001" ref-type="fig">1</xref>A,B). In clear contrast, and consistent with our earlier work (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0026" ref-type="ref">2013</xref>), CYP3RNA‐expressing plants showed strongly reduced infection symptoms at inoculation sites compared to wt. Moreover, plants expressing single or double CYP51‐dsRNA constructs equally showed reduced necrotic lesions, though this reduction was only minor and not significant on CYP‐C‐expressing leaves. Minor activity of CYP‐C is consistent with the previous finding that <italic toggle="yes">Fg</italic>CYP51C, in contrast to its function during wheat infections, does not add to virulence of <italic toggle="yes">Fg</italic> on <italic toggle="yes">Arabidopsis</italic> (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>).</p><fig fig-type="Figure" xml:lang="en" id="mpp12866-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Host‐induced gene silencing in <italic toggle="yes">Fusarium graminearum</italic> upon infection of <italic toggle="yes">Arabidopsis</italic> expressing CYP51‐dsRNAs. (A) Fifteen detached rosette leaves of CYP51‐dsRNA‐expressing <italic toggle="yes">Arabidopsis</italic> plants (T2 generation) were drop‐inoculated with 5 × 10<sup>4</sup> conidia/mL. Infection symptoms were evaluated at 5 days post‐inoculation (dpi). (B) Quantification of the visibly infected area at 5 dpi shown as percentage of the total leaf area. Bars represent standard errors (SE) of two independent experiments, each using 15 leaves of ten different plants for each transgenic line. Asterisks indicate statistically significant (**<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; Student’s <italic toggle="yes">t</italic>‐test) differences between CYP51‐dsRNA‐expressing versus wild‐type (wt) genotypes. (C) Gene‐specific expression of fungal genes <italic toggle="yes">FgCYP51A</italic>, <italic toggle="yes">FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic> was measured by qRT‐PCR. Gene expression was first normalized against the fungal reference gene <italic toggle="yes">EF1‐α</italic> (FGSG_08811) and subsequently normalized against the ∆‐ct of the respective control. cDNA was generated after total RNA extraction from infected leaves at 5 dpi. The reduction in fungal gene expression in infected CYP51‐dsRNA‐expressing versus wt leaves was statistically significant. Error bars represent standard deviations (SD) of two independent experiments each using 15 leaves of ten different plants for each transgenic line. Asterisks indicate statistical significance (*<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; Student’s <italic toggle="yes">t</italic>‐test).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-1" position="float" orientation="portrait" xlink:href="MPP-20-1636-g001.jpg"/></fig></sec><sec id="mpp12866-sec-0004"><title>Strong resistance in <italic toggle="yes">Arabidopsis</italic> induced by CYP51‐dsRNAs mirrors co‐silencing of non‐target <italic toggle="yes">FgCYP51</italic> genes</title><p>To further exclude the possibility that CYP51‐dsRNAs have unspecific (antifungal) effects on fungal development rather than inducing gene silencing of corresponding target genes, we measured the expression of the three <italic toggle="yes">FgCYP51</italic> genes by qRT‐PCR. As anticipated, infection of <italic toggle="yes">Arabidopsis</italic> plants containing single and double CYP51‐dsRNA constructs resulted in down‐regulation of the respective fungal targeted gene (Fig. <xref rid="mpp12866-fig-0001" ref-type="fig">1</xref>C). Notably, all CYP51‐dsRNAs also affected the expression of respective non‐target <italic toggle="yes">CYP51</italic> genes, suggesting co‐silencing effects. For example, CYP‐A provoked 80% reduction of <italic toggle="yes">FgCYP51A</italic> transcripts and also strong reduction of <italic toggle="yes">FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic> expression by approximately 70% compared to the non‐transformed wt. Strong co‐silencing of non‐target genes by single CYP‐dsRNAs may also explain why their effects on fungal virulence are much stronger than single <italic toggle="yes">fgcyp51</italic> gene deletions. These deletion mutants showed partly reduced conidiation though normal mycelial morphology in axenic cultures (Liu <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0030" ref-type="ref">2011</xref>), while only the double deletion mutants <italic toggle="yes">cyp51A/cyp51C</italic> and <italic toggle="yes">cyp51B/cyp51C</italic> reduced growth on potato dextrose agar (though not on SNA agar) (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>). Of note, co‐silencing on the three paralogous <italic toggle="yes">FgCYP51</italic> genes is a desired effect of dsRNA‐mediated inhibition of ergosterol biosynthesis and fungal virulence when it comes to plant protection. The most efficient construct in terms of overall target gene silencing was CYP‐AC, which reduced the transcripts of <italic toggle="yes">FgCYP51A</italic> and <italic toggle="yes">FgCYP51C</italic> to less than 10% in comparison to the wt, while non‐target gene <italic toggle="yes">FgCYP51B</italic> transcripts also were reduced by about 50%. Supportive of the finding that <italic toggle="yes">Fg</italic>CYP51C is not required for <italic toggle="yes">Fg</italic>’s virulence on <italic toggle="yes">Arabidopsis</italic>, the CYP‐C construct caused strong down‐regulation of <italic toggle="yes">FgCYP51C</italic>, contrasting its minor effect on fungal infection phenotypes. Overall, these results suggest that resistance in <italic toggle="yes">Arabidopsis</italic> conferred by various CYP51‐dsRNA constructs is mediated to a large extent by co‐silencing effects on non‐targeted <italic toggle="yes">CYP51</italic> genes.</p></sec><sec id="mpp12866-sec-0005"><title>Co‐silencing prediction by the TAPIR software</title><p>To further explore co‐silencing effects, we calculated possible off‐targets in <italic toggle="yes">CYP51</italic> genes for all tested CYP51‐dsRNA constructs. Sequences of the single dsRNA constructs CYP‐A, CYP‐B and CYP‐C were split into k‐mers of 21 bases and targeted against the corresponding complementary DNAs (cDNAs) of the three <italic toggle="yes">FgCYP51</italic> genes, allowing a maximum of three possible mismatches within the seed region. Based on these parameters, we calculated off‐targets for each construct in the other not targeted <italic toggle="yes">FgCYP51</italic> genes (Fig. <xref rid="mpp12866-sup-0003" ref-type="supplementary-material">S3</xref>). Nearly all of these off‐targets in other <italic toggle="yes">FgCYP51</italic> genes are in the corresponding region to the targeted region, thus reflecting the strong sequence similarity between them.</p><p>Depending on the rather unexplored target specificity of RNAi in fungi, even more relaxed target prediction criteria could be applied that would surely lead to even more predicted off‐targets. Supporting this notion, 15 out of 19 bp complementarity between siRNA and target caused off‐target effects in mammalian cell culture (Jackson <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0021" ref-type="ref">2003</xref>). Additionally, another study reported that bioinformatics prediction of off‐targets is still incomplete and that it is likely that a certain number of siRNAs remains undetected due to specificity parameters that are unfounded (Birmingham <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0005" ref-type="ref">2006</xref>; Majumdar <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0032" ref-type="ref">2017</xref>). We also assessed whether CYP51‐dsRNAs would theoretically have additional off‐targets in <italic toggle="yes">Fg</italic> as previously shown for CYP3RNA (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0026" ref-type="ref">2013</xref>). Using the same parameters as for the <italic toggle="yes">FgCYP51</italic> genes, we found several potential off‐targets in the <italic toggle="yes">Fg</italic> genome, raising the possibility that the virulence of the fungus is additionally affected by down‐regulation of these potential targets (Table <xref rid="mpp12866-sup-0007" ref-type="supplementary-material">S1</xref>).</p></sec><sec id="mpp12866-sec-0006"><title>Off‐targeting by CYP51‐dsRNAs also strengthens HIGS‐mediated <italic toggle="yes">Fusarium</italic> resistance in barley</title><p>To further assess the activity of CYP51<italic toggle="yes">‐</italic>dsRNA constructs, we transformed barley cultivar (cv.) Golden Promise with the same CYP51‐dsRNA constructs as used for <italic toggle="yes">Arabidopsis</italic>. Three‐week‐old detached leaves of transgenic barley were drop‐inoculated with 5 × 10<sup>4</sup> conidia/mL. At 5 days post‐inoculation (dpi), chlorotic and necrotic lesions at inoculation sites were measured. Infection areas on leaves expressing double CYP51‐dsRNA constructs were strongly reduced as compared to plants expressing GUS‐dsRNA, a non‐targeting dsRNA derived from the sequence of the <italic toggle="yes">β‐glucuronidase</italic> (<italic toggle="yes">GUS</italic>) gene (Figs <xref rid="mpp12866-fig-0002" ref-type="fig">2</xref>A,B and <xref rid="mpp12866-sup-0004" ref-type="supplementary-material">S4</xref>). Moreover, barley leaves expressing the single construct CYP‐B also showed strongly reduced infection areas (40%) and leaf necrosis restricted to the inoculation sites, while CYP‐A‐ and CYP‐C‐expressing plants showed heavy infection symptoms, virtually indistinguishable from the GUS‐dsRNA‐expressing plants. This result further supports the previous finding that <italic toggle="yes">Fg</italic>CYP51B is required for fungal virulence on cereals and that the additional <italic toggle="yes">FgCYP51</italic> genes have only minor roles in the infection process (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>).</p><fig fig-type="Figure" xml:lang="en" id="mpp12866-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>
+<italic toggle="yes">Fusarium graminearum</italic> infections and host‐induced gene silencing on leaves of barley lines expressing CYP51‐dsRNAs. (A) Detached second leaves of 3‐week‐old barley plants expressing CYP51‐dsRNAs and dsRNA derived from the <italic toggle="yes">GUS</italic> gene sequence (GUS‐dsRNA) were inoculated with 5 × 10<sup>4</sup> macroconidia/mL. Infection symptoms were assessed at 5 days post‐inoculation (dpi). (B) Quantification of the infection area shown as percentage of the total leaf area. Error bars represent SE of two independent experiments, each using ten leaves of ten different plants for each transgenic line. (C) cDNA was generated at 5 dpi after total RNA extraction from infected leaves. Gene‐specific expression of <italic toggle="yes">FgCYP51A</italic>, <italic toggle="yes">FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic> was measured by qRT‐PCR and normalized against the fungal reference gene <italic toggle="yes">EF1‐α</italic> and subsequently normalized against the ∆‐ct of the respective control. Error bars represent SD of two independent experiments, each using ten leaves of ten different plants for each transgenic line. Asterisks indicate statistical significance (*<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; Student’s <italic toggle="yes">t</italic>‐test).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-3" position="float" orientation="portrait" xlink:href="MPP-20-1636-g002.jpg"/></fig><p>Consistent with their effects on <italic toggle="yes">Fg</italic> infections, strong co‐silencing effects were observed with CYP51‐dsRNA double constructs (Fig. <xref rid="mpp12866-fig-0002" ref-type="fig">2</xref>C): CYP‐AC strongly reduced non‐target <italic toggle="yes">FgCYP51B</italic> expression. CYP‐BC and CYP‐AB co‐silenced non‐targeted genes <italic toggle="yes">FgCYP51A</italic> and <italic toggle="yes">FgCYP51C</italic>, respectively. Moreover, CYP‐B strongly reduced <italic toggle="yes">FgCYP51B</italic> but also non‐target genes <italic toggle="yes">FgCYP51A</italic> and <italic toggle="yes">FgCYP51C</italic>, further explaining the strong effect of CYP‐B. Similarly, CYP‐A strongly silenced <italic toggle="yes">FgCYP51A</italic> by 60%, but co‐silencing of non‐target <italic toggle="yes">FgCYP51C</italic> was weak and co‐silencing of non‐target <italic toggle="yes">FgCYP51B</italic> was not significant. Instead, CYP‐C effects on the <italic toggle="yes">FgCYP51C</italic> target and non‐target genes overall was minor. Thus, direct silencing and co‐silencing effects detected in the <italic toggle="yes">FgCYP51</italic> expression analysis fits well the resistance phenotypes observed on leaves. Moreover, the detached leaf assay supports data previously obtained on wheat spikes (Fan <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0015" ref-type="ref">2013</xref>), suggesting that this simple and easy setup generates reliable information on gene functions. Overall, differential barley infection phenotypes correlated strongly with <italic toggle="yes">FgCYP51</italic> gene expression data. Difference of CYP51‐dsRNA activities between the HIGS setups in barley versus <italic toggle="yes">Arabidopsis</italic> (e.g. equal efficacy of single and double constructs in <italic toggle="yes">Arabidopsis</italic>) may result from both differences in the RNAi machinery and/or transfer routes of small RNAs from host cells to the interacting pathogen. Furthermore, considering the aspect of host versus non‐host plant, the barley immune system might be more affected by pathogen‐delivered effector molecules. We also cannot exclude that the uptake/transfer of metabolites including dsRNA or siRNAs is somewhat different in barley versus the non‐host plant <italic toggle="yes">Arabidopsis</italic>.</p></sec><sec id="mpp12866-sec-0007"><title>Target and off‐target effects of CYP51‐dsRNAs cause efficient SIGS‐mediated resistance to <italic toggle="yes">Fusarium</italic>
+</title><p>Next, we tested the activities of CYP51‐dsRNAs in SIGS experiments. Consistent with earlier findings (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0027" ref-type="ref">2016</xref>), CYP3RNA reduces fungal development when directly sprayed onto barley leaves prior to inoculation (Fig. <xref rid="mpp12866-sup-0006" ref-type="supplementary-material">S6</xref>). To this end, detached barley leaves were sprayed with 20 ng/µL dsRNA and drop‐inoculated 48 h later with a suspension of <italic toggle="yes">Fg</italic> conidia. After 5 dpi, necrotic lesions were visible at the inoculation sites of leaves sprayed with buffer (control). In contrast, CYP51‐dsRNAs reduced <italic toggle="yes">Fg</italic> infection symptoms as revealed by significantly smaller lesions (Fig. <xref rid="mpp12866-fig-0003" ref-type="fig">3</xref>A). Consistent with earlier results (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0027" ref-type="ref">2016</xref>), spraying the 791‐nt long CYP3RNA resulted in a very strong decrease in <italic toggle="yes">Fg</italic> infection by at least 90%. Overall, infected areas were reduced by CYP51‐dsRNAs on average by 80% compared to the control (Fig. <xref rid="mpp12866-fig-0003" ref-type="fig">3</xref>B). Expression analysis of <italic toggle="yes">FgCYP51</italic> genes in samples from infected leaves showed target gene silencing in a wide range of always more than 50% (Fig. <xref rid="mpp12866-fig-0003" ref-type="fig">3</xref>C). Moreover, all CYP51‐dsRNAs induced strong co‐silencing on <italic toggle="yes">CYP51</italic> genes (Fig. <xref rid="mpp12866-sup-0005" ref-type="supplementary-material">S5</xref>). All dsRNAs led to silencing of respective non‐targeted <italic toggle="yes">CYP51</italic> genes except for CYP‐AB dsRNA, where spray application resulted in up‐regulation of <italic toggle="yes">FgCYP51C</italic>. Overall, these data show a strong correlation between resistance phenotypes induced by CYP51‐dsRNAs and silenced expression of <italic toggle="yes">CYP51</italic> genes. Notably, under the conditions used here, gene silencing by spray treatment was very efficient (compare HIGS setup Fig. <xref rid="mpp12866-fig-0002" ref-type="fig">2</xref> with Fig. <xref rid="mpp12866-fig-0003" ref-type="fig">3</xref>; Table <xref rid="mpp12866-tbl-0001" ref-type="table">1</xref>).</p><fig fig-type="Figure" xml:lang="en" id="mpp12866-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>
+<italic toggle="yes">Fusarium graminearum</italic> infection symptoms on barley leaves sprayed with CYP51‐dsRNAs. (A) Detached leaves of 3‐week‐old barley plants were sprayed with CYP51‐dsRNAs or TE buffer. After 48 h, leaves were drop‐inoculated with 5 × 10<sup>4</sup> conidia/mL and evaluated for infection symptoms at 5 days post‐inoculation (dpi). (B) Infection area, shown as percentage of the total leaf area for ten leaves for each dsRNA and the TE control. Error bars indicate SE of two independent experiments. Asterisks indicate statistical significance (**<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; Student’s <italic toggle="yes">t</italic>‐test). (C) Gene‐specific expression of <italic toggle="yes">FgCYP51A</italic>, <italic toggle="yes">FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic> was measured by qRT‐PCR and normalized to fungal <italic toggle="yes">EF1‐α</italic> as reference gene and subsequently normalized against the ∆‐ct of the respective control. Detached leaves of 3‐week‐old barley plants were sprayed with CYP51‐dsRNA or TE buffer. After 48 h leaves were drop inoculated with 5 × 10<sup>4</sup> macroconidia/mL. cDNA was generated at 5 dpi after total RNA extraction from infected leaves. Error bars represent SD of two independent experiments. Asterisks indicate statistical significance (*<italic toggle="yes">P</italic> &lt; 0.05; **<italic toggle="yes">P</italic> &lt; 0.01; ***<italic toggle="yes">P</italic> &lt; 0.001; Student’s <italic toggle="yes">t</italic>‐test).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="nlm-graphic-5" position="float" orientation="portrait" xlink:href="MPP-20-1636-g003.jpg"/></fig><table-wrap id="mpp12866-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Growth inhibition of <italic toggle="yes">Fusarium graminearum</italic> in different RNAi‐based silencing setups shown as reduction in % of the infected leaf area</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1"/><th align="left" valign="top" rowspan="1" colspan="1">CYP‐A</th><th align="left" valign="top" rowspan="1" colspan="1">CYP‐B</th><th align="left" valign="top" rowspan="1" colspan="1">CYP‐C</th><th align="left" valign="top" rowspan="1" colspan="1">CYP‐AC</th><th align="left" valign="top" rowspan="1" colspan="1">CYP‐BC</th><th align="left" valign="top" rowspan="1" colspan="1">CYP‐AB</th><th align="left" valign="top" rowspan="1" colspan="1">CYP3RNA</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">HIGS (<italic toggle="yes">Arabidopsis</italic>)</td><td align="left" rowspan="1" colspan="1">57%</td><td align="left" rowspan="1" colspan="1">66%</td><td align="left" rowspan="1" colspan="1">31%</td><td align="left" rowspan="1" colspan="1">63%</td><td align="left" rowspan="1" colspan="1">51%</td><td align="left" rowspan="1" colspan="1">60%</td><td align="left" rowspan="1" colspan="1">57%</td></tr><tr><td align="left" rowspan="1" colspan="1">HIGS (barley)</td><td align="left" rowspan="1" colspan="1">7%</td><td align="left" rowspan="1" colspan="1">40%</td><td align="left" rowspan="1" colspan="1">9%</td><td align="left" rowspan="1" colspan="1">39%</td><td align="left" rowspan="1" colspan="1">62%</td><td align="left" rowspan="1" colspan="1">53%</td><td align="left" rowspan="1" colspan="1">na</td></tr><tr><td align="left" rowspan="1" colspan="1">SIGS (barley)</td><td align="left" rowspan="1" colspan="1">80%</td><td align="left" rowspan="1" colspan="1">78%</td><td align="left" rowspan="1" colspan="1">82%</td><td align="left" rowspan="1" colspan="1">83%</td><td align="left" rowspan="1" colspan="1">88%</td><td align="left" rowspan="1" colspan="1">84%</td><td align="left" rowspan="1" colspan="1">93%</td></tr></tbody></table><table-wrap-foot><fn id="mpp12866-note-0003"><label>*</label><p>controls: HIGS (<italic toggle="yes">Arabidopsis</italic>) = wild‐type Col‐0; HIGS (barley) = GUS dsRNA; SIGS (barley) = TE buffer. Values represent means of at least two biological replicates. Statistical significance and SE are indicated in figures (see Figs <xref rid="mpp12866-fig-0001" ref-type="fig">1</xref>, <xref rid="mpp12866-fig-0002" ref-type="fig">2</xref>, <xref rid="mpp12866-fig-0003" ref-type="fig">3</xref>).</p></fn><fn id="mpp12866-note-0004"><label>†</label><p>na, not applicable.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &amp; Sons, Ltd</copyright-holder></permissions></table-wrap><p>Of note, our previous work showed that CYP3RNA was taken up by <italic toggle="yes">Fg</italic> from sprayed leaves and subsequently processed by the fungal RNAi machinery into small RNAs (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0027" ref-type="ref">2016</xref>). Thus, efficient uptake of intact CYP51‐dsRNA by fungal infection hyphae could explain their high efficiency in the SIGS setups. Concerning HIGS setups, on the other hand, it is not yet known whether longer dsRNAs such as CYP3RNA are also transferred to the interacting fungus or are processed by the plant’s RNAi machinery into small interfering (si)RNAs in advance of an efficient uptake by the fungus (Baldrich <italic toggle="yes">et al</italic>., <xref rid="mpp12866-bib-0003" ref-type="ref">2019</xref>; Cai <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0010" ref-type="ref">2018b</xref>). While, intuitively, the latter scenario is highly probable, the necrotrophic nature of the fungus, implying strong tissue damage already during early infection stages, makes it difficult to answer this question. Moreover, as both processing and transfer of RNA could also vary from species to species, differences between HIGS efficiencies of CYP51‐dsRNAs in barley versus <italic toggle="yes">Arabidopsis</italic> may be explained by variations in the RNAi machinery and/or different pathways of bidirectional RNA transfer (Wang <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0044" ref-type="ref">2016</xref>).</p></sec></sec><sec id="mpp12866-sec-0008"><title>Experimental Procedures</title><sec id="mpp12866-sec-0009"><title>Fungal material and plant infection</title><p>
+<italic toggle="yes">Fusarium graminearum</italic> strain IFA65 (Department for Agrobiotechnology, Tulln, Austria) was cultured on synthetic nutrient‐poor agar (SNA). Preparation of fungal inoculum was performed as described (Jansen <italic toggle="yes">et al</italic>., <xref rid="mpp12866-bib-0022" ref-type="ref">2005</xref>). <italic toggle="yes">Ar</italic>
+<italic toggle="yes">abidopsis thaliana</italic> Col‐0 wt and transgenic <italic toggle="yes">Arabidopsis</italic> plants were grown in a climate chamber with 8 h photoperiod at 22 °C with 60% relative humidity. For <italic toggle="yes">Arabidopsis</italic> infection, 15 rosette leaves of each line [transgenic CYP51‐dsRNA (T2), wt] were detached and transferred in square Petri plates containing 1% water‐agar. Barley cv. Golden Promise and transgenic barley plants were grown in a climate chamber with a 16 h photoperiod at 22 °C with 60% relative humidity. For infection of barley, ten detached second leaves of 2–3‐week‐old plants were transferred in square Petri plates containing 1% water‐agar. Drop‐inoculation of <italic toggle="yes">Arabidopsis</italic> and barley leaves was done with 5 and 20 µL, respectively, of a spore suspension of 5 × 10<sup>4</sup> conidia/mL. Infection strength was recorded at 5 dpi as infection area by determining the size of chlorotic lesions relative to total leaf area using ImageJ software (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://www.computerbild.de/download/ImageJ-422527.html">https://www.computerbild.de/download/ImageJ-422527.html</ext-link>).</p></sec><sec id="mpp12866-sec-0010"><title>Fungal transcript analysis</title><p>To assess silencing of the <italic toggle="yes">FgCYP51</italic> genes, mRNA expression analysis was performed using quantitative real‐time PCR (qRT‐PCR). RNA extraction from the diseased leaves was performed with TRIzol (Thermo Fisher Scientific, Waltham, MA, USA) following the manufacturer’s instructions. Freshly extracted mRNA was used for cDNA synthesis using qScript<sup>TM</sup> cDNA kit (Quantabio, Beverly, MA, USA). For qRT‐PCR, 10 ng of cDNA was used as template in the QuantStudio 5 Real‐Time PCR system (Applied Biosystems). Amplifications were performed in 7.5 μL of SYBR<sup>®</sup> green JumpStart Taq ReadyMix (Sigma‐Aldrich, St. Louis, MO, USA) with 5 pmol oligonucleotides. Each sample had three technical repetitions. Primers were used for studying expression of <italic toggle="yes">CYP51</italic> genes with reference to <italic toggle="yes">Elongation factor 1‐alpha</italic> (<italic toggle="yes">EF1‐a</italic>) gene (FGSG_08811) (Table <xref rid="mpp12866-sup-0007" ref-type="supplementary-material">S1</xref>). After an initial activation step at 95 °C for 5 min, 40 cycles (95 °C for 30 s, 57 °C for 30 s, 72 °C for 30 s) were performed. Ct values were determined with the 7500 Fast software supplied with the instrument. Levels of <italic toggle="yes">CYP51</italic> transcripts were determined via the 2<sup>–ΔΔCt</sup> method (Livak and Schmittgen,<xref rid="mpp12866-bib-0031" ref-type="ref">2001</xref>) by normalizing the amount of target transcript to the amount of the reference transcript <italic toggle="yes">EF1‐a</italic> (FGSG_08811).</p></sec><sec id="mpp12866-sec-0011"><title>Single and double CYP51‐dsRNAs</title><p>CYP‐A, CYP‐B, CYP‐C, CYP‐AC, CYP‐BC and CYP‐AB dsRNA sequences derived from the previously published CYP3RNA dsRNA (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0026" ref-type="ref">2013</xref>). All six constructs were first arranged separately into pGEMT cloning vector (Promega, Madison, WI, USA) (Table <xref rid="mpp12866-sup-0008" ref-type="supplementary-material">S2</xref>). The stacked clones were used as template for the synthesis of dsRNA. Synthesis of dsRNA for spray applications was performed using the MEGAscript High Yield Transcription Kit (Thermo Fisher Scientific, Waltham, MA, USA) Following MEGAscript protocols, primer pairs T7_F and T7_R with a T7 promoter sequence at the 5′ end of both forward and reverse primers were designed for amplification of dsRNA (Table <xref rid="mpp12866-sup-0008" ref-type="supplementary-material">S2</xref>). dsRNA was stored at −80 °C.</p></sec><sec id="mpp12866-sec-0012"><title>Spray application of dsRNA on barley leaves</title><p>Second leaves of 3‐week‐old barley cv. Golden Promise were detached and transferred to square Petri plates containing 1% water‐agar. The dsRNA was diluted in 500 μL water to a final concentration of 20 ng/μL. For the TE‐control, Tris‐EDTA (TE) buffer was diluted in 500 μL water corresponding to the amount used for dilution of the dsRNA. Typical RNA concentration after elution was 500 ng/μL, representing a buffer concentration of 400 μM Tris‐HCl and 40 μM EDTA in the final dilution. Spraying of the leaves was carried out using a spray flask as described earlier (Koch <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0027" ref-type="ref">2016</xref>). Each plate containing ten detached leaves was evenly sprayed with either CYP51‐dsRNAs or TE buffer by giving three to four puffs, and subsequently kept at room temperature. Forty‐eight hours after spraying, leaves were drop‐inoculated with three 20 µL drops of <italic toggle="yes">Fg</italic> suspension containing 5 × 10<sup>4</sup> conidia/mL TE. After inoculation, plates were closed and incubated for 5 days at room temperature.</p></sec><sec id="mpp12866-sec-0013"><title>Generation of transgenic <italic toggle="yes">Arabidopsis</italic> and barley plants</title><p>Constructs for plant transformation were obtained by inserting the corresponding CYP51‐dsRNA sequences between the <italic toggle="yes">Hin</italic>dIII and <italic toggle="yes">Xma</italic>I restriction sites of p7U10 RNAi for <italic toggle="yes">Arabidopsis</italic> (DNA Cloning Service , Hamburg, Germany; Fig. <xref rid="mpp12866-sup-0002" ref-type="supplementary-material">S2</xref>A) or p6i‐Ubi‐RNAi2 for barley transformation (Fig. <xref rid="mpp12866-sup-0002" ref-type="supplementary-material">S2</xref>B and Table <xref rid="mpp12866-sup-0008" ref-type="supplementary-material">S2</xref>). The plasmids were introduced into the <italic toggle="yes">Agrobacterium tumefaciens</italic> strain AGL1 (Lazo <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0029" ref-type="ref">1991</xref>) by electroporation. Transformation of <italic toggle="yes">Arabidopsis</italic> was performed with the floral dip method as described (Bechtold <italic toggle="yes">et al</italic>., <xref rid="mpp12866-bib-0006" ref-type="ref">1993</xref>) and transgenic plants were selected on 7 µg/mL glufosinate (Phosphinotricin, Duchchefa Biochemie, Haarlem, Netherlands )1/2 × MS medium (Murashige and Skoog, <xref rid="mpp12866-bib-0035" ref-type="ref">1962</xref>) agar plates. Barley was transformed as described elsewhere (Imani <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0020" ref-type="ref">2011</xref>). For barley transformation, inverted ubiquitin promoters from the vector p6i‐Ubi‐RNAi2 were used (DNA Cloning Service). The transgenic lines that were used in the pathogen assays were previously selected based on expression analysis of partial <italic toggle="yes">CYP51</italic> gene fragments in transgenic barley and <italic toggle="yes">Arabidopsis</italic>. Therefore, RNA was extracted and expression analysis was performed using qRT‐PCR as described above. Primers were used for studying transgene expression of <italic toggle="yes">CYP51</italic> genes with reference to <italic toggle="yes">Arabidopsis</italic> and barley <italic toggle="yes">Ubiquitin</italic> gene (<italic toggle="yes">HORVU1Hr1G023660</italic>) (Table <xref rid="mpp12866-sup-0008" ref-type="supplementary-material">S2</xref>). Levels of <italic toggle="yes">CYP51</italic> transcripts were determined via the 2<sup>–ΔΔCt</sup> method (Livak and Schmittgen, </p><p>
+<xref rid="mpp12866-bib-0031" ref-type="ref">2001</xref>) by normalizing the amount of target transcript to the amount of the reference transcript <italic toggle="yes">Ubiquitin</italic>.</p></sec><sec id="mpp12866-sec-0014"><title>Off‐target prediction</title><p>The precursor sequences of CYP‐A, CYP‐B and CYP‐C were split into k‐mers of 21 bases. These sequences were targeted against the complementary DNA (cDNA) of <italic toggle="yes">Fg</italic> strain PH‐1 (GCA_000240135.3) with TAPIR (Bonnet <italic toggle="yes">et al.</italic>, <xref rid="mpp12866-bib-0007" ref-type="ref">2010</xref>) using the following settings: score cut‐off 6 and minimum free energy ration of 0.55. For each targeted position the number of k‐mers was plotted for each construct separately with RStudio (RStudio Team, <xref rid="mpp12866-bib-0041" ref-type="ref">2016</xref>) and the ggplot2 package (Wickham, <xref rid="mpp12866-bib-0045" ref-type="ref">2016</xref>). The results were reported as plots (Fig. <xref rid="mpp12866-sup-0003" ref-type="supplementary-material">S3</xref>).</p></sec><sec id="mpp12866-sec-0015"><title>Statistical analysis</title><p>For statistical analysis, two‐tailed Student’s <italic toggle="yes">t</italic>‐test was performed with data gained in plant infection assays and qRT‐PCR.</p></sec></sec><sec id="mpp12866-sec-0017"><title>Competing Interests</title><p>The authors declare no competing financial and non‐financial interests.</p></sec><sec id="mpp12866-sec-0018"><title>Author Contributions</title><p>K‐H.K., A.K. and L.H. wrote the manuscript; K‐H.K. and A.K. designed the study; L.H., A.K., J.I. and A.S. conducted the experiments; A.K. and L.H. analysed all data and drafted the figures. B.T.W. and L.J. conducted the bioinformatics analysis and provided bioinformatics support; all authors reviewed the final manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="mpp12866-sup-0001" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S1</bold> DNA sequences corresponding to CYP51‐dsRNAs CYP‐A, CYP‐B, CYP‐C, CYP‐AC, CYP‐BC, CYP‐AB, CYP3RNA and GUS‐dsRNA. CYP‐dsRNAs derived from sequences of <italic toggle="yes">FgCYP51A</italic>, <italic toggle="yes">FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic> of <italic toggle="yes">Fusarium graminearum</italic>.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s001.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12866-sup-0002" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S2</bold> Schematic representation of RNAi vectors CYP‐A, CYP‐B, CYP‐C, CYP‐AC, CYP‐BC and CYP‐AB used for transformation of <italic toggle="yes">Arabidopsis</italic> (A) and barley (B).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s002.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12866-sup-0003" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S3</bold> Off‐target prediction for single CYP51<italic toggle="yes">‐</italic>dsRNA constructs. Sequences of CYP‐A (A), CYP‐B (B) and CYP‐C (C) were split into 21‐mers. These were targeted against the corresponding complementary DNAs (cDNAs) of <italic toggle="yes">FgCYP51A</italic>, <italic toggle="yes">FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic>. For each position within the cDNA the number of k‐mers that target this cDNA is plotted. As expected, each precursor has a long perfect match on the corresponding CDS. Besides that, one can see potential off‐target regions with non‐perfect matches.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s003.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12866-sup-0004" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S4</bold>
+<italic toggle="yes">Fusarium graminearum</italic> infections on leaves of transgenic barley lines expressing single CYP51‐dsRNA constructs CYP‐A, CYP‐B and CYP‐C, and double constructs CYP‐AC, CYP‐BC and CYP‐AB or GUS dsRNA (close‐up from Fig. 2A). Detached second leaves of 3‐week‐old barley plants expressing CYP51‐dsRNAs were inoculated with 5 × 10<sup>4 </sup>macroconidia/mL. Infection symptoms were assessed at 5 days post‐inoculation.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s004.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12866-sup-0005" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S5</bold> Co‐silencing of <italic toggle="yes">FgCYP51A</italic>, <italic toggle="yes">FgCYP51B</italic> and <italic toggle="yes">FgCYP51C</italic> by CYP51‐dsRNAs as measured by qRT‐PCR and normalized to fungal EF1‐α as reference gene. Detached leaves of 3‐week‐old barley plants were sprayed with CYP51‐dsRNA or TE buffer. After 48 h leaves were drop‐inoculated with 5 × 10<sup>4</sup> conidia/mL. cDNA was generated at 5 days post‐inoculation after total RNA extraction from infected leaves. Error bars represent SD of two independent experiments. Asterisks indicate statistical significance. (*<italic toggle="yes">P</italic> &lt; 0.05; ***<italic toggle="yes">P</italic> &lt; 0.001; Student’s <italic toggle="yes">t</italic>‐test).</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s005.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12866-sup-0006" position="float" orientation="portrait"><caption><p>
+<bold>Fig. S6</bold> SIGS‐mediated control of <italic toggle="yes">Fusarium graminearum</italic> on whole barley plants sprayed with CYP3‐dsRNA. (a) One‐week‐old barley plants cv. Golden Promise were sprayed evenly with CYP3‐dsRNA (20 ng/µL) or TE buffer (mock control), respectively. Forty‐eight hours later plants were spray‐inoculated with 2 × 10<sup>4</sup> conidia/mL of <italic toggle="yes">F. graminearum</italic> and grown for 4 weeks in a growth chamber. Plants were evaluated and categorized according to their infection symptoms: I, without symptoms; II, first leaf infected; III, two leaves infected; IV, more than two leaves infected. (b) Hypocotyls of plants sprayed with CYP3‐dsRNA developed less brownish lesions compared to TE‐treated control plants.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s006.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12866-sup-0007" position="float" orientation="portrait"><caption><p>
+<bold>Table S1</bold> CYP51A_siRNASequence_18, CYP51B_siRNASequence_18, CYP51C_siRNASequence_18.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s007.xlsx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="mpp12866-sup-0008" position="float" orientation="portrait"><caption><p>
+<bold>Table S2</bold> Primers used in this study for generation of CYP51 RNAi silencing constructs and qRT‐PCR.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="MPP-20-1636-s008.docx" position="float" orientation="portrait"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="mpp12866-sec-0016"><title>Acknowledgements</title><p>We thank D. Biedenkopf and Eugen Swidtschenko for excellent technical assistance. This work was supported by the Deutsche Forschungsgemeinschaft, Research Training Group (RTG) 2355 (project number 325443116) to K‐H.K. and A.K.</p></ack><sec sec-type="data-availability" id="mpp12866-sec-0020"><title>Data Availability Statement</title><p>The genome assembly of the <italic toggle="yes">Fg</italic> strain PH‐1 is openly available from NCBI at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov">www.ncbi.nlm.nih.gov</ext-link> under the accession number GCA_000240135.3.</p></sec><ref-list content-type="cited-references" id="mpp12866-bibl-0001"><title>References</title><ref id="mpp12866-bib-0001"><mixed-citation publication-type="journal" id="mpp12866-cit-0001">
+<string-name name-style="western">
+<surname>Alexander</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brown</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Arneth</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Finnigan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Moran</surname>, <given-names>D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Rounsevell</surname>, <given-names>M.D.A.</given-names>
+</string-name> (<year>2017</year>) <article-title>Losses, inefficiencies and waste in the global food system</article-title>. <source xml:lang="en">Agric. Syst</source>. <volume>153</volume>, <fpage>190</fpage>–<lpage>200</lpage>.<pub-id pub-id-type="pmid">28579671</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.agsy.2017.01.014</pub-id><pub-id pub-id-type="pmcid">PMC5437836</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0002"><mixed-citation publication-type="journal" id="mpp12866-cit-0002">
+<string-name name-style="western">
+<surname>Andrade</surname>, <given-names>C.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tinoco</surname>, <given-names>M.L.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rieth</surname>, <given-names>A.F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maia</surname>, <given-names>F.C.O.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Aragão</surname>, <given-names>F.J.L.</given-names>
+</string-name> (<year>2016</year>) <article-title>Host‐induced gene silencing in the necrotrophic fungal pathogen <italic toggle="yes">Sclerotinia sclerotiorum</italic>
+</article-title>. <source xml:lang="en">Plant Pathol</source>. <volume>65</volume>, <fpage>626</fpage>–<lpage>632</lpage>.</mixed-citation></ref><ref id="mpp12866-bib-0003"><mixed-citation publication-type="journal" id="mpp12866-cit-0003">
+<string-name name-style="western">
+<surname>Baldrich</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rutter</surname>, <given-names>B.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zandkarimi</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Podicheti</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Meyers</surname>, <given-names>B.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Innes</surname>, <given-names>R.W.</given-names>
+</string-name> (<year>2019</year>) <article-title>Plant extracellular vesicles contain diverse small RNA species and are enriched in 10 to 17‐nucleotide ‘Tiny’ RNAs</article-title>. <source xml:lang="en">Plant Cell</source>, <volume>31</volume>, <fpage>315</fpage>–<lpage>324</lpage>.<pub-id pub-id-type="pmid">30705133</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1105/tpc.18.00872</pub-id><pub-id pub-id-type="pmcid">PMC6447009</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0004"><mixed-citation publication-type="journal" id="mpp12866-cit-0004">
+<string-name name-style="western">
+<surname>Becher</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hettwer</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karlovsky</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deising</surname>, <given-names>H.B.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Wirsel</surname>, <given-names>S.G.R.</given-names>
+</string-name> (<year>2010</year>) <article-title>Adaptation of <italic toggle="yes">Fusarium graminearum</italic> to tebuconazole yielded descendants diverging for levels of fitness, fungicide resistance, virulence, and mycotoxin production</article-title>. <source xml:lang="en">Phytopathology</source>
+<volume>100</volume>, <fpage>444</fpage>–<lpage>453</lpage>.<pub-id pub-id-type="pmid">20373965</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1094/PHYTO-100-5-0444</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0005"><mixed-citation publication-type="journal" id="mpp12866-cit-0005">
+<string-name name-style="western">
+<surname>Birmingham</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Anderson</surname>, <given-names>E.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Reynolds</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ilsley‐Tyree</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Leake</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fedorov</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Baskerville</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maksimova</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robinsonm</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Karpilow</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marshall</surname>, <given-names>W.S.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Khvorova</surname>, <given-names>A.</given-names>
+</string-name> (<year>2006</year>) <article-title>3′ UTR seed matches, but not overall identity, are associated with RNAi off‐targets</article-title>. <source xml:lang="en">Nat. Methods</source>, <volume>3</volume>, <fpage>199</fpage>–<lpage>204</lpage>.<pub-id pub-id-type="pmid">16489337</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth854</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0006"><mixed-citation publication-type="journal" id="mpp12866-cit-0006">
+<string-name name-style="western">
+<surname>Bechtold</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ellis</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Pelletier</surname>, <given-names>G.</given-names>
+</string-name> (<year>1993</year>) <article-title>
+<italic toggle="yes">In planta Agrobacterium</italic>-mediated gene transfer by infiltration of adult <italic toggle="yes">Arabidopsis thaliana</italic> plants</article-title>. <source xml:lang="en">Comptes Rendus de l'Academie des Sciences</source>, <volume>316</volume>, <fpage>1194</fpage>–<lpage>1199</lpage>.</mixed-citation></ref><ref id="mpp12866-bib-0007"><mixed-citation publication-type="journal" id="mpp12866-cit-0007">
+<string-name name-style="western">
+<surname>Bonnet</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Billiau</surname>, <given-names>K.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Van de Peer</surname>, <given-names>Y.</given-names>
+</string-name> (<year>2010</year>) <article-title>TAPIR, a web server for the prediction of plant microRNA targets, including target mimics</article-title>. <source xml:lang="en">Bioinformatics</source>, <volume>26</volume>, <fpage>1566</fpage>–<lpage>1568</lpage>.<pub-id pub-id-type="pmid">20430753</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/bioinformatics/btq233</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0008"><mixed-citation publication-type="journal" id="mpp12866-cit-0008">
+<string-name name-style="western">
+<surname>Brown</surname>, <given-names>N.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Evans</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mead</surname>, <given-names>A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Hammond‐Kosack</surname>, <given-names>K.E.</given-names>
+</string-name> (<year>2017</year>) <article-title>A spatial temporal analysis of the <italic toggle="yes">Fusarium graminearum</italic> transcriptome during symptomless and symptomatic wheat infection</article-title>. <source xml:lang="en">Mol. Plant Pathol</source>. <volume>8</volume>, <fpage>1295</fpage>–<lpage>1312</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.12564</pub-id><pub-id pub-id-type="pmcid">PMC5697668</pub-id><pub-id pub-id-type="pmid">28466509</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0009"><mixed-citation publication-type="journal" id="mpp12866-cit-0009">
+<string-name name-style="western">
+<surname>Cai</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.H.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Jin</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018a</year>) <article-title>Cross‐kingdom RNA trafficking and environmental RNAi‐nature's blueprint for modern crop protection strategies</article-title>. <source xml:lang="en">Curr. Opin. Microbiol</source>. <volume>46</volume>, <fpage>58</fpage>–<lpage>64</lpage>.<pub-id pub-id-type="pmid">29549797</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mib.2018.02.003</pub-id><pub-id pub-id-type="pmcid">PMC6499079</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0010"><mixed-citation publication-type="journal" id="mpp12866-cit-0010">
+<string-name name-style="western">
+<surname>Cai</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qiao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>He</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>, <given-names>F.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Palmquist</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>, <given-names>S.D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Jin</surname>, <given-names>H.</given-names>
+</string-name> (<year>2018b</year>) <article-title>Plants send small RNAs in extracellular vesicles to fungal pathogen to silence virulence genes</article-title>. <source xml:lang="en">Science</source>, <volume>360</volume>, <fpage>1126</fpage>–<lpage>1129</lpage>.<pub-id pub-id-type="pmid">29773668</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.aar4142</pub-id><pub-id pub-id-type="pmcid">PMC6442475</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0011"><mixed-citation publication-type="journal" id="mpp12866-cit-0011">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kastner</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nowara</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Oliveira‐Garcia</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rutten</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Deising</surname>, <given-names>H.B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kumlehn</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Schweizer</surname>, <given-names>P.</given-names>
+</string-name> (<year>2016</year>) <article-title>Host‐induced silencing of <italic toggle="yes">Fusarium culmorum</italic> genes protects wheat from infection</article-title>. <source xml:lang="en">J. Exp. Bot</source>. <volume>67</volume>, <fpage>4979</fpage>–<lpage>4991</lpage>.<pub-id pub-id-type="pmid">27540093</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jxb/erw263</pub-id><pub-id pub-id-type="pmcid">PMC5014151</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0012"><mixed-citation publication-type="journal" id="mpp12866-cit-0012">
+<string-name name-style="western">
+<surname>Cheng</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Song</surname>, <given-names>X.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>H.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cao</surname>, <given-names>L.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qiu</surname>, <given-names>X.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>Y.B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>J.B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Qu</surname>, <given-names>B.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Liao</surname>, <given-names>Y.C.</given-names>
+</string-name> (<year>2015</year>) <article-title>Host‐induced gene silencing of an essential chitin synthase gene confers durable resistance to Fusarium head blight and seedling blight in wheat</article-title>. <source xml:lang="en">Plant Biotechnol. J</source>. <volume>13</volume>, <fpage>1335</fpage>–<lpage>1345</lpage>.<pub-id pub-id-type="pmid">25735638</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.12352</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0013"><mixed-citation publication-type="journal" id="mpp12866-cit-0013">
+<string-name name-style="western">
+<surname>Dalakouras</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wassenegger</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dadami</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ganopoulos</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pappas</surname>, <given-names>M.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Papadopoulou</surname>, <given-names>K.K.</given-names>
+</string-name> (<year>2019</year>) <article-title>GMO‐free RNAi: exogenous application of RNA molecules in plants</article-title>. <source xml:lang="en">Plant Physiol.</source>
+<pub-id pub-id-type="doi">10.1104/pp.19.00570</pub-id>.<pub-id pub-id-type="pmcid">PMC6945881</pub-id><pub-id pub-id-type="pmid">31285292</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0014"><mixed-citation publication-type="journal" id="mpp12866-cit-0014">
+<string-name name-style="western">
+<surname>Doll</surname>, <given-names>S.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Danicke</surname>, <given-names>S.</given-names>
+</string-name> (<year>2011</year>) <article-title>The <italic toggle="yes">Fusarium</italic> toxins deoxynivalenol (DON) and zearalenone (ZON) in animal feeding</article-title>. <source xml:lang="en">Prev. Vet. Med.</source>
+<volume>102</volume>, <fpage>132</fpage>–<lpage>145</lpage>.<pub-id pub-id-type="pmid">21571381</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.prevetmed.2011.04.008</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0015"><mixed-citation publication-type="journal" id="mpp12866-cit-0015">
+<string-name name-style="western">
+<surname>Fan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Urban</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parker</surname>, <given-names>J.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brewer</surname>, <given-names>H.C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kelly</surname>, <given-names>S.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hammond‐Kosack</surname>, <given-names>K.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fraaije</surname>, <given-names>B.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>X.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Cools</surname>, <given-names>H.J.</given-names>
+</string-name> (<year>2013</year>) <article-title>Characterization of the sterol 14alpha‐demethylases of <italic toggle="yes">Fusarium graminearum</italic> identifies a novel genus‐specific CYP51 function</article-title>. <source xml:lang="en">New Phytol</source>. <volume>198</volume>, <fpage>821</fpage>–<lpage>835</lpage>.<pub-id pub-id-type="pmid">23442154</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/nph.12193</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0016"><mixed-citation publication-type="journal" id="mpp12866-cit-0016">
+<string-name name-style="western">
+<surname>Fernández‐Ortuño</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Loza‐Reyes</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Atkins</surname>, <given-names>S.L.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Fraaije</surname>, <given-names>B.A.</given-names>
+</string-name> (<year>2010</year>) <article-title>The <italic toggle="yes">CYP51C</italic> gene, a reliable marker to resolve interspecific phylogenetic relationships within the <italic toggle="yes">Fusarium</italic> species complex and a novel target for species‐specific PCR</article-title>. <source xml:lang="en">Int. J. Food Microbiol</source>. <volume>144</volume>, <fpage>301</fpage>–<lpage>309</lpage>.<pub-id pub-id-type="pmid">21071105</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ijfoodmicro.2010.10.013</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0017"><mixed-citation publication-type="journal" id="mpp12866-cit-0017">
+<string-name name-style="western">
+<surname>Gaffar</surname>, <given-names>F.Y.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name> (<year>2019</year>) <article-title>Catch me if you can! RNA silencing‐based improvement of antiviral plant immunity</article-title>. <source xml:lang="en">Viruses</source>, <volume>11</volume>, <fpage>673</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/v11070673</pub-id><pub-id pub-id-type="pmcid">PMC6669615</pub-id><pub-id pub-id-type="pmid">31340474</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0018"><mixed-citation publication-type="journal" id="mpp12866-cit-0018">
+<string-name name-style="western">
+<surname>Gsaller</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hortschansky</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furukawa</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>P.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rash</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capilla</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Müller</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bracher</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bowyer</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haas</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Brakhage</surname>, <given-names>A.A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Bromley</surname>, <given-names>M.J.</given-names>
+</string-name> (<year>2016</year>) <article-title>Sterol biosynthesis and azole tolerance is governed by the opposing actions of SrbA and the CCAAT. binding complex</article-title>. <source xml:lang="en">PLoS Pathog</source>. <volume>12</volume>, <elocation-id>e1005775</elocation-id>.<pub-id pub-id-type="pmid">27438727</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1005775</pub-id><pub-id pub-id-type="pmcid">PMC4954732</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0019"><mixed-citation publication-type="journal" id="mpp12866-cit-0019">
+<string-name name-style="western">
+<surname>Hu</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Parekh</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maruta</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Trusov</surname>, <given-names>Y.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Botella</surname>, <given-names>J.R.</given-names>
+</string-name> (<year>2015</year>) <article-title>Down‐regulation of <italic toggle="yes">Fusarium oxysporum</italic> endogenous genes by host‐delivered RNA interference enhances disease resistance</article-title>. <source xml:lang="en">Front. Chem.</source>
+<volume>3</volume>, <fpage>1</fpage>.<pub-id pub-id-type="pmid">25654075</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fchem.2015.00001</pub-id><pub-id pub-id-type="pmcid">PMC4299518</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0020"><mixed-citation publication-type="journal" id="mpp12866-cit-0020">
+<string-name name-style="western">
+<surname>Imani</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schäfer</surname>, <given-names>P.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.‐H.</given-names>
+</string-name> (<year>2011</year>) <article-title>STARTS–a stable root transformation system for rapid functional analyses of proteins of the monocot model plant barley</article-title>. <source xml:lang="en">Plant J</source>. <volume>67</volume>, <fpage>726</fpage>–<lpage>735</lpage>.<pub-id pub-id-type="pmid">21518054</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-313X.2011.04620.x</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0021"><mixed-citation publication-type="journal" id="mpp12866-cit-0021">
+<string-name name-style="western">
+<surname>Jackson</surname>, <given-names>A.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bartz</surname>, <given-names>S.R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schelter</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kobayashi</surname>, <given-names>S.V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burchard</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mao</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cavet</surname>, <given-names>G.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Linsley</surname>, <given-names>P.S.</given-names>
+</string-name> (<year>2003</year>) <article-title>Expression profiling reveals off‐target gene regulation by RNAi</article-title>. <source xml:lang="en">Nat. Biotechnol</source>. <volume>21</volume>, <fpage>635</fpage>–<lpage>637</lpage>.<pub-id pub-id-type="pmid">12754523</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt831</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0022"><mixed-citation publication-type="journal" id="mpp12866-cit-0022">
+<string-name name-style="western">
+<surname>Jansen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>von Wettstein</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schäfer</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Felk</surname>, <given-names>A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Maier</surname>, <given-names>F.J.</given-names>
+</string-name> (<year>2005</year>) <article-title>Infection patterns in barley and wheat spikes inoculated with wild‐type and trichodiene synthase gene disrupted <italic toggle="yes">Fusarium graminearum</italic>
+</article-title>. <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>. <volume>102</volume>, <fpage>16892</fpage>–<lpage>16897</lpage>.<pub-id pub-id-type="pmid">16263921</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.0508467102</pub-id><pub-id pub-id-type="pmcid">PMC1283850</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0023"><mixed-citation publication-type="journal" id="mpp12866-cit-0023">
+<string-name name-style="western">
+<surname>Kettles</surname>, <given-names>G.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hofinger</surname>, <given-names>B.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hu</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bayon</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rudd</surname>, <given-names>J.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Balmer</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Courbot</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hammond‐Kosack</surname>, <given-names>K.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Scalliet</surname>, <given-names>G.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kanyuka</surname>, <given-names>K.</given-names>
+</string-name> (<year>2019</year>) <article-title>sRNA profiling combined with gene function analysis reveals a lack of evidence for cross‐kingdom RNAi in the wheat – <italic toggle="yes">Zymoseptoria tritici</italic> pathosystem</article-title>. <source xml:lang="en">Front. Plant Sci</source>. <volume>10</volume>, <fpage>892</fpage>.<pub-id pub-id-type="pmid">31333714</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2019.00892</pub-id><pub-id pub-id-type="pmcid">PMC6620828</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0024"><mixed-citation publication-type="miscellaneous" id="mpp12866-cit-0024">
+<string-name name-style="western">
+<surname>Keulemans</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bylemans</surname>, <given-names>D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>De Coninck</surname>, <given-names>B.</given-names>
+</string-name> (<year>2019</year>) <article-title>Farming without plant protection: EPRS European Parliamentary Research Service</article-title> (PE 634.416; PE 634.416 ISBN: 978‐92‐846‐3993‐9 Doi: 10.2861/05433 QA‐04‐19‐225‐EN‐N; European Union.</mixed-citation></ref><ref id="mpp12866-bib-0025"><mixed-citation publication-type="journal" id="mpp12866-cit-0025">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.‐H.</given-names>
+</string-name> (<year>2014</year>) <article-title>New wind in the sails: improving the agronomic value of crop plants through RNAi‐mediated gene silencing</article-title>. <source xml:lang="en">Plant Biotechnol. J</source>. <volume>12</volume>, <fpage>821</fpage>–<lpage>831</lpage>.<pub-id pub-id-type="pmid">25040343</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.12226</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0026"><mixed-citation publication-type="journal" id="mpp12866-cit-0026">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Biedenkopf</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weber</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rossbach</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abdellatef</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linicus</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johannsmeier</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jelonek</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goesmann</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cardoza</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McMillan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mentzel</surname>, <given-names>T.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.H.</given-names>
+</string-name> (<year>2013</year>) <article-title>Host‐induced gene silencing of cytochrome P450 lanosterol C14alpha‐demethylase‐encoding genes confers strong resistance to Fusarium species</article-title>. <source xml:lang="en">Proc. Natl. Acad. Sci. USA</source>. <volume>110</volume>, <fpage>19324</fpage>–<lpage>19329</lpage>.<pub-id pub-id-type="pmid">24218613</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1306373110</pub-id><pub-id pub-id-type="pmcid">PMC3845197</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0027"><mixed-citation publication-type="journal" id="mpp12866-cit-0027">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Biedenkopf</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weber</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rossbach</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abdellatef</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linicus</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Johannsmeier</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jelonek</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Goesmann</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cardoza</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McMillan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Mentzel</surname>, <given-names>T.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.H.</given-names>
+</string-name> (<year>2016</year>) <article-title>An RNAi‐based control of <italic toggle="yes">Fusarium graminearum</italic> infections through spraying of long dsRNAs involves a plant passage and is controlled by the fungal silencing machinery</article-title>. <source xml:lang="en">PLoS Pathog.</source>
+<volume>12</volume>, <elocation-id>e1005901</elocation-id>.<pub-id pub-id-type="pmid">27737019</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1005901</pub-id><pub-id pub-id-type="pmcid">PMC5063301</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0028"><mixed-citation publication-type="journal" id="mpp12866-cit-0028">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stein</surname>, <given-names>E.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.-H.</given-names>
+</string-name> (<year>2018</year>) <article-title>RNA-based disease control as a complementary measure to fight Fusarium fungi through silencing of the azole target cytochrome P450 lanosterol C-14 α-demethylase</article-title>. <source xml:lang="en">Eur. J. Plant Pathol.</source>, <volume>152</volume>, <fpage>1003</fpage>–<lpage>1010</lpage>.</mixed-citation></ref><ref id="mpp12866-bib-0029"><mixed-citation publication-type="journal" id="mpp12866-cit-0029">
+<string-name name-style="western">
+<surname>Lazo</surname>, <given-names>G.R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Stein</surname>, <given-names>P.A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Ludwig</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>1991</year>) <article-title>A DNA transformation‐competent <italic toggle="yes">Arabidopsis</italic> genomic library in <italic toggle="yes">Agrobacterium</italic>
+</article-title>. <source xml:lang="en">Nat. Biotechnol</source>. <volume>9</volume>, <fpage>963</fpage>–<lpage>967</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nbt1091-963</pub-id><pub-id pub-id-type="pmid">1368724</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0030"><mixed-citation publication-type="journal" id="mpp12866-cit-0030">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yu</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schnabel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wu</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>Z.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Ma</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2011</year>) <article-title>Paralogous cyp51 genes in <italic toggle="yes">Fusarium graminearum</italic> mediate differential sensitivity to sterol demethylation inhibitors</article-title>. <source xml:lang="en">Fungal Genet. Biol</source>. <volume>48</volume>, <fpage>113</fpage>–<lpage>123</lpage>.<pub-id pub-id-type="pmid">20955812</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fgb.2010.10.004</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0031"><mixed-citation publication-type="journal" id="mpp12866-cit-0031">
+<string-name name-style="western">
+<surname>Livak</surname>, <given-names>K.J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Schmittgen</surname>, <given-names>T.D.</given-names>
+</string-name> (<year>2001</year>) <article-title>Analysis of relative gene expression data using real‐time quantitative PCR and the 2(−ΔΔC(T)) method</article-title>. <source xml:lang="en">Methods</source>, <volume>25</volume>, <fpage>402</fpage>–<lpage>408</lpage>.<pub-id pub-id-type="pmid">11846609</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/meth.2001.1262</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0032"><mixed-citation publication-type="journal" id="mpp12866-cit-0032">
+<string-name name-style="western">
+<surname>Majumdar</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rajasekaran</surname>, <given-names>K.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Cary</surname>, <given-names>J.W.</given-names>
+</string-name> (<year>2017</year>) <article-title>RNA interference (RNAi) as a potential tool for control of mycotoxin contamination in crop plants: concepts and considerations</article-title>. <source xml:lang="en">Front. Plant Sci</source>. <volume>8</volume>, <fpage>200</fpage>.<pub-id pub-id-type="pmid">28261252</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2017.00200</pub-id><pub-id pub-id-type="pmcid">PMC5306134</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0033"><mixed-citation publication-type="journal" id="mpp12866-cit-0033">
+<string-name name-style="western">
+<surname>McLoughlin</surname>, <given-names>A.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wytinck</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Walker</surname>, <given-names>P.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Girard</surname>, <given-names>I.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rashid</surname>, <given-names>K.Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>de Kievit</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fernando</surname>, <given-names>W.G.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whyard</surname>, <given-names>S.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Belmonte</surname>, <given-names>M.F.</given-names>
+</string-name> (<year>2018</year>) <article-title>Identification and application of exogenous dsRNA confers plant protection against <italic toggle="yes">Sclerotinia sclerotiorum</italic> and <italic toggle="yes">Botrytis cinerea</italic>
+</article-title>. <source xml:lang="en">Sci. Rep</source>. <volume>8</volume>, <fpage>7320</fpage>.<pub-id pub-id-type="pmid">29743510</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-018-25434-4</pub-id><pub-id pub-id-type="pmcid">PMC5943259</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0034"><mixed-citation publication-type="journal" id="mpp12866-cit-0034">
+<string-name name-style="western">
+<surname>Mitter</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Worrall</surname>, <given-names>E.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robinson</surname>, <given-names>K.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jain</surname>, <given-names>R.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taochy</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fletcher</surname>, <given-names>S.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carroll</surname>, <given-names>B.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lu</surname>, <given-names>G.Q.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Xu</surname>, <given-names>Z.P.</given-names>
+</string-name> (<year>2017</year>) <article-title>Clay nanosheets for topical delivery of RNAi for sustained protection against plant viruses</article-title>. <source xml:lang="en">Nat. Plants</source>, <volume>3</volume>, <fpage>16207</fpage>.<pub-id pub-id-type="pmid">28067898</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nplants.2016.207</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0035"><mixed-citation publication-type="journal" id="mpp12866-cit-0035">
+<string-name name-style="western">
+<surname>Murashige</surname>, <given-names>T.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Skoog</surname>, <given-names>F.</given-names>
+</string-name> (<year>1962</year>) <article-title>A revised medium for rapid growth and bioassays with tobacco tissue cultures</article-title>. <source xml:lang="en">Physiol. Plant</source>. <volume>15</volume>, <fpage>473</fpage>–<lpage>497</lpage>.</mixed-citation></ref><ref id="mpp12866-bib-0036"><mixed-citation publication-type="journal" id="mpp12866-cit-0036">
+<string-name name-style="western">
+<surname>Nowara</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gay</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lacomme</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Shaw</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ridout</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Douchkov</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hensel</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kumlehn</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Schweizer</surname>, <given-names>P.</given-names>
+</string-name> (<year>2010</year>) <article-title>HIGS: host‐induced gene silencing in the obligate biotrophic fungal pathogen <italic toggle="yes">Blumeria graminis</italic>
+</article-title>. <source xml:lang="en">Plant Cell</source>, <volume>22</volume>, <fpage>3130</fpage>–<lpage>3141</lpage>.<pub-id pub-id-type="pmid">20884801</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1105/tpc.110.077040</pub-id><pub-id pub-id-type="pmcid">PMC2965548</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0037"><mixed-citation publication-type="journal" id="mpp12866-cit-0037">
+<string-name name-style="western">
+<surname>Oerke</surname>, <given-names>E.‐C.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Dehne</surname>, <given-names>H.‐W.</given-names>
+</string-name> (<year>2004</year>) <article-title>Safeguarding production – losses in major crops and the role of crop protection</article-title>. <source xml:lang="en">Crop Prot</source>. <volume>23</volume>, <fpage>275</fpage>–<lpage>285</lpage>.</mixed-citation></ref><ref id="mpp12866-bib-0038"><mixed-citation publication-type="journal" id="mpp12866-cit-0038">
+<string-name name-style="western">
+<surname>Osborne</surname>, <given-names>L.E.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Stein</surname>, <given-names>J.M.</given-names>
+</string-name> (<year>2007</year>) <article-title>Epidemiology of Fusarium head blight on small‐grain cereals</article-title>. <source xml:lang="en">Int. J. Food Microbiol</source>. <volume>119</volume>, <fpage>103</fpage>–<lpage>108</lpage>.<pub-id pub-id-type="pmid">17716761</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.ijfoodmicro.2007.07.032</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0039"><mixed-citation publication-type="journal" id="mpp12866-cit-0039">
+<string-name name-style="western">
+<surname>Panwar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCallum</surname>, <given-names>B.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Bakkeren</surname>, <given-names>G.</given-names>
+</string-name> (<year>2013</year>) <article-title>Endogenous silencing of <italic toggle="yes">Puccinia triticina</italic> pathogenicity genes through <italic toggle="yes">in planta</italic>‐expressed sequences leads to the suppression of rust diseases on wheat</article-title>. <source xml:lang="en">Plant J</source>. <volume>73</volume>, <fpage>521</fpage>–<lpage>532</lpage>.<pub-id pub-id-type="pmid">23110316</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/tpj.12047</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0040"><mixed-citation publication-type="journal" id="mpp12866-cit-0040">
+<string-name name-style="western">
+<surname>Pliego</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nowara</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonciani</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gheorghe</surname>, <given-names>D.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xu</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Surana</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Whigham</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nettleton</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bogdanove</surname>, <given-names>A.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wise</surname>, <given-names>R.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schweizer</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bindschedler</surname>, <given-names>L.V.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Spanu</surname>, <given-names>P.D.</given-names>
+</string-name> (<year>2013</year>) <article-title>Host‐induced gene silencing in barley powdery mildew reveals a class of ribonuclease‐like effectors</article-title>. <source xml:lang="en">Mol. Plant–Microbe Interact</source>. <volume>26</volume>, <fpage>633</fpage>–<lpage>642</lpage>.<pub-id pub-id-type="pmid">23441578</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1094/MPMI-01-13-0005-R</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0041"><mixed-citation publication-type="book" id="mpp12866-cit-0041">
+<collab collab-type="authors">RStudio Team</collab>
+(<year>2016</year>) <source xml:lang="en">RStudio: Integrated Development for R</source>. <publisher-loc>Boston, MA, USA</publisher-loc>: <publisher-name>RStudioInc</publisher-name>
+<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.rstudio.com/">http://www.rstudio.com/</ext-link>.</mixed-citation></ref><ref id="mpp12866-bib-0042"><mixed-citation publication-type="journal" id="mpp12866-cit-0042">
+<string-name name-style="western">
+<surname>Spolti</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Del Ponte</surname>, <given-names>E.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dong</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cummings</surname>, <given-names>J.A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Bergstrom</surname>, <given-names>G.C.</given-names>
+</string-name> (<year>2014</year>) <article-title>Triazole sensitivity in a contemporary population of <italic toggle="yes">Fusarium graminearum</italic> from New York wheat and competitiveness of a tebuconazole‐resistant isolate</article-title>. <source xml:lang="en">Plant Dis</source>. <volume>98</volume>, <fpage>607</fpage>–<lpage>613</lpage>.<pub-id pub-id-type="pmid">30708550</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1094/PDIS-10-13-1051-RE</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0043"><mixed-citation publication-type="journal" id="mpp12866-cit-0043">
+<string-name name-style="western">
+<surname>Thakare</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wing</surname>, <given-names>R.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cotty</surname>, <given-names>P.J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Schmidt</surname>, <given-names>M.A.</given-names>
+</string-name> (<year>2017</year>) <article-title>Aflatoxin‐free transgenic maize using host‐induced gene silencing</article-title>. <source xml:lang="en">Sci. Adv</source>. <volume>3</volume>, <elocation-id>e1602382</elocation-id>.<pub-id pub-id-type="pmid">28345051</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/sciadv.1602382</pub-id><pub-id pub-id-type="pmcid">PMC5345927</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0044"><mixed-citation publication-type="journal" id="mpp12866-cit-0044">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiberg</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>, <given-names>F.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomma</surname>, <given-names>B.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>, <given-names>H.D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Jin</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>) <article-title>Bidirectional cross‐kingdom RNAi and fungal uptake of external RNAs confer plant protection</article-title>. <source xml:lang="en">Nature Plants</source>, <volume>2</volume>, <fpage>16151</fpage>.<pub-id pub-id-type="pmid">27643635</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nplants.2016.151</pub-id><pub-id pub-id-type="pmcid">PMC5040644</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0045"><mixed-citation publication-type="book" id="mpp12866-cit-0045">
+<string-name name-style="western">
+<surname>Wickham</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>) <source xml:lang="en">ggplot2: Elegant Graphics for Data Analysis</source>. <publisher-loc>New York, USA</publisher-loc>: <publisher-name>Springer‐Verlag</publisher-name>.</mixed-citation></ref><ref id="mpp12866-bib-0046"><mixed-citation publication-type="journal" id="mpp12866-cit-0046">
+<string-name name-style="western">
+<surname>Worrall</surname>, <given-names>E.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bravo‐Cazar</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nilon</surname>, <given-names>A.T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fletcher</surname>, <given-names>S.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robinson</surname>, <given-names>K.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Carr</surname>, <given-names>J.P.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Mitter</surname>, <given-names>N.</given-names>
+</string-name> (<year>2019</year>) <article-title>Exogenous application of RNAi‐inducing double‐stranded RNA inhibits aphid‐mediated transmission of a plant virus</article-title>. <source xml:lang="en">Front. Plant Sci</source>. <volume>10</volume>, <fpage>265</fpage>.<pub-id pub-id-type="pmid">30930914</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2019.00265</pub-id><pub-id pub-id-type="pmcid">PMC6429036</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0047"><mixed-citation publication-type="journal" id="mpp12866-cit-0047">
+<string-name name-style="western">
+<surname>Yoshida</surname>, <given-names>Y.</given-names>
+</string-name> (<year>1988</year>) <article-title>Cytochrome P450 of fungi. Primary target for azole antifungal agents</article-title>. <source xml:lang="en">Curr. Top. Med. Mycol</source>. <volume>2</volume>, <fpage>388</fpage>–<lpage>418</lpage>.<pub-id pub-id-type="pmid">3288361</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-1-4612-3730-3_11</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0048"><mixed-citation publication-type="journal" id="mpp12866-cit-0048">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khan</surname>, <given-names>S.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heckel</surname>, <given-names>D.G.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Bock</surname>, <given-names>R.</given-names>
+</string-name> (<year>2017</year>) <article-title>Next‐generation insect‐resistant plants: RNAi‐mediated crop protection</article-title>. <source xml:lang="en">Trends Biotechnol</source>. pii: S0167‐7799(17)30090‐2. <pub-id pub-id-type="doi">10.1016/j.tibtech.2017.04.009</pub-id>.<pub-id pub-id-type="pmid">28822479</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0049"><mixed-citation publication-type="journal" id="mpp12866-cit-0049">
+<string-name name-style="western">
+<surname>Zhu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chu</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sun</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Tan</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yang</surname>, <given-names>Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jiao</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Guo</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kang</surname>, <given-names>Z.</given-names>
+</string-name> (<year>2018</year>) <article-title>The transcription factor PstSTE12 is required for virulence of <italic toggle="yes">Puccinia striiformis</italic> f. sp. <italic toggle="yes">tritici</italic>
+</article-title>. <source xml:lang="en">Mol. Plant Pathol</source>. <volume>19</volume>, <fpage>961</fpage>–<lpage>974</lpage>.<pub-id pub-id-type="pmid">28710879</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.12582</pub-id><pub-id pub-id-type="pmcid">PMC6638054</pub-id></mixed-citation></ref><ref id="mpp12866-bib-0050"><mixed-citation publication-type="journal" id="mpp12866-cit-0050">
+<string-name name-style="western">
+<surname>Zotti</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dos Santos</surname>, <given-names>E.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cagliari</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Christiaens</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taning</surname>, <given-names>C.N.T.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Smagghe</surname>, <given-names>G.</given-names>
+</string-name> (<year>2018</year>) <article-title>RNA interference technology in crop protection against arthropod pests, pathogens and nematodes</article-title>. <source xml:lang="en">Pest Manag. Sci</source>. <volume>74</volume>, <fpage>1239</fpage>–<lpage>1250</lpage>.<pub-id pub-id-type="pmid">29194942</pub-id><pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ps.4813</pub-id></mixed-citation></ref></ref-list></back></article></pmc-articleset>

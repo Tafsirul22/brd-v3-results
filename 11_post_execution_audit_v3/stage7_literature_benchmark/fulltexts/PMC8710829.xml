@@ -1,0 +1,721 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="pbi13708" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Plant Biotechnol J</journal-id><journal-id journal-id-type="iso-abbrev">Plant Biotechnol J</journal-id><journal-id journal-id-type="pmc-domain-id">4638</journal-id><journal-id journal-id-type="pmc-domain">plantbioj</journal-id><journal-id journal-id-type="nlm-id">101201889</journal-id><journal-id journal-id-type="publisher-id">PBI</journal-id><journal-title-group><journal-title>Plant Biotechnology Journal</journal-title></journal-title-group><issn pub-type="ppub">1467-7644</issn><issn pub-type="epub">1467-7652</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC8710829</article-id><article-id pub-id-type="pmcid-ver">PMC8710829.2</article-id><article-id pub-id-type="pmcaid">8710829</article-id><article-id pub-id-type="pmcaiid">11382940</article-id><article-id pub-id-type="pmid">34520611</article-id><article-id pub-id-type="doi">10.1111/pbi.13708</article-id><article-id pub-id-type="publisher-id">PBI13708</article-id><article-version article-version-type="pmc-version">2</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Double‐stranded RNA targeting fungal ergosterol biosynthesis pathway controls <italic toggle="no">Botrytis cinerea</italic> and postharvest grey mould</article-title><alt-title alt-title-type="right-running-head">Control of <italic toggle="yes">Botrytis</italic> by dsRNA</alt-title><alt-title alt-title-type="left-running-head">
+<italic toggle="yes">Danielle Duanis‐Assaf</italic> et al.</alt-title></title-group><contrib-group><contrib id="pbi13708-cr-0001" contrib-type="author"><name name-style="western"><surname>Duanis‐Assaf</surname><given-names initials="D">Danielle</given-names></name><xref rid="pbi13708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi13708-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><xref rid="pbi13708-note-0001" ref-type="author-notes">
+<sup>
+<sup>†</sup>
+</sup>
+</xref></contrib><contrib id="pbi13708-cr-0002" contrib-type="author"><name name-style="western"><surname>Galsurker</surname><given-names initials="O">Ortal</given-names></name><xref rid="pbi13708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi13708-note-0001" ref-type="author-notes">
+<sup>
+<sup>†</sup>
+</sup>
+</xref></contrib><contrib id="pbi13708-cr-0003" contrib-type="author"><name name-style="western"><surname>Davydov</surname><given-names initials="O">Olga</given-names></name><xref rid="pbi13708-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="pbi13708-cr-0004" contrib-type="author"><name name-style="western"><surname>Maurer</surname><given-names initials="D">Dalia</given-names></name><xref rid="pbi13708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="pbi13708-cr-0005" contrib-type="author"><name name-style="western"><surname>Feygenberg</surname><given-names initials="O">Oleg</given-names></name><xref rid="pbi13708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref></contrib><contrib id="pbi13708-cr-0006" contrib-type="author"><name name-style="western"><surname>Sagi</surname><given-names initials="M">Moshe</given-names></name><xref rid="pbi13708-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref></contrib><contrib id="pbi13708-cr-0007" contrib-type="author"><name name-style="western"><surname>Poverenov</surname><given-names initials="E">Elena</given-names></name><xref rid="pbi13708-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref></contrib><contrib id="pbi13708-cr-0008" contrib-type="author"><name name-style="western"><surname>Fluhr</surname><given-names initials="R">Robert</given-names></name><xref rid="pbi13708-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref></contrib><contrib id="pbi13708-cr-0009" contrib-type="author" corresp="yes"><name name-style="western"><surname>Alkan</surname><given-names initials="N">Noam</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0001-7163-6514</contrib-id><xref rid="pbi13708-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><address><email>noamal@volcani.agri.gov.il</email></address></contrib></contrib-group><aff id="pbi13708-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Department of Postharvest Science of Fresh Produce</named-content>
+<institution>Agricultural Research Organization (ARO)</institution>
+<institution>Volcani Institute</institution>
+<city>Rishon LeZion</city>
+<country country="IL">Israel</country>
+</aff><aff id="pbi13708-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Robert H. Smith Faculty of Agriculture, Food and Environment</named-content>
+<institution>The Hebrew University of Jerusalem</institution>
+<city>Rehovot</city>
+<country country="IL">Israel</country>
+</aff><aff id="pbi13708-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Plant and Environmental Sciences</named-content>
+<institution>Weizmann Institute of Science</institution>
+<city>Rehovot</city>
+<country country="IL">Israel</country>
+</aff><aff id="pbi13708-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">French Associates Institute for Agricultural and Biotechnology of Drylands</named-content>
+<named-content content-type="organisation-division">Blaustein Institutes for Desert Research</named-content>
+<institution>Ben‐Gurion University of the Negev</institution>
+<city>Beer Sheva</city>
+<country country="IL">Israel</country>
+</aff><aff id="pbi13708-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Food Science of Fresh Produce</named-content>
+<institution>Agricultural Research Organization (ARO)</institution>
+<institution>Volcani Institute</institution>
+<city>Rishon LeZion</city>
+<country country="IL">Israel</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+*<italic toggle="yes">Correspondence</italic> (Tel 972‐3‐9683605; fax 972‐3‐9683220; email <email>noamal@volcani.agri.gov.il</email>)<break/>
+</corresp><fn id="pbi13708-note-0001"><label>
+<sup>†</sup>
+</label><p>Equally contributed authors.</p></fn></author-notes><pub-date pub-type="epub"><day>18</day><month>11</month><year>2021</year></pub-date><pub-date pub-type="collection"><month>1</month><year>2022</year></pub-date><volume>20</volume><issue seq="230">1</issue><issue-id pub-id-type="pmc-issue-id">470355</issue-id><issue-id pub-id-type="doi">10.1111/pbi.v20.1</issue-id><fpage>226</fpage><lpage>237</lpage><history>
+<date date-type="rev-recd"><day>12</day><month>8</month><year>2021</year></date>
+<date date-type="received"><day>29</day><month>6</month><year>2021</year></date>
+<date date-type="accepted"><day>02</day><month>9</month><year>2021</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>18</day><month>11</month><year>2021</year></date></event><event event-type="pmc-live"><date><day>05</day><month>01</month><year>2022</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2024-12-11 00:25:32.523"><day>11</day><month>12</month><year>2024</year></date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">8710829</article-id><article-id pub-id-type="doi">10.1111/pbi.13708</article-id><article-version>1</article-version><pub-date><day>18</day><month>11</month><year>2021</year></pub-date></event><event event-type="pmc-version" specific-use="live"><article-id pub-id-type="pmcaiid">11382940</article-id><article-id pub-id-type="doi">10.1111/pbi.13708</article-id><article-version>2</article-version><pub-date><day>18</day><month>11</month><year>2021</year></pub-date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2021 The Authors. <italic toggle="yes">Plant Biotechnology Journal</italic> published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non‐commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="PBI-20-226.pdf"><?pdf-name PBI-20-226.pdf?><?pdf-size 1934148?><?pdf-md5 63664441252b409ad1c61fa367bb6b0a?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:193a/11382940/63664441252b/PBI-20-226.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:PBI-20-226.pdf"/><abstract id="pbi13708-abs-0001"><title>Summary</title><p>Pathogenic fungi cause major postharvest losses. During storage and ripening, fruit becomes highly susceptible to fungi that cause postharvest disease. Fungicides are effective treatments to limit disease. However, due to increased public concern for their possible side effects, there is a need to develop new strategies to control postharvest fungal pathogens. <italic toggle="yes">Botrytis cinerea</italic>, a common postharvest pathogen, was shown to uptake small double‐stranded RNA (dsRNA) molecules from the host plant. Such dsRNA can regulate gene expression through the RNA interference system. This work aimed to develop a synthetic dsRNA simultaneously targeting three essential transcripts active in the fungal ergosterol biosynthesis pathway (dsRNA‐ERG). Our results show initial uptake of dsRNA in the emergence zone of the germination tube that spreads throughout the fungus and results in down‐regulation of all three targeted transcripts. Application of dsRNA‐ERG decreased <italic toggle="yes">B. cinerea</italic> germination and growth in <italic toggle="yes">in vitro</italic> conditions and various fruits, leading to reduce grey‐mould decay. The inhibition of growth or decay was reversed by the addition of ergosterol. While dual treatment with dsRNA‐ERG and ergosterol‐inhibitor fungicide reduced by 100‐fold the required amount of fungicide to achieve the same protection rate. The application of dsRNA‐ERG induced systemic protection as shown by decreased decay development at inoculation points distant from the treatment point in tomato and pepper fruits. Overall, this study suggests that dsRNA‐ERG can effectively control <italic toggle="yes">B. cinerea</italic> growth and grey‐mould development suggesting its efficacy as a future method for postharvest control of fungal pathogens.</p></abstract><kwd-group><kwd id="pbi13708-kwd-0001">double‐stranded RNA</kwd><kwd id="pbi13708-kwd-0002">ergosterol biosynthesis</kwd><kwd id="pbi13708-kwd-0003"><italic toggle="no">Botrytis cinerea</italic></kwd><kwd id="pbi13708-kwd-0004">grey mould</kwd><kwd id="pbi13708-kwd-0005">postharvest</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>Chief Scientist of the Israeli Ministry of Agriculture and Rural Development</funding-source><award-id>20‐06‐0071</award-id></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="12"/><word-count count="9182"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY-NC-ND</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2022</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.4.8 mode:remove_FC converted:03.09.2024</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="self-citation" id="pbi13708-cit-1001">
+<string-name name-style="western">
+<surname>Duanis‐Assaf</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Galsurker</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davydov</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maurer</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feygenberg</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sagi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Poverenov</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fluhr</surname>, <given-names>R.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Alkan</surname>, <given-names>N.</given-names>
+</string-name> (<year>2022</year>) <article-title>Double‐stranded RNA targeting fungal ergosterol biosynthesis pathway controls <italic toggle="no">Botrytis cinerea</italic> and postharvest grey mould</article-title>. <source>Plant Biotechnol. J.</source>, <pub-id pub-id-type="doi">10.1111/pbi.13708</pub-id>
+<pub-id pub-id-type="pmcid">PMC8710829</pub-id><pub-id pub-id-type="pmid">34520611</pub-id></mixed-citation>
+</p></notes></front><body id="pbi13708-body-0001"><sec id="pbi13708-sec-0001"><title>Introduction</title><p>Globally, postharvest fruit and vegetable loss are estimated to impact more than 40% of yield. Pathogenic fungi are responsible for a major part of that loss (Abiad and Meho, <xref rid="pbi13708-bib-0001" ref-type="bibr">2018</xref>; Lipinski <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0024" ref-type="bibr">2013</xref>). <italic toggle="yes">Botrytis cinerea</italic> represents one of the most predominant and common necrotrophic fungal pathogen promoting postharvest decay of fresh fruit and vegetables (Romanazzi and Feliziani, <xref rid="pbi13708-bib-0037" ref-type="bibr">2014</xref>). <italic toggle="yes">B. cinerea</italic> has a wide range of hosts and can infect over 200 plant species, causing grey mould disease (Kumar <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0019" ref-type="bibr">2020</xref>; Schumacher, <xref rid="pbi13708-bib-0039" ref-type="bibr">2012</xref>). Infections by <italic toggle="yes">B. cinerea</italic> usually occur in the field, where after initial colonization, the fungi remain latent until harvest, storage and ripening. During ripening, fruits lose their innate resistance and become susceptible to the dormant fungal pathogens that switch from a latent to an active necrotrophic stage and cause grey mould (Romanazzi and Feliziani, <xref rid="pbi13708-bib-0037" ref-type="bibr">2014</xref>).</p><p>The most effective treatment to date against postharvest diseases is the application of fungicides (Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>; Rani <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0036" ref-type="bibr">2020</xref>). However, fungicides hold disadvantages such as the risk of the development of fungicide‐resistant fungi (Elmer and Reglinski, <xref rid="pbi13708-bib-0011" ref-type="bibr">2006</xref>). Furthermore, due to their lack of specificity, they are a potential threat to beneficial micro‐organisms in the environment including their impact on human health (Rani <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0036" ref-type="bibr">2020</xref>). Therefore, there is a need to develop eco‐friendly approaches to control fungal pathogen and postharvest diseases (Wisniewski <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0047" ref-type="bibr">2016</xref>).</p><p>Recent progress in the control of pathogenic fungi takes advantage of a natural RNA interference (RNAi) process that occurs in eukaryotic cells (Mbengue <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0028" ref-type="bibr">2016</xref>; Mitter <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0031" ref-type="bibr">2017</xref>; Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>). RNAi is based on the cellular recognition of double‐stranded RNA (dsRNA) molecules that leads to sequence‐specific degradation or interference of translation of a target messenger RNA (mRNA; Hua <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0016" ref-type="bibr">2018</xref>; Voinnet, <xref rid="pbi13708-bib-0041" ref-type="bibr">2008</xref>). In plants, dsRNA regulatory systems were found to be involved in endogenous gene regulation as well as in plant–pathogen interactions. Thus, plants control virus replication using this mechanism, and can also transfer inhibitory RNA from the host plant cell to fungal pathogens (Hua <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0016" ref-type="bibr">2018</xref>; Llave, <xref rid="pbi13708-bib-0025" ref-type="bibr">2010</xref>; Weiberg <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0046" ref-type="bibr">2013</xref>), which provides new possibilities for plant protection.</p><p>In a procedure called host‐induced gene silencing, transgenic plants produce small RNA molecules that induce post‐transcriptional gene silencing (Koch <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0018" ref-type="bibr">2013</xref>; Nunes and Dean, <xref rid="pbi13708-bib-0034" ref-type="bibr">2012</xref>). Despite its high potential, this method is limited by regulatory restrictions for genetically modified organisms and by difficulties in generating transgenic plants with stable expression. Alternatively, spray‐induced gene silencing (SIGS), where the dsRNA is externally applied on the plant parts such as leaves, branches or fruit was also shown to be effective (Koch <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0017" ref-type="bibr">2016</xref>; Wang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0045" ref-type="bibr">2016</xref>). SIGS also has the clear advantage of being potentially rapidly adapted to a dynamic pathogenic environment. Several studies have demonstrated how direct application of dsRNA, using SIGS targeting virulence genes (e.g. <italic toggle="yes">dcl1</italic> and <italic toggle="yes">dcl2</italic>) or essential genes for fungal colonization (e.g. <italic toggle="yes">erg11, chs1</italic> and <italic toggle="yes">EF2</italic>), can offer plant protection (Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>; Wang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0045" ref-type="bibr">2016</xref>).</p><p>Ergosterol is a C<sub>28</sub> sterol found particularly in fungal cell membranes (Lees <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0023" ref-type="bibr">1995</xref>). It has been shown that ergosterol plays a vital role in the cell membrane structure and function of fungi. Ergosterol is responsible for maintaining membrane fluidity (Lees <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0021" ref-type="bibr">1979</xref>), regulates membrane permeability (Bard <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0003" ref-type="bibr">1978</xref>), influences the activity of membrane‐related enzymes (Rottem <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0038" ref-type="bibr">1973</xref>) and alters fungal cell growth (Lees <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0022" ref-type="bibr">1980</xref>). Due to the importance of ergosterol for fungal growth and survival, the ergosterol biosynthesis pathway was found to be a good candidate for the development of antifungal agents (Bhattacharya <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0005" ref-type="bibr">2018</xref>; Yan <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0049" ref-type="bibr">2011</xref>). Indeed, various fungicides target the ergosterol biosynthesis of fungi (Ahmad <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0002" ref-type="bibr">2010</xref>). Furthermore, a gene, <italic toggle="yes">erg11</italic> that encodes for a crucial step in the synthesis of ergosterol was shown to be effective when targeted together with additional genes, for example chitinase, and elongation factor (<italic toggle="yes">chs1</italic> and <italic toggle="yes">EF2</italic>; Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>).</p><p>The current study has the following aims. First, to test the efficacy of multiple targeting of essential transcripts solely in the ergosterol biosynthesis pathway. Second, to investigate the ability of the designed dsRNA to decrease and control fungal germination, growth and decay development in postharvest products. Third to evaluate a possible systemic mechanism. Fourth, to explore the use of SIGS in combination with a commercially used fungicide to reduce their needed concentrations.</p></sec><sec sec-type="results" id="pbi13708-sec-0002"><title>Results</title><sec id="pbi13708-sec-0003"><title>dsRNA penetrates the emergence zone of the hyphae and inhibit <italic toggle="yes">B. cinerea</italic> germination and growth</title><p>Three different genes in the ergosterol biosynthesis pathway of <italic toggle="yes">B. cinerea</italic> were chosen as targets. Sequences from <italic toggle="yes">erg</italic>13, <italic toggle="yes">erg</italic>11 and <italic toggle="yes">erg</italic>1 were joined to yield a construct in a total length of 751 bp (dsRNA‐ERG; Figure <xref rid="pbi13708-fig-0001" ref-type="fig">1</xref>, see Materials and methods). For positive control, another construct targeting <italic toggle="yes">B. cinerea</italic> DCL1/DCL2 dicer (dsRNA‐Dicer) was cloned in a similar manner. To verify that <italic toggle="yes">B. cinerea</italic> is capable of taking up external dsRNA from the environment, a fluorescent dsRNA‐ERG construct was prepared by incorporation of Cy5‐labelled nucleotides into the sequence of dsRNA‐ERG or dsRNA‐Dicer. The results showed that the dsRNA was taken up and internalized near the emergence zone of the hyphae from the conidia in a punctate manner (Figure <xref rid="pbi13708-fig-0001" ref-type="fig">1</xref>).</p><fig position="float" fig-type="Figure" id="pbi13708-fig-0001" orientation="portrait"><label>Figure 1</label><caption><p>Map of the dsRNA‐ERG template and penetration of labelled dsRNA into conidia germination of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic>. (a) Map of dsRNA‐ERG template made up of three essential genes in the ergosterol pathway: <italic toggle="yes">erg13</italic>, <italic toggle="yes">erg11</italic> and <italic toggle="yes">erg1</italic>, flanked by T7 promoter and unique restriction enzymes sites (total 751 bases). (b–d) Conidia of the <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> were germinated in the presence of Cy5‐labelled dsRNA‐Dicer (c) or Cy5‐labelled dsRNA‐ERG (d). The spores were germinated on a PDA substrate for 12 h. The germinating conidia were observed under a confocal microscope. (b) Germination of control after 12 h without dsRNA. (c and d) Conidia germination after 12 h in the presence of fluorescent dsRNA‐Dicer or dsRNA‐ERG, respectively.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="PBI-20-226-g005.jpg"><?image-name PBI-20-226-g005.jpg?><?image-size 44531?><?image-md5 38d19b648e1fc67b74d7edfbd8eaa963?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 533?><?image-original-width 1064?><?image-scaled-height 355?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/193a/11382940/38d19b648e1f/PBI-20-226-g005.jpg?><?thumb-name PBI-20-226-g005.gif?><?thumb-size 9829?><?thumb-md5 d4fdb8919486df21544876143905f03a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 159?><?thumb-cloudpmc-urn urn:cdn:blobs/193a/11382940/d4fdb8919486/PBI-20-226-g005.gif?></graphic></fig><p>
+<italic toggle="yes">B. cinerea</italic> growth from conidia was monitored over 50 h in the presence of different amounts of dsRNA‐ERG and showed a gradual decrease in fungal growth in a dose‐dependent manner in the concentration ranges of 200–800 ng (1–4 ng/μL) of dsRNA‐ERG (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S1</xref>). <italic toggle="yes">In vitro</italic> germination assay showed a significant reduction in germination rate and germination tube length compared to control when dsRNA‐ERG was added to the growth media at the beginning of the incubation (Figure <xref rid="pbi13708-fig-0002" ref-type="fig">2a–c</xref>). The addition of dsRNA‐ERG had a slight effect on the percent of germination when the dsRNA was applied after 8 h of conidia incubation (Figure <xref rid="pbi13708-fig-0002" ref-type="fig">2a</xref>). However, the germination tube length remained significantly lower (Figure <xref rid="pbi13708-fig-0002" ref-type="fig">2b,c</xref>). To evaluate the effect on germination <italic toggle="yes">in vivo</italic>, <italic toggle="yes">B. cinerea</italic> was inoculated on grapes treated with water (control) or dsRNA‐ERG and then stained with lactophenol blue. <italic toggle="yes">B. cinerea</italic> treated with dsRNA‐ERG on grapes exhibited a shorter germination tube (Figure <xref rid="pbi13708-fig-0002" ref-type="fig">2d</xref>) compared to <italic toggle="yes">B. cinerea</italic> which grew on water‐treated grapes. These results suggest that dsRNA‐ERG is more effective in inhibiting fungal germination tube elongation than the percent of germination.</p><fig position="float" fig-type="Figure" id="pbi13708-fig-0002" orientation="portrait"><label>Figure 2</label><caption><p>dsRNA‐ERG reduces germination and hyphal growth <italic toggle="yes">in vitro</italic> and <italic toggle="yes">in vivo</italic>. <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia were germinated in 0.2% SMB on glass slides. dsRNA‐ERG was added to the growth media at time 0 or after 4 or 8 h of incubation. Conidia germination was evaluated microscopically after 20 h of incubation. (a) Germination percentage. (b) Germ tube length. The presented data are mean and standard errors. Asterisks indicate statistically significant differences (<italic toggle="yes">P</italic> &lt; 0.05). (c) Microscopic images (40× magnification) of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia germination. (d) Representative pictures of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia germination and growth on grapes treated with water (control; upper picture) or dsRNA‐ERG (lower picture).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="PBI-20-226-g007.jpg"><?image-name PBI-20-226-g007.jpg?><?image-size 124372?><?image-md5 bee74a55a31f65ffa766b19ce550c415?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1104?><?image-original-width 1064?><?image-scaled-height 736?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/193a/11382940/bee74a55a31f/PBI-20-226-g007.jpg?><?thumb-name PBI-20-226-g007.gif?><?thumb-size 14972?><?thumb-md5 a96e8de316cec617882da097ae76ddfd?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 104?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/193a/11382940/a96e8de316ce/PBI-20-226-g007.gif?></graphic></fig></sec><sec id="pbi13708-sec-0004"><title>dsRNA targeting ergosterol biosynthesis inhibits grey mould development on fruits</title><p>dsRNA‐ERG was applied externally to various crops following inoculation with <italic toggle="yes">B. cinerea</italic> conidia and monitored for decay development. Treated tissue exhibited a slower decay development rate compared to the control (water treated) as well as a smaller decay diameter around the inoculation site (Figure <xref rid="pbi13708-fig-0003" ref-type="fig">3</xref>). Calculation of the area under the disease progress curve (AUDPC) showed a significant reduction in decay development of approximately fivefold in onion scale, eightfold in rose petals and ninefold in strawberries, compared to control (Figure <xref rid="pbi13708-fig-0003" ref-type="fig">3</xref>). Moreover, dsRNA‐ERG displayed a similar reduction or better efficacy in the reduction in rot development as dsRNA targeting Dicer encoding genes (<italic toggle="yes">dcl1 and dcl22</italic>; dsRNA‐Dicer; Figure <xref rid="pbi13708-fig-0003" ref-type="fig">3</xref>), which was shown previously to reduce <italic toggle="yes">B. cinerea</italic> decay development (Wang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0045" ref-type="bibr">2016</xref>).</p><fig position="float" fig-type="Figure" id="pbi13708-fig-0003" orientation="portrait"><label>Figure 3</label><caption><p>dsRNA‐ERG reduces decay development caused by <italic toggle="yes">Botrytis cinerea</italic>. Onion skin (a), rose petals (b) and strawberry (c) were treated with water (control), Bc‐DCL1/2‐dsRNA (dsRNA‐Dicer) or Bc‐ERG1/13/11‐dsRNA (dsRNA‐ERG) following infection by <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic>. Decay diameter was measured and the AUDPC was calculated for each experiment (7 dpi for onion skin, 6 dpi for rose petals and 5 dpi for strawberry). The top panel shows representative pictures were taken 3 dpi. The data presented are mean and standard errors. Values followed by different letters are statistically significant (<italic toggle="yes">P</italic> &lt; 0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="PBI-20-226-g006.jpg"><?image-name PBI-20-226-g006.jpg?><?image-size 106940?><?image-md5 f2c9a36cd7695f909f4b0764970428bd?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 782?><?image-original-width 1064?><?image-scaled-height 521?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/193a/11382940/f2c9a36cd769/PBI-20-226-g006.jpg?><?thumb-name PBI-20-226-g006.gif?><?thumb-size 14269?><?thumb-md5 010a0eeceb17cf8e386f1e7849a932ed?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 79?><?thumb-scaled-width 108?><?thumb-cloudpmc-urn urn:cdn:blobs/193a/11382940/010a0eeceb17/PBI-20-226-g006.gif?></graphic></fig><p>The effect of dsRNA‐ERG on decay development was tested on various fruits as well. Inoculation of various fruits including tomato by <italic toggle="yes">B. cinerea</italic> without prior wounding led to very minor decay development in the control (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S2</xref>). This was probably due to poor penetration of <italic toggle="yes">B. cinerea</italic> through the waxy epidermal layer. To achieve consistent wounding, the fruit inoculation area was pre‐treated by rubbing with hydrocarborundum powder to establish micro‐injuries. This facilitated conidia inoculation and promoted uniform mould development on the fruit. The fruit was then sprayed by dsRNA‐ERG or water (control), followed by spraying of <italic toggle="yes">B. cinerea</italic> conidia. In all tested fruits (bell‐pepper, cherry, mango and grape) there was a decrease in decay development rate and decay area (Figure <xref rid="pbi13708-fig-0004" ref-type="fig">4</xref>). AUDPC analysis showed a significant reduction in mould development of approximately fivefold in bell‐pepper, mango and grapes, while in cherry fruits the decrease in decay development was not statistically significant (Figure <xref rid="pbi13708-fig-0004" ref-type="fig">4b</xref>).</p><fig position="float" fig-type="Figure" id="pbi13708-fig-0004" orientation="portrait"><label>Figure 4</label><caption><p>dsRNA‐ERG reduces fruit decay caused by <italic toggle="yes">Botrytis cinerea</italic>. Hydrocarborundum powder was used to create micro‐injuries in fruit cuticles of bell pepper (a), cherry (b), mango (c) and grape (d). The fruits were sprayed with water (control) or Bc‐ERG1/13/11‐dsRNA (dsRNA‐ERG) following spray infection by <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic>. The decayed area was measured and the AUDPC was calculated for each experiment (10 dpi for bell‐pepper, 4 dpi for cherry and mango and 6 dpi for grape). The lower panel shows representative pictures taken 4 days post‐inoculation (dpi). The presented data are mean and standard errors. Values followed by an asterisk indicate statistically significant differences (<italic toggle="yes">P</italic> &lt; 0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="PBI-20-226-g004.jpg"><?image-name PBI-20-226-g004.jpg?><?image-size 98045?><?image-md5 79050c8f9257b792cc6094aee1c25c6f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 771?><?image-original-width 1064?><?image-scaled-height 514?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/193a/11382940/79050c8f9257/PBI-20-226-g004.jpg?><?thumb-name PBI-20-226-g004.gif?><?thumb-size 13923?><?thumb-md5 dd51b935ef1056bd3537adced386662e?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 110?><?thumb-cloudpmc-urn urn:cdn:blobs/193a/11382940/dd51b935ef10/PBI-20-226-g004.gif?></graphic></fig></sec><sec id="pbi13708-sec-0005"><title>Systemic fruit protection by application of dsRNA‐ERG</title><p>Next, we aimed to evaluate the capability of dsRNA‐ERG to disperse to other fruit parts and provide protection. Bell‐peppers and tomatoes were used to evaluate the systemic protection of dsRNA‐ERG by applying dsRNA‐ERG at one point on the fruit and inoculate along the horizontal and vertical axes (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S4</xref>). The decayed area was measured every day and the AUDPC of the disease curve was calculated. The AUDPC in dsRNA‐ERG‐treated bell‐peppers and tomatoes were surprisingly lower, albeit not significantly, at all the inoculation points when inoculation was conducted on the same day of dsRNA‐ERG application (Figure <xref rid="pbi13708-fig-0005" ref-type="fig">5a,b</xref>). However, inoculation with <italic toggle="yes">B. cinerea</italic> 1‐day post‐treatment resulted in a significant fourfold reduction in decay development in both bell peppers and tomatoes compared to control fruits (Figure <xref rid="pbi13708-fig-0005" ref-type="fig">5c,d</xref>). It is worth mentioning that the decrease in decay development was similar at all inoculation points, close and far from the dsRNA‐ERG treatment point (Figure <xref rid="pbi13708-fig-0005" ref-type="fig">5c,d</xref>).</p><fig position="float" fig-type="Figure" id="pbi13708-fig-0005" orientation="portrait"><label>Figure 5</label><caption><p>Systemic effect of dsRNA‐ERG. Bell‐peppers (a, c, e) and tomato (b, d, f) were treated with water (control) or dsRNA‐ERG at the upper‐left corner of the fruit, following inoculation with <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> at the dsRNA‐ERG treatment point and two other points along the horizontal and vertical axes (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S4</xref>). The infection was conducted on the day of the treatment (a, b), or 1 (c, d), or 3 days post‐treatment (e, f). Decay area was measured and the AUDPC was calculated. (g) and (h) are representative pictures of bell peppers and tomatoes (respectively) which were inoculated 1 day post‐treatment. Representative pictures were taken 3 (for bell peppers) or 6 (for tomatoes) days post‐inoculation (dpi). The presented data are mean and standard errors. Values followed by different letters are statistically significantly different (<italic toggle="yes">P</italic> &lt; 0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="PBI-20-226-g003.jpg"><?image-name PBI-20-226-g003.jpg?><?image-size 91810?><?image-md5 7dd709a77c493ebf1916b69b1426aecb?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 605?><?image-original-width 1064?><?image-scaled-height 403?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/193a/11382940/7dd709a77c49/PBI-20-226-g003.jpg?><?thumb-name PBI-20-226-g003.gif?><?thumb-size 13745?><?thumb-md5 5fcea9282a02febca452c42557033041?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 140?><?thumb-cloudpmc-urn urn:cdn:blobs/193a/11382940/5fcea9282a02/PBI-20-226-g003.gif?></graphic></fig><p>The ability of dsRNA‐ERG treatment to provide lasting systemic protection was evaluated by inoculation of <italic toggle="yes">B. cinerea</italic> 3 days after treatment. Bell‐peppers that were infected 3 days after treatment did not exhibit any differences between the dsRNA‐ERG‐treated fruits and the control group (Figure <xref rid="pbi13708-fig-0005" ref-type="fig">5e</xref>). Nonetheless, the decayed area in both groups was markedly lower compared to bell peppers that were inoculated at treatment day or 1 day after treatment (Figure <xref rid="pbi13708-fig-0005" ref-type="fig">5a,c</xref>,e). This might be due to the healing of the micro‐injuries on the bell pepper's cuticle. In tomatoes that were inoculated 3 days after dsRNA‐ERG treatment, dsRNA‐ERG‐treated fruits showed notably lower decay development at all the inoculation points compared to control (Figure <xref rid="pbi13708-fig-0005" ref-type="fig">5f</xref>). Furthermore, a significant reduction in decay development was observed in the vicinity of the treatment point. These results suggest that dsRNA‐ERG can be systemically transferred in the fruit and reduce decay development.</p><p>To evaluate penetration and action of the dsRNA‐ERG, micro‐injuries were generated on the grape peel using hydrocarborundum powder, then the grapes were sprayed with water (control) or with dsRNA‐ERG. Next, the fruits were spray‐inoculated with <italic toggle="yes">B. cinerea</italic> conidia, and peel (exocarp) or pulp (mesocarp) samples were collected after 8, 24 and 48 h for RNA analysis (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6</xref>). The late time point was included as initial symptoms of decay appear 48 h post‐inoculation. Eight hours post‐treatment of dsRNA‐ERG on the fruit peel, the dsRNA‐ERG moved to the pulp and was found in the grape pulp in lesser quantities (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6a</xref>). While the relative abundance of dsRNA‐ERG on the peel remained high during 48 h post‐treatment, the relative quantity in the pulp was reduced by 10‐fold after 24 h and remained almost unchanged after 48 h (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6a</xref>). The effectiveness to down‐regulate <italic toggle="yes">erg11</italic> transcript over time was tested in both peel and pulp, using primers from the transcript sequence region that was not included in the dsRNA construct. In the grape peel, down‐regulation of <italic toggle="yes">erg11</italic> transcript has been observed at all tested time points (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6b</xref>). In the grape pulp, at 8 and 24 h post‐infection, <italic toggle="yes">B. cinerea</italic> actin and <italic toggle="yes">erg11</italic> were not detected in dsRNA‐ERG‐treated grapes, while it was detected in the inoculated control, probably due to fungal inhibition. These results show that the chosen <italic toggle="yes">erg11</italic> primers are specific to the transcript and cannot detect the dsRNA‐ERG construct. At 48 h, the expression of <italic toggle="yes">erg11</italic> transcript levels was significantly reduced in the pulp of dsRNA‐ERG‐treated grape compared to the control (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6b</xref>).</p><fig position="float" fig-type="Figure" id="pbi13708-fig-0006" orientation="portrait"><label>Figure 6</label><caption><p>Penetration of dsRNA‐ERG to fruit pulp and down‐regulation of gene expression. Grapes were treated with water (control) or dsRNA‐ERG followed by spray inoculation with <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic>. Peel and pulp samples for RNA extraction were taken 8, 24 and 48 h post‐inoculation. (a) Relative abundance of the applied dsRNA‐ERG construct was evaluated by qPCR and normalized to the <italic toggle="yes">actin</italic> gene of grape at 8, 24 and 48 h post‐infection. (b) Relative expression of <italic toggle="yes">erg11</italic> gene at 8, 24 and 48 h post‐infection, normalized to <italic toggle="yes">actin</italic> gene of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> in the grape peel or pulp. (c) Relative expression of the three targeted genes by the dsRNA‐ERG and two non‐targeted genes in the ergosterol biosynthesis pathway, 48 h post‐inoculation in peel tissue. The data shown are means and standard errors. Asterisks indicate statistically significant differences (<italic toggle="yes">P</italic> &lt; 0.05).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="PBI-20-226-g001.jpg"><?image-name PBI-20-226-g001.jpg?><?image-size 49727?><?image-md5 f5e6b42f8f4a53d33cb8d27d8bbeadc4?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 425?><?image-original-width 1064?><?image-scaled-height 283?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/193a/11382940/f5e6b42f8f4a/PBI-20-226-g001.jpg?><?thumb-name PBI-20-226-g001.gif?><?thumb-size 10403?><?thumb-md5 642b41cad27162820137bda4171d694a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 200?><?thumb-cloudpmc-urn urn:cdn:blobs/193a/11382940/642b41cad271/PBI-20-226-g001.gif?></graphic></fig><p>The dsRNA‐ERG construct was designed to impact the post‐transcriptional expression of three transcripts in the ergosterol biosynthesis pathway. Therefore, the expression of the three targeted transcripts; <italic toggle="yes">erg</italic>13, <italic toggle="yes">erg</italic>11 and <italic toggle="yes">erg</italic>1 (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6c</xref>) were quantified by qPCR as well as two non‐targeted transcripts <italic toggle="yes">erg3</italic> and <italic toggle="yes">erg9</italic>. The relative expression of the mRNA transcripts was measured by qPCR and normalized to the expression of the fungal actin. The relative expression of the three targeted transcripts was reduced on average by more than 50% in the dsRNA‐ERG‐treated fruit, 48 h post‐inoculation, compared to control (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6c</xref>). However, the two non‐targeted transcripts were significantly up‐regulated, 48 h post‐inoculation, at the treated grapes compared to control indicating an attempt of compensation (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6c</xref>).</p></sec><sec id="pbi13708-sec-0006"><title>dsRNA‐ERG synergism with ergosterol‐inhibitors and complementation by ergosterol</title><p>In an attempt to complement the effect of dsRNA‐ERG on the growth of <italic toggle="yes">B. cinerea</italic>, external ergosterol was added to the dsRNA‐ERG treatments. Fungal growth kinetics <italic toggle="yes">in vitro</italic> was determined using optical density (O.D) measurements correlating to fungal biomass. The fungal growth curves showed a major reduction when dsRNA‐ERG was added to the media, compared to control (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7a</xref>). However, when <italic toggle="yes">B. cinerea</italic> conidia were grown in media containing external ergosterol in addition to the dsRNA‐ERG, the fungal growth curve displayed a similar growth pattern as the untreated <italic toggle="yes">B. cinerea</italic> conidia, reaching the same final O.D levels (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7a</xref>). Importantly, the addition of ergosterol to control did not alter fungal growth (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S3</xref>). The effect of the addition of external ergosterol on fruit decay development <italic toggle="yes">in vivo</italic> was evaluated on infected grapes (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7b,c</xref>). Micro‐injuries were generated on the grape peel using hydrocarborundum powder, then the grapes were spray treated with water (control), dsRNA‐ERG or dsRNA‐ERG combined with external ergosterol. The fruits were inoculated by spraying with <italic toggle="yes">B. cinerea</italic> conidia and assessed daily for decay severity. dsRNA‐ERG treatment reduced <italic toggle="yes">B. cinerea</italic> mould development rate and decay severity by more than 50% during 6 days post‐inoculation (dpi), compared to control (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7b,c</xref>). Conversely, the addition of external ergosterol complemented the decay development and restored decay progression to a similar level to control (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7b,c</xref>). The results of reduced mRNA accumulation and complementation by exogenous ergosterol suggest that the inhibition in rot development is a result of the lack of ergosterol synthesis.</p><fig position="float" fig-type="Figure" id="pbi13708-fig-0007" orientation="portrait"><label>Figure 7</label><caption><p>dsRNA application reduces fungicide needed concentration for growth inhibition of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic>. (a) <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia were grown at room temperature in 1% SMB, or 1% SMB supplemented with dsRNA‐ERG, or dsRNA‐ERG and ergosterol as described in the Materials and methods. O.D measurements at 600 nm were taken every hour. (b) Grapes were treated with water (control), or dsRNA‐ERG or dsRNA‐ERG and ergosterol, following spray inoculation with <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic>. Decay severity was recorded every day. (c) Representative picture of grapes treated with water (control), or dsRNA‐ERG or dsRNA‐ERG and ergosterol, following spray inoculation with <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> were taken 4 days post‐infection (dpi). (d) <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia were incubated at room temperature in 1% SMB, or 1% SMB supplemented with various concentrations of Prochloraz, with or without dsRNA‐ERG. O.D measurements at 600 nm were taken every hour. The presented data are mean and standard errors.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="PBI-20-226-g002.jpg"><?image-name PBI-20-226-g002.jpg?><?image-size 137303?><?image-md5 d9fedd0504486eeb737be3134a275fc5?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1191?><?image-original-width 1064?><?image-scaled-height 794?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/193a/11382940/d9fedd050448/PBI-20-226-g002.jpg?><?thumb-name PBI-20-226-g002.gif?><?thumb-size 15609?><?thumb-md5 7bc05673f8174e49708edb3f187cca89?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 112?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/193a/11382940/7bc05673f817/PBI-20-226-g002.gif?></graphic></fig><p>It was of interest to explore the use of SIGS in combination with a commercially used fungicide. The fungicide, prochloraz is an ergosterol‐inhibitor of the enzyme lanosterol 14α‐demethylase (CYP51A1; encoded by <italic toggle="yes">erg11</italic>), which is necessary for the production of ergosterol. However, the fungicide also has multiple targets in animal systems that indicate a need for restricting its use (Vinggaard <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0040" ref-type="bibr">2006</xref>). Increasing concentrations of ‘Prochloraz’ in the growth media (1–1000 ppb) resulted in a dose‐dependent reduction of fungal growth as measured by O.D (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7d</xref>). When 4 ng/μL dsRNA‐ERG were added, the inhibition of fungal growth was augmented (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7d</xref>; Table <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S1</xref>). The combination of dsRNA‐ERG with multiple concentrations of ‘Prochloraz’ showed a synergistic decline in fungal growth compared to each fungicide treatment or dsRNA‐ERG treatment alone (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7d</xref>; Table <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S1</xref>). Another fungicide, Fludioxonil has recently been shown to act on triosephosphate isomerase activity to induce methylglyoxal stress that alters sensing in a histidine kinase inducing fungal death (Brandhorst and Klein, <xref rid="pbi13708-bib-0006" ref-type="bibr">2019</xref>). ‘Fludioxonil’ reduced <italic toggle="yes">B. cinerea</italic> growth in a non‐linear manner, a greater and non‐synergistic reduction in fungal growth was achieved by the addition of 4 ng/μL dsRNA‐ERG (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S5</xref>, Table <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S1</xref>). These results indicate that the application of dsRNA‐ERG could significantly reduce the amount of fungicide needed to inhibit fungal growth.</p></sec></sec><sec sec-type="discussion" id="pbi13708-sec-0007"><title>Discussion</title><p>Non‐specific fungicidal toxic side effects have an impact on the environment and human health. Public concerns have motivated the need for the reduction or replacement of fungicides with eco‐friendly alternatives especially in harvested fresh produce (Rani <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0036" ref-type="bibr">2020</xref>; Wisniewski <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0047" ref-type="bibr">2016</xref>). The RNAi method of fungal control represents a promising alternative due to its specificity (Koch <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0017" ref-type="bibr">2016</xref>; Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>; Wang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0045" ref-type="bibr">2016</xref>). The current research was aimed to; test the efficacy of a dsRNA construct targeting three essential genes in the ergosterol biosynthesis pathway on harvested fresh produce, to examine the systemic response and synergism with fungicides.</p><p>Uptake of dsRNA and small RNA molecules was shown to occur through the hyphae of fungi (Koch <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0017" ref-type="bibr">2016</xref>; Morozov <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0032" ref-type="bibr">2019</xref>; Wang and Dean, <xref rid="pbi13708-bib-0043" ref-type="bibr">2020a</xref>). While it was suggested that the uptake of dsRNA is likely by clathrin‐mediated endocytosis (Wytinck <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0048" ref-type="bibr">2020</xref>), different fungi might possess different dsRNA uptake mechanisms and more studies will need to be conducted to better understand dsRNA uptake (Qiao <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0035" ref-type="bibr">2021</xref>). In our work, the application of dsRNA to ungerminated conidia arrested the elongation of the germination tube; however, the initial germination process was less inhibited (Figure <xref rid="pbi13708-fig-0002" ref-type="fig">2</xref>). This difference could result from the preferential uptake of dsRNA. As shown in Figure <xref rid="pbi13708-fig-0001" ref-type="fig">1</xref>, dsRNA appears to accumulate near the site of germ‐tube emergence. This is also consistent with a previous study showing the uptake of dsRNA in <italic toggle="yes">B. cinerea</italic> when applied at the post‐germination stage (Wang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0045" ref-type="bibr">2016</xref>). The punctate appearance in the accumulation of fluorescently labelled dsRNA may imply that the dsRNA is less permeable to vacuolar regions as has been noted in other fungal pathogens (Qiao <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0035" ref-type="bibr">2021</xref>). Rapid uptake by germinating conidia might be due to changes in the cell wall permeability and disruption of the protective layer of the conidia (Beauvais and Latgé, <xref rid="pbi13708-bib-0004" ref-type="bibr">2018</xref>). Thus, initial uptake of the dsRNA in the emergence zone or by hypha may be limited by changes in the cell wall viscoelastic properties, membrane endocytic capabilities or cell membrane transporters (Qiao <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0035" ref-type="bibr">2021</xref>; Walker <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0042" ref-type="bibr">2018</xref>; Wang and Dean, <xref rid="pbi13708-bib-0044" ref-type="bibr">2020b</xref>). Nonetheless as shown in Figure <xref rid="pbi13708-fig-0002" ref-type="fig">2</xref>, the time sequence needed for dsRNA manifest inhibition; or for endogenous ergosterol to deplete to levels that limit growth, occurs only later during hyphal elongation.</p><p>Application of dsRNA‐ERG significantly decreased decay development in various crops such as onion scale, rose petals, strawberries, mango, cherry, bell pepper and grape (Figures <xref rid="pbi13708-fig-0003" ref-type="fig">3</xref> and <xref rid="pbi13708-fig-0004" ref-type="fig">4</xref>). The reduction in rot development caused by <italic toggle="yes">B. cinerea</italic> by application of dsRNA‐ERG was similar or superior to the reduction that was observed by dsRNA‐Dicer designed to target different virulence genes of <italic toggle="yes">B. cinerea</italic> (Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>; Wang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0045" ref-type="bibr">2016</xref>). The infection method adopted to obtain coherent infection of fruits necessitated pre‐wounding the cuticle with mild hydrocarborundum treatment. Abrasion by hydrocarborundum powder that emulates natural environmental wounding allowed for consistent inoculation by <italic toggle="yes">B. cinerea</italic> without releasing cell sap. Thus, intact fruit peel serves as an effective barrier against <italic toggle="yes">B. cinerea</italic> infection (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S2</xref>; Coertze <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0008" ref-type="bibr">2001</xref>). As shown here, the abrasion‐assisted infection by <italic toggle="yes">B. cinerea</italic> was mitigated by dsRNA treatments (Figures <xref rid="pbi13708-fig-0003" ref-type="fig">3</xref> and <xref rid="pbi13708-fig-0004" ref-type="fig">4</xref>).</p><p>The dsRNA‐ERG was comprised of short sequences from the coding regions of three transcripts in the ergosterol biosynthesis pathway: <italic toggle="yes">erg11</italic>, <italic toggle="yes">erg1</italic> and <italic toggle="yes">erg13</italic>. In the cell, it is expected to be processed into short inhibitory RNA fragments by the Dicer‐like enzyme where inhibition is hypothesized to be achieved through down‐regulation of the targeted RNA or by inhibition of mRNA translation (Morozov <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0032" ref-type="bibr">2019</xref>; Voinnet, <xref rid="pbi13708-bib-0041" ref-type="bibr">2008</xref>). Transcript expression analysis showed significant down‐regulation in all three transcripts (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6</xref>). A result that favours the former hypothesis. This result is also consistent with observations made in <italic toggle="yes">Fusarium graminearum</italic> inhibited by dsRNA application (Koch <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0017" ref-type="bibr">2016</xref>). Interestingly, transcripts of other genes in the ergosterol biosynthesis pathway, which are not targeted by dsRNA‐ERG (such as <italic toggle="yes">erg3</italic> and <italic toggle="yes">erg9</italic>; Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6c</xref>), were significantly enhanced. Our results are consistent with a previous study that demonstrated the relation between a deletion mutation or experimental interference with <italic toggle="yes">erg11</italic> and subsequent up‐regulation in <italic toggle="yes">erg3</italic> transcript expression (Geber <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0014" ref-type="bibr">1995</xref>). In addition, <italic toggle="yes">erg9</italic> encodes squalene synthase, the first enzyme responsible for a specific step of ergosterol biosynthesis (Malmierca <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0027" ref-type="bibr">2013</xref>). It is, therefore, possible that <italic toggle="yes">erg9</italic> up‐regulation like e<italic toggle="yes">rg3</italic> may be due to activation of a futile compensatory response in this highly regulated biosynthetic pathway.</p><p>When the application of dsRNA‐ERG and inoculation by <italic toggle="yes">B. cinerea</italic> were collocated, it may be assumed that dsRNA was taken up and processed to siRNA by the fungus. Here we show that the application of dsRNA‐ERG to a singular point on bell‐peppers or tomatoes was able to reduce decay development at other more distant points. A degree of systemic protection was already observed even when <italic toggle="yes">B. cinerea</italic> inoculation was conducted on the treatment day, suggesting rapid movement of either dsRNA or likely processed RNAi to other parts of the fruit. In bell‐pepper and tomato, systemic protection was detected at least 2 and 3 days post‐treatment respectively. When the level of the non‐processed dsRNA‐ERG was monitored in the grape berry it was detected in distal regions of the mesocarp pulp at 1/10 to 1/100 of the amounts found at the point of inoculation. Presumably, vascular bundles located below the epidermis participate in such dsRNA transport. Interestingly, distal levels of the whole dsRNA‐ERG were far below the inhibitory concentrations that were found in the application zone; yet, <italic toggle="yes">erg11</italic> transcript expression was significantly down‐regulated in the fruit pericarp (Figure <xref rid="pbi13708-fig-0006" ref-type="fig">6</xref>). An attractive possibility to explain this discrepancy is that alongside the movement of dsRNA‐ERG, cell‐to‐cell movement is facilitated by dicer‐processed dsRNA in the plant to siRNA (Melnyk <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0030" ref-type="bibr">2011</xref>). The resultant potent siRNA, which also undergoes transport, is taken up by the fungus as has been shown to occur in other plant–fungal interactions (Hua <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0016" ref-type="bibr">2018</xref>; Llave, <xref rid="pbi13708-bib-0025" ref-type="bibr">2010</xref>; Weiberg <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0046" ref-type="bibr">2013</xref>). Thus, resistance to infection may be achieved by siRNA sourced from the fungus in co‐localized infection and sourced from the plant in distal resistance.</p><p>External ergosterol was shown here to abrogate the effect of dsRNA‐ERG treatment; restoring the severity level of grey mould to the decay severity in water‐treated control (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7</xref>). Similarly, when RNAi was used to inhibit the ergosterol pathway in <italic toggle="yes">Trypanosoma brucei</italic>, growth was restored by exogenous ergosterol. Relatedly, exogenous co‐application of ergosterol with tebuconazole (inhibitor of ergosterol biosynthesis) alleviated the fungicidal effects in <italic toggle="yes">B. cinerea</italic> (Dauchy <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0009" ref-type="bibr">2016</xref>; Zhang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0051" ref-type="bibr">2010</xref>). Taken together, these results show that dsRNA‐ERG induced rapid gene‐specific RNA turnover, which impacted on ergosterol biosynthesis needed for fungal growth and colonization.</p><p>A further aim of the study was to compare the dsRNA‐ERG treatment to commercially used fungicides and test for possible synergism. Two fungicides were chosen due to their different modes of action. 'Prochloraz', an inhibitor of ergosterol biosynthesis, specifically inhibits the cytochrome P450 sterol 14α‐demethylase, a critical enzyme in ergosterol biosynthesis, encoded by <italic toggle="yes">erg11</italic>, that is one of the targeted genes in the dsRNA‐ERG construct (Zhang <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0050" ref-type="bibr">2020</xref>). However, as an imidazole‐based compound, it is of limited specificity and has numerous off‐targets. ‘Fludioxonil’, impacts indirectly on a class lll hybrid histidine kinase (Brandhorst and Klein, <xref rid="pbi13708-bib-0006" ref-type="bibr">2019</xref>; Diskin <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0010" ref-type="bibr">2019</xref>). The growth inhibition of <italic toggle="yes">B. cinerea</italic> by ‘Prochloraz’ was found to be dose‐dependent (Figure <xref rid="pbi13708-fig-0007" ref-type="fig">7d</xref>), while Fludioxonil was toxic to the fungi in a non‐linear manner (Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S5</xref>). In both cases, a combination of dsRNA‐ERG and fungicide displayed a greater reduction in fungal growth compared to the fungicide alone. The required concentration of 'Prochloraz' to reach <italic toggle="yes">B. cinerea</italic> growth inhibition decreased by more than 100‐fold in the combined treatment with dsRNA‐ERG and exhibited a synergistic effect (Table <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S1</xref>). Fludioxonil and dsRNA‐ERG inhibited <italic toggle="yes">B. cinerea</italic> growth better than the fungicide alone, yet the combined inhibition was not synergistic (Table <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S1</xref>). Synergism between 'Prochloraz' and dsRNA‐ERG can result from the reduced flux of sterol biosynthesis due to RNAi that is further exacerbated by the inhibition of the residual activity. The combination could rapidly lower threshold levels of ergosterol to critical levels. In all, dsRNA was found to significantly reduce the needed fungicide concentration for controlling postharvest decay development. The synergistic effect of the combined treatment indicates that both treatments can in the future be applied together as they have a similar mode of action. The chemical fungicide is a competitive inhibitor acting quickly to inhibit cytochrome P‐450 enzymes (Henry and Sisler, <xref rid="pbi13708-bib-0015" ref-type="bibr">1984</xref>). In contrast, the maturation of dsRNA first reduces transcripts levels and ultimately reduces enzyme levels. Based on those differences, the impact of such fungicides may be enhanced if they were applied following dsRNA applications. In contrast, prior application of fungicide may enhance the levels of ergosterol transcripts and interfere with dsRNA treatment. Hence, the development of application procedures to further optimize synergy should be sought.</p><p>The main advantages of SIGS are their eco‐friendly nature and high specificity making them potential alternatives to conventional fungicides. Recent progress showed the pre‐and postharvest application of dsRNA to protect grapes from the pathogenic fungi <italic toggle="yes">B. cinerea</italic> under conditions that mimic the vineyard (Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>). The work here shows the efficacy in targeting multiple components of the same biosynthetic pathway that results in systemic protection and potential synergy with fungicides. SIGS can also obviate the need to focus only on pathogen‐specific metabolism in an effort to produce fungicidal agents that have specificity (e.g. ergosterol pathway). Instead, many additional critical hubs of metabolism or development can be targeted in the pathogen where specificity is achieved by the evolutionary diversification in gene sequence between species. Thus, dsRNA construct that comprises several genes could be more effective, as it targets several essential genes. Due to novel gene junctions, the hybrid siRNAs could potentially create off‐target effects. To evaluate possible off‐targets in the designed dsRNA‐ERG, the whole dsRNA sequence was analysed against the genome data of three fungi (<italic toggle="yes">B. cinerea</italic> (our model), <italic toggle="yes">Penicillium expansum</italic> and <italic toggle="yes">Alternaria alternata</italic>), grape and human. While the software identified the target genes in <italic toggle="yes">B. cinerea</italic> genome, no hits were found to the other tested organisms. Nonetheless, several problems need to be solved before commercial applications will be affordable, such as cost‐efficient dsRNAs production, modified application tools and stabilizing agents for field conditions that will maintain the potency of dsRNA (Nerva <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0033" ref-type="bibr">2020</xref>).</p><p>To summarize, the results of the current study suggest that a combination of several main genes of an essential pathway, as ergosterol biosynthesis, could be united into one construct and serve as an efficient SIGS treatment that inhibits the expression of all the targeted transcripts. We showed that the dsRNA penetrates to the emergence zone of the hyphae and then spreads throughout the fungi. In this manner, dsRNA‐ERG could inhibit fungal germ tube elongation and hyphal growth and significantly inhibit the <italic toggle="yes">B. cinerea</italic> pathogenicity and colonization in various crops and harvested fruits. We also show that dsRNA moves systemically in the fruit peel and pulp to inhibit decay development. Additionally, dsRNA‐ERG treatments lowered by 100‐fold the necessary effective concentration of commonly used fungicides that have an ergosterol‐related mode of action.</p></sec><sec id="pbi13708-sec-0008"><title>Experimental procedures</title><sec id="pbi13708-sec-0009"><title>Construction and production of dsRNA</title><p>To silence the ergosterol pathway, dsRNA construct was designed using SnapGene (SnapGene<sup>®</sup> software, GSL Biotech) for three transcripts in the ergosterol biosynthesis pathway, erg11, erg1 and erg13 yielding 791 bp. Each sequence was chosen from an expressed region of 250–300 bp (<xref rid="pbi13708-sup-0001" ref-type="supplementary-material">Supplemental Experimental</xref> procedures). The full sequence including flanking EcoR1 restriction sites and T7 transcriptional promoters was synthesized by GeneScript Inc as shown in Supple<xref rid="pbi13708-sup-0001" ref-type="supplementary-material">m</xref>ental M&amp;M. The DCL1/DCL2 dicer using the sequence for DCL1 and DCL2 was cloned in a similar manner as shown in the Supple<xref rid="pbi13708-sup-0001" ref-type="supplementary-material">m</xref>ental M&amp;M. For RNA synthesis, a high yield transcription reaction was carried out based on Ambion MEGAscript protocol (Thermo Fisher Scientific). The plasmid templates were linearized by EcoR1 restriction where complete linearization was monitored by gel fractionation and purified by Wizard SV clean‐up system (Promega). After RNA synthesis to produce two self‐hybridized complementary RNA transcripts, DNA and single‐stranded RNA were removed by nuclease digestion. The remaining dsRNA was purified on a solid‐phase adsorption system to remove proteins and oligonucleotides. The integrity and efficiency of duplex formation of dsRNA were examined by agarose gel and spectrophotometry. Pure dsRNA was stored at −20 °C until usage. The dsRNA construct was tested for off‐target sequences using siFi21 (Licensed by CC‐BY‐SA‐4.0) as described previously by Lück <italic toggle="yes">et al</italic>. (<xref rid="pbi13708-bib-0026" ref-type="bibr">2019</xref>). Briefly, siFi software was used to analyse the whole dsRNA‐ERG sequence against all the genome sequences of <italic toggle="yes">B. cinerea</italic> (RefSeq: GCF_000143535.2), <italic toggle="yes">Alternaria alternata</italic> (RefSeq: GCF_001642055.1), <italic toggle="yes">Penicillium expansum</italic> (RefSeq: GCF_000769745.1), <italic toggle="yes">Vitis venifera</italic> (RefSeq: GCF_000003745.3) and human (RefSeq: GCF_000001405.39; all data were downloaded from NCBI database) using the default parameters to achieve higher sensitivity for off‐targets. Additional off‐target searches used the <italic toggle="yes">ERG</italic> construct from <italic toggle="yes">B. cinerea</italic> as a DNA gene query for BLAST technique. Some fungal pathogens closely related to <italic toggle="yes">Botrytis</italic> were detected at 90% identity and above. These include ERG13, <italic toggle="yes">Monilinia</italic> and <italic toggle="yes">Botryotinia</italic> sp.; ERG11, <italic toggle="yes">Botryotinia</italic> and <italic toggle="yes">Sclerotinia</italic> sp.; and ERG1, <italic toggle="yes">Botryotinia</italic> sp. No significant homologies were detected to plant or animal DNA.</p></sec><sec id="pbi13708-sec-0010"><title>Fungal strains and growth media</title><p>Cultures of <italic toggle="yes">B. cinerea</italic> B05‐10 were routinely grown on potato dextrose agar (PDA; Difco, New Jersey) medium for 14 days at 22 °C. Conidia were gently collected by suspension in sterile distilled water, filtered through four layers of sterile cheesecloth and diluted to a concentration of 10<sup>5</sup> conidia mL<sup>−1</sup> for <italic toggle="yes">in vitro</italic> experiments or 10<sup>4</sup> conidia mL<sup>−1</sup> for <italic toggle="yes">in vivo</italic> experiments. Conidial concentration in the suspension was microscopically determined using a haemocytometer.</p></sec><sec id="pbi13708-sec-0011"><title>dsRNA uptake by <italic toggle="yes">B. cinerea</italic>
+</title><p>To evaluate dsRNA uptake by <italic toggle="yes">B. cinerea</italic> cells, fluorescent dsRNA was prepared by incorporation of cy5‐labelled nucleotides. Aminoallyl‐UTP‐Cy5 (Jena Bioscience, cat. NU‐821‐X‐CY5) 4 μL of a 5 m<sc>m</sc> solution was added directly to the Ambion MEGA‐script transcription assay to yield a final volume of 20 μL. The incorporation of UTP‐Cy5 was monitored by the NanoDrop One (Thermo Fisher Scientific) spectrophotometer. <italic toggle="yes">B. cinerea</italic> conidia suspension (10 μL of 10<sup>5</sup> conidia mL<sup>−1</sup>) was seeded on a PDA glass slide with water (control) or 800 ng cy5‐labelled dsRNA, and incubated in the dark in a humid petri dish for 12–16 h at room temperature. The conidia were examined under a confocal laser scanning microscope (CLSM; Olympus IX81, Center Valley, PA).</p></sec><sec id="pbi13708-sec-0012"><title>Effect of dsRNA on decay development</title><p>All fruit and crops were purchased from a local grower. For non‐wounding inoculation assays, yellow onion (<italic toggle="yes">Allium cepa</italic>) scale, a cultivated pink rose (<italic toggle="yes">Rosa</italic>) petals and strawberries (<italic toggle="yes">Fragaria ananassa</italic>) cv. Gilli was treated with water (control) or dsRNA‐ERG (15 ng/μL) following inoculation by a 7 μL drop of <italic toggle="yes">B. cinerea</italic> at a concentration of 10<sup>4</sup> conidia mL<sup>−1</sup>. The scales, petals and fruit were incubated at 25 °C for 5–7 days. Decay diameter was measured daily. To measure the irregular shape of the decay, for each rot, the decay diameter was determined as the average of three diameters in different directions. Each experiment was conducted using at least 10 repeats for treatment, the experiment was repeated twice.</p><p>For wound inoculation assays red bell‐peppers (<italic toggle="yes">Capsicum annuum</italic>), cherry cv. Sweet‐Hart (<italic toggle="yes">Prunus cerasus</italic>), mango cv. Shelly (<italic toggle="yes">Mangiferae indica</italic>) or grapes cv. Autumn Royal and Scarlotta (<italic toggle="yes">Vitis vinifera</italic>) were pre‐treated with hydrocarborundum powder (Fisher Scientific, Loughborough, UK) by gentle abrasing the fruit until the fruit peel lost its smooth texture without releasing cell sap, to create micro‐injuries on the fruit cuticle which mimic natural wounding. Without such uniform infection, one cannot get reliable quantitative measurements of protection. Spray treatment of water (control) or dsRNA (15 ng/μL) was applied up to drainage following spray inoculation of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia suspension at a concentration of 10<sup>4</sup> conidia mL<sup>−1</sup>. Fruits were stored at 25 °C for 6 days in humid chambers and either decay area or severity (index 0‐5; 0‐no decay, 1‐mild decay, 5‐severe decay) were measured.</p></sec><sec id="pbi13708-sec-0013"><title>Evaluation of systemic protection</title><p>Red bell peppers (<italic toggle="yes">Capsicum annuum</italic>) and tomatoes (<italic toggle="yes">Solanum lycopersicum</italic>) were pre‐treated with hydrocarborundum powder to create micro‐injuries. 10 μL drop of water (control) or dsRNA‐ERG (15 ng/μL) was placed on the top‐left point of the fruit (T; Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S5</xref>). Inoculation was conducted at three time points: treatment day, 1 day after treatment, or 3 days after treatment using a 7 μL drop of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> at a concentration of 10<sup>4</sup> conidia mL<sup>−1</sup>. <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia were seeded at five inoculation points: the treatment point (T) and four additional points in a distance of 2 and 4 cm for bell‐peppers or 1.5 and 3 cm for tomatoes, positioned vertically (D1, D2) and horizontally (S1, S2; Figure <xref rid="pbi13708-sup-0001" ref-type="supplementary-material">S5</xref>). Fruits were stored at 25 °C for 7 days post‐inoculation, in humid chambers and the decayed area was measured.</p></sec><sec id="pbi13708-sec-0014"><title>Effect of dsRNA on conidia germination</title><p>The effect of dsRNA‐ERG on <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia germination was tested using an <italic toggle="yes">in vitro</italic> micro‐assay (Galsurker <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0012" ref-type="bibr">2020</xref>; Gatto <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0013" ref-type="bibr">2011</xref>). Conidia suspension (10 μL) was seeded on a glass slide, containing 0.2% Sabouraud maltose broth (SMB; 10 g Peptone (Difco), 40 g Maltose (Caisson labs, Smithfield, Utah, United States) per 1 L) and incubated in a humid petri dish for 24 h at room temperature. dsRNA‐ERG (40 μL dsRNA at a concentration of 20 ng/μL) was added at time zero, after 4 h or 8 h of incubation. To test the effect of dsRNA‐ERG on <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> conidia germination <italic toggle="yes">in vivo</italic>, <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> was inoculated on <italic toggle="yes">Vitis vinifera</italic> cv. Superior with water (control) or dsRNA‐ERG as described above. The inoculated fruits were incubated in a humid chamber at 25 °C for 24 h, then a thin layer of the inoculated grape peel was subjected to lactophenol blue staining. The conidia were examined under a microscope (Leica DM500 equipped with a Leica ICC50 HD camera) to assess both germination percentage and germ tube elongation. Conidia germination was scored when the germ tube's length was equal to, or exceeded, the conidia diameter. The germ tube length was evaluated using ImageJ software (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://rsb.info.nih.gov/ij" ext-link-type="uri">http://rsb.info.nih.gov/ij</ext-link>) in three microscopic fields in each droplet, six droplets for each treatment. In each field examined, at least 80 conidia were counted.</p></sec><sec id="pbi13708-sec-0015"><title>RNA extraction and transcript expression (quantitative PCR; qPCR)</title><p>
+<italic toggle="yes">Vitis vinifera</italic> cv. Superior or Scarlota inoculated with <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> and treated with water (control) or dsRNA‐ERG as described above. The fruit peels or pulps were collected 8, 24 and 48 h post‐inoculation to liquid nitrogen. For RNA extraction, the peels or pulps were grounded to a fine powder using mortar and pestle and total RNA was extracted using Spectrum™ plant total RNA kit (Sigma‐Aldrich, St. Louis, Missouri) according to the manufacturer's instructions, following DNase treatment (TURBO DNA‐free Kit, Ambion Life Technologies). Total RNA (1 μg) was used for cDNA construction using the RevertAid First‐Strand cDNA Synthesis kit (Thermo Scientific) according to the manufacturer's instructions. cDNA samples were diluted at 1 : 10 and used for qRT‐PCR. The relative expression of the three ergosterol targeted genes (<italic toggle="yes">erg11</italic>, <italic toggle="yes">erg1</italic> and <italic toggle="yes">erg13</italic>) and two ergosterol non‐targeted genes (<italic toggle="yes">erg3</italic> and <italic toggle="yes">erg9</italic>) was evaluated by a qRT‐PCR analysis conducted with a Step One Plus Real‐Time PCR (Applied Biosystems, Waltham, Massachusetts, US). PCR amplification was performed with 3 μL of diluted cDNA template in a 10 μL reaction mixture containing 5 μL Syber Green (Applied Biosystems) and 250 n<sc>m</sc> primers. The qRT‐PCR analysis was conducted with the corresponding primer sets of the selected genes. All the primers were chosen from the transcript sequence region that was not part of the dsRNA‐ERG construct to avoid cross‐contamination. The primers that were used in the current study are as follows: forward, 5′‐GCTGATCTCCCTGCTCTCAAGTA‐3′ and reverse, 5′‐TGTGGAGGCGTAGAGTTTCCTT‐3′ for <italic toggle="yes">erg11</italic>. Forward, 5′‐GAGGAAAGCGTGTGCAAGCT‐3′ and reverse, 5′‐TTCGCCCGTAGATGGATTGG‐3′ for <italic toggle="yes">erg1</italic>. Forward, 5′‐AAGAAGCGTTTCAACGAGCG‐3′ and reverse, 5′‐AGGGCGGCACTATCAACATT‐3′ for <italic toggle="yes">erg13</italic>, forward, 5′‐TGGAAGTGACCGACAAATAC‐3′ and reverse, 5′‐GAGGGTTGTGCCATTGAT‐3′ for <italic toggle="yes">erg3</italic>, forward, 5′‐TCACCCATTTCACCCAGTTT‐3′ and reverse, 5′‐GTTGATCCGAGTCCGTCTATTG‐3′ for <italic toggle="yes">erg9</italic>. And to evaluate the dsRNA‐ERG construct we used forward 5′‐TACCTCCTTTGCCTCTCTACC‐3′ located on <italic toggle="yes">erg13</italic> sequence and reverse 5′‐GTATTGCTTGCGGAATTTGGAG‐3′ located on <italic toggle="yes">erg 11</italic> sequence. PCR cycling program included: 10 min at 94 °C, followed by 40 cycles of 94 °C for 10 s, 60 °C for 15 s and 72 °C for 20 s. The expression of the selected genes was normalized using Ct values of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> actin (forward, 5′‐TGCTCCAGAAGCTTTGTTCCAA‐3′ and reverse, 5′‐TCGGAGATACCTGGGTACATAG‐3′) or grape actin (forward, 5′‐CTTGCATCCCTCAGCACCTT‐3′ and reverse, 5′‐TCCTGTGGACAATGGATGGA‐3′) as reference gene, and expression values were calculated relatively to control sample (water treated) using Step One software v2.2.2 (Applied Biosystems). Each treatment consisted of three biological repeats and three technical replicates.</p></sec><sec id="pbi13708-sec-0016"><title>
+<italic toggle="yes">In</italic>
+<italic toggle="yes">vitro</italic> fungal growth</title><p>To evaluate fungal growth, 6 μL conidia suspension was seeded in a 96‐well plate (Bar‐Naor Ltd., Petah Tikva, Israel), containing 200 μL of 1% SMB. For dsRNA‐ERG treatment, 4 ng/μL of dsRNA‐ERG (total 800 ng) was added to each treatment well. Ergosterol complementation assay wells contained 50 μ<sc>m</sc> ergosterol (Sigma‐Aldrich), which was initially dissolved in chloroform to obtain a 125 m<sc>m</sc> stock solution (Dauchy <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0009" ref-type="bibr">2016</xref>). To test the effect of commonly used fungicide on <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic> growth, 'Procloraz' (Sportak, Bayer Cropscience LLC, Monheim am Rhein, Germany) or 'fludioxonil' (scholar, Hod‐Hasharon, Israel) fungicide were diluted in 1% SMB to final concentrations of 1–1000 ppb or 0.01–1000 ppb respectively.</p><p>The plates were incubated at room temperature and O.D measurement at 600 nm was taken every hour during 48–72 h using Synergy LX plate reader (BioTek, Winooski, Vermont). The absorbance of three wells of repeats was averaged together and was background‐corrected by subtracting the average absorbance of media alone at time zero (Galsurker <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0012" ref-type="bibr">2020</xref>; Langvad, <xref rid="pbi13708-bib-0020" ref-type="bibr">1999</xref>). Growth inhibition percentage was calculated (O.D in control well − O.D in treatment well)/O.D in control well × 100) (Meletiadis <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0029" ref-type="bibr">2003</xref>). Coefficient treatment interaction (CTI) was calculated as follows: CTI = AB/(A × B). AB is the ratio of the treatment combination to control; A, or B is the ratio of the single treatment to control. CTI is considered as synergistic when CTI &lt; 1 (Chen <italic toggle="yes">et al</italic>., <xref rid="pbi13708-bib-0007" ref-type="bibr">2014</xref>).</p></sec><sec id="pbi13708-sec-0017"><title>Statistical analysis</title><p>The data presented are averages and standard errors. A <italic toggle="yes">T</italic>‐test was performed to compare two treatments. One‐way ANOVA analysis was performed by Tukey–Kramer HSD test using JMP Pro 15 software (SAS Institute, Cary, NC). Different letters or asterisks indicate significant differences (<italic toggle="yes">P</italic> ≤ 0.05).</p></sec></sec><sec sec-type="COI-statement" id="pbi13708-sec-0019"><title>Conflict of interest</title><p>We declare that we do not know of any conflict of interest.</p></sec><sec id="pbi13708-sec-0020"><title>Author contributions</title><p>DDA and OG coordinated, planned, carried out the experiments and data analysis, and wrote the manuscript draft. OD, OF and DM carried out experiments and data analysis. MS and EP wrote the proposal, planned some of the experiments and revised the manuscript. RF and NA supervised the study, the experiments and the data analysis and prepared the manuscript. All authors have read and agreed to the final version of the manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="pbi13708-sup-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Method S1</bold> Sequences of Bc‐DCL1/2‐dsRNA (dsRNA‐Dicer), or Bc‐ERG1/13/11‐dsRNA (dsRNA‐ERG) constructs.</p><p>
+<bold>Table S1</bold> Coefficient treatment interaction and growth inhibition by dsRNA and fungicides</p><p>
+<bold>Figure S1</bold> Dose effect of dsRNA‐ERG on fungal growth.</p><p>
+<bold>Figure S2</bold> Infection of tomato fruit with no wounding.</p><p>
+<bold>Figure S3</bold>
+<italic toggle="yes">In vitro</italic> fungal growth with external ergosterol addition.</p><p>
+<bold>Figure S4</bold> Illustration of systemic evaluation experiment set‐up.</p><p>
+<bold>Figure S5</bold> dsRNA application reduces fungicide‐needed concentration for growth inhibition of <italic toggle="yes">B</italic>. <italic toggle="yes">cinerea</italic>.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="PBI-20-226-s001.pdf" position="float" orientation="portrait"><?suppdata-name PBI-20-226-s001.pdf?><?suppdata-size 1378325?><?suppdata-md5 d04f1ccfd03316f19f5f6712e4952bb1?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:193a/11382940/d04f1ccfd033/PBI-20-226-s001.pdf?></media></supplementary-material></sec></body><back><ack id="pbi13708-sec-0018"><title>Acknowledgements</title><p>This research was supported by the Chief Scientist of the Israeli Ministry of Agriculture and Rural Development (Grant No. 20‐06‐0071). Danielle Duanis‐Assaf is a recipient of a scholarship in the memory of Yehoram and Naomi Gorodiski given by the Gorodiski Foundation.</p></ack><ref-list content-type="cited-references" id="pbi13708-bibl-0001"><title>References</title><ref id="pbi13708-bib-0001"><mixed-citation publication-type="journal" id="pbi13708-cit-0001">
+<string-name name-style="western">
+<surname>Abiad</surname>, <given-names>M.G.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Meho</surname>, <given-names>L.I.</given-names>
+</string-name> (<year>2018</year>) <article-title>Food loss and food waste research in the Arab world: a systematic review</article-title>. <source>Food Secur.</source>
+<volume>10</volume>, <fpage>311</fpage>–<lpage>322</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0002"><mixed-citation publication-type="journal" id="pbi13708-cit-0002">
+<string-name name-style="western">
+<surname>Ahmad</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Khan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Manzoor</surname>, <given-names>N.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Khan</surname>, <given-names>L.A.</given-names>
+</string-name> (<year>2010</year>) <article-title>Evolution of ergosterol biosynthesis inhibitors as fungicidal against Candida</article-title>. <source>Microb. Pathog.</source>
+<volume>48</volume>, <fpage>35</fpage>–<lpage>41</lpage>.<pub-id pub-id-type="pmid">19835945</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.micpath.2009.10.001</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0003"><mixed-citation publication-type="journal" id="pbi13708-cit-0003">
+<string-name name-style="western">
+<surname>Bard</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lees</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Burrows</surname>, <given-names>L.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kleinhans</surname>, <given-names>F.</given-names>
+</string-name> (<year>1978</year>) <article-title>Differences in crystal violet uptake and cation‐induced death among yeast sterol mutants</article-title>. <source>J. Bacteriol.</source>
+<volume>135</volume>, <fpage>1146</fpage>–<lpage>1148</lpage>.<pub-id pub-id-type="pmid">357417</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/jb.135.3.1146-1148.1978</pub-id><pub-id pub-id-type="pmcid">PMC222492</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0004"><mixed-citation publication-type="book" id="pbi13708-cit-0004">
+<string-name name-style="western">
+<surname>Beauvais</surname>, <given-names>A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Latgé</surname>, <given-names>J.‐P.</given-names>
+</string-name> (<year>2018</year>) <source>Fungal cell wall</source>. <publisher-loc>Basel, Switzerland</publisher-loc>: <publisher-name>Multidisciplinary Digital Publishing Institute</publisher-name>.</mixed-citation></ref><ref id="pbi13708-bib-0005"><mixed-citation publication-type="journal" id="pbi13708-cit-0005">
+<string-name name-style="western">
+<surname>Bhattacharya</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Esquivel</surname>, <given-names>B.D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>White</surname>, <given-names>T.C.</given-names>
+</string-name> (<year>2018</year>) <article-title>Overexpression or deletion of ergosterol biosynthesis genes alters doubling time, response to stress agents, and drug susceptibility in <italic toggle="yes">Saccharomyces cerevisiae</italic>
+</article-title>. <source>MBio</source>, <volume>9</volume>, <fpage>e01291‐18</fpage>.<pub-id pub-id-type="pmid">30042199</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/mBio.01291-18</pub-id><pub-id pub-id-type="pmcid">PMC6058291</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0006"><mixed-citation publication-type="journal" id="pbi13708-cit-0006">
+<string-name name-style="western">
+<surname>Brandhorst</surname>, <given-names>T.T.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Klein</surname>, <given-names>B.S.</given-names>
+</string-name> (<year>2019</year>) <article-title>Uncertainty surrounding the mechanism and safety of the post‐harvest fungicide fludioxonil</article-title>. <source>Food Chem. Toxicol.</source>
+<volume>123</volume>, <fpage>561</fpage>–<lpage>565</lpage>.<pub-id pub-id-type="pmid">30458269</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fct.2018.11.037</pub-id><pub-id pub-id-type="pmcid">PMC6322420</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0007"><mixed-citation publication-type="journal" id="pbi13708-cit-0007">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ye</surname>, <given-names>H.‐L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yao</surname>, <given-names>W.‐M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Chen</surname>, <given-names>X.‐Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>F.‐C.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Liang</surname>, <given-names>G.</given-names>
+</string-name> (<year>2014</year>) <article-title>Autophagy inhibition contributes to the synergistic interaction between EGCG and doxorubicin to kill the hepatoma Hep3B cells</article-title>. <source>PLoS One</source>, <volume>9</volume>, <elocation-id>e85771</elocation-id>.<pub-id pub-id-type="pmid">24465696</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pone.0085771</pub-id><pub-id pub-id-type="pmcid">PMC3897495</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0008"><mixed-citation publication-type="journal" id="pbi13708-cit-0008">
+<string-name name-style="western">
+<surname>Coertze</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Holz</surname>, <given-names>G.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Sadie</surname>, <given-names>A.</given-names>
+</string-name> (<year>2001</year>) <article-title>Germination and establishment of infection on grape berries by single airborne conidia of <italic toggle="yes">Botrytis cinerea</italic>
+</article-title>. <source>Plant Dis.</source>
+<volume>85</volume>, <fpage>668</fpage>–<lpage>677</lpage>.<pub-id pub-id-type="pmid">30823037</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1094/PDIS.2001.85.6.668</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0009"><mixed-citation publication-type="journal" id="pbi13708-cit-0009">
+<string-name name-style="western">
+<surname>Dauchy</surname>, <given-names>F.‐A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonhivers</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Landrein</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dacheux</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Courtois</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lauruol</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Daulouede</surname>, <given-names>S.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2016</year>) <article-title>
+<italic toggle="yes">Trypanosoma brucei</italic> CYP51: essentiality and targeting therapy in an experimental model</article-title>. <source>PLoS Negl. Trop Dis.</source>
+<volume>10</volume>, <elocation-id>e0005125</elocation-id>.<pub-id pub-id-type="pmid">27855164</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.pntd.0005125</pub-id><pub-id pub-id-type="pmcid">PMC5113867</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0010"><mixed-citation publication-type="journal" id="pbi13708-cit-0010">
+<string-name name-style="western">
+<surname>Diskin</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sharir</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feygenberg</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maurer</surname>, <given-names>D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Alkan</surname>, <given-names>N.</given-names>
+</string-name> (<year>2019</year>) <article-title>Fludioxonil—a potential alternative for postharvest disease control in mango fruit</article-title>. <source>Crop Prot.</source>
+<volume>124</volume>, <fpage>104855</fpage>.</mixed-citation></ref><ref id="pbi13708-bib-0011"><mixed-citation publication-type="journal" id="pbi13708-cit-0011">
+<string-name name-style="western">
+<surname>Elmer</surname>, <given-names>P.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Reglinski</surname>, <given-names>T.</given-names>
+</string-name> (<year>2006</year>) <article-title>Biosuppression of <italic toggle="yes">Botrytis cinerea</italic> in grapes</article-title>. <source>Plant. Pathol.</source>
+<volume>55</volume>, <fpage>155</fpage>–<lpage>177</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0012"><mixed-citation publication-type="journal" id="pbi13708-cit-0012">
+<string-name name-style="western">
+<surname>Galsurker</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Diskin</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Duanis‐Assaf</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doron‐Faigenboim</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Maurer</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Feygenberg</surname>, <given-names>O.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Alkan</surname>, <given-names>N.</given-names>
+</string-name> (<year>2020</year>) <article-title>Harvesting mango fruit with a short stem‐end altered endophytic microbiome and reduce stem‐end rot</article-title>. <source>Microorganisms</source>, <volume>8</volume>, <fpage>558</fpage>.<pub-id pub-id-type="pmid">32295088</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/microorganisms8040558</pub-id><pub-id pub-id-type="pmcid">PMC7232454</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0013"><mixed-citation publication-type="journal" id="pbi13708-cit-0013">
+<string-name name-style="western">
+<surname>Gatto</surname>, <given-names>M.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ippolito</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linsalata</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cascarano</surname>, <given-names>N.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nigro</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vanadia</surname>, <given-names>S.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Di Venere</surname>, <given-names>D.</given-names>
+</string-name> (<year>2011</year>) <article-title>Activity of extracts from wild edible herbs against postharvest fungal diseases of fruit and vegetables</article-title>. <source>Postharvest Biol. Technol.</source>
+<volume>61</volume>, <fpage>72</fpage>–<lpage>82</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0014"><mixed-citation publication-type="journal" id="pbi13708-cit-0014">
+<string-name name-style="western">
+<surname>Geber</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hitchcock</surname>, <given-names>C.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Swartz</surname>, <given-names>J.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pullen</surname>, <given-names>F.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Marsden</surname>, <given-names>K.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kwon‐Chung</surname>, <given-names>K.J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Bennett</surname>, <given-names>J.E.</given-names>
+</string-name> (<year>1995</year>) <article-title>Deletion of the <italic toggle="yes">Candida glabrata ERG3</italic> and <italic toggle="yes">ERG11</italic> genes: effect on cell viability, cell growth, sterol composition, and antifungal susceptibility</article-title>. <source>Antimicrob. Agents Chemother.</source>
+<volume>39</volume>, <fpage>2708</fpage>–<lpage>2717</lpage>.<pub-id pub-id-type="pmid">8593007</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/aac.39.12.2708</pub-id><pub-id pub-id-type="pmcid">PMC163017</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0015"><mixed-citation publication-type="journal" id="pbi13708-cit-0015">
+<string-name name-style="western">
+<surname>Henry</surname>, <given-names>M.J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Sisler</surname>, <given-names>H.D.</given-names>
+</string-name> (<year>1984</year>) <article-title>Effects of sterol biosynthesis‐inhibiting (Sbi) fungicides on cytochrome‐P‐450 oxygenations in fungi</article-title>. <source>Pestic Biochem. Phys.</source>
+<volume>22</volume>, <fpage>262</fpage>–<lpage>275</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0016"><mixed-citation publication-type="journal" id="pbi13708-cit-0016">
+<string-name name-style="western">
+<surname>Hua</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>, <given-names>J.‐H.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Guo</surname>, <given-names>H.‐S.</given-names>
+</string-name> (<year>2018</year>) <article-title>Trans‐kingdom RNA silencing in plant–fungal pathogen interactions</article-title>. <source>Mol. Plant</source>, <volume>11</volume>, <fpage>235</fpage>–<lpage>244</lpage>.<pub-id pub-id-type="pmid">29229568</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.molp.2017.12.001</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0017"><mixed-citation publication-type="journal" id="pbi13708-cit-0017">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Biedenkopf</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Furch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weber</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Rossbach</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Abdellatef</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Linicus</surname>, <given-names>L.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2016</year>) <article-title>An RNAi‐based control of <italic toggle="yes">Fusarium graminearum</italic> infections through spraying of long dsRNAs involves a plant passage and is controlled by the fungal silencing machinery</article-title>. <source>PLoS Pathog.</source>
+<volume>12</volume>, <elocation-id>e1005901</elocation-id>.<pub-id pub-id-type="pmid">27737019</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1005901</pub-id><pub-id pub-id-type="pmcid">PMC5063301</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0018"><mixed-citation publication-type="journal" id="pbi13708-cit-0018">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kumar</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weber</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Keller</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Imani</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kogel</surname>, <given-names>K.‐H.</given-names>
+</string-name> (<year>2013</year>) <article-title>Host‐induced gene silencing of cytochrome P450 lanosterol C14α‐demethylase–encoding genes confers strong resistance to <italic toggle="yes">Fusarium</italic> species</article-title>. <source>Proc. Natl Acad. Sci.</source>
+<volume>110</volume>, <fpage>19324</fpage>–<lpage>19329</lpage>.<pub-id pub-id-type="pmid">24218613</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1073/pnas.1306373110</pub-id><pub-id pub-id-type="pmcid">PMC3845197</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0019"><mixed-citation publication-type="journal" id="pbi13708-cit-0019">
+<string-name name-style="western">
+<surname>Kumar</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hatan</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bar</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Davidovich‐Rikanati</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Doron‐Faigenboim</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Spitzer‐Rimon</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Elad</surname>, <given-names>Y.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2020</year>) <article-title>Phenylalanine increases chrysanthemum flower immunity against <italic toggle="yes">Botrytis cinerea</italic> attack</article-title>. <source>Plant J.</source>
+<volume>104</volume>, <fpage>226</fpage>–<lpage>240</lpage>.<pub-id pub-id-type="pmid">32645754</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/tpj.14919</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0020"><mixed-citation publication-type="journal" id="pbi13708-cit-0020">
+<string-name name-style="western">
+<surname>Langvad</surname>, <given-names>F.</given-names>
+</string-name> (<year>1999</year>) <article-title>A rapid and efficient method for growth measurement of filamentous fungi</article-title>. <source>J. Microbiol. Methods</source>, <volume>37</volume>, <fpage>97</fpage>–<lpage>100</lpage>.<pub-id pub-id-type="pmid">10395469</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/s0167-7012(99)00053-6</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0021"><mixed-citation publication-type="journal" id="pbi13708-cit-0021">
+<string-name name-style="western">
+<surname>Lees</surname>, <given-names>N.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bard</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kemple</surname>, <given-names>M.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Haak</surname>, <given-names>R.A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Kleinhans</surname>, <given-names>F.W.</given-names>
+</string-name> (<year>1979</year>) <article-title>ESR determination of membrane order parameter in yeast sterol mutants</article-title>. <source>Biochim. Biophys. Acta‐Biomembranes</source>, <volume>553</volume>, <fpage>469</fpage>–<lpage>475</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0005-2736(79)90302-x</pub-id><pub-id pub-id-type="pmid">222316</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0022"><mixed-citation publication-type="journal" id="pbi13708-cit-0022">
+<string-name name-style="western">
+<surname>Lees</surname>, <given-names>N.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lofton</surname>, <given-names>S.L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Woods</surname>, <given-names>R.A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Bard</surname>, <given-names>M.</given-names>
+</string-name> (<year>1980</year>) <article-title>The effects of varied energy source and detergent on the growth of sterol mutants of <italic toggle="yes">Saccharomyces cerevisiae</italic>
+</article-title>. <source>Microbiology</source>, <volume>118</volume>, <fpage>209</fpage>–<lpage>214</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0023"><mixed-citation publication-type="journal" id="pbi13708-cit-0023">
+<string-name name-style="western">
+<surname>Lees</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Skaggs</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kirsch</surname>, <given-names>D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Bard</surname>, <given-names>M.</given-names>
+</string-name> (<year>1995</year>) <article-title>Cloning of the late genes in the ergosterol biosynthetic pathway of <italic toggle="yes">Saccharomyces cerevisiae</italic>—a review</article-title>. <source>Lipids</source>, <volume>30</volume>, <fpage>221</fpage>–<lpage>226</lpage>.<pub-id pub-id-type="pmid">7791529</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/BF02537824</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0024"><mixed-citation publication-type="journal" id="pbi13708-cit-0024">
+<string-name name-style="western">
+<surname>Lipinski</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hanson</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lomax</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kitinoja</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Waite</surname>, <given-names>R.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Searchinger</surname>, <given-names>T.</given-names>
+</string-name> (<year>2013</year>) <article-title>Reducing food loss and waste</article-title>. World Resources Institute Working Paper, vol. <volume>1</volume>, pp. <fpage>1</fpage>–<lpage>40</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0025"><mixed-citation publication-type="journal" id="pbi13708-cit-0025">
+<string-name name-style="western">
+<surname>Llave</surname>, <given-names>C.</given-names>
+</string-name> (<year>2010</year>) <article-title>Virus‐derived small interfering RNAs at the core of plant–virus interactions</article-title>. <source>Trends Plant Sci.</source>
+<volume>15</volume>, <fpage>701</fpage>–<lpage>707</lpage>.<pub-id pub-id-type="pmid">20926332</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tplants.2010.09.001</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0026"><mixed-citation publication-type="journal" id="pbi13708-cit-0026">
+<string-name name-style="western">
+<surname>Lück</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kreszies</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Strickert</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Schweizer</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kuhlmann</surname>, <given-names>M.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Douchkov</surname>, <given-names>D.</given-names>
+</string-name> (<year>2019</year>) <article-title>siRNA‐finder (si‐Fi) software for RNAi‐target design and off‐target prediction</article-title>. <source>Front. Plant Sci.</source>
+<volume>10</volume>, <fpage>1023</fpage>.<pub-id pub-id-type="pmid">31475020</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2019.01023</pub-id><pub-id pub-id-type="pmcid">PMC6704232</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0027"><mixed-citation publication-type="journal" id="pbi13708-cit-0027">
+<string-name name-style="western">
+<surname>Malmierca</surname>, <given-names>M.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Cardoza</surname>, <given-names>R.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Alexander</surname>, <given-names>N.J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>McCormick</surname>, <given-names>S.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Collado</surname>, <given-names>I.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hermosa</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Monte</surname>, <given-names>E.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2013</year>) <article-title>Relevance of trichothecenes in fungal physiology: disruption of <italic toggle="yes">tri5</italic> in <italic toggle="yes">Trichoderma arundinaceum</italic>
+</article-title>. <source>Fungal Genet. Biol.</source>
+<volume>53</volume>, <fpage>22</fpage>–<lpage>33</lpage>.<pub-id pub-id-type="pmid">23454546</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fgb.2013.02.001</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0028"><mixed-citation publication-type="journal" id="pbi13708-cit-0028">
+<string-name name-style="western">
+<surname>Mbengue</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Navaud</surname>, <given-names>O.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Peyraud</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barascud</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Badet</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Vincent</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Barbacci</surname>, <given-names>A.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2016</year>) <article-title>Emerging trends in molecular interactions between plants and the broad host range fungal pathogens <italic toggle="yes">Botrytis cinerea</italic> and <italic toggle="yes">Sclerotinia sclerotiorum</italic>
+</article-title>. <source>Front. Plant Sci.</source>
+<volume>7</volume>, <fpage>422</fpage>.<pub-id pub-id-type="pmid">27066056</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2016.00422</pub-id><pub-id pub-id-type="pmcid">PMC4814483</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0029"><mixed-citation publication-type="journal" id="pbi13708-cit-0029">
+<string-name name-style="western">
+<surname>Meletiadis</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>te Dorsthorst</surname>, <given-names>D.T.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Verweij</surname>, <given-names>P.E.</given-names>
+</string-name> (<year>2003</year>) <article-title>Use of turbidimetric growth curves for early determination of antifungal drug resistance of filamentous fungi</article-title>. <source>J. Clin. Microbiol.</source>
+<volume>41</volume>, <fpage>4718</fpage>–<lpage>4725</lpage>.<pub-id pub-id-type="pmid">14532210</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/JCM.41.10.4718-4725.2003</pub-id><pub-id pub-id-type="pmcid">PMC254297</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0030"><mixed-citation publication-type="journal" id="pbi13708-cit-0030">
+<string-name name-style="western">
+<surname>Melnyk</surname>, <given-names>C.W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Molnar</surname>, <given-names>A.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Baulcombe</surname>, <given-names>D.C.</given-names>
+</string-name> (<year>2011</year>) <article-title>Intercellular and systemic movement of RNA silencing signals</article-title>. <source>EMBO J.</source>
+<volume>30</volume>, <fpage>3553</fpage>–<lpage>3563</lpage>.<pub-id pub-id-type="pmid">21878996</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/emboj.2011.274</pub-id><pub-id pub-id-type="pmcid">PMC3181474</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0031"><mixed-citation publication-type="journal" id="pbi13708-cit-0031">
+<string-name name-style="western">
+<surname>Mitter</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Worrall</surname>, <given-names>E.A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Robinson</surname>, <given-names>K.E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jain</surname>, <given-names>R.G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Taochy</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Fletcher</surname>, <given-names>S.J.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2017</year>) <article-title>Clay nanosheets for topical delivery of RNAi for sustained protection against plant viruses</article-title>. <source>Nat. Plants</source>, <volume>3</volume>, <fpage>1</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nplants.2016.207</pub-id><pub-id pub-id-type="pmid">28067898</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0032"><mixed-citation publication-type="journal" id="pbi13708-cit-0032">
+<string-name name-style="western">
+<surname>Morozov</surname>, <given-names>S.Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Solovyev</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kalinina</surname>, <given-names>N.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Taliansky</surname>, <given-names>M.</given-names>
+</string-name> (<year>2019</year>) <article-title>Double‐stranded RNAs in plant protection against pathogenic organisms and viruses in agriculture</article-title>. <source>Acta Naturae</source>, <volume>11</volume>, <fpage>43</fpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.32607/20758251-2019-11-4-13-21</pub-id><pub-id pub-id-type="pmcid">PMC6977960</pub-id><pub-id pub-id-type="pmid">31993231</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0033"><mixed-citation publication-type="journal" id="pbi13708-cit-0033">
+<string-name name-style="western">
+<surname>Nerva</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sandrini</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gambino</surname>, <given-names>G.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Chitarra</surname>, <given-names>W.</given-names>
+</string-name> (<year>2020</year>) <article-title>Double‐stranded RNAs (dsRNAs) as a sustainable tool against gray mold (<italic toggle="yes">Botrytis cinerea</italic>) in grapevine: effectiveness of different application methods in an open‐air environment</article-title>. <source>Biomolecules</source>, <volume>10</volume>, <fpage>200</fpage>.<pub-id pub-id-type="pmid">32013165</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/biom10020200</pub-id><pub-id pub-id-type="pmcid">PMC7072719</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0034"><mixed-citation publication-type="journal" id="pbi13708-cit-0034">
+<string-name name-style="western">
+<surname>Nunes</surname>, <given-names>C.C.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Dean</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2012</year>) <article-title>Host‐induced gene silencing: a tool for understanding fungal host interaction and for developing novel disease control strategies</article-title>. <source>Mol. Plant Pathol.</source>
+<volume>13</volume>, <fpage>519</fpage>–<lpage>529</lpage>.<pub-id pub-id-type="pmid">22111693</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1364-3703.2011.00766.x</pub-id><pub-id pub-id-type="pmcid">PMC6638818</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0035"><mixed-citation publication-type="journal" id="pbi13708-cit-0035">
+<string-name name-style="western">
+<surname>Qiao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lan</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Capriotti</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ah‐Fong</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sanchez</surname>, <given-names>J.N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hamby</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Heller</surname>, <given-names>J.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2021</year>) <article-title>Spray‐induced gene silencing for disease control is dependent on the efficiency of pathogen RNA uptake</article-title>. <source>Plant Biotechnol. J.</source>
+<volume>19</volume>, <fpage>1756</fpage>–<lpage>1768</lpage>.<pub-id pub-id-type="pmid">33774895</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.13589</pub-id><pub-id pub-id-type="pmcid">PMC8428832</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0036"><mixed-citation publication-type="book" id="pbi13708-cit-0036">
+<string-name name-style="western">
+<surname>Rani</surname>, <given-names>T.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Nadendla</surname>, <given-names>S.R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bardhan</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Madhuprakash</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Podile</surname>, <given-names>A.R.</given-names>
+</string-name> (<year>2020</year>) <part-title>Chitosan conjugates, microspheres, and nanoparticles with potential agrochemical activity</part-title>. In <source>Agrochemicals Detection, Treatment and Remediation</source>, pp. <fpage>437</fpage>–<lpage>464</lpage>. <publisher-loc>Oxford</publisher-loc>: <publisher-name>Butterworth‐Heinemann</publisher-name>.</mixed-citation></ref><ref id="pbi13708-bib-0037"><mixed-citation publication-type="book" id="pbi13708-cit-0037">
+<string-name name-style="western">
+<surname>Romanazzi</surname>, <given-names>G.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Feliziani</surname>, <given-names>E.</given-names>
+</string-name> (<year>2014</year>) <part-title>
+<italic toggle="yes">Botrytis cinerea</italic> (gray mold)</part-title>. In <source>Postharvest Decay</source>, pp. <fpage>131</fpage>–<lpage>146</lpage>. <publisher-loc>Cambridge, US</publisher-loc>: <publisher-name>Academic Press</publisher-name>.</mixed-citation></ref><ref id="pbi13708-bib-0038"><mixed-citation publication-type="journal" id="pbi13708-cit-0038">
+<string-name name-style="western">
+<surname>Rottem</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Yashouv</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ne'Eman</surname>, <given-names>Z.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Razin</surname>, <given-names>S.</given-names>
+</string-name> (<year>1973</year>) <article-title>Cholesterol in mycoplasma membranes. Composition, ultrastructure and biological properties of membranes from <italic toggle="yes">Mycoplasma mycoides</italic> var. capri cells adapted to grow with low cholesterol concentrations</article-title>. <source>Biochim. Biophys. Acta‐Biomembranes</source>, <volume>323</volume>, <fpage>495</fpage>–<lpage>508</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/0005-2736(73)90158-2</pub-id><pub-id pub-id-type="pmid">4357439</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0039"><mixed-citation publication-type="journal" id="pbi13708-cit-0039">
+<string-name name-style="western">
+<surname>Schumacher</surname>, <given-names>J.</given-names>
+</string-name> (<year>2012</year>) <article-title>Tools for <italic toggle="yes">Botrytis cinerea</italic>: new expression vectors make the gray mold fungus more accessible to cell biology approaches</article-title>. <source>Fungal Genet. Biol.</source>
+<volume>49</volume>, <fpage>483</fpage>–<lpage>497</lpage>.<pub-id pub-id-type="pmid">22503771</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fgb.2012.03.005</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0040"><mixed-citation publication-type="journal" id="pbi13708-cit-0040">
+<string-name name-style="western">
+<surname>Vinggaard</surname>, <given-names>A.M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Hass</surname>, <given-names>U.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Dalgaard</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Andersen</surname>, <given-names>H.R.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Bonefeld‐Jørgensen</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Christiansen</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Laier</surname>, <given-names>P.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2006</year>) <article-title>Prochloraz: an imidazole fungicide with multiple mechanisms of action</article-title>. <source>Int. J. Androl.</source>
+<volume>29</volume>, <fpage>186</fpage>–<lpage>192</lpage>.<pub-id pub-id-type="pmid">16466539</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/j.1365-2605.2005.00604.x</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0041"><mixed-citation publication-type="journal" id="pbi13708-cit-0041">
+<string-name name-style="western">
+<surname>Voinnet</surname>, <given-names>O.</given-names>
+</string-name> (<year>2008</year>) <article-title>Post‐transcriptional RNA silencing in plant–microbe interactions: a touch of robustness and versatility</article-title>. <source>Curr. Opin. Plant Biol.</source>
+<volume>11</volume>, <fpage>464</fpage>–<lpage>470</lpage>.<pub-id pub-id-type="pmid">18583181</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.pbi.2008.04.006</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0042"><mixed-citation publication-type="journal" id="pbi13708-cit-0042">
+<string-name name-style="western">
+<surname>Walker</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sood</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lenardon</surname>, <given-names>M.D.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Milne</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Olson</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Jensen</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wolf</surname>, <given-names>J.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2018</year>) <article-title>The viscoelastic properties of the fungal cell wall allow traffic of Am Bisome as intact liposome vesicles</article-title>. <source>MBio</source>, <volume>9</volume>, <fpage>e02383‐17</fpage>.<pub-id pub-id-type="pmid">29437927</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/mBio.02383-17</pub-id><pub-id pub-id-type="pmcid">PMC5801470</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0043"><mixed-citation publication-type="journal" id="pbi13708-cit-0043">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Dean</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2020a</year>) <article-title>Movement of small RNAs in and between plants and fungi</article-title>. <source>Mol. Plant Pathol.</source>
+<volume>21</volume>, <fpage>589</fpage>–<lpage>601</lpage>.<pub-id pub-id-type="pmid">32027079</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.12911</pub-id><pub-id pub-id-type="pmcid">PMC7060135</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0044"><mixed-citation publication-type="journal" id="pbi13708-cit-0044">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.Y.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Dean</surname>, <given-names>R.A.</given-names>
+</string-name> (<year>2020b</year>) <article-title>Movement of small RNAs in and between plants and fungi</article-title>. <source>Mol. Plant Pathol.</source>
+<volume>21</volume>, <fpage>589</fpage>–<lpage>601</lpage>.<pub-id pub-id-type="pmid">32027079</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.12911</pub-id><pub-id pub-id-type="pmcid">PMC7060135</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0045"><mixed-citation publication-type="journal" id="pbi13708-cit-0045">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Weiberg</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>, <given-names>F.‐M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Thomma</surname>, <given-names>B.P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>, <given-names>H.‐D.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Jin</surname>, <given-names>H.</given-names>
+</string-name> (<year>2016</year>) <article-title>Bidirectional cross‐kingdom RNAi and fungal uptake of external RNAs confer plant protection</article-title>. <source>Nat. Plants</source>, <volume>2</volume>, <fpage>1</fpage>–<lpage>10</lpage>.<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nplants.2016.151</pub-id><pub-id pub-id-type="pmcid">PMC5040644</pub-id><pub-id pub-id-type="pmid">27643635</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0046"><mixed-citation publication-type="journal" id="pbi13708-cit-0046">
+<string-name name-style="western">
+<surname>Weiberg</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Lin</surname>, <given-names>F.‐M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhao</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Kaloshian</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Huang</surname>, <given-names>H.‐D.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2013</year>) <article-title>Fungal small RNAs suppress plant immunity by hijacking host RNA interference pathways</article-title>. <source>Science</source>, <volume>342</volume>, <fpage>118</fpage>–<lpage>123</lpage>.<pub-id pub-id-type="pmid">24092744</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.1239705</pub-id><pub-id pub-id-type="pmcid">PMC4096153</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0047"><mixed-citation publication-type="journal" id="pbi13708-cit-0047">
+<string-name name-style="western">
+<surname>Wisniewski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Droby</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Norelli</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Liu</surname>, <given-names>J.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Schena</surname>, <given-names>L.</given-names>
+</string-name> (<year>2016</year>) <article-title>Alternative management technologies for postharvest disease control: the journey from simplicity to complexity</article-title>. <source>Postharvest Biol. Technol.</source>
+<volume>122</volume>, <fpage>3</fpage>–<lpage>10</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0048"><mixed-citation publication-type="journal" id="pbi13708-cit-0048">
+<string-name name-style="western">
+<surname>Wytinck</surname>, <given-names>N.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Sullivan</surname>, <given-names>D.S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Biggar</surname>, <given-names>K.T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Crisostomo</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Pelka</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Belmonte</surname>, <given-names>M.F.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Whyard</surname>, <given-names>S.</given-names>
+</string-name> (<year>2020</year>) <article-title>Clathrin mediated endocytosis is involved in the uptake of exogenous double‐stranded RNA in the white mold phytopathogen <italic toggle="yes">Sclerotinia sclerotiorum</italic>
+</article-title>. <source>Sci. Rep.</source>
+<volume>10</volume>, <fpage>1</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="pmid">32728195</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-020-69771-9</pub-id><pub-id pub-id-type="pmcid">PMC7391711</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0049"><mixed-citation publication-type="journal" id="pbi13708-cit-0049">
+<string-name name-style="western">
+<surname>Yan</surname>, <given-names>X.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>, <given-names>W.‐B.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Wang</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Que</surname>, <given-names>Y.‐W.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Ma</surname>, <given-names>Z.‐H.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Talbot</surname>, <given-names>N.J.</given-names>
+</string-name>
+<italic toggle="yes">et al</italic>. (<year>2011</year>) <article-title>A sterol 14α‐demethylase is required for conidiation, virulence and for mediating sensitivity to sterol demethylation inhibitors by the rice blast fungus <italic toggle="yes">Magnaporthe oryzae</italic>
+</article-title>. <source>Fungal Genet. Biol.</source>
+<volume>48</volume>, <fpage>144</fpage>–<lpage>153</lpage>.<pub-id pub-id-type="pmid">20887796</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.fgb.2010.09.005</pub-id></mixed-citation></ref><ref id="pbi13708-bib-0050"><mixed-citation publication-type="journal" id="pbi13708-cit-0050">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Li</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Xiao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Zhou</surname>, <given-names>S.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Liu</surname>, <given-names>X.</given-names>
+</string-name> (<year>2020</year>) <article-title>Characterization of tebuconazole resistance in <italic toggle="yes">Botrytis cinerea</italic> from tomato plants in China</article-title>. <source>Phytopathol. Res.</source>
+<volume>2</volume>, <fpage>1</fpage>–<lpage>10</lpage>.</mixed-citation></ref><ref id="pbi13708-bib-0051"><mixed-citation publication-type="journal" id="pbi13708-cit-0051">
+<string-name name-style="western">
+<surname>Zhang</surname>, <given-names>Y.‐Q.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Gamarra</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Garcia‐Effron</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Park</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<surname>Perlin</surname>, <given-names>D.S.</given-names>
+</string-name> and <string-name name-style="western">
+<surname>Rao</surname>, <given-names>R.</given-names>
+</string-name> (<year>2010</year>) <article-title>Requirement for ergosterol in V‐ATPase function underlies antifungal activity of azole drugs</article-title>. <source>PLoS Pathog.</source>
+<volume>6</volume>, <elocation-id>e1000939</elocation-id>.<pub-id pub-id-type="pmid">20532216</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1371/journal.ppat.1000939</pub-id><pub-id pub-id-type="pmcid">PMC2880581</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,617 @@
+{
+  "hitCount": 40,
+  "results": [
+    {
+      "id": "29743510",
+      "source": "MED",
+      "pmid": "29743510",
+      "pmcid": "PMC5943259",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5943259"
+        ]
+      },
+      "doi": "10.1038/s41598-018-25434-4",
+      "title": "Identification and application of exogenous dsRNA confers plant protection against Sclerotinia sclerotiorum and Botrytis cinerea.",
+      "authorString": "McLoughlin AG, Wytinck N, Walker PL, Girard IJ, Rashid KY, de Kievit T, Fernando WGD, Whyard S, Belmonte MF.",
+      "journalTitle": "Sci Rep",
+      "issue": "1",
+      "journalVolume": "8",
+      "pubYear": "2018",
+      "journalIssn": "2045-2322",
+      "pageInfo": "7320",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 160,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2018-05-09",
+      "firstIndexDate": "2018-05-10"
+    },
+    {
+      "id": "33927888",
+      "source": "MED",
+      "pmid": "33927888",
+      "pmcid": "PMC8058396",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8058396"
+        ]
+      },
+      "doi": "10.1093/ve/veab032",
+      "title": "Interannual dynamics, diversity and evolution of the virome in <i>Sclerotinia sclerotiorum</i> from a single crop field.",
+      "authorString": "Jia J, Fu Y, Jiang D, Mu F, Cheng J, Lin Y, Li B, Marzano SL, Xie J.",
+      "journalTitle": "Virus Evol",
+      "issue": "1",
+      "journalVolume": "7",
+      "pubYear": "2021",
+      "journalIssn": "2057-1577",
+      "pageInfo": "veab032",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 82,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gen",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2021-01-01",
+      "firstIndexDate": "2021-05-01"
+    },
+    {
+      "id": "35411696",
+      "source": "MED",
+      "pmid": "35411696",
+      "pmcid": "PMC9276942",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9276942"
+        ]
+      },
+      "doi": "10.1111/mpp.13221",
+      "title": "The evolutionary and molecular features of the broad-host-range plant pathogen Sclerotinia sclerotiorum.",
+      "authorString": "Derbyshire MC, Newman TE, Khentry Y, Owolabi Taiwo A.",
+      "journalTitle": "Mol Plant Pathol",
+      "issue": "8",
+      "journalVolume": "23",
+      "pubYear": "2022",
+      "journalIssn": "1364-3703; 1464-6722; ",
+      "pageInfo": "1075-1090",
+      "pubType": "research support, non-u.s. gov't; research-article; review; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 73,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2022-04-11",
+      "firstIndexDate": "2022-04-13"
+    },
+    {
+      "id": "32728195",
+      "source": "MED",
+      "pmid": "32728195",
+      "pmcid": "PMC7391711",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7391711"
+        ]
+      },
+      "doi": "10.1038/s41598-020-69771-9",
+      "title": "Clathrin mediated endocytosis is involved in the uptake of exogenous double-stranded RNA in the white mold phytopathogen Sclerotinia sclerotiorum.",
+      "authorString": "Wytinck N, Sullivan DS, Biggar KT, Crisostomo L, Pelka P, Belmonte MF, Whyard S.",
+      "journalTitle": "Sci Rep",
+      "issue": "1",
+      "journalVolume": "10",
+      "pubYear": "2020",
+      "journalIssn": "2045-2322",
+      "pageInfo": "12773",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 55,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2020-07-29",
+      "firstIndexDate": "2020-07-31"
+    },
+    {
+      "id": "25999933",
+      "source": "MED",
+      "pmid": "25999933",
+      "pmcid": "PMC4422086",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4422086"
+        ]
+      },
+      "doi": "10.3389/fmicb.2015.00406",
+      "title": "Molecular characterization of a bipartite double-stranded RNA virus and its satellite-like RNA co-infecting the phytopathogenic fungus Sclerotinia sclerotiorum.",
+      "authorString": "Liu L, Wang Q, Cheng J, Fu Y, Jiang D, Xie J.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "6",
+      "pubYear": "2015",
+      "journalIssn": "1664-302x",
+      "pageInfo": "406",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 48,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2015-05-06",
+      "firstIndexDate": "2015-05-23"
+    },
+    {
+      "id": "19583873",
+      "source": "MED",
+      "pmid": "19583873",
+      "pmcid": "PMC2714488",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC2714488"
+        ]
+      },
+      "doi": "10.1186/1743-422x-6-96",
+      "title": "A novel virus that infecting hypovirulent strain XG36-1 of plant fungal pathogen Sclerotinia sclerotiorum.",
+      "authorString": "Zhang L, Fu Y, Xie J, Jiang D, Li G, Yi X.",
+      "journalTitle": "Virol J",
+      "journalVolume": "6",
+      "pubYear": "2009",
+      "journalIssn": "1743-422x",
+      "pageInfo": "96",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 46,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2009-07-07",
+      "firstIndexDate": "2010-09-28"
+    },
+    {
+      "id": "29690568",
+      "source": "MED",
+      "pmid": "29690568",
+      "pmcid": "PMC5923508",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5923508"
+        ]
+      },
+      "doi": "10.3390/v10040214",
+      "title": "Mycoviruses as Triggers and Targets of RNA Silencing in White Mold Fungus <i>Sclerotinia sclerotiorum</i>.",
+      "authorString": "Mochama P, Jadhav P, Neupane A, Lee Marzano SY.",
+      "journalTitle": "Viruses",
+      "issue": "4",
+      "journalVolume": "10",
+      "pubYear": "2018",
+      "journalIssn": "1999-4915",
+      "pageInfo": "E214",
+      "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 39,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2018-04-22",
+      "firstIndexDate": "2018-04-26"
+    },
+    {
+      "id": "27833632",
+      "source": "MED",
+      "pmid": "27833632",
+      "pmcid": "PMC5081487",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5081487"
+        ]
+      },
+      "doi": "10.3389/fpls.2016.01614",
+      "title": "Genome-Wide Identification of Dicer-Like, Argonaute, and RNA-Dependent RNA Polymerase Gene Families in <i>Brassica</i> Species and Functional Analyses of Their Arabidopsis Homologs in Resistance to <i>Sclerotinia sclerotiorum</i>.",
+      "authorString": "Cao JY, Xu YP, Li W, Li SS, Rahman H, Cai XZ.",
+      "journalTitle": "Front Plant Sci",
+      "journalVolume": "7",
+      "pubYear": "2016",
+      "journalIssn": "1664-462x",
+      "pageInfo": "1614",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 37,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "refseq"
+        ]
+      },
+      "firstPublicationDate": "2016-10-27",
+      "firstIndexDate": "2016-11-12"
+    },
+    {
+      "id": "29857477",
+      "source": "MED",
+      "pmid": "29857477",
+      "pmcid": "PMC6024712",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6024712"
+        ]
+      },
+      "doi": "10.3390/v10060295",
+      "title": "A Novel Deltaflexivirus that Infects the Plant Fungal Pathogen, <i>Sclerotinia sclerotiorum</i>, Can Be Transmitted Among Host Vegetative Incompatible Strains.",
+      "authorString": "Hamid MR, Xie J, Wu S, Maria SK, Zheng D, Assane Hamidou A, Wang Q, Cheng J, Fu Y, Jiang D.",
+      "journalTitle": "Viruses",
+      "issue": "6",
+      "journalVolume": "10",
+      "pubYear": "2018",
+      "journalIssn": "1999-4915",
+      "pageInfo": "E295",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 36,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refseq"
+        ]
+      },
+      "firstPublicationDate": "2018-05-31",
+      "firstIndexDate": "2018-06-02"
+    },
+    {
+      "id": "27267756",
+      "source": "MED",
+      "pmid": "27267756",
+      "pmcid": "PMC4895950",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4895950"
+        ]
+      },
+      "doi": "10.1186/s12985-016-0550-2",
+      "title": "Co-infection of a hypovirulent isolate of Sclerotinia sclerotiorum with a new botybirnavirus and a strain of a mitovirus.",
+      "authorString": "Ran H, Liu L, Li B, Cheng J, Fu Y, Jiang D, Xie J.",
+      "journalTitle": "Virol J",
+      "journalVolume": "13",
+      "pubYear": "2016",
+      "journalIssn": "1743-422x",
+      "pageInfo": "92",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 35,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2016-06-06",
+      "firstIndexDate": "2016-06-09"
+    },
+    {
+      "id": "26008696",
+      "source": "MED",
+      "pmid": "26008696",
+      "pmcid": "PMC4452915",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4452915"
+        ]
+      },
+      "doi": "10.3390/v7052470",
+      "title": "Molecular Characterization of a Novel Positive-Sense, Single-Stranded RNA Mycovirus Infecting the Plant Pathogenic Fungus Sclerotinia sclerotiorum.",
+      "authorString": "Liu R, Cheng J, Fu Y, Jiang D, Xie J.",
+      "journalTitle": "Viruses",
+      "issue": "5",
+      "journalVolume": "7",
+      "pubYear": "2015",
+      "journalIssn": "1999-4915",
+      "pageInfo": "2470-2484",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 33,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2015-05-21",
+      "firstIndexDate": "2015-05-27"
+    },
+    {
+      "id": "31338072",
+      "source": "MED",
+      "pmid": "31338072",
+      "pmcid": "PMC6626909",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6626909"
+        ]
+      },
+      "doi": "10.3389/fmicb.2019.01415",
+      "title": "Discovery of Two Mycoviruses by High-Throughput Sequencing and Assembly of Mycovirus-Derived Small Silencing RNAs From a Hypovirulent Strain of <i>Sclerotinia sclerotiorum</i>.",
+      "authorString": "Wang Q, Cheng S, Xiao X, Cheng J, Fu Y, Chen T, Jiang D, Xie J.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "10",
+      "pubYear": "2019",
+      "journalIssn": "1664-302x",
+      "pageInfo": "1415",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 32,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2019-07-02",
+      "firstIndexDate": "2019-07-28"
+    },
+    {
+      "id": "30558121",
+      "source": "MED",
+      "pmid": "30558121",
+      "pmcid": "PMC6315951",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6315951"
+        ]
+      },
+      "doi": "10.3390/v10120713",
+      "title": "Transcriptional and Small RNA Responses of the White Mold Fungus <i>Sclerotinia sclerotiorum</i> to Infection by a Virulence-Attenuating Hypovirus.",
+      "authorString": "Lee Marzano SY, Neupane A, Domier L.",
+      "journalTitle": "Viruses",
+      "issue": "12",
+      "journalVolume": "10",
+      "pubYear": "2018",
+      "journalIssn": "1999-4915",
+      "pageInfo": "E713",
+      "pubType": "research support, non-u.s. gov't; research-article; research support, u.s. gov't, non-p.h.s.; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 32,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2018-12-14",
+      "firstIndexDate": "2018-12-31"
+    },
+    {
+      "id": "31440265",
+      "source": "MED",
+      "pmid": "31440265",
+      "pmcid": "PMC6694225",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6694225"
+        ]
+      },
+      "doi": "10.3389/fpls.2019.00976",
+      "title": "Roles of Argonautes and Dicers on <i>Sclerotinia sclerotiorum</i> Antiviral RNA Silencing.",
+      "authorString": "Neupane A, Feng C, Mochama PK, Saleem H, Lee Marzano SY.",
+      "journalTitle": "Front Plant Sci",
+      "journalVolume": "10",
+      "pubYear": "2019",
+      "journalIssn": "1664-462x",
+      "pageInfo": "976",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 29,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "biosample"
+        ]
+      },
+      "firstPublicationDate": "2019-07-30",
+      "firstIndexDate": "2019-08-24"
+    },
+    {
+      "id": "34206246",
+      "source": "MED",
+      "pmid": "34206246",
+      "pmcid": "PMC8303302",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8303302"
+        ]
+      },
+      "doi": "10.3390/jof7070493",
+      "title": "Transcriptional Responses of <i>Sclerotinia sclerotiorum</i> to the Infection by SsHADV-1.",
+      "authorString": "Qu Z, Fu Y, Lin Y, Zhao Z, Zhang X, Cheng J, Xie J, Chen T, Li B, Jiang D.",
+      "journalTitle": "J Fungi (Basel)",
+      "issue": "7",
+      "journalVolume": "7",
+      "pubYear": "2021",
+      "journalIssn": "2309-608x",
+      "pageInfo": "493",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 25,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "interpro",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2021-06-22",
+      "firstIndexDate": "2021-07-03"
+    }
+  ]
+}

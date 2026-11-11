@@ -1,0 +1,598 @@
+{
+  "hitCount": 33,
+  "results": [
+    {
+      "id": "21635781",
+      "source": "MED",
+      "pmid": "21635781",
+      "pmcid": "PMC3132168",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3132168"
+        ]
+      },
+      "doi": "10.1186/1471-2164-12-288",
+      "title": "Diverse and tissue-enriched small RNAs in the plant pathogenic fungus, Magnaporthe oryzae.",
+      "authorString": "Nunes CC, Gowda M, Sailsbery J, Xue M, Chen F, Brown DE, Oh Y, Mitchell TK, Dean RA.",
+      "journalTitle": "BMC Genomics",
+      "journalVolume": "12",
+      "pubYear": "2011",
+      "journalIssn": "1471-2164",
+      "pageInfo": "288",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 88,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo"
+        ]
+      },
+      "firstPublicationDate": "2011-06-02",
+      "firstIndexDate": "2011-06-06"
+    },
+    {
+      "id": "31024598",
+      "source": "MED",
+      "pmid": "31024598",
+      "pmcid": "PMC6465682",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6465682"
+        ]
+      },
+      "doi": "10.3389/fpls.2019.00433",
+      "title": "Host-Induced Gene Silencing of <i>MoAP1</i> Confers Broad-Spectrum Resistance to <i>Magnaporthe oryzae</i>.",
+      "authorString": "Guo XY, Li Y, Fan J, Xiong H, Xu FX, Shi J, Shi Y, Zhao JQ, Wang YF, Cao XL, Wang WM.",
+      "journalTitle": "Front Plant Sci",
+      "journalVolume": "10",
+      "pubYear": "2019",
+      "journalIssn": "1664-462x",
+      "pageInfo": "433",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 43,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2019-04-09",
+      "firstIndexDate": "2019-04-27"
+    },
+    {
+      "id": "23663523",
+      "source": "MED",
+      "pmid": "23663523",
+      "pmcid": "PMC3658920",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3658920"
+        ]
+      },
+      "doi": "10.1186/1471-2164-14-326",
+      "title": "Physiological stressors and invasive plant infections alter the small RNA transcriptome of the rice blast fungus, Magnaporthe oryzae.",
+      "authorString": "Raman V, Simon SA, Romag A, Demirci F, Mathioni SM, Zhai J, Meyers BC, Donofrio NM.",
+      "journalTitle": "BMC Genomics",
+      "journalVolume": "14",
+      "pubYear": "2013",
+      "journalIssn": "1471-2164",
+      "pageInfo": "326",
+      "pubType": "research-article; research support, u.s. gov't, non-p.h.s.; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 43,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo"
+        ]
+      },
+      "firstPublicationDate": "2013-05-12",
+      "firstIndexDate": "2013-05-14"
+    },
+    {
+      "id": "24015279",
+      "source": "MED",
+      "pmid": "24015279",
+      "pmcid": "PMC3754920",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3754920"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0072840",
+      "title": "Identification of MiRNA from eggplant (Solanum melongena L.) by small RNA deep sequencing and their response to Verticillium dahliae infection.",
+      "authorString": "Yang L, Jue D, Li W, Zhang R, Chen M, Yang Q.",
+      "journalTitle": "PLoS One",
+      "issue": "8",
+      "journalVolume": "8",
+      "pubYear": "2013",
+      "journalIssn": "1932-6203",
+      "pageInfo": "e72840",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 41,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo",
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2013-08-27",
+      "firstIndexDate": "2013-09-10"
+    },
+    {
+      "id": "27455996",
+      "source": "MED",
+      "pmid": "27455996",
+      "pmcid": "PMC4960691",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4960691"
+        ]
+      },
+      "doi": "10.1186/s12896-016-0287-4",
+      "title": "Protoplast transformation as a potential platform for exploring gene function in Verticillium dahliae.",
+      "authorString": "Rehman L, Su X, Guo H, Qi X, Cheng H.",
+      "journalTitle": "BMC Biotechnol",
+      "issue": "1",
+      "journalVolume": "16",
+      "pubYear": "2016",
+      "journalIssn": "1472-6750",
+      "pageInfo": "57",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 39,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2016-07-26",
+      "firstIndexDate": "2016-07-27"
+    },
+    {
+      "id": "26192090",
+      "source": "MED",
+      "pmid": "26192090",
+      "pmcid": "PMC4791171",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4791171"
+        ]
+      },
+      "doi": "10.1111/mmi.13132",
+      "title": "Protein kinase C is essential for viability of the rice blast fungus Magnaporthe oryzae.",
+      "authorString": "Penn TJ, Wood ME, Soanes DM, Csukai M, Corran AJ, Talbot NJ.",
+      "journalTitle": "Mol Microbiol",
+      "issue": "3",
+      "journalVolume": "98",
+      "pubYear": "2015",
+      "journalIssn": "0950-382x; 1365-2958; ",
+      "pageInfo": "403-419",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 34,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "geo"
+        ]
+      },
+      "firstPublicationDate": "2015-08-18",
+      "firstIndexDate": "2015-07-21"
+    },
+    {
+      "id": "33677712",
+      "source": "MED",
+      "pmid": "33677712",
+      "pmcid": "PMC7937009",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7937009"
+        ]
+      },
+      "doi": "10.1186/s12284-021-00469-w",
+      "title": "Fine-Tuning Roles of Osa-miR159a in Rice Immunity Against Magnaporthe oryzae and Development.",
+      "authorString": "Chen JF, Zhao ZX, Li Y, Li TT, Zhu Y, Yang XM, Zhou SX, Wang H, Zhao JQ, Pu M, Feng H, Fan J, Zhang JW, Huang YY, Wang WM.",
+      "journalTitle": "Rice (N Y)",
+      "issue": "1",
+      "journalVolume": "14",
+      "pubYear": "2021",
+      "journalIssn": "1939-8425; 1939-8433; ",
+      "pageInfo": "26",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 33,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2021-03-06",
+      "firstIndexDate": "2021-03-09"
+    },
+    {
+      "id": "17726046",
+      "source": "MED",
+      "pmid": "17726046",
+      "pmcid": "PMC2094067",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC2094067"
+        ]
+      },
+      "doi": "10.1093/nar/gkm646",
+      "title": "siRNA-dependent and -independent post-transcriptional cosuppression of the LTR-retrotransposon MAGGY in the phytopathogenic fungus Magnaporthe oryzae.",
+      "authorString": "Murata T, Kadotani N, Yamaguchi M, Tosa Y, Mayama S, Nakayashiki H.",
+      "journalTitle": "Nucleic Acids Res",
+      "issue": "18",
+      "journalVolume": "35",
+      "pubYear": "2007",
+      "journalIssn": "0305-1048; 1362-4962; ",
+      "pageInfo": "5987-5994",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 32,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2007-08-28",
+      "firstIndexDate": "2009-12-24"
+    },
+    {
+      "id": "28954400",
+      "source": "MED",
+      "pmid": "28954400",
+      "pmcid": "PMC5664091",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5664091"
+        ]
+      },
+      "doi": "10.3390/genes8100241",
+      "title": "Host-Induced Gene Silencing of Rice Blast Fungus Magnaporthe oryzae Pathogenicity Genes Mediated by the Brome Mosaic Virus.",
+      "authorString": "Zhu L, Zhu J, Liu Z, Wang Z, Zhou C, Wang H.",
+      "journalTitle": "Genes (Basel)",
+      "issue": "10",
+      "journalVolume": "8",
+      "pubYear": "2017",
+      "journalIssn": "2073-4425",
+      "pageInfo": "E241",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 29,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2017-09-26",
+      "firstIndexDate": "2017-09-29"
+    },
+    {
+      "id": "25685259",
+      "source": "MED",
+      "pmid": "25685259",
+      "pmcid": "PMC4322347",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4322347"
+        ]
+      },
+      "doi": "10.1186/1944-3277-10-10",
+      "title": "Complete genome sequence of Pseudomonas fluorescens strain PICF7, an indigenous root endophyte from olive (Olea europaea L.) and effective biocontrol agent against Verticillium dahliae.",
+      "authorString": "Mart\u00ednez-Garc\u00eda PM, Ruano-Rosa D, Schilir\u00f2 E, Prieto P, Ramos C, Rodr\u00edguez-Palenzuela P, Mercado-Blanco J.",
+      "journalTitle": "Stand Genomic Sci",
+      "journalVolume": "10",
+      "pubYear": "2015",
+      "journalIssn": "1944-3277",
+      "pageInfo": "10",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 28,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2015-02-06",
+      "firstIndexDate": "2015-02-17"
+    },
+    {
+      "id": "32765467",
+      "source": "MED",
+      "pmid": "32765467",
+      "pmcid": "PMC7379127",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7379127"
+        ]
+      },
+      "doi": "10.3389/fmicb.2020.01641",
+      "title": "Mycovirus-Induced Tenuazonic Acid Production in a Rice Blast Fungus <i>Magnaporthe oryzae</i>.",
+      "authorString": "Ninomiya A, Urayama SI, Suo R, Itoi S, Fuji SI, Moriyama H, Hagiwara D.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "11",
+      "pubYear": "2020",
+      "journalIssn": "1664-302x",
+      "pageInfo": "1641",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 26,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gca"
+        ]
+      },
+      "firstPublicationDate": "2020-07-17",
+      "firstIndexDate": "2020-08-09"
+    },
+    {
+      "id": "30841545",
+      "source": "MED",
+      "pmid": "30841545",
+      "pmcid": "PMC6465991",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6465991"
+        ]
+      },
+      "doi": "10.3390/v11030223",
+      "title": "Characterization of a Novel Ourmia-Like Mycovirus Infecting &lt;i&gt;Magnaporthe oryzae&lt;/i&gt; and Implications for Viral Diversity and Evolution.",
+      "authorString": "Li CX, Zhu JZ, Gao BD, Zhu HJ, Zhou Q, Zhong J.",
+      "journalTitle": "Viruses",
+      "issue": "3",
+      "journalVolume": "11",
+      "pubYear": "2019",
+      "journalIssn": "1999-4915",
+      "pageInfo": "E223",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 22,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2019-03-05",
+      "firstIndexDate": "2019-03-07"
+    },
+    {
+      "id": "32238572",
+      "source": "MED",
+      "pmid": "32238572",
+      "pmcid": "PMC7113587",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7113587"
+        ]
+      },
+      "doi": "10.1128/msphere.00936-19",
+      "title": "<i>MoLAEA</i> Regulates Secondary Metabolism in Magnaporthe oryzae.",
+      "authorString": "Saha P, Ghosh S, Roy-Barman S.",
+      "journalTitle": "mSphere",
+      "issue": "2",
+      "journalVolume": "5",
+      "pubYear": "2020",
+      "journalIssn": "2379-5042",
+      "pageInfo": "e00936-19",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 21,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2020-04-01",
+      "firstIndexDate": "2020-04-03"
+    },
+    {
+      "id": "36035704",
+      "source": "MED",
+      "pmid": "36035704",
+      "pmcid": "PMC9403838",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9403838"
+        ]
+      },
+      "doi": "10.3389/fpls.2022.959641",
+      "title": "Host induced gene silencing of <i>Magnaporthe oryzae</i> by targeting pathogenicity and development genes to control rice blast disease.",
+      "authorString": "Wang M, Dean RA.",
+      "journalTitle": "Front Plant Sci",
+      "journalVolume": "13",
+      "pubYear": "2022",
+      "journalIssn": "1664-462x",
+      "pageInfo": "959641",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 20,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2022-08-11",
+      "firstIndexDate": "2022-08-30"
+    },
+    {
+      "id": "33440747",
+      "source": "MED",
+      "pmid": "33440747",
+      "pmcid": "PMC7826919",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC7826919"
+        ]
+      },
+      "doi": "10.3390/ijms22020650",
+      "title": "Comparative Analysis of Transcriptome and sRNAs Expression Patterns in the <i>Brachypodium distachyon</i>- <i>Magnaporthe oryzae</i> Pathosystems.",
+      "authorString": "Zanini S, \u0160e\u010di\u0107 E, Busche T, Galli M, Zheng Y, Kalinowski J, Kogel KH.",
+      "journalTitle": "Int J Mol Sci",
+      "issue": "2",
+      "journalVolume": "22",
+      "pubYear": "2021",
+      "journalIssn": "1422-0067",
+      "pageInfo": "E650",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 18,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "go",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2021-01-11",
+      "firstIndexDate": "2021-01-16"
+    }
+  ]
+}

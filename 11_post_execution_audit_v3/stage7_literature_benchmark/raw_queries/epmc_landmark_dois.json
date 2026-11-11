@@ -1,0 +1,1926 @@
+{
+  "hitCount": 5,
+  "nextCursorMark": "",
+  "results": [
+    {
+      "id": "34741560",
+      "source": "MED",
+      "pmid": "34741560",
+      "pmcid": "PMC8743017",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8743017"
+        ]
+      },
+      "doi": "10.1111/mpp.13155",
+      "title": "A novel effector, CsSp1, from Bipolaris sorokiniana, is essential for colonization in wheat and is also involved in triggering host immunity.",
+      "authorString": "Zhang W, Li H, Wang L, Xie S, Zhang Y, Kang R, Zhang M, Zhang P, Li Y, Hu Y, Wang M, Chen L, Yuan H, Ding S, Li H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Zhang W",
+            "lastName": "Zhang",
+            "firstName": "Wanying",
+            "initials": "W",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li H",
+            "lastName": "Li",
+            "firstName": "Haiyang",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang L",
+            "lastName": "Wang",
+            "firstName": "Limin",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Xie S",
+            "lastName": "Xie",
+            "firstName": "Shunpei",
+            "initials": "S",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang Y",
+            "lastName": "Zhang",
+            "firstName": "Yuan",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kang R",
+            "lastName": "Kang",
+            "firstName": "Ruijiao",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Landscape Architecture and Food Engineering, Xuchang Vocational Technical College, Xuchang, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang M",
+            "lastName": "Zhang",
+            "firstName": "Mengjuan",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhang P",
+            "lastName": "Zhang",
+            "firstName": "Panpan",
+            "initials": "P",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Agriculture and Rural Affairs Bureau, Xuchang, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li Y",
+            "lastName": "Li",
+            "firstName": "Yonghui",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hu Y",
+            "lastName": "Hu",
+            "firstName": "Yanfeng",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Wang M",
+            "lastName": "Wang",
+            "firstName": "Min",
+            "initials": "M",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Chen L",
+            "lastName": "Chen",
+            "firstName": "Linlin",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Yuan H",
+            "lastName": "Yuan",
+            "firstName": "Hongxia",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ding S",
+            "lastName": "Ding",
+            "firstName": "Shengli",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-4657-1506"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Li H",
+            "lastName": "Li",
+            "firstName": "Honglian",
+            "initials": "H",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2894-0120"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-4657-1506"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data",
+          "related_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "2",
+        "volume": "23",
+        "journalIssueId": 3291616,
+        "dateOfPublication": "2022 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2022,
+        "journal": {
+          "medlineAbbreviation": "Mol Plant Pathol",
+          "title": "Molecular plant pathology",
+          "essn": "1364-3703",
+          "issn": "1364-3703",
+          "nlmid": "100954969",
+          "isoabbreviation": "Mol Plant Pathol"
+        },
+        "printPublicationDate": "2022-02-01"
+      },
+      "pubYear": "2022",
+      "pageInfo": "218-236",
+      "abstractText": "The hemibiotrophic pathogen Bipolaris sorokiniana causes root rot, leaf blotching, and black embryos in wheat and barley worldwide, resulting in significant yield and quality reductions. However, the mechanism underlying the host-pathogen interactions between B.\u00a0sorokiniana and wheat or barley remains unknown. The B.\u00a0sorokiniana genome encodes a large number of uncharacterized putative effector proteins. In this study, we identified a putative secreted protein, CsSp1, with a classic N-terminal signal peptide, that is induced during early infection. A split-marker approach was used to knock out CsSP1 in the Lankao 9-3 strain. Compared with the wild type, the deletion mutant \u2206Cssp1 displayed less radial growth on potato dextrose agar plates and produced fewer spores, and complementary transformation completely restored the phenotype of the deletion mutant to that of the wild type. The pathogenicity of the deletion mutant in wheat was attenuated even though appressoria still penetrated the host. Additionally, the infectious hyphae in the deletion mutant became swollen and exhibited reduced growth in plant cells. The signal peptide of CsSp1 was functionally verified through a yeast YTK12 secretion system. Transient expression of CsSp1 in Nicotiana benthamiana inhibited lesion formation caused by Phytophthora capsici. Moreover, CsSp1 localized in the nucleus and cytoplasm of plant cells. In B.\u00a0sorokiniana-infected wheat leaves, the salicylic acid-regulated genes TaPAL, TaPR1, and TaPR2 were down-regulated in the \u2206Cssp1 strain compared with the wild-type strain under the same conditions. Therefore, CsSp1 is a virulence effector and is involved in triggering host immunity.",
+      "affiliation": "Department of Plant Pathology, College of Plant Protection, Henan Agricultural University/Collaborative Innovation Center of Henan Grain Crops/National Key Laboratory of Wheat and Maize Crop Science, Zhengzhou, China.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Natural Science Foundation of China",
+            "grantId": "U1704119",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Ascomycota"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Triticum"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Bipolaris"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Salicylic acid",
+          "Elicitor",
+          "Effector",
+          "Plant Immunity",
+          "Bipolaris Sorokiniana",
+          "Wheat Root Rot",
+          "Cssp1"
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/mpp.13155"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/mpp.13155"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8743017"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8743017?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 15,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2022-02-02",
+      "dateOfCreation": "2021-11-06",
+      "dateOfRevision": "2022-02-02",
+      "electronicPublicationDate": "2021-11-06",
+      "firstPublicationDate": "2021-11-06",
+      "firstIndexDate": "2021-11-26",
+      "fullTextReceivedDate": "2025-02-05",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "33774895",
+      "source": "MED",
+      "pmid": "33774895",
+      "pmcid": "PMC8428832",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8428832"
+        ]
+      },
+      "doi": "10.1111/pbi.13589",
+      "title": "Spray-induced gene silencing for disease control is dependent on the efficiency of pathogen RNA uptake.",
+      "authorString": "Qiao L, Lan C, Capriotti L, Ah-Fong A, Nino Sanchez J, Hamby R, Heller J, Zhao H, Glass NL, Judelson HS, Mezzetti B, Niu D, Jin H.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Qiao L",
+            "lastName": "Qiao",
+            "firstName": "Lulu",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+                },
+                {
+                  "affiliation": "Key Laboratory of Integrated Management of Crop Diseases and Pests (Ministry of Education), Nanjing, China."
+                },
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Lan C",
+            "lastName": "Lan",
+            "firstName": "Chi",
+            "initials": "C",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+                },
+                {
+                  "affiliation": "Key Laboratory of Integrated Management of Crop Diseases and Pests (Ministry of Education), Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Capriotti L",
+            "lastName": "Capriotti",
+            "firstName": "Luca",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-2149-6565"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                },
+                {
+                  "affiliation": "Department of Agricultural, Food and Environmental Sciences, Marche Polytechnic University, Ancona, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Ah-Fong A",
+            "lastName": "Ah-Fong",
+            "firstName": "Audrey",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Nino Sanchez J",
+            "lastName": "Nino Sanchez",
+            "firstName": "Jonatan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-0356-9871"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Hamby R",
+            "lastName": "Hamby",
+            "firstName": "Rachael",
+            "initials": "R",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Heller J",
+            "lastName": "Heller",
+            "firstName": "Jens",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, University of California, Berkeley, CA, USA."
+                },
+                {
+                  "affiliation": "Environmental Genomics and Systems Biology Division, The Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhao H",
+            "lastName": "Zhao",
+            "firstName": "Hongwei",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-9107-765X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+                },
+                {
+                  "affiliation": "Key Laboratory of Integrated Management of Crop Diseases and Pests (Ministry of Education), Nanjing, China."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Glass NL",
+            "lastName": "Glass",
+            "firstName": "N Louise",
+            "initials": "NL",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant and Microbial Biology, University of California, Berkeley, CA, USA."
+                },
+                {
+                  "affiliation": "Environmental Genomics and Systems Biology Division, The Lawrence Berkeley National Laboratory, Berkeley, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Judelson HS",
+            "lastName": "Judelson",
+            "firstName": "Howard S",
+            "initials": "HS",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mezzetti B",
+            "lastName": "Mezzetti",
+            "firstName": "Bruno",
+            "initials": "B",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                },
+                {
+                  "affiliation": "Department of Agricultural, Food and Environmental Sciences, Marche Polytechnic University, Ancona, Italy."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Niu D",
+            "lastName": "Niu",
+            "firstName": "Dongdong",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9926-0923"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "College of Plant Protection, Nanjing Agricultural University, Nanjing, China."
+                },
+                {
+                  "affiliation": "Key Laboratory of Integrated Management of Crop Diseases and Pests (Ministry of Education), Nanjing, China."
+                },
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jin H",
+            "lastName": "Jin",
+            "firstName": "Hailing",
+            "initials": "H",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-5778-5193"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Microbiology & Plant Pathology, Center for Plant Cell Biology, Institute for Integrative Genome Biology, University of California, Riverside, CA, USA."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-5778-5193"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0001-9107-765X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-0356-9871"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-2149-6565"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9926-0923"
+          },
+          {
+            "type": "ORCID",
+            "value": "0009-0000-2308-8111"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "9",
+        "volume": "19",
+        "journalIssueId": 3232961,
+        "dateOfPublication": "2021 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2021,
+        "journal": {
+          "medlineAbbreviation": "Plant Biotechnol J",
+          "title": "Plant biotechnology journal",
+          "essn": "1467-7652",
+          "issn": "1467-7644",
+          "nlmid": "101201889",
+          "isoabbreviation": "Plant Biotechnol J"
+        },
+        "printPublicationDate": "2021-09-01"
+      },
+      "pubYear": "2021",
+      "pageInfo": "1756-1768",
+      "abstractText": "Recent discoveries show that fungi can take up environmental RNA, which can then silence fungal genes through environmental RNA interference. This discovery prompted the development of Spray-Induced Gene Silencing (SIGS) for plant disease management. In this study, we aimed to determine the efficacy of SIGS across a variety of eukaryotic microbes. We first examined the efficiency of RNA uptake in multiple pathogenic and non-pathogenic fungi, and an oomycete pathogen. We observed efficient double-stranded RNA (dsRNA) uptake in the fungal plant pathogens Botrytis cinerea, Sclerotinia sclerotiorum, Rhizoctonia solani, Aspergillus niger and Verticillium dahliae, but no uptake in Colletotrichum gloeosporioides, and weak uptake in a beneficial fungus, Trichoderma virens. For the oomycete plant pathogen, Phytophthora infestans, RNA uptake was limited and varied across different cell types and developmental stages. Topical application of dsRNA targeting virulence-related genes in pathogens with high RNA uptake efficiency significantly inhibited plant disease symptoms, whereas the application of dsRNA in pathogens with low RNA uptake efficiency did not suppress infection. Our results have revealed that dsRNA uptake efficiencies vary across eukaryotic microbe species and cell types. The success of SIGS for plant disease management can largely be determined by the pathogen's RNA uptake efficiency.",
+      "affiliation": "College of Plant Protection, Nanjing Agricultural University, Nanjing, China.",
+      "publicationStatus": "ppublish",
+      "language": "eng",
+      "pubModel": "Print-Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Research Support, U.S. Gov't, Non-P.H.S.",
+          "Journal Article",
+          "Research Support, N.I.H., Extramural"
+        ]
+      },
+      "grantsList": {
+        "grant": [
+          {
+            "agency": "National Science Foundation",
+            "grantId": "IOS\u20102017314",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIGMS NIH HHS",
+            "acronym": "GM",
+            "grantId": "R35 GM136379",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Science Foundation",
+            "grantId": "IOS\u20101557812",
+            "orderIn": 0
+          },
+          {
+            "agency": "National Science Foundation",
+            "grantId": "DBI\u20101922642",
+            "orderIn": 0
+          },
+          {
+            "agency": "NIGMS NIH HHS",
+            "acronym": "GM",
+            "grantId": "R01 GM093008",
+            "orderIn": 0
+          }
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ascomycota"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Botrytis"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Colletotrichum"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Rhizoctonia"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Verticillium"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "RNA, Double-Stranded",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Gene Silencing"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA Interference"
+          }
+        ]
+      },
+      "keywordList": {
+        "keyword": [
+          "Uptake efficiency",
+          "Small RNA",
+          "RNA interference",
+          "Double-stranded RNA",
+          "Spray-induced Gene Silencing"
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "RNA, Double-Stranded",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1111/pbi.13589"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8428832"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC8428832?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "PPR",
+            "id": "PPR277611",
+            "type": "Preprint in",
+            "note": "CrossRef Pre-print loader",
+            "orderIn": 10002
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 217,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "Y",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "Y",
+      "manuscriptId": "NIHMS1726102",
+      "hasTMAccessionNumbers": "N",
+      "dateOfCompletion": "2021-10-20",
+      "dateOfCreation": "2021-03-28",
+      "dateOfRevision": "2026-09-04",
+      "electronicPublicationDate": "2021-05-04",
+      "firstPublicationDate": "2021-05-04",
+      "firstIndexDate": "2021-03-30",
+      "fullTextReceivedDate": "2025-02-04",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "29867184",
+      "source": "MED",
+      "pmid": "29867184",
+      "pmcid": "PMC5986854",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5986854"
+        ]
+      },
+      "doi": "10.1038/s41598-018-26991-4",
+      "title": "Quantile regression analysis of modifiable and non-modifiable drivers' of blood pressure among urban and rural women in Ghana.",
+      "authorString": "Amugsi DA, Dimbuene ZT, Asiki G, Kyobutungi C.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Amugsi DA",
+            "lastName": "Amugsi",
+            "firstName": "Dickson A",
+            "initials": "DA",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5261-8481"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "African Population and Health Research Center (APHRC), Nairobi, Kenya. damugsi2002@yahoo.com."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Dimbuene ZT",
+            "lastName": "Dimbuene",
+            "firstName": "Zacharie T",
+            "initials": "ZT",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Population Sciences and Development, University of Kinshasa, Kinshasa, Democratic Republic of the Congo."
+                },
+                {
+                  "affiliation": "Statistics Canada, Social Analysis and Modeling Division, Ottawa, K1A 0T6, Canada."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Asiki G",
+            "lastName": "Asiki",
+            "firstName": "Gershim",
+            "initials": "G",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9966-1153"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "African Population and Health Research Center (APHRC), Nairobi, Kenya."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kyobutungi C",
+            "lastName": "Kyobutungi",
+            "firstName": "Catherine",
+            "initials": "C",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-5344-5631"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "African Population and Health Research Center (APHRC), Nairobi, Kenya."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5261-8481"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-5344-5631"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9966-1153"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "plain_english",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "1",
+        "volume": "8",
+        "journalIssueId": 2690600,
+        "dateOfPublication": "2018 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "Sci Rep",
+          "title": "Scientific reports",
+          "essn": "2045-2322",
+          "issn": "2045-2322",
+          "nlmid": "101563288",
+          "isoabbreviation": "Sci Rep"
+        },
+        "printPublicationDate": "2018-06-01"
+      },
+      "pubYear": "2018",
+      "pageInfo": "8515",
+      "abstractText": "High blood pressure is an increasingly problematic public health concern in many developing countries due to the associated cardiovascular and renal complications. This study set out to investigate the drivers of blood pressure among urban and rural women using the 2014 Ghana Demographic and Health Survey data. Diastolic blood pressure (DBP) and systolic blood pressure (SBP) were the outcomes of interest. Our findings showed that body mass index (BMI) had a significant positive effect on DBP and SBP in both urban and rural settings, with the largest effect occurring among women in the 75<sup>th</sup> quantile. Arm circumference also had a positive effect on DBP and SBP across all quantiles in both settings. Age had an increasing positive effect along the entire conditional DBP and SBP distribution in both settings. Women who were pregnant had lower DBP and SBP relative to those who were not pregnant in both settings. These results highlight the important drivers of DBP and SBP, and the differential effects of these drivers on blood pressure (BP) among women in urban and rural settings. To increase their effectiveness, interventions to address high BP should take into account these differential effects.",
+      "affiliation": "African Population and Health Research Center (APHRC), Nairobi, Kenya. damugsi2002@yahoo.com.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic",
+      "pubTypeList": {
+        "pubType": [
+          "Clinical Trial",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Humans"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Body Mass Index"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pregnancy"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Blood Pressure"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adolescent"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Adult"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Middle Aged"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Rural Population"
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Urban Population"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Ghana"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Female"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1038/s41598-018-26991-4"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5986854"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5986854?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 5,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "dateOfCompletion": "2019-10-11",
+      "dateOfCreation": "2018-06-06",
+      "dateOfRevision": "2019-10-11",
+      "electronicPublicationDate": "2018-06-04",
+      "firstPublicationDate": "2018-06-04",
+      "firstIndexDate": "2018-06-06",
+      "fullTextReceivedDate": "2025-02-03",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "27737019",
+      "source": "MED",
+      "pmid": "27737019",
+      "pmcid": "PMC5063301",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5063301"
+        ]
+      },
+      "doi": "10.1371/journal.ppat.1005901",
+      "title": "An RNAi-Based Control of Fusarium graminearum Infections Through Spraying of Long dsRNAs Involves a Plant Passage and Is Controlled by the Fungal Silencing Machinery.",
+      "authorString": "Koch A, Biedenkopf D, Furch A, Weber L, Rossbach O, Abdellatef E, Linicus L, Johannsmeier J, Jelonek L, Goesmann A, Cardoza V, McMillan J, Mentzel T, Kogel KH.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Koch A",
+            "lastName": "Koch",
+            "firstName": "Aline",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Phytopathology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Biedenkopf D",
+            "lastName": "Biedenkopf",
+            "firstName": "Dagmar",
+            "initials": "D",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0001-7976-9389"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Phytopathology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Furch A",
+            "lastName": "Furch",
+            "firstName": "Alexandra",
+            "initials": "A",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of General Botany and Plant Physiology, Friedrich-Schiller-University, Jena, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Weber L",
+            "lastName": "Weber",
+            "firstName": "Lennart",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Microbiology and Molecular Biology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Rossbach O",
+            "lastName": "Rossbach",
+            "firstName": "Oliver",
+            "initials": "O",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1172-0359"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute of Biochemistry, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Abdellatef E",
+            "lastName": "Abdellatef",
+            "firstName": "Eltayb",
+            "initials": "E",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Phytopathology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Linicus L",
+            "lastName": "Linicus",
+            "firstName": "Lukas",
+            "initials": "L",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Phytopathology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Johannsmeier J",
+            "lastName": "Johannsmeier",
+            "firstName": "Jan",
+            "initials": "J",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-1248-604X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Phytopathology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Jelonek L",
+            "lastName": "Jelonek",
+            "firstName": "Lukas",
+            "initials": "L",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-9973-0374"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Bioinformatics and Systems Biology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Goesmann A",
+            "lastName": "Goesmann",
+            "firstName": "Alexander",
+            "initials": "A",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0002-7086-2568"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Bioinformatics and Systems Biology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Cardoza V",
+            "lastName": "Cardoza",
+            "firstName": "Vinitha",
+            "initials": "V",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BASF Plant Science LP, Research Triangle Park, Durham, North Carolina, United States of America."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "McMillan J",
+            "lastName": "McMillan",
+            "firstName": "John",
+            "initials": "J",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BASF Plant Science LP, Research Triangle Park, Durham, North Carolina, United States of America."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Mentzel T",
+            "lastName": "Mentzel",
+            "firstName": "Tobias",
+            "initials": "T",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "BASF SE, Limburgerhof, Germany."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Kogel KH",
+            "lastName": "Kogel",
+            "firstName": "Karl-Heinz",
+            "initials": "KH",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1226-003X"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Institute for Phytopathology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0001-7976-9389"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1172-0359"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-1248-604X"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-7086-2568"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0002-9973-0374"
+          },
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1226-003X"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "supporting_data",
+          "recommended_reviews"
+        ]
+      },
+      "journalInfo": {
+        "issue": "10",
+        "volume": "12",
+        "journalIssueId": 2457479,
+        "dateOfPublication": "2016 Oct",
+        "monthOfPublication": 10,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "PLoS Pathog",
+          "title": "PLoS pathogens",
+          "essn": "1553-7374",
+          "issn": "1553-7366",
+          "nlmid": "101238921",
+          "isoabbreviation": "PLoS Pathog"
+        },
+        "printPublicationDate": "2016-10-01"
+      },
+      "pubYear": "2016",
+      "pageInfo": "e1005901",
+      "abstractText": "Meeting the increasing food and energy demands of a growing population will require the development of ground-breaking strategies that promote sustainable plant production. Host-induced gene silencing has shown great potential for controlling pest and diseases in crop plants. However, while delivery of inhibitory noncoding double-stranded (ds)RNA by transgenic expression is a promising concept, it requires the generation of transgenic crop plants which may cause substantial delay for application strategies depending on the transformability and genetic stability of the crop plant species. Using the agronomically important barley-Fusarium graminearum pathosystem, we alternatively demonstrate that a spray application of a long noncoding dsRNA (791 nt CYP3-dsRNA), which targets the three fungal cytochrome P450 lanosterol C-14\u03b1-demethylases, required for biosynthesis of fungal ergosterol, inhibits fungal growth in the directly sprayed (local) as well as the non-sprayed (distal) parts of detached leaves. Unexpectedly, efficient spray-induced control of fungal infections in the distal tissue involved passage of CYP3-dsRNA via the plant vascular system and processing into small interfering (si)RNAs by fungal DICER-LIKE 1 (FgDCL-1) after uptake by the pathogen. We discuss important consequences of this new finding on future RNA-based disease control strategies. Given the ease of design, high specificity, and applicability to diverse pathogens, the use of target-specific dsRNA as an anti-fungal agent offers unprecedented potential as a new plant protection strategy.",
+      "affiliation": "Institute for Phytopathology, Centre for BioSystems, Land Use and Nutrition, Justus Liebig University, Giessen, Germany.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Plants, Genetically Modified"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Hordeum",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PS",
+                  "qualifierName": "parasitology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Small Interfering",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "AD",
+                  "qualifierName": "administration & dosage"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA, Double-Stranded",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "AD",
+                  "qualifierName": "administration & dosage"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Microscopy, Confocal"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Blotting, Northern"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Pest Control, Biological",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MT",
+                  "qualifierName": "methods"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PC",
+                  "qualifierName": "prevention & control"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "RNA Interference"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Biological Control Agents",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "AD",
+                  "qualifierName": "administration & dosage"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Fusariosis",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "PC",
+                  "qualifierName": "prevention & control"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "RNA, Double-Stranded",
+            "registryNumber": "0"
+          },
+          {
+            "name": "RNA, Small Interfering",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Biological Control Agents",
+            "registryNumber": "0"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1371/journal.ppat.1005901"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5063301"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC5063301?pdf=render"
+          }
+        ]
+      },
+      "commentCorrectionList": {
+        "commentCorrection": [
+          {
+            "source": "MED",
+            "id": "27923542",
+            "reference": "Trends Microbiol. 2017 Jan;25(1):4-6. doi: 10.1016/j.tim.2016.11.011",
+            "type": "Comment in",
+            "orderIn": 1
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 379,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2017-06-01",
+      "dateOfCreation": "2016-10-14",
+      "dateOfRevision": "2022-03-17",
+      "electronicPublicationDate": "2016-10-13",
+      "firstPublicationDate": "2016-10-13",
+      "firstIndexDate": "2016-10-15",
+      "fullTextReceivedDate": "2020-07-10",
+      "hasEvaluations": "N"
+    },
+    {
+      "id": "26011429",
+      "source": "MED",
+      "pmid": "26011429",
+      "pmcid": "PMC4443973",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4443973"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0128291",
+      "title": "The Role of Mitogen-Activated Protein (MAP) Kinase Signaling Components in the Fungal Development, Stress Response and Virulence of the Fungal Cereal Pathogen Bipolaris sorokiniana.",
+      "authorString": "Leng Y, Zhong S.",
+      "authorList": {
+        "author": [
+          {
+            "fullName": "Leng Y",
+            "lastName": "Leng",
+            "firstName": "Yueqiang",
+            "initials": "Y",
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, North Dakota State University, Fargo, North Dakota, United States of America."
+                }
+              ]
+            }
+          },
+          {
+            "fullName": "Zhong S",
+            "lastName": "Zhong",
+            "firstName": "Shaobin",
+            "initials": "S",
+            "authorId": {
+              "type": "ORCID",
+              "value": "0000-0003-1928-0877"
+            },
+            "authorAffiliationDetailsList": {
+              "authorAffiliation": [
+                {
+                  "affiliation": "Department of Plant Pathology, North Dakota State University, Fargo, North Dakota, United States of America."
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "authorIdList": {
+        "authorId": [
+          {
+            "type": "ORCID",
+            "value": "0000-0003-1928-0877"
+          }
+        ]
+      },
+      "dataLinksTagsList": {
+        "dataLinkstag": [
+          "altmetrics",
+          "supporting_data"
+        ]
+      },
+      "journalInfo": {
+        "issue": "5",
+        "volume": "10",
+        "journalIssueId": 2374481,
+        "dateOfPublication": "2015 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2015,
+        "journal": {
+          "medlineAbbreviation": "PLoS One",
+          "title": "PloS one",
+          "essn": "1932-6203",
+          "issn": "1932-6203",
+          "nlmid": "101285081",
+          "isoabbreviation": "PLoS One"
+        },
+        "printPublicationDate": "2015-01-01"
+      },
+      "pubYear": "2015",
+      "pageInfo": "e0128291",
+      "abstractText": "Mitogen-activated protein kinases (MAPKs) have been demonstrated to be involved in fungal development, sexual reproduction, pathogenicity and/or virulence in many filamentous plant pathogenic fungi, but genes for MAPKs in the fungal cereal pathogen Bipolaris sorokiniana have not been characterized. In this study, orthologues of three MAPK genes (CsSLT2, CsHOG1 and CsFUS3) and one MAPK kinase kinase (MAPKKK) gene (CsSTE11) were identified in the whole genome sequence of the B. sorokiniana isolate ND90Pr, and knockout mutants were generated for each of them. The \u2206Csfus3 and \u2206Csste11 mutants were defective in conidiation and formation of appressoria-like structures, showed hypersensitivity to oxidative stress and lost pathogenicity on non-wounded leaves of barley cv. Bowman. When inoculated on wounded leaves of Bowman, the \u2206Csfus3 and \u2206Csste11 mutants were reduced in virulence compared to the wild type. No morphological changes were observed in the \u2206Cshog1 mutants in comparison with the wild type; however, they were slightly reduced in growth under oxidative stress and were hypersensitive to hyperosmotic stress. The \u2206Cshog1 mutants formed normal appressoria-like structures but were reduced in virulence when inoculated on Bowman leaves. The \u2206Csslt2 mutants produced more vegetative hyphae, had lighter pigmentation, were more sensitive to cell wall degrading enzymes, and were reduced in virulence on Bowman leaves, although they formed normal appressoria like the wild type. Root infection assays indicated that the \u2206Cshog1 and \u2206Csslt2 mutants were able to infect barley roots while the \u2206Csfus3 and \u2206Csste11 failed to cause any symptoms. However, no significant difference in virulence was observed for \u2206Cshog1 mutants while \u2206Csslt2 mutants showed significantly reduced virulence on barley roots in comparison with the wild type. Our results indicated that all of these MAPK and MAPKKK genes are involved in the regulation of fungal development under normal and stress conditions and required for full virulence on barley plants.",
+      "affiliation": "Department of Plant Pathology, North Dakota State University, Fargo, North Dakota, United States of America.",
+      "publicationStatus": "epublish",
+      "language": "eng",
+      "pubModel": "Electronic-eCollection",
+      "pubTypeList": {
+        "pubType": [
+          "Research Support, Non-U.S. Gov't",
+          "research-article",
+          "Journal Article"
+        ]
+      },
+      "meshHeadingList": {
+        "meshHeading": [
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Ascomycota",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "EN",
+                  "qualifierName": "enzymology"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "PY",
+                  "qualifierName": "pathogenicity"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Leaves",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Roots",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "MAP Kinase Kinase Kinases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Mitogen-Activated Protein Kinase Kinases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "Fungal Proteins",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "GE",
+                  "qualifierName": "genetics"
+                },
+                {
+                  "majorTopic_YN": "N",
+                  "abbreviation": "ME",
+                  "qualifierName": "metabolism"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "Y",
+            "descriptorName": "MAP Kinase Signaling System"
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Plant Diseases",
+            "meshQualifierList": {
+              "meshQualifier": [
+                {
+                  "majorTopic_YN": "Y",
+                  "abbreviation": "MI",
+                  "qualifierName": "microbiology"
+                }
+              ]
+            }
+          },
+          {
+            "majorTopic_YN": "N",
+            "descriptorName": "Edible Grain"
+          }
+        ]
+      },
+      "chemicalList": {
+        "chemical": [
+          {
+            "name": "Fungal Proteins",
+            "registryNumber": "0"
+          },
+          {
+            "name": "Mitogen-Activated Protein Kinase Kinases",
+            "registryNumber": "EC 2.7.12.2"
+          },
+          {
+            "name": "MAP Kinase Kinase Kinases",
+            "registryNumber": "EC 2.7.11.25"
+          }
+        ]
+      },
+      "subsetList": {
+        "subset": [
+          {
+            "code": "IM",
+            "name": "Index Medicus"
+          }
+        ]
+      },
+      "fullTextUrlList": {
+        "fullTextUrl": [
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0128291&type=printable"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0128291&type=printable"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0128291&type=printable"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Unpaywall",
+            "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0128291&type=printable"
+          },
+          {
+            "availability": "Subscription required",
+            "availabilityCode": "S",
+            "documentStyle": "doi",
+            "site": "DOI",
+            "url": "https://doi.org/10.1371/journal.pone.0128291"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "html",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4443973"
+          },
+          {
+            "availability": "Open access",
+            "availabilityCode": "OA",
+            "documentStyle": "pdf",
+            "site": "Europe_PMC",
+            "url": "https://europepmc.org/articles/PMC4443973?pdf=render"
+          }
+        ]
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 31,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasData": "Y",
+      "license": "cc by",
+      "authMan": "N",
+      "epmcAuthMan": "N",
+      "nihAuthMan": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "dateOfCompletion": "2016-04-22",
+      "dateOfCreation": "2015-05-27",
+      "dateOfRevision": "2024-03-26",
+      "electronicPublicationDate": "2015-05-26",
+      "firstPublicationDate": "2015-05-26",
+      "firstIndexDate": "2015-05-27",
+      "fullTextReceivedDate": "2020-07-14",
+      "hasEvaluations": "N"
+    }
+  ]
+}

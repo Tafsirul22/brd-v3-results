@@ -1,0 +1,312 @@
+{
+  "DOI:\"10.1371/journal.pone.0128291\"": [
+    {
+      "id": "26011429",
+      "source": "MED",
+      "pmid": "26011429",
+      "pmcid": "PMC4443973",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4443973"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0128291",
+      "title": "The Role of Mitogen-Activated Protein (MAP) Kinase Signaling Components in the Fungal Development, Stress Response and Virulence of the Fungal Cereal Pathogen Bipolaris sorokiniana.",
+      "authorString": "Leng Y, Zhong S.",
+      "journalTitle": "PLoS One",
+      "issue": "5",
+      "journalVolume": "10",
+      "pubYear": "2015",
+      "journalIssn": "1932-6203",
+      "pageInfo": "e0128291",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 31,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2015-05-26",
+      "firstIndexDate": "2015-05-27"
+    }
+  ],
+  "DOI:\"10.3390/ijms232112922\"": [
+    {
+      "id": "36361711",
+      "source": "MED",
+      "pmid": "36361711",
+      "pmcid": "PMC9657606",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9657606"
+        ]
+      },
+      "doi": "10.3390/ijms232112922",
+      "title": "Nanosheet-Facilitated Spray Delivery of dsRNAs Represents a Potential Tool to Control <i>Rhizoctonia solani</i> Infection.",
+      "authorString": "Chen X, Shi T, Tang T, Chen C, Liang Y, Zuo S.",
+      "journalTitle": "Int J Mol Sci",
+      "issue": "21",
+      "journalVolume": "23",
+      "pubYear": "2022",
+      "journalIssn": "1422-0067",
+      "pageInfo": "12922",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 21,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2022-10-26",
+      "firstIndexDate": "2022-11-12"
+    }
+  ],
+  "DOI:\"10.3390/jof12090656\"": [
+    {
+      "id": "42783951",
+      "source": "MED",
+      "pmid": "42783951",
+      "pmcid": "PMC13608320",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13608320"
+        ]
+      },
+      "doi": "10.3390/jof12090656",
+      "title": "Spray-Induced Gene Silencing (SIGS) of Dual-Target Genes (&lt;i&gt;AaGH10&lt;/i&gt; and &lt;i&gt;AaSOD&lt;/i&gt;) Enhances Control of &lt;i&gt;Alternaria alternata&lt;/i&gt; White Leaf Spot in Chinese Chive.",
+      "authorString": "Wang L, Huang K, Gou Y, Zhu Y, Zhao M, Liao C, Zhang H, Ma P, Wang Z, Zhu T, Li T.",
+      "journalTitle": "J Fungi (Basel)",
+      "issue": "9",
+      "journalVolume": "12",
+      "pubYear": "2026",
+      "journalIssn": "2309-608x",
+      "pageInfo": "656",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2026-09-02",
+      "firstIndexDate": "2026-09-25"
+    }
+  ],
+  "DOI:\"10.1111/pbi.70526\"": [
+    {
+      "id": "41677035",
+      "source": "MED",
+      "pmid": "41677035",
+      "pmcid": "PMC13205770",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13205770"
+        ]
+      },
+      "doi": "10.1111/pbi.70526",
+      "title": "LUCID: An Integrative Approach for Target Discovery and dsRNA Design in Plant Fungal Pathogens.",
+      "authorString": "Jim\u00e9nez-Castro L, L\u00f3pez-Laguna A, F\u00e9rnandez-Ortu\u00f1o D, P\u00e9rez-Garc\u00eda A, Polonio \u00c1.",
+      "journalTitle": "Plant Biotechnol J",
+      "issue": "6",
+      "journalVolume": "24",
+      "pubYear": "2026",
+      "journalIssn": "1467-7644; 1467-7652; ",
+      "pageInfo": "3597-3615",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject"
+        ]
+      },
+      "firstPublicationDate": "2026-02-12",
+      "firstIndexDate": "2026-02-13"
+    }
+  ],
+  "SsAGO2 AND Sclerotinia AND dsRNA": [
+    {
+      "id": "42616606",
+      "source": "MED",
+      "pmid": "42616606",
+      "doi": "10.1094/pdis-06-26-1118-re",
+      "title": "Spray-Induced Gene Silencing of SsAgo2 Confers Field Protection Against White Mold in Sunflower.",
+      "authorString": "Tseng YW, Pedersen C, Chen ZY, Jeon H, Marzano SL.",
+      "journalTitle": "Plant Dis",
+      "pubYear": "2026",
+      "journalIssn": "0191-2917; 1943-7692; ",
+      "pubType": "journal article",
+      "isOpenAccess": "N",
+      "inEPMC": "N",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "N",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "N",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2026-08-19",
+      "firstIndexDate": "2026-08-22"
+    },
+    {
+      "id": "42776353",
+      "source": "MED",
+      "pmid": "42776353",
+      "pmcid": "PMC13601393",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC13601393"
+        ]
+      },
+      "doi": "10.1007/s44154-026-00337-x",
+      "title": "Cross-kingdom RNA in plant-microbe interactions: from molecular interactions to next-generation crop protection.",
+      "authorString": "Deepali BLD, Huang C, Zhang W, Wang H, Wang Y, Hyde KD, Chethana KWT, Yan J.",
+      "journalTitle": "Stress Biol",
+      "issue": "1",
+      "journalVolume": "6",
+      "pubYear": "2026",
+      "journalIssn": "2731-0450; 2097-4418; ",
+      "pageInfo": "67",
+      "pubType": "review-article; review; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2026-09-23",
+      "firstIndexDate": "2026-09-25"
+    }
+  ],
+  "TRI6 AND \"Fusarium graminearum\" AND dsRNA AND Hao": [
+    {
+      "id": "41656715",
+      "source": "MED",
+      "pmid": "41656715",
+      "pmcid": "PMC12884054",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC12884054"
+        ]
+      },
+      "doi": "10.5423/ppj.rw.09.2025.0131",
+      "title": "Molecular Strategies and Regulatory Networks in the Early Infection Stages of Plant Pathogenic Fusarium Species.",
+      "authorString": "Shin S, Son H.",
+      "journalTitle": "Plant Pathol J",
+      "issue": "1",
+      "journalVolume": "42",
+      "pubYear": "2026",
+      "journalIssn": "1598-2254; 2093-9280; ",
+      "pageInfo": "18-36",
+      "pubType": "review-article; review; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2026-02-01",
+      "firstIndexDate": "2026-02-10"
+    },
+    {
+      "id": "PPR1099354",
+      "source": "PPR",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PPR1099354"
+        ]
+      },
+      "doi": "10.1101/2025.10.10.681611",
+      "title": "<i>Bacillus velezensis</i>  EU07 suppresses  <i>Fusarium graminearum</i>  via transcriptomic reprogramming",
+      "authorString": "Baysal \u00d6, Jimenez-Quiros C, Cevher-Keskin B, T\u00f6r M.",
+      "pubYear": "2025",
+      "pubType": "preprint",
+      "bookOrReportDetails": {
+        "publisher": "bioRxiv",
+        "yearOfPublication": 2025
+      },
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "N",
+      "citedByCount": 0,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject"
+        ]
+      },
+      "firstPublicationDate": "2025-10-10",
+      "firstIndexDate": "2025-10-12"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+construct_group	target	design_mode	length_nt	efficient_sirnas	avg_silencing_pct
+FgAGO1_Tool	FgAGO1	Tool	173	13	6.0
+FgAGO1_Manual	FgAGO1	Manual	658	57	32.0
+FgAGO2_Tool	FgAGO2	Tool	192	12	46.0
+FgAGO2_Manual	FgAGO2	Manual	871	58	49.0
+FgDCL1_Tool	FgDCL1	Tool	182	5	60.0
+FgDCL1_Manual	FgDCL1	Manual	912	49	77.0
+FgDCL2_Tool	FgDCL2	Tool	193	9	44.0
+FgDCL2_Manual	FgDCL2	Manual	870	92	63.0

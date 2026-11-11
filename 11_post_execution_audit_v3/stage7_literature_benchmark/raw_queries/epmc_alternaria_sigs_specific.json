@@ -1,0 +1,626 @@
+{
+  "hitCount": 45,
+  "results": [
+    {
+      "id": "24821958",
+      "source": "MED",
+      "pmid": "24821958",
+      "pmcid": "PMC4112635",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC4112635"
+        ]
+      },
+      "doi": "10.1093/jxb/eru203",
+      "title": "Scopoletin is a phytoalexin against Alternaria alternata in wild tobacco dependent on jasmonate signalling.",
+      "authorString": "Sun H, Wang L, Zhang B, Ma J, Hettenhausen C, Cao G, Sun G, Wu J, Wu J.",
+      "journalTitle": "J Exp Bot",
+      "issue": "15",
+      "journalVolume": "65",
+      "pubYear": "2014",
+      "journalIssn": "0022-0957; 1460-2431; ",
+      "pageInfo": "4305-4315",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 99,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2014-05-12",
+      "firstIndexDate": "2014-05-14"
+    },
+    {
+      "id": "22792370",
+      "source": "MED",
+      "pmid": "22792370",
+      "pmcid": "PMC3391263",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC3391263"
+        ]
+      },
+      "doi": "10.1371/journal.pone.0040564",
+      "title": "Identification of a polyketide synthase required for alternariol (AOH) and alternariol-9-methyl ether (AME) formation in Alternaria alternata.",
+      "authorString": "Saha D, Fetzner R, Burkhardt B, Podlech J, Metzler M, Dang H, Lawrence C, Fischer R.",
+      "journalTitle": "PLoS One",
+      "issue": "7",
+      "journalVolume": "7",
+      "pubYear": "2012",
+      "journalIssn": "1932-6203",
+      "pageInfo": "e40564",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 59,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "CHEBI",
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2012-07-06",
+      "firstIndexDate": "2012-07-14"
+    },
+    {
+      "id": "31294452",
+      "source": "MED",
+      "pmid": "31294452",
+      "pmcid": "PMC6812721",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6812721"
+        ]
+      },
+      "doi": "10.1093/jxb/erz327",
+      "title": "An ERF2-like transcription factor regulates production of the defense sesquiterpene capsidiol upon Alternaria alternata infection.",
+      "authorString": "Song N, Ma L, Wang W, Sun H, Wang L, Baldwin IT, Wu J.",
+      "journalTitle": "J Exp Bot",
+      "issue": "20",
+      "journalVolume": "70",
+      "pubYear": "2019",
+      "journalIssn": "0022-0957; 1460-2431; ",
+      "pageInfo": "5895-5908",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 52,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq"
+        ]
+      },
+      "firstPublicationDate": "2019-10-01",
+      "firstIndexDate": "2019-07-12"
+    },
+    {
+      "id": "31156589",
+      "source": "MED",
+      "pmid": "31156589",
+      "pmcid": "PMC6530530",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6530530"
+        ]
+      },
+      "doi": "10.3389/fmicb.2019.01076",
+      "title": "Identification of a Novel Hypovirulence-Inducing Hypovirus From <i>Alternaria alternata</i>.",
+      "authorString": "Li H, Bian R, Liu Q, Yang L, Pang T, Salaipeth L, Andika IB, Kondo H, Sun L.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "10",
+      "pubYear": "2019",
+      "journalIssn": "1664-302x",
+      "pageInfo": "1076",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 52,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2019-05-15",
+      "firstIndexDate": "2019-06-03"
+    },
+    {
+      "id": "27582273",
+      "source": "MED",
+      "pmid": "27582273",
+      "pmcid": "PMC5007530",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5007530"
+        ]
+      },
+      "doi": "10.1038/srep32437",
+      "title": "Genomic and transcriptomic analyses of the tangerine pathotype of Alternaria alternata in response to oxidative stress.",
+      "authorString": "Wang M, Sun X, Yu D, Xu J, Chung K, Li H.",
+      "journalTitle": "Sci Rep",
+      "journalVolume": "6",
+      "pubYear": "2016",
+      "journalIssn": "2045-2322",
+      "pageInfo": "32437",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 44,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "Y",
+      "dbCrossReferenceList": {
+        "dbName": [
+          "EMBL"
+        ]
+      },
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "brenda",
+          "go"
+        ]
+      },
+      "firstPublicationDate": "2016-09-01",
+      "firstIndexDate": "2016-09-03"
+    },
+    {
+      "id": "34629466",
+      "source": "MED",
+      "pmid": "34629466",
+      "pmcid": "PMC8502781",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8502781"
+        ]
+      },
+      "doi": "10.1038/s41438-021-00701-0",
+      "title": "MdWRKY75e enhances resistance to Alternaria alternata in Malus domestica.",
+      "authorString": "Hou Y, Yu X, Chen W, Zhuang W, Wang S, Sun C, Cao L, Zhou T, Qu S.",
+      "journalTitle": "Hortic Res",
+      "issue": "1",
+      "journalVolume": "8",
+      "pubYear": "2021",
+      "journalIssn": "2662-6810; 2052-7276; ",
+      "pageInfo": "225",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 39,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2021-10-11",
+      "firstIndexDate": "2021-10-12"
+    },
+    {
+      "id": "28726766",
+      "source": "MED",
+      "pmid": "28726766",
+      "pmcid": "PMC5536065",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC5536065"
+        ]
+      },
+      "doi": "10.3390/ijms18071577",
+      "title": "The Alternaria alternata Mycotoxin Alternariol Suppresses Lipopolysaccharide-Induced Inflammation.",
+      "authorString": "Grover S, Lawrence CB.",
+      "journalTitle": "Int J Mol Sci",
+      "issue": "7",
+      "journalVolume": "18",
+      "pubYear": "2017",
+      "journalIssn": "1422-0067",
+      "pageInfo": "E1577",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 35,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "N",
+      "firstPublicationDate": "2017-07-20",
+      "firstIndexDate": "2017-07-20"
+    },
+    {
+      "id": "30941151",
+      "source": "MED",
+      "pmid": "30941151",
+      "pmcid": "PMC6434776",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6434776"
+        ]
+      },
+      "doi": "10.3389/fpls.2019.00263",
+      "title": "IRE1-bZIP60 Pathway Is Required for <i>Nicotiana attenuata</i> Resistance to Fungal Pathogen <i>Alternaria alternata</i>.",
+      "authorString": "Xu Z, Song N, Ma L, Wu J.",
+      "journalTitle": "Front Plant Sci",
+      "journalVolume": "10",
+      "pubYear": "2019",
+      "journalIssn": "1664-462x",
+      "pageInfo": "263",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 32,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refseq",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2019-03-19",
+      "firstIndexDate": "2019-04-04"
+    },
+    {
+      "id": "31242660",
+      "source": "MED",
+      "pmid": "31242660",
+      "pmcid": "PMC6631646",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6631646"
+        ]
+      },
+      "doi": "10.3390/v11060577",
+      "title": "Novel Victorivirus from a Pakistani Isolate of <i>Alternaria alternata</i> Lacking a Typical Translational Stop/Restart Sequence Signature.",
+      "authorString": "Jamal A, Sato Y, Shahi S, Shamsi W, Kondo H, Suzuki N.",
+      "journalTitle": "Viruses",
+      "issue": "6",
+      "journalVolume": "11",
+      "pubYear": "2019",
+      "journalIssn": "1999-4915",
+      "pageInfo": "E577",
+      "pubType": "research support, non-u.s. gov't; research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 27,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2019-06-25",
+      "firstIndexDate": "2019-06-27"
+    },
+    {
+      "id": "35024519",
+      "source": "MED",
+      "pmid": "35024519",
+      "pmcid": "PMC8720690",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8720690"
+        ]
+      },
+      "doi": "10.1016/j.pld.2020.11.003",
+      "title": "Involvement of NAC transcription factor NaNAC29 in <i>Alternaria alternata</i> resistance and leaf senescence in <i>Nicotiana attenuata</i>.",
+      "authorString": "Ma L, Li R, Ma L, Song N, Xu Z, Wu J.",
+      "journalTitle": "Plant Divers",
+      "issue": "6",
+      "journalVolume": "43",
+      "pubYear": "2021",
+      "journalIssn": "2096-2703; 2468-2659; ",
+      "pageInfo": "502-509",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 25,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2020-11-19",
+      "firstIndexDate": "2022-01-14"
+    },
+    {
+      "id": "33931614",
+      "source": "MED",
+      "pmid": "33931614",
+      "pmcid": "PMC8087703",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8087703"
+        ]
+      },
+      "doi": "10.1038/s41438-021-00534-x",
+      "title": "CmMLO17 and its partner CmKIC potentially support Alternaria alternata growth in Chrysanthemum morifolium.",
+      "authorString": "Xin J, Liu Y, Li H, Chen S, Jiang J, Song A, Fang W, Chen F.",
+      "journalTitle": "Hortic Res",
+      "issue": "1",
+      "journalVolume": "8",
+      "pubYear": "2021",
+      "journalIssn": "2662-6810; 2052-7276; ",
+      "pageInfo": "101",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 18,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen"
+        ]
+      },
+      "firstPublicationDate": "2021-05-01",
+      "firstIndexDate": "2021-05-02"
+    },
+    {
+      "id": "30931412",
+      "source": "MED",
+      "pmid": "30931412",
+      "pmcid": "PMC6412105",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6412105"
+        ]
+      },
+      "doi": "10.1016/j.pld.2018.12.001",
+      "title": "A patatin-like protein synergistically regulated by jasmonate and ethylene signaling pathways plays a negative role in <i>Nicotiana attenuata</i> resistance to <i>Alternaria alternata</i>.",
+      "authorString": "Cheng J, Song N, Wu J.",
+      "journalTitle": "Plant Divers",
+      "issue": "1",
+      "journalVolume": "41",
+      "pubYear": "2019",
+      "journalIssn": "2096-2703; 2468-2659; ",
+      "pageInfo": "7-12",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 17,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "N",
+      "hasLabsLinks": "N",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "gen",
+          "refseq"
+        ]
+      },
+      "firstPublicationDate": "2018-12-31",
+      "firstIndexDate": "2019-04-02"
+    },
+    {
+      "id": "36008749",
+      "source": "MED",
+      "pmid": "36008749",
+      "pmcid": "PMC9404672",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC9404672"
+        ]
+      },
+      "doi": "10.1186/s12870-022-03793-5",
+      "title": "Integrated transcriptomic and transgenic analyses reveal potential mechanisms of poplar resistance to Alternaria alternata infection.",
+      "authorString": "Huang Y, Ma H, Yue Y, Zhou T, Zhu Z, Wang C.",
+      "journalTitle": "BMC Plant Biol",
+      "issue": "1",
+      "journalVolume": "22",
+      "pubYear": "2022",
+      "journalIssn": "1471-2229",
+      "pageInfo": "413",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 16,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "bioproject",
+          "gca",
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2022-08-25",
+      "firstIndexDate": "2022-08-26"
+    },
+    {
+      "id": "34745080",
+      "source": "MED",
+      "pmid": "34745080",
+      "pmcid": "PMC8570381",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC8570381"
+        ]
+      },
+      "doi": "10.3389/fmicb.2021.773062",
+      "title": "Unique Terminal Regions and Specific Deletions of the Segmented Double-Stranded RNA Genome of Alternaria Alternata Virus 1, in the Proposed Family Alternaviridae.",
+      "authorString": "Wu CF, Aoki N, Takeshita N, Fukuhara T, Chiura HX, Arie T, Kotta-Loizou I, Okada R, Komatsu K, Moriyama H.",
+      "journalTitle": "Front Microbiol",
+      "journalVolume": "12",
+      "pubYear": "2021",
+      "journalIssn": "1664-302x",
+      "pageInfo": "773062",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 15,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "doi"
+        ]
+      },
+      "firstPublicationDate": "2021-10-22",
+      "firstIndexDate": "2021-11-27"
+    },
+    {
+      "id": "30159544",
+      "source": "MED",
+      "pmid": "30159544",
+      "pmcid": "PMC6091937",
+      "fullTextIdList": {
+        "fullTextId": [
+          "PMC6091937"
+        ]
+      },
+      "doi": "10.1016/j.pld.2018.01.001",
+      "title": "<i>NaPDR1</i> and <i>NaPDR1-like</i> are essential for the resistance of <i>Nicotiana attenuata</i> against fungal pathogen <i>Alternaria alternata</i>.",
+      "authorString": "Xu Z, Song N, Ma L, Fang D, Wu J.",
+      "journalTitle": "Plant Divers",
+      "issue": "2",
+      "journalVolume": "40",
+      "pubYear": "2018",
+      "journalIssn": "2096-2703; 2468-2659; ",
+      "pageInfo": "68-73",
+      "pubType": "research-article; journal article",
+      "isOpenAccess": "Y",
+      "inEPMC": "Y",
+      "inPMC": "Y",
+      "citedByCount": 15,
+      "hasReferences": "Y",
+      "hasTextMinedTerms": "Y",
+      "hasDbCrossReferences": "N",
+      "hasPDF": "Y",
+      "hasBook": "N",
+      "hasSuppl": "Y",
+      "hasLabsLinks": "Y",
+      "hasTMAccessionNumbers": "Y",
+      "tmAccessionTypeList": {
+        "accessionType": [
+          "refseq"
+        ]
+      },
+      "firstPublicationDate": "2018-01-17",
+      "firstIndexDate": "2018-08-30"
+    }
+  ]
+}

@@ -1,0 +1,1208 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article id="pbi70526" xml:lang="en" article-type="research-article" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Plant Biotechnol J</journal-id><journal-id journal-id-type="iso-abbrev">Plant Biotechnol J</journal-id><journal-id journal-id-type="pmc-domain-id">4638</journal-id><journal-id journal-id-type="pmc-domain">plantbioj</journal-id><journal-id journal-id-type="nlm-id">101201889</journal-id><journal-id journal-id-type="publisher-id">PBI</journal-id><journal-title-group><journal-title>Plant Biotechnology Journal</journal-title></journal-title-group><issn pub-type="ppub">1467-7644</issn><issn pub-type="epub">1467-7652</issn><?publisher_abbrev blackwell?><publisher><publisher-name>Wiley</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC13205770</article-id><article-id pub-id-type="pmcid-ver">PMC13205770.1</article-id><article-id pub-id-type="pmcaid">13205770</article-id><article-id pub-id-type="pmcaiid">13205770</article-id><article-id pub-id-type="pmid">41677035</article-id><article-id pub-id-type="doi">10.1111/pbi.70526</article-id><article-id pub-id-type="publisher-id">PBI70526</article-id><article-id pub-id-type="other">PBI-01573-2025</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>LUCID: An Integrative Approach for Target Discovery and dsRNA Design in Plant Fungal Pathogens</article-title></title-group><contrib-group><contrib id="pbi70526-cr-0001" contrib-type="author"><name name-style="western"><surname>Jiménez‐Castro</surname><given-names initials="L">Lucía</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0003-5189-4913</contrib-id><xref rid="pbi70526-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi70526-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="pbi70526-cr-0002" contrib-type="author"><name name-style="western"><surname>López‐Laguna</surname><given-names initials="A">Alba</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0009-0002-1158-8885</contrib-id><xref rid="pbi70526-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi70526-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="pbi70526-cr-0003" contrib-type="author"><name name-style="western"><surname>Férnandez‐Ortuño</surname><given-names initials="D">Dolores</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-3134-3095</contrib-id><xref rid="pbi70526-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi70526-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="pbi70526-cr-0004" contrib-type="author"><name name-style="western"><surname>Pérez‐García</surname><given-names initials="A">Alejandro</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-1065-0360</contrib-id><xref rid="pbi70526-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi70526-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref></contrib><contrib id="pbi70526-cr-0005" contrib-type="author" corresp="yes"><name name-style="western"><surname>Polonio</surname><given-names initials="Á">Álvaro</given-names></name><contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-4977-9305</contrib-id><xref rid="pbi70526-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref><xref rid="pbi70526-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref><address><email>polonio@uma.es</email></address></contrib></contrib-group><aff id="pbi70526-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Departamento de Microbiología, Facultad de Ciencias</named-content>
+<institution>Universidad de Málaga</institution>
+<city>Málaga</city>
+<country country="ES">Spain</country>
+</aff><aff id="pbi70526-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Instituto de Hortofruticultura Subtropical y Mediterránea ‘La Mayora’</named-content>
+<institution>Universidad de Málaga, Consejo Superior de Investigaciones Científicas (IHSM−UMA−CSIC)</institution>
+<city>Málaga</city>
+<country country="ES">Spain</country>
+</aff><author-notes><corresp id="correspondenceTo">
+<label>*</label>
+<bold>Correspondence:</bold>
+<break/>
+Álvaro Polonio (<email>polonio@uma.es</email>)<break/>
+</corresp></author-notes><pub-date pub-type="epub"><day>12</day><month>2</month><year>2026</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2026</year></pub-date><volume>24</volume><issue seq="110">6</issue><issue-id pub-id-type="pmc-issue-id">514319</issue-id><issue-id pub-id-type="doi">10.1111/pbi.v24.6</issue-id><fpage>3597</fpage><lpage>3615</lpage><history>
+<date date-type="rev-recd"><day>15</day><month>12</month><year>2025</year></date>
+<date date-type="received"><day>18</day><month>10</month><year>2025</year></date>
+<date date-type="accepted"><day>19</day><month>12</month><year>2025</year></date>
+</history><pub-history><event event-type="pmc-release"><date><day>12</day><month>02</month><year>2026</year></date></event><event event-type="pmc-live"><date><day>27</day><month>05</month><year>2026</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2026-07-10 20:25:19.270"><day>10</day><month>07</month><year>2026</year></date></event></pub-history><permissions><copyright-statement content-type="article-copyright">© 2026 The Author(s). <italic toggle="yes">Plant Biotechnology Journal</italic> published by Society for Experimental Biology and The Association of Applied Biologists and John Wiley &amp; Sons Ltd.</copyright-statement><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>This is an open access article under the terms of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="PBI-24-3597.pdf"><?pdf-name PBI-24-3597.pdf?><?pdf-size 5797573?><?pdf-md5 d9fa5ab3ccf96b5fd4ded30c21e32549?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:8528/13205770/d9fa5ab3ccf9/PBI-24-3597.pdf?></self-uri><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pdf" xlink:href="file:PBI-24-3597.pdf"/><abstract><title>ABSTRACT</title><p>Phytopathogenic fungi pose an escalating threat to global food security and ecosystem stability, as resistance and environmental concerns diminish the effectiveness of conventional fungicides. Double‐stranded RNA (dsRNA)‐based fungicides offer a species‐specific, eco‐friendly alternative. We introduce LUCID (Locating Uncovered, conserved, and Indispensable for pathogenicity Determinants), a computational pipeline that accelerates the development of RNAi‐based biofungicides by integrating target identification with dsRNA design and off‐target prediction. LUCID employs a dual‐branch strategy to identify both Conserved Essential Proteins (CEPs) and Conserved Non‐Annotated Proteins (CNAPs), leveraging transcriptomic data and comparative genomics across diverse fungal species. Validation in <italic toggle="no">Botrytis cinerea</italic> demonstrated high efficacy, with 67% of proposed targets successfully silenced and an average silencing efficiency of 96%. Additionally, coupling LUCID with advanced protein language models (PLMs) revealed a novel pathogenicity determinant in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>: a putative mediator complex protein. LUCID offers a scalable, species‐agnostic framework for designing sustainable fungicides, enabling rapid, targeted control of fungal diseases with minimal ecological impact.</p></abstract><abstract abstract-type="graphical"><p>LUCID: A computational pipeline for RNAi‐based biofungicide design.<boxed-text position="anchor" content-type="graphic" id="pbi70526-blkfxd-0001" orientation="portrait"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-1" orientation="portrait" xlink:href="PBI-24-3597-g003.jpg"><?image-name PBI-24-3597-g003.jpg?><?image-size 68663?><?image-md5 80a31c278f05fa8a14fa32ff76fac81c?><?image-image-server-status NEVER_LOAD?><?image-original-height 389?><?image-original-width 394?><?image-scaled-height 389?><?image-scaled-width 394?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/80a31c278f05/PBI-24-3597-g003.jpg?></graphic></boxed-text>
+</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="pbi70526-kwd-0001">biofungicides</kwd><kwd id="pbi70526-kwd-0002"><italic toggle="no">botrytis cinerea</italic></kwd><kwd id="pbi70526-kwd-0003">comparative genomics</kwd><kwd id="pbi70526-kwd-0004">dsRNA</kwd><kwd id="pbi70526-kwd-0005">phytopathogenic fungi</kwd><kwd id="pbi70526-kwd-0006">RNAi</kwd><kwd id="pbi70526-kwd-0007">transcriptomics</kwd></kwd-group><funding-group><award-group id="funding-0001"><funding-source>
+<institution-wrap><institution>AYUDAS A LA I+D+i EN EL ÁMBITO DEL PLAN ANDALUZ DE INVESTIGACIÓN, DESARROLLO E INNOVACIÓN (PAIDI 2020)</institution></institution-wrap>
+</funding-source><award-id>PY20_00048</award-id></award-group><award-group id="funding-0002"><funding-source>
+<institution-wrap><institution>MICIU/AEI/10.13039/501100011033 and ERDF/EU</institution></institution-wrap>
+</funding-source><award-id>PID2022‐136240OB‐C21</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="0"/><page-count count="19"/><word-count count="10500"/></counts><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2026</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.8.3 mode:remove_FC converted:09.07.2026</meta-value></custom-meta></custom-meta-group></article-meta></front><body id="pbi70526-body-0001"><sec id="pbi70526-sec-0001"><label>1</label><title>Introduction</title><p>Phytopathogenic fungi represent a significant threat to global food security and human livelihoods (Fisher et al. <xref rid="pbi70526-bib-0024" ref-type="bibr">2012</xref>). These pathogens can cause severe crop losses and substantial economic disruption. Recent models forecast a marked rise in both the diversity and invasion potential of these fungi across forests and agricultural lands in the coming years. The implications are alarming: such fungal diseases could compromise food availability for large segments of the global population and diminish forest‐based CO<sub>2</sub> absorption by an estimated 230 to 580 megatons annually (Li et al. <xref rid="pbi70526-bib-0040" ref-type="bibr">2023</xref>).</p><p>Traditional management strategies, such as chemical fungicide application, have proven insufficient in tackling the challenges posed by many phytopathogenic fungi. The widespread use of broad‐spectrum fungicides has driven the emergence of resistant fungal strains, complicating disease control efforts. Fungicide resistance, an inheritable trait resulting in reduced fungal sensitivity, often arises from the overuse and misuse of chemical treatments, which exert selective pressure on fungal populations, enabling resistant strains to survive and proliferate. Consequently, many once‐effective fungicides have lost their efficacy, underscoring the urgent need for alternative, sustainable strategies to combat fungal phytopathogens (Jiang et al. <xref rid="pbi70526-bib-0032" ref-type="bibr">2025</xref>).</p><p>In this scenario, there is a need to develop new antifungal agents that function through innovative mechanisms and minimise environmental harm. Promoting sustainable agricultural practices is essential for enhancing environmental quality and optimising resource use (Ansari et al. <xref rid="pbi70526-bib-0004" ref-type="bibr">2012</xref>). Regulatory bodies in both the European Union and the United States have already prohibited several chemical pesticides due to their detrimental effects, and many conventional products have been phased out over time due to rising concerns about their ecological and health risks (Damalas and Eleftherohorinos <xref rid="pbi70526-bib-0016" ref-type="bibr">2011</xref>; Chattopadhyay et al. <xref rid="pbi70526-bib-0011" ref-type="bibr">2017</xref>).</p><p>Emerging technologies offer promising solutions to the growing challenges of fungal disease management in agriculture. Among these, double‐stranded RNAs (dsRNAs) have gained attention as a targeted and environmentally sustainable alternative to conventional fungicides (Wang et al. <xref rid="pbi70526-bib-0078" ref-type="bibr">2016</xref>; Padilla‐Roji et al. <xref rid="pbi70526-bib-0057" ref-type="bibr">2023</xref>). Unlike broad‐spectrum chemical treatments that can harm non‐target organisms, dsRNAs function through RNA interference (RNAi), a biological process in which specific dsRNA molecules silence genes critical to fungal growth and pathogenicity by matching their genetic sequences (Padilla‐Roji et al. <xref rid="pbi70526-bib-0057" ref-type="bibr">2023</xref>). This precision allows for minimal disruption to the surrounding ecosystem (Neumeier and Meister <xref rid="pbi70526-bib-0055" ref-type="bibr">2021</xref>). Furthermore, dsRNAs are biodegradable, breaking down rapidly without leaving harmful residues in the environment (Parker et al. <xref rid="pbi70526-bib-0059" ref-type="bibr">2019</xref>). A key advantage of this approach is its potential to limit resistance development. Because dsRNAs can be engineered to target multiple essential genes and suppress transcript expression rather than bind to protein active sites, fungal pathogens face greater difficulty adapting to these treatments (Sundaresha et al. <xref rid="pbi70526-bib-0071" ref-type="bibr">2022</xref>). Altogether, dsRNA‐based strategies present a more resilient and ecologically responsible path forward for controlling fungal diseases in crops.</p><p>Recent advances have demonstrated the strong potential of dsRNA‐based strategies in managing fungal diseases (Koch and Kogel <xref rid="pbi70526-bib-0035" ref-type="bibr">2014</xref>; Qiao et al. <xref rid="pbi70526-bib-0061" ref-type="bibr">2021</xref>). Notable examples include multiple fungal species like <italic toggle="yes">Sclerotinia sclerotiorum</italic>, <italic toggle="yes">Rhizoctonia solani</italic>, <italic toggle="yes">Aspergillus niger</italic>, <italic toggle="yes">Botrytis cinerea</italic>, and <italic toggle="yes">Fusarium</italic> species, with each pathogen showing efficient dsRNA uptake through clathrin‐mediated endocytosis (Duanis‐Assaf et al. <xref rid="pbi70526-bib-0019" ref-type="bibr">2022</xref>; Bocos‐Asenjo et al. <xref rid="pbi70526-bib-0006" ref-type="bibr">2025</xref>; Chen, Imran, et al. <xref rid="pbi70526-bib-0012" ref-type="bibr">2025</xref>). The effectiveness of these approaches relies heavily on precise design and delivery, with critical factors including the selection of suitable gene targets and the identification of optimal regions for siRNA production (Ray et al. <xref rid="pbi70526-bib-0063" ref-type="bibr">2022</xref>; Mosquera et al. <xref rid="pbi70526-bib-0053" ref-type="bibr">2025</xref>). Commercialization of SIGS is underway, led by GreenLight Biosciences (Pallis et al. <xref rid="pbi70526-bib-0058" ref-type="bibr">2023</xref>), with Calantha (the first EPA‐approved foliar RNA bioinsecticide) and expanding efforts to combat fungal diseases in crops like strawberries and grapes. With large‐scale production capabilities and growing industry investment, SIGS is transitioning from research to practical application.</p><p>However, unlocking the full potential of dsRNA‐based fungicides requires efficient computational tools for target selection. Current approaches rely on species‐specific bioinformatics pipelines and labour‐intensive screening, lacking standardised solutions for broad application across diverse phytopathogens (McLoughlin et al. <xref rid="pbi70526-bib-0051" ref-type="bibr">2018</xref>; Ruiz‐Jiménez et al. <xref rid="pbi70526-bib-0066" ref-type="bibr">2021</xref>). To address this gap, we developed LUCID, a three‐phase computational framework that integrates RNA‐seq data and comparative genomics for target identification, followed by automated dsRNA design, primer generation and off‐target prediction. We applied LUCID to <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>, a widespread fungal pathogen responsible for grey mould in numerous crops and known for its resistance to multiple fungicides, which complicates effective control (López‐Laguna et al. <xref rid="pbi70526-bib-0045" ref-type="bibr">2025</xref>). LUCID allowed the identification of targets that significantly reduced disease symptoms, including both essential and novel pathogenicity‐related proteins, establishing LUCID as a robust and scalable tool for developing RNAi‐based biofungicides across a wide range of fungal pathogens.</p></sec><sec sec-type="results" id="pbi70526-sec-0002"><label>2</label><title>Results</title><sec id="pbi70526-sec-0003"><label>2.1</label><title>
+<styled-content style="fixed-case" toggle="no">LUCID</styled-content> Pipeline Allows Automated Target Selection and <styled-content style="fixed-case" toggle="no">dsRNA</styled-content> Design</title><p>To streamline the development of RNAi‐based biofungicides, we created LUCID, a fully automated bioinformatics pipeline that integrates target selection with dsRNA design. LUCID operates in three phases (Figure <xref rid="pbi70526-fig-0001" ref-type="fig">1</xref>). Phase 1: Target Selection. This phase combines RNA‐seq data, comparative genomics, and curated fungal databases to identify candidate targets in phytopathogenic fungi. Highly expressed genes during plant infection are detected via differential expression analysis or TPM (transcripts per million) values for obligate biotrophs. These transcripts are then filtered for conservation across agriculturally relevant fungal proteomes and cross‐referenced with databases of essential and infection‐related proteins to define a set of Conserved Essential Proteins (CEPs). In parallel, the pipeline identifies Conserved Non‐Annotated Proteins (CNAPs), novel, upregulated proteins conserved across pathogens but lacking functional annotation. Phase 2: dsRNA Design. Selected transcripts are processed to identify optimal silencing regions, generate dsRNA molecules, and design primers for amplification. This integrated workflow facilitates rapid and scalable development of dsRNA constructs tailored to a wide range of phytopathogenic fungi. Phase 3: Off‐Target Prediction. Designed dsRNAs are evaluated for potential cross‐reactivity against user‐provided non‐target transcriptomes, and validated targets can be combined into multi‐target chimeric dsRNAs.</p><fig position="float" fig-type="FIGURE" id="pbi70526-fig-0001" orientation="portrait"><label>FIGURE 1</label><caption><p>Overview of the LUCID bioinformatic pipeline. The LUCID workflow comprises two interconnected phases. Phase 1: Target Selection (left panel), Phase 2: DsRNA Design (upper right panel), and Phase 3: DsRNA Optimization (lower right panel). In Phase 1, RNA‐seq data and proteomes from phytopathogenic fungi are integrated to identify candidate RNAi targets, resulting in two output categories: Conserved Essential Proteins (CEPs) and Conserved Non‐Annotated Proteins (CNAPs). Phase 2 processes these selected transcripts to design effective dsRNA molecules, using a customised version of siFi21 to pinpoint high‐efficiency silencing regions, visualise siRNA distribution, and generate primers via Primer3. Phase 3 employs dsRNAmax to design chimeric dsRNAs and assess off‐target effects against non‐target organisms. This streamlined pipeline facilitates the rapid identification and design of RNA‐based fungicides targeting fungal pathogens.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-3" orientation="portrait" xlink:href="PBI-24-3597-g002.jpg"><?image-name PBI-24-3597-g002.jpg?><?image-size 155256?><?image-md5 e36e3f903baf5dd6d76c007db9fa6a60?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1483?><?image-original-width 1064?><?image-scaled-height 988?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/e36e3f903baf/PBI-24-3597-g002.jpg?><?thumb-name PBI-24-3597-g002.gif?><?thumb-size 5905?><?thumb-md5 4830806abe26763dde488ecaa8d38848?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 139?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8528/13205770/4830806abe26/PBI-24-3597-g002.gif?></graphic></fig></sec><sec id="pbi70526-sec-0004"><label>2.2</label><title>Differential Expression and Conservation Analysis Reveal Core Fungal Pathogenicity Arsenal</title><p>Applying the LUCID pipeline to <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> enabled detailed analysis of gene expression and conservation during infection. Phase 1 filtering was crucial for identifying genes that are both infection‐specific and evolutionarily conserved across fungal pathogens. Principal Component Analysis (Figure <xref rid="pbi70526-fig-0002" ref-type="fig">2a</xref>) revealed clear separation between in vitro controls and in vivo tomato infection samples, confirming robust transcriptomic shifts during host colonisation. A volcano plot (Figure <xref rid="pbi70526-fig-0002" ref-type="fig">2b</xref>) identified 1151 significantly upregulated and 1470 downregulated genes, while the heatmap (Figure <xref rid="pbi70526-fig-0002" ref-type="fig">2c</xref>) showed distinct expression profiles clustered by condition. In parallel, comparative proteome analysis across six phytopathogenic fungi identified 3223 conserved orthogroups (Figure <xref rid="pbi70526-fig-0002" ref-type="fig">2d</xref>).</p><fig position="float" fig-type="FIGURE" id="pbi70526-fig-0002" orientation="portrait"><label>FIGURE 2</label><caption><p>Transcriptomic and comparative genomic analysis supporting LUCID implementation for <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> RNAi target discovery. This multi‐panel figure illustrates the integration of transcriptomic profiling and comparative genomics within the LUCID pipeline to identify candidate RNAi targets in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>. (a) Principal Component Analysis (PCA) reveals distinct expression profiles, enabling selection of genes upregulated during plant infection. (b) Volcano plot of differential expression analysis identifies 1151 significantly upregulated genes (log<sub>2</sub>FC &gt; 1; adjusted <italic toggle="yes">p</italic>‐value &lt; 0.05). (c) Heatmap highlights infection‐specific transcriptional responses, distinguishing infected samples from in vitro conditions. (d) Venn diagram‐style visualisation shows 3223 conserved orthogroups shared among six phytopathogenic fungi (<styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. graminis</italic>
+</styled-content>, <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>, <italic toggle="yes">F. mangiferae</italic>, <italic toggle="yes">F. oxysporum</italic>, <italic toggle="yes">G. cichoracearum</italic>, and <italic toggle="yes">S. sclerotiorum</italic>). (e) Gene Ontology (GO) enrichment analysis of infection‐induced genes reveals biological processes linked to pathogenicity. (f) GO enrichment of conserved orthogroups underscores functional categories relevant across fungal pathogens. Together, these analyses demonstrate LUCID's capacity to pinpoint conserved, infection‐specific genes as promising RNAi targets for fungal control strategies.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-5" orientation="portrait" xlink:href="PBI-24-3597-g008.jpg"><?image-name PBI-24-3597-g008.jpg?><?image-size 173498?><?image-md5 e4f9d465c6d4c7d03d1e5bba95485b64?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1874?><?image-original-width 1064?><?image-scaled-height 1249?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/e4f9d465c6d4/PBI-24-3597-g008.jpg?><?thumb-name PBI-24-3597-g008.gif?><?thumb-size 12593?><?thumb-md5 a2c0cf513c485c6467837ea33e516d08?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 176?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8528/13205770/a2c0cf513c48/PBI-24-3597-g008.gif?></graphic></fig><p>Functional enrichment analysis using Gene Ontology (GO) biological process terms was performed in upregulated genes. As shown in Figure <xref rid="pbi70526-fig-0002" ref-type="fig">2e</xref>, genes were significantly enriched in several functional categories. Plant cell wall degradation was prominently represented, encompassing catabolic processes targeting cellulose, pectin, xylan, arabinan, and glucan, along with pathways involved in cell wall organisation. Other enriched processes included carbohydrate metabolism and transport, notably L‐arabinose metabolism, alongside fatty acid beta‐oxidation, proteolysis, transmembrane nutrient transport, and specialised metabolism such as L‐tryptophan catabolism to kynurenine. These findings suggest that <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> extensively reprograms its transcriptome during infection to boost plant cell wall degradation, nutrient uptake, and energy production, key functions for effective host colonisation and pathogenesis.</p><p>Functional enrichment of the conserved orthogroups (Figure <xref rid="pbi70526-fig-0002" ref-type="fig">2f</xref>) revealed common biological processes such as intracellular transport, protein folding and degradation, RNA and DNA processing, reproduction, and energy metabolism. These conserved processes reflect core biological functions maintained across diverse phytopathogenic fungi throughout their lifecycle, including infection. By intersecting expression and conservation datasets, we identified 225 candidate proteins that are consistently upregulated during infection and conserved across all six species, representing a foundational set of targets for RNAi‐based biofungicide development.</p></sec><sec id="pbi70526-sec-0005"><label>2.3</label><title>
+<styled-content style="fixed-case" toggle="no">LUCID</styled-content> Pipeline Identified 13 <styled-content style="fixed-case" toggle="no">CEPs</styled-content> in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>
+</title><p>The LUCID pipeline identified 13 Conserved Essential Proteins (CEPs) in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> through a homology‐based search against known pathogenesis‐related proteins. These CEPs span a range of cellular functions vital to <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> pathogenicity and were classified into four major functional categories based on their subcellular localization and biological roles (Figure <xref rid="pbi70526-fig-0003" ref-type="fig">3</xref>).</p><fig position="float" fig-type="FIGURE" id="pbi70526-fig-0003" orientation="portrait"><label>FIGURE 3</label><caption><p>Functional categorization of Conserved Essential Proteins (CEPs) identified by LUCID in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>. Representative 3D protein structures and functional organisation of 13 CEPs critical for pathogenesis, grouped by cellular function and subcellular localization. (a) ER protein quality control and ERAD machinery comprising six proteins essential for protein folding, glycosylation, and degradation: BcPDI (protein disulfide‐isomerase), BcBiP (ER chaperone BiP), BcCNE1 (calnexin), BcHSP70 (heat shock protein 70), BcALG2 (mannosyltransferase), and BcDOA1 (ubiquitin system protein). (b) Peroxisomal proteins critical for organelle function: BcPEX14 (peroxisomal import machinery) and BcPEX6 (ATPase for import recycling). (c) Regulatory signalling proteins including BcHHK2 (histidine kinase) essential for osmotic stress sensing and toxin regulation. (d) Metabolic enzymes controlling key biosynthetic pathways: BcACT (acetyl‐CoA C‐acetyltransferase), BcMCD (short‐chain dehydrogenase), BcODC (ornithine decarboxylase), and BcABA2 (cytochrome P450 ABA2). Protein structures were obtained from the AlphaFold database or modelling.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-7" orientation="portrait" xlink:href="PBI-24-3597-g005.jpg"><?image-name PBI-24-3597-g005.jpg?><?image-size 171530?><?image-md5 a2f3e35995a62bbbc060320467af3e17?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1094?><?image-original-width 1064?><?image-scaled-height 729?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/a2f3e35995a6/PBI-24-3597-g005.jpg?><?thumb-name PBI-24-3597-g005.gif?><?thumb-size 5137?><?thumb-md5 8ec8298fd42bf3287a108fe43d99da23?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 103?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8528/13205770/8ec8298fd42b/PBI-24-3597-g005.gif?></graphic></fig><p>The largest functional group comprises ER‐localised protein quality control and folding machinery (Figure <xref rid="pbi70526-fig-0003" ref-type="fig">3a</xref>), including six putative essential proteins implicated in the coordination of protein maturation. This group encompasses key molecular chaperones such as the heat shock protein HSP70 (BcHSP70), the ER‐resident chaperone BiP (BcBiP), and the glycoprotein‐specific chaperone calnexin (BcCNE1), all critical for maintaining protein homeostasis under infection stress. Additionally, this category includes the protein disulfide‐isomerase (BcPDI) essential for correct disulfide bond formation in secreted virulence factors, the mannosyltransferase ALG2 (BcALG2) required for N‐linked glycosylation of infection‐related proteins, and the ubiquitin system protein DOA1 (BcDOA1) that controls protein quality through targeted degradation pathways.</p><p>A second category encompasses peroxisomal proteins (Figure <xref rid="pbi70526-fig-0003" ref-type="fig">3b</xref>) essential for organelle biogenesis and function, with PEX14 (BcPEX14) and PEX6 (BcPEX16) being critical for peroxisome protein import processes. These proteins are essential for β‐oxidation pathways, appressorium development, and cellular redox balance maintenance during host colonisation.</p><p>The third group consists of regulatory signalling proteins (Figure <xref rid="pbi70526-fig-0003" ref-type="fig">3c</xref>) essential for pathogen adaptation to host environments. The histidine kinase HHK2 (BcHHK2) serves as a critical sensor for osmotic and oxidative stress conditions, coordinating cellular responses and regulating toxin production under specific metabolic conditions encountered during plant colonisation.</p><p>Finally, metabolic enzymes (Figure <xref rid="pbi70526-fig-0003" ref-type="fig">3d</xref>) complete the identified targets, controlling key biosynthetic and catabolic pathways during infection. This includes the acetyl‐CoA C‐acetyltransferase (BcACT) involved in the mevalonate pathway and terpenoid biosynthesis, the short‐chain dehydrogenase (BcMCD) essential for redox metabolism and secondary metabolite production, the ornithine decarboxylase (BcODC) required for polyamine biosynthesis, and the cytochrome P450 monooxygenase ABA2 (BcABA2) crucial for abscisic acid hormone production that manipulates host defenses. These proteins are critical for β‐oxidation pathways, appressorium development, and cellular redox balance maintenance during host colonisation.</p><p>This functional diversity highlights how successful plant infection requires coordinated regulation across multiple essential cellular pathways, from protein quality control and stress adaptation to specialised metabolism and organelle function. Detailed information regarding the accession number, specific molecular functions, pathogenesis implications, and supporting literature for each CEP is provided in Table <xref rid="pbi70526-supitem-0001" ref-type="supplementary-material">S1</xref>.</p></sec><sec id="pbi70526-sec-0006"><label>2.4</label><title>
+<styled-content style="fixed-case" toggle="no">LUCID</styled-content> Pipeline Identified 17 <styled-content style="fixed-case" toggle="no">CNAPs</styled-content> in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>
+</title><p>The LUCID pipeline identified 17 highly expressed Conserved Non‐Annotated Proteins (CNAPs) in <italic toggle="yes">B. cinerea</italic>. To infer their potential roles in pathogenesis, a two‐step annotation strategy was employed, integrating sequence homology searches with structural analysis. While sequence‐based homology successfully predicted putative functions for most CNAPs, BcUNC1, BcUNC2, and BcUNC3 were subjected to structural analysis using ProteinCartography (Avasthi et al. <xref rid="pbi70526-bib-0005" ref-type="bibr">2023</xref>). This approach revealed structural similarities to a mediator complex subunit, a cation‐transporting P‐type ATPase C‐terminal domain‐containing protein, and a transcription activator with a GCR1‐like domain, respectively, offering new insights into their potential roles in fungal pathogenesis.</p><p>CNAPs were organised into four main functional categories (Figure <xref rid="pbi70526-fig-0004" ref-type="fig">4</xref>). The largest group comprises secondary metabolism and detoxification proteins (Figure <xref rid="pbi70526-fig-0004" ref-type="fig">4a</xref>), including cytochrome P450 enzymes (BcuCYP1, BcuCMP, and BcuCPAH) and a FAD/NAD(P)‐binding protein (BcuMOX), all essential for metabolite production, host compound detoxification, and redox homeostasis during infection. A second significant group encompasses peroxisomal proteins (Figure <xref rid="pbi70526-fig-0004" ref-type="fig">4b</xref>) critical for β‐oxidation and organelle function, comprising four short‐chain dehydrogenase/reductase enzymes (BcuSDR1‐4), a dienoyl‐CoA isomerase (BcuDCI), and a peroxisomal membrane protein (BcuPMP). The third group includes membrane dynamics and transport proteins (Figure <xref rid="pbi70526-fig-0004" ref-type="fig">4d</xref>), featuring an alkaline phytoceramidase (BcuAPC), an extensin domain‐containing protein (BcuEXT), the cation‐transporting ATPase (BcUNC2), a LEA‐2 domain protein (BcuLEA2), and a peptide transporter (BcuPTR1), all involved in cellular structure maintenance and transport processes. Finally, transcriptional control proteins (Figure <xref rid="pbi70526-fig-0004" ref-type="fig">4c</xref>) complete the identified targets, including the mediator complex subunit (BcUNC1) and the transcription activator (BcUNC3), essential for coordinating gene expression and cellular responses during host colonisation.</p><fig position="float" fig-type="FIGURE" id="pbi70526-fig-0004" orientation="portrait"><label>FIGURE 4</label><caption><p>Functional categorization of Conserved Non‐Annotated Proteins (CNAPs) identified by LUCID in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>. Representative 3D protein structures and functional organisation of 17 CNAPs potentially critical for pathogenesis, grouped by predicted cellular function and subcellular localization. (a) Secondary metabolism and detoxification proteins comprising four proteins essential for metabolite production and host compound processing: BcuCYP1 (toxin biosynthesis cytochrome P450), BcuCMP (sterol metabolism monooxygenase), BcuCPAH (alkane hydroxylase for cuticle metabolism), and BcuMOX (FAD/NAD(P) redox monooxygenase). (b) Peroxisomal function and β‐oxidation proteins including six proteins critical for organelle integrity and fatty acid metabolism: BcuSDR1‐4 (short‐chain dehydrogenase/reductase enzymes), BcuDCI (dienoyl‐CoA isomerase), and BcuPMP (peroxisomal membrane protein). (c) Transcriptional control proteins including two regulatory proteins essential for gene expression coordination: BcUNC1 (mediator complex subunit) and BcUNC3 (transcription activator GCR1‐like). (d) Membrane dynamics and transport proteins featuring five proteins involved in cellular structure and transport processes: BcuAPC (alkaline phytoceramidase), BcuEXT (extensin cell wall organisation protein), BcUNC2 (cation‐transporting P‐type ATPase), BcuLEA2 (LEA‐2 membrane stabilisation protein), and BcuPTR1 (peptide transporter). Protein structures were obtained from the AlphaFold database or modelling.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-9" orientation="portrait" xlink:href="PBI-24-3597-g004.jpg"><?image-name PBI-24-3597-g004.jpg?><?image-size 186119?><?image-md5 09cecabf0981f8d31a68c704f1e205fd?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1321?><?image-original-width 1064?><?image-scaled-height 880?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/09cecabf0981/PBI-24-3597-g004.jpg?><?thumb-name PBI-24-3597-g004.gif?><?thumb-size 5607?><?thumb-md5 72866c9200c56612b1cca8e8d049ce8f?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 124?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8528/13205770/72866c9200c5/PBI-24-3597-g004.gif?></graphic></fig><p>This functional diversity highlights how successful plant infection requires coordinated regulation across multiple cellular pathways, from specialised metabolism and organelle function to transcriptional control and membrane dynamics. Detailed information on accession numbers, predicted subcellular localizations, functional annotations, and pathogenesis implications for each CNAP is provided in Table <xref rid="pbi70526-supitem-0001" ref-type="supplementary-material">S2</xref>.</p></sec><sec id="pbi70526-sec-0007"><label>2.5</label><title>
+<styled-content style="fixed-case" toggle="no">LUCID</styled-content> Pipeline Enables the Generation of Highly Effective <styled-content style="fixed-case" toggle="no">dsRNAs</styled-content> for Gene Silencing</title><p>To validate the LUCID workflow's utility in identifying targets for RNA interference (RNAi)‐based fungicides, we selected a subset of candidate genes for dsRNA‐mediated silencing experiments. From the CEPs group, seven proteins were randomly chosen to demonstrate the pipeline's capacity to rapidly identify RNAi targets. Additionally, five CNAPs were selected to explore novel mechanisms of action and assess the roles of uncharacterized proteins in pathogenesis. This CNAP subset included the three most challenging‐to‐annotate proteins (BcUNC1, BcUNC2, and BcUNC3) along with two randomly selected candidates. For each target, Phase 2 of the LUCID pipeline (dsRNA Design) was employed to generate optimal dsRNA molecules targeting regions with the highest density of effective siRNAs. Our modified SiFi21 analysis facilitated the identification of these regions and automated primer design for amplification, ensuring dsRNA constructs were of optimal size for fungal uptake. Full details of the Phase 2 outputs are provided in Supplementary File <xref rid="pbi70526-supitem-0001" ref-type="supplementary-material">S1</xref>.</p><p>Quantitative RT‐PCR analysis revealed significant gene silencing across all targets compared to the GFP dsRNA negative control (Figure <xref rid="pbi70526-fig-0005" ref-type="fig">5a</xref>). BcTOR, a master regulator of cell growth and proliferation used as a positive control for RNAi, showed a reduced expression level of 27.08%. For CEPs, expression levels were similarly suppressed: BcDOA1 (5.10%), BcPDI (4.17%), BcHSP70 (6.11%), BcBIP (1.63%), BcHHK2 (0.81%), BcODC (0.12%), and BcMCD (2.45%). Among CNAPs, BcUNC1, BcUNC2, and BcUNC3 exhibited expression levels of 3.55%, 8.85%, and 0.26%, respectively. BcuPTR1 and BcuCYP1 were reduced to 1.12% and 3.27%. These results confirm robust silencing, with most targets reduced to below 10% of control levels.</p><fig position="float" fig-type="FIGURE" id="pbi70526-fig-0005" orientation="portrait"><label>FIGURE 5</label><caption><p>Experimental validation of LUCID‐predicted RNAi targets in the tomato–<italic toggle="yes">Botrytis</italic> pathosystem. This figure illustrates the efficacy of dsRNA‐mediated gene silencing targeting <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> genes identified by the LUCID pipeline. (a) Relative expression levels of target genes in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> 24 h after dsRNA treatment, measured by RT‐qPCR. Significant downregulation confirms effective gene silencing compared to controls. (b) Quantification of necrotic leaf area (%) 72 h post‐infection across different dsRNA treatments. (c) Representative tomato leaf images showing disease symptoms following <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> inoculation under various dsRNA treatments after 72 h. Controls include untreated leaves, GFP dsRNA (negative control), and TOR dsRNA (positive control). (d) Optical density‐based quantification of fungal growth in liquid PDB medium 48 h after dsRNA treatment. (e) In vitro growth assay of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> on PDA plates 48 h after dsRNA application. Statistical significance was assessed using one‐way ANOVA followed by Tukey's HSD test: <italic toggle="yes">p</italic> &lt; 0.05 (*), <italic toggle="yes">p</italic> &lt; 0.01 (**), and <italic toggle="yes">p</italic> &lt; 0.001 (***). Individual data points were overlaid on box plots to show the distribution of the data. The boxes represent the interquartile range (IQR) with the median indicated by a horizontal line, and whiskers extend to 1.5 times the IQR. Gene expression data is presented as bar graphs with error bars indicating mean ± SEM.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-11" orientation="portrait" xlink:href="PBI-24-3597-g001.jpg"><?image-name PBI-24-3597-g001.jpg?><?image-size 169411?><?image-md5 411cd204e0c77107f0b1e9fe95d1ba5a?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1369?><?image-original-width 1064?><?image-scaled-height 912?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/411cd204e0c7/PBI-24-3597-g001.jpg?><?thumb-name PBI-24-3597-g001.gif?><?thumb-size 16306?><?thumb-md5 cfb926cabf38b811a8a2284fa5797062?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 129?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8528/13205770/cfb926cabf38/PBI-24-3597-g001.gif?></graphic></fig><p>
+<italic toggle="yes">In planta</italic> assays revealed varying degrees of disease suppression following dsRNA treatment, measured as percentage of disease development relative to negative control (Figure <xref rid="pbi70526-fig-0005" ref-type="fig">5b,c</xref>). BcTOR, serving as a positive control, reduced disease to 34.94%. Among CEPs, BcHHK2 showed the strongest effect, reducing disease to 26.09%, outperforming the control. BcDOA1 was similarly effective (34.14%), while BcPDI and BcHSP70 also significantly reduced virulence (40.51% and 42.17%, respectively). BcMCD showed a more moderate impact (85.17%). For CNAPs, BcUNC2 was most effective (35.66%), followed by BcUNC1 (40.02%) and BcuCYP1 (42.96%). BcuPTR1 and BcUNC3 showed moderate reductions (56.44% and 69.19%). These effects were clearly visible in tomato leaf infection assays (Figure <xref rid="pbi70526-fig-0005" ref-type="fig">5c</xref>). To assess whether dsRNA application affected general fungal growth, we conducted in vitro experiments in both liquid (PDB) media and solid (PDA). No significant changes in growth were observed across treatments (Figure <xref rid="pbi70526-fig-0005" ref-type="fig">5d,e</xref>), indicating that the observed reductions in disease development were specifically due to interference with pathogenicity‐related genes rather than general growth inhibition.</p></sec><sec id="pbi70526-sec-0008"><label>2.6</label><title>Structural Characterisation and Functional Analysis of a Putative Mediator Complex Subunit as a Pathogenicity Target</title><p>Although BcUNC2 exhibited the greatest reduction in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> pathogenicity, BcUNC1 was selected for detailed structural and functional analysis due to its superior silencing efficiency and consistent experimental outcomes (Figure <xref rid="pbi70526-fig-0005" ref-type="fig">5b</xref>). Silencing of BcUNC1 via dsRNA resulted in a 60% decrease in disease development, indicating a significant role in pathogenesis. To investigate the molecular basis of this phenotype, structural analysis was conducted using ProteinCartography and AlphaFold predictions (Figure <xref rid="pbi70526-fig-0006" ref-type="fig">6a,b</xref>). The protein structure revealed a combination of ordered α‐helical regions characteristic of mediator complex subunits, alongside extensive Intrinsically Disorder Regions (IDR). Predictions using DisoRDPbind (Figure <xref rid="pbi70526-fig-0006" ref-type="fig">6c</xref>) indicated that these disordered regions are likely involved in protein–protein interactions, consistent with their role in assembling large macromolecular complexes such as the mediator complex.</p><fig position="float" fig-type="FIGURE" id="pbi70526-fig-0006" orientation="portrait"><label>FIGURE 6</label><caption><p>Structural and functional analysis of BcUNC1. This figure illustrates the structural context and predicted functional properties of the conserved non‐annotated protein BcUNC1. (a) Protein space visualisation generated by ProteinCartography, displaying Leiden clusters in distinct colours. The inset highlights the local protein neighbourhood surrounding BcUNC1 (white, 1), alongside its two closest annotated structural analogs: Mediator complex subunit 9 (orange, 2) and mediator complex subunit 11 (blue‐purple, 3). (b) Semantic analysis of functional annotation distributions across Leiden clusters LC0–LC6. Each panel includes bar charts and word clouds representing the frequency of associated biological functions. (c) Binding propensity profile of BcUNC1 disordered regions. The line plot shows predicted binding probabilities for RNA (blue), DNA (red), and proteins (green) along the amino acid sequence. On the right, the 3D structure of BcUNC1 is shown with predicted protein‐binding regions highlighted in green. Protein structure was obtained from AlphaFold database or modelling.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-13" orientation="portrait" xlink:href="PBI-24-3597-g007.jpg"><?image-name PBI-24-3597-g007.jpg?><?image-size 131225?><?image-md5 371fc43cff6f37928ddc66443cc45b2e?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1535?><?image-original-width 1064?><?image-scaled-height 1023?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/371fc43cff6f/PBI-24-3597-g007.jpg?><?thumb-name PBI-24-3597-g007.gif?><?thumb-size 11650?><?thumb-md5 e4b50f80b903aa3e7d238eeaed094352?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 144?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8528/13205770/e4b50f80b903/PBI-24-3597-g007.gif?></graphic></fig><p>To further explore BcUNC1's functional role, a co‐expression network analysis was performed integrating differential expression data from infection versus non‐infection conditions (Figure <xref rid="pbi70526-fig-0007" ref-type="fig">7a</xref>). The resulting network revealed a group of co‐expressed genes contributing to a coordinated virulence programme (Figure <xref rid="pbi70526-fig-0007" ref-type="fig">7b</xref>). Notably, several secondary metabolism enzymes were strongly co‐expressed with BcUNC1, including: an enoyl reductase (ER) domain‐containing protein, upregulated during infection and localised to the cytoplasm, which catalyses double bond reduction in polyketide and fatty acid biosynthesis, contributing to phytotoxin production. A SnoaL‐like domain‐containing cyclase, also upregulated, involved in the synthesis of complex cyclic secondary metabolites. An extracellular AB hydrolase‐1 domain‐containing lipase/esterase, which degrades structural plant lipids to facilitate penetration of cuticles and cell membranes. The network also revealed differential regulation of redox homeostasis components: a cytoplasmic DSBA‐like thioredoxin domain‐containing protein 1 was downregulated during infection, suggesting reduced thiol‐disulfide exchange activity in the cytoplasm. In contrast, a mitochondrial DSBA‐like thioredoxin domain‐containing protein 2 was upregulated, indicating a compartmentalised redox strategy. A cytoplasmic 6‐phosphogluconolactonase, upregulated during infection, catalyses a key step in the oxidative phase of the pentose phosphate pathway, generating NADPH for biosynthesis and redox balance. An extracellular copper transporter, downregulated during infection, regulates copper availability for antioxidant enzymes and redox signalling. Detailed descriptions of these co‐expressed proteins and their potential roles in pathogenesis are provided in Table <xref rid="pbi70526-supitem-0001" ref-type="supplementary-material">S3</xref>.</p><fig position="float" fig-type="FIGURE" id="pbi70526-fig-0007" orientation="portrait"><label>FIGURE 7</label><caption><p>Co‐expression network analysis of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> transcriptome highlighting CNAP BcUNC1. This figure presents a Weighted Gene Co‐expression Network Analysis (WGCNA) of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> transcriptomic data, with emphasis on the conserved non‐annotated protein BcUNC1. (a) Hierarchical clustering dendrogram (top left) showing gene modules identified by WGCNA, with colour‐coded assignments before and after merging similar modules. Network visualisation (top right) displays gene connections with topological overlap (TOM) &gt; 0.1, with node colours corresponding to module membership. (b) Subnetwork centred on mediator complex subunit (BcUNC1) within the brown module, illustrating its closest co‐expressed neighbours. Node colours reflect log<sub>2</sub> fold‐change during infection: Red for upregulated genes, blue for downregulated. (c) RT‐qPCR analysis of genes co‐expressed with BcUNC1 in infected tomato plants treated with BcUNC1 dsRNA versus control dsRNA. Expression changes are shown as log<sub>2</sub> fold‐change, with data presented as mean ± standard error from three independent biological replicates.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" position="anchor" id="jats-graphic-15" orientation="portrait" xlink:href="PBI-24-3597-g006.jpg"><?image-name PBI-24-3597-g006.jpg?><?image-size 101787?><?image-md5 1dd01cc014252b9240d7da36c724659f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 950?><?image-original-width 1064?><?image-scaled-height 633?><?image-scaled-width 709?><?image-cloudpmc-urn urn:cdn:blobs/8528/13205770/1dd01cc01425/PBI-24-3597-g006.jpg?><?thumb-name PBI-24-3597-g006.gif?><?thumb-size 12315?><?thumb-md5 6234a425dac023270ef63e5cf05fb03a?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 89?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/8528/13205770/6234a425dac0/PBI-24-3597-g006.gif?></graphic></fig><p>To validate the regulatory role of BcUNC1 on the genes identified in the co‐expression network, qPCR analysis was performed comparing gene expression in infected plants treated with control dsRNA versus dsRNA targeting BcUNC1. BcUNC1 silencing resulted in significant upregulation of most analysed genes compared to the control (Figure <xref rid="pbi70526-fig-0007" ref-type="fig">7c</xref>). The genes showing the highest expression increases were those encoding the SnoaL domain protein (3.79 log2 fold‐change) and the ER domain protein (2.22 log2 fold‐change). The DSBA‐like thioredoxin domain protein 2 showed 1.80 log2 fold‐change, while the copper transporter exhibited 1.79 log2 fold‐change. The DSBA‐like thioredoxin domain protein 1 displayed 1.50 log2 fold‐change, and the AB hydrolase‐1 domain protein showed 1.22 log2 fold‐change. The 6‐phosphogluconolactonase showed the smallest change (0.67 log2 fold‐change).</p><p>These results suggest that BcUNC1 functions as a fine‐tuning transcriptional regulator that coordinates controlled expression of virulence‐associated genes during infection, rather than simply acting as a direct activator.</p></sec></sec><sec sec-type="discussion" id="pbi70526-sec-0009"><label>3</label><title>Discussion</title><p>The development of dsRNA‐based control strategies for phytopathogenic fungi faces significant challenges in target identification and validation, often requiring years of empirical testing to identify effective silencing targets (Keerthana and Koteeswaran <xref rid="pbi70526-bib-0034" ref-type="bibr">2024</xref>). Traditional approaches rely on candidate gene selection based on limited functional information, leading to lengthy development cycles and frequent failures in achieving sufficient pathogen control. To address these bottlenecks, we introduce LUCID, a novel computational pipeline that identifies optimal targets for RNAi‐based control of phytopathogenic fungi.</p><p>In our implementation of LUCID on <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>, we used RNA‐seq data from early tomato leaf infection (24 hpi) to capture genes active during initial host colonisation. This experimental design is critical, as the timing, host species, and infection conditions of transcriptomic sampling directly influence which genes emerge as infection‐associated candidates, and users should tailor their RNA‐seq experiments to the specific pathosystem and disease stage most relevant to their control objectives. Functional enrichment analysis of the resulting upregulated genes in <italic toggle="yes">B. cinerea</italic> revealed significant overrepresentation of biological processes directly linked to fungal pathogenicity. Plant cell wall degradation processes were prominently represented, including cellulose, pectin, xylan, and arabinan catabolic processes, which are essential for host penetration and nutrient acquisition. The enrichment in carbohydrate metabolism and transport, fatty acid metabolism, and specialised metabolism pathways further underscores the metabolic reprogramming that occurs during infection. These findings align with established knowledge of fungal pathogenicity mechanisms, where the ability to degrade host cell walls and efficiently utilise host‐derived nutrients is crucial for successful colonisation (Kubicek et al. <xref rid="pbi70526-bib-0036" ref-type="bibr">2014</xref>). In parallel, comparative proteomics identified conserved proteins shared across multiple phytopathogenic fungi, enriched in functions such as protein homeostasis, vesicle‐mediated transport, and energy metabolism. The conservation of these processes across diverse fungal pathogens suggests their essential role in the pathogenic lifestyle (Giraldo et al. <xref rid="pbi70526-bib-0027" ref-type="bibr">2013</xref>; Liu et al. <xref rid="pbi70526-bib-0043" ref-type="bibr">2025</xref>). Orthology‐based conservation analyses can be affected by proteome annotation quality and completeness, and both broad and partial conservation may reflect housekeeping rather than virulence‐specific roles. For this reason, LUCID integrates these data through multi‐layered filtering that requires pathogen‐wide conservation, infection‐induced upregulation, and homology to experimentally validated virulence factors. This approach enriches for functionally relevant pathogenicity related proteins, as supported by saprophytic‐growth assays. Importantly, infection‐associated expression is inherently time‐dependent: early sampling captures genes suited for preventive or early‐intervention strategies, whereas later infection stages highlight targets more appropriate for curative applications. Although constitutively expressed essential genes could, in principle, support preventive treatments, they carry higher risks of affecting conserved pathways. Incorporating multiple infection stages or targeted time‐course analyses for promising candidates may therefore refine target selection and optimise application windows.</p><p>The CEPs branch demonstrated remarkable efficacy with 71.4% of tested candidates showing disease reduction comparable to or better than the positive control. The effectiveness of our approach is particularly exemplified by BcHhk2, which reduced disease development to only 26.09%. This histidine kinase group V protein plays a crucial role in signal transduction pathways, contributing to virulence through osmotic and oxidative stress adaptation and toxin production (Escobar‐Niño et al. <xref rid="pbi70526-bib-0021" ref-type="bibr">2021</xref>). Similarly, the significant virulence reduction observed with BcDOA1 and BcPDI highlights the critical importance of protein quality control processes during infection, consistent with findings from other pathosystems (Stolf et al. <xref rid="pbi70526-bib-0070" ref-type="bibr">2011</xref>; Noman et al. <xref rid="pbi70526-bib-0056" ref-type="bibr">2023</xref>; Wang et al. <xref rid="pbi70526-bib-0079" ref-type="bibr">2024</xref>). A particularly noteworthy observation from our study is the prominence of peroxisome‐associated proteins among both CEPs and CNAPs groups. Within the CEPs, the identification of BcPEX14 and BcPEX6 underscores the critical role of peroxisomes in fungal pathogenicity. Peroxisomes are increasingly recognised as critical organelles in fungal‐plant interactions, contributing to fatty acid metabolism, detoxification of reactive oxygen species, and secondary metabolism (Imazaki et al. <xref rid="pbi70526-bib-0031" ref-type="bibr">2010</xref>; Wei et al. <xref rid="pbi70526-bib-0080" ref-type="bibr">2013</xref>; Falter and Reumann <xref rid="pbi70526-bib-0022" ref-type="bibr">2022</xref>). This aligns with previous studies in <italic toggle="yes">Magnaporthe oryzae</italic>, where peroxisomal function was shown to be essential for appressorium‐mediated host penetration and adaptation to oxidative stress during infection (Li et al. <xref rid="pbi70526-bib-0039" ref-type="bibr">2017</xref>; Wang et al. <xref rid="pbi70526-bib-0077" ref-type="bibr">2019</xref>; Chen et al. <xref rid="pbi70526-bib-0013" ref-type="bibr">2024</xref>).</p><p>One of the most impactful outcomes of our study is the identification of novel virulence factors through the CNAPs branch. This approach builds upon recent advances in a work that successfully identified novel target candidates in <italic toggle="yes">Podosphaera xanthii</italic> for controlling powdery mildews through spray‐induced gene silencing (Ruiz‐Jiménez et al. <xref rid="pbi70526-bib-0066" ref-type="bibr">2021</xref>). By combining structural predictions using ProteinCartography (Avasthi et al. <xref rid="pbi70526-bib-0005" ref-type="bibr">2023</xref>), which employs state‐of‐the‐art protein language models (PLMs) to identify functional relationships beyond traditional sequence similarity approaches (Lin et al. <xref rid="pbi70526-bib-0042" ref-type="bibr">2023</xref>), we have inferred functional annotations for previously uncharacterized proteins with implications in pathogenesis. Notably, BcUNC1, BcUNC2 and BcuCYP1 showed strong silencing effects, reducing disease development to 40.02%, 35.66% and 42.96% respectively. These results validate our approach of targeting conserved yet previously uncharacterized proteins as an effective strategy for identifying novel pathogenicity factors. Importantly, in vitro PDA assays showed that silencing did not affect normal pathogen growth, strongly supporting that these are pathogenesis‐specific genes identified through our targeted strategies, which should significantly reduce off‐target effects on beneficial non‐pathogenic fungi.</p><p>The selection of BcUNC1 was motivated by the critical role of transcriptional reprogramming in coordinating the expression of pathogenesis arsenals during infection (Moran et al. <xref rid="pbi70526-bib-0052" ref-type="bibr">2019</xref>; John et al. <xref rid="pbi70526-bib-0033" ref-type="bibr">2021</xref>). The structural features of this protein combine ordered α‐helical regions similar to Mediator complex subunits 9 and 11 (Verger et al. <xref rid="pbi70526-bib-0076" ref-type="bibr">2019</xref>), and extensive intrinsically disordered regions that facilitate flexible protein–protein interactions (Peng and Kurgan <xref rid="pbi70526-bib-0060" ref-type="bibr">2015</xref>). Proteins with disordered regions are of particular interest in pathogenesis research, as these regions have been shown to be significantly associated with virulence in fungi (Chepsergon and Moleleki <xref rid="pbi70526-bib-0015" ref-type="bibr">2023</xref>). The evolutionary expansion of intrinsically disordered regions within Mediator complex subunits has been particularly pronounced in more complex organisms, with these flexible domains conferring enhanced regulatory capabilities and enabling dynamic protein–protein interactions essential for transcriptional control (Nagulapalli et al. <xref rid="pbi70526-bib-0054" ref-type="bibr">2016</xref>). Studies of Mediator complex components in fungal pathogens support this hypothesis, as they have demonstrated their crucial role in integrating regulatory signals and facilitating recruitment of transcriptional machinery to virulence‐related gene promoters (Bourbon <xref rid="pbi70526-bib-0007" ref-type="bibr">2008</xref>).</p><p>Co‐expression network analysis further revealed that BcUNC1 is tightly linked to diverse virulence‐related processes. These include secondary metabolism enzymes such as an enoyl reductase involved in host‐specific phytotoxin biosynthesis (Yang et al. <xref rid="pbi70526-bib-0083" ref-type="bibr">1996</xref>; Lysøe et al. <xref rid="pbi70526-bib-0050" ref-type="bibr">2006</xref>; Li et al. <xref rid="pbi70526-bib-0038" ref-type="bibr">2020</xref>) and a SnoaL‐like domain protein involved in phytotoxic compound synthesis (Ferrara et al. <xref rid="pbi70526-bib-0023" ref-type="bibr">2021</xref>). Co‐expression was also observed with an AB hydrolase‐1 domain protein that degrades plant lipids, aiding in host barrier penetration and nutrient acquisition (de Torres Oliveira et al. <xref rid="pbi70526-bib-0018" ref-type="bibr">2024</xref>), and metabolic enzymes including a 6‐phosphogluconolactonase that supports high energy demands and redox homeostasis during infection (Wilson et al. <xref rid="pbi70526-bib-0081" ref-type="bibr">2007</xref>). Additionally, the network included redox‐related proteins such as DSBA‐like thioredoxins and a copper transporter affecting redox balance in host‐pathogen interactions (Shahid et al. <xref rid="pbi70526-bib-0068" ref-type="bibr">2014</xref>; Hammerstad and Hersleth <xref rid="pbi70526-bib-0028" ref-type="bibr">2021</xref>; Ray and Rappleye <xref rid="pbi70526-bib-0064" ref-type="bibr">2022</xref>; Tian et al. <xref rid="pbi70526-bib-0073" ref-type="bibr">2023</xref>). Functional validation revealed a regulatory role for BcUNC1: silencing this gene led to significant upregulation of most co‐expressed targets, suggesting that BcUNC1 functions not as a direct activator but as a transcriptional balancer. This regulatory behaviour aligns with known dual roles of Mediator subunits in fungi, which can act as activators or repressors depending on cellular context (Cao et al. <xref rid="pbi70526-bib-0009" ref-type="bibr">2016</xref>; Zhou et al. <xref rid="pbi70526-bib-0084" ref-type="bibr">2022</xref>). Taken together, these findings support the model that BcUNC1 orchestrates the balanced expression of metabolic, redox, and secretion‐related programmes essential for successful infection.</p><p>The dual‐branch strategy employed in LUCID workflow proved highly effective in identifying silencing targets through a comprehensive approach that systematically integrates transcriptomic and comparative genomic data. This success rate significantly exceeds the performance of traditional approaches (McLoughlin et al. <xref rid="pbi70526-bib-0051" ref-type="bibr">2018</xref>; Chen, Shi, et al. <xref rid="pbi70526-bib-0014" ref-type="bibr">2025</xref>). Also, the integration of dsRNA design generates primers that amplify regions producing highly effective dsRNAs for silencing, as demonstrated by the consistent transcript silencing achieved across all tested targets. Furthermore, to address off‐target concerns, LUCID incorporates off‐target prediction against user‐provided non‐target transcriptomes and chimeric dsRNA design through dsRNAmax (Fletcher et al. <xref rid="pbi70526-bib-0025" ref-type="bibr">2025</xref>). This enables computational assessment of cross‐reactivity with host plants, beneficial fungi, or pollinators, mitigating risks that conserved sequences in phytopathogenic fungi may affect non‐target organisms. The integration of dsRNAmax also facilitates the design of multi‐target chimeric dsRNAs from validated candidates, enabling broad‐spectrum formulations while maintaining sequence specificity.</p><p>Concentration optimization is critical for developing competitive products. Our <italic toggle="yes">in planta</italic> assays used 50 ng/μL, consistent with recent SIGS validations in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> (Capriotti et al. <xref rid="pbi70526-bib-0010" ref-type="bibr">2024</xref>; Qiao et al. <xref rid="pbi70526-bib-0062" ref-type="bibr">2023</xref>). However, it has also been described that dsRNA above 10 ng/μL can trigger sequence‐independent PAMP responses (Höfle et al. <xref rid="pbi70526-bib-0030" ref-type="bibr">2025</xref>). For this reason, although our results support primarily RNAi‐mediated effects, field applications would benefit from concentration optimization to balance efficacy and cost‐effectiveness.</p><p>With RNAi‐based products already approved and others in development, biotechnology companies need robust computational tools to remain competitive in the evolving plant health landscape (De Schutter et al. <xref rid="pbi70526-bib-0017" ref-type="bibr">2022</xref>). In a sector where only a small fraction of candidate compounds or technologies progress from early‐stage discovery to commercial deployment, LUCID offers a powerful solution to reduce R&amp;D risk by focusing experimental efforts on the most promising computationally identified targets (Gathman et al. <xref rid="pbi70526-bib-0026" ref-type="bibr">2025</xref>).</p></sec><sec id="pbi70526-sec-0010"><label>4</label><title>Experimental Procedures</title><sec id="pbi70526-sec-0011"><label>4.1</label><title>
+<styled-content style="fixed-case" toggle="no">LUCID</styled-content>—Workflow</title><p>LUCID (Locating Uncovered, Conserved and Indispensable for Pathogenicity Determinants) is a novel computational pipeline designed to identify optimal targets for RNA interference‐based control strategies in phytopathogenic fungi. By combining transcriptomic profiles with comparative genomic analysis, LUCID identifies genes that are both highly active during infection and conserved among selected fungal species. The pipeline operates in two phases: Phase 1 (Target Selection) leverages transcriptomic and genomic data to uncover candidate genes for silencing. Phase 2 (dsRNA Design) focuses on crafting double‐stranded RNA molecules tailored for effective gene knockdown, ensuring high specificity and silencing potency within fungal systems. The complete source code, datasets, and usage guidelines are publicly accessible at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/Brunxi/LUCID" ext-link-type="uri">https://github.com/Brunxi/LUCID</ext-link>.</p><sec id="pbi70526-sec-0012"><label>4.1.1</label><title>Phase 1: Target Selection</title><p>LUCID's workflow consists of several interconnected steps: (1) Data preparation, including organisation of genome assemblies and annotations, proteomes, and RNA‐seq datasets; (2) Orthology analysis to identify conserved proteins across multiple fungal species of interest; (3) Gene expression analysis, depending on the fungal lifestyle, either TPM‐based quantification (for obligate biotrophs) or differential expression analysis (for non‐obligate biotrophs) is applied to assess transcriptional activity during infection; and (4) Target identification through integration of expression data, conservation patterns, and homology searches against a curated database of known pathogenicity factors. This approach categorises potential targets into two groups: Conserved Essential Proteins (CEPs), which are conserved, highly expressed proteins with known functions essential for pathogenicity in other phytopathogens, and Conserved Non‐Annotated Proteins (CNAPs), which represent novel conserved proteins with high expression levels during infection but lacking functional annotation.</p></sec><sec id="pbi70526-sec-0013"><label>4.1.2</label><title>Phase 2: <styled-content style="fixed-case" toggle="no">dsRNA</styled-content> Design</title><p>The second stage of the LUCID pipeline focuses on designing optimal double‐stranded RNA (dsRNA) molecules to silence the gene targets identified during Phase 1. This phase utilises both the selected transcripts and the full transcriptome of the target fungal pathogen as input. To achieve precise and effective gene silencing, LUCID integrates a customised version of the siFi21 software (Lück et al. <xref rid="pbi70526-bib-0048" ref-type="bibr">2019</xref>), a widely adopted tool for predicting functional small interfering RNAs (siRNAs). For each transcript, the pipeline conducts a detailed analysis to pinpoint the most suitable silencing regions by: (1) Predicting siRNAs, evaluating all possible 21‐nt siRNA windows along the transcript based on sequence characteristics, thermodynamic stability, and target site accessibility; (2) Identifying high‐density windows: the algorithm employs a sliding window approach to scan the transcript for regions between 200 and 400 bp (Höfle et al. <xref rid="pbi70526-bib-0029" ref-type="bibr">2020</xref>), selecting the window with the highest density of effective siRNAs, defined as those meeting both efficiency criteria and accessibility thresholds (target site accessibility &gt; 0.1). The final dsRNA length is determined by that specific region showing maximal siRNA density; (3) Visualising siRNA distribution, producing graphical outputs that map siRNA effectiveness across the transcript, clearly marking the optimal silencing zone; (4) Generating JSON output, compiling a structured file containing siRNA sequences, accessibility metrics, and all relevant parameters for downstream use; (5) Designing primers, automatically generating primers with Primer3 (Untergasser et al. <xref rid="pbi70526-bib-0074" ref-type="bibr">2012</xref>) to amplify the region selected in step 2. This streamlined and automated process equips researchers with all the necessary data to synthesise potent dsRNA molecules, precisely targeting the most accessible and effective regions of fungal transcripts.</p></sec><sec id="pbi70526-sec-0014"><label>4.1.3</label><title>Phase 3: Off‐Target Prediction and Chimeric <styled-content style="fixed-case" toggle="no">dsRNA</styled-content> Design</title><p>The third phase evaluates potential off‐target effects and enables multi‐target dsRNA construction. For off‐target assessment, the pipeline extracts all 21‐nt siRNAs from each designed dsRNA and performs BLAST searches against the non‐target transcriptomes to identify potential matches. Hits with high sequence similarity are flagged for user review. Additionally, this phase integrates dsRNAmax (Fletcher et al. <xref rid="pbi70526-bib-0025" ref-type="bibr">2025</xref>) to design chimeric dsRNAs. Users can input multiple validated target sequences, and dsRNAmax generates chimeric constructs that combine these targets while minimising sequence redundancy and maintaining RNAi efficacy.</p></sec></sec><sec id="pbi70526-sec-0015"><label>4.2</label><title>Data Sources and Preparation: <styled-content style="fixed-case" toggle="no">RNA</styled-content>‐Seq, Genomes, Proteomes, and Virulence Databases</title><p>To identify RNAi targets in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>, transcriptomic data were retrieved from NCBI for strain B05.10 under two conditions: tomato infection (SRR6924534–SRR6924536) and in vitro growth (SRR6924547–SRR6924549). These datasets enabled comparative analysis between parasitic and saprophytic lifestyles. The reference genome used for alignment and annotation was obtained from Ensembl Fungi (assembly ASM361119v1). For conservation analysis, proteomes from six phytopathogenic fungi were sourced from Ensembl Fungi: <italic toggle="yes">Blumeria graminis</italic> (EF2), <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> (ASM83294v1), <italic toggle="yes">Fusarium mangiferae</italic> (version 1), <italic toggle="yes">F. oxysporum</italic> (FO2), <italic toggle="yes">Golovinomyces cichoracearum</italic> (ASM361119v1), and <italic toggle="yes">Sclerotinia sclerotiorum</italic> (ASM14694v1). To facilitate homology‐based identification of Conserved Essential Proteins (CEPs), a curated pathogenicity database was assembled by integrating multiple resources: PHI‐base (Urban et al. <xref rid="pbi70526-bib-0075" ref-type="bibr">2020</xref>), DEG (Luo et al. <xref rid="pbi70526-bib-0049" ref-type="bibr">2021</xref>), VEuPathDB (Alvarez‐Jarreta et al. <xref rid="pbi70526-bib-0002" ref-type="bibr">2024</xref>), and DFVF (Lu et al. <xref rid="pbi70526-bib-0047" ref-type="bibr">2012</xref>). Redundant sequences with greater than 40% identity were filtered using DIAMOND (v2.1.11) (Buchfink et al. <xref rid="pbi70526-bib-0008" ref-type="bibr">2015</xref>).</p></sec><sec id="pbi70526-sec-0016"><label>4.3</label><title>Computational Methods for Orthology, Transcriptomics, and Homology Analyses</title><p>For orthology analysis, OrthoFinder (v2.5.5) (Emms and Kelly <xref rid="pbi70526-bib-0020" ref-type="bibr">2019</xref>) was used to identify conserved protein families across the selected fungal species. We specifically focused on orthogroups containing proteins present in all six phytopathogenic. For transcriptomics analysis, we utilised in R (v4.1.2) the Rsubread package (v2.8.2) (Liao et al. <xref rid="pbi70526-bib-0041" ref-type="bibr">2013</xref>) for read alignment and quantification, followed by differential expression analysis with DESeq2 (v1.34.0) (Love et al. <xref rid="pbi70526-bib-0046" ref-type="bibr">2014</xref>). Genes were considered significantly upregulated during infection when they exhibited a log2 fold change &gt; 1 and an adjusted <italic toggle="yes">p</italic>‐value &lt; 0.05. Homology searches against our curated database of essential and virulence‐required genes were performed using DIAMOND (v2.1.11) (Buchfink et al. <xref rid="pbi70526-bib-0008" ref-type="bibr">2015</xref>). Strict filtering criteria, retaining only proteins with &gt; 45% sequence identity and a bitscore &gt; 50 to identify CEPs with high confidence were applied.</p></sec><sec id="pbi70526-sec-0017"><label>4.4</label><title>Annotation Tools</title><p>To identify Conserved Non‐Annotated Proteins (CNAPs), we focused on conserved, upregulated proteins that lacked functional annotation or characterisation in UniProt entries. Initial functional predictions were conducted using large‐scale BLAST searches, enabling tentative inference based on sequence similarity. Proteins that remained uncharacterized after these analyses were further examined using ProteinCartography (Avasthi et al. <xref rid="pbi70526-bib-0005" ref-type="bibr">2023</xref>), a tool that leverages structural information rather than sequence data. This structure‐based approach is particularly advantageous, as protein folding patterns are typically more conserved than amino acid sequences and often provide stronger functional clues, even when sequence homology is low. Predicted subcellular localization for all proteins was obtained using DeepLoc 2.0 (Thumuluri et al. <xref rid="pbi70526-bib-0072" ref-type="bibr">2022</xref>), and 3D structures were predicted using AlphaFold2 (Abramson et al. <xref rid="pbi70526-bib-0001" ref-type="bibr">2024</xref>). Functional enrichment analysis was performed using DAVID (Sherman et al. <xref rid="pbi70526-bib-0069" ref-type="bibr">2022</xref>). For protein–protein interactions involving intrinsically disordered regions, we used DisoRDPbind (Peng and Kurgan <xref rid="pbi70526-bib-0060" ref-type="bibr">2015</xref>).</p></sec><sec id="pbi70526-sec-0018"><label>4.5</label><title>Plants, Microbes, Nucleic Acid Extraction and <styled-content style="fixed-case" toggle="no">cDNA</styled-content> Synthesis</title><p>Tomato ‘Moneymaker’ plants (<italic toggle="yes">Solanum lycopersicum</italic>) were cultivated at 24°C under 16 h light/8 h darkness for dsRNA assays. <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> B05.10 was maintained on PDA. <italic toggle="yes">E. coli</italic> DH5α was cultured at 37°C in LB medium with ampicillin (100 μg m L<sup>−1</sup>) for RNAi vector work. Infected tomato leaves were frozen in liquid nitrogen, stored at −80°C, and pulverised. Total RNA was extracted using TRI Reagent (Sigma‐Aldrich), eluted in DEPC‐treated water, and stored at −80°C. RNA concentration was determined using NanoDrop 2000 (Thermo Fisher Scientific). cDNA synthesis was performed using Superscript III reverse transcriptase with random primers following the manufacturer's protocols.</p></sec><sec id="pbi70526-sec-0019"><label>4.6</label><title>In Vitro Production of <styled-content style="fixed-case" toggle="no">dsRNA</styled-content>
+</title><p>For dsRNA production, target sequences were cloned into plasmids with opposing T7 RNA polymerase promoters, followed by one‐step PCR amplification with flanking T7 sequences and in vitro transcription. <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> gene fragments and a 379 bp GFP control fragment were amplified from cDNA using Phusion High‐Fidelity DNA polymerase (Thermo Fisher Scientific) with Primer3‐designed primers (Untergasser et al. <xref rid="pbi70526-bib-0074" ref-type="bibr">2012</xref>). PCR conditions: 98°C/30 s, then 35 cycles of 98°C/10 s, 60°C/30 s, 72°C/30 s, final extension 72°C/7 min. PCR products were digested with FastDigest KpnII and BglII (Thermo Fisher Scientific) and ligated into pL4440 vector. Plasmids were propagated in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">E. coli</italic>
+</styled-content> DH5α and verified by PCR, digestion, and sequencing. Inserts flanked with T7 promoters were amplified using T7‐F/T7‐R primers, purified, and used for in vitro transcription with MEGAScript RNAi kit (Invitrogen). dsRNA concentration was determined using NanoDrop 2000, and integrity confirmed on 1.5% agarose gels.</p></sec><sec id="pbi70526-sec-0020"><label>4.7</label><title>
+<styled-content style="fixed-case" toggle="no">dsRNA</styled-content>‐Mediated Gene Silencing Assays</title><p>In planta dsRNA‐mediated gene silencing was performed following previous detached leaf assays (McLoughlin et al. <xref rid="pbi70526-bib-0051" ref-type="bibr">2018</xref>) with minor modifications. Leaves from 4‐week‐old plants were placed adaxial side up in petri dishes containing 0.5% water agar. A 5 μL solution containing 500 ng of dsRNA was mixed with 5 μL of <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> spores prepared in Gamborg's B‐5 minimal medium (GB5: 3.05 g L<sup>−1</sup>, 10 mM KH<sub>2</sub>PO<sub>4</sub>, 25 mM glucose, pH 5.5; 1 × 10<sup>4</sup> spores mL<sup>−1</sup>) and applied to the leaf surface. <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> TOR gene served as a positive control (Xiong et al. <xref rid="pbi70526-bib-0082" ref-type="bibr">2019</xref>; Escobar‐Niño et al. <xref rid="pbi70526-bib-0021" ref-type="bibr">2021</xref>), while GFP dsRNA was used as a negative control (Ray et al. <xref rid="pbi70526-bib-0063" ref-type="bibr">2022</xref>). The plates were sealed with parafilm and incubated at 20°C with a 16 h light/8 h dark photoperiod at 100% relative humidity. Disease symptoms were evaluated by measuring lesion diameter using ImageJ (Schneider et al. <xref rid="pbi70526-bib-0067" ref-type="bibr">2012</xref>) software at 72 h post‐inoculation (hpi). Water and GFP‐dsRNA were used as controls. Each experiment included at least six biological replicates per treatment. Statistical analyses were performed using Python (v3.12) with statsmodels (v0.14.1) and scipy (v1.12.0) packages. The significance of differences in necrotic area per leaf between treatments was assessed using one‐way analysis of variance (ANOVA). Post hoc comparisons between treatments and water control were conducted using Tukey's Honestly Significant Difference (HSD) test.</p><p>In vitro assays were performed following previous protocols with modifications (Wang et al. <xref rid="pbi70526-bib-0078" ref-type="bibr">2016</xref>). For solid media assays, PDA plates were prepared and 50 μL drops containing dsRNA (20 ng/μL) were applied and evenly distributed across the surface using glass beads. After absorption of the dsRNA solution, discs of growing <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> mycelium (5 mm diameter and 2 mm thickness; 5 × 10<sup>5</sup> spores/mL) were made, placed on PDA plates and incubated for 48 h at 24°C. For liquid assays, spores were incubated in 1/2 PDB supplemented with dsRNA at a final concentration of 20 ng/μL and incubated for 48 h at 20°C and agitation (130 rpm). Growth inhibition was evaluated and the significance of differences in mycelial growth between treatments was assessed using one‐way analysis of variance (ANOVA). Post hoc comparisons between treatments and water control were conducted using Tukey's Honestly Significant Difference (HSD) test.</p></sec><sec id="pbi70526-sec-0021"><label>4.8</label><title>Quantitative Reverse Transcription <styled-content style="fixed-case" toggle="no">RT</styled-content>‐<styled-content style="fixed-case" toggle="no">qPCR</styled-content>
+</title><p>Gene expression analysis in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> was performed using RT‐qPCR. Primers were designed with Primer3 software (Table <xref rid="pbi70526-supitem-0001" ref-type="supplementary-material">S4</xref>), specifically excluding the regions targeted by dsRNA to prevent amplification bias. To evaluate the silencing effect of dsRNA treatments, cDNA was synthesised from RNA extracted from <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>‐infected tomato leaf discs collected 24 h post‐inoculation (hpi). The <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content> ubiquitin gene <italic toggle="yes">Bcsmt3</italic> (Bcin11g03430) was used as the internal reference for normalisation (Ren et al. <xref rid="pbi70526-bib-0065" ref-type="bibr">2017</xref>). RT‐qPCR assays were carried out on an Applied Biosystems StepOnePlus Real‐Time PCR System (Thermo Fisher Scientific) using KAPA SYBR FAST reagents (Kapa Biosystems), following the manufacturer's protocol. Thermal cycling conditions included an initial enzyme activation at 95°C for 3 min, followed by 40 cycles of 95°C for 3 s and 56°C for 20 s. Each reaction was run in triplicate, both technically and biologically. Post‐amplification, product sizes were verified via electrophoresis on 2% agarose gels, and melting curve analysis was conducted to confirm specificity. Relative gene expression was calculated using the 2<sup>−ΔΔ<italic toggle="yes">Ct</italic>
+</sup> method (Livak and Schmittgen <xref rid="pbi70526-bib-0044" ref-type="bibr">2001</xref>), and relative expression as log2fc was calculated as −ΔΔ<italic toggle="yes">Ct</italic>. The experimental design included three biological and three technical replicates; standard deviation calculations were performed by independently calculating 2<sup>−ΔΔ<italic toggle="yes">Ct</italic>
+</sup> or −ΔΔ<italic toggle="yes">Ct</italic> values for each biological replicate.</p></sec><sec id="pbi70526-sec-0022"><label>4.9</label><title>Co‐Expression Network Construction</title><p>To explore gene co‐expression patterns in <styled-content style="fixed-case" toggle="no">
+<italic toggle="no">B. cinerea</italic>
+</styled-content>, a Weighted Gene Co‐expression Network Analysis (WGCNA) was performed using RNA‐seq data from NCBI BioProject PRJNA439019 (SRR6924534–SRR6924549).</p><p>Raw sequencing reads were processed as previously described to generate count matrices. Genes with fewer than five counts in at least 12 samples were excluded, yielding a filtered dataset of 13 284 genes for network analysis. Expression values were normalised using the variance‐stabilising transformation (VST) from DESeq2 (Anders and Huber <xref rid="pbi70526-bib-0003" ref-type="bibr">2012</xref>). The co‐expression network was constructed using the WGCNA package (v1.70‐3) in R (Langfelder and Horvath <xref rid="pbi70526-bib-0037" ref-type="bibr">2008</xref>), applying the following parameters: unsigned network type, soft‐thresholding power of 10 (determined by scale‐free topology criteria), maximum block size of 14 000, and a mergeCutHeight of 0.25. Gene modules were identified using the dynamic tree‐cutting algorithm with default settings. To quantify co‐expression relationships, an adjacency matrix was computed using the selected soft power, followed by generation of a topological overlap matrix (TOM) via the TOMsimilarity function with the ‘unsigned’ option. For visualisation and downstream analysis, gene pairs with TOM values greater than 0.1 were retained, representing robust co‐expression links.</p></sec></sec><sec id="pbi70526-sec-0023"><title>Author Contributions</title><p>Á.P., A.P.‐G. and L.J.‐C. designed and planned the experiments. A.L.‐L. and L.J.‐C. performed experiments and data analysis. L.J.‐C. and Á.P. wrote the manuscripts. A.P.‐G. and D.F.‐O. revised the manuscript. Á.P. and A.P.‐G. supervised the study. All authors read and approved of its content.</p></sec><sec id="pbi70526-sec-0024"><title>Funding</title><p>This work was supported by AYUDAS A LA I+D+i EN EL ÁMBITO DEL PLAN ANDALUZ DE INVESTIGACIÓN, DESARROLLO E INNOVACIÓN (PAIDI 2020) (PY20_00048) and MICIU/AEI/10.13039/501100011033 and ERDF/EU (PID2022‐136240OB‐C21). Funding for open access charge: Universidad de Málaga / CBUA.</p></sec><sec sec-type="COI-statement" id="pbi70526-sec-0025"><title>Conflicts of Interest</title><p>The authors declare no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material id="pbi70526-supitem-0001" position="float" content-type="local-data" orientation="portrait"><caption><p>
+<bold>Appendix S1:</bold> pbi70526‐sup‐0001‐AppendixS1.zip.</p></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="PBI-24-3597-s001.zip" position="float" orientation="portrait"><?suppdata-name PBI-24-3597-s001.zip?><?suppdata-size 22?><?suppdata-md5 76cdb2bad9582d23c1f6f4d868218d6c?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type zip?><?suppdata-cloudpmc-urn urn:app:8528/13205770/76cdb2bad958/PBI-24-3597-s001.zip?></media></supplementary-material></sec></body><back><sec sec-type="data-availability" id="pbi70526-sec-0027"><title>Data Availability Statement</title><p>The data that support the findings of this study are openly available in LUCID at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://github.com/Brunxi/LUCID" ext-link-type="uri" specific-use="software is-supplemented-by">https://github.com/Brunxi/LUCID</ext-link>.</p></sec><ref-list content-type="cited-references" id="pbi70526-bibl-0001"><title>References</title><ref id="pbi70526-bib-0001"><mixed-citation publication-type="journal" id="pbi70526-cit-0001">
+<string-name name-style="western">
+<surname>Abramson</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Adler</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Dunger</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Accurate Structure Prediction of Biomolecular Interactions With Alphafold 3</article-title>.” <source>Nature</source>
+<volume>630</volume>: <fpage>493</fpage>–<lpage>500</lpage>.<pub-id pub-id-type="pmid">38718835</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41586-024-07487-w</pub-id><pub-id pub-id-type="pmcid">PMC11168924</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0002"><mixed-citation publication-type="journal" id="pbi70526-cit-0002">
+<string-name name-style="western">
+<surname>Alvarez‐Jarreta</surname>, <given-names>J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Amos</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Aurrecoechea</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>VEuPathDB: The Eukaryotic Pathogen, Vector and Host Bioinformatics Resource Center in 2023</article-title>.” <source>Nucleic Acids Research</source>
+<volume>52</volume>: <fpage>D808</fpage>–<lpage>D816</lpage>.<pub-id pub-id-type="pmid">37953350</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkad1003</pub-id><pub-id pub-id-type="pmcid">PMC10767879</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0003"><mixed-citation publication-type="journal" id="pbi70526-cit-0003">
+<string-name name-style="western">
+<surname>Anders</surname>, <given-names>S.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Huber</surname>
+</string-name>. <year>2012</year>. “<article-title>Differential Expression of RNA‐Seq Data at the Gene Level—The DESeq Package</article-title>.” <source>European Molecular Biology Laboratory (EMBL)</source>
+<volume>10</volume>: <elocation-id>f1000research</elocation-id>.</mixed-citation></ref><ref id="pbi70526-bib-0004"><mixed-citation publication-type="book" id="pbi70526-cit-0004">
+<string-name name-style="western">
+<surname>Ansari</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Ahmad</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Hasan</surname>
+</string-name>. <year>2012</year>. “<part-title>Potential of Biopesticides in Sustainable Agriculture</part-title>.” In <source>Environmental Protection Strategies for Sustainable Development</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Malik</surname>
+</string-name>
+</person-group> and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Grohmann</surname>
+</string-name>
+</person-group>, <fpage>529</fpage>–<lpage>595</lpage>. <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="pbi70526-bib-0005"><mixed-citation publication-type="journal" id="pbi70526-cit-0005">
+<string-name name-style="western">
+<surname>Avasthi</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B. M.</given-names>
+<surname>Bigge</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. L.</given-names>
+<surname>Borges</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>ProteinCartography: Comparing Proteins With Structure‐Based Maps for Interactive Exploration</article-title>.” <source>Arcadia Science</source>
+<volume>1</volume>: <elocation-id>e001</elocation-id>.</mixed-citation></ref><ref id="pbi70526-bib-0006"><mixed-citation publication-type="journal" id="pbi70526-cit-0006">
+<string-name name-style="western">
+<surname>Bocos‐Asenjo</surname>, <given-names>I. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Amin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mosquera</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Spray‐Induced Gene Silencing (SIGS) as a Tool for the Management of Pine Pitch Canker Forest Disease</article-title>.” <source>Plant Disease</source>
+<volume>109</volume>: <fpage>49</fpage>–<lpage>62</lpage>.<pub-id pub-id-type="pmid">39148367</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1094/PDIS-02-24-0286-RE</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0007"><mixed-citation publication-type="journal" id="pbi70526-cit-0007">
+<string-name name-style="western">
+<surname>Bourbon</surname>, <given-names>H. M.</given-names>
+</string-name>
+<year>2008</year>. “<article-title>Comparative Genomics Supports a Deep Evolutionary Origin for the Large, Four‐Module Transcriptional Mediator Complex</article-title>.” <source>Nucleic Acids Research</source>
+<volume>36</volume>: <fpage>3993</fpage>–<lpage>4008</lpage>.<pub-id pub-id-type="pmid">18515835</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkn349</pub-id><pub-id pub-id-type="pmcid">PMC2475620</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0008"><mixed-citation publication-type="journal" id="pbi70526-cit-0008">
+<string-name name-style="western">
+<surname>Buchfink</surname>, <given-names>B.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Xie</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. H.</given-names>
+<surname>Huson</surname>
+</string-name>. <year>2015</year>. “<article-title>Fast and Sensitive Protein Alignment Using DIAMOND</article-title>.” <source>Nature Methods</source>
+<volume>12</volume>: <fpage>59</fpage>–<lpage>60</lpage>.<pub-id pub-id-type="pmid">25402007</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.3176</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0009"><mixed-citation publication-type="journal" id="pbi70526-cit-0009">
+<string-name name-style="western">
+<surname>Cao</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Zhang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. R.</given-names>
+<surname>Xu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Q.</given-names>
+<surname>Jin</surname>
+</string-name>. <year>2016</year>. “<article-title>FgSsn3 Kinase, a Component of the Mediator Complex, Is Important for Sexual Reproduction and Pathogenesis in Fusarium Graminearum</article-title>.” <source>Scientific Reports</source>
+<volume>6</volume>: <fpage>1</fpage>–<lpage>12</lpage>.<pub-id pub-id-type="pmid">28442746</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-016-0001-8</pub-id><pub-id pub-id-type="pmcid">PMC5431369</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0010"><mixed-citation publication-type="journal" id="pbi70526-cit-0010">
+<string-name name-style="western">
+<surname>Capriotti</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Molesini</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Pandolfini</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>RNA Interference‐Based Strategies to Control <italic toggle="yes">Botrytis cinerea</italic> Infection in Cultivated Strawberry</article-title>.” <source>Plant Cell Reports</source>
+<volume>43</volume>: <elocation-id>201</elocation-id>.<pub-id pub-id-type="pmid">39048858</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00299-024-03288-7</pub-id><pub-id pub-id-type="pmcid">PMC11269516</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0011"><mixed-citation publication-type="journal" id="pbi70526-cit-0011">
+<string-name name-style="western">
+<surname>Chattopadhyay</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Banerjee</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Mukherjee</surname>
+</string-name>. <year>2017</year>. “<article-title>Recent Trends of Modern Bacterial Insecticides for Pest Control Practice in Integrated Crop Management System</article-title>.” <source>3 Biotech</source>
+<volume>7</volume>: <elocation-id>60</elocation-id>.</mixed-citation></ref><ref id="pbi70526-bib-0012"><mixed-citation publication-type="journal" id="pbi70526-cit-0012">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Imran</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Feng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Shen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Sun</surname>
+</string-name>. <year>2025</year>. “<article-title>Spray‐Induced Gene Silencing for Crop Protection: Recent Advances and Emerging Trends</article-title>.” <source>Frontiers in Plant Science</source>
+<volume>16</volume>: <elocation-id>1527944</elocation-id>.<pub-id pub-id-type="pmid">40051878</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2025.1527944</pub-id><pub-id pub-id-type="pmcid">PMC11882566</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0013"><mixed-citation publication-type="journal" id="pbi70526-cit-0013">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>R.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Lu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Yang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Jiang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Li</surname>
+</string-name>. <year>2024</year>. “<article-title>Peroxin MoPex22 Regulates the Import of Peroxisomal Matrix Proteins and Appressorium‐Mediated Plant Infection in <italic toggle="yes">Magnaporthe oryzae</italic>
+</article-title>.” <source>Journal of Fungi</source>
+<volume>10</volume>: <elocation-id>143</elocation-id>.<pub-id pub-id-type="pmid">38392815</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/jof10020143</pub-id><pub-id pub-id-type="pmcid">PMC10890347</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0014"><mixed-citation publication-type="journal" id="pbi70526-cit-0014">
+<string-name name-style="western">
+<surname>Chen</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Shi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z.</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>dsRNAEngineer: A Web‐Based Tool of Comprehensive dsRNA Design for Pest Control</article-title>.” <source>Trends in Biotechnology</source>
+<volume>43</volume>: <fpage>969</fpage>–<lpage>983</lpage>.<pub-id pub-id-type="pmid">39924355</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.tibtech.2025.01.002</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0015"><mixed-citation publication-type="journal" id="pbi70526-cit-0015">
+<string-name name-style="western">
+<surname>Chepsergon</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>L. N.</given-names>
+<surname>Moleleki</surname>
+</string-name>. <year>2023</year>. “<article-title>‘Order From Disordered’: Potential Role of Intrinsically Disordered Regions in Phytopathogenic Oomycete Intracellular Effector Proteins</article-title>.” <source>Current Opinion in Plant Biology</source>
+<volume>75</volume>: <elocation-id>102402</elocation-id>.<pub-id pub-id-type="pmid">37329857</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.pbi.2023.102402</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0016"><mixed-citation publication-type="journal" id="pbi70526-cit-0016">
+<string-name name-style="western">
+<surname>Damalas</surname>, <given-names>C. A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>I. G.</given-names>
+<surname>Eleftherohorinos</surname>
+</string-name>. <year>2011</year>. “<article-title>Pesticide Exposure, Safety Issues, and Risk Assessment Indicators</article-title>.” <source>International Journal of Environmental Research and Public Health</source>
+<volume>8</volume>: <fpage>1402</fpage>–<lpage>1419</lpage>.<pub-id pub-id-type="pmid">21655127</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijerph8051402</pub-id><pub-id pub-id-type="pmcid">PMC3108117</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0017"><mixed-citation publication-type="journal" id="pbi70526-cit-0017">
+<string-name name-style="western">
+<surname>De Schutter</surname>, <given-names>K.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C. N. T.</given-names>
+<surname>Taning</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Van Daele</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E. J. M.</given-names>
+<surname>Van Damme</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Dubruel</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Smagghe</surname>
+</string-name>. <year>2022</year>. “<article-title>RNAi‐Based Biocontrol Products: Market Status, Regulatory Aspects, and Risk Assessment</article-title>.” <source>Frontiers in Insect Science</source>
+<volume>1</volume>: <elocation-id>818037</elocation-id>.<pub-id pub-id-type="pmid">38468882</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/finsc.2021.818037</pub-id><pub-id pub-id-type="pmcid">PMC10926433</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0018"><mixed-citation publication-type="journal" id="pbi70526-cit-0018">
+<string-name name-style="western">
+<surname>de Torres Oliveira</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Alexandrino Assis</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. P.</given-names>
+<surname>Lourenço Franco Cairo</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Functional Characterization and Structural Insights of Three Cutinases From the Ascomycete <italic toggle="yes">Fusarium verticillioides</italic>
+</article-title>.” <source>Protein Expression and Purification</source>
+<volume>216</volume>: <elocation-id>106415</elocation-id>.<pub-id pub-id-type="pmid">38104791</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.pep.2023.106415</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0019"><mixed-citation publication-type="journal" id="pbi70526-cit-0019">
+<string-name name-style="western">
+<surname>Duanis‐Assaf</surname>, <given-names>D.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Galsurker</surname>
+</string-name>, <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Davydov</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Double‐Stranded RNA Targeting Fungal Ergosterol Biosynthesis Pathway Controls <italic toggle="yes">Botrytis cinerea</italic> and Postharvest Grey Mould</article-title>.” <source>Plant Biotechnology Journal</source>
+<volume>20</volume>: <fpage>226</fpage>–<lpage>237</lpage>.<pub-id pub-id-type="pmid">34520611</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.13708</pub-id><pub-id pub-id-type="pmcid">PMC8710829</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0020"><mixed-citation publication-type="journal" id="pbi70526-cit-0020">
+<string-name name-style="western">
+<surname>Emms</surname>, <given-names>D. M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Kelly</surname>
+</string-name>. <year>2019</year>. “<article-title>OrthoFinder: Phylogenetic Orthology Inference for Comparative Genomics</article-title>.” <source>Genome Biology</source>
+<volume>20</volume>: <elocation-id>238</elocation-id>.<pub-id pub-id-type="pmid">31727128</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/s13059-019-1832-y</pub-id><pub-id pub-id-type="pmcid">PMC6857279</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0021"><mixed-citation publication-type="journal" id="pbi70526-cit-0021">
+<string-name name-style="western">
+<surname>Escobar‐Niño</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I. M.</given-names>
+<surname>Morano Bermejo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. C.</given-names>
+<surname>Reinado</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>F. J.</given-names>
+<surname>Fernandez‐Acero</surname>
+</string-name>. <year>2021</year>. “<article-title>Deciphering the Dynamics of Signaling Cascades and Virulence Factors of <italic toggle="yes">B. cinerea</italic> During Tomato Cell Wall Degradation</article-title>.” <source>Microorganisms</source>
+<volume>9</volume>: <elocation-id>1837</elocation-id>.<pub-id pub-id-type="pmid">34576732</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/microorganisms9091837</pub-id><pub-id pub-id-type="pmcid">PMC8466851</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0022"><mixed-citation publication-type="journal" id="pbi70526-cit-0022">
+<string-name name-style="western">
+<surname>Falter</surname>, <given-names>C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Reumann</surname>
+</string-name>. <year>2022</year>. “<article-title>The Essential Role of Fungal Peroxisomes in Plant Infection</article-title>.” <source>Molecular Plant Pathology</source>
+<volume>23</volume>: <fpage>781</fpage>–<lpage>794</lpage>.<pub-id pub-id-type="pmid">35001508</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.13180</pub-id><pub-id pub-id-type="pmcid">PMC9104257</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0023"><mixed-citation publication-type="journal" id="pbi70526-cit-0023">
+<string-name name-style="western">
+<surname>Ferrara</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Gallo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Cervini</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Evidence of the Involvement of a Cyclase Gene in the Biosynthesis of Ochratoxin A in <italic toggle="yes">Aspergillus carbonarius</italic>
+</article-title>.” <source>Toxins</source>
+<volume>13</volume>: <elocation-id>892</elocation-id>.<pub-id pub-id-type="pmid">34941729</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/toxins13120892</pub-id><pub-id pub-id-type="pmcid">PMC8705981</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0024"><mixed-citation publication-type="journal" id="pbi70526-cit-0024">
+<string-name name-style="western">
+<surname>Fisher</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D. A.</given-names>
+<surname>Henk</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C. J.</given-names>
+<surname>Briggs</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Emerging Fungal Threats to Animal, Plant and Ecosystem Health</article-title>.” <source>Nature</source>
+<volume>484</volume>: <fpage>186</fpage>–<lpage>194</lpage>.<pub-id pub-id-type="pmid">22498624</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nature10947</pub-id><pub-id pub-id-type="pmcid">PMC3821985</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0025"><mixed-citation publication-type="journal" id="pbi70526-cit-0025">
+<string-name name-style="western">
+<surname>Fletcher</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Lawrence</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Sawyer</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>dsRNAmax: A Multi‐Target Chimeric dsRNA Designer for Safe and Effective Crop Protection</article-title>.” <source>NAR Genomics and Bioinformatics</source>
+<volume>7</volume>: <elocation-id>64</elocation-id>.</mixed-citation></ref><ref id="pbi70526-bib-0026"><mixed-citation publication-type="book" id="pbi70526-cit-0026">
+<string-name name-style="western">
+<surname>Gathman</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Veromann</surname>
+</string-name>, <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Smagghe</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Arpaia</surname>
+</string-name>. <year>2025</year>. “<part-title>Regulatory Landscape Surrounding Approval and Authorisation of dsRNA‐Based Plant Protection Products in Europe</part-title>.” In <source>RNA Interference in Agriculture: Basic Science to Applications</source>, edited by <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Smagghe</surname>
+</string-name>
+</person-group>, <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>S. R.</given-names>
+<surname>Palli</surname>
+</string-name>
+</person-group>, and <person-group person-group-type="editor">
+<string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Swevers</surname>
+</string-name>
+</person-group>, <fpage>647</fpage>–<lpage>662</lpage>. <publisher-name>Springer</publisher-name>.</mixed-citation></ref><ref id="pbi70526-bib-0027"><mixed-citation publication-type="journal" id="pbi70526-cit-0027">
+<string-name name-style="western">
+<surname>Giraldo</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y. F.</given-names>
+<surname>Dagdas</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y. K.</given-names>
+<surname>Gupta</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>Two Distinct Secretion Systems Facilitate Tissue Invasion by the Rice Blast Fungus <italic toggle="yes">Magnaporthe oryzae</italic>
+</article-title>.” <source>Nature Communications</source>
+<volume>4</volume>: <elocation-id>1996</elocation-id>.</mixed-citation></ref><ref id="pbi70526-bib-0028"><mixed-citation publication-type="journal" id="pbi70526-cit-0028">
+<string-name name-style="western">
+<surname>Hammerstad</surname>, <given-names>M.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>H. P.</given-names>
+<surname>Hersleth</surname>
+</string-name>. <year>2021</year>. “<article-title>Overview of Structurally Homologous Flavoprotein Oxidoreductases Containing the Low Mr Thioredoxin Reductase‐Like Fold—A Functionally Diverse Group</article-title>.” <source>Archives of Biochemistry and Biophysics</source>
+<volume>702</volume>: <elocation-id>108826</elocation-id>.<pub-id pub-id-type="pmid">33684359</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.abb.2021.108826</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0029"><mixed-citation publication-type="journal" id="pbi70526-cit-0029">
+<string-name name-style="western">
+<surname>Höfle</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Biedenkopf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. T.</given-names>
+<surname>Werner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Shrestha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Jelonek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koch</surname>
+</string-name>. <year>2020</year>. “<article-title>Study on the Efficiency of dsRNAs With Increasing Length in RNA‐Based Silencing of the <italic toggle="yes">Fusarium</italic> CYP51 Genes</article-title>.” <source>RNA Biology</source>
+<volume>17</volume>: <fpage>463</fpage>.<pub-id pub-id-type="pmid">31814508</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/15476286.2019.1700033</pub-id><pub-id pub-id-type="pmcid">PMC7237133</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0030"><mixed-citation publication-type="journal" id="pbi70526-cit-0030">
+<string-name name-style="western">
+<surname>Höfle</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Biedenkopf</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. T.</given-names>
+<surname>Werner</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Shrestha</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Jelonek</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Koch</surname>
+</string-name>. <year>2025</year>. “<article-title>Exogenous dsRNA Triggers Sequence‐Specific RNAi and Fungal Stress Responses to Control <italic toggle="yes">Magnaporthe oryzae</italic> in <italic toggle="yes">Brachypodium distachyon</italic>
+</article-title>.” <source>Communications Biology</source>
+<volume>8</volume>: <elocation-id>115</elocation-id>.<pub-id pub-id-type="pmid">39856408</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s42003-025-07514-0</pub-id><pub-id pub-id-type="pmcid">PMC11760956</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0031"><mixed-citation publication-type="journal" id="pbi70526-cit-0031">
+<string-name name-style="western">
+<surname>Imazaki</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Tanaka</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Harimoto</surname>
+</string-name>, et al. <year>2010</year>. “<article-title>Contribution of Peroxisomes to Secondary Metabolism and Pathogenicity in the Fungal Plant Pathogen Alternaria Alternata</article-title>.” <source>Eukaryotic Cell</source>
+<volume>9</volume>: <fpage>682</fpage>–<lpage>694</lpage>.<pub-id pub-id-type="pmid">20348386</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/EC.00369-09</pub-id><pub-id pub-id-type="pmcid">PMC2863954</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0032"><mixed-citation publication-type="journal" id="pbi70526-cit-0032">
+<string-name name-style="western">
+<surname>Jiang</surname>, <given-names>C.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cui</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Wang</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>High‐Efficiency and Eco‐Friendly Management of Multiple Fungal Diseases by a Novel Carbon Dots sCDP Delivered RNA Nano‐Pesticides</article-title>.” <source>Plant Biotechnology Journal</source>
+<volume>23</volume>: <fpage>200</fpage>–<lpage>215</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0033"><mixed-citation publication-type="journal" id="pbi70526-cit-0033">
+<string-name name-style="western">
+<surname>John</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>K. B.</given-names>
+<surname>Singh</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Oliver</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. C.</given-names>
+<surname>Tan</surname>
+</string-name>. <year>2021</year>. “<article-title>Transcription Factor Control of Virulence in Phytopathogenic Fungi</article-title>.” <source>Molecular Plant Pathology</source>
+<volume>22</volume>: <fpage>858</fpage>–<lpage>881</lpage>.<pub-id pub-id-type="pmid">33973705</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.13056</pub-id><pub-id pub-id-type="pmcid">PMC8232033</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0034"><mixed-citation publication-type="journal" id="pbi70526-cit-0034">
+<string-name name-style="western">
+<surname>Keerthana</surname>, <given-names>N.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Koteeswaran</surname>
+</string-name>. <year>2024</year>. “<article-title>Target Identification and Validation in Research</article-title>.” <source>World Journal of Biology Pharmacy and Health Sciences</source>
+<volume>17</volume>: <fpage>107</fpage>–<lpage>117</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0035"><mixed-citation publication-type="journal" id="pbi70526-cit-0035">
+<string-name name-style="western">
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>K. H.</given-names>
+<surname>Kogel</surname>
+</string-name>. <year>2014</year>. “<article-title>New Wind in the Sails: Improving the Agronomic Value of Crop Plants Through RNAi‐Mediated Gene Silencing</article-title>.” <source>Plant Biotechnology Journal</source>
+<volume>12</volume>: <fpage>821</fpage>–<lpage>831</lpage>.<pub-id pub-id-type="pmid">25040343</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.12226</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0036"><mixed-citation publication-type="journal" id="pbi70526-cit-0036">
+<string-name name-style="western">
+<surname>Kubicek</surname>, <given-names>C. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T. L.</given-names>
+<surname>Starr</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. L.</given-names>
+<surname>Glass</surname>
+</string-name>. <year>2014</year>. “<article-title>Plant Cell Wall‐Degrading Enzymes and Their Secretion in Plant‐Pathogenic Fungi</article-title>.” <source>Annual Review of Phytopathology</source>
+<volume>52</volume>: <fpage>427</fpage>–<lpage>451</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0037"><mixed-citation publication-type="journal" id="pbi70526-cit-0037">
+<string-name name-style="western">
+<surname>Langfelder</surname>, <given-names>P.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Horvath</surname>
+</string-name>. <year>2008</year>. “<article-title>WGCNA: An R Package for Weighted Correlation Network Analysis</article-title>.” <source>BMC Bioinformatics</source>
+<volume>9</volume>: <fpage>1</fpage>–<lpage>13</lpage>.<pub-id pub-id-type="pmid">18173834</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1186/1471-2105-9-1</pub-id><pub-id pub-id-type="pmcid">PMC2265676</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0038"><mixed-citation publication-type="journal" id="pbi70526-cit-0038">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Wei</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Hu</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>Genomics‐Driven Discovery of Phytotoxic Cytochalasans Involved in the Virulence of the Wheat Pathogen <italic toggle="yes">Parastagonospora nodorum</italic>
+</article-title>.” <source>ACS Chemical Biology</source>
+<volume>15</volume>: <fpage>226</fpage>–<lpage>233</lpage>.<pub-id pub-id-type="pmid">31815421</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acschembio.9b00791</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0039"><mixed-citation publication-type="journal" id="pbi70526-cit-0039">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Wang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Chen</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Pex14/17, a Filamentous Fungus‐Specific Peroxin, Is Required for the Import of Peroxisomal Matrix Proteins and Full Virulence of <italic toggle="yes">Magnaporthe oryzae</italic>
+</article-title>.” <source>Molecular Plant Pathology</source>
+<volume>18</volume>: <fpage>1238</fpage>–<lpage>1252</lpage>.<pub-id pub-id-type="pmid">27571711</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.12487</pub-id><pub-id pub-id-type="pmcid">PMC6638247</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0040"><mixed-citation publication-type="journal" id="pbi70526-cit-0040">
+<string-name name-style="western">
+<surname>Li</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Tedersoo</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T. W.</given-names>
+<surname>Crowther</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Global Diversity and Biogeography of Potential Phytopathogenic Fungi in a Changing World</article-title>.” <source>Nature Communications</source>
+<volume>14</volume>: <fpage>1</fpage>–<lpage>13</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0041"><mixed-citation publication-type="journal" id="pbi70526-cit-0041">
+<string-name name-style="western">
+<surname>Liao</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>G. K.</given-names>
+<surname>Smyth</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Shi</surname>
+</string-name>. <year>2013</year>. “<article-title>The Subread Aligner: Fast, Accurate and Scalable Read Mapping by Seed‐and‐Vote</article-title>.” <source>Nucleic Acids Research</source>
+<volume>41</volume>: <elocation-id>e108</elocation-id>.<pub-id pub-id-type="pmid">23558742</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkt214</pub-id><pub-id pub-id-type="pmcid">PMC3664803</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0042"><mixed-citation publication-type="journal" id="pbi70526-cit-0042">
+<string-name name-style="western">
+<surname>Lin</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Akin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Rao</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Evolutionary‐Scale Prediction of Atomic‐Level Protein Structure With a Language Model</article-title>.” <source>Science</source>
+<volume>379</volume>: <fpage>1123</fpage>–<lpage>1130</lpage>.<pub-id pub-id-type="pmid">36927031</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1126/science.ade2574</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0043"><mixed-citation publication-type="journal" id="pbi70526-cit-0043">
+<string-name name-style="western">
+<surname>Liu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Chen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Jing</surname>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Tian</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Chen</surname>
+</string-name>. <year>2025</year>. “<article-title>Revisiting Endoplasmic Reticulum Homeostasis, an Expanding Frontier Between Host Plants and Pathogens</article-title>.” <source>Plant, Cell &amp; Environment</source>
+<volume>48</volume>: <fpage>3281</fpage>–<lpage>3292</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0044"><mixed-citation publication-type="journal" id="pbi70526-cit-0044">
+<string-name name-style="western">
+<surname>Livak</surname>, <given-names>K. J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>T. D.</given-names>
+<surname>Schmittgen</surname>
+</string-name>. <year>2001</year>. “<article-title>Analysis of Relative Gene Expression Data Using Real‐Time Quantitative PCR and the 2<sup>−ΔΔCt</sup> Method</article-title>.” <source>Methods</source>
+<volume>25</volume>: <fpage>402</fpage>–<lpage>408</lpage>.<pub-id pub-id-type="pmid">11846609</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1006/meth.2001.1262</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0045"><mixed-citation publication-type="journal" id="pbi70526-cit-0045">
+<string-name name-style="western">
+<surname>López‐Laguna</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Á.</given-names>
+<surname>Polonio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Jiménez‐Castro</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>DNA Aptamers Targeting BcSOD1: A Novel Strategy for Controlling Botrytis Cinerea in Sustainable Agriculture</article-title>.” <source>Plant Biotechnology Journal</source>
+<volume>23</volume>: <fpage>5778</fpage>–<lpage>5796</lpage>.<pub-id pub-id-type="pmid">40878902</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.70317</pub-id><pub-id pub-id-type="pmcid">PMC12665058</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0046"><mixed-citation publication-type="journal" id="pbi70526-cit-0046">
+<string-name name-style="western">
+<surname>Love</surname>, <given-names>M. I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Huber</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Anders</surname>
+</string-name>. <year>2014</year>. “<article-title>Moderated Estimation of Fold Change and Dispersion for RNA‐Seq Data With DESeq2</article-title>.” <source>Genome Biology</source>
+<volume>15</volume>: <fpage>1</fpage>–<lpage>21</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0047"><mixed-citation publication-type="journal" id="pbi70526-cit-0047">
+<string-name name-style="western">
+<surname>Lu</surname>, <given-names>T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Yao</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Zhang</surname>
+</string-name>. <year>2012</year>. “<article-title>DFVF: Database of Fungal Virulence Factors</article-title>.” <source>Database</source>
+<volume>2012</volume>: <elocation-id>bas032</elocation-id>.<pub-id pub-id-type="pmid">23092926</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/database/bas032</pub-id><pub-id pub-id-type="pmcid">PMC3478563</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0048"><mixed-citation publication-type="journal" id="pbi70526-cit-0048">
+<string-name name-style="western">
+<surname>Lück</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Kreszies</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Strickert</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Schweizer</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Kuhlmann</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Douchkov</surname>
+</string-name>. <year>2019</year>. “<article-title>siRNA‐Finder (Si‐Fi) Software for RNAi‐Target Design and Off‐Target Prediction</article-title>.” <source>Frontiers in Plant Science</source>
+<volume>10</volume>: <elocation-id>1023</elocation-id>.<pub-id pub-id-type="pmid">31475020</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2019.01023</pub-id><pub-id pub-id-type="pmcid">PMC6704232</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0049"><mixed-citation publication-type="journal" id="pbi70526-cit-0049">
+<string-name name-style="western">
+<surname>Luo</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Liu</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>DEG 15, an Update of the Database of Essential Genes That Includes Built‐In Analysis Tools</article-title>.” <source>Nucleic Acids Research</source>
+<volume>49</volume>: <fpage>D677</fpage>–<lpage>D686</lpage>.<pub-id pub-id-type="pmid">33095861</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkaa917</pub-id><pub-id pub-id-type="pmcid">PMC7779065</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0050"><mixed-citation publication-type="journal" id="pbi70526-cit-0050">
+<string-name name-style="western">
+<surname>Lysøe</surname>, <given-names>E.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S. S.</given-names>
+<surname>Klemsdal</surname>
+</string-name>, <string-name name-style="western">
+<given-names>K. R.</given-names>
+<surname>Bone</surname>
+</string-name>, et al. <year>2006</year>. “<article-title>The PKS4 Gene of <italic toggle="yes">Fusarium graminearum</italic> Is Essential for Zearalenone Production</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>72</volume>: <fpage>3924</fpage>.<pub-id pub-id-type="pmid">16751498</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/AEM.00963-05</pub-id><pub-id pub-id-type="pmcid">PMC1489647</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0051"><mixed-citation publication-type="journal" id="pbi70526-cit-0051">
+<string-name name-style="western">
+<surname>McLoughlin</surname>, <given-names>A. G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Wytinck</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P. L.</given-names>
+<surname>Walker</surname>
+</string-name>, et al. <year>2018</year>. “<article-title>Identification and Application of Exogenous dsRNA Confers Plant Protection Against <italic toggle="yes">Sclerotinia sclerotiorum</italic> and <italic toggle="yes">Botrytis cinerea</italic>
+</article-title>.” <source>Scientific Reports</source>
+<volume>8</volume>: <fpage>1</fpage>–<lpage>14</lpage>.<pub-id pub-id-type="pmid">29311619</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/s41598-017-17765-5</pub-id><pub-id pub-id-type="pmcid">PMC5758755</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0052"><mixed-citation publication-type="journal" id="pbi70526-cit-0052">
+<string-name name-style="western">
+<surname>Moran</surname>, <given-names>G. P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. Z.</given-names>
+<surname>Anderson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. C.</given-names>
+<surname>Myers</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D. J.</given-names>
+<surname>Sullivan</surname>
+</string-name>. <year>2019</year>. “<article-title>Role of Mediator in Virulence and Antifungal Drug Resistance in Pathogenic Fungi</article-title>.” <source>Current Genetics</source>
+<volume>65</volume>: <fpage>621</fpage>–<lpage>630</lpage>.<pub-id pub-id-type="pmid">30637479</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/s00294-019-00932-8</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0053"><mixed-citation publication-type="journal" id="pbi70526-cit-0053">
+<string-name name-style="western">
+<surname>Mosquera</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Ginésy</surname>
+</string-name>, <string-name name-style="western">
+<given-names>I. T.</given-names>
+<surname>Bocos‐Asenjo</surname>
+</string-name>, et al. <year>2025</year>. “<article-title>Spray‐Induced Gene Silencing to Control Plant Pathogenic Fungi: A Step‐by‐Step Guide</article-title>.” <source>Journal of Integrative Plant Biology</source>
+<volume>67</volume>: <fpage>801</fpage>–<lpage>825</lpage>.<pub-id pub-id-type="pmid">39912551</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/jipb.13848</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0054"><mixed-citation publication-type="journal" id="pbi70526-cit-0054">
+<string-name name-style="western">
+<surname>Nagulapalli</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Maji</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Dwivedi</surname>
+</string-name>, <string-name name-style="western">
+<given-names>P.</given-names>
+<surname>Dahiya</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>J. K.</given-names>
+<surname>Thakur</surname>
+</string-name>. <year>2016</year>. “<article-title>Evolution of Disorder in Mediator Complex and Its Functional Relevance</article-title>.” <source>Nucleic Acids Research</source>
+<volume>44</volume>: <fpage>1591</fpage>–<lpage>1612</lpage>.<pub-id pub-id-type="pmid">26590257</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkv1135</pub-id><pub-id pub-id-type="pmcid">PMC4770211</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0055"><mixed-citation publication-type="journal" id="pbi70526-cit-0055">
+<string-name name-style="western">
+<surname>Neumeier</surname>, <given-names>J.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>G.</given-names>
+<surname>Meister</surname>
+</string-name>. <year>2021</year>. “<article-title>siRNA Specificity: RNAi Mechanisms and Strategies to Reduce Off‐Target Effects</article-title>.” <source>Frontiers in Plant Science</source>
+<volume>11</volume>: <elocation-id>526455</elocation-id>.<pub-id pub-id-type="pmid">33584737</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fpls.2020.526455</pub-id><pub-id pub-id-type="pmcid">PMC7876455</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0056"><mixed-citation publication-type="journal" id="pbi70526-cit-0056">
+<string-name name-style="western">
+<surname>Noman</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Azizullah</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Ahmed</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Degradation of α‐Subunits, Doa1 and Doa4, Are Critical for Growth, Development, Programmed Cell Death Events, Stress Responses, and Pathogenicity in the Watermelon Fusarium Wilt Fungus <italic toggle="yes">Fusarium oxysporum</italic> f. sp. <italic toggle="yes">niveum</italic>
+</article-title>.” <source>Journal of Agricultural and Food Chemistry</source>
+<volume>71</volume>: <fpage>11667</fpage>–<lpage>11679</lpage>.<pub-id pub-id-type="pmid">37486296</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.jafc.3c01785</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0057"><mixed-citation publication-type="journal" id="pbi70526-cit-0057">
+<string-name name-style="western">
+<surname>Padilla‐Roji</surname>, <given-names>I.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Ruiz‐Jiménez</surname>
+</string-name>, <string-name name-style="western">
+<given-names>N.</given-names>
+<surname>Bakhat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vielba‐Fernández</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pérez‐García</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Fernández‐Ortuño</surname>
+</string-name>. <year>2023</year>. “<article-title>RNAi Technology: A New Path for the Research and Management of Obligate Biotrophic Phytopathogenic Fungi</article-title>.” <source>International Journal of Molecular Sciences</source>
+<volume>24</volume>: <elocation-id>9082</elocation-id>.<pub-id pub-id-type="pmid">37240427</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/ijms24109082</pub-id><pub-id pub-id-type="pmcid">PMC10219382</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0058"><mixed-citation publication-type="journal" id="pbi70526-cit-0058">
+<string-name name-style="western">
+<surname>Pallis</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Alyokhin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Manley</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Rodrigues</surname>
+</string-name>, <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Barnes</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K.</given-names>
+<surname>Narva</surname>
+</string-name>. <year>2023</year>. “<article-title>Effects of Low Doses of a Novel dsRNA‐Based Biopesticide (Calantha) on the Colorado Potato Beetle</article-title>.” <source>Journal of Economic Entomology</source>
+<volume>116</volume>: <fpage>456</fpage>–<lpage>461</lpage>.<pub-id pub-id-type="pmid">36895198</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/jee/toad034</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0059"><mixed-citation publication-type="journal" id="pbi70526-cit-0059">
+<string-name name-style="western">
+<surname>Parker</surname>, <given-names>K. M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Barragán Borrero</surname>
+</string-name>, <string-name name-style="western">
+<given-names>D. M.</given-names>
+<surname>Van Leeuwen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. A.</given-names>
+<surname>Lever</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Mateescu</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Sander</surname>
+</string-name>. <year>2019</year>. “<article-title>Environmental Fate of RNA Interference Pesticides: Adsorption and Degradation of Double‐Stranded RNA Molecules in Agricultural Soils</article-title>.” <source>Environmental Science &amp; Technology</source>
+<volume>53</volume>: <fpage>3027</fpage>–<lpage>3036</lpage>.<pub-id pub-id-type="pmid">30681839</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1021/acs.est.8b05576</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0060"><mixed-citation publication-type="journal" id="pbi70526-cit-0060">
+<string-name name-style="western">
+<surname>Peng</surname>, <given-names>Z.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Kurgan</surname>
+</string-name>. <year>2015</year>. “<article-title>High‐Throughput Prediction of RNA, DNA and Protein Binding Regions Mediated by Intrinsic Disorder</article-title>.” <source>Nucleic Acids Research</source>
+<volume>43</volume>: <elocation-id>e121</elocation-id>.<pub-id pub-id-type="pmid">26109352</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkv585</pub-id><pub-id pub-id-type="pmcid">PMC4605291</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0061"><mixed-citation publication-type="journal" id="pbi70526-cit-0061">
+<string-name name-style="western">
+<surname>Qiao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Lan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Capriotti</surname>
+</string-name>, et al. <year>2021</year>. “<article-title>Spray‐Induced Gene Silencing for Disease Control Is Dependent on the Efficiency of Pathogen RNA Uptake</article-title>.” <source>Plant Biotechnology Journal</source>
+<volume>19</volume>: <fpage>1756</fpage>–<lpage>1768</lpage>.<pub-id pub-id-type="pmid">33774895</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.13589</pub-id><pub-id pub-id-type="pmcid">PMC8428832</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0062"><mixed-citation publication-type="journal" id="pbi70526-cit-0062">
+<string-name name-style="western">
+<surname>Qiao</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Zheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Sheng</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Zhao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jin</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Niu</surname>
+</string-name>. <year>2023</year>. “<article-title>Artificial Nanovesicles for dsRNA Delivery in Spray‐Induced Gene Silencing for Crop Protection</article-title>.” <source>Plant Biotechnology Journal</source>
+<volume>21</volume>: <fpage>854</fpage>–<lpage>865</lpage>.<pub-id pub-id-type="pmid">36601704</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/pbi.14001</pub-id><pub-id pub-id-type="pmcid">PMC10037145</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0063"><mixed-citation publication-type="journal" id="pbi70526-cit-0063">
+<string-name name-style="western">
+<surname>Ray</surname>, <given-names>P.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Sahu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R.</given-names>
+<surname>Aminedi</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Chandran</surname>
+</string-name>. <year>2022</year>. “<article-title>Concepts and Considerations for Enhancing RNAi Efficiency in Phytopathogenic Fungi for RNAi‐Based Crop Protection Using Nanocarrier‐Mediated dsRNA Delivery Systems</article-title>.” <source>Frontiers in Fungal Biology</source>
+<volume>3</volume>: <elocation-id>977502</elocation-id>.<pub-id pub-id-type="pmid">37746174</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/ffunb.2022.977502</pub-id><pub-id pub-id-type="pmcid">PMC10512274</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0064"><mixed-citation publication-type="journal" id="pbi70526-cit-0064">
+<string-name name-style="western">
+<surname>Ray</surname>, <given-names>S. C.</given-names>
+</string-name>, and <string-name name-style="western">
+<given-names>C. A.</given-names>
+<surname>Rappleye</surname>
+</string-name>. <year>2022</year>. “<article-title>Mac1‐Dependent Copper Sensing Promotes Histoplasma Adaptation to the Phagosome During Adaptive Immunity</article-title>.” <source>MBio</source>
+<volume>13</volume>: <elocation-id>e03773‐21</elocation-id>.<pub-id pub-id-type="pmid">35404120</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/mbio.03773-21</pub-id><pub-id pub-id-type="pmcid">PMC9040751</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0065"><mixed-citation publication-type="journal" id="pbi70526-cit-0065">
+<string-name name-style="western">
+<surname>Ren</surname>, <given-names>H.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Wu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Y.</given-names>
+<surname>Lyu</surname>
+</string-name>, et al. <year>2017</year>. “<article-title>Selection of Reliable Reference Genes for Gene Expression Studies in <italic toggle="yes">Botrytis cinerea</italic>
+</article-title>.” <source>Journal of Microbiological Methods</source>
+<volume>142</volume>: <fpage>71</fpage>–<lpage>75</lpage>.<pub-id pub-id-type="pmid">28917607</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1016/j.mimet.2017.09.006</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0066"><mixed-citation publication-type="journal" id="pbi70526-cit-0066">
+<string-name name-style="western">
+<surname>Ruiz‐Jiménez</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>Á.</given-names>
+<surname>Polonio</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Vielba‐Fernández</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Pérez‐García</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Fernández‐Ortuño</surname>
+</string-name>. <year>2021</year>. “<article-title>Gene Mining for Conserved, Non‐Annotated Proteins of <italic toggle="yes">Podosphaera xanthii</italic> Identifies Novel Target Candidates for Controlling Powdery Mildews by Spray‐Induced Gene Silencing</article-title>.” <source>Journal of Fungi</source>
+<volume>7</volume>: <elocation-id>735</elocation-id>.<pub-id pub-id-type="pmid">34575773</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3390/jof7090735</pub-id><pub-id pub-id-type="pmcid">PMC8465782</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0067"><mixed-citation publication-type="journal" id="pbi70526-cit-0067">
+<string-name name-style="western">
+<surname>Schneider</surname>, <given-names>C. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W. S.</given-names>
+<surname>Rasband</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>K. W.</given-names>
+<surname>Eliceiri</surname>
+</string-name>. <year>2012</year>. “<article-title>NIH Image to ImageJ: 25 Years of Image Analysis</article-title>.” <source>Nature Methods</source>
+<volume>9</volume>: <fpage>671</fpage>–<lpage>675</lpage>.<pub-id pub-id-type="pmid">22930834</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/nmeth.2089</pub-id><pub-id pub-id-type="pmcid">PMC5554542</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0068"><mixed-citation publication-type="journal" id="pbi70526-cit-0068">
+<string-name name-style="western">
+<surname>Shahid</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>B.</given-names>
+<surname>Pourrut</surname>
+</string-name>, <string-name name-style="western">
+<given-names>C.</given-names>
+<surname>Dumat</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Nadeem</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Aslam</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>E.</given-names>
+<surname>Pinelli</surname>
+</string-name>. <year>2014</year>. “<article-title>Heavy‐Metal‐Induced Reactive Oxygen Species: Phytotoxicity and Physicochemical Changes in Plants</article-title>.” <source>Reviews of Environmental Contamination and Toxicology</source>
+<volume>232</volume>: <fpage>1</fpage>–<lpage>44</lpage>.<pub-id pub-id-type="pmid">24984833</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1007/978-3-319-06746-9_1</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0069"><mixed-citation publication-type="journal" id="pbi70526-cit-0069">
+<string-name name-style="western">
+<surname>Sherman</surname>, <given-names>B. T.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Hao</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Qiu</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>DAVID: A Web Server for Functional Enrichment Analysis and Functional Annotation of Gene Lists</article-title>.” <source>Nucleic Acids Research</source>
+<volume>50</volume>: <fpage>W216</fpage>–<lpage>W221</lpage>.<pub-id pub-id-type="pmid">35325185</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkac194</pub-id><pub-id pub-id-type="pmcid">PMC9252805</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0070"><mixed-citation publication-type="journal" id="pbi70526-cit-0070">
+<string-name name-style="western">
+<surname>Stolf</surname>, <given-names>B. S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Smyrnias</surname>
+</string-name>, <string-name name-style="western">
+<given-names>L. R.</given-names>
+<surname>Lopes</surname>
+</string-name>, et al. <year>2011</year>. “<article-title>Protein Disulfide Isomerase and Host‐Pathogen Interaction</article-title>.” <source>Scientific World Journal</source>
+<volume>11</volume>: <elocation-id>1749</elocation-id>.<pub-id pub-id-type="pmid">22125433</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1100/2011/289182</pub-id><pub-id pub-id-type="pmcid">PMC3201685</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0071"><mixed-citation publication-type="journal" id="pbi70526-cit-0071">
+<string-name name-style="western">
+<surname>Sundaresha</surname>, <given-names>S.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>S.</given-names>
+<surname>Sharma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Bairwa</surname>
+</string-name>, et al. <year>2022</year>. “<article-title>Spraying of dsRNA Molecules Derived From <italic toggle="yes">Phytophthora infestans</italic>, Along With Nanoclay Carriers as a Proof of Concept for Developing Novel Protection Strategy for Potato Late Blight</article-title>.” <source>Pest Management Science</source>
+<volume>78</volume>: <elocation-id>3183</elocation-id>.<pub-id pub-id-type="pmid">35478320</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1002/ps.6949</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0072"><mixed-citation publication-type="journal" id="pbi70526-cit-0072">
+<string-name name-style="western">
+<surname>Thumuluri</surname>, <given-names>V.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Almagro Armenteros</surname>
+</string-name>, <string-name name-style="western">
+<given-names>A. R.</given-names>
+<surname>Johansen</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Nielsen</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O.</given-names>
+<surname>Winther</surname>
+</string-name>. <year>2022</year>. “<article-title>DeepLoc 2.0: Multi‐Label Subcellular Localization Prediction Using Protein Language Models</article-title>.” <source>Nucleic Acids Research</source>
+<volume>50</volume>: <fpage>W228</fpage>–<lpage>W234</lpage>.<pub-id pub-id-type="pmid">35489069</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gkac278</pub-id><pub-id pub-id-type="pmcid">PMC9252801</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0073"><mixed-citation publication-type="journal" id="pbi70526-cit-0073">
+<string-name name-style="western">
+<surname>Tian</surname>, <given-names>L.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Zhuang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. J.</given-names>
+<surname>Li</surname>
+</string-name>, et al. <year>2023</year>. “<article-title>Thioredoxin VdTrx1, an Unconventional Secreted Protein, Is a Virulence Factor in <italic toggle="yes">Verticillium dahliae</italic>
+</article-title>.” <source>Frontiers in Microbiology</source>
+<volume>14</volume>: <elocation-id>1130468</elocation-id>.<pub-id pub-id-type="pmid">37065139</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.3389/fmicb.2023.1130468</pub-id><pub-id pub-id-type="pmcid">PMC10102666</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0074"><mixed-citation publication-type="journal" id="pbi70526-cit-0074">
+<string-name name-style="western">
+<surname>Untergasser</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>I.</given-names>
+<surname>Cutcutache</surname>
+</string-name>, <string-name name-style="western">
+<given-names>T.</given-names>
+<surname>Koressaar</surname>
+</string-name>, et al. <year>2012</year>. “<article-title>Primer3—New Capabilities and Interfaces</article-title>.” <source>Nucleic Acids Research</source>
+<volume>40</volume>: <elocation-id>e115</elocation-id>.<pub-id pub-id-type="pmid">22730293</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1093/nar/gks596</pub-id><pub-id pub-id-type="pmcid">PMC3424584</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0075"><mixed-citation publication-type="journal" id="pbi70526-cit-0075">
+<string-name name-style="western">
+<surname>Urban</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Cuzick</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Seager</surname>
+</string-name>, et al. <year>2020</year>. “<article-title>PHI‐Base: The Pathogen‐Host Interactions Database</article-title>.” <source>Nucleic Acids Research</source>
+<volume>48</volume>: <fpage>613</fpage>–<lpage>620</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0076"><mixed-citation publication-type="journal" id="pbi70526-cit-0076">
+<string-name name-style="western">
+<surname>Verger</surname>, <given-names>A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>D.</given-names>
+<surname>Monté</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>V.</given-names>
+<surname>Villeret</surname>
+</string-name>. <year>2019</year>. “<article-title>Twenty Years of Mediator Complex Structural Studies</article-title>.” <source>Biochemical Society Transactions</source>
+<volume>47</volume>: <fpage>399</fpage>–<lpage>410</lpage>.<pub-id pub-id-type="pmid">30733343</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1042/BST20180608</pub-id><pub-id pub-id-type="pmcid">PMC6393861</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0077"><mixed-citation publication-type="journal" id="pbi70526-cit-0077">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>J. Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>L.</given-names>
+<surname>Li</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. Y.</given-names>
+<surname>Chai</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Pex13 and Pex14, the Key Components of the Peroxisomal Docking Complex, Are Required for Peroxisome Formation, Host Infection and Pathogenicity‐Related Morphogenesis in <italic toggle="yes">Magnaporthe oryzae</italic>
+</article-title>.” <source>Virulence</source>
+<volume>10</volume>: <elocation-id>292</elocation-id>.<pub-id pub-id-type="pmid">30905264</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1080/21505594.2019.1598172</pub-id><pub-id pub-id-type="pmcid">PMC6527019</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0078"><mixed-citation publication-type="journal" id="pbi70526-cit-0078">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>A.</given-names>
+<surname>Weiberg</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F. M.</given-names>
+<surname>Lin</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. P. H. J.</given-names>
+<surname>Thomma</surname>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Da Huang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Jin</surname>
+</string-name>. <year>2016</year>. “<article-title>Bidirectional Cross‐Kingdom RNAi and Fungal Uptake of External RNAs Confer Plant Protection</article-title>.” <source>Nature Plants</source>
+<volume>2</volume>: <fpage>1</fpage>–<lpage>10</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0079"><mixed-citation publication-type="journal" id="pbi70526-cit-0079">
+<string-name name-style="western">
+<surname>Wang</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Kang</surname>
+</string-name>, <string-name name-style="western">
+<given-names>X.</given-names>
+<surname>Cui</surname>
+</string-name>, et al. <year>2024</year>. “<article-title>Protein Disulfide Isomerase MoPdi1 Regulates Fungal Development, Virulence, and Endoplasmic Reticulum Homeostasis in <italic toggle="yes">Magnaporthe oryzae</italic>
+</article-title>.” <source>Journal of Integrative Agriculture</source>
+<volume>24</volume>: <fpage>4670</fpage>–<lpage>4689</lpage>.</mixed-citation></ref><ref id="pbi70526-bib-0080"><mixed-citation publication-type="journal" id="pbi70526-cit-0080">
+<string-name name-style="western">
+<surname>Wei</surname>, <given-names>W.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>W.</given-names>
+<surname>Zhu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J.</given-names>
+<surname>Cheng</surname>
+</string-name>, et al. <year>2013</year>. “<article-title>CmPEX6, a Gene Involved in Peroxisome Biogenesis, Is Essential for Parasitism and Conidiation by the Sclerotial Parasite <italic toggle="yes">Coniothyrium minitans</italic>
+</article-title>.” <source>Applied and Environmental Microbiology</source>
+<volume>79</volume>: <elocation-id>3658</elocation-id>.<pub-id pub-id-type="pmid">23563946</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1128/AEM.00375-13</pub-id><pub-id pub-id-type="pmcid">PMC3675954</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0081"><mixed-citation publication-type="journal" id="pbi70526-cit-0081">
+<string-name name-style="western">
+<surname>Wilson</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>J. M.</given-names>
+<surname>Jenkinson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>R. P.</given-names>
+<surname>Gibson</surname>
+</string-name>, <string-name name-style="western">
+<given-names>J. A.</given-names>
+<surname>Littlechild</surname>
+</string-name>, <string-name name-style="western">
+<given-names>Z. Y.</given-names>
+<surname>Wang</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>N. J.</given-names>
+<surname>Talbot</surname>
+</string-name>. <year>2007</year>. “<article-title>Tps1 Regulates the Pentose Phosphate Pathway, Nitrogen Metabolism and Fungal Virulence</article-title>.” <source>EMBO Journal</source>
+<volume>26</volume>: <fpage>3673</fpage>–<lpage>3685</lpage>.<pub-id pub-id-type="pmid">17641690</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1038/sj.emboj.7601795</pub-id><pub-id pub-id-type="pmcid">PMC1949003</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0082"><mixed-citation publication-type="journal" id="pbi70526-cit-0082">
+<string-name name-style="western">
+<surname>Xiong</surname>, <given-names>F.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M.</given-names>
+<surname>Liu</surname>
+</string-name>, <string-name name-style="western">
+<given-names>F.</given-names>
+<surname>Zhuo</surname>
+</string-name>, et al. <year>2019</year>. “<article-title>Host‐Induced Gene Silencing of BcTOR in <italic toggle="yes">Botrytis cinerea</italic> Enhances Plant Resistance to Grey Mould</article-title>.” <source>Molecular Plant Pathology</source>
+<volume>20</volume>: <fpage>1722</fpage>–<lpage>1739</lpage>.<pub-id pub-id-type="pmid">31622007</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1111/mpp.12873</pub-id><pub-id pub-id-type="pmcid">PMC6859489</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0083"><mixed-citation publication-type="journal" id="pbi70526-cit-0083">
+<string-name name-style="western">
+<surname>Yang</surname>, <given-names>G.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Rose</surname>
+</string-name>, <string-name name-style="western">
+<given-names>B. G.</given-names>
+<surname>Turgeon</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>O. C.</given-names>
+<surname>Yoder</surname>
+</string-name>. <year>1996</year>. “<article-title>A Polyketide Synthase Is Required for Fungal Virulence and Production of the Polyketide T‐Toxin</article-title>.” <source>Plant Cell</source>
+<volume>8</volume>: <fpage>2139</fpage>–<lpage>2150</lpage>.<pub-id pub-id-type="pmid">8953776</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1105/tpc.8.11.2139</pub-id><pub-id pub-id-type="pmcid">PMC161341</pub-id></mixed-citation></ref><ref id="pbi70526-bib-0084"><mixed-citation publication-type="journal" id="pbi70526-cit-0084">
+<string-name name-style="western">
+<surname>Zhou</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name name-style="western">
+<given-names>H.</given-names>
+<surname>Yan</surname>
+</string-name>, <string-name name-style="western">
+<given-names>M. S.</given-names>
+<surname>Kim</surname>
+</string-name>, and <string-name name-style="western">
+<given-names>W. B.</given-names>
+<surname>Shim</surname>
+</string-name>. <year>2022</year>. “<article-title>Distinct Function of Mediator Subunits in Fungal Development, Stress Response, and Secondary Metabolism in Maize Pathogen <italic toggle="yes">Fusarium verticillioides</italic>
+</article-title>.” <source>Phytopathology</source>
+<volume>112</volume>: <fpage>1730</fpage>–<lpage>1738</lpage>.<pub-id pub-id-type="pmid">35271780</pub-id>
+<pub-id pub-id-type="doi" assigning-authority="pmc">10.1094/PHYTO-12-21-0495-R</pub-id></mixed-citation></ref></ref-list></back></article>
